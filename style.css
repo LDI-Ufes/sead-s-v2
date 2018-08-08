@@ -1,0 +1,8 @@
+﻿/*!
+Theme Name: Sítio Sead v2
+Theme URI: https://sead.ufes.br/
+Author: Laboratório de Design Instrucional - Sead Ufes
+Author URI: https://ldi.eadufes.org/
+Description: Tema desenvolvido para o sítio da Secretaria de Ensino a Distância da Universidade Federal do Espírito Santo.
+Version: 2.0
+*/html{font-size:12px}body{margin:0;font-family:'Fira Sans', sans-serif}body.contraste *{background-color:black !important;color:white}body.contraste * a{color:yellow}body.contraste #topoSuperior,body.contraste #topoPrincipal{border-bottom:1px solid white}section.caixa{margin:0 auto;width:960px}header{display:inline-flex;flex-flow:column;width:100%;font-size:1.17rem}header #topoSuperior ul,header #topoPrincipal ul{padding:0;list-style:none;color:white}header #topoSuperior{display:inline-flex;background-color:#053C7B;font-weight:300}header #topoSuperior section.caixa{display:inline-flex;justify-content:space-between}header #topoSuperior section.caixa section{display:inline-flex}header #topoSuperior section.caixa section ul{display:inline-flex}header #topoSuperior section.caixa section#acessib ul#atalhosAcessib li{margin:0 10px}header #topoSuperior section.caixa section#acessib ul#iconesAcessib li i{margin:0 10px}header #topoSuperior section.caixa section#acessib ul#iconesAcessib li i:hover{cursor:pointer}header #topoSuperior section.caixa section#acessib ul#iconesAcessib li i.fa-font{margin:0}header #topoSuperior section.caixa section#ligaExterna ul li{padding:0 10px}header #topoSuperior span{font-weight:400}header #topoPrincipal{display:inline-flex;background-color:#1765AB;padding:20px;font-weight:700;text-transform:uppercase}header #topoPrincipal svg{height:60px}

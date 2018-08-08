@@ -1,0 +1,142 @@
+/*!
+Theme Name: Sítio Sead v2
+Theme URI: https://sead.ufes.br/
+Author: Laboratório de Design Instrucional - Sead Ufes
+Author URI: https://ldi.eadufes.org/
+Description: Tema desenvolvido para o sítio da Secretaria de Ensino a Distância da Universidade Federal do Espírito Santo.
+Version: 2.0
+*/
+
+@import 'variaveis';
+
+/*
+display:
+margin:
+width:
+background:
+padding:
+font:
+list:
+text:
+color:
+*/
+
+html {
+  font-size: 12px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Fira Sans', sans-serif;
+
+  &.contraste {
+
+    * {
+      background-color: black !important;
+      color: white;
+
+      a {
+        color: yellow;
+      }
+    }
+
+    #topoSuperior, #topoPrincipal {
+      border-bottom: 1px solid white;
+    }
+  }
+}
+
+section.caixa {
+  margin: 0 auto;
+  width: 960px;
+}
+
+header {
+  display: inline-flex;
+  flex-flow: column;
+  width: 100%;
+  font-size: 1.17rem;
+
+  #topoSuperior, #topoPrincipal {
+    ul {
+      padding: 0;
+      list-style: none;
+      color: white;
+    }
+
+  }
+
+  #topoSuperior {
+    display: inline-flex;
+    background-color: $azulEscuro;
+    font-weight: $light;
+
+    section.caixa {
+      display: inline-flex;
+      justify-content: space-between;
+
+      section {
+        display: inline-flex;
+
+        ul {
+          display: inline-flex;
+        }
+      }
+
+      section#acessib {
+
+        ul#atalhosAcessib {
+
+          li {
+            margin: 0 10px;
+          }
+
+        }
+
+        ul#iconesAcessib {
+
+          li {
+            i {
+              margin: 0 10px;
+
+              &:hover {
+                cursor: pointer;
+              }
+              
+              &.fa-font {
+                margin: 0;                
+              }
+            }
+          }
+        }
+      }
+
+      section#ligaExterna {
+
+        ul li {
+          padding: 0 10px;
+        }
+      }
+    }
+
+    span {
+      font-weight: $regular;
+    }
+  }
+
+  #topoPrincipal {
+    display: inline-flex;
+    background-color: $azul;
+    padding: 20px;    
+    font-weight: $bold;
+    text-transform: uppercase;
+
+    section {
+      /*display: inline-flex;*/
+    }
+
+    svg {
+      height: 60px
+    }
+  }
+}
