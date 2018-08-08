@@ -1,0 +1,109 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08/08/2018, 15:54:15
+    Author     : isabela.zucarato
+*/
+
+@import 'variaveis';
+
+html{
+    font-size: 16px;
+}
+
+main{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+article{
+    
+    padding-bottom: 4rem;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    
+    h1{
+        font-size: 2.75rem;
+        line-height: 3.35rem;
+        font-weight: $light;
+        color: $azulEscuro;
+        margin-bottom: 0.8rem;
+        margin-top: 100px;
+    }
+    
+    .post-date{
+        font-size: 0.9rem;
+        font-weight: $light;
+        
+        i{
+            color: $laranja;
+            padding-right: 0.5rem;
+        }
+    }
+    
+    .post-body{
+        font-family: $texto;
+        max-width: 720px;
+        margin: 0 auto 80px;
+        line-height: 2.5rem;
+        color: #333;
+        
+        p, img, blockquote{
+            margin-top: 80px;
+        }
+        
+        blockquote{
+            color: $azulEscuro;
+            font-weight: $bold;
+            font-style: italic;
+            width: 85%;
+            margin-right: 0;
+            margin-left: auto;
+            line-height: 2rem;
+    
+        }
+    }
+    
+    .post-autor{
+        display: inline-flex;
+            
+        .autor-avatar{
+            width: 96px;
+            height: 96px;
+            max-width: 100%;
+            border-radius: 50%;
+            margin-right: 2rem;
+        }
+        
+        .autor-info{          
+            font-weight: $light;
+            /*font-size: 1.25rem;*/
+            /*line-height: 160%*/
+            
+            .autor-name{
+                color: $azulEscuro;
+                font-weight: $semi-bold;
+                font-size: 1.5rem;  
+            }
+            
+            .autor-role{
+                color: $laranja;
+                text-transform: uppercase; 
+                margin-bottom: 1rem;
+            }
+        }
+        
+    }
+}
+
+@media screen and (max-width: 992px) {
+  
+    main{
+        width: 100%;
+        margin: 0 1.25rem;
+    }
+    
+}
