@@ -10,67 +10,109 @@ and open the template in the editor.
 html {
   font-size: 16px; }
 
-main {
-  max-width: 960px;
-  margin: 0 auto; }
+#topoBlog {
+  background-color: #1765AB;
+  padding: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  height: 56px; }
+  #topoBlog svg {
+    height: 48px;
+    width: inherit; }
 
-article {
-  padding-bottom: 4rem;
-  font-size: 1.25rem;
-  line-height: 2rem; }
-  article h1 {
-    font-size: 2.75rem;
-    line-height: 3.35rem;
-    font-weight: 300;
-    color: #053C7B;
-    margin-bottom: 0.8rem;
-    margin-top: 100px; }
-  article .post-date {
-    font-size: 0.9rem;
-    font-weight: 300; }
-    article .post-date i {
-      color: #E37531;
-      padding-right: 0.5rem; }
-  article .post-body {
-    font-family: "Merriweather", serif;
-    max-width: 720px;
-    margin: 0 auto 80px;
-    line-height: 2.5rem;
-    color: #333; }
-    article .post-body p, article .post-body img, article .post-body blockquote {
-      margin-top: 80px; }
-    article .post-body blockquote {
-      color: #053C7B;
-      font-weight: 700;
-      font-style: italic;
-      width: 85%;
-      margin-right: 0;
-      margin-left: auto;
-      line-height: 2rem; }
-  article .post-autor {
-    display: inline-flex; }
-    article .post-autor .autor-avatar {
-      width: 96px;
-      height: 96px;
-      max-width: 100%;
-      border-radius: 50%;
-      margin-right: 2rem; }
-    article .post-autor .autor-info {
-      font-weight: 300;
-      /*font-size: 1.25rem;*/
-      /*line-height: 160%*/ }
-      article .post-autor .autor-info .autor-name {
-        color: #053C7B;
-        font-weight: 600;
-        font-size: 1.5rem; }
-      article .post-autor .autor-info .autor-role {
-        color: #E37531;
-        text-transform: uppercase;
-        margin-bottom: 1rem; }
-
-@media screen and (max-width: 992px) {
-  main {
+.post-capa {
+  position: relative; }
+  .post-capa img {
     width: 100%;
-    margin: 0 1.25rem; } }
+    height: 40vw;
+    object-fit: cover; }
+
+main {
+  padding: 0 1.25rem; }
+  main article {
+    padding-bottom: 4rem; }
+    main article h1 {
+      font-size: 2.25rem;
+      line-height: 1.2;
+      font-weight: 300;
+      color: #053C7B;
+      margin-bottom: 0.8rem;
+      margin-top: 2rem; }
+    main article .post-date {
+      font-size: 0.9rem;
+      font-weight: 300; }
+      main article .post-date i {
+        color: #E37531;
+        padding-right: 0.5rem; }
+    main article .post-body {
+      font-family: "Merriweather", serif;
+      line-height: 2;
+      color: #333;
+      margin-bottom: 3rem; }
+      main article .post-body p, main article .post-body img, main article .post-body blockquote {
+        margin-top: 3rem; }
+      main article .post-body blockquote {
+        color: #053C7B;
+        font-weight: 700;
+        font-style: italic;
+        width: 85%;
+        margin-right: 0;
+        margin-left: auto;
+        line-height: 1.8; }
+      main article .post-body img {
+        width: 100%; }
+    main article .post-autor {
+      display: inline-flex; }
+      main article .post-autor .autor-avatar {
+        width: 96px;
+        height: 96px;
+        max-width: 100%;
+        border-radius: 50%;
+        margin-right: 1rem; }
+      main article .post-autor .autor-info {
+        font-weight: 300; }
+        main article .post-autor .autor-info .autor-name {
+          color: #053C7B;
+          font-weight: 600;
+          font-size: 1.5rem; }
+        main article .post-autor .autor-info .autor-role {
+          color: #E37531;
+          text-transform: uppercase;
+          margin-bottom: 1rem; }
+
+@media screen and (min-width: 992px) {
+  #topoBlog {
+    position: relative;
+    height: 80px; }
+    #topoBlog svg {
+      height: 200px;
+      position: absolute;
+      z-index: 1;
+      /*transition: height .5s;*/
+      top: 1.8rem; }
+
+  .gradient:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 24vw;
+    opacity: .6;
+    background-image: linear-gradient(#053c7b, rgba(89, 146, 221, 0)); }
+
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0; }
+    main article {
+      font-size: 1.25rem; }
+      main article h1 {
+        font-size: 2.75rem;
+        margin-top: 4rem; }
+      main article .post-body {
+        max-width: 720px;
+        margin: 0 auto 80px; } }
 
 /*# sourceMappingURL=blog.css.map */
