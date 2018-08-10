@@ -14,6 +14,37 @@
   </head>
   <body>
     <header>
+
+      <div id="barraAuxiliar">
+        <section class="caixa">
+          <span id="atalhosAcessibilidade" style="display:none">
+            <span id="atalhosAcessibBotao">
+              <i class="fab fa-accessible-icon"></i> Atalhos de acessibilidade
+            </span>
+            <ul class="menuSuspenso">
+              <li><button><i id=""  class="fas fa-arrow-circle-right"></i> Ir para o conteúdo <span>[1]</span></button></li>
+              <li><button><i id=""  class="fas fa-arrow-circle-right"></i> Ir para o menu <span>[2]</span></button></li>
+              <li><button><i id=""  class="fas fa-arrow-circle-right"></i> Ir para busca <span>[3]</span></button></li>
+              <li><button id="contrasteBto"><i class="fas fa-adjust"></i> Alto contraste <span>[4]</span></button></li>
+              <li><button><i id="aumentarLetra" class="fas fa-search-plus"></i> Aumentar zum <span>[5]</span></button></li>
+              <li><button><i id="diminuirLetra" class="fas fa-search-minus"></i> Diminuir zum <span>[6]</span></button></li>
+              <li><button><i id="reiniciarLetra" class="fas fa-undo"></i> Remover zum <span>[7]</span></button></li>              
+              <li><button><i class="fas fa-info"></i> Como funcionam os atalhos <span>[8]</span></button></li>
+            </ul>
+          </span>
+          <ul id="ligacoesExternas">
+            <li><i class="fas fa-question-circle"></i> Dúvidas frequentes</li>
+            <li id="ligacaoAva">
+              <span id="ligacaoAvaBotao"><i id="" class="fas fa-chalkboard-teacher"></i> AVA Moodle</span>
+              <ul class="menuSuspenso">
+                <li><a href="">Graduação</a></li>
+                <li><a href="">Especialização e Aperfeiçoamento</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+      </div>
+
       <div id="barra-brasil" style="background:#7F7F7F; height: 20px; padding:0 0 0 10px;display:block;">
         <ul id="menu-barra-temp" style="list-style:none;">
           <li style="display:inline; float:left;padding-right:10px; margin-right:10px; border-right:1px solid #EDEDED">
@@ -25,33 +56,7 @@
         </ul>
       </div>
 
-      <div id="topoSuperior">
-        <section class="caixa">
-          <section id="acessib">
-            <ul id="atalhosAcessib">
-              <li>Ir para o conteúdo <span>1</span></li>
-              <li>Ir para o menu <span>2</span></li>
-              <li>Ir para busca <span>3</span></li>
-            </ul>
-            <ul id="iconesAcessib">
-              <li><i id="contrasteBto"  class="fas fa-adjust" title="Alto contraste"></i></li>
-              <li><i class="fas fa-minus" title="Diminuir letras"></i></li>
-              <li><i class="fas fa-font" title="Tamanho de letra padrão"></i></li>
-              <li><i class="fas fa-plus" title="Aumentar letras"></i></li>
-              <li><i class="fas fa-question-circle" title="Informações sobre esta barra"></i></li>
-            </ul>
-          </section>
-          <section id="ligaExterna">
-            <ul>
-              <li>Dúvidas frequentes</li>
-              <li>Acesso rápido</li>
-            </ul>
-          </section>
-        </section>
-      </div>
-
       <div id="topoPrincipal">
-
         <section>
           <?php include 'svg/sead.svg' ?>
 
@@ -70,10 +75,11 @@
           </ul>
         </section>
       </div>
+
     </header>
 
     <script defer="defer" src="//barra.brasil.gov.br/barra.js"></script>
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="<?php echo site_url(); ?>/wp-content/themes/sead-v2/js/altoContraste.js"></script>
   </body>

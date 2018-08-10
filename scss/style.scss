@@ -8,8 +8,10 @@ Version: 2.0
 */
 
 @import 'variaveis';
+@import 'desfazer';
 
 /*
+position:
 display:
 margin:
 width:
@@ -22,7 +24,7 @@ color:
 */
 
 html {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 body {
@@ -55,72 +57,125 @@ header {
   display: inline-flex;
   flex-flow: column;
   width: 100%;
-  font-size: 1.17rem;
+  font-size: 1rem;
+  color: white;
 
-  #topoSuperior, #topoPrincipal {
-    ul {
-      padding: 0;
-      list-style: none;
-      color: white;
-    }
+  #barra-brasil {order: 1;}
 
-  }
-
-  #topoSuperior {
+  #barraAuxiliar {
     display: inline-flex;
     background-color: $azulEscuro;
     font-weight: $light;
+    order: 2;
 
     section.caixa {
       display: inline-flex;
-      justify-content: space-between;
+      align-items: center;
+      /*justify-content: space-between;*/
+      justify-content: flex-end;
+      color: white;
+    }
 
-      section {
-        display: inline-flex;
+    ul {
+      display: inline-flex;
 
-        ul {
-          display: inline-flex;
-        }
+      button {
+        background: transparent;
+        border: none;
+        color: white;
+        padding: 0;
       }
-
-      section#acessib {
-
-        ul#atalhosAcessib {
-
-          li {
-            margin: 0 10px;
-          }
-
-        }
-
-        ul#iconesAcessib {
-
-          li {
-            i {
-              margin: 0 10px;
-
-              &:hover {
-                cursor: pointer;
-              }
-              
-              &.fa-font {
-                margin: 0;                
-              }
-            }
-          }
-        }
+      
+      a {
+        color: white;
+        text-decoration: none;
       }
+      
+      &.menuSuspenso {
+        position: absolute;
+        visibility: hidden;
+        flex-flow: column;
+        background-color: $azulEscuro;
+        padding: 1em;
+        box-shadow: inset 0px 4px 4px rgba(0,0,0,.25);
 
-      section#ligaExterna {
-
-        ul li {
-          padding: 0 10px;
+        &:hover {
+          visibility: visible;
         }
       }
     }
 
-    span {
-      font-weight: $regular;
+    .fas, .fab {
+      margin-right: .5rem;
+    }
+
+    #atalhosAcessibilidade {
+      padding: 0 10px;
+
+      &:hover {    
+        ul {
+          visibility: visible !important;
+        }
+      }
+
+      #atalhosAcessibBotao {
+        display: inline-flex;
+        padding: 1em 0;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+
+      .menuSuspenso {
+
+        li {
+          padding: .25rem;
+
+          i.fas {
+            font-size: .875rem;
+          }
+
+          span {
+            font-weight: $bold;
+          }
+        }
+      }
+    }
+
+    #ligacoesExternas {
+
+      li {
+        padding: 1em 10px;
+        
+        i.fas {
+          margin-right: .25rem;
+        }
+      }
+      
+      #ligacaoAva {
+        padding: 0 10px;
+        
+        &:hover ul {
+          visibility: visible !important;
+        }
+        
+        #ligacaoAvaBotao {
+          display: inline-flex;
+          padding: 1em 0;
+          
+          &:hover {
+            cursor: pointer;
+          }
+        }
+        
+        .menuSuspenso {
+          
+          li {
+            padding: .25rem;
+          }
+        }
+      }
     }
   }
 
@@ -130,6 +185,7 @@ header {
     padding: 20px;    
     font-weight: $bold;
     text-transform: uppercase;
+    order: 3;
 
     section {
       /*display: inline-flex;*/
