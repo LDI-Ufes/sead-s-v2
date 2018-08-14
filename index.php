@@ -33,9 +33,11 @@
             </ul>
           </span>
           <ul id="ligacoesExternas">
-            <li><i class="fas fa-question-circle"></i> Dúvidas frequentes</li>
+            <li>
+              <a href=""><i class="fas fa-question-circle"></i> Dúvidas frequentes</a>
+            </li>
             <li id="ligacaoAva">
-              <span id="ligacaoAvaBotao"><i id="" class="fas fa-chalkboard-teacher"></i> AVA Moodle</span>
+              <button id="ligacaoAvaBotao"><i id="" class="fas fa-chalkboard-teacher"></i> AVA Moodle</button>
               <ul class="menuSuspenso">
                 <li><a href="">Graduação</a></li>
                 <li><a href="">Especialização e Aperfeiçoamento</a></li>

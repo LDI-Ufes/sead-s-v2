@@ -1,8 +1,12 @@
-const gulp  = require('gulp'),
-sass        = require('gulp-sass'),
-uglify      = require('gulp-uglify'),
-imagemin    = require('gulp-imagemin'),
-browserSync = require('browser-sync').create();
+const gulp      = require('gulp'),
+sass            = require('gulp-sass'),
+uglify          = require('gulp-uglify'),
+imagemin        = require('gulp-imagemin'),
+jshint          = require('gulp-jshint'),
+jshintStylish   = require('jshint-stylish'),
+csslint         = require('gulp-csslint'),
+csslintStylish  = require('csslint-stylish'),
+browserSync     = require('browser-sync').create();
 
 const src = {
   php  : ['../**/*.php'],
@@ -16,6 +20,8 @@ gulp.task('build-css', function() {
   .pipe(sass.sync().on('error', sass.logError))
   .pipe(sass({outputStyle: 'compressed'}))
   .pipe(gulp.dest('../'))
+  .pipe(csslint())
+  .pipe(csslint.formatter(require('csslint-stylish')))
   .pipe(browserSync.stream());
 });
 
@@ -28,6 +34,8 @@ gulp.task('build-img', function() {
 
 gulp.task('build-js', function() {
   gulp.src(src.js)
+  .pipe(jshint())
+  .pipe(jshint.reporter(jshintStylish))
   .pipe(uglify())
   .on('error', function(err) {
     gutil.log(gutil.colors.red('[Error]'), err.toString());
