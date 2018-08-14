@@ -1,0 +1,148 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14/08/2018, 14:01:05
+    Author     : isabela.zucarato
+*/
+
+@import 'variaveis';
+
+main{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#posts{
+    max-width: 560px;
+    display: inline-block;
+    
+    .blog-post{
+        margin-bottom: 3rem;
+        list-style-type: none;
+        font-weight: $semi-bold;
+
+       .blog-post-header{
+           position: relative;
+
+           span{
+               background-color: $azulEscuro;
+               color: white;
+               text-transform: uppercase;
+               position: absolute;
+               margin-left: 2rem;
+               margin-top: -0.5rem;
+               padding: .3rem .8rem;
+           }
+
+            img{
+                width: 100%;
+                height: 20vw;
+                object-fit: cover; 
+            }
+
+            &:before{
+                content: "";
+                height: 100%;
+                left: 0;
+                position: absolute;
+                top: 0;
+                width: 100%;
+                opacity: .6;
+                background-image: linear-gradient(rgba(89,146,221,0),rgba(5,60,123,100));
+            }
+
+            .post-date{
+                color: white;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                padding: 1rem;
+            }
+        }
+
+        h3{
+            color: $azulEscuro;
+            font-weight: $medium;
+            font-size: 2rem;
+            margin: 1rem 0;
+        }
+
+        p{
+            font-family: $texto;
+            font-weight: $regular;
+        }
+    }
+}
+
+#ultimos-editais{
+    float: right;
+    display: inline-block;
+    width: 260px;
+    background-color: rgba(89, 146, 221, 0.15);
+    padding: 1.5rem;
+    vertical-align: top;
+    
+    
+    .box-title{
+        font-style: italic;
+        font-weight: $bold;
+        position: absolute;
+        margin-top: -4.5rem;
+    }        
+    span{
+        color: $laranja;
+        font-size: 8rem;
+        display: inline-block;
+        font-weight: $black;
+
+    }
+    h2{
+        padding-left: 1rem;
+        color: $azulClaro;
+        font-size: 2rem;
+        display: inline-block;
+        line-height: 1;
+        
+    }
+    
+    ul{
+        padding: 0;
+        margin-top: 5rem;
+
+        li{
+            list-style-type: none;
+
+            h3{
+                color: black;
+                font-weight: $semi-bold;
+                border-bottom: solid 1px $laranja;
+                font-size: 1.25rem;
+                display: inline-block;
+                margin: 0 .5rem 0 0;
+            }
+
+            em{
+                background-color: $laranja;
+                color: white;
+                font-weight: $semi-bold;
+                display: inline-block;
+                padding: .2rem;
+            }
+
+            p{
+                color: $azul;
+                margin: .5rem 0;
+
+                &.atribuicao{
+                    color: black;
+                    font-weight: $light;
+                    font-size: 1.25rem;
+                }
+            }
+
+        }
+    }
+}
