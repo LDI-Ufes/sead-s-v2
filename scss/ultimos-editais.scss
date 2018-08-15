@@ -1,0 +1,125 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15/08/2018, 09:09:53
+    Author     : isabela.zucarato
+*/
+
+@import 'variaveis';
+
+#ultimos-editais{
+    background-color: rgba(89, 146, 221, 0.15);
+    padding: 1.5rem;  
+    
+    .box-title{
+        font-style: italic;
+        font-weight: $bold;
+        position: absolute;
+        margin-top: -4.5rem;
+        
+        span{
+            color: $laranja;
+            font-size: 8rem;
+            display: inline-block;
+            font-weight: $black;
+
+        }
+        h2{
+            padding-left: 1rem;
+            color: $azul;
+            font-size: 2rem;
+            display: inline-block;
+            line-height: 1;
+        }
+    }        
+
+    ul{
+        padding: 0;
+        margin-top: 5rem;
+        text-align: center;
+
+        li{
+            list-style-type: none;
+            margin-bottom: 1.5rem;
+            text-align: left;
+            display: inline-block;
+            max-width: 320px;
+
+            h3{
+                color: black;
+                border-bottom: solid 1px $laranja;
+                font-size: 1.13rem;
+                font-weight: $regular;
+                display: inline-block;
+                margin: 0 .5rem 0 0;
+            }
+
+            em{
+                background-color: $laranja;
+                color: white;
+                display: inline-block;
+                padding: .2rem;
+                font-style: normal;
+                font-size: .8rem;
+            }
+
+            p{
+                color: $azulEscuro;
+                margin: .5rem 0;
+                font-size: .8rem;
+
+                &.atribuicao{
+                    color: black;
+                    font-weight: $light;
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    
+    #ultimos-editais{
+/*        float: right;
+        display: inline-block;
+        width: 100%;*/
+        padding: 1.2rem;
+/*        vertical-align: top;*/
+
+
+        .box-title{
+
+            span{
+
+            }
+            h2{
+
+            }
+        }        
+
+        ul{
+
+            li{
+
+                h3{
+
+                }
+
+                em{
+
+                }
+
+                p{
+
+                    &.atribuicao{
+
+                    }
+                }
+            }
+        }
+    }
+}

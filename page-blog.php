@@ -10,8 +10,8 @@
     <link rel="stylesheet" type="text/css" href="<?php echo site_url(); ?>/wp-content/themes/sead-v2/style.css">
     <link rel="stylesheet" type="text/css" href="<?php echo site_url(); ?>/wp-content/themes/sead-v2/css/blog-page.css">
     
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,700" rel="stylesheet"> <!-- Conferir necessidade de variações -->
-    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,600,700,700i" rel="stylesheet"> <!-- Conferir necessidade de variações -->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700i" rel="stylesheet"> <!-- Conferir necessidade de variações -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   </head>
   <body>
@@ -57,17 +57,21 @@
               </li>
           </ul>
           
-          <section id="ultimos-editais">
-              <div class="box-title"><span>#</span><h2>últimos<br>editais</h2></div>
-            <ul>
-                <li>
-                    <h3>Edital n°003/2018</h3>
-                    <em>inscrições abertas</em>
-                    <p class="atribuicao">Professores Orientadores (TCC)</p>
-                    <p>Especialização em Oratória, Transversalidade e Didática da Fala para Formação de Professores</p>
-                </li>
-            </ul>
-          </section>
+          <aside>
+            <?php include 'components/ultimos-editais.php' ?>
+
+            <section id="informativo">
+                <h2><span>Informativo #17</span></h2>
+                <ul>
+                    <li><i class="fas fa-angle-right"></i><a>Curso de Licenciatura em Filosofia EaD/Ufes recebe nota máxima 5 do Inep/MEC</a></li>
+                    <li><i class="fas fa-angle-right"></i><a>Curso de Especialização em Educação em Direitos Humanos realiza doação de livros para unidades do IASES</a></li>
+                </ul>
+                <label>Receba as notícias mais importantes direto no seu e-mail, cadastre-se:</label><br>
+                <form><input type="email" placeholder="Digite seu e-mail"><input type="submit" value="Enviar"></form>
+            </section>
+              
+              <button class="social-media"><span>Siga-nos também no facebook</span><i class="fab fa-facebook-f"></i></button>  
+          </aside>
       </main>
  
           

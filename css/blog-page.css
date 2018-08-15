@@ -7,102 +7,227 @@ and open the template in the editor.
     Created on : 14/08/2018, 14:01:05
     Author     : isabela.zucarato
 */
-main {
-  max-width: 960px;
-  margin: 0 auto; }
-
-#posts {
-  max-width: 560px;
-  display: inline-block; }
-  #posts .blog-post {
-    margin-bottom: 3rem;
-    list-style-type: none;
-    font-weight: 600; }
-    #posts .blog-post .blog-post-header {
-      position: relative; }
-      #posts .blog-post .blog-post-header span {
-        background-color: #053C7B;
-        color: white;
-        text-transform: uppercase;
-        position: absolute;
-        margin-left: 2rem;
-        margin-top: -0.5rem;
-        padding: .3rem .8rem; }
-      #posts .blog-post .blog-post-header img {
-        width: 100%;
-        height: 20vw;
-        object-fit: cover; }
-      #posts .blog-post .blog-post-header:before {
-        content: "";
-        height: 100%;
-        left: 0;
-        position: absolute;
-        top: 0;
-        width: 100%;
-        opacity: .6;
-        background-image: linear-gradient(rgba(89, 146, 221, 0), #053c7b); }
-      #posts .blog-post .blog-post-header .post-date {
-        color: white;
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        padding: 1rem; }
-    #posts .blog-post h3 {
-      color: #053C7B;
-      font-weight: 500;
-      font-size: 2rem;
-      margin: 1rem 0; }
-    #posts .blog-post p {
-      font-family: "Merriweather", serif;
-      font-weight: 400; }
-
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15/08/2018, 09:09:53
+    Author     : isabela.zucarato
+*/
 #ultimos-editais {
-  float: right;
-  display: inline-block;
-  width: 260px;
   background-color: rgba(89, 146, 221, 0.15);
-  padding: 1.5rem;
-  vertical-align: top; }
+  padding: 1.5rem; }
   #ultimos-editais .box-title {
     font-style: italic;
     font-weight: 700;
     position: absolute;
     margin-top: -4.5rem; }
-  #ultimos-editais span {
-    color: #E37531;
-    font-size: 8rem;
-    display: inline-block;
-    font-weight: 900; }
-  #ultimos-editais h2 {
-    padding-left: 1rem;
-    color: #5992DD;
-    font-size: 2rem;
-    display: inline-block;
-    line-height: 1; }
+    #ultimos-editais .box-title span {
+      color: #E37531;
+      font-size: 8rem;
+      display: inline-block;
+      font-weight: 900; }
+    #ultimos-editais .box-title h2 {
+      padding-left: 1rem;
+      color: #1765AB;
+      font-size: 2rem;
+      display: inline-block;
+      line-height: 1; }
   #ultimos-editais ul {
     padding: 0;
-    margin-top: 5rem; }
+    margin-top: 5rem;
+    text-align: center; }
     #ultimos-editais ul li {
-      list-style-type: none; }
+      list-style-type: none;
+      margin-bottom: 1.5rem;
+      text-align: left;
+      display: inline-block;
+      max-width: 320px; }
       #ultimos-editais ul li h3 {
         color: black;
-        font-weight: 600;
         border-bottom: solid 1px #E37531;
-        font-size: 1.25rem;
+        font-size: 1.13rem;
+        font-weight: 400;
         display: inline-block;
         margin: 0 .5rem 0 0; }
       #ultimos-editais ul li em {
         background-color: #E37531;
         color: white;
-        font-weight: 600;
         display: inline-block;
-        padding: .2rem; }
+        padding: .2rem;
+        font-style: normal;
+        font-size: .8rem; }
       #ultimos-editais ul li p {
-        color: #1765AB;
-        margin: .5rem 0; }
+        color: #053C7B;
+        margin: .5rem 0;
+        font-size: .8rem; }
         #ultimos-editais ul li p.atribuicao {
           color: black;
           font-weight: 300;
-          font-size: 1.25rem; }
+          font-size: 1rem; }
+
+@media screen and (min-width: 992px) {
+  #ultimos-editais {
+    /*        float: right;
+            display: inline-block;
+            width: 100%;*/
+    padding: 1.2rem;
+    /*        vertical-align: top;*/ } }
+main {
+  width: 100%;
+  padding-top: 3rem; }
+
+#posts .blog-post {
+  margin-bottom: 3rem;
+  list-style-type: none;
+  font-weight: 600; }
+  #posts .blog-post .blog-post-header {
+    position: relative;
+    height: 30vw; }
+    #posts .blog-post .blog-post-header span {
+      background-color: #053C7B;
+      color: white;
+      text-transform: uppercase;
+      position: absolute;
+      margin-left: 1rem;
+      margin-top: -0.5rem;
+      padding: .3rem .8rem; }
+    #posts .blog-post .blog-post-header img {
+      width: 100%;
+      height: 30vw;
+      object-fit: cover; }
+    #posts .blog-post .blog-post-header:before {
+      content: "";
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      opacity: .6;
+      background-image: linear-gradient(rgba(89, 146, 221, 0), #053c7b); }
+    #posts .blog-post .blog-post-header .post-date {
+      color: white;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      padding: .8rem;
+      font-size: .8rem; }
+  #posts .blog-post h3 {
+    color: #053C7B;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin: 1.5rem; }
+  #posts .blog-post p {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 1rem 1.5rem; }
+
+#informativo {
+  margin-top: 2rem;
+  padding: 1.5rem; }
+  #informativo h2 {
+    position: relative;
+    color: #E37531;
+    text-transform: uppercase; }
+    #informativo h2 span {
+      background-color: #fff;
+      padding-right: 15px;
+      position: relative;
+      z-index: 1; }
+    #informativo h2:before {
+      content: '';
+      display: block;
+      vertical-align: middle;
+      height: 2px;
+      background-color: #E37531;
+      width: 100%;
+      margin-right: -100%;
+      position: absolute;
+      top: 50%;
+      left: 0; }
+  #informativo li {
+    padding: 0 0 1rem; }
+    #informativo li a {
+      color: #1765AB;
+      text-decoration: none; }
+      #informativo li a:hover {
+        text-decoration: underline; }
+    #informativo li i {
+      color: #E37531;
+      padding-right: .2rem; }
+  #informativo label {
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: #E37531; }
+  #informativo form input {
+    margin-top: 1rem;
+    font-family: 'Fira Sans', sans-serif !important;
+    border: solid 1px #053C7B; }
+    #informativo form input[type=email] {
+      height: 1.5rem;
+      width: calc(100% - 72px - .5rem);
+      background-color: rgba(89, 146, 221, 0.05);
+      padding-left: .5rem; }
+    #informativo form input[type=submit] {
+      background-color: #053C7B;
+      text-transform: uppercase;
+      color: white;
+      font-size: .8rem;
+      padding: .35rem;
+      width: 70px; }
+
+.social-media {
+  background: linear-gradient(45deg, #053C7B, #1765AB);
+  border: none;
+  color: white;
+  width: 100%;
+  height: 7rem;
+  margin-top: 2rem;
+  display: table; }
+  .social-media span {
+    width: 50%;
+    display: inline-table;
+    vertical-align: middle;
+    font-size: 1.4rem;
+    text-align: left;
+    margin-left: -1rem; }
+  .social-media i {
+    font-size: 4rem;
+    display: inline-table;
+    width: 30%;
+    vertical-align: middle;
+    text-align: right; }
+
+@media screen and (min-width: 992px) {
+  main {
+    max-width: 960px;
+    margin: 0 auto; }
+
+  #posts {
+    max-width: 560px;
+    display: inline-block; }
+    #posts .blog-post .blog-post-header {
+      height: 20vw; }
+      #posts .blog-post .blog-post-header span {
+        margin-left: 2rem; }
+      #posts .blog-post .blog-post-header img {
+        height: 20vw; }
+      #posts .blog-post .blog-post-header .post-date {
+        padding: 1rem;
+        font-size: 1rem; }
+    #posts .blog-post h3, #posts .blog-post p {
+      margin: 1rem 0; }
+
+  aside {
+    float: right;
+    display: inline-block;
+    width: 320px;
+    vertical-align: top; }
+
+  #informativo {
+    padding: 0; } }
 
 /*# sourceMappingURL=blog-page.css.map */

@@ -1,0 +1,70 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15/08/2018, 09:09:53
+    Author     : isabela.zucarato
+*/
+#ultimos-editais {
+  background-color: rgba(89, 146, 221, 0.15);
+  padding: 1.5rem; }
+  #ultimos-editais .box-title {
+    font-style: italic;
+    font-weight: 700;
+    position: absolute;
+    margin-top: -4.5rem; }
+    #ultimos-editais .box-title span {
+      color: #E37531;
+      font-size: 8rem;
+      display: inline-block;
+      font-weight: 900; }
+    #ultimos-editais .box-title h2 {
+      padding-left: 1rem;
+      color: #1765AB;
+      font-size: 2rem;
+      display: inline-block;
+      line-height: 1; }
+  #ultimos-editais ul {
+    padding: 0;
+    margin-top: 5rem;
+    text-align: center; }
+    #ultimos-editais ul li {
+      list-style-type: none;
+      margin-bottom: 1.5rem;
+      text-align: left;
+      display: inline-block;
+      max-width: 320px; }
+      #ultimos-editais ul li h3 {
+        color: black;
+        border-bottom: solid 1px #E37531;
+        font-size: 1.13rem;
+        font-weight: 400;
+        display: inline-block;
+        margin: 0 .5rem 0 0; }
+      #ultimos-editais ul li em {
+        background-color: #E37531;
+        color: white;
+        display: inline-block;
+        padding: .2rem;
+        font-style: normal;
+        font-size: .8rem; }
+      #ultimos-editais ul li p {
+        color: #053C7B;
+        margin: .5rem 0;
+        font-size: .8rem; }
+        #ultimos-editais ul li p.atribuicao {
+          color: black;
+          font-weight: 300;
+          font-size: 1rem; }
+
+@media screen and (min-width: 992px) {
+  #ultimos-editais {
+    /*        float: right;
+            display: inline-block;
+            width: 100%;*/
+    padding: 1.2rem;
+    /*        vertical-align: top;*/ } }
+
+/*# sourceMappingURL=ultimos-editais.css.map */
