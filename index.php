@@ -36,8 +36,8 @@
             <li>
               <a href=""><i class="fas fa-question-circle"></i> Dúvidas frequentes</a>
             </li>
-            <li id="ligacaoAva">
-              <button id="ligacaoAvaBotao"><i id="" class="fas fa-chalkboard-teacher"></i> AVA Moodle</button>
+            <li id="ligacaoAva" class="temSubnivel">
+              <a id="ligacaoAvaBotao" href=""><i id="" class="fas fa-chalkboard-teacher"></i> AVA Moodle</a>
               <ul class="menuSuspenso">
                 <li><a href="">Graduação</a></li>
                 <li><a href="">Especialização e Aperfeiçoamento</a></li>
@@ -59,21 +59,23 @@
       </div>
 
       <div id="topoPrincipal">
-        <section>
+        <section class="caixa">
           <?php include 'svg/sead.svg' ?>
 
-          <ul>
-            <li>Início</li>
-            <li>
-              Ensino
-              <ul>
-                <li></li>
+          <ul id="menuPrincipal">
+            <li><a href="">Início</a></li>
+            <li class="temSubnivel">
+              <a href="">Ensino</a>
+              <ul class="menuSuspenso">
+                <li><a href="">Como é a EaD na Ufes?</a></li>
+                <li><a href="">A Secretaria</a></li>
+                <li><a href="">Contatos</a></li>
               </ul>
             </li>
-            <li>Editais</li>
-            <li>Cursos</li>
-            <li>Polos</li>            
-            <li>Notícias</li>
+            <li><a href="">Editais</a></li>
+            <li><a href="">Cursos</a></li>
+            <li><a href="">Polos</a></li>            
+            <li><a href="">Notícias</a></li>
           </ul>
         </section>
       </div>

@@ -5,6 +5,30 @@ header {
   font-size: 1rem;
   color: white;
 
+  .temSubnivel {
+    &:hover ul, &:focus ul, &:active ul {
+      visibility: visible !important;
+    }
+  }
+
+  .menuSuspenso {
+    position: absolute;
+    visibility: hidden;
+    flex-flow: column;
+    background-color: $azulEscuro;
+    padding: 1rem 1rem .75rem 1rem;
+    box-shadow: inset 0px 4px 4px rgba(0,0,0,.25);
+
+    &:hover, &:focus {
+      visibility: visible;
+    }
+
+    li a:hover {
+      text-decoration: underline;
+      text-decoration-color: $laranja;
+    }
+  }
+
   #barra-brasil {order: 1;}
 
   #barraAuxiliar {
@@ -29,30 +53,7 @@ header {
         border: none;
         color: white;
         padding: 0;
-      }
-      
-      a {
-        color: white;
-        text-decoration: none;
-      }
-      
-      &.menuSuspenso {
-        position: absolute;
-        visibility: hidden;
-        flex-flow: column;
-        background-color: $azulEscuro;
-        padding: 1rem 1rem .75rem 1rem;
-        box-shadow: inset 0px 4px 4px rgba(0,0,0,.25);
-
-        &:hover {
-          visibility: visible;
-        }
-        
-        li a:hover {
-          text-decoration: underline;
-          text-decoration-color: $laranja;
-        }
-      }
+      }     
     }
 
     .fas, .fab {
@@ -95,30 +96,30 @@ header {
 
     #ligacoesExternas {
 
-      li {
-        padding: 1em 10px;
-        
+      > li {
+        position: relative;
+        display: inline-flex;        
+        padding: 1rem 10px;
+
         i.fas {
           margin-right: .25rem;
         }
       }
-      
+
+
       #ligacaoAva {
-        
-        &:hover ul {
-          visibility: visible !important;
-        }
-        
+
         #ligacaoAvaBotao {
           display: inline-flex;
-          
+
           &:hover {
             cursor: pointer;
           }
         }
-        
+
         .menuSuspenso {
-          
+          top: 50px;
+
           li {
             padding: .5rem .25rem;
           }
@@ -130,13 +131,38 @@ header {
   #topoPrincipal {
     display: inline-flex;
     background-color: $azul;
-    padding: 20px;    
+    padding: 0 20px;    
     font-weight: $bold;
     text-transform: uppercase;
     order: 3;
 
-    section {
-      /*display: inline-flex;*/
+    > section {
+      display: inline-flex;
+      justify-content: space-between;
+    }
+    
+    svg {
+      padding: 1.2rem .6rem;
+    }
+
+    #menuPrincipal {
+      display: inline-flex;
+      align-items: center;
+
+      li {
+        display: inline-flex;
+        align-items: center;
+        height: 60px;
+        padding: 1.2rem .6rem;
+      }
+      
+      .temSubnivel {
+        position: relative;
+        
+        .menuSuspenso {
+          top: calc(60px + 2.4rem);
+        }
+      }
     }
 
     svg {
