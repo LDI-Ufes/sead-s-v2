@@ -2,7 +2,7 @@
 <html lang="pt-BR" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Secretaria de Ensino a Distância - Ufes</title>
+    <title>Blog da Sead - Ufes</title>
 
     <!-- Contexto do órgão no Portal de Serviços -->
     <meta property="creator.productor" content="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/425">
@@ -15,24 +15,11 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   </head>
   <body>
-<!--      <header>
-          <div id="topoBlog">
-            <?php include 'svg/nossoBLOG.svg' ?>
-
-            <ul>
-              <li>Portal Sead
-                  <ul>
-                      <li>Início</li>
-                      <li>Sobre</li>
-                      <li>Editais</li>
-                      <li>Cursos</li>
-                      <li>Polos</li>            
-                      <li>Notícias</li>
-                  </ul>
-              </li>
-            </ul>
-        </div>
-      </header>-->
+      <header>
+        <?php include 'components/barra-acessibilidade.php' ?>
+        <?php include 'components/barra-brasil.php' ?>
+        <?php include 'components/topoBlog.php' ?>
+      </header>
       
       <main>
           <ul id="posts">
@@ -42,7 +29,7 @@
                     <img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG_20180621_212726229.jpg">
                     <div class="post-date">28 de julho de 2018</div>
                   </div>
-                <h3>A gestão do design no âmbito da produção de materiais didáticos para o ensino a distância</h1>
+                  <a href="/sitiosead/1"><h3>A gestão do design no âmbito da produção de materiais didáticos para o ensino a distância</h3></a>
                 <p>A Educação a Distância (EaD) é entendida pelo Decreto nº 5.622, de 19 de dezembro de 2005, como modalidade educacional mediada pelas tecnologias de informação e comunicação, em que os envolvidos desenvolvem atividades em tempos e lugares diversos. </p>
               </li>
               
@@ -52,7 +39,7 @@
                     <img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG_20180621_212726229.jpg">
                     <div class="post-date">28 de julho de 2018</div>
                   </div>
-                <h3>A gestão do design no âmbito da produção de materiais didáticos para o ensino a distância</h1>
+                  <a href=""><h3>A gestão do design no âmbito da produção de materiais didáticos para o ensino a distância</h3></a>
                 <p>A Educação a Distância (EaD) é entendida pelo Decreto nº 5.622, de 19 de dezembro de 2005, como modalidade educacional mediada pelas tecnologias de informação e comunicação, em que os envolvidos desenvolvem atividades em tempos e lugares diversos. </p>
               </li>
           </ul>
@@ -71,10 +58,37 @@
             </section>
               
               <button class="social-media"><span>Siga-nos também no facebook</span><i class="fab fa-facebook-f"></i></button>  
-          </aside>
+          </aside>         
       </main>
- 
-          
+      
+      <section id="galeria">
+          <div class="content">
+              <h2>Galeria de Fotos</h2>
+              <ul>
+                  <li>
+                      <span>21/06/2018</span> Seminário da Disciplina de Linguagem V - Polo UAB de Montanha/ES
+                      <ul>
+                          <li><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG_20180621_212726229.jpg"></li>
+                          <li><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG_20180621_212726229.jpg"></li>
+                          <li><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG_20180621_212726229.jpg"></li>
+                          <li class="verMais"><a href=""><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG_20180621_212726229.jpg"></a></li>
+                      </ul>
+                  </li>
+                  <li>
+                      <span>21/06/2018</span> Seminário da Disciplina de Linguagem V - Polo UAB de Montanha/ES
+                      <ul>
+                          <li><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG_20180621_212726229.jpg"></li>
+                          <li><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG_20180621_212726229.jpg"></li>
+                          <li><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG_20180621_212726229.jpg"></li>
+                          <li class="verMais"><a href=""><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG_20180621_212726229.jpg"></a></li>
+                      </ul>
+                  </li>
+              </ul>
+          </div>
+          </section>
+      
+    <script defer="defer" src="//barra.brasil.gov.br/barra.js"></script>          
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="<?php echo site_url(); ?>/wp-content/themes/sead-v2/js/altoContraste.js"></script>
   </body>
 </html>

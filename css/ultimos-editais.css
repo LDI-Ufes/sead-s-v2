@@ -21,7 +21,6 @@ and open the template in the editor.
       display: inline-block;
       font-weight: 900; }
     #ultimos-editais .box-title h2 {
-      padding-left: 1rem;
       color: #1765AB;
       font-size: 2rem;
       display: inline-block;
@@ -66,5 +65,3 @@ and open the template in the editor.
             width: 100%;*/
     padding: 1.2rem;
     /*        vertical-align: top;*/ } }
-
-/*# sourceMappingURL=ultimos-editais.css.map */

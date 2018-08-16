@@ -127,14 +127,15 @@ header {
       }
     }
   }
-
-  #topoPrincipal {
+  
+  #topoPrincipal, #topoBlog {
     display: inline-flex;
     background-color: $azul;
     padding: 0 20px;    
     font-weight: $bold;
     text-transform: uppercase;
     order: 3;
+    z-index: 1;
 
     > section {
       display: inline-flex;
@@ -169,4 +170,27 @@ header {
       height: 60px
     }
   }
+  
+  #topoBlog svg{
+      width: 80px;
+  }
+  
 }
+
+@media screen and (min-width: 992px) {
+    header{
+        #topoBlog{
+            position: relative;
+            height: 80px;
+
+            svg {
+                height: 200px;
+                width: 260px;
+                transition: height .5s;
+                margin-top: .3rem;
+                padding: 0;
+            }
+        }
+    }
+}
+  

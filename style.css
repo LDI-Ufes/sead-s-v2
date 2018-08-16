@@ -1,8 +1,169 @@
-﻿/*!
-Theme Name: Sítio Sead v2
+@charset "UTF-8";
+/*!
+Theme Name: S├¡tio Sead v2
 Theme URI: https://sead.ufes.br/
-Author: Laboratório de Design Instrucional - Sead Ufes
+Author: Laborat├│rio de Design Instrucional - Sead Ufes
 Author URI: https://ldi.eadufes.org/
-Description: Tema desenvolvido para o sítio da Secretaria de Ensino a Distância da Universidade Federal do Espírito Santo.
+Description: Tema desenvolvido para o s├¡tio da Secretaria de Ensino a Dist├óncia da Universidade Federal do Esp├¡rito Santo.
 Version: 2.0
-*/a{text-decoration:none;color:inherit}ul{margin:0;padding:0;list-style:none}button{font-family:inherit;font-size:inherit;font-weight:inherit}*:focus{outline:2px solid #E37531;outline-offset:2px}html{font-size:16px}body{margin:0;font-family:'Fira Sans', sans-serif;font-size:1rem}body.contraste *{background-color:black !important;color:white}body.contraste * a{color:yellow}body.contraste #topoSuperior,body.contraste #topoPrincipal{border-bottom:1px solid white}section.caixa{margin:0 auto;width:960px}header{display:inline-flex;flex-flow:column;width:100%;font-size:1rem;color:white}header .temSubnivel:hover ul,header .temSubnivel:focus ul,header .temSubnivel:active ul{visibility:visible !important}header .menuSuspenso{position:absolute;visibility:hidden;flex-flow:column;background-color:#053C7B;padding:1rem 1rem .75rem 1rem;box-shadow:inset 0px 4px 4px rgba(0,0,0,0.25)}header .menuSuspenso:hover,header .menuSuspenso:focus{visibility:visible}header .menuSuspenso li a:hover{text-decoration:underline;text-decoration-color:#E37531}header #barra-brasil{order:1}header #barraAuxiliar{display:inline-flex;background-color:#053C7B;font-weight:300;order:2}header #barraAuxiliar section.caixa{display:inline-flex;align-items:center;justify-content:flex-end;color:white}header #barraAuxiliar ul{display:inline-flex}header #barraAuxiliar ul button{background:transparent;border:none;color:white;padding:0}header #barraAuxiliar .fas,header #barraAuxiliar .fab{margin-right:.5rem}header #barraAuxiliar #atalhosAcessibilidade{padding:0 10px}header #barraAuxiliar #atalhosAcessibilidade:hover ul{visibility:visible !important}header #barraAuxiliar #atalhosAcessibilidade #atalhosAcessibBotao{display:inline-flex;padding:1em 0}header #barraAuxiliar #atalhosAcessibilidade #atalhosAcessibBotao:hover{cursor:pointer}header #barraAuxiliar #atalhosAcessibilidade .menuSuspenso li{padding:.25rem}header #barraAuxiliar #atalhosAcessibilidade .menuSuspenso li i.fas{font-size:.875rem}header #barraAuxiliar #atalhosAcessibilidade .menuSuspenso li span{font-weight:700}header #barraAuxiliar #ligacoesExternas>li{position:relative;display:inline-flex;padding:1rem 10px}header #barraAuxiliar #ligacoesExternas>li i.fas{margin-right:.25rem}header #barraAuxiliar #ligacoesExternas #ligacaoAva #ligacaoAvaBotao{display:inline-flex}header #barraAuxiliar #ligacoesExternas #ligacaoAva #ligacaoAvaBotao:hover{cursor:pointer}header #barraAuxiliar #ligacoesExternas #ligacaoAva .menuSuspenso{top:50px}header #barraAuxiliar #ligacoesExternas #ligacaoAva .menuSuspenso li{padding:.5rem .25rem}header #topoPrincipal{display:inline-flex;background-color:#1765AB;padding:0 20px;font-weight:700;text-transform:uppercase;order:3}header #topoPrincipal>section{display:inline-flex;justify-content:space-between}header #topoPrincipal svg{padding:1.2rem .6rem}header #topoPrincipal #menuPrincipal{display:inline-flex;align-items:center}header #topoPrincipal #menuPrincipal li{display:inline-flex;align-items:center;height:60px;padding:1.2rem .6rem}header #topoPrincipal #menuPrincipal .temSubnivel{position:relative}header #topoPrincipal #menuPrincipal .temSubnivel .menuSuspenso{top:calc(60px + 2.4rem)}header #topoPrincipal svg{height:60px}
+*/
+a {
+  text-decoration: none;
+  color: inherit; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit; }
+
+*:focus {
+  outline: 2px solid #E37531;
+  outline-offset: 2px; }
+
+html {
+  font-size: 16px; }
+
+body {
+  margin: 0;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1rem; }
+  body.contraste * {
+    background-color: black !important;
+    color: white; }
+    body.contraste * a {
+      color: yellow; }
+  body.contraste #topoSuperior, body.contraste #topoPrincipal, body.contraste #topoBlog {
+    border-bottom: 1px solid white; }
+
+section.caixa {
+  margin: 0 auto;
+  width: 960px; }
+
+header {
+  display: inline-flex;
+  flex-flow: column;
+  width: 100%;
+  font-size: 1rem;
+  color: white; }
+  header .temSubnivel:hover ul, header .temSubnivel:focus ul, header .temSubnivel:active ul {
+    visibility: visible !important; }
+  header .menuSuspenso {
+    position: absolute;
+    visibility: hidden;
+    flex-flow: column;
+    background-color: #053C7B;
+    padding: 1rem 1rem .75rem 1rem;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25); }
+    header .menuSuspenso:hover, header .menuSuspenso:focus {
+      visibility: visible; }
+    header .menuSuspenso li a:hover {
+      text-decoration: underline;
+      text-decoration-color: #E37531; }
+  header #barra-brasil {
+    order: 1; }
+  header #barraAuxiliar {
+    display: inline-flex;
+    background-color: #053C7B;
+    font-weight: 300;
+    order: 2; }
+    header #barraAuxiliar section.caixa {
+      display: inline-flex;
+      align-items: center;
+      /*justify-content: space-between;*/
+      justify-content: flex-end;
+      color: white; }
+    header #barraAuxiliar ul {
+      display: inline-flex; }
+      header #barraAuxiliar ul button {
+        background: transparent;
+        border: none;
+        color: white;
+        padding: 0; }
+    header #barraAuxiliar .fas, header #barraAuxiliar .fab {
+      margin-right: .5rem; }
+    header #barraAuxiliar #atalhosAcessibilidade {
+      padding: 0 10px; }
+      header #barraAuxiliar #atalhosAcessibilidade:hover ul {
+        visibility: visible !important; }
+      header #barraAuxiliar #atalhosAcessibilidade #atalhosAcessibBotao {
+        display: inline-flex;
+        padding: 1em 0; }
+        header #barraAuxiliar #atalhosAcessibilidade #atalhosAcessibBotao:hover {
+          cursor: pointer; }
+      header #barraAuxiliar #atalhosAcessibilidade .menuSuspenso li {
+        padding: .25rem; }
+        header #barraAuxiliar #atalhosAcessibilidade .menuSuspenso li i.fas {
+          font-size: .875rem; }
+        header #barraAuxiliar #atalhosAcessibilidade .menuSuspenso li span {
+          font-weight: 700; }
+    header #barraAuxiliar #ligacoesExternas > li {
+      position: relative;
+      display: inline-flex;
+      padding: 1rem 10px; }
+      header #barraAuxiliar #ligacoesExternas > li i.fas {
+        margin-right: .25rem; }
+    header #barraAuxiliar #ligacoesExternas #ligacaoAva #ligacaoAvaBotao {
+      display: inline-flex; }
+      header #barraAuxiliar #ligacoesExternas #ligacaoAva #ligacaoAvaBotao:hover {
+        cursor: pointer; }
+    header #barraAuxiliar #ligacoesExternas #ligacaoAva .menuSuspenso {
+      top: 50px; }
+      header #barraAuxiliar #ligacoesExternas #ligacaoAva .menuSuspenso li {
+        padding: .5rem .25rem; }
+  header #topoPrincipal, header #topoBlog {
+    display: inline-flex;
+    background-color: #1765AB;
+    padding: 0 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    order: 3;
+    z-index: 1; }
+    header #topoPrincipal > section, header #topoBlog > section {
+      display: inline-flex;
+      justify-content: space-between; }
+    header #topoPrincipal svg, header #topoBlog svg {
+      padding: 1.2rem .6rem; }
+    header #topoPrincipal #menuPrincipal, header #topoBlog #menuPrincipal {
+      display: inline-flex;
+      align-items: center; }
+      header #topoPrincipal #menuPrincipal li, header #topoBlog #menuPrincipal li {
+        display: inline-flex;
+        align-items: center;
+        height: 60px;
+        padding: 1.2rem .6rem; }
+      header #topoPrincipal #menuPrincipal .temSubnivel, header #topoBlog #menuPrincipal .temSubnivel {
+        position: relative; }
+        header #topoPrincipal #menuPrincipal .temSubnivel .menuSuspenso, header #topoBlog #menuPrincipal .temSubnivel .menuSuspenso {
+          top: calc(60px + 2.4rem); }
+    header #topoPrincipal svg, header #topoBlog svg {
+      height: 60px; }
+  header #topoBlog svg {
+    width: 80px; }
+
+@media screen and (min-width: 992px) {
+  header #topoBlog {
+    position: relative;
+    height: 80px; }
+    header #topoBlog svg {
+      height: 200px;
+      width: 260px;
+      transition: height .5s;
+      margin-top: .3rem;
+      padding: 0; } }
+/*
+position:
+display:
+margin:
+width:
+background:
+padding:
+font:
+list:
+text:
+color:
+*/

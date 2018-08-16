@@ -15,70 +15,9 @@
   <body>
     <header>
 
-      <div id="barraAuxiliar">
-        <section class="caixa">
-          <span id="atalhosAcessibilidade" style="display:none">
-            <span id="atalhosAcessibBotao">
-              <i class="fab fa-accessible-icon"></i> Atalhos de acessibilidade
-            </span>
-            <ul class="menuSuspenso">
-              <li><button><i id=""  class="fas fa-arrow-circle-right"></i> Ir para o conteúdo <span>[1]</span></button></li>
-              <li><button><i id=""  class="fas fa-arrow-circle-right"></i> Ir para o menu <span>[2]</span></button></li>
-              <li><button><i id=""  class="fas fa-arrow-circle-right"></i> Ir para busca <span>[3]</span></button></li>
-              <li><button id="contrasteBto"><i class="fas fa-adjust"></i> Alto contraste <span>[4]</span></button></li>
-              <li><button><i id="aumentarLetra" class="fas fa-search-plus"></i> Aumentar zum <span>[5]</span></button></li>
-              <li><button><i id="diminuirLetra" class="fas fa-search-minus"></i> Diminuir zum <span>[6]</span></button></li>
-              <li><button><i id="reiniciarLetra" class="fas fa-undo"></i> Remover zum <span>[7]</span></button></li>              
-              <li><button><i class="fas fa-info"></i> Como funcionam os atalhos <span>[8]</span></button></li>
-            </ul>
-          </span>
-          <ul id="ligacoesExternas">
-            <li>
-              <a href=""><i class="fas fa-question-circle"></i> Dúvidas frequentes</a>
-            </li>
-            <li id="ligacaoAva" class="temSubnivel">
-              <a id="ligacaoAvaBotao" href=""><i id="" class="fas fa-chalkboard-teacher"></i> AVA Moodle</a>
-              <ul class="menuSuspenso">
-                <li><a href="">Graduação</a></li>
-                <li><a href="">Especialização e Aperfeiçoamento</a></li>
-              </ul>
-            </li>
-          </ul>
-        </section>
-      </div>
-
-      <div id="barra-brasil" style="background:#7F7F7F; height: 20px; padding:0 0 0 10px;display:block;">
-        <ul id="menu-barra-temp" style="list-style:none;">
-          <li style="display:inline; float:left;padding-right:10px; margin-right:10px; border-right:1px solid #EDEDED">
-            <a href="http://brasil.gov.br" style="font-family:sans,sans-serif; text-decoration:none; color:white;">Portal do Governo Brasileiro</a>
-          </li>
-          <li>
-            <a style="font-family:sans,sans-serif; text-decoration:none; color:white;" href="http://epwg.governoeletronico.gov.br/barra/atualize.html">Atualize sua Barra de Governo</a>
-          </li>
-        </ul>
-      </div>
-
-      <div id="topoPrincipal">
-        <section class="caixa">
-          <?php include 'svg/sead.svg' ?>
-
-          <ul id="menuPrincipal">
-            <li><a href="">Início</a></li>
-            <li class="temSubnivel">
-              <a href="">Ensino</a>
-              <ul class="menuSuspenso">
-                <li><a href="">Como é a EaD na Ufes?</a></li>
-                <li><a href="">A Secretaria</a></li>
-                <li><a href="">Contatos</a></li>
-              </ul>
-            </li>
-            <li><a href="">Editais</a></li>
-            <li><a href="">Cursos</a></li>
-            <li><a href="">Polos</a></li>            
-            <li><a href="">Notícias</a></li>
-          </ul>
-        </section>
-      </div>
+      <?php include 'components/barra-acessibilidade.php' ?>
+      <?php include 'components/barra-brasil.php' ?>
+      <?php include 'components/topoPrincipal.php' ?>    
 
     </header>
 

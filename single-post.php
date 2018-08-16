@@ -16,22 +16,9 @@
   </head>
   <body>
       <header>
-          <div id="topoBlog">
-            <?php include 'svg/nossoBLOG.svg' ?>
-
-<!--            <ul>
-              <li>Portal Sead
-                  <ul>
-                      <li>Início</li>
-                      <li>Sobre</li>
-                      <li>Editais</li>
-                      <li>Cursos</li>
-                      <li>Polos</li>            
-                      <li>Notícias</li>
-                  </ul>
-              </li>
-            </ul>-->
-        </div>
+        <?php include 'components/barra-acessibilidade.php' ?>
+        <?php include 'components/barra-brasil.php' ?>
+        <?php include 'components/topoBlog.php' ?>
       </header>
       
       <div class="post-capa gradient">
@@ -61,7 +48,9 @@
         </article>
       </main>
           
+    <script defer="defer" src="//barra.brasil.gov.br/barra.js"></script>          
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="<?php echo site_url(); ?>/wp-content/themes/sead-v2/js/altoContraste.js"></script>
 <!--    <script>
         $(window).on("scroll", function () {
             if ($(this).scrollTop() === 0) {

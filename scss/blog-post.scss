@@ -14,19 +14,6 @@ html{
     font-size: 16px;
 }
 
-#topoBlog {
-    background-color: #1765AB;
-    padding: 20px;
-    font-weight: 700;
-    text-transform: uppercase;
-    height: 56px;
-
-  svg {
-    height: 48px;
-    width: inherit;
-  }
-}
-
 .post-capa{
     position: relative;
     
@@ -119,20 +106,7 @@ main{
 }
 
 @media screen and (min-width: 992px) {
-    
-    #topoBlog {
-        position: relative;
-        height: 80px;
-
-        svg {
-            height: 200px;
-            position: absolute;
-            z-index: 1;
-            /*transition: height .5s;*/
-            top: 1.8rem;
-        }
-    }
-    
+       
     .gradient{
         &:before {
             content: '';

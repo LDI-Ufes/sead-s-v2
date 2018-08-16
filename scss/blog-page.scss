@@ -12,10 +12,10 @@ and open the template in the editor.
 @import 'ultimos-editais';
 
 main{
-        width: 100%;
-        padding-top: 3rem;
-    }
-
+    width: 100%;
+    padding-top: 12rem;
+}
+    
 #posts{
 
     .blog-post{
@@ -26,6 +26,8 @@ main{
        .blog-post-header{
            position: relative;
            height: 30vw;
+           min-height: 100px;
+           max-height: 250px;
 
            span{
                background-color: $azulEscuro;
@@ -40,6 +42,8 @@ main{
             img{
                 width: 100%;
                 height: 30vw;
+                min-height: 100px;
+                max-height: 250px;
                 object-fit: cover; 
             }
 
@@ -93,7 +97,6 @@ main{
             background-color: #fff;
             padding-right: 15px;
             position: relative;
-            z-index: 1;
         }
         
         &:before{
@@ -107,6 +110,7 @@ main{
             position: absolute;
             top: 50%;
             left: 0;
+            z-index: -1;
         }
     }
     
@@ -182,7 +186,79 @@ main{
         vertical-align: middle;
         text-align: right;  
     }
+
+}
+
+#galeria{
+        background-color: $laranjaClaro;
+        margin-top: 5rem;
+        padding-top: 3rem;
     
+        .content{
+            max-width: 960px;
+            margin: 0 auto;
+   
+            h2{
+                background-color: $laranjaEscuro;
+                color: white;
+                text-transform: uppercase;
+                position: absolute;
+                margin-top: -4rem;
+                padding: .3rem .8rem;
+            }
+
+            ul{
+
+                li{
+                    font-weight: $light;
+                    color: white;
+                    font-size: 1.2rem;
+                    padding-top: 1rem;
+
+                    span{
+                        font-weight: $bold;
+                    }
+
+                    ul{
+                        display: flex;
+
+                        li{
+                            padding: 0;   
+                            display: inline-flex;
+                            position: relative;
+                            flex-grow: 1;
+                            margin: 1.5rem;
+                            margin-left: 0;
+
+                            img{
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                            }
+
+                            &.verMais{
+                                margin-right: 0;
+
+                                a:before{
+                                    content: "VER MAIS";
+                                    height: 0;
+                                    left: 0;
+                                    position: absolute;
+                                    top: 0;
+                                    width: 100%;
+                                    text-align: center;
+                                    font-size: .8rem;
+                                    font-weight: $bold;
+                                    padding: 37% 0 40%;
+                                    background-color: rgba(171, 71, 17, .5);
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
 }
 
 @media screen and (min-width: 992px) {

@@ -10,16 +10,6 @@ and open the template in the editor.
 html {
   font-size: 16px; }
 
-#topoBlog {
-  background-color: #1765AB;
-  padding: 20px;
-  font-weight: 700;
-  text-transform: uppercase;
-  height: 56px; }
-  #topoBlog svg {
-    height: 48px;
-    width: inherit; }
-
 .post-capa {
   position: relative; }
   .post-capa img {
@@ -81,16 +71,6 @@ main {
           margin-bottom: 1rem; }
 
 @media screen and (min-width: 992px) {
-  #topoBlog {
-    position: relative;
-    height: 80px; }
-    #topoBlog svg {
-      height: 200px;
-      position: absolute;
-      z-index: 1;
-      /*transition: height .5s;*/
-      top: 1.8rem; }
-
   .gradient:before {
     content: '';
     position: absolute;
@@ -114,5 +94,3 @@ main {
       main article .post-body {
         max-width: 720px;
         margin: 0 auto 80px; } }
-
-/*# sourceMappingURL=blog-post.css.map */
