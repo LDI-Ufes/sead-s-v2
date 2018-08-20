@@ -70,7 +70,8 @@ header {
     display: inline-flex;
     background-color: #053C7B;
     font-weight: 300;
-    order: 2; }
+    order: 2;
+    z-index: 2; }
     header #barraAuxiliar section.caixa {
       display: inline-flex;
       align-items: center;
@@ -104,7 +105,8 @@ header {
     header #barraAuxiliar #ligacoesExternas > li {
       position: relative;
       display: inline-flex;
-      padding: 1rem 10px; }
+      padding: 1rem 10px;
+      font-size: .9rem; }
       header #barraAuxiliar #ligacoesExternas > li i.fas {
         margin-right: .25rem; }
     header #barraAuxiliar #ligacoesExternas #ligacaoAva #ligacaoAvaBotao {
@@ -142,8 +144,16 @@ header {
           top: calc(60px + 2.4rem); }
     header #topoPrincipal svg, header #topoBlog svg {
       height: 60px; }
+    header #topoPrincipal #busca, header #topoBlog #busca {
+      color: white;
+      background: none;
+      border: none;
+      height: 20px;
+      margin: auto 0; }
   header #topoBlog svg {
     width: 80px; }
+  header #topoPrincipal svg .assinatura {
+    display: none; }
 
 @media screen and (min-width: 992px) {
   header #topoBlog {
@@ -154,7 +164,66 @@ header {
       width: 260px;
       transition: height .5s;
       margin-top: .3rem;
-      padding: 0; } }
+      padding: 0; }
+  header #topoPrincipal svg .assinatura {
+    display: block; } }
+footer {
+  background-color: #053C7B;
+  color: white;
+  font-weight: 300;
+  line-height: 1.7; }
+  footer .content {
+    padding: 2rem 1rem; }
+    footer .content section {
+      display: inline-block;
+      width: 100%; }
+      footer .content section h4 {
+        font-size: 1.2rem;
+        font-weight: 600; }
+        footer .content section h4:after {
+          content: '';
+          display: block;
+          height: 2px;
+          background-color: #E37531;
+          width: 100%;
+          margin-top: .4rem; }
+      footer .content section a:hover {
+        color: #5992DD; }
+  footer .creditos {
+    background-color: #E37531;
+    color: white;
+    height: 3rem;
+    text-align: center; }
+    footer .creditos p {
+      margin: 0;
+      display: inline-block;
+      font-size: .8rem;
+      line-height: 3rem;
+      vertical-align: top;
+      height: inherit;
+      padding-right: .2rem; }
+      footer .creditos p a:hover {
+        color: #053C7B; }
+      footer .creditos p span {
+        display: none; }
+    footer .creditos svg {
+      height: 3rem;
+      width: auto; }
+      footer .creditos svg path {
+        fill: white; }
+
+@media screen and (min-width: 992px) {
+  footer .content {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem 0; }
+    footer .content section {
+      width: calc(50% - .7rem);
+      vertical-align: top; }
+      footer .content section:nth-child(even) {
+        float: right; }
+  footer .creditos p span {
+    display: inline-block; } }
 /*
 position:
 display:

@@ -36,6 +36,7 @@ header {
     background-color: $azulEscuro;
     font-weight: $light;
     order: 2;
+    z-index: 2;
 
     section.caixa {
       display: inline-flex;
@@ -100,6 +101,7 @@ header {
         position: relative;
         display: inline-flex;        
         padding: 1rem 10px;
+        font-size: .9rem;
 
         i.fas {
           margin-right: .25rem;
@@ -169,10 +171,24 @@ header {
     svg {
       height: 60px
     }
+    
+    #busca{
+        color: white;
+        background: none;
+        border: none;
+        height: 20px;
+        margin: auto 0;
+    }
   }
   
   #topoBlog svg{
       width: 80px;
+  }
+  
+  #topoPrincipal svg{
+      .assinatura{
+          display: none;
+      }
   }
   
 }
@@ -189,6 +205,12 @@ header {
                 transition: height .5s;
                 margin-top: .3rem;
                 padding: 0;
+            }
+        }
+        
+        #topoPrincipal svg{
+            .assinatura{
+                display: block;
             }
         }
     }
