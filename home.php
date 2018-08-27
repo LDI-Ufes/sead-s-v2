@@ -2,7 +2,7 @@
 <html lang="pt-BR" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Blog da Sead - Ufes</title>
+    <title>Blog | Sead Ufes</title>
 
     <!-- Contexto do órgão no Portal de Serviços -->
     <meta property="creator.productor" content="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/425">
@@ -21,18 +21,27 @@
         <?php include 'components/topoBlog.php' ?>
       </header>
       
-      <main>
+      <main>  
           <ul id="posts">
+            <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
               <li class="blog-post">
                   <div class="blog-post-header">
                     <span>Seminários</span>
-                    <img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG_20180621_212726229.jpg">
-                    <div class="post-date">28 de julho de 2018</div>
+                    <?php the_post_thumbnail( ); ?>
+                    <div class="post-date"><?php the_date('j \d\e F \d\e Y'); ?></div>
                   </div>
-                  <a href="/sitiosead/1"><h3>A gestão do design no âmbito da produção de materiais didáticos para o ensino a distância</h3></a>
-                <p>A Educação a Distância (EaD) é entendida pelo Decreto nº 5.622, de 19 de dezembro de 2005, como modalidade educacional mediada pelas tecnologias de informação e comunicação, em que os envolvidos desenvolvem atividades em tempos e lugares diversos. </p>
+                  <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
+                <p><?php echo wp_trim_words( get_the_content(), 40, ' [...]' ); ?></p>
               </li>
-              
+            <?php endwhile; ?>
+
+                <div class="nav-right"><?php next_posts_link( 'Notícias antigas  >' ); ?></div>
+                <div class="nav-left"><?php previous_posts_link( '<  Notícias recentes' ); ?></div>
+
+            <?php else : ?>
+                <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
+            <?php endif; ?>
+<!--              
               <li class="blog-post">
                   <div class="blog-post-header">
                     <span>Seminários</span>
@@ -41,7 +50,8 @@
                   </div>
                   <a href=""><h3>A gestão do design no âmbito da produção de materiais didáticos para o ensino a distância</h3></a>
                 <p>A Educação a Distância (EaD) é entendida pelo Decreto nº 5.622, de 19 de dezembro de 2005, como modalidade educacional mediada pelas tecnologias de informação e comunicação, em que os envolvidos desenvolvem atividades em tempos e lugares diversos. </p>
-              </li>
+              </li>-->
+              
           </ul>
           
           <aside>
@@ -71,7 +81,7 @@
                           <li><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG_20180621_212726229.jpg"></li>
                           <li><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG_20180621_212726229.jpg"></li>
                           <li><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG_20180621_212726229.jpg"></li>
-                          <li class="verMais"><a href=""><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG_20180621_212726229.jpg"></a></li>
+                          <li class="verMais"><a href=""><span>Ver mais</span><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG_20180621_212726229.jpg"></a></li>
                       </ul>
                   </li>
                   <li>
@@ -80,7 +90,7 @@
                           <li><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG_20180621_212726229.jpg"></li>
                           <li><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG_20180621_212726229.jpg"></li>
                           <li><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG_20180621_212726229.jpg"></li>
-                          <li class="verMais"><a href=""><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG_20180621_212726229.jpg"></a></li>
+                          <li class="verMais"><a href=""><span>Ver mais</span><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG_20180621_212726229.jpg"></a></li>
                       </ul>
                   </li>
               </ul>

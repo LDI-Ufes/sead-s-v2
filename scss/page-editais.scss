@@ -1,0 +1,41 @@
+@import 'variaveis';
+
+main{
+    max-width: 960px;
+    margin: 3rem auto;
+    
+    #breadcrumbs{
+        font-size: .8rem;
+
+        span{
+            color: $azul;
+            font-size: $semi-bold;
+        }
+    }
+
+    h1{
+        font-size: 2rem;
+        font-weight: $bold;
+        color: $azul;
+    }
+
+    table{
+        width: 100%;
+        line-height: 2rem;
+        font-weight: $light;
+        
+        tr{
+            
+            th, td{
+                border-bottom: 1px solid $azulClaro;
+            }
+            
+            th{
+                color: $laranja;
+                font-weight: $bold;
+                text-align: left;
+            }
+        }
+    }
+    
+}

@@ -71,6 +71,8 @@ main{
             
             img{
                 width: 100%;
+                height: auto;
+                margin-bottom: 1rem;
             }
         }
         
@@ -99,6 +101,25 @@ main{
                     text-transform: uppercase; 
                     margin-bottom: 1rem;
                 }
+            }
+        }
+        
+        .links-compartilhamento{
+            color: $laranja;
+            font-weight: $light;
+            border-top: solid 2px $laranja;
+            margin-top: 5rem;
+            line-height: 3rem;
+            
+            span{
+                font-weight: $semi-bold;
+                display: none;
+            }
+            
+            a{
+                margin-top: -.5rem;
+                font-size: 1.5rem;
+                display: block;;
             }
         }
         
@@ -138,6 +159,16 @@ main{
             .post-body{
                 max-width: 720px;
                 margin: 0 auto 80px;
+            }
+            
+            .links-compartilhamento{         
+                span{
+                    display: inline-block;
+                }
+                a{
+                    float: right;
+                    margin-top: .5rem;
+                }
             }
         }
     }

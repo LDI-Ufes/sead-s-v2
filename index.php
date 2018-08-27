@@ -6,7 +6,7 @@
 
     <!-- Contexto do órgão no Portal de Serviços -->
     <meta property="creator.productor" content="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/425">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="<?php echo site_url(); ?>/wp-content/themes/sead-v2/style.css">
 
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,700" rel="stylesheet"> <!-- Conferir necessidade de variações -->

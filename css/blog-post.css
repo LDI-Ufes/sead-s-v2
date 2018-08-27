@@ -50,7 +50,9 @@ main {
         margin-left: auto;
         line-height: 1.8; }
       main article .post-body img {
-        width: 100%; }
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem; }
     main article .post-autor {
       display: inline-flex; }
       main article .post-autor .autor-avatar {
@@ -69,6 +71,19 @@ main {
           color: #E37531;
           text-transform: uppercase;
           margin-bottom: 1rem; }
+    main article .links-compartilhamento {
+      color: #E37531;
+      font-weight: 300;
+      border-top: solid 2px #E37531;
+      margin-top: 5rem;
+      line-height: 3rem; }
+      main article .links-compartilhamento span {
+        font-weight: 600;
+        display: none; }
+      main article .links-compartilhamento a {
+        margin-top: -.5rem;
+        font-size: 1.5rem;
+        display: block; }
 
 @media screen and (min-width: 992px) {
   .gradient:before {
@@ -93,4 +108,9 @@ main {
         margin-top: 4rem; }
       main article .post-body {
         max-width: 720px;
-        margin: 0 auto 80px; } }
+        margin: 0 auto 80px; }
+      main article .links-compartilhamento span {
+        display: inline-block; }
+      main article .links-compartilhamento a {
+        float: right;
+        margin-top: .5rem; } }

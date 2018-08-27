@@ -46,7 +46,7 @@ footer{
             line-height: 3rem;
             vertical-align: top;
             height: inherit;
-            padding-right: .2rem;
+            /*padding-right: .2rem;*/
             
             a:hover{
                 color: $azulEscuro;
@@ -60,6 +60,7 @@ footer{
         svg{
             height: 3rem;
             width: auto;
+            margin-bottom: -1rem;
             
             path{
                 fill: white;

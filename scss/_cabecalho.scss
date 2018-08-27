@@ -28,7 +28,7 @@ header {
       text-decoration-color: $laranja;
     }
   }
-
+  
   #barra-brasil {order: 1;}
 
   #barraAuxiliar {
@@ -138,6 +138,7 @@ header {
     text-transform: uppercase;
     order: 3;
     z-index: 1;
+    position: relative;
 
     > section {
       display: inline-flex;
@@ -149,30 +150,30 @@ header {
     }
 
     #menuPrincipal {
-      display: inline-flex;
-      align-items: center;
-
-      li {
         display: inline-flex;
-        align-items: center;
-        height: 60px;
-        padding: 1.2rem .6rem;
+        width: 100%;
+        justify-content: flex-end;
+        
+      #menuHamburguer{
+          display: block;
+          order: 2;
       }
       
-      .temSubnivel {
-        position: relative;
-        
-        .menuSuspenso {
-          top: calc(60px + 2.4rem);
-        }
+      #itensMenu{
+          display: none;
+          
+          &.menuSuspenso{
+              display: block;
+              visibility: visible;
+              width: 100%;
+              top: 80px; /* relativizar pela altura da barra */
+              right: 0;
+              padding: 0;
+          }
       }
     }
-
-    svg {
-      height: 60px
-    }
     
-    #busca{
+    button{
         color: white;
         background: none;
         border: none;
@@ -186,6 +187,8 @@ header {
   }
   
   #topoPrincipal svg{
+      height: 32px;
+      
       .assinatura{
           display: none;
       }
@@ -203,14 +206,43 @@ header {
                 height: 200px;
                 width: 260px;
                 transition: height .5s;
-                margin-top: .3rem;
                 padding: 0;
             }
         }
         
-        #topoPrincipal svg{
-            .assinatura{
-                display: block;
+        #topoPrincipal{
+            
+            svg{
+                height: 60px;
+                
+                .assinatura{
+                    display: block;
+                }
+            }
+            
+            #menuPrincipal{
+   
+                li {
+                  display: inline-flex;
+                  align-items: center;
+                  height: 60px;
+                  padding: 1.2rem .6rem;
+                }
+
+                .temSubnivel {
+                  position: relative;
+
+                  .menuSuspenso {
+                    top: calc(60px + 2.4rem);
+                  }
+                }
+        
+                #menuHamburguer{
+                  display: none;
+                }
+                #itensMenu{
+                    display: block;
+                }
             }
         }
     }

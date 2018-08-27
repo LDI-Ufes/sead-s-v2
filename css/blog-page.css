@@ -127,6 +127,12 @@ main {
     font-weight: 400;
     line-height: 1.5;
     margin: 1rem 1.5rem; }
+#posts .nav-left, #posts .nav-right {
+  color: #E37531; }
+#posts .nav-right {
+  float: right; }
+#posts .nav-left {
+  float: left; }
 
 #informativo {
   margin-top: 2rem;
@@ -244,16 +250,22 @@ main {
             object-fit: cover; }
           #galeria .content ul li ul li.verMais {
             margin-right: 0; }
+            #galeria .content ul li ul li.verMais span {
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              text-transform: uppercase;
+              text-align: center;
+              font-size: .8rem;
+              font-weight: 700;
+              padding: 37% 0 40%; }
             #galeria .content ul li ul li.verMais a:before {
-              content: "VER MAIS";
+              content: "";
               height: 0;
               left: 0;
               position: absolute;
               top: 0;
               width: 100%;
-              text-align: center;
-              font-size: .8rem;
-              font-weight: 700;
               padding: 37% 0 40%;
               background-color: rgba(171, 71, 17, 0.5); }
     #galeria .content button {
