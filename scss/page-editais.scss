@@ -1,8 +1,7 @@
 @import 'variaveis';
 
 main{
-    max-width: 960px;
-    margin: 3rem auto;
+    margin: 2rem 1rem;
     
     #breadcrumbs{
         font-size: .8rem;
@@ -19,23 +18,100 @@ main{
         color: $azul;
     }
 
-    table{
+    #filtros{
+        #aplicados{}
+    }
+    
+    
+    #editais{
         width: 100%;
-        line-height: 2rem;
         font-weight: $light;
+        border-bottom: 1px solid $azulClaro;
         
-        tr{
+        
+        li{
+            border-top: 1px solid $azulClaro;
+            position: relative;
             
-            th, td{
-                border-bottom: 1px solid $azulClaro;
-            }
-            
-            th{
+            h3{
                 color: $laranja;
                 font-weight: $bold;
-                text-align: left;
+                
+                a{
+                    border-bottom: solid 1.5px $laranja;
+                    
+                    &:hover{
+                        border-color: $laranjaEscuro;
+                        color: $laranjaEscuro;
+                    }
+                }
+            }
+            
+            .atribuicao{
+                font-weight: $regular;
+            }
+            
+            .tipo-de-curso{
+                font-style: italic;
+                margin: .3rem 0;
+            }
+            
+            .curso{
+                margin: .3rem 0;
+            }
+            
+            .finalizacao{
+                font-style: italic;
+                color: gray;
+                font-weight: $regular;
+            }
+            
+            .status{
+                font-weight: $bold;
+                color: lightgrey;
+                position: absolute;
+                top: 0;
+                right: 0;
             }
         }
     }
     
+}
+@media screen and (min-width: 992px) {
+    
+    main{
+        max-width: 960px;
+        margin: 3rem auto;
+        
+        #editais{
+            
+            li{
+                
+                /*justify-content: space-between;*/
+                
+                p, h3{
+                    margin: 1rem 0 !important;
+                    position: relative !important;
+                    display: inline-block;
+                    font-size: 1rem;
+                    vertical-align: top;
+                }
+                
+                h3{width: 15%;}
+                .atribuicao{width: 15%;}
+                .tipo-de-curso{width: 15%;}
+                .curso{width: 25%;}
+                .finalizacao{width: 22%;}
+                .status{width: 8%;}
+                
+                .atribuicao, .tipo-de-curso, .curso, .finalizacao{
+                    font-weight: $light;
+                    color: black;
+                    font-style: normal;
+                    
+                }
+                
+            }
+        }
+    }
 }

@@ -40,18 +40,7 @@
 
             <?php else : ?>
                 <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
-            <?php endif; ?>
-<!--              
-              <li class="blog-post">
-                  <div class="blog-post-header">
-                    <span>Seminários</span>
-                    <img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG_20180621_212726229.jpg">
-                    <div class="post-date">28 de julho de 2018</div>
-                  </div>
-                  <a href=""><h3>A gestão do design no âmbito da produção de materiais didáticos para o ensino a distância</h3></a>
-                <p>A Educação a Distância (EaD) é entendida pelo Decreto nº 5.622, de 19 de dezembro de 2005, como modalidade educacional mediada pelas tecnologias de informação e comunicação, em que os envolvidos desenvolvem atividades em tempos e lugares diversos. </p>
-              </li>-->
-              
+            <?php endif; ?>              
           </ul>
           
           <aside>

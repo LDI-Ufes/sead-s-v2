@@ -27,6 +27,21 @@ if (!function_exists('sitiosead_setup')) :
 endif; // sitiosead_setup
 add_action('after_setup_theme', 'sitiosead_setup');
 
+function create_post_type() {
+  register_post_type( 'edital',
+    array(
+      'labels' => array(
+        'name' => __( 'Editais' ),
+        'singular_name' => __( 'Edital' )
+      ),
+      'public' => true,
+      'has_archive' => true,
+      'menu_icon' => 'dashicons-admin-links',
+    )
+  );
+}
+add_action( 'init', 'create_post_type' );
+
 ?>
 
 <?php include 'plugins/campo-customizado-autor.php' ?>

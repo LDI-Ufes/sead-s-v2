@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo site_url(); ?>/wp-content/themes/sead-v2/style.css">
     <link rel="stylesheet" type="text/css" href="<?php echo site_url(); ?>/wp-content/themes/sead-v2/css/page-editais.css">
     
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,600,700,700i" rel="stylesheet"> <!-- Conferir necessidade de variações -->
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,300i,400,400i,500,600,700,700i" rel="stylesheet">  <!-- Conferir necessidade de variações -->
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700i" rel="stylesheet"> <!-- Conferir necessidade de variações -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   </head>
@@ -26,35 +26,48 @@
           <h1>Editais</h1>
           
           <div id="filtros">
-              
+              <div id="aplicados"></div>
           </div>
           
-          <table>
-              <tr>
-                  <th>Edital</th>
-                  <th>Curso</th>
-                  <th>Atribuição</th>
-                  <th>Formação</th>
-                  <th>Finalização</th>
-                  <th>Status</th>
-              </tr>
-              <tr>
-                  <td>003/2018</td>
-                  <td>Licenciatura em Pedagogia</td>
-                  <td>Tutor Presencial</td>
-                  <td>Graduação</td>
-                  <td>11/11/2018</td>
-                  <td>aberto</td>                   
-              </tr>
-              <tr>
-                  <td>003/2018</td>
-                  <td>Licenciatura em Pedagogia</td>
-                  <td>Tutor Presencial</td>
-                  <td>Graduação</td>
-                  <td>11/11/2018</td>
-                  <td>aberto</td>                   
-              </tr>
-          </table>
+          <ul id="editais" class="content">
+              <li>
+                  <h3><a href="">Edital 003/2018</a></h3><!--
+                  --><p class="atribuicao">Tutor Presencial</p><!--
+                  --><p class="tipo-de-curso">Graduação</p><!--
+                  --><p class="curso">Licenciatura em Pedagogia</p><!--
+                  --><p class="finalizacao">Finalização em 11/11/2018</p><!--
+                  --><p class="status">aberto</p>
+              </li>
+              <li>
+                  <h3><a href="">Edital 003/2018</a></h3><p class="atribuicao">Professor Orientador (TCC)</p><p class="tipo-de-curso">Aperfeiçoamento</p><p class="curso">Oratória, transversalidade e didátida da fala para formação de professores</p><p class="finalizacao">Finalização em 11/11/2018</p><p class="status">encerrado</p>
+              </li>
+              <li>
+                  <h3><a href="">Edital 003/2018</a></h3><!--
+                  --><p class="atribuicao">Tutor a Distância</p><!--
+                  --><p class="tipo-de-curso">Graduação</p><!--
+                  --><p class="curso">Licenciatura em Pedagogia</p><!--
+                  --><p class="finalizacao">Finalização em 11/11/2018</p><!--
+                  --><p class="status">aberto</p>
+              </li>
+
+                
+            <?php
+            if ( get_query_var('paged') ) $paged = get_query_var('paged');  
+            if ( get_query_var('page') ) $paged = get_query_var('page');
+
+            $query = new WP_Query( array( 'post_type' => 'edital', 'paged' => $paged ) );
+
+            if ( $query->have_posts() ) : ?>
+                    <?php while ( $query->have_posts() ) : $query->the_post(); ?>	
+                        <li>
+                            <h3><?php the_title(); ?></h3>
+                        </li>
+                    <?php endwhile; wp_reset_postdata(); ?>
+                    <!-- show pagination here -->
+            <?php else : ?>
+                    <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
+            <?php endif; ?>
+          </ul>
           
           
       </main>
