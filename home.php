@@ -37,7 +37,7 @@
 
                 <div class="nav-right"><?php next_posts_link( 'Notícias antigas  >' ); ?></div>
                 <div class="nav-left"><?php previous_posts_link( '<  Notícias recentes' ); ?></div>
-
+            <?php wp_reset_postdata(); ?>
             <?php else : ?>
                 <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
             <?php endif; ?>              

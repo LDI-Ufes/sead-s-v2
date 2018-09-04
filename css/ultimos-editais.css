@@ -1,12 +1,3 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 15/08/2018, 09:09:53
-    Author     : isabela.zucarato
-*/
 #ultimos-editais {
   background-color: rgba(89, 146, 221, 0.15);
   padding: 1.5rem; }
@@ -14,7 +5,10 @@ and open the template in the editor.
     font-style: italic;
     font-weight: 700;
     position: absolute;
-    margin-top: -4.5rem; }
+    margin: 0 auto;
+    margin-top: -4.5rem;
+    min-width: 600px;
+    max-width: 80%; }
     #ultimos-editais .box-title span {
       color: #E37531;
       font-size: 8rem;

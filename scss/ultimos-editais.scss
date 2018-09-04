@@ -1,13 +1,3 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 15/08/2018, 09:09:53
-    Author     : isabela.zucarato
-*/
-
 @import 'variaveis';
 
 #ultimos-editais{
@@ -18,7 +8,11 @@ and open the template in the editor.
         font-style: italic;
         font-weight: $bold;
         position: absolute;
+        margin: 0 auto;
         margin-top: -4.5rem;
+        min-width: 600px;
+        max-width: 80%;
+        
         
         span{
             color: $laranja;

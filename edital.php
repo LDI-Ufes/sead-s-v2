@@ -23,6 +23,7 @@
       
       <main>
         <!--Inserir conteúdo-->
+        <section id="breadcrumbs">Você está em: <a href="/sitiosead/editais">Editais</a> > <span><?php the_title(); ?></span></section>
         <h1><?php the_title(); ?></h1>
       </main>
           

@@ -28,10 +28,46 @@ body {
     #topoSuperior, #topoPrincipal, #topoBlog {
       border-bottom: 1px solid white;
     }
-  }
+  } 
 }
 
 section.caixa {
   margin: 0 auto;
   width: 960px;
+}
+
+main{
+    margin: 2rem 1rem;
+    
+    #breadcrumbs{
+        font-size: .8rem;
+        
+        a{
+            color: $azul;
+            font-weight: $medium;
+            
+            &:hover{
+                color: $laranja;
+                text-decoration: underline;
+            }
+        }
+
+        span{
+            color: $azulClaro;
+        }
+    }
+
+    h1{
+        font-size: 2rem;
+        font-weight: $bold;
+        color: $azul;
+    }
+  }
+
+@media screen and (min-width: 992px) {
+    
+    main{
+        max-width: 960px;
+        margin: 3rem auto;
+    }
 }

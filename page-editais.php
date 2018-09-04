@@ -55,17 +55,17 @@
             if ( get_query_var('paged') ) $paged = get_query_var('paged');  
             if ( get_query_var('page') ) $paged = get_query_var('page');
 
-            $query = new WP_Query( array( 'post_type' => 'edital', 'paged' => $paged ) );
+            $editais = new WP_Query( array( 'post_type' => 'edital', 'paged' => $paged ) );
 
-            if ( $query->have_posts() ) : ?>
-                    <?php while ( $query->have_posts() ) : $query->the_post(); ?>	
+            if ( $editais->have_posts() ) : ?>
+                    <?php while ( $editais->have_posts() ) : $editais->the_post(); ?>	
                         <li>
-                            <h3><?php the_title(); ?></h3>
+                            <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
                         </li>
                     <?php endwhile; wp_reset_postdata(); ?>
                     <!-- show pagination here -->
             <?php else : ?>
-                    <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
+                    <p><?php esc_html_e( 'Não há editais cadastrados.' ); ?></p>
             <?php endif; ?>
           </ul>
           

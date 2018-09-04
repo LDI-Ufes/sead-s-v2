@@ -101,16 +101,14 @@ main {
     max-width: 960px;
     margin: 0 auto;
     padding: 0; }
-    main article {
-      font-size: 1.25rem; }
-      main article h1 {
-        font-size: 2.75rem;
-        margin-top: 4rem; }
-      main article .post-body {
-        max-width: 720px;
-        margin: 0 auto 80px; }
-      main article .links-compartilhamento span {
-        display: inline-block; }
-      main article .links-compartilhamento a {
-        float: right;
-        margin-top: .5rem; } }
+    main article h1 {
+      font-size: 2.75rem;
+      margin-top: 4rem; }
+    main article .post-body {
+      max-width: 720px;
+      margin: 0 auto 80px; }
+    main article .links-compartilhamento span {
+      display: inline-block; }
+    main article .links-compartilhamento a {
+      float: right;
+      margin-top: .5rem; } }

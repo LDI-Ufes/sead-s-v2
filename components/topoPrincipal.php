@@ -13,9 +13,9 @@
                     <li><a href="">Contatos</a></li>
                   </ul>
                 </li>
-                <li><a href="">Editais</a></li>
+                <li><a href="/sitiosead/editais">Editais</a></li>
                 <li><a href="">Cursos</a></li>
-                <li><a href="">Polos</a></li>            
+                <li><a href="/sitiosead/polos">Polos</a></li>            
                 <li><a href="/sitiosead/blog">Notícias</a></li>
             </ul>
             <button id="busca"><i class="fas fa-search"></i></button>

@@ -1,23 +1,6 @@
 @import 'variaveis';
 
 main{
-    margin: 2rem 1rem;
-    
-    #breadcrumbs{
-        font-size: .8rem;
-
-        span{
-            color: $azul;
-            font-size: $semi-bold;
-        }
-    }
-
-    h1{
-        font-size: 2rem;
-        font-weight: $bold;
-        color: $azul;
-    }
-
     #filtros{
         #aplicados{}
     }
@@ -80,8 +63,6 @@ main{
 @media screen and (min-width: 992px) {
     
     main{
-        max-width: 960px;
-        margin: 3rem auto;
         
         #editais{
             

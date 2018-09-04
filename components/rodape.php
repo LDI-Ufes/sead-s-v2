@@ -12,12 +12,18 @@
     <section>
         <h4>Mapa do sítio</h4>
         <ul>
-            <li><a href="">Início</a></li>
-            <li><a href="">Ensino</a></li>
-            <li><a href="">Editais</a></li>
-            <li><a href="">Cursos</a></li>
-            <li><a href="">Polos</a></li>
-            <li><a href="">Notícias</a></li>             
+            <li><a href="/sitiosead">Início</a></li>
+            <li>Ensino
+                <ul class="subitens">
+                    <li><a href="">Como é a Ead na Ufes?</a></li>
+                    <li><a href="">A Secretaria</a></li>
+                    <li><a href="">Contatos</a></li>
+                </ul>
+            </li>
+            <li><a href="/sitiosead/editais">Editais</a></li>
+            <li><a href="/sitiosead/cursos">Cursos</a></li>
+            <li><a href="/sitiosead/polos">Polos</a></li>
+            <li><a href="/sitiosead/blog">Notícias</a></li>             
         </ul>
     </section>
         
@@ -30,7 +36,7 @@
     </section>
         
     <section>
-        <h4>Ambiente Ead Ufes</h4>
+        <h4>Ambiente EaD Ufes</h4>
         <ul>
             <li><a href="http://acervodigital.eadufes.org/">Acervo Digital</a></li>
             <li><a href="http://www.ead.ufes.br/">AVA Graduação</a></li>

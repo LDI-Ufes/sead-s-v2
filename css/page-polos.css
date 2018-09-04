@@ -1,0 +1,16 @@
+main .conteudo {
+  line-height: 1.8rem; }
+  main .conteudo p {
+    font-weight: 300; }
+  main .conteudo blockquote {
+    color: #E37531;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+    margin: 2rem 0;
+    font-size: 1.25rem; }
+
+@media screen and (min-width: 992px) {
+  main .conteudo {
+    max-width: 720px;
+    margin: 0 auto; } }
