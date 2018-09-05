@@ -70,9 +70,9 @@
 
         <section id="noticias">
             <?php           
-            $latest_posts = new WP_Query( array( 'post_type' => 'post', 'posts_per_page' => 4 ) );
+            $latest_posts = new WP_Query( array( 'posts_per_page' => 4 ) );
             
-            if ( $latest_posts->have_posts() ) : while ( have_posts() ) : the_post(); ?>
+            if ( $latest_posts->have_posts() ) : while ( $latest_posts->have_posts() ) : $latest_posts->the_post(); ?>
             <div class="noticia">
                 <?php the_post_thumbnail( ); ?>
                 <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
@@ -105,7 +105,7 @@
         </section>
         
         <section id="polos">
-            <?php include 'svg/mapaES.svg' ?>
+            <?php include 'svg/mapaInicio.svg' ?>
             <h2>A EaD está presente em todo o estado!</h2>
             <p>Atualmente a Ufes oferta cursos EaD em 27 Polos Municipais de Apoio Presencial – UAB.</p>
             <a href="/sitiosead/polos">Conheça nossos polos!</a>

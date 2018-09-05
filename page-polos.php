@@ -38,13 +38,18 @@
             <p>A Secretaria de Educação a Distância-SEAD da Universidade Federal do Espírito Santo-UFES está presente em 27 polos de apoio presencial da Universidade Aberta do Brasil (UAB), estratégicamente espalhados por várias regiões do estado do Espírito Santo.
             </p>
         </section>
-        <section id="mapaInterativo">
-            
+        <section id="mapaInterativo">         
+            <div class="popoverMunicipios">
+                <div id="mostrarContatoPolo">
+                    <p>Clique sobre os municípios para mais informações</p>
+                </div>
+            </div>
+            <?php get_template_part('svg/inline', 'mapaES') ?>
         </section>
       </main>
       
       <?php include 'components/rodape.php' ?>
-      
+    <script src="<?php echo site_url(); ?>/wp-content/themes/sead-v2/js/mostrarContatoPolo.js"></script>  
     <script defer="defer" src="//barra.brasil.gov.br/barra.js"></script>          
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="<?php echo site_url(); ?>/wp-content/themes/sead-v2/js/altoContraste.js"></script>
