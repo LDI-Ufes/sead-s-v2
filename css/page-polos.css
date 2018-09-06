@@ -59,4 +59,4 @@ main svg #comPolos g:hover {
   main #mapaInterativo .popoverMunicipios {
     width: 30%; }
     main #mapaInterativo .popoverMunicipios:before {
-      width: 40%; } }
+      width: 30rem; } }

@@ -34,9 +34,10 @@
                 <p><?php echo wp_trim_words( get_the_content(), 40, ' [...]' ); ?></p>
               </li>
             <?php endwhile; ?>
-
+            <div id="postsNav">  
                 <div class="nav-right"><?php next_posts_link( 'Notícias antigas  >' ); ?></div>
                 <div class="nav-left"><?php previous_posts_link( '<  Notícias recentes' ); ?></div>
+            </div>
             <?php wp_reset_postdata(); ?>
             <?php else : ?>
                 <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>

@@ -223,7 +223,7 @@ var Vitoria ={
 };
 
 function template(municipio){
-    return  '<h2>'+ municipio.nome + '</h2>' +
+    return  '<h2 id="municipioTitulo">'+ municipio.nome + '</h2>' +
             '<i class="fa fa-user"></i> <b>Coordenador</b><br>' +
                     municipio.coord + '<br><br>' +
             '<i class="fa fa-envelope" style="margin-right:5px;"></i> <b>E-mail(s)</b> <br>' +
@@ -238,4 +238,5 @@ function mostrarContatoPolo(municipio){
     $('#mostrarContatoPolo').html(template(municipio));
     $('.geografia').css('fill','#5992DD');
     $(idt).css('fill','#FDA65B');
+    $('#municipioTitulo').focus();
 }

@@ -84,16 +84,17 @@ main{
         }
     }
     
-    .nav-left, .nav-right {
+    #postsNav{
         color: $laranja;
-    }
-    
-    .nav-right{
-        float: right;
-    }
-    
-    .nav-left{
-        float: left;
+        padding: 0 1rem 6rem;
+        
+        .nav-right{
+            float: right;
+        }
+
+        .nav-left{
+            float: left;
+        }
     }
 }
 
@@ -336,13 +337,17 @@ main{
 
             }
         }
+        
+        #postsNav{
+            padding: 0 0 2rem;
+        }
     }
     
     aside{
-        float: right;
         display: inline-block;
         width: 320px;
         vertical-align: top;
+        margin-left: 75px;
     }
     
     #informativo{
@@ -350,6 +355,7 @@ main{
     }
     
     #galeria{
+
         padding: 2rem 0 5rem;
     }
 }

@@ -37,10 +37,22 @@ function create_post_type() {
       'public' => true,
       'has_archive' => true,
       'menu_icon' => 'dashicons-admin-links',
+//      'taxonomies' => array(
+//          'curso', 
+//          'formacao',
+//          'atribuicao',
+//          'category'
+//      ),
+//      'supports' => array( 
+//        'title', 
+//        'custom-fields', 
+//        'revisions' 
+//      )  
     )
   );
 }
 add_action( 'init', 'create_post_type' );
+
 
 ?>
 

@@ -59,7 +59,8 @@ main {
   main h1 {
     font-size: 2rem;
     font-weight: 700;
-    color: #1765AB; }
+    color: #1765AB;
+    padding: 2rem 0 1rem; }
 
 @media screen and (min-width: 992px) {
   main {

@@ -46,7 +46,8 @@
       #ultimos-editais ul li p {
         color: #053C7B;
         margin: .5rem 0;
-        font-size: .8rem; }
+        font-size: .8rem;
+        line-height: 1.5; }
         #ultimos-editais ul li p.atribuicao {
           color: black;
           font-weight: 300;

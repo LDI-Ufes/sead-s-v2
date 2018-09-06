@@ -55,7 +55,8 @@ and open the template in the editor.
       #ultimos-editais ul li p {
         color: #053C7B;
         margin: .5rem 0;
-        font-size: .8rem; }
+        font-size: .8rem;
+        line-height: 1.5; }
         #ultimos-editais ul li p.atribuicao {
           color: black;
           font-weight: 300;
@@ -122,12 +123,13 @@ main {
     font-weight: 400;
     line-height: 1.5;
     margin: 1rem 1.5rem; }
-#posts .nav-left, #posts .nav-right {
-  color: #E37531; }
-#posts .nav-right {
-  float: right; }
-#posts .nav-left {
-  float: left; }
+#posts #postsNav {
+  color: #E37531;
+  padding: 0 1rem 6rem; }
+  #posts #postsNav .nav-right {
+    float: right; }
+  #posts #postsNav .nav-left {
+    float: left; }
 
 #informativo {
   margin-top: 2rem;
@@ -295,12 +297,14 @@ main {
         font-size: 1rem; }
     #posts .blog-post h3, #posts .blog-post p {
       margin: 1rem 0; }
+    #posts #postsNav {
+      padding: 0 0 2rem; }
 
   aside {
-    float: right;
     display: inline-block;
     width: 320px;
-    vertical-align: top; }
+    vertical-align: top;
+    margin-left: 75px; }
 
   #informativo {
     padding: 0; }
