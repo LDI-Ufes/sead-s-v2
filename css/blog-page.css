@@ -45,6 +45,10 @@ and open the template in the editor.
         font-weight: 400;
         display: inline-block;
         margin: 0 .5rem 0 0; }
+        #ultimos-editais ul li h3:hover {
+          border-bottom: solid 1px #AB4711;
+          font-weight: semi-bold;
+          color: #AB4711; }
       #ultimos-editais ul li em {
         background-color: #E37531;
         color: white;
@@ -118,6 +122,8 @@ main {
     font-weight: 600;
     font-size: 1.3rem;
     margin: 1.5rem; }
+    #posts .blog-post h3 a:hover {
+      border-bottom: solid 1px #053C7B; }
   #posts .blog-post p {
     font-family: "Merriweather", serif;
     font-weight: 400;
@@ -126,6 +132,9 @@ main {
 #posts #postsNav {
   color: #E37531;
   padding: 0 1rem 6rem; }
+  #posts #postsNav a:hover {
+    border-bottom: solid 1px #AB4711;
+    color: #AB4711; }
   #posts #postsNav .nav-right {
     float: right; }
   #posts #postsNav .nav-left {
@@ -209,6 +218,8 @@ main {
     width: 30%;
     vertical-align: middle;
     text-align: right; }
+  .social-media:hover {
+    background: linear-gradient(45deg, #053C7B, #5992DD); }
 
 #galeria {
   background-color: #FDA65B;
@@ -247,7 +258,7 @@ main {
             object-fit: cover; }
           #galeria .content ul li ul li.verMais {
             margin-right: 0; }
-            #galeria .content ul li ul li.verMais span {
+            #galeria .content ul li ul li.verMais a span {
               position: absolute;
               width: 100%;
               text-transform: uppercase;
@@ -264,6 +275,8 @@ main {
               width: 100%;
               padding: 38% 0 40%;
               background-color: rgba(171, 71, 17, 0.5); }
+            #galeria .content ul li ul li.verMais a:hover:before {
+              background-color: rgba(171, 71, 17, 0.6); }
     #galeria .content button {
       background-color: white;
       color: #AB4711;
@@ -276,6 +289,9 @@ main {
       padding: 0 1rem;
       float: right;
       margin-top: .5rem; }
+      #galeria .content button:hover {
+        background-color: #AB4711;
+        color: white; }
 
 @media screen and (min-width: 992px) {
   main {

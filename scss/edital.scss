@@ -69,6 +69,10 @@
             padding: .6rem 2rem;
             margin: 1rem 0;
             font-weight: $medium;
+            
+            &:hover{
+                background-color: $laranjaEscuro;                
+            }
         }
     }
 }

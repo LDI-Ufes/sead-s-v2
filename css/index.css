@@ -36,6 +36,10 @@
         font-weight: 400;
         display: inline-block;
         margin: 0 .5rem 0 0; }
+        #ultimos-editais ul li h3:hover {
+          border-bottom: solid 1px #AB4711;
+          font-weight: semi-bold;
+          color: #AB4711; }
       #ultimos-editais ul li em {
         background-color: #E37531;
         color: white;
@@ -138,16 +142,22 @@ main {
           height: 4rem; }
         main #quer-ser #quer-ser-itens li .numero {
           color: #AB4711;
-          font-size: 3rem;
+          font-size: 2.8rem;
           font-weight: 700;
           background-color: white;
           width: 4rem;
+          line-height: 1.4;
           border-radius: 2rem;
           text-align: center; }
         main #quer-ser #quer-ser-itens li .instrucao {
           width: 180px;
-          vertical-align: middle;
-          margin-left: 1rem; }
+          vertical-align: bottom;
+          margin-left: 1rem;
+          display: inline-block;
+          line-height: 1.5; }
+          main #quer-ser #quer-ser-itens li .instrucao:hover {
+            text-decoration: underline;
+            cursor: pointer; }
       main #quer-ser #quer-ser-itens:before {
         content: '';
         position: absolute;
@@ -191,6 +201,8 @@ main {
         font-size: 4rem; }
         main #noticias .confira-mais button:last-child {
           margin-left: 1rem; }
+        main #noticias .confira-mais button:hover {
+          background-image: linear-gradient(#053C7B, #5992DD); }
         main #noticias .confira-mais button svg {
           max-width: 5rem;
           margin-top: -0.5rem; }
@@ -229,6 +241,8 @@ main {
         font-size: 1.2rem;
         line-height: 2rem;
         padding-bottom: 0; }
+        main #noticias .noticia h3 a:hover {
+          border-bottom: solid 1px white; }
   main #polos {
     color: #053C7B;
     background-color: #FDA65B;
@@ -254,6 +268,8 @@ main {
       font-style: italic;
       font-weight: 700;
       font-size: 1.5rem; }
+      main #polos a:hover {
+        border-bottom: solid 1px #053C7B; }
     main #polos svg {
       display: none; }
 

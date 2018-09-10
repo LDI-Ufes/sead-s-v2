@@ -48,6 +48,12 @@
                 font-weight: $regular;
                 display: inline-block;
                 margin: 0 .5rem 0 0;
+                
+                &:hover{
+                    border-bottom: solid 1px $laranjaEscuro;
+                    font-weight: semi-bold;
+                    color: $laranjaEscuro;
+                }
             }
 
             em{

@@ -2,7 +2,7 @@
     <div class="box-title"><span>#</span><h2>&nbsp últimos<br>editais</h2></div>
     <ul>
         <li>
-            <h3>Edital n°003/2018</h3>
+            <h3><a href="">Edital n°003/2018</a></h3>
             <em>inscrições abertas</em>
             <p class="atribuicao">Professores Orientadores (TCC)</p>
             <p>Especialização em Oratória, Transversalidade e Didática da Fala para Formação de Professores</p>

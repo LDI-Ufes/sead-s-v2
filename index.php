@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo site_url(); ?>/wp-content/themes/sead-v2/style.css">
     <link rel="stylesheet" type="text/css" href="<?php echo site_url(); ?>/wp-content/themes/sead-v2/css/index.css">
     
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,700" rel="stylesheet"> <!-- Conferir necessidade de variações -->
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,600,700" rel="stylesheet"> <!-- Conferir necessidade de variações -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   </head>
   <body>
@@ -58,10 +58,10 @@
             <div id="quer-ser-itens">
                 <ul><div class="content">
                     <li>
-                        <div class="numero">1</div><div class="instrucao">Veja como funciona a EaD da Ufes<i class="fas fa-external-link-square-alt"></i></div>
+                        <div class="numero">1</div><a class="instrucao">Veja como funciona a EaD da Ufes<i class="fas fa-external-link-square-alt"></i></a>
                     </li>
                     <li>
-                        <div class="numero">2</div><div class="instrucao">Fique de olho nos próximos editais<i class="fas fa-external-link-square-alt"></i></div>
+                        <div class="numero">2</div><a class="instrucao">Fique de olho nos próximos editais<i class="fas fa-external-link-square-alt"></i></a>
                     </li></div>
                 </ul>
             </div>
@@ -99,8 +99,8 @@
             </div>-->
             <div class="confira-mais">
                 <h2>Confira mais do que acontece nos polos</h2>
-                <button><i class="fab fa-facebook-f"></i></button>
-                <button><?php include 'svg/nossoBLOG.svg'?></button>
+                <button title="Visite o Facebook da Sead"><i class="fab fa-facebook-f"></i></button>
+                <button title="Vá para a página Blog"><?php include 'svg/nossoBLOG.svg'?></button>
             </div>
         </section>
         

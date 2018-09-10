@@ -74,6 +74,10 @@ main{
             font-weight: $semi-bold;
             font-size: 1.3rem;
             margin: 1.5rem;
+            
+            a:hover{
+                border-bottom: solid 1px $azulEscuro;
+            }
         }
 
         p{
@@ -87,6 +91,11 @@ main{
     #postsNav{
         color: $laranja;
         padding: 0 1rem 6rem;
+        
+        a:hover{
+            border-bottom: solid 1px $laranjaEscuro;
+            color: $laranjaEscuro;
+        }
         
         .nav-right{
             float: right;
@@ -179,7 +188,7 @@ main{
 }
 
 .social-media{
-    background: linear-gradient(45deg, #053C7B, #1765AB);
+    background: linear-gradient(45deg, $azulEscuro, $azul);
     border: none;
     color: white;
     width: 100%;
@@ -202,6 +211,10 @@ main{
         width: 30%;
         vertical-align: middle;
         text-align: right;  
+    }
+    
+    &:hover{
+        background: linear-gradient(45deg, $azulEscuro, $azulClaro);
     }
 
 }
@@ -256,27 +269,35 @@ main{
 
                             &.verMais{
                                 margin-right: 0;
-
-                                span{
-                                    position: absolute;
-                                    width: 100%;
-                                    text-transform: uppercase;
-                                    text-align: center;
-                                    font-size: .8rem;
-                                    font-weight: $bold;
-                                    padding: 38% 0 40%;
-                                    
-                                }
                                 
-                                a:before{
-                                    content: "";
-                                    height: 0;
-                                    left: 0;
-                                    position: absolute;
-                                    top: 0;
-                                    width: 100%;
-                                    padding: 38% 0 40%;
-                                    background-color: rgba(171, 71, 17, .5);
+                                a{
+                                    span{
+                                        position: absolute;
+                                        width: 100%;
+                                        text-transform: uppercase;
+                                        text-align: center;
+                                        font-size: .8rem;
+                                        font-weight: $bold;
+                                        padding: 38% 0 40%;
+
+                                    }
+
+                                    &:before{
+                                        content: "";
+                                        height: 0;
+                                        left: 0;
+                                        position: absolute;
+                                        top: 0;
+                                        width: 100%;
+                                        padding: 38% 0 40%;
+                                        background-color: rgba(171, 71, 17, .5);
+                                    }
+                                    
+                                    &:hover{                                       
+                                        &:before{
+                                            background-color: rgba(171, 71, 17, .6);
+                                        }
+                                    }
                                 }
                             }
                         }
@@ -297,6 +318,11 @@ main{
                 padding: 0 1rem;
                 float: right;
                 margin-top: .5rem;
+                
+                &:hover{
+                    background-color: $laranjaEscuro;
+                    color: white;
+                }
             }
         }
 }

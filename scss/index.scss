@@ -115,19 +115,26 @@ main{
                 
                 .numero{
                     color: $laranjaEscuro;
-                    font-size: 3rem;
+                    font-size: 2.8rem;
                     font-weight: $bold;
                     background-color: white;
                     width: 4rem;
-                    
+                    line-height: 1.4;
                     border-radius: 2rem;
                     text-align: center; 
                 }
                 
                 .instrucao{
                     width: 180px;
-                    vertical-align: middle;
+                    vertical-align: bottom;
                     margin-left: 1rem;
+                    display: inline-block;
+                    line-height: 1.5;
+                    
+                    &:hover{
+                        text-decoration: underline;
+                        cursor: pointer;
+                    }
                 }
                 
             }
@@ -185,6 +192,10 @@ main{
                 
                 &:last-child{margin-left: 1rem;}
                 
+                &:hover{
+                    background-image: linear-gradient($azulEscuro,$azulClaro);
+                }
+                
                 svg{
                     path{fill: white;}
                     max-width: 5rem;
@@ -232,6 +243,10 @@ main{
                 font-size: 1.2rem;
                 line-height: 2rem;
                 padding-bottom: 0;
+                
+                a:hover{
+                    border-bottom: solid 1px white;
+                }
             }
         }
     }
@@ -265,6 +280,10 @@ main{
             font-style: italic;
             font-weight: $bold;
             font-size: 1.5rem;
+            
+            &:hover{
+                border-bottom: solid 1px $azulEscuro;
+            }
 
         }
        

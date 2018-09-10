@@ -36,6 +36,10 @@
         font-weight: 400;
         display: inline-block;
         margin: 0 .5rem 0 0; }
+        #ultimos-editais ul li h3:hover {
+          border-bottom: solid 1px #AB4711;
+          font-weight: semi-bold;
+          color: #AB4711; }
       #ultimos-editais ul li em {
         background-color: #E37531;
         color: white;

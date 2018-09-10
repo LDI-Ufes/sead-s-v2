@@ -44,3 +44,5 @@
       padding: .6rem 2rem;
       margin: 1rem 0;
       font-weight: 500; }
+      .secao-edital#inscricao a[role="button"]:hover {
+        background-color: #AB4711; }
