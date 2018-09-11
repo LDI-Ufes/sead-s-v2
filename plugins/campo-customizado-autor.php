@@ -1,36 +1,28 @@
 <?php
 
-add_action( 'show_user_profile', 'crf_show_extra_profile_fields' );
-add_action( 'edit_user_profile', 'crf_show_extra_profile_fields' );
+add_action( 'show_user_profile', 'extra_user_profile_fields' );
+add_action( 'edit_user_profile', 'extra_user_profile_fields' );
 
-function crf_show_extra_profile_fields( $user ) {
-	$cargo = get_the_author_meta( 'cargo', $user->ID );
-	?>
-	<h3><?php esc_html_e( 'Outras informações', 'crf' ); ?></h3>
+function extra_user_profile_fields( $user ) { ?>
+    <h3><?php _e("Outras informações", "blank"); ?></h3>
 
-	<table class="form-table">
-		<tr>
-			<th><label for="cargo"><?php esc_html_e( 'Cargo', 'crf' ); ?></label></th>
-			<td>
-				<input type="text"
-			       maxlength="80"
-			       id="cargo"
-			       name="cargo"
-			       value="<?php echo esc_attr( $cargo ); ?>"
-			       class="regular-text"
-				/>
-			</td>
-		</tr>
-	</table>
-	<?php
-}
+    <table class="form-table">
+    <tr>
+        <th><label for="cargo"><?php _e("Cargo"); ?></label></th>
+        <td>
+            <input type="text" name="cargo" id="cargo" value="<?php echo esc_attr( get_the_author_meta( 'cargo', $user->ID ) ); ?>" class="regular-text" /><br />
+<!--            <span class="description"><//?php _e("Please enter your cargo."); ?></span>-->
+        </td>
+    </tr>
+    </table>
+<?php }
 
+add_action( 'personal_options_update', 'save_extra_user_profile_fields' );
+add_action( 'edit_user_profile_update', 'save_extra_user_profile_fields' );
 
-add_action( 'personal_options_update', 'crf_update_profile_fields' );
-add_action( 'edit_user_profile_update', 'crf_update_profile_fields' );
-
-function crf_update_profile_fields( $user_id ) {
-	if ( ! current_user_can( 'edit_user', $user_id ) ) {
-		return false;
-	}
+function save_extra_user_profile_fields( $user_id ) {
+    if ( !current_user_can( 'edit_user', $user_id ) ) { 
+        return false; 
+    }
+    update_user_meta( $user_id, 'cargo', $_POST['cargo'] );
 }
