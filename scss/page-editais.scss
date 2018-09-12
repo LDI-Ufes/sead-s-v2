@@ -3,8 +3,7 @@
 main{
     #filtros{
         #aplicados{}
-    }
-    
+    }   
     
     #editais{
         width: 100%;
@@ -15,18 +14,15 @@ main{
         li{
             border-top: 1px solid $azulClaro;
             position: relative;
+            margin-bottom: 1.2rem;
             
             h3{
                 color: $laranja;
                 font-weight: $bold;
                 
-                a{
-                    border-bottom: solid 1.5px $laranja;
-                    
-                    &:hover{
-                        border-color: $laranjaEscuro;
+                a:hover{
+                        border-bottom: solid 1.5px $laranjaEscuro;
                         color: $laranjaEscuro;
-                    }
                 }
             }
             
@@ -42,33 +38,16 @@ main{
             .curso{
                 margin: .3rem 0;
             }
-            
-            .finalizacao{
-                font-style: italic;
-                color: gray;
-                font-weight: $regular;
-            }
-            
-            .status{
-                font-weight: $bold;
-                color: lightgrey;
-                position: absolute;
-                top: 0;
-                right: 0;
-            }
         }
-    }
-    
+    }  
 }
+
 @media screen and (min-width: 992px) {
     
     main{
-        
-        #editais{
-            
+        #editais{          
             li{
-                
-                /*justify-content: space-between;*/
+                margin-bottom: 0;
                 
                 p, h3{
                     margin: 1rem 0 !important;
@@ -78,20 +57,16 @@ main{
                     vertical-align: top;
                 }
                 
-                h3{width: 15%;}
-                .atribuicao{width: 15%;}
-                .tipo-de-curso{width: 15%;}
-                .curso{width: 25%;}
-                .finalizacao{width: 22%;}
-                .status{width: 8%;}
+                h3{width: 17%;}
+                .atribuicao{width: 26%;}
+                .tipo-de-curso{width: 17%;}
+                .curso{width: 40%;}
                 
-                .atribuicao, .tipo-de-curso, .curso, .finalizacao{
+                .atribuicao, .tipo-de-curso, .curso{
                     font-weight: $light;
                     color: black;
-                    font-style: normal;
-                    
-                }
-                
+                    font-style: normal;   
+                }               
             }
         }
     }

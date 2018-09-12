@@ -27,28 +27,30 @@
         <h1><?php the_title(); ?></h1>
         <section id="informacoes">
             <div>
-                <em>Curso:</em> Licenciatura em Pedagogia ou um nome Grande mesmo que chegue a passar para segunda linha ou mesmo terceira linha<br>
-                <em>Formação/nível:</em> Graduação Licenciatura em Pedagogia<br>
-                <em>Atribuição:</em> Tutor presencial<br>
+                <em>Curso: </em><?php echo strip_tags(get_the_term_list( $post->ID, 'curso' )); ?><br>
+                <em>Formação/nível: </em><?php echo strip_tags(get_the_term_list( $post->ID, 'tipo-de-curso' )); ?><br>
+                <em>Atribuição: </em><?php echo strip_tags(get_the_term_list( $post->ID, 'atribuicao' )); ?><br>
             </div><!--
-            --><div>
-            <em class="descricao">Descrição:</em> Edital de seleção para o provimento de uma vaga existente para tutor a presencial para o curso de licenciatura em pedagogia séries iniciais na modalidade a distância.<br>
+            --><div id="descricao">
+            <em>Descrição: </em><?php the_excerpt(); ?><br>
             </div>
         </section>
         <section id="anexos" class="secao-edital">
             <h2>Anexos</h2>
-            <ul>
+            <?php the_content( ); ?>
+<!--            <ul>
                 <li>Edital 001/2017, publicado em 13/02/2017</li>
                 <li><a href=""><i class="fas fa-file-download"></i>Edital 001/2017 - errata, publicado em 13/02/2017</a></li>
                 <li><a href=''><i class="fas fa-file-download"></i>Resultado parcial da etapa, publicado em 13/02/2017</a></li>
-            </ul>
+            </ul>-->
         </section>
         
         <section id="inscricao" class="secao-edital">
-            <h2>Inscrição</h2>
-            Inscrições, retificações e resultados deste edital estão disponíveis no Sistema de Seleção.<br>
-            <a role="button" href='http://selecao.neaad.ufes.br/visao/login.php'>Acessar Sistema de Seleção</a>
-        </section>
+                <h2>Inscrição</h2>
+                <p>Inscrições, retificações e resultados deste edital estão disponíveis no Sistema de Seleção.</p>
+                <a role="button" href='http://selecao.neaad.ufes.br/visao/login.php'>Acessar Sistema de Seleção</a>
+         </section>
+
       </main>
           
     <script defer="defer" src="//barra.brasil.gov.br/barra.js"></script>          

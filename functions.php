@@ -37,22 +37,49 @@ function create_post_type() {
       'public' => true,
       'has_archive' => true,
       'menu_icon' => 'dashicons-admin-links',
-//      'taxonomies' => array(
-//          'curso', 
-//          'formacao',
-//          'atribuicao',
-//          'category'
-//      ),
-//      'supports' => array( 
-//        'title', 
-//        'custom-fields', 
-//        'revisions' 
-//      )  
+      'supports' => array( 
+        'title', 
+        'editor', 
+        'excerpt', 
+      )
     )
   );
 }
 add_action( 'init', 'create_post_type' );
 
+/* Criar taxonomia para curso e modelo do projeto */
+add_action('init', 'create_edital_tax');
+
+function create_edital_tax() {
+//    register_taxonomy(
+//            'situacao', 'edital', array(
+//        'label' => __('Situação'),
+//        'rewrite' => array('slug' => 'situacao'),
+//        'hierarchical' => true,
+//            )
+//    );
+    register_taxonomy(
+            'curso', 'edital', array(
+        'label' => __('Curso'),
+        'rewrite' => array('slug' => 'curso'),
+        'hierarchical' => true,
+            )
+    );
+    register_taxonomy(
+            'tipo-de-curso', 'edital', array(
+        'label' => __('Tipo de Curso'),
+        'rewrite' => array('slug' => 'tipo-de-curso'),
+        'hierarchical' => true,
+            )
+    );
+        register_taxonomy(
+            'atribuicao', 'edital', array(
+        'label' => __('Atribuição'),
+        'rewrite' => array('slug' => 'atribuicao'),
+        'hierarchical' => true,
+            )
+    );
+}
 
 ?>
 

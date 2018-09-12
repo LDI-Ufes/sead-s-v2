@@ -30,27 +30,6 @@
           </div>
           
           <ul id="editais" class="content">
-              <li>
-                  <h3><a href="">Edital 003/2018</a></h3><!--
-                  --><p class="atribuicao">Tutor Presencial</p><!--
-                  --><p class="tipo-de-curso">Graduação</p><!--
-                  --><p class="curso">Licenciatura em Pedagogia</p><!--
-                  --><p class="finalizacao">Finalização em 11/11/2018</p><!--
-                  --><p class="status">aberto</p>
-              </li>
-              <li>
-                  <h3><a href="">Edital 003/2018</a></h3><p class="atribuicao">Professor Orientador (TCC)</p><p class="tipo-de-curso">Aperfeiçoamento</p><p class="curso">Oratória, transversalidade e didátida da fala para formação de professores</p><p class="finalizacao">Finalização em 11/11/2018</p><p class="status">encerrado</p>
-              </li>
-              <li>
-                  <h3><a href="">Edital 003/2018</a></h3><!--
-                  --><p class="atribuicao">Tutor a Distância</p><!--
-                  --><p class="tipo-de-curso">Graduação</p><!--
-                  --><p class="curso">Licenciatura em Pedagogia</p><!--
-                  --><p class="finalizacao">Finalização em 11/11/2018</p><!--
-                  --><p class="status">aberto</p>
-              </li>
-
-                
             <?php
             if ( get_query_var('paged') ) $paged = get_query_var('paged');  
             if ( get_query_var('page') ) $paged = get_query_var('page');
@@ -60,16 +39,18 @@
             if ( $editais->have_posts() ) : ?>
                     <?php while ( $editais->have_posts() ) : $editais->the_post(); ?>	
                         <li>
-                            <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
+                            <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3><!--
+                            --><p class="atribuicao"><?php echo strip_tags(get_the_term_list( $post->ID, 'atribuicao' )); ?></p><!--
+                            --><p class="tipo-de-curso"><?php echo strip_tags(get_the_term_list( $post->ID, 'tipo-de-curso' )); ?></p><!--
+                            --><p class="curso"><?php echo strip_tags(get_the_term_list( $post->ID, 'curso' )); ?></p>
                         </li>
                     <?php endwhile; wp_reset_postdata(); ?>
                     <!-- show pagination here -->
             <?php else : ?>
                     <p><?php esc_html_e( 'Não há editais cadastrados.' ); ?></p>
             <?php endif; ?>
+
           </ul>
-          
-          
       </main>
       
       <?php include 'components/rodape.php' ?>

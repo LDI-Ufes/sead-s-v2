@@ -4,15 +4,14 @@ main #editais {
   border-bottom: 1px solid #5992DD; }
   main #editais li {
     border-top: 1px solid #5992DD;
-    position: relative; }
+    position: relative;
+    margin-bottom: 1.2rem; }
     main #editais li h3 {
       color: #E37531;
       font-weight: 700; }
-      main #editais li h3 a {
-        border-bottom: solid 1.5px #E37531; }
-        main #editais li h3 a:hover {
-          border-color: #AB4711;
-          color: #AB4711; }
+      main #editais li h3 a:hover {
+        border-bottom: solid 1.5px #AB4711;
+        color: #AB4711; }
     main #editais li .atribuicao {
       font-weight: 400; }
     main #editais li .tipo-de-curso {
@@ -20,20 +19,10 @@ main #editais {
       margin: .3rem 0; }
     main #editais li .curso {
       margin: .3rem 0; }
-    main #editais li .finalizacao {
-      font-style: italic;
-      color: gray;
-      font-weight: 400; }
-    main #editais li .status {
-      font-weight: 700;
-      color: lightgrey;
-      position: absolute;
-      top: 0;
-      right: 0; }
 
 @media screen and (min-width: 992px) {
   main #editais li {
-    /*justify-content: space-between;*/ }
+    margin-bottom: 0; }
     main #editais li p, main #editais li h3 {
       margin: 1rem 0 !important;
       position: relative !important;
@@ -41,18 +30,14 @@ main #editais {
       font-size: 1rem;
       vertical-align: top; }
     main #editais li h3 {
-      width: 15%; }
+      width: 17%; }
     main #editais li .atribuicao {
-      width: 15%; }
+      width: 26%; }
     main #editais li .tipo-de-curso {
-      width: 15%; }
+      width: 17%; }
     main #editais li .curso {
-      width: 25%; }
-    main #editais li .finalizacao {
-      width: 22%; }
-    main #editais li .status {
-      width: 8%; }
-    main #editais li .atribuicao, main #editais li .tipo-de-curso, main #editais li .curso, main #editais li .finalizacao {
+      width: 40%; }
+    main #editais li .atribuicao, main #editais li .tipo-de-curso, main #editais li .curso {
       font-weight: 300;
       color: black;
       font-style: normal; } }

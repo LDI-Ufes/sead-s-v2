@@ -1,42 +1,45 @@
-#informacoes {
-  font-weight: 300;
-  line-height: 2; }
-  #informacoes em {
+main {
+  line-height: 2;
+  font-weight: 300; }
+  main #informacoes em {
     color: #E37531;
     font-style: normal;
     font-weight: 700; }
-  #informacoes div {
-    width: 50%;
-    display: inline-block;
-    vertical-align: top; }
-    #informacoes div:first-child {
-      padding-right: 2rem;
-      width: calc(50% - 2rem); }
-
-.secao-edital {
-  border-top: solid 2px #5992DD;
-  margin-top: 3rem; }
-  .secao-edital h2 {
-    color: #1765AB;
-    font-weight: 600;
-    font-size: 1.6rem; }
-  .secao-edital#anexos ul li {
-    color: gray;
-    font-weight: 300;
-    font-style: italic;
-    line-height: 3rem; }
-    .secao-edital#anexos ul li a {
-      color: black; }
-      .secao-edital#anexos ul li a i {
-        color: #E37531;
-        padding-right: .5rem; }
-      .secao-edital#anexos ul li a:hover {
-        font-weight: 600;
-        color: #E37531; }
-  .secao-edital#inscricao {
-    font-weight: 300;
-    line-height: 3rem; }
-    .secao-edital#inscricao a[role="button"] {
+  main #informacoes div#descricao {
+    padding-top: 1.2rem; }
+    main #informacoes div#descricao p {
+      display: inline; }
+  main .secao-edital {
+    border-top: solid 2px #5992DD;
+    margin-top: 3rem; }
+    main .secao-edital h2 {
+      color: #1765AB;
+      font-weight: 600;
+      font-size: 1.6rem; }
+    main .secao-edital#anexos ul li {
+      color: gray;
+      font-style: italic;
+      padding-bottom: 1rem;
+      /*line-height: 3rem;*/ }
+      main .secao-edital#anexos ul li a {
+        color: black;
+        /*                    i{
+                                color: $laranja;
+                                padding-right: .5rem;
+                            }*/ }
+        main .secao-edital#anexos ul li a:before {
+          content: '\f56d';
+          font-family: "Font Awesome 5 Free";
+          color: #E37531;
+          padding-right: .5rem;
+          font-weight: 600;
+          font-style: normal; }
+        main .secao-edital#anexos ul li a:hover {
+          font-weight: 600;
+          color: #E37531; }
+    main .secao-edital#inscricao p {
+      padding-bottom: 1.5rem; }
+    main .secao-edital#inscricao a[role="button"] {
       background-color: #E37531;
       text-transform: uppercase;
       color: white;
@@ -44,5 +47,16 @@
       padding: .6rem 2rem;
       margin: 1rem 0;
       font-weight: 500; }
-      .secao-edital#inscricao a[role="button"]:hover {
+      main .secao-edital#inscricao a[role="button"]:hover {
         background-color: #AB4711; }
+
+@media screen and (min-width: 992px) {
+  main #informacoes div {
+    padding-right: 2rem;
+    width: calc(50% - 2rem);
+    display: inline-block;
+    vertical-align: top; }
+    main #informacoes div#descricao {
+      padding-top: 0; }
+      main #informacoes div#descricao p {
+        display: inline; } }
