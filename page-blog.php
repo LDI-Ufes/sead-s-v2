@@ -23,22 +23,36 @@
       
       <main>  
           <ul id="posts">
-            <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-              <li class="blog-post">
-                  <div class="blog-post-header">
-                    <span>Seminários</span>
-                    <?php the_post_thumbnail( ); ?>
-                    <div class="post-date"><?php the_date('j \d\e F \d\e Y'); ?></div>
+            <?php 
+            $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
+            $args = array(
+              'posts_per_page' => 4,
+              'paged'          => $paged,
+              'post_type' => 'noticia',
+//              'nopaging' => false,
+//              'order' => 'DESC',
+//              'orderby' => 'date',
+            );
+            
+            $noticias = new WP_Query( $args );
+
+            if ( $noticias->have_posts() ) : ?>
+                <?php while ( $noticias->have_posts() ) : $noticias->the_post(); ?>	
+                    <li class="blog-post">
+                        <div class="blog-post-header">
+                          <span>Seminários</span>
+                          <?php the_post_thumbnail( ); ?>
+                          <div class="post-date"><?php the_date('j \d\e F \d\e Y'); ?></div>
+                        </div>
+                        <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
+                      <p><?php echo wp_trim_words( get_the_content(), 40, ' [...]' ); ?></p>
+                    </li>
+                  <?php endwhile; ?>
+                  <div id="postsNav">  
+                      <div class="nav-right"><?php next_posts_link( 'Notícias antigas  >', $noticias->max_num_pages ); ?></div>
+                      <div class="nav-left"><?php previous_posts_link( '<  Notícias recentes', $noticias->max_num_pages ); ?></div>
                   </div>
-                  <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
-                <p><?php echo wp_trim_words( get_the_content(), 40, ' [...]' ); ?></p>
-              </li>
-            <?php endwhile; ?>
-            <div id="postsNav">  
-                <div class="nav-right"><?php next_posts_link( 'Notícias antigas  >' ); ?></div>
-                <div class="nav-left"><?php previous_posts_link( '<  Notícias recentes' ); ?></div>
-            </div>
-            <?php wp_reset_postdata(); ?>
+                  <?php wp_reset_postdata(); ?>
             <?php else : ?>
                 <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
             <?php endif; ?>              

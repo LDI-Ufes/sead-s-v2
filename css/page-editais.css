@@ -19,6 +19,16 @@ main #editais {
       margin: .3rem 0; }
     main #editais li .curso {
       margin: .3rem 0; }
+main #postsNav {
+  color: #E37531;
+  padding: 0 1rem 6rem; }
+  main #postsNav a:hover {
+    border-bottom: solid 1px #9C4C22;
+    color: #9C4C22; }
+  main #postsNav .nav-right {
+    float: right; }
+  main #postsNav .nav-left {
+    float: left; }
 
 @media screen and (min-width: 992px) {
   main #editais li {
@@ -40,4 +50,6 @@ main #editais {
     main #editais li .atribuicao, main #editais li .tipo-de-curso, main #editais li .curso {
       font-weight: 300;
       color: black;
-      font-style: normal; } }
+      font-style: normal; }
+  main #postsNav {
+    padding: 0 0 2rem; } }

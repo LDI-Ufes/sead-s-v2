@@ -39,7 +39,25 @@ main{
                 margin: .3rem 0;
             }
         }
-    }  
+    }
+    
+    #postsNav{
+        color: $laranja;
+        padding: 0 1rem 6rem;
+        
+        a:hover{
+            border-bottom: solid 1px $laranjaEscuro;
+            color: $laranjaEscuro;
+        }
+        
+        .nav-right{
+            float: right;
+        }
+
+        .nav-left{
+            float: left;
+        }
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -68,6 +86,9 @@ main{
                     font-style: normal;   
                 }               
             }
+        }
+        #postsNav{
+            padding: 0 0 2rem;
         }
     }
 }

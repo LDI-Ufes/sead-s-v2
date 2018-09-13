@@ -31,10 +31,14 @@
           
           <ul id="editais" class="content">
             <?php
-            if ( get_query_var('paged') ) $paged = get_query_var('paged');  
-            if ( get_query_var('page') ) $paged = get_query_var('page');
+            $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
+            $args = array(
+              'posts_per_page' => 2,
+              'paged'          => $paged,
+              'post_type' => 'edital',
+            );
 
-            $editais = new WP_Query( array( 'post_type' => 'edital', 'paged' => $paged ) );
+            $editais = new WP_Query( array( $args ) );
 
             if ( $editais->have_posts() ) : ?>
                     <?php while ( $editais->have_posts() ) : $editais->the_post(); ?>	
@@ -44,8 +48,12 @@
                             --><p class="tipo-de-curso"><?php echo strip_tags(get_the_term_list( $post->ID, 'tipo-de-curso' )); ?></p><!--
                             --><p class="curso"><?php echo strip_tags(get_the_term_list( $post->ID, 'curso' )); ?></p>
                         </li>
-                    <?php endwhile; wp_reset_postdata(); ?>
-                    <!-- show pagination here -->
+                    <?php endwhile; ?>
+                    <div id="postsNav">  
+                        <div class="nav-right"><?php next_posts_link( 'Notícias antigas  >', $editais->max_num_pages ); ?></div>
+                        <div class="nav-left"><?php previous_posts_link( '<  Notícias recentes', $editais->max_num_pages ); ?></div>
+                    </div>
+                    <?php wp_reset_postdata(); ?>
             <?php else : ?>
                     <p><?php esc_html_e( 'Não há editais cadastrados.' ); ?></p>
             <?php endif; ?>

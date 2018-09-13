@@ -70,9 +70,9 @@
 
         <section id="noticias">
             <?php           
-            $latest_posts = new WP_Query( array( 'posts_per_page' => 4 ) );
+            $ultimas_noticias = new WP_Query( array( 'post_type' => 'noticia', 'posts_per_page' => 4 ) );
             
-            if ( $latest_posts->have_posts() ) : while ( $latest_posts->have_posts() ) : $latest_posts->the_post(); ?>
+            if ( $ultimas_noticias->have_posts() ) : while ( $ultimas_noticias->have_posts() ) : $ultimas_noticias->the_post(); ?>
             <div class="noticia">
                 <?php the_post_thumbnail( ); ?>
                 <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>

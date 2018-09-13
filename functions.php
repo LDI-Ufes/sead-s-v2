@@ -44,7 +44,27 @@ function create_post_type() {
       ),
       'rewrite' => array(
         'slug' => 'editais',
-        'with_front' => false
+      )
+    )
+  );
+  
+    register_post_type( 'noticia',
+    array(
+      'labels' => array(
+        'name' => __( 'Notícias' ),
+        'singular_name' => __( 'Notícia' )
+      ),
+      'public' => true,
+      'has_archive' => true,
+      'menu_icon' => 'dashicons-format-aside',
+      'supports' => array( 
+        'title', 
+        'editor', 
+        'author',
+        'thumbnail'  
+      ),
+      'rewrite' => array(
+        'slug' => 'blog',
       )
     )
   );
