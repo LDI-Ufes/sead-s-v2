@@ -15,7 +15,7 @@
       display: inline-block;
       font-weight: 900; }
     #ultimos-editais .box-title h2 {
-      color: #1765AB;
+      color: #1661A6;
       font-size: 2rem;
       display: inline-block;
       line-height: 1; }
@@ -37,9 +37,9 @@
         display: inline-block;
         margin: 0 .5rem 0 0; }
         #ultimos-editais ul li h3:hover {
-          border-bottom: solid 1px #AB4711;
+          border-bottom: solid 1px #9C4C22;
           font-weight: semi-bold;
-          color: #AB4711; }
+          color: #9C4C22; }
       #ultimos-editais ul li em {
         background-color: #E37531;
         color: white;
@@ -48,7 +48,7 @@
         font-style: normal;
         font-size: .8rem; }
       #ultimos-editais ul li p {
-        color: #053C7B;
+        color: #043767;
         margin: .5rem 0;
         font-size: .8rem;
         line-height: 1.5; }
@@ -121,7 +121,7 @@ main {
         position: absolute;
         z-index: -1;
         left: 0;
-        border-bottom: 5rem solid #AB4711;
+        border-bottom: 5rem solid #9C4C22;
         border-left: 0 solid transparent;
         border-right: 25px solid transparent;
         height: 0;
@@ -138,13 +138,13 @@ main {
         margin-left: 1.5rem;
         padding-top: 0.5rem; }
         main #quer-ser #quer-ser-itens li i {
-          color: #AB4711;
+          color: #9C4C22;
           padding-left: 0.5rem; }
         main #quer-ser #quer-ser-itens li div {
           display: inline-block;
           height: 4rem; }
         main #quer-ser #quer-ser-itens li .numero {
-          color: #AB4711;
+          color: #9C4C22;
           font-size: 2.8rem;
           font-weight: 700;
           background-color: white;
@@ -189,14 +189,14 @@ main {
       flex-wrap: wrap;
       padding: 0 1rem; }
       main #noticias .confira-mais h2 {
-        color: #AB4711;
+        color: #9C4C22;
         font-weight: 300;
         font-size: 2.3rem;
         margin: .5rem 0;
         line-height: 2.8rem; }
       main #noticias .confira-mais button {
         width: calc(50% - 0.5rem);
-        background-image: linear-gradient(#053C7B, #1765AB);
+        background-image: linear-gradient(#043767, #1661A6);
         display: inline-block;
         color: white;
         height: 50%;
@@ -205,7 +205,7 @@ main {
         main #noticias .confira-mais button:last-child {
           margin-left: 1rem; }
         main #noticias .confira-mais button:hover {
-          background-image: linear-gradient(#053C7B, #5992DD); }
+          background-image: linear-gradient(#043767, #5992DD); }
         main #noticias .confira-mais button svg {
           max-width: 5rem;
           margin-top: -0.5rem; }
@@ -247,7 +247,7 @@ main {
         main #noticias .noticia h3 a:hover {
           border-bottom: solid 1px white; }
   main #polos {
-    color: #053C7B;
+    color: #043767;
     background-color: #FDA65B;
     padding: 4rem 1rem;
     /*height: 20rem;*/
@@ -272,7 +272,7 @@ main {
       font-weight: 700;
       font-size: 1.5rem; }
       main #polos a:hover {
-        border-bottom: solid 1px #053C7B; }
+        border-bottom: solid 1px #043767; }
     main #polos svg {
       display: none; }
 

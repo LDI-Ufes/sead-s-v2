@@ -24,7 +24,7 @@ and open the template in the editor.
       display: inline-block;
       font-weight: 900; }
     #ultimos-editais .box-title h2 {
-      color: #1765AB;
+      color: #1661A6;
       font-size: 2rem;
       display: inline-block;
       line-height: 1; }
@@ -46,9 +46,9 @@ and open the template in the editor.
         display: inline-block;
         margin: 0 .5rem 0 0; }
         #ultimos-editais ul li h3:hover {
-          border-bottom: solid 1px #AB4711;
+          border-bottom: solid 1px #9C4C22;
           font-weight: semi-bold;
-          color: #AB4711; }
+          color: #9C4C22; }
       #ultimos-editais ul li em {
         background-color: #E37531;
         color: white;
@@ -57,7 +57,7 @@ and open the template in the editor.
         font-style: normal;
         font-size: .8rem; }
       #ultimos-editais ul li p {
-        color: #053C7B;
+        color: #043767;
         margin: .5rem 0;
         font-size: .8rem;
         line-height: 1.5; }
@@ -88,7 +88,7 @@ main {
     min-height: 100px;
     max-height: 250px; }
     #posts .blog-post .blog-post-header span {
-      background-color: #053C7B;
+      background-color: #043767;
       color: white;
       text-transform: uppercase;
       position: absolute;
@@ -118,12 +118,12 @@ main {
       padding: .8rem;
       font-size: .8rem; }
   #posts .blog-post h3 {
-    color: #053C7B;
+    color: #043767;
     font-weight: 600;
     font-size: 1.3rem;
     margin: 1.5rem; }
     #posts .blog-post h3 a:hover {
-      border-bottom: solid 1px #053C7B; }
+      border-bottom: solid 1px #043767; }
   #posts .blog-post p {
     font-family: "Merriweather", serif;
     font-weight: 400;
@@ -133,8 +133,8 @@ main {
   color: #E37531;
   padding: 0 1rem 6rem; }
   #posts #postsNav a:hover {
-    border-bottom: solid 1px #AB4711;
-    color: #AB4711; }
+    border-bottom: solid 1px #9C4C22;
+    color: #9C4C22; }
   #posts #postsNav .nav-right {
     float: right; }
   #posts #postsNav .nav-left {
@@ -166,7 +166,7 @@ main {
   #informativo li {
     padding: 0 0 1rem; }
     #informativo li a {
-      color: #1765AB;
+      color: #1661A6;
       text-decoration: none; }
       #informativo li a:hover {
         text-decoration: underline; }
@@ -183,14 +183,14 @@ main {
     #informativo form input {
       margin-top: 1rem;
       font-family: 'Fira Sans', sans-serif !important;
-      border: solid 1px #053C7B; }
+      border: solid 1px #043767; }
       #informativo form input[type=email] {
         height: 1.5rem;
         background-color: rgba(89, 146, 221, 0.05);
         padding-left: .5rem;
         width: 100%; }
       #informativo form input[type=submit] {
-        background-color: #053C7B;
+        background-color: #043767;
         text-transform: uppercase;
         color: white;
         font-size: .8rem;
@@ -198,7 +198,7 @@ main {
         width: 70px; }
 
 .social-media {
-  background: linear-gradient(45deg, #053C7B, #1765AB);
+  background: linear-gradient(45deg, #043767, #1661A6);
   border: none;
   color: white;
   width: 100%;
@@ -219,7 +219,7 @@ main {
     vertical-align: middle;
     text-align: right; }
   .social-media:hover {
-    background: linear-gradient(45deg, #053C7B, #5992DD); }
+    background: linear-gradient(45deg, #043767, #5992DD); }
 
 #galeria {
   background-color: #FDA65B;
@@ -229,7 +229,7 @@ main {
     max-width: 960px;
     margin: 0 auto; }
     #galeria .content h2 {
-      background-color: #AB4711;
+      background-color: #9C4C22;
       color: white;
       text-transform: uppercase;
       position: absolute;
@@ -279,7 +279,7 @@ main {
               background-color: rgba(171, 71, 17, 0.6); }
     #galeria .content button {
       background-color: white;
-      color: #AB4711;
+      color: #9C4C22;
       text-transform: uppercase;
       text-align: center;
       font-size: .8rem;
@@ -290,7 +290,7 @@ main {
       float: right;
       margin-top: .5rem; }
       #galeria .content button:hover {
-        background-color: #AB4711;
+        background-color: #9C4C22;
         color: white; }
 
 @media screen and (min-width: 992px) {

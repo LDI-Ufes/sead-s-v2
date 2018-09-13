@@ -49,7 +49,7 @@ main {
   main #breadcrumbs {
     font-size: .8rem; }
     main #breadcrumbs a {
-      color: #1765AB;
+      color: #1661A6;
       font-weight: 500; }
       main #breadcrumbs a:hover {
         color: #E37531;
@@ -59,7 +59,7 @@ main {
   main h1 {
     font-size: 2rem;
     font-weight: 700;
-    color: #1765AB;
+    color: #1661A6;
     padding: 2rem 0 1rem; }
 
 @media screen and (min-width: 992px) {
@@ -78,7 +78,7 @@ header {
     position: absolute;
     visibility: hidden;
     flex-flow: column;
-    background-color: #053C7B;
+    background-color: #043767;
     padding: 1rem 1rem .75rem 1rem;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25); }
     header .menuSuspenso:hover, header .menuSuspenso:focus {
@@ -90,7 +90,7 @@ header {
     order: 1; }
   header #barraAuxiliar {
     display: inline-flex;
-    background-color: #053C7B;
+    background-color: #043767;
     font-weight: 300;
     order: 2;
     z-index: 2; }
@@ -141,7 +141,7 @@ header {
         padding: .5rem .25rem; }
   header #topoPrincipal, header #topoBlog {
     display: inline-flex;
-    background-color: #1765AB;
+    background-color: #1661A6;
     padding: 0 20px;
     font-weight: 700;
     text-transform: uppercase;
@@ -210,7 +210,7 @@ header {
   header #topoPrincipal #menuPrincipal #itensMenu {
     display: block; } }
 footer {
-  background-color: #053C7B;
+  background-color: #043767;
   color: white;
   font-weight: 300;
   line-height: 1.7; }
@@ -247,7 +247,7 @@ footer {
       height: inherit;
       /*padding-right: .2rem;*/ }
       footer .creditos p a:hover {
-        color: #053C7B; }
+        color: #043767; }
       footer .creditos p span {
         display: none; }
     footer .creditos svg {
