@@ -41,6 +41,10 @@ function create_post_type() {
         'title', 
         'editor', 
         'excerpt', 
+      ),
+      'rewrite' => array(
+        'slug' => 'editais',
+        'with_front' => false
       )
     )
   );
@@ -51,29 +55,22 @@ add_action( 'init', 'create_post_type' );
 add_action('init', 'create_edital_tax');
 
 function create_edital_tax() {
-//    register_taxonomy(
-//            'situacao', 'edital', array(
-//        'label' => __('Situação'),
-//        'rewrite' => array('slug' => 'situacao'),
-//        'hierarchical' => true,
-//            )
-//    );
     register_taxonomy(
-            'curso', 'edital', array(
+        'curso', 'edital', array(
         'label' => __('Curso'),
         'rewrite' => array('slug' => 'curso'),
         'hierarchical' => true,
             )
     );
     register_taxonomy(
-            'tipo-de-curso', 'edital', array(
+        'tipo-de-curso', 'edital', array(
         'label' => __('Tipo de Curso'),
         'rewrite' => array('slug' => 'tipo-de-curso'),
         'hierarchical' => true,
             )
     );
         register_taxonomy(
-            'atribuicao', 'edital', array(
+        'atribuicao', 'edital', array(
         'label' => __('Atribuição'),
         'rewrite' => array('slug' => 'atribuicao'),
         'hierarchical' => true,
