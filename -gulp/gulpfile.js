@@ -10,7 +10,7 @@ const src = {
   php   : ['../**/*.php'],
   img   : ['img/**/*.jpg','img/**/*.jpeg','img/**/*.png','img/**/*.gif','img/**/*.svg'],
   js    : ['js/**/*.js'],
-  sass  : ['../scss/style.scss']
+  sass  : ['../style.scss']
 }
 
 gulp.task('build-css', function() {

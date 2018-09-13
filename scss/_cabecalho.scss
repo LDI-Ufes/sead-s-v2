@@ -4,30 +4,6 @@ header {
   width: 100%;
   font-size: 1rem;
   color: white;
-
-  .temSubnivel {
-    &:hover ul, &:focus ul, &:active ul {
-      visibility: visible !important;
-    }
-  }
-
-  .menuSuspenso {
-    position: absolute;
-    visibility: hidden;
-    flex-flow: column;
-    background-color: $azulEscuro;
-    padding: 1rem 1rem .75rem 1rem;
-    box-shadow: inset 0px 4px 4px rgba(0,0,0,.25);
-
-    &:hover, &:focus {
-      visibility: visible;
-    }
-
-    li a:hover {
-      text-decoration: underline;
-      text-decoration-color: $laranja;
-    }
-  }
   
   #barra-brasil {order: 1;}
 
@@ -78,21 +54,6 @@ header {
           cursor: pointer;
         }
       }
-
-      .menuSuspenso {
-
-        li {
-          padding: .25rem;
-
-          i.fas {
-            font-size: .875rem;
-          }
-
-          span {
-            font-weight: $bold;
-          }
-        }
-      }
     }
 
     #ligacoesExternas {
@@ -118,134 +79,16 @@ header {
             cursor: pointer;
           }
         }
-
-        .menuSuspenso {
-          top: 50px;
-
-          li {
-            padding: .5rem .25rem;
-          }
-        }
       }
     }
   }
-  
-  #topoPrincipal, #topoBlog {
-    display: inline-flex;
-    background-color: $azul;
-    padding: 0 20px;    
-    font-weight: $bold;
-    text-transform: uppercase;
-    order: 3;
-    z-index: 1;
-    position: relative;
-
-    > section {
-      display: inline-flex;
-      justify-content: space-between;
-    }
     
-    svg {
-      padding: 1.2rem .6rem;
-    }
-
-    #menuPrincipal {
-        display: inline-flex;
-        width: 100%;
-        justify-content: flex-end;
-        
-      #menuHamburguer{
-          display: block;
-          order: 2;
-      }
-      
-      #itensMenu{
-          display: none;
-          
-          &.menuSuspenso{
-              display: block;
-              visibility: visible;
-              width: 100%;
-              top: 70px; /* relativizar pela altura da barra */
-              right: 0;
-              padding: 0;              
-          }
-      }
-    }
-    
-    button{
-        color: white;
-        background: none;
-        border: none;
-        height: 20px;
-        margin: auto 0;
-    }
-  }
-  
-  #topoBlog svg{
-      width: 80px;
-  }
-  
-  #topoPrincipal svg{
-      height: 32px;
-      
-      .assinatura{
-          display: none;
-      }
-  }
-  
 }
 
-
 @media screen and (min-width: 992px) {
-    header{
-        #topoBlog{
-            position: relative;
-            height: 80px;
-
-            svg {
-                height: 200px;
-                width: 260px;
-                transition: height .5s;
-                padding: 0;
-            }
-        }
-        
-        #topoPrincipal{
-            
-            svg{
-                height: 60px;
-                
-                .assinatura{
-                    display: block;
-                }
-            }
-            
-            #menuPrincipal{
-   
-                li {
-                  display: inline-flex;
-                  align-items: center;
-                  height: 60px;
-                  padding: 1.2rem .6rem;
-                }
-
-                .temSubnivel {
-                  position: relative;
-
-                  .menuSuspenso {
-                    top: calc(60px + 2.4rem);
-                  }
-                }
-        
-                #menuHamburguer{
-                  display: none;
-                }
-                #itensMenu{
-                    display: block;
-                }
-            }
-        }
+  
+    header {
+              
     }
 }
   

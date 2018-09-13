@@ -4,7 +4,7 @@
       <span id="atalhosAcessibBotao">
         <i class="fab fa-accessible-icon"></i> Atalhos de acessibilidade
       </span>
-      <ul class="menuSuspenso">
+      <ul>
         <li><button><i id=""  class="fas fa-arrow-circle-right"></i> Ir para o conteúdo <span>[1]</span></button></li>
         <li><button><i id=""  class="fas fa-arrow-circle-right"></i> Ir para o menu <span>[2]</span></button></li>
         <li><button><i id=""  class="fas fa-arrow-circle-right"></i> Ir para busca <span>[3]</span></button></li>
@@ -19,9 +19,9 @@
       <li>
         <a href=""><i class="fas fa-question-circle"></i> Dúvidas frequentes</a>
       </li>
-      <li id="ligacaoAva" class="temSubnivel">
+      <li id="ligacaoAva">
         <a id="ligacaoAvaBotao" href=""><i id="" class="fas fa-chalkboard-teacher"></i> AVA Moodle</a>
-        <ul class="menuSuspenso">
+        <ul>
           <li><a href="">Graduação</a></li>
           <li><a href="">Especialização e Aperfeiçoamento</a></li>
         </ul>
