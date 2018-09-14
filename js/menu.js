@@ -1,5 +1,8 @@
 
+//
 // Menu acessível via teclado
+//
+
 $(document).ready(function () {
 
   $.fn.accessibleDropDown = function () {
@@ -15,3 +18,18 @@ $(document).ready(function () {
   $(".menu").accessibleDropDown();
 
 });
+
+
+//
+// Menu móvel
+//
+
+$('.btoMenu_abrir').click(function() {
+  $('#menu').addClass('menu_aberto')
+  $('body').addClass('esmaecer')
+})
+
+$('.btoMenu_fechar').click(function() {
+  $('#menu').removeClass('menu_aberto')
+  $('body').removeClass('esmaecer')
+})

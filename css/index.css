@@ -7,7 +7,7 @@
     position: absolute;
     margin: 0 auto;
     margin-top: -4.5rem;
-    min-width: 600px;
+    width: 600px;
     max-width: 80%; }
     #ultimos-editais .box-title span {
       color: #E37531;
@@ -105,7 +105,7 @@ main {
       /*            max-width: 800px;*/
       padding: 1rem; }
       main #quer-ser #quer-ser-titulo .content {
-        min-width: 600px;
+        width: 600px;
         max-width: 80%;
         margin: 0 auto; }
         main #quer-ser #quer-ser-titulo .content h2 {

@@ -156,7 +156,7 @@ header {
       top: 100%;
       left: -9999em;
       flex-flow: column;
-      background-color: #053C7B;
+      background-color: $azulEscuro;;
       padding: 1em 1em .75em 1em;
       box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
       white-space: normal;
@@ -174,6 +174,80 @@ header {
           text-decoration-color: #E37531;
         }
       }
+    }
+  }
+}
+
+
+@media (min-width: 993px) {
+  
+  .btoMenu {
+    display: none !important;
+  }
+  
+}
+
+@media (max-width: 992px) {
+
+  svg#Sead {
+    width: auto;
+    height: 30px;
+  }
+
+  .btoMenu {
+    display: block;
+    padding: 10px;
+    background-color: $azulEscuro;
+    color: white;
+  }
+
+  #menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transform: translateY(-100vh);
+    transition: transform 200ms linear;
+    
+    > li {
+      height: auto !important;
+      padding: 1.2rem !important;
+    }
+  }
+
+  .menu_aberto {
+    display: inline-flex;
+    flex-flow: column;
+    z-index: 100;
+    background-color: orange;
+    transform: translateY(0) !important;
+
+    .btoMenu_fechar {
+      background-color: $azul;
+    }
+
+    li {
+      justify-content: flex-end;
+      background-color: $azulEscuro;
+    }
+  }
+
+  .esmaecer {
+    position: relative;
+    overflow: hidden;
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: rgba(0, 0, 0, .8);
+      width: 100vw;
+      height: 100vh;
+    }
+
+    .menu {
+      overflow: scroll;
     }
   }
 }

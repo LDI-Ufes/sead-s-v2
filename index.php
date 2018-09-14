@@ -21,7 +21,7 @@
       <?php include 'components/topoPrincipal.php' ?>    
 
     </header>
-    <main>
+    <main style="display:none">
         <section id="ead-na-ufes">
             <h2>Você conhece o EaD da Ufes?</h2>
             <p>Nós somos a Secretaria responsável por promover ações educativas e de formação da EaD na Ufes. Fique atento aos editais para mais informações de cada curso!</p>
@@ -47,11 +47,10 @@
                 <p>Os encontros semanais acontecem nos diversos polos municipais do Estado.</p>
             </div>
         </section>
-       
+
         <aside>
             <?php include 'components/ultimos-editais.php' ?>
         </aside>
-        
 
         <section id="quer-ser">
             <div id="quer-ser-titulo"><div class="content"><h2>Quer ser aluno?</h2><h2>Quer ser um colaborador?</h2></div></div>
@@ -66,7 +65,6 @@
                 </ul>
             </div>
         </section>
-
 
         <section id="noticias">
             <?php           
@@ -103,7 +101,7 @@
                 <button title="Vá para a página Blog"><?php include 'svg/nossoBLOG.svg'?></button>
             </div>
         </section>
-        
+
         <section id="polos">
             <?php include 'svg/mapaInicio.svg' ?>
             <h2>A EaD está presente em todo o estado!</h2>
@@ -111,7 +109,7 @@
             <a href="/sitiosead/polos">Conheça nossos polos!</a>
         </section>
     </main>
-      
+
     <?php include 'components/rodape.php' ?>  
     <script defer="defer" src="//barra.brasil.gov.br/barra.js"></script>
 

@@ -2,7 +2,9 @@
   <section class="caixa">
     <?php include __DIR__ . '/../svg/sead.svg' ?>
     <nav id="menuPrincipal" class="menu" role="navigation">
-      <ul>
+      <a href="#menu" class="btoMenu btoMenu_abrir">Menu</a>
+      <ul id="menu">
+        <li class="btoMenu btoMenu_fechar">Fechar</li>
         <li><a href="/sitiosead">Início</a></li>
         <li>
           <a href="">Ensino</a>
