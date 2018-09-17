@@ -19,13 +19,14 @@
       line-height: 1; }
   #ultimos-editais ul {
     padding: 0;
-    text-align: center; }
+    max-width: 300px;
+    margin: 0 auto; }
     #ultimos-editais ul li {
       list-style-type: none;
       margin-bottom: 1.5rem;
       text-align: left;
       display: inline-block;
-      max-width: 300px; }
+      width: 300px; }
       #ultimos-editais ul li h3 {
         color: black;
         border-bottom: solid 1px #E37531;
@@ -56,7 +57,9 @@
 
 @media screen and (min-width: 652px) {
   #ultimos-editais .box-title {
-    width: 600px; } }
+    width: 600px; }
+  #ultimos-editais ul {
+    max-width: 620px; } }
 @media screen and (min-width: 992px) {
   #ultimos-editais {
     padding: 1.2rem; }

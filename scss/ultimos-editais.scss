@@ -29,14 +29,15 @@
 
     ul{
         padding: 0;
-        text-align: center;
+        max-width: 300px;
+        margin: 0 auto;
 
         li{
             list-style-type: none;
             margin-bottom: 1.5rem;
             text-align: left;
             display: inline-block;
-            max-width: 300px;
+            width: 300px;
 
             h3{
                 color: black;
@@ -83,6 +84,10 @@
         .box-title{
             width: 600px;
         }
+        
+        ul{
+            max-width: 620px;
+        }
     }
 }
 
@@ -90,9 +95,10 @@
     
     #ultimos-editais{
         padding: 1.2rem;
+        
         .box-title{
             width: 100%;
             max-width: 300px;
-        }        
+        }
     }
 }
