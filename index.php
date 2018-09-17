@@ -22,6 +22,7 @@
 
     </header>
     <main>
+        <div class="container">
         <section id="ead-na-ufes">
             <h2>Você conhece o EaD da Ufes?</h2>
             <p>Nós somos a Secretaria responsável por promover ações educativas e de formação da EaD na Ufes. Fique atento aos editais para mais informações de cada curso!</p>
@@ -52,22 +53,31 @@
             <?php include 'components/ultimos-editais.php' ?>
         </aside>
         
+        </div>
 
         <section id="quer-ser">
-            <div id="quer-ser-titulo"><div class="content"><h2>Quer ser aluno?</h2><h2>Quer ser um colaborador?</h2></div></div>
+            <div class="container">
+            <div id="quer-ser-titulo">
+                <div class="box-titulo"></div>
+                <h2>Quer ser aluno?<br>Quer ser um colaborador?</h2>
+            </div>
             <div id="quer-ser-itens">
-                <ul><div class="content">
+                <div class="box-titulo"></div>
+                <ul>
                     <li>
-                        <div class="numero">1</div><a class="instrucao">Veja como funciona a EaD da Ufes<i class="fas fa-external-link-square-alt"></i></a>
+                        <div class="numero">1</div>
+                        <a class="instrucao">Veja como funciona a EaD da Ufes<i class="fas fa-external-link-square-alt"></i></a>
                     </li>
                     <li>
-                        <div class="numero">2</div><a class="instrucao">Fique de olho nos próximos editais<i class="fas fa-external-link-square-alt"></i></a>
-                    </li></div>
+                        <div class="numero">2</div>
+                        <a class="instrucao">Fique de olho nos próximos editais<i class="fas fa-external-link-square-alt"></i></a>
+                    </li>
                 </ul>
+            </div>
             </div>
         </section>
 
-
+        <div class="container">
         <section id="noticias">
             <?php           
             $ultimas_noticias = new WP_Query( array( 'post_type' => 'noticia', 'posts_per_page' => 4 ) );
@@ -81,34 +91,22 @@
             <?php else : ?>
                 <p><?php esc_html_e( 'Sem notícias.' ); ?></p>
             <?php endif; ?>
-<!--            <div class="noticia">
-                <img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG_20180621_212726229.jpg">
-                <h3>Polo UAB de Montanha realiza Seminário da Disciplina de Linguagem V</h3>
-            </div>
-            <div class="noticia">
-                <img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG_20180621_212726229.jpg">
-                <h3>Polo UAB de Montanha realiza Seminário da Disciplina de Linguagem V</h3>
-            </div>
-            <div class="noticia">
-                <img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG_20180621_212726229.jpg">
-                <h3>Polo UAB de Montanha realiza Seminário da Disciplina de Linguagem V</h3>
-            </div>
-            <div class="noticia">
-                <img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG_20180621_212726229.jpg">
-                <h3>Polo UAB de Montanha realiza Seminário da Disciplina de Linguagem V</h3>
-            </div>-->
+
             <div class="confira-mais">
                 <h2>Confira mais do que acontece nos polos</h2>
-                <button title="Visite o Facebook da Sead"><i class="fab fa-facebook-f"></i></button>
-                <button title="Vá para a página Blog"><?php include 'svg/nossoBLOG.svg'?></button>
+                <a href="" title="Visite o Facebook da Sead"><i class="fab fa-facebook-f"></i></a>
+                <a href="/sitiosead/blog" title="Vá para a página Blog"><?php include 'svg/nossoBLOG.svg'?></a>
             </div>
         </section>
+        </div>
         
         <section id="polos">
+            <div class="container">
             <?php include 'svg/mapaInicio.svg' ?>
             <h2>A EaD está presente em todo o estado!</h2>
             <p>Atualmente a Ufes oferta cursos EaD em 27 Polos Municipais de Apoio Presencial – UAB.</p>
             <a href="/sitiosead/polos">Conheça nossos polos!</a>
+            </div>
         </section>
     </main>
       

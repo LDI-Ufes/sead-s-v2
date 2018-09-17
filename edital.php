@@ -21,7 +21,7 @@
         <?php include 'components/topoPrincipal.php' ?>
       </header>
       
-      <main>
+      <main class='container'>
         <!--Inserir conteúdo-->
         <section id="breadcrumbs">Você está em: <a href="/sitiosead/editais">Editais</a> > <span><?php the_title(); ?></span></section>
         <h1><?php the_title(); ?></h1>
@@ -52,6 +52,8 @@
          </section>
 
       </main>
+      
+      <?php include 'components/rodape.php' ?>
           
     <script defer="defer" src="//barra.brasil.gov.br/barra.js"></script>          
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

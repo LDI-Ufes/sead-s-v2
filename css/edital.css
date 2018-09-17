@@ -1,6 +1,7 @@
 main {
   line-height: 2;
-  font-weight: 300; }
+  font-weight: 300;
+  padding-bottom: 4rem !important; }
   main #informacoes em {
     color: #E37531;
     font-style: normal;

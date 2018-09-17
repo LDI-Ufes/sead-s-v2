@@ -1,7 +1,7 @@
 @import 'variaveis';
 @import 'ultimos-editais';
 
-body{overflow-x: hidden;}
+.container{padding: 0;}
 
 main{
     margin: 0;
@@ -49,109 +49,99 @@ main{
     }
     
     #quer-ser{
-        position: relative;
-        margin: 2rem 0;        
+        margin: 2rem 0;
         
-        #quer-ser-titulo{ 
-            margin-bottom: 1rem; 
-/*            max-width: 800px;*/
-            padding: 1rem;
-            
-            .content{
-                min-width: 600px;
-                max-width: 80%;
+        .container{           
+            #quer-ser-titulo{ 
+                margin-bottom: 1rem; 
+                padding: 1rem;
+                max-width: 300px;
                 margin: 0 auto;
+
+                    h2{
+                        color: white;
+                        font-weight: 700;
+                        font-size: 1.2rem;
+                        line-height: 1.6;
+                        margin: 0;
+                    }
+
+                .box-titulo{
+                    position: absolute;
+                    left: 0;
+                    border-bottom: 5rem solid $laranjaEscuro;
+                    border-left: 0 solid transparent;
+                    border-right: 25px solid transparent;
+                    width: 80%;
+                    z-index: -1;
+                    margin-top: -0.5rem;
+                }            
+            }
+        
+            #quer-ser-itens{
+                padding: 1rem;
+                max-width: 350px;
+                text-align: right;
+                margin: 0 auto;
+
+                .box-titulo{
+                    position: absolute;
+                    right: 0;
+                    border-top: 10rem solid $laranjaClaro;
+                    border-left: 40px solid transparent;
+                    border-right: 0 solid transparent;
+                    width: 85%;
+                    z-index: -1;
+                }
                 
-                h2{
-                    color: white;
-                    font-weight: 700;
-                    font-size: 1.2rem;
-                    line-height: 1.8rem;
-                    margin: 0;
+                li{
                     &:first-child{
-                        padding-top: 0.8rem;
+                        margin-right: 1.5rem;
+                    }
+                    
+                    color: white;
+                    font-size: 1.2rem;
+                    display: inline-block;
+                    max-width: 300px;
+                    text-align: left;
+                    padding: 0.5rem 0;
+
+                    i{
+                        color: $laranjaEscuro;
+                        padding-left: 0.5rem;
+                    }
+
+                    div{
+                        display: inline-block;
+                        height: 4rem;
+
+                    }
+
+                    .numero{
+                        color: $laranjaEscuro;
+                        font-size: 2.8rem;
+                        font-weight: $bold;
+                        background-color: white;
+                        width: 4rem;
+                        line-height: 1.4;
+                        border-radius: 2rem;
+                        text-align: center; 
+                    }
+
+                    .instrucao{
+                        width: 180px;
+                        vertical-align: bottom;
+                        margin-left: .5rem;
+                        display: inline-block;
+                        line-height: 1.5;
+
+                        &:hover{
+                            text-decoration: underline;
+                            cursor: pointer;
+                        }
                     }
 
                 }
-            }
-            
-            
-            
-            &:before{
-                content:'';
-                position: absolute;
-                z-index: -1;
-                left: 0;
-                border-bottom: 5rem solid $laranjaEscuro;
-                border-left: 0 solid transparent;
-                border-right: 25px solid transparent;
-                height: 0;
-                width: calc(100% - 3rem);
-                max-width: 800px;
-            }
-            
-        }
-        
-        #quer-ser-itens{
-            padding: 1rem;
-            max-width: 800px;
-            margin: 0 0 0 auto;
-            
-            li{
-                color: white;
-                font-size: 1.2rem;
-                display: inline-block;
-                margin-left: 1.5rem;
-                padding-top: 0.5rem;
-                
-                i{
-                    color: $laranjaEscuro;
-                    padding-left: 0.5rem;
-                }
-                
-                div{
-                    display: inline-block;
-                    height: 4rem;
-                    
-                }
-                
-                .numero{
-                    color: $laranjaEscuro;
-                    font-size: 2.8rem;
-                    font-weight: $bold;
-                    background-color: white;
-                    width: 4rem;
-                    line-height: 1.4;
-                    border-radius: 2rem;
-                    text-align: center; 
-                }
-                
-                .instrucao{
-                    width: 180px;
-                    vertical-align: bottom;
-                    margin-left: 1rem;
-                    display: inline-block;
-                    line-height: 1.5;
-                    
-                    &:hover{
-                        text-decoration: underline;
-                        cursor: pointer;
-                    }
-                }
-                
-            }
-            
-            &:before{
-                content:'';
-                position: absolute;
-                z-index: -1;
-                right: 0;
-                border-top: 5rem solid $laranjaClaro;
-                border-left: 25px solid transparent;
-                border-right: 0 solid transparent;
-                height: 0;
-                width: calc(100% - 2rem);
-                max-width: 800px;
             }
         }
         
@@ -165,7 +155,7 @@ main{
         .confira-mais{
             display: inline-block;
             flex-grow: 1;
-            width: 300px;
+            width: 100%;
             border-top: solid 3px $laranja;
             position: relative;
             margin-bottom: 2rem;
@@ -183,7 +173,7 @@ main{
                 line-height: 2.8rem;
             }
             
-            button{
+            a{
                 width: calc(50% - 0.5rem);
                 background-image: linear-gradient($azulEscuro,$azul);
                 display: inline-block;
@@ -191,6 +181,7 @@ main{
                 height: 50%;
                 border: none;
                 font-size: 4rem;
+                text-align: center;
                 
                 &:last-child{margin-left: 1rem;}
                 
@@ -201,16 +192,21 @@ main{
                 svg{
                     path{fill: white;}
                     max-width: 5rem;
-                    margin-top: -0.5rem;
+                    height: 100%;
+                    margin: 0 auto;
+                }
+                
+                i{
+                    vertical-align: text-bottom; 
+                    line-height: 1rem;
                 }
             }
         }
         
-        .noticia{
-           
+        .noticia{          
             display: inline-block;
             flex-grow: 1;
-            width: 300px;
+            width: 100%;
             border-top: solid 3px $laranja;
             position: relative;
             margin-bottom: 2rem;
@@ -256,25 +252,13 @@ main{
     #polos{
         color: $azulEscuro;
         background-color: $laranjaClaro;
-        padding: 4rem 1rem;
-        /*height: 20rem;*/
-        
-/*        &:before{
-            content: "";
-            position: absolute;
-            width: 100%;
-            background-color: $laranjaClaro;
-            height: 20rem;
-            z-index: -1;
-            left: 0;
-        }*/
+        padding: 2.5rem 1rem;
                    
         h2{
             color: white;
             font-size: 2rem;
             margin-top: 0;
         }
-        
         p{padding: 0;}
         
         a{
@@ -296,10 +280,38 @@ main{
     }
 }
 
+@media screen and (min-width: 652px) {
+    main{
+        #quer-ser{
+            .container{
+                #quer-ser-titulo{ 
+                    max-width: 600px;
+                }
+                
+                #quer-ser-itens{ 
+                    max-width: 600px;
+                    
+                    .box-titulo{
+                        border-top: 5rem solid $laranjaClaro;
+                        border-left: 25px solid transparent;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media screen and (min-width: 992px) {
        
     main{
-        margin: 0 auto;
+        margin: unset;
+        max-width: unset;
+        
+        /*PASSAR PRA GLOBAIS OU NAO*/
+        .container{
+            max-width: 960px;
+            margin: 3rem auto; 
+        }
        
         aside{
             padding-top: 3rem;
@@ -315,37 +327,36 @@ main{
         }
         
         #quer-ser{
-            #quer-ser-titulo{
-                max-width: 300px;
-                display: inline-block;
-                position: relative;
-                padding: 0;
-                margin: 0;
-                
-                .content{
-                    width: 300px;
-                }
-                
-                &:before{
-                    right: 0;
-                    left: unset;
-                    width: 500%;
+            .container{
+                display: flex;
+                justify-content: space-between;
+            
+                #quer-ser-titulo{
+                    max-width: 300px;
+                    display: inline-block;
+                    padding: 0;
+                    margin: 0;
+                    flex-grow: 1;
                     
+                    .box-titulo{
+                        width: calc(40% - 1.5rem);
+                    }
+
                 }
-            }
-            #quer-ser-itens{
-                display: inline-block;
-                position: relative;
-                padding: 0;
-                margin: 0;
-                top: -0.5rem;
-                padding-left: 1rem;
-                
-                &:before{
-                    left: 0;
-                    rigth: unset;
-                    width: 500%;
-                    max-width: none;
+                #quer-ser-itens{
+                    display: inline-block;
+                    padding: 0;
+                    margin: 0;
+                    top: -0.5rem;
+                    padding-left: 1rem;
+                    flex-grow: 2;
+                    
+                    .box-titulo{
+                        width: calc(60% - 1.5rem);
+                        margin-top: -0.5rem;
+                    }
+                    
+                    li{padding: 0;}
                 }
             }
         }
@@ -354,7 +365,7 @@ main{
             margin: 5rem 0;
             margin-right: -1rem;
             
-            .confira-mais{margin-right: 1rem; padding: 0;}
+            .confira-mais{margin-right: 1rem; padding: 0; width: 300px;}
             
             .noticia{
                 &:first-child{
@@ -362,15 +373,18 @@ main{
                     width: calc(600px + 0.5rem);
                 }
                 margin-right: 1rem;
+                width: 300px;
             }
         }
         #polos{
-           
+            padding: 2rem 1rem 1rem;
+            
             a{font-size: 1.8rem;}
 
             svg{
                 display: inline-block;
                 float: left;
+                margin: 0 2rem;
                 margin-top: -8rem;
                 height: 350px;
                 width: auto;

@@ -21,7 +21,7 @@
         <?php include 'components/topoBlog.php' ?>
       </header>
       
-      <main>  
+      <main class="container">  
           <ul id="posts">
             <?php 
             $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
@@ -29,9 +29,6 @@
               'posts_per_page' => 4,
               'paged'          => $paged,
               'post_type' => 'noticia',
-//              'nopaging' => false,
-//              'order' => 'DESC',
-//              'orderby' => 'date',
             );
             
             $noticias = new WP_Query( $args );

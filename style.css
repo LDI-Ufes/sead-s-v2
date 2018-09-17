@@ -44,28 +44,31 @@ section.caixa {
   margin: 0 auto;
   width: 960px; }
 
-main {
-  margin: 2rem 1rem; }
-  main #breadcrumbs {
-    font-size: .8rem; }
-    main #breadcrumbs a {
-      color: #1661A6;
-      font-weight: 500; }
-      main #breadcrumbs a:hover {
-        color: #E37531;
-        text-decoration: underline; }
-    main #breadcrumbs span {
-      color: #5992DD; }
-  main h1 {
-    font-size: 2rem;
-    font-weight: 700;
+.container {
+  padding: 0 1rem; }
+
+#breadcrumbs {
+  font-size: .8rem;
+  padding-top: 2rem; }
+  #breadcrumbs a {
     color: #1661A6;
-    padding: 2rem 0 1rem; }
+    font-weight: 500; }
+    #breadcrumbs a:hover {
+      color: #E37531;
+      text-decoration: underline; }
+  #breadcrumbs span {
+    color: #5992DD; }
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1661A6;
+  padding: 2rem 0 1rem; }
 
 @media screen and (min-width: 992px) {
-  main {
+  .container {
     max-width: 960px;
-    margin: 3rem auto; } }
+    margin: 0 auto; } }
 header {
   display: inline-flex;
   flex-flow: column;

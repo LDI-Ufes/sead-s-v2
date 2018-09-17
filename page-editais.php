@@ -21,7 +21,7 @@
         <?php include 'components/topoPrincipal.php' ?>
       </header>
       
-      <main>
+      <main class="container">
           <section id="breadcrumbs">Você está em: <span>Editais</span></section>
           <h1>Editais</h1>
           
