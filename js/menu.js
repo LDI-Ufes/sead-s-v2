@@ -24,12 +24,11 @@ $(document).ready(function () {
 // Menu móvel
 //
 
-$('.btoMenu_abrir').click(function() {
-  $('#menu').addClass('menu_aberto')
-  $('body').addClass('esmaecer')
+$('.btoMenu').click(function() {
+  $('#menu').toggleClass('menuAberto')
 })
 
-$('.btoMenu_fechar').click(function() {
-  $('#menu').removeClass('menu_aberto')
-  $('body').removeClass('esmaecer')
+$('.temSubmenu span').click(function() {
+  $(this).parent().toggleClass('submenuAberto')
 })
+

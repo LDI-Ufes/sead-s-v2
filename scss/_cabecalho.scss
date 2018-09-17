@@ -82,7 +82,7 @@ header {
     }
   }
 
-  #topoPrincipal {
+/*  #topoPrincipal {
     display: inline-flex;
     padding: 0 20px;
     background-color: $azul;
@@ -116,9 +116,9 @@ header {
         }
       }
     }
-  }
+  }*/
 
-  .menu {
+/*  .menu {
     display: inline-flex;
 
     > ul {
@@ -156,7 +156,7 @@ header {
       top: 100%;
       left: -9999em;
       flex-flow: column;
-      background-color: $azulEscuro;;
+      background-color: $azulEscuro;
       padding: 1em 1em .75em 1em;
       box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
       white-space: normal;
@@ -164,27 +164,28 @@ header {
       li {
         position: static;
         float: none;
-        padding: .6em 0;
+        padding: .3em 0;
         font-weight: $regular;
         white-space: nowrap;
         text-transform: none;
 
-        a:hover {
-          text-decoration: underline;
-          text-decoration-color: #E37531;
+        a {
+          padding: .3em 0;
+          
+          border-bottom: 1px solid transparent;
+
+          &:hover {
+            border-bottom: 1px solid #E37531;
+          }
         }
       }
     }
-  }
+  }*/
 }
 
 
 @media (min-width: 993px) {
-  
-  .btoMenu {
-    display: none !important;
-  }
-  
+
 }
 
 @media (max-width: 992px) {
@@ -194,60 +195,101 @@ header {
     height: 30px;
   }
 
-  .btoMenu {
-    display: block;
-    padding: 10px;
-    background-color: $azulEscuro;
+  #topoPrincipal {
+    background-color: #1661A6;
     color: white;
-  }
 
-  #menu {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    transform: translateY(-100vh);
-    transition: transform 200ms linear;
-    
-    > li {
-      height: auto !important;
-      padding: 1.2rem !important;
-    }
-  }
+    a { text-decoration: none; color: white; }
 
-  .menu_aberto {
-    display: inline-flex;
-    flex-flow: column;
-    z-index: 100;
-    background-color: orange;
-    transform: translateY(0) !important;
+    .caixa {
+      display: inline-flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 100%;
 
-    .btoMenu_fechar {
-      background-color: $azul;
-    }
+      .marca, .btoMenu {
+        margin: 10px 20px;
+        z-index: 1;
+      }
 
-    li {
-      justify-content: flex-end;
-      background-color: $azulEscuro;
-    }
-  }
+      .marca { padding: 10px 0; }
+      .btoMenu { padding: 10px 20px; background-color: #043767; }
 
-  .esmaecer {
-    position: relative;
-    overflow: hidden;
+      #menuPrincipal {
+        width: 100vw;
+        padding: 0 20px;
+        box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.25);
+        text-align: right;
+        text-transform: uppercase;
 
-    &:after {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      background: rgba(0, 0, 0, .8);
-      width: 100vw;
-      height: 100vh;
-    }
+        ul {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          transform: translateY(-100vh);
+          z-index: -1;
 
-    .menu {
-      overflow: scroll;
+          &.menuAberto {
+            position: relative;
+            padding: 20px 0;
+            transform: translateY(0) !important;
+            z-index: 0;
+          }
+        }
+
+        li {
+          line-height: 2em;
+
+          ul {
+            //background-color: #043767;
+            margin: 0 -20px 10px -20px;
+            padding: 0 20px;
+            text-transform: none;
+
+            li {
+
+            }
+          }
+        }
+
+        .temSubmenu {
+
+          span {
+            cursor: pointer;
+
+            i.fas:before {
+              content: "\f078";
+            }
+          }
+
+          .menuSuspenso {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            transform: translateX(-100%);
+            z-index: -1;
+          }
+
+          &.submenuAberto {
+
+            span {
+
+              i.fas:before {
+                content: "\f077";
+              }
+            }
+
+            .menuSuspenso {
+              position: relative;
+              z-index: 100;
+              transform: translateX(0);
+              z-index: 0;
+            }
+          }
+        }
+      }
     }
   }
 }
