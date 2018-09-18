@@ -3,7 +3,7 @@
     <?php include __DIR__ . '/../svg/sead.svg' ?>
     <span class="btoMenu">Menu</span>
     <nav id="menuPrincipal" class="menu" role="navigation">
-      <ul id="menu">
+      <ul class="menuLista">
         <li><a href="/sitiosead">Início</a></li>
         <li class="temSubmenu">
           <span>Ensino <i class="fas"></i></span>

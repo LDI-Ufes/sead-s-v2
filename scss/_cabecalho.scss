@@ -11,17 +11,17 @@ header {
     display: inline-flex;
     background-color: $azulEscuro;
     font-weight: $light;
+    font-size: .875rem;
     order: 2;
     z-index: 2;
 
     section.caixa {
       display: inline-flex;
       align-items: center;
-      justify-content: flex-end;
       color: white;
     }
 
-    ul {
+/*    ul {
       display: inline-flex;
 
       button {
@@ -30,13 +30,9 @@ header {
         color: white;
         padding: 0;
       }     
-    }
+    }*/
 
-    .fas, .fab {
-      margin-right: .5rem;
-    }
-
-    #ligacoesExternas {
+/*    #ligacoesExternas {
 
       > li {
         position: relative;
@@ -48,26 +44,16 @@ header {
           margin-right: .25rem;
         }
       }
+    }*/
 
-
-      #ligacaoAva {
-
-        #ligacaoAvaBotao {
-          display: inline-flex;
-
-          &:hover {
-            cursor: pointer;
-          }
-        }
-      }
+    .btoMenu {
+      margin: 10px;
+      width: calc(100vw - 20px);
+      text-align: right;
     }
   }
 
-
-  #topoPrincipal {
-    order: 3;
-  }
-
+  #topoPrincipal {order: 3;}
 
   @media (min-width: 993px) {
 
@@ -89,82 +75,10 @@ header {
         }
 
         #menuPrincipal {
-          display: inline-flex;
-          align-items: center;
 
           > ul > li {
-            display: inline-flex;
-            align-items: center;
             height: 60px;
-            padding: 1.2rem .6rem;
-            font-weight: $semi-bold;
-            text-transform: uppercase;
-
-            ul li {
-              display: inline-flex;
-              align-items: center;
-              width: 100%;
-            }
-          }
-
-          /*        > ul {
-                    zoom: 1;
-          
-                    &:before, &:after {
-                      content: "";
-                      display: table;
-                    }
-          
-                    &:after {
-                      clear: both;
-                    }
-                  }*/
-
-          ul {
-
-            li {
-              position: relative;
-              float: left;
-
-              &:hover, &.menuSuspensoAtivo {
-                z-index: 100;
-
-                ul {
-                  left: 0;
-                }
-              }
-            }
-          }
-
-          .menuSuspenso {
-            position: absolute;
-            top: 100%;
-            left: -9999em;
-            flex-flow: column;
-            background-color: $azulEscuro;
-            padding: 1em 1em .75em 1em;
-            box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-            white-space: normal;
-
-            li {
-              position: static;
-              float: none;
-              padding: .3em 0;
-              font-weight: $regular;
-              white-space: nowrap;
-              text-transform: none;
-
-              a {
-                padding: .3em 0;
-
-                border-bottom: 1px solid transparent;
-
-                &:hover {
-                  border-bottom: 1px solid #E37531;
-                }
-              }
-            }
-          }
+          }          
         }
       }
     }
@@ -179,10 +93,6 @@ header {
       a { text-decoration: none; color: white; }
 
       .caixa {
-        display: inline-flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        width: 100%;
 
         svg#Sead, .btoMenu {
           margin: 10px 20px;
@@ -199,84 +109,12 @@ header {
           padding: 10px 20px;
           background-color: #043767;
           line-height: 30px;
-        }
-
-        #menuPrincipal {
-          width: 100vw;
-          padding: 0 20px;
-          box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.25);
-          text-align: right;
           text-transform: uppercase;
-
-          ul {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            transform: translateY(-100vh);
-            z-index: -1;
-
-            &.menuAberto {
-              position: relative;
-              padding: 20px 0;
-              transform: translateY(0) !important;
-              z-index: 0;
-            }
-          }
-
-          li {
-            line-height: 2em;
-
-            ul {
-              //background-color: #043767;
-              margin: 0 -20px 10px -20px;
-              padding: 0 20px;
-              text-transform: none;
-
-              li {
-
-              }
-            }
-          }
-
-          .temSubmenu {
-
-            span {
-              cursor: pointer;
-
-              i.fas:before {
-                content: "\f078";
-              }
-            }
-
-            .menuSuspenso {
-              position: absolute;
-              top: 0;
-              left: 0;
-              width: 100%;
-              transform: translateX(-100%);
-              z-index: -1;
-            }
-
-            &.submenuAberto {
-
-              span {
-
-                i.fas:before {
-                  content: "\f077";
-                }
-              }
-
-              .menuSuspenso {
-                position: relative;
-                z-index: 100;
-                transform: translateX(0);
-                z-index: 0;
-              }
-            }
-          }
         }
+
       }
     }
   }
 }
+
+@import 'menu';

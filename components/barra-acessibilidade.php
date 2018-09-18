@@ -1,15 +1,16 @@
 <div id="barraAuxiliar">
   <section class="caixa">
+    <span class="btoMenu">Endereços úteis</span>
     <nav class="menu">
-      <ul id="ligacoesExternas">
+      <ul id="ligacoesExternas" class="menuLista">
         <li>
-          <a href=""><i class="fas fa-question-circle"></i> Dúvidas frequentes</a>
+          <a href="">Dúvidas frequentes</a>
         </li>
-        <li id="ligacaoAva">
-          <a id="ligacaoAvaBotao" href=""><i id="" class="fas fa-chalkboard-teacher"></i> AVA Moodle</a>
+        <li class="temSubmenu">
+          <span>AVA Moodle <i class="fas"></i></span>
           <ul class="menuSuspenso">
-            <li><a href="">Graduação</a></li>
-            <li><a href="">Especialização e Aperfeiçoamento</a></li>
+            <li><a href="" title="AVA Moodle de Graduação">Graduação</a></li>
+            <li><a href="" title="AVA Moodle de Especialização e Aperfeiçamento">Especialização e Aperfeiçoamento</a></li>
           </ul>
         </li>
       </ul>

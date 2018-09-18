@@ -25,7 +25,7 @@ $(document).ready(function () {
 //
 
 $('.btoMenu').click(function() {
-  $('#menu').toggleClass('menuAberto')
+  $(this).siblings('.menu').children('.menuLista').toggleClass('menuAberto')
 })
 
 $('.temSubmenu span').click(function() {

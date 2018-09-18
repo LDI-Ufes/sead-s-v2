@@ -1,8 +1,325 @@
-﻿/*!
-Theme Name: Sítio Sead v2
+@charset "UTF-8";
+/*!
+Theme Name: S├¡tio Sead v2
 Theme URI: https://sead.ufes.br/
-Author: Laboratório de Design Instrucional - Sead Ufes
+Author: Laborat├│rio de Design Instrucional - Sead Ufes
 Author URI: https://ldi.eadufes.org/
-Description: Tema desenvolvido para o sítio da Secretaria de Ensino a Distância da Universidade Federal do Espírito Santo.
+Description: Tema desenvolvido para o s├¡tio da Secretaria de Ensino a Dist├óncia da Universidade Federal do Esp├¡rito Santo.
 Version: 2.0
-*/a{text-decoration:none;color:inherit}ul{margin:0;padding:0;list-style:none}button{font-family:inherit;font-size:inherit;font-weight:inherit}*:focus{outline:2px solid #E37531;outline-offset:2px}html{font-size:16px}body{margin:0;min-width:calc(340px + 2rem);font-family:'Fira Sans', sans-serif;font-size:1rem}body.contraste *{background-color:black !important;color:white}body.contraste * a{color:yellow}section.caixa{margin:0 auto;width:960px}main{margin:2rem 1rem}main #breadcrumbs{font-size:.8rem}main #breadcrumbs a{color:#1661A6;font-weight:500}main #breadcrumbs a:hover{color:#E37531;text-decoration:underline}main #breadcrumbs span{color:#5992DD}main h1{font-size:2rem;font-weight:700;color:#1661A6;padding:2rem 0 1rem}@media screen and (min-width: 992px){main{max-width:960px;margin:3rem auto}}header{display:inline-flex;flex-flow:column;width:100%;font-size:1rem;color:white}header #barra-brasil{order:1}header #barraAuxiliar{display:inline-flex;background-color:#043767;font-weight:300;order:2;z-index:2}header #barraAuxiliar section.caixa{display:inline-flex;align-items:center;justify-content:flex-end;color:white}header #barraAuxiliar ul{display:inline-flex}header #barraAuxiliar ul button{background:transparent;border:none;color:white;padding:0}header #barraAuxiliar .fas,header #barraAuxiliar .fab{margin-right:.5rem}header #barraAuxiliar #atalhosAcessibilidade{padding:0 10px}header #barraAuxiliar #atalhosAcessibilidade:hover ul{visibility:visible !important}header #barraAuxiliar #atalhosAcessibilidade #atalhosAcessibBotao{display:inline-flex;padding:1em 0}header #barraAuxiliar #atalhosAcessibilidade #atalhosAcessibBotao:hover{cursor:pointer}header #barraAuxiliar #ligacoesExternas>li{position:relative;display:inline-flex;padding:1rem 10px;font-size:.9rem}header #barraAuxiliar #ligacoesExternas>li i.fas{margin-right:.25rem}header #barraAuxiliar #ligacoesExternas #ligacaoAva #ligacaoAvaBotao{display:inline-flex}header #barraAuxiliar #ligacoesExternas #ligacaoAva #ligacaoAvaBotao:hover{cursor:pointer}header #topoPrincipal{order:3}@media (min-width: 993px){header #topoPrincipal{display:inline-flex;padding:0 20px;background-color:#1661A6}header #topoPrincipal .caixa{display:inline-flex;justify-content:space-between}header #topoPrincipal .caixa svg#Sead{padding:1.2rem .6rem}header #topoPrincipal .caixa .btoMenu{display:none}header #topoPrincipal .caixa #menuPrincipal{display:inline-flex;align-items:center}header #topoPrincipal .caixa #menuPrincipal>ul>li{display:inline-flex;align-items:center;height:60px;padding:1.2rem .6rem;font-weight:600;text-transform:uppercase}header #topoPrincipal .caixa #menuPrincipal>ul>li ul li{display:inline-flex;align-items:center;width:100%}header #topoPrincipal .caixa #menuPrincipal ul li{position:relative;float:left}header #topoPrincipal .caixa #menuPrincipal ul li:hover,header #topoPrincipal .caixa #menuPrincipal ul li.menuSuspensoAtivo{z-index:100}header #topoPrincipal .caixa #menuPrincipal ul li:hover ul,header #topoPrincipal .caixa #menuPrincipal ul li.menuSuspensoAtivo ul{left:0}header #topoPrincipal .caixa #menuPrincipal .menuSuspenso{position:absolute;top:100%;left:-9999em;flex-flow:column;background-color:#043767;padding:1em 1em .75em 1em;box-shadow:inset 0px 4px 4px rgba(0,0,0,0.25);white-space:normal}header #topoPrincipal .caixa #menuPrincipal .menuSuspenso li{position:static;float:none;padding:.3em 0;font-weight:400;white-space:nowrap;text-transform:none}header #topoPrincipal .caixa #menuPrincipal .menuSuspenso li a{padding:.3em 0;border-bottom:1px solid transparent}header #topoPrincipal .caixa #menuPrincipal .menuSuspenso li a:hover{border-bottom:1px solid #E37531}}@media (max-width: 992px){header #topoPrincipal{background-color:#1661A6;color:white}header #topoPrincipal a{text-decoration:none;color:white}header #topoPrincipal .caixa{display:inline-flex;justify-content:space-between;flex-wrap:wrap;width:100%}header #topoPrincipal .caixa svg#Sead,header #topoPrincipal .caixa .btoMenu{margin:10px 20px;z-index:1}header #topoPrincipal .caixa svg#Sead{width:auto;height:30px;padding:10px 0}header #topoPrincipal .caixa .btoMenu{padding:10px 20px;background-color:#043767;line-height:30px}header #topoPrincipal .caixa #menuPrincipal{width:100vw;padding:0 20px;box-shadow:inset 0px 5px 10px rgba(0,0,0,0.25);text-align:right;text-transform:uppercase}header #topoPrincipal .caixa #menuPrincipal ul{position:absolute;top:0;left:0;width:100%;transform:translateY(-100vh);z-index:-1}header #topoPrincipal .caixa #menuPrincipal ul.menuAberto{position:relative;padding:20px 0;transform:translateY(0) !important;z-index:0}header #topoPrincipal .caixa #menuPrincipal li{line-height:2em}header #topoPrincipal .caixa #menuPrincipal li ul{margin:0 -20px 10px -20px;padding:0 20px;text-transform:none}header #topoPrincipal .caixa #menuPrincipal .temSubmenu span{cursor:pointer}header #topoPrincipal .caixa #menuPrincipal .temSubmenu span i.fas:before{content:"\f078"}header #topoPrincipal .caixa #menuPrincipal .temSubmenu .menuSuspenso{position:absolute;top:0;left:0;width:100%;transform:translateX(-100%);z-index:-1}header #topoPrincipal .caixa #menuPrincipal .temSubmenu.submenuAberto span i.fas:before{content:"\f077"}header #topoPrincipal .caixa #menuPrincipal .temSubmenu.submenuAberto .menuSuspenso{position:relative;z-index:100;transform:translateX(0);z-index:0}}footer{background-color:#043767;color:white;font-weight:300;line-height:1.7}footer .content{padding:2rem 1rem}footer .content section{display:inline-block;width:100%}footer .content section h4{font-size:1.2rem;font-weight:600}footer .content section h4:after{content:'';display:block;height:2px;background-color:#E37531;width:100%;margin-top:.4rem}footer .content section a:hover{color:#5992DD}footer .content section .subitens{margin-left:1rem}footer .creditos{background-color:#E37531;color:white;height:3rem;text-align:center}footer .creditos p{margin:0;display:inline-block;font-size:.8rem;line-height:3rem;vertical-align:top;height:inherit}footer .creditos p a:hover{color:#043767}footer .creditos p span{display:none}footer .creditos svg{height:3rem;width:auto;margin-bottom:-1rem}footer .creditos svg path{fill:white}@media screen and (min-width: 992px){footer .content{max-width:960px;margin:0 auto;padding:2rem 0}footer .content section{width:calc(50% - .7rem);vertical-align:top}footer .content section:nth-child(even){float:right}footer .creditos p span{display:inline-block}}
+*/
+a {
+  text-decoration: none;
+  color: inherit; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit; }
+
+*:focus {
+  outline: 2px solid #E37531;
+  outline-offset: 2px; }
+
+html {
+  font-size: 16px; }
+
+body {
+  margin: 0;
+  min-width: calc(340px + 2rem);
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1rem; }
+  body.contraste * {
+    background-color: black !important;
+    color: white; }
+    body.contraste * a {
+      color: yellow; }
+
+section.caixa {
+  margin: 0 auto;
+  width: 960px; }
+
+main {
+  margin: 2rem 1rem; }
+  main #breadcrumbs {
+    font-size: .8rem; }
+    main #breadcrumbs a {
+      color: #1661A6;
+      font-weight: 500; }
+      main #breadcrumbs a:hover {
+        color: #E37531;
+        text-decoration: underline; }
+    main #breadcrumbs span {
+      color: #5992DD; }
+  main h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1661A6;
+    padding: 2rem 0 1rem; }
+
+@media screen and (min-width: 992px) {
+  main {
+    max-width: 960px;
+    margin: 3rem auto; } }
+header {
+  display: inline-flex;
+  flex-flow: column;
+  width: 100%;
+  font-size: 1rem;
+  color: white; }
+  header #barra-brasil {
+    order: 1; }
+  header #barraAuxiliar {
+    display: inline-flex;
+    background-color: #043767;
+    font-weight: 300;
+    font-size: .875rem;
+    order: 2;
+    z-index: 2;
+    /*    ul {
+          display: inline-flex;
+    
+          button {
+            background: transparent;
+            border: none;
+            color: white;
+            padding: 0;
+          }     
+        }*/
+    /*    #ligacoesExternas {
+    
+          > li {
+            position: relative;
+            display: inline-flex;        
+            padding: 1rem 10px;
+            font-size: .9rem;
+    
+            i.fas {
+              margin-right: .25rem;
+            }
+          }
+        }*/ }
+    header #barraAuxiliar section.caixa {
+      display: inline-flex;
+      align-items: center;
+      color: white; }
+    header #barraAuxiliar .btoMenu {
+      margin: 10px;
+      width: calc(100vw - 20px);
+      text-align: right; }
+  header #topoPrincipal {
+    order: 3; }
+  @media (min-width: 993px) {
+    header #topoPrincipal {
+      display: inline-flex;
+      padding: 0 20px;
+      background-color: #1661A6; }
+      header #topoPrincipal .caixa {
+        display: inline-flex;
+        justify-content: space-between; }
+        header #topoPrincipal .caixa svg#Sead {
+          padding: 1.2rem .6rem; }
+        header #topoPrincipal .caixa .btoMenu {
+          display: none; }
+        header #topoPrincipal .caixa #menuPrincipal > ul > li {
+          height: 60px; } }
+  @media (max-width: 992px) {
+    header #topoPrincipal {
+      background-color: #1661A6;
+      color: white; }
+      header #topoPrincipal a {
+        text-decoration: none;
+        color: white; }
+      header #topoPrincipal .caixa svg#Sead, header #topoPrincipal .caixa .btoMenu {
+        margin: 10px 20px;
+        z-index: 1; }
+      header #topoPrincipal .caixa svg#Sead {
+        width: auto;
+        height: 30px;
+        padding: 10px 0; }
+      header #topoPrincipal .caixa .btoMenu {
+        padding: 10px 20px;
+        background-color: #043767;
+        line-height: 30px;
+        text-transform: uppercase; } }
+
+#barraAuxiliar .caixa, #topoPrincipal .caixa {
+  display: inline-flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%; }
+
+nav.menu {
+  font-weight: 500;
+  text-transform: uppercase; }
+  nav.menu li ul {
+    font-weight: 400;
+    text-transform: none; }
+  @media (min-width: 993px) {
+    nav.menu {
+      display: inline-flex;
+      align-items: center;
+      /*        > ul {
+                zoom: 1;
+      
+                &:before, &:after {
+                  content: "";
+                  display: table;
+                }
+      
+                &:after {
+                  clear: both;
+                }
+              }*/ }
+      nav.menu > ul > li {
+        display: inline-flex;
+        align-items: center;
+        padding: 1.2rem .6rem; }
+        nav.menu > ul > li ul li {
+          display: inline-flex;
+          align-items: center;
+          width: 100%; }
+      nav.menu ul li {
+        position: relative;
+        float: left; }
+        nav.menu ul li:hover, nav.menu ul li.menuSuspensoAtivo {
+          z-index: 100; }
+          nav.menu ul li:hover ul, nav.menu ul li.menuSuspensoAtivo ul {
+            left: 0; }
+      nav.menu .menuSuspenso {
+        position: absolute;
+        top: 100%;
+        left: -9999em;
+        flex-flow: column;
+        background-color: #043767;
+        padding: 1em 1em .75em 1em;
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+        white-space: normal; }
+        nav.menu .menuSuspenso li {
+          position: static;
+          float: none;
+          padding: .3em 0;
+          white-space: nowrap; }
+          nav.menu .menuSuspenso li a {
+            padding: .3em 0;
+            border-bottom: 1px solid transparent; }
+            nav.menu .menuSuspenso li a:hover {
+              border-bottom: 1px solid #E37531; } }
+  @media (max-width: 992px) {
+    nav.menu {
+      width: 100vw;
+      padding: 0 20px;
+      box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.25);
+      text-align: right; }
+      nav.menu ul {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        transform: translateY(-100vh);
+        z-index: -1; }
+        nav.menu ul.menuAberto {
+          position: relative;
+          padding: 20px 0;
+          transform: translateY(0) !important;
+          z-index: 0; }
+      nav.menu li {
+        line-height: 2em; }
+        nav.menu li ul {
+          margin: 0 -20px 10px -20px;
+          padding: 0 20px; }
+      nav.menu .temSubmenu span {
+        cursor: pointer; }
+        nav.menu .temSubmenu span i.fas:before {
+          content: "\f078"; }
+      nav.menu .temSubmenu .menuSuspenso {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        transform: translateX(-100%);
+        z-index: -1; }
+      nav.menu .temSubmenu.submenuAberto span i.fas:before {
+        content: "\f077"; }
+      nav.menu .temSubmenu.submenuAberto .menuSuspenso {
+        position: relative;
+        z-index: 100;
+        transform: translateX(0);
+        z-index: 0; } }
+
+footer {
+  background-color: #043767;
+  color: white;
+  font-weight: 300;
+  line-height: 1.7; }
+  footer .content {
+    padding: 2rem 1rem; }
+    footer .content section {
+      display: inline-block;
+      width: 100%; }
+      footer .content section h4 {
+        font-size: 1.2rem;
+        font-weight: 600; }
+        footer .content section h4:after {
+          content: '';
+          display: block;
+          height: 2px;
+          background-color: #E37531;
+          width: 100%;
+          margin-top: .4rem; }
+      footer .content section a:hover {
+        color: #5992DD; }
+      footer .content section .subitens {
+        margin-left: 1rem; }
+  footer .creditos {
+    background-color: #E37531;
+    color: white;
+    height: 3rem;
+    text-align: center; }
+    footer .creditos p {
+      margin: 0;
+      display: inline-block;
+      font-size: .8rem;
+      line-height: 3rem;
+      vertical-align: top;
+      height: inherit;
+      /*padding-right: .2rem;*/ }
+      footer .creditos p a:hover {
+        color: #043767; }
+      footer .creditos p span {
+        display: none; }
+    footer .creditos svg {
+      height: 3rem;
+      width: auto;
+      margin-bottom: -1rem; }
+      footer .creditos svg path {
+        fill: white; }
+
+@media screen and (min-width: 992px) {
+  footer .content {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem 0; }
+    footer .content section {
+      width: calc(50% - .7rem);
+      vertical-align: top; }
+      footer .content section:nth-child(even) {
+        float: right; }
+  footer .creditos p span {
+    display: inline-block; } }
+/*
+position:
+display:
+margin:
+width:
+background:
+padding:
+font:
+list:
+text:
+color:
+*/
