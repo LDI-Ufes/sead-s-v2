@@ -36,25 +36,6 @@ header {
       margin-right: .5rem;
     }
 
-    #atalhosAcessibilidade {
-      padding: 0 10px;
-
-      &:hover {    
-        ul {
-          visibility: visible !important;
-        }
-      }
-
-      #atalhosAcessibBotao {
-        display: inline-flex;
-        padding: 1em 0;
-
-        &:hover {
-          cursor: pointer;
-        }
-      }
-    }
-
     #ligacoesExternas {
 
       > li {
