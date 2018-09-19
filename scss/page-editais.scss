@@ -43,7 +43,7 @@ main{
     
     #postsNav{
         color: $laranja;
-        padding: 0 1rem 6rem;
+        padding: 3rem 0;
         
         a:hover{
             border-bottom: solid 1px $laranjaEscuro;
@@ -86,9 +86,6 @@ main{
                     font-style: normal;   
                 }               
             }
-        }
-        #postsNav{
-            padding: 0 0 2rem;
         }
     }
 }

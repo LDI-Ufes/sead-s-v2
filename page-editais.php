@@ -38,7 +38,7 @@
               'post_type' => 'edital',
             );
 
-            $editais = new WP_Query( array( $args ) );
+            $editais = new WP_Query( $args );
 
             if ( $editais->have_posts() ) : ?>
                     <?php while ( $editais->have_posts() ) : $editais->the_post(); ?>	
@@ -49,16 +49,18 @@
                             --><p class="curso"><?php echo strip_tags(get_the_term_list( $post->ID, 'curso' )); ?></p>
                         </li>
                     <?php endwhile; ?>
+                    </ul>
+
                     <div id="postsNav">  
-                        <div class="nav-right"><?php next_posts_link( 'Notícias antigas  >', $editais->max_num_pages ); ?></div>
-                        <div class="nav-left"><?php previous_posts_link( '<  Notícias recentes', $editais->max_num_pages ); ?></div>
+                        <div class="nav-right"><?php next_posts_link( 'Editais antigos  >', $editais->max_num_pages ); ?></div>
+                        <div class="nav-left"><?php previous_posts_link( '<  Editais recentes', $editais->max_num_pages ); ?></div>
                     </div>
                     <?php wp_reset_postdata(); ?>
             <?php else : ?>
                     <p><?php esc_html_e( 'Não há editais cadastrados.' ); ?></p>
             <?php endif; ?>
 
-          </ul>
+          
       </main>
       
       <?php include 'components/rodape.php' ?>
