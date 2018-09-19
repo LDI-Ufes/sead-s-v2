@@ -1,0 +1,81 @@
+#filtros button {
+  background-color: white;
+  color: #9C4C22;
+  border: none;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  padding: .4rem .8rem;
+  margin: 0 .3rem;
+  font-weight: 700; }
+  #filtros button:hover, #filtros button:active {
+    background-color: #9C4C22;
+    color: white;
+    box-shadow: none; }
+
+#eventos {
+  margin-top: 3rem; }
+  #eventos li {
+    margin-bottom: 7rem; }
+    #eventos li h2 {
+      position: relative;
+      font-weight: 600;
+      font-size: 1.5rem;
+      color: #E37531; }
+      #eventos li h2 span {
+        background-color: #fff;
+        padding-right: 15px;
+        position: relative; }
+      #eventos li h2:before {
+        content: '';
+        display: block;
+        vertical-align: middle;
+        height: 3px;
+        background-color: #E37531;
+        width: 100%;
+        margin-right: -100%;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        z-index: -1; }
+    #eventos li .imagens {
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: -1rem;
+      justify-content: center; }
+      #eventos li .imagens li {
+        margin: 1rem 0;
+        height: 10rem;
+        width: 15rem;
+        display: inline-block;
+        flex-grow: 1;
+        margin-right: 1rem; }
+        #eventos li .imagens li img {
+          object-fit: cover;
+          width: 100%;
+          height: 100%; }
+    #eventos li .abrirTodas {
+      float: right;
+      background-color: #E37531;
+      border: none;
+      color: white;
+      text-transform: uppercase;
+      padding: .5rem 1.5rem;
+      font-weight: 700;
+      margin-top: 1rem; }
+      #eventos li .abrirTodas:hover {
+        background-color: #994715; }
+    #eventos li:nth-child(even) h2 {
+      color: #1661A6; }
+      #eventos li:nth-child(even) h2:before {
+        background-color: #1661A6; }
+    #eventos li:nth-child(even) .abrirTodas {
+      background-color: #1661A6; }
+      #eventos li:nth-child(even) .abrirTodas:hover {
+        background-color: #0a2c4c; }
+
+@media screen and (min-width: 992px) {
+  #eventos li .imagens {
+    margin-right: -1.5rem; }
+    #eventos li .imagens li {
+      width: calc(33% - 1.5rem);
+      margin-right: 1.5rem;
+      height: 12rem; } }
