@@ -73,13 +73,13 @@
       </main>
       
       <section id="galeria">
-          <div class="content">
+          <div class="container">
               <h2>Galeria de Fotos</h2>
               <ul>
                   <li>
                       <span>21/06/2018</span> Seminário da Disciplina de Linguagem V - Polo UAB de Montanha/ES
                       <ul>
-                          <li><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG_20180621_212726229.jpg"></li>
+                          <li><img src="https://www.eadufes.org/site/wp-content/uploads/2018/08/padr%C3%A3o-notebook-2-1200x848.png"></li>
                           <li><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG_20180621_212726229.jpg"></li>
                           <li><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG_20180621_212726229.jpg"></li>
                           <li class="verMais"><a href=""><span>Ver mais</span><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG_20180621_212726229.jpg"></a></li>
@@ -91,7 +91,7 @@
                           <li><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG_20180621_212726229.jpg"></li>
                           <li><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG_20180621_212726229.jpg"></li>
                           <li><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG_20180621_212726229.jpg"></li>
-                          <li class="verMais"><a href=""><span>Ver mais</span><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG_20180621_212726229.jpg"></a></li>
+                          <li class="verMais"><a href=""><span>Ver mais</span><img src="https://www.eadufes.org/site/wp-content/uploads/2018/08/padr%C3%A3o-notebook-2-1200x848.png"></a></li>
                       </ul>
                   </li>
               </ul>

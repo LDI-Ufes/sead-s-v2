@@ -1,12 +1,3 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 14/08/2018, 14:01:05
-    Author     : isabela.zucarato
-*/
 #ultimos-editais {
   background-color: rgba(89, 146, 221, 0.15);
   padding: 1.5rem; }
@@ -75,10 +66,10 @@ and open the template in the editor.
     #ultimos-editais .box-title {
       width: 100%;
       max-width: 300px; } }
-main {
+main.container {
   width: 100%;
-  padding-top: 3rem;
-  margin: 0; }
+  padding: 0;
+  padding-top: 3rem; }
 
 #posts .blog-post {
   margin-bottom: 3rem;
@@ -226,83 +217,80 @@ main {
 #galeria {
   background-color: #FDA65B;
   margin-top: 5rem;
-  padding: 2rem 1rem 5rem; }
-  #galeria .content {
-    max-width: 960px;
-    margin: 0 auto; }
-    #galeria .content h2 {
-      background-color: #9C4C22;
-      color: white;
-      text-transform: uppercase;
-      position: absolute;
-      margin-top: -3rem;
-      padding: .3rem .8rem;
-      font-size: 1.2rem; }
-    #galeria .content ul li {
-      font-weight: 300;
-      color: white;
-      font-size: 1.2rem;
-      padding-top: 1rem; }
-      #galeria .content ul li span {
-        font-weight: 700; }
-      #galeria .content ul li ul {
-        display: flex; }
-        #galeria .content ul li ul li {
-          padding: 0;
-          display: inline-flex;
-          position: relative;
-          flex-grow: 1;
-          margin: 1.5rem;
-          margin-left: 0; }
-          #galeria .content ul li ul li img {
+  padding-top: 2rem;
+  padding-bottom: 5rem; }
+  #galeria h2 {
+    background-color: #9C4C22;
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: -3rem;
+    padding: .3rem .8rem;
+    font-size: 1.2rem; }
+  #galeria ul li {
+    font-weight: 300;
+    color: white;
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    width: 100%; }
+    #galeria ul li span {
+      font-weight: 700; }
+    #galeria ul li ul {
+      display: flex; }
+      #galeria ul li ul li {
+        padding: 0;
+        display: inline-flex;
+        position: relative;
+        flex-grow: 1;
+        margin: 1.5rem;
+        margin-left: 0; }
+        #galeria ul li ul li img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover; }
+        #galeria ul li ul li.verMais {
+          margin-right: 0; }
+          #galeria ul li ul li.verMais a span {
+            position: absolute;
+            width: 100%;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: .8rem;
+            font-weight: 700;
+            padding-top: 35%; }
+          #galeria ul li ul li.verMais a:before {
+            content: "";
+            height: 0;
+            left: 0;
+            position: absolute;
+            top: 0;
             width: 100%;
             height: 100%;
-            object-fit: cover; }
-          #galeria .content ul li ul li.verMais {
-            margin-right: 0; }
-            #galeria .content ul li ul li.verMais a span {
-              position: absolute;
-              width: 100%;
-              text-transform: uppercase;
-              text-align: center;
-              font-size: .8rem;
-              font-weight: 700;
-              padding: 38% 0 40%; }
-            #galeria .content ul li ul li.verMais a:before {
-              content: "";
-              height: 0;
-              left: 0;
-              position: absolute;
-              top: 0;
-              width: 100%;
-              padding: 38% 0 40%;
-              background-color: rgba(171, 71, 17, 0.5); }
-            #galeria .content ul li ul li.verMais a:hover:before {
-              background-color: rgba(171, 71, 17, 0.6); }
-    #galeria .content button {
-      background-color: white;
-      color: #9C4C22;
-      text-transform: uppercase;
-      text-align: center;
-      font-size: .8rem;
-      font-weight: 700;
-      border: none;
-      height: 2rem;
-      padding: 0 1rem;
-      float: right;
-      margin-top: .5rem; }
-      #galeria .content button:hover {
-        background-color: #9C4C22;
-        color: white; }
+            background-color: rgba(171, 71, 17, 0.5); }
+          #galeria ul li ul li.verMais a:hover:before {
+            background-color: rgba(171, 71, 17, 0.6); }
+  #galeria button {
+    background-color: white;
+    color: #9C4C22;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 700;
+    border: none;
+    height: 2rem;
+    padding: 0 1rem;
+    float: right;
+    margin-top: .5rem; }
+    #galeria button:hover {
+      background-color: #9C4C22;
+      color: white; }
 
 @media screen and (min-width: 992px) {
-  main {
-    max-width: 960px;
-    margin: 0 auto;
-    padding-top: 12rem; }
+  main.container {
+    padding-top: 8rem; }
 
   #posts {
-    max-width: 560px;
+    width: 560px;
     display: inline-block; }
     #posts .blog-post .blog-post-header {
       height: 20vw; }

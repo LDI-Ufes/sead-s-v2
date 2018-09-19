@@ -1,20 +1,10 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 14/08/2018, 14:01:05
-    Author     : isabela.zucarato
-*/
-
 @import 'variaveis';
 @import 'ultimos-editais';
 
-main{
+main.container{
     width: 100%;
+    padding: 0;
     padding-top: 3rem;
-    margin: 0;
 }
     
 #posts{
@@ -220,123 +210,118 @@ main{
 }
 
 #galeria{
-        background-color: $laranjaClaro;
-        margin-top: 5rem;
-        padding: 2rem 1rem 5rem;
-    
-        .content{
-            max-width: 960px;
-            margin: 0 auto;
-   
-            h2{
-                background-color: $laranjaEscuro;
-                color: white;
-                text-transform: uppercase;
-                position: absolute;
-                margin-top: -3rem;
-                padding: .3rem .8rem;
-                font-size: 1.2rem;
+background-color: $laranjaClaro;
+margin-top: 5rem;
+padding-top: 2rem;
+padding-bottom: 5rem;
+
+    h2{
+        background-color: $laranjaEscuro;
+        color: white;
+        text-transform: uppercase;
+        position: absolute;
+        margin-top: -3rem;
+        padding: .3rem .8rem;
+        font-size: 1.2rem;
+    }
+
+    ul{
+
+        li{
+            font-weight: $light;
+            color: white;
+            font-size: 1.2rem;
+            padding-top: 1rem;
+            width: 100%;
+
+            span{
+                font-weight: $bold;
             }
 
             ul{
+                display: flex;
 
                 li{
-                    font-weight: $light;
-                    color: white;
-                    font-size: 1.2rem;
-                    padding-top: 1rem;
+                    padding: 0;   
+                    display: inline-flex;
+                    position: relative;
+                    flex-grow: 1;
+                    margin: 1.5rem;
+                    margin-left: 0;
 
-                    span{
-                        font-weight: $bold;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
                     }
 
-                    ul{
-                        display: flex;
+                    &.verMais{
+                        margin-right: 0;
 
-                        li{
-                            padding: 0;   
-                            display: inline-flex;
-                            position: relative;
-                            flex-grow: 1;
-                            margin: 1.5rem;
-                            margin-left: 0;
-
-                            img{
+                        a{
+                            span{
+                                position: absolute;
                                 width: 100%;
-                                height: 100%;
-                                object-fit: cover;
+                                text-transform: uppercase;
+                                text-align: center;
+                                font-size: .8rem;
+                                font-weight: $bold;
+                                padding-top: 35%;
+
                             }
 
-                            &.verMais{
-                                margin-right: 0;
-                                
-                                a{
-                                    span{
-                                        position: absolute;
-                                        width: 100%;
-                                        text-transform: uppercase;
-                                        text-align: center;
-                                        font-size: .8rem;
-                                        font-weight: $bold;
-                                        padding: 38% 0 40%;
+                            &:before{
+                                content: "";
+                                height: 0;
+                                left: 0;
+                                position: absolute;
+                                top: 0;
+                                width: 100%;
+                                height: 100%;
+                                background-color: rgba(171, 71, 17, .5);
+                            }
 
-                                    }
-
-                                    &:before{
-                                        content: "";
-                                        height: 0;
-                                        left: 0;
-                                        position: absolute;
-                                        top: 0;
-                                        width: 100%;
-                                        padding: 38% 0 40%;
-                                        background-color: rgba(171, 71, 17, .5);
-                                    }
-                                    
-                                    &:hover{                                       
-                                        &:before{
-                                            background-color: rgba(171, 71, 17, .6);
-                                        }
-                                    }
+                            &:hover{                                       
+                                &:before{
+                                    background-color: rgba(171, 71, 17, .6);
                                 }
                             }
                         }
-
                     }
                 }
-            }
-            
-            button{  
-                background-color: white;
-                color: $laranjaEscuro;
-                text-transform: uppercase;
-                text-align: center;
-                font-size: .8rem;
-                font-weight: $bold;
-                border: none;
-                height: 2rem;
-                padding: 0 1rem;
-                float: right;
-                margin-top: .5rem;
-                
-                &:hover{
-                    background-color: $laranjaEscuro;
-                    color: white;
-                }
+
             }
         }
+    }
+
+    button{  
+        background-color: white;
+        color: $laranjaEscuro;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: .8rem;
+        font-weight: $bold;
+        border: none;
+        height: 2rem;
+        padding: 0 1rem;
+        float: right;
+        margin-top: .5rem;
+
+        &:hover{
+            background-color: $laranjaEscuro;
+            color: white;
+        }
+    }
 }
 
 @media screen and (min-width: 992px) {
         
-    main{
-        max-width: 960px;
-        margin: 0 auto;
-        padding-top: 12rem;
+    main.container{
+        padding-top: 8rem;
     }
 
     #posts{
-        max-width: 560px;
+        width: 560px;
         display: inline-block;
 
         .blog-post{
@@ -381,7 +366,6 @@ main{
     }
     
     #galeria{
-
         padding: 2rem 0 5rem;
     }
 }
