@@ -1,6 +1,6 @@
 <div id="topoBlog">
     <section class="caixa">
-      <?php include __DIR__ . '/../svg/nossoBLOG.svg' ?>
+      <?php echo file_get_contents(get_template_directory_uri() . '/svg/nossoBLOG.svg'); ?>
         <nav id="menuPrincipal">
             <ul>
                 <li>

@@ -48,7 +48,6 @@
     </div>
     <div class="creditos">
         <p>2018 - Todos os direitos reservados. <span><a href="http://www.ufes.br/">Ufes</a> | <a href="">Sead</a> | <a href="https://ldi.eadufes.org/">LDI</a> | Educação a Distância Ufes</span></p>
-        <?php include __DIR__ . '/../svg/ldi.svg' ?>
-    
+        <?php echo file_get_contents(get_template_directory_uri() . '/svg/ldi.svg'); ?>
     </div>
 </footer>
