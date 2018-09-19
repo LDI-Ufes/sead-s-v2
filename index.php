@@ -15,12 +15,11 @@
   </head>
   <body>
     <header>
-
       <?php include 'components/barra-acessibilidade.php' ?>
       <?php include 'components/barra-brasil.php' ?>
       <?php include 'components/topoPrincipal.php' ?>    
-
     </header>
+    
     <main style="display:none">
       <section id="ead-na-ufes">
         <h2>Você conhece o EaD da Ufes?</h2>
@@ -73,14 +72,16 @@
         if ($latest_posts->have_posts()) : while ($latest_posts->have_posts()) : $latest_posts->the_post();
             ?>
             <div class="noticia">
-    <?php the_post_thumbnail(); ?>
+              <?php the_post_thumbnail(); ?>
               <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
             </div>
-          <?php endwhile;
-          wp_reset_postdata(); ?>
+            <?php
+          endwhile;
+          wp_reset_postdata();
+          ?>
         <?php else : ?>
           <p><?php esc_html_e('Sem notícias.'); ?></p>
-<?php endif; ?>
+        <?php endif; ?>
         <!--            <div class="noticia">
                         <img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG_20180621_212726229.jpg">
                         <h3>Polo UAB de Montanha realiza Seminário da Disciplina de Linguagem V</h3>
@@ -112,11 +113,6 @@
       </section>
     </main>
 
-<?php include 'components/rodape.php' ?>  
-    <script defer="defer" src="//barra.brasil.gov.br/barra.js"></script>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="<?php echo site_url(); ?>/wp-content/themes/sead-v2/js/altoContraste.js"></script>
-    <script src="<?php echo site_url(); ?>/wp-content/themes/sead-v2/js/menu.js"></script>
+    <?php include 'components/rodape.php' ?>
   </body>
 </html>
