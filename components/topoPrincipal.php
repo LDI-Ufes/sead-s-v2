@@ -6,7 +6,7 @@
       <ul class="menuLista">
         <li><a href="/sitiosead">Início</a></li>
         <li class="temSubmenu">
-          <span>Ensino <i class="fas"></i></span>
+          <span>Ensino <i class="fas fa-chevron-down"></i></span>
           <ul class="menuSuspenso">
             <li><a href="">Como é a EaD na Ufes?</a></li>
             <li><a href="">A Secretaria</a></li>

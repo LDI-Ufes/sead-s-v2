@@ -123,8 +123,6 @@ header {
         justify-content: space-between; }
         header #topoPrincipal .caixa svg#Sead {
           padding: 1.2rem .6rem; }
-        header #topoPrincipal .caixa .btoMenu {
-          display: none; }
         header #topoPrincipal .caixa #menuPrincipal > ul > li {
           height: 60px; } }
   @media (max-width: 992px) {
@@ -142,16 +140,24 @@ header {
         height: 30px;
         padding: 10px 0; }
       header #topoPrincipal .caixa .btoMenu {
-        padding: 10px 20px;
+        padding: 10px;
         background-color: #043767;
         line-height: 30px;
         text-transform: uppercase; } }
 
 #barraAuxiliar .caixa, #topoPrincipal .caixa {
   display: inline-flex;
-  justify-content: space-between;
   flex-wrap: wrap;
-  width: 100%; }
+  max-width: 100%; }
+@media (min-width: 993px) {
+  #barraAuxiliar .btoMenu, #topoPrincipal .btoMenu {
+    display: none; } }
+
+#barraAuxiliar .caixa {
+  justify-content: flex-end; }
+
+#topoPrincipal .caixa {
+  justify-content: space-between; }
 
 nav.menu {
   font-weight: 500;
@@ -159,22 +165,12 @@ nav.menu {
   nav.menu li ul {
     font-weight: 400;
     text-transform: none; }
+  nav.menu li.temSubmenu span .fas {
+    margin-left: .1em; }
   @media (min-width: 993px) {
     nav.menu {
       display: inline-flex;
-      align-items: center;
-      /*        > ul {
-                zoom: 1;
-      
-                &:before, &:after {
-                  content: "";
-                  display: table;
-                }
-      
-                &:after {
-                  clear: both;
-                }
-              }*/ }
+      align-items: center; }
       nav.menu > ul > li {
         display: inline-flex;
         align-items: center;
@@ -188,9 +184,11 @@ nav.menu {
         float: left; }
         nav.menu ul li:hover, nav.menu ul li.menuSuspensoAtivo {
           z-index: 100; }
-          nav.menu ul li:hover ul, nav.menu ul li.menuSuspensoAtivo ul {
+          nav.menu ul li:hover ul.menuSuspenso, nav.menu ul li.menuSuspensoAtivo ul.menuSuspenso {
             left: 0; }
-      nav.menu .menuSuspenso {
+      nav.menu .temSubmenu span {
+        cursor: pointer; }
+      nav.menu .temSubmenu .menuSuspenso {
         position: absolute;
         top: 100%;
         left: -9999em;
@@ -199,15 +197,15 @@ nav.menu {
         padding: 1em 1em .75em 1em;
         box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
         white-space: normal; }
-        nav.menu .menuSuspenso li {
+        nav.menu .temSubmenu .menuSuspenso li {
           position: static;
           float: none;
           padding: .3em 0;
           white-space: nowrap; }
-          nav.menu .menuSuspenso li a {
+          nav.menu .temSubmenu .menuSuspenso li a {
             padding: .3em 0;
             border-bottom: 1px solid transparent; }
-            nav.menu .menuSuspenso li a:hover {
+            nav.menu .temSubmenu .menuSuspenso li a:hover {
               border-bottom: 1px solid #E37531; } }
   @media (max-width: 992px) {
     nav.menu {
@@ -232,10 +230,6 @@ nav.menu {
         nav.menu li ul {
           margin: 0 -20px 10px -20px;
           padding: 0 20px; }
-      nav.menu .temSubmenu span {
-        cursor: pointer; }
-        nav.menu .temSubmenu span i.fas:before {
-          content: "\f078"; }
       nav.menu .temSubmenu .menuSuspenso {
         position: absolute;
         top: 0;
