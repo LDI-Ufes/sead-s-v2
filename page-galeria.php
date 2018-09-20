@@ -4,50 +4,44 @@
   <section id="breadcrumbs">Você está em: <a href="/sitiosead/editais">Blog</a> > <span>Galeria de Imagens</span></section>
   <h1>Galeria de Imagens</h1>
 
-  <section id="filtros">Navegue por ano: <button>2015</button><button>2016</button><button>2017</button><button>2018</button></section>
+  <section id="filtros"><span>Navegue por ano: </span><button>2015</button><button>2016</button><button>2017</button><button>2018</button></section>
 
   <ul id="eventos">
-    <li>
-      <h2><span>19/09/2018</span></h2>
-      <p>I Semana Acadêmica e Cultural do Polo UAB de Iúna-ES</p>
-      <ul class="imagens">
-        <li><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG-20180621-WA0037.jpg"></li>
-        <li><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG-20180621-WA0037.jpg"></li>
-        <li><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG-20180621-WA0037.jpg"></li>
-        <li><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG-20180621-WA0037.jpg"></li>
-        <li><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG-20180621-WA0037.jpg"></li>                                                                                              
-        <li><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG-20180621-WA0037.jpg"></li>
-      </ul>
-      <button class="abrirTodas">Abrir todas</button>
-    </li>
+        <?php 
+            $args = array(
+                'post_type' => 'galeria', 
+                'tax_query' => array( 
+                    array( 
+                        'taxonomy' => 'ano',
+                        'field' => 'slug', 
+                        'terms' => '2018' 
+                    ) 
+                ) 
+            );
 
-    <li>
-      <h2><span>07 a 11/11/2018</span></h2>
-      <p>II Semana Acadêmica do Polo UAB de Montanha: “15 anos de EaD no Município de Montanha – ES”</p>
-      <ul class="imagens">
-        <li><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG-20180621-WA0037.jpg"></li>
-        <li><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG-20180621-WA0037.jpg"></li>
-        <li><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG-20180621-WA0037.jpg"></li>
-        <li><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG-20180621-WA0037.jpg"></li>
-        <li><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG-20180621-WA0037.jpg"></li>                                                                                              
-        <li><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG-20180621-WA0037.jpg"></li>
-      </ul>
-      <button class="abrirTodas">Abrir todas</button>
-    </li>
-
-    <li>
-      <h2><span>07 a 11/11/2018</span></h2>
-      <p>II Semana Acadêmica do Polo UAB de Montanha: “15 anos de EaD no Município de Montanha – ES”</p>
-      <ul class="imagens">
-        <li><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG-20180621-WA0037.jpg"></li>
-        <li><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG-20180621-WA0037.jpg"></li>
-        <li><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG-20180621-WA0037.jpg"></li>
-        <li><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG-20180621-WA0037.jpg"></li>
-        <li><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG-20180621-WA0037.jpg"></li>                                                                                              
-        <li><img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG-20180621-WA0037.jpg"></li>
-      </ul>
-      <button class="abrirTodas">Abrir todas</button>
-    </li>
+            $eventos = new WP_Query( $args ); if ($eventos->have_posts()) : ?>  
+      
+            <?php while ($eventos->have_posts()) : $eventos->the_post(); ?>	
+                <li>
+                    <h2><span><?php the_title(); ?></span></h2>
+                    <p><?php the_excerpt(); ?></p>
+                    <ul class="imagens" id="<?php the_ID(); ?>">
+                      <?php the_content() ?>
+                    </ul>
+                    <button class="abrirTodas">Abrir todas</button>
+                    <!--<button class="abrirTodas" onclick="show(<?//php the_ID(); ?>)">Abrir todas</button>-->
+                </li>
+            <?php endwhile; ?>
+<!--            <script>
+                function show(id){
+                    $('#'id' img:nth-child(-n+6)').addClass("visivel");
+                }
+            </script>-->
+            
+            <?php wp_reset_postdata(); ?>
+            <?php else : ?>
+            <p><?php esc_html_e('Não há eventos cadastrados.'); ?></p>
+        <?php endif; ?>     
   </ul>
 
 </main>

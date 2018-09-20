@@ -68,10 +68,30 @@ function create_post_type() {
       )
     )
   );
+    
+    register_post_type( 'galeria',
+    array(
+      'labels' => array(
+        'name' => __( 'Galerias' ),
+        'singular_name' => __( 'Galeria' )
+      ),
+      'public' => true,
+      'has_archive' => true,
+      'menu_icon' => 'dashicons-images-alt',
+      'supports' => array( 
+        'title', 
+        'editor',
+        'excerpt'
+      ),
+      'rewrite' => array(
+        'slug' => 'galeria',
+      )
+    )
+  );
 }
 add_action( 'init', 'create_post_type' );
 
-/* Criar taxonomia para curso e modelo do projeto */
+/* Criar taxonomia para curso, tipo de curso e atribuição */
 add_action('init', 'create_edital_tax');
 
 function create_edital_tax() {
@@ -93,6 +113,18 @@ function create_edital_tax() {
         'atribuicao', 'edital', array(
         'label' => __('Atribuição'),
         'rewrite' => array('slug' => 'atribuicao'),
+        'hierarchical' => true,
+            )
+    );
+}
+
+add_action('init', 'create_galeria_tax');
+
+function create_galeria_tax() {
+    register_taxonomy(
+        'ano', 'galeria', array(
+        'label' => __('Ano'),
+        'rewrite' => array('slug' => 'ano'),
         'hierarchical' => true,
             )
     );
