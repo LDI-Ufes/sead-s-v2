@@ -6,7 +6,7 @@
   <!--<img src="https://www.eadufes.org/site/wp-content/uploads/2018/06/IMG_20180621_212726229.jpg">-->
   </div>
 
-  <article>
+  <article class="container">
     <h1><?php the_title(); ?></h1>
     <!--<h1>A gestão do design no âmbito da produção de materiais didáticos para o ensino a distância</h1>-->
     <div class="post-date"><i class="fas fa-clock"></i><?php the_date('j \d\e F \d\e Y'); ?></div>
