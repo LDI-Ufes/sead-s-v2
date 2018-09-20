@@ -1,5 +1,10 @@
 
-#barraAuxiliar, #topoPrincipal {
+//
+// Comum a mais de um
+// Ordenado do maior para menor agrupamento, em ordem alfabética
+//
+
+#barraAuxiliar, #topoPrincipal, #topoBlog {
 
   .caixa {
     display: inline-flex;
@@ -14,6 +19,64 @@
   }
 }
 
+#topoPrincipal, #topoBlog {
+  order: 3;
+
+  .caixa {
+    justify-content: space-between;
+  }
+
+  @media (min-width: 993px) {
+    display: inline-flex;
+    padding: 0 20px;
+    background-color: $azul;
+
+    .caixa {
+      display: inline-flex;
+      justify-content: space-between;
+
+      svg.seadUfesExtenso {
+        padding: 1.2rem .6rem;
+      }
+
+    }
+  }
+
+  @media (max-width: 992px) {
+    background-color: #1661A6;
+    color: white;
+
+    a { text-decoration: none; color: white; }
+
+    .caixa {
+
+      svg.seadUfesExtenso, .btoMenu {
+        margin: 10px 20px;
+        z-index: 1;
+      }
+
+      svg.seadUfesExtenso {
+        width: auto;
+        height: 30px;
+        padding: 10px 0;
+      }
+
+      .btoMenu {
+        padding: 10px;
+        background-color: #043767;
+        line-height: 30px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+
+//
+// Específicos
+// Ordenação alfabética
+//
+
 #barraAuxiliar {
 
   .caixa {
@@ -23,11 +86,95 @@
 
 #topoPrincipal {
 
-  .caixa {
-    justify-content: space-between;
+  @media screen and (min-width: 993px) {
+    position: relative;
+    height: 100px;
+
+    #menuPrincipal {
+
+      > ul > li {
+        height: calc(100px - 2.4rem);
+      }
+    }
   }
 }
 
+#topoBlog {
+
+  svg#nossoBlog {
+    width: 80px;
+    z-index: 1;
+  }
+
+  @media screen and (min-width: 993px) {
+    position: relative;
+    height: 110px;
+
+    svg#nossoBlog {
+      height: 270px;
+      width: 260px;
+      transition: height .5s;
+      padding: 0;
+    }
+
+    svg.seadUfes {
+      margin: 25px 0 25px 25px;
+      height: 60px;
+    }
+
+    #menuPrincipal {
+
+      > ul > li {
+        height: calc(110px - 2.4rem);
+      }
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    
+    svg#nossoBlog, svg.seadUfes {
+      margin: 10px 20px;
+      height: 50px;
+    }
+    
+    svg#nossoBlog {
+      order: 1;
+    }
+    
+    svg.seadUfes {
+      order: 2;
+    }
+    
+    .btoMenu {
+      order: 3;
+    }
+    
+    .menu {
+      order: 4;
+      
+      .menuAberto {
+        
+        .temSubmenu {
+          
+          > span i.fas {
+            display: none;
+          }          
+        }
+        
+        ul.menuSuspenso {
+          position: relative;
+          transform: translateX(0);
+        }        
+      }
+    }    
+  }
+}
+
+
+
+//
+// Geral
+//
 
 nav.menu {
   font-weight: $medium;

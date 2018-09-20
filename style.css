@@ -111,53 +111,93 @@ header {
       margin: 10px;
       width: calc(100vw - 20px);
       text-align: right; }
-  header #topoPrincipal {
-    order: 3; }
+
+#barraAuxiliar .caixa, #topoPrincipal .caixa, #topoBlog .caixa {
+  display: inline-flex;
+  flex-wrap: wrap;
+  max-width: 100%; }
+@media (min-width: 993px) {
+  #barraAuxiliar .btoMenu, #topoPrincipal .btoMenu, #topoBlog .btoMenu {
+    display: none; } }
+
+#topoPrincipal, #topoBlog {
+  order: 3; }
+  #topoPrincipal .caixa, #topoBlog .caixa {
+    justify-content: space-between; }
   @media (min-width: 993px) {
-    header #topoPrincipal {
+    #topoPrincipal, #topoBlog {
       display: inline-flex;
       padding: 0 20px;
       background-color: #1661A6; }
-      header #topoPrincipal .caixa {
+      #topoPrincipal .caixa, #topoBlog .caixa {
         display: inline-flex;
         justify-content: space-between; }
-        header #topoPrincipal .caixa svg#Sead {
-          padding: 1.2rem .6rem; }
-        header #topoPrincipal .caixa #menuPrincipal > ul > li {
-          height: 60px; } }
+        #topoPrincipal .caixa svg.seadUfesExtenso, #topoBlog .caixa svg.seadUfesExtenso {
+          padding: 1.2rem .6rem; } }
   @media (max-width: 992px) {
-    header #topoPrincipal {
+    #topoPrincipal, #topoBlog {
       background-color: #1661A6;
       color: white; }
-      header #topoPrincipal a {
+      #topoPrincipal a, #topoBlog a {
         text-decoration: none;
         color: white; }
-      header #topoPrincipal .caixa svg#Sead, header #topoPrincipal .caixa .btoMenu {
+      #topoPrincipal .caixa svg.seadUfesExtenso, #topoPrincipal .caixa .btoMenu, #topoBlog .caixa svg.seadUfesExtenso, #topoBlog .caixa .btoMenu {
         margin: 10px 20px;
         z-index: 1; }
-      header #topoPrincipal .caixa svg#Sead {
+      #topoPrincipal .caixa svg.seadUfesExtenso, #topoBlog .caixa svg.seadUfesExtenso {
         width: auto;
         height: 30px;
         padding: 10px 0; }
-      header #topoPrincipal .caixa .btoMenu {
+      #topoPrincipal .caixa .btoMenu, #topoBlog .caixa .btoMenu {
         padding: 10px;
         background-color: #043767;
         line-height: 30px;
         text-transform: uppercase; } }
 
-#barraAuxiliar .caixa, #topoPrincipal .caixa {
-  display: inline-flex;
-  flex-wrap: wrap;
-  max-width: 100%; }
-@media (min-width: 993px) {
-  #barraAuxiliar .btoMenu, #topoPrincipal .btoMenu {
-    display: none; } }
-
 #barraAuxiliar .caixa {
   justify-content: flex-end; }
 
-#topoPrincipal .caixa {
-  justify-content: space-between; }
+@media screen and (min-width: 993px) {
+  #topoPrincipal {
+    position: relative;
+    height: 100px; }
+    #topoPrincipal #menuPrincipal > ul > li {
+      height: calc(100px - 2.4rem); } }
+
+#topoBlog svg#nossoBlog {
+  width: 80px;
+  z-index: 1; }
+@media screen and (min-width: 993px) {
+  #topoBlog {
+    position: relative;
+    height: 110px; }
+    #topoBlog svg#nossoBlog {
+      height: 270px;
+      width: 260px;
+      transition: height .5s;
+      padding: 0; }
+    #topoBlog svg.seadUfes {
+      margin: 25px 0 25px 25px;
+      height: 60px; }
+    #topoBlog #menuPrincipal > ul > li {
+      height: calc(110px - 2.4rem); } }
+@media screen and (max-width: 992px) {
+  #topoBlog svg#nossoBlog, #topoBlog svg.seadUfes {
+    margin: 10px 20px;
+    height: 50px; }
+  #topoBlog svg#nossoBlog {
+    order: 1; }
+  #topoBlog svg.seadUfes {
+    order: 2; }
+  #topoBlog .btoMenu {
+    order: 3; }
+  #topoBlog .menu {
+    order: 4; }
+    #topoBlog .menu .menuAberto .temSubmenu > span i.fas {
+      display: none; }
+    #topoBlog .menu .menuAberto ul.menuSuspenso {
+      position: relative;
+      transform: translateX(0); } }
 
 nav.menu {
   font-weight: 500;

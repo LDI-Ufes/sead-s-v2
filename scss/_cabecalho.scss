@@ -52,65 +52,6 @@ header {
       text-align: right;
     }
   }
-
-  #topoPrincipal {order: 3;}
-
-  @media (min-width: 993px) {
-
-    #topoPrincipal {
-      display: inline-flex;
-      padding: 0 20px;
-      background-color: $azul;
-
-      .caixa {
-        display: inline-flex;
-        justify-content: space-between;
-
-        svg#Sead {
-          padding: 1.2rem .6rem;
-        }
-
-        #menuPrincipal {
-
-          > ul > li {
-            height: 60px;
-          }          
-        }
-      }
-    }
-  }
-
-  @media (max-width: 992px) {
-
-    #topoPrincipal {
-      background-color: #1661A6;
-      color: white;
-
-      a { text-decoration: none; color: white; }
-
-      .caixa {
-
-        svg#Sead, .btoMenu {
-          margin: 10px 20px;
-          z-index: 1;
-        }
-
-        svg#Sead {
-          width: auto;
-          height: 30px;
-          padding: 10px 0;
-        }
-
-        .btoMenu {
-          padding: 10px;
-          background-color: #043767;
-          line-height: 30px;
-          text-transform: uppercase;
-        }
-
-      }
-    }
-  }
 }
 
 @import 'menu';
