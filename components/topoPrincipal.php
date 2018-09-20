@@ -1,6 +1,6 @@
 <div id="topoPrincipal">
   <section class="caixa">
-    <?php echo file_get_contents(get_template_directory_uri() . '/svg/sead.svg'); ?>
+    <?php echo file_get_contents(get_template_directory_uri() . '/svg/sead-ufes-extenso.svg'); ?>
     <span class="btoMenu">Menu</span>
     <nav id="menuPrincipal" class="menu" role="navigation">
       <ul class="menuLista">
