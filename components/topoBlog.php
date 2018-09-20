@@ -1,29 +1,22 @@
 <div id="topoBlog">
-    <section class="caixa">
-      <?php include __DIR__ . '/../svg/nossoBLOG.svg' ?>
-        <nav id="menuPrincipal">
-            <button id="menuHamburguer" onclick="myFunction()">Portal Sead</button>
-            <ul id="itensMenu">
-                <li class="temSubnivel">
-                  <a href="">Portal Sead</a>
-                  <ul class="menuSuspenso">
-                    <li><a href="/sitiosead">Início</a></li>
-                    <li><a href="">Ensino</a></li>
-                    <li><a href="/sitiosead/editais">Editais</a></li>
-                    <li><a href="">Cursos</a></li>
-                    <li><a href="/sitiosead/editais">Polos</a></li>            
-                    <li><a href="/sitiosead/blog">Notícias</a></li>
-                  </ul>
-                </li>               
-            </ul>
-            <button id="busca"><i class="fas fa-search"></i></button>
-        </nav>
-    </section>
+  <section class="caixa">
+    <?php echo file_get_contents(get_template_directory_uri() . '/svg/nossoBlog.svg'); ?>
+    <span class="btoMenu">Menu</span>
+    <nav id="menuPrincipal" class="menu" role="navigation">
+      <ul class="menuLista">
+        <li class="temSubmenu">
+          <span>Portal Sead <i class="fas fa-chevron-down"></i></span>
+          <ul class="menuSuspenso">
+            <li><a href="/sitiosead">Início</a></li>
+            <li><a href="">Ensino</a></li>
+            <li><a href="/sitiosead/editais">Editais</a></li>
+            <li><a href="">Cursos</a></li>
+            <li><a href="/sitiosead/editais">Polos</a></li>            
+            <li><a href="/sitiosead/blog">Notícias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <?php echo file_get_contents(get_template_directory_uri() . '/svg/sead-ufes.svg'); ?>
+  </section>
 </div>
-
-<script>
-    function myFunction() {
-        var element = document.getElementById("itensMenu");
-        element.classList.toggle("menuSuspenso");
-    }
-</script>

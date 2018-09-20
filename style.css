@@ -1,10 +1,10 @@
 @charset "UTF-8";
 /*!
-Theme Name: S├¡tio Sead v2
+Theme Name: Sítio Sead v2
 Theme URI: https://sead.ufes.br/
-Author: Laborat├│rio de Design Instrucional - Sead Ufes
+Author: Laboratório de Design Instrucional - Sead Ufes
 Author URI: https://ldi.eadufes.org/
-Description: Tema desenvolvido para o s├¡tio da Secretaria de Ensino a Dist├óncia da Universidade Federal do Esp├¡rito Santo.
+Description: Tema desenvolvido para o sítio da Secretaria de Ensino a Distância da Universidade Federal do Espírito Santo.
 Version: 2.0
 */
 a {
@@ -30,6 +30,7 @@ html {
 
 body {
   margin: 0;
+  min-width: calc(340px + 2rem);
   font-family: 'Fira Sans', sans-serif;
   font-size: 1rem; }
   body.contraste * {
@@ -37,8 +38,6 @@ body {
     color: white; }
     body.contraste * a {
       color: yellow; }
-  body.contraste #topoSuperior, body.contraste #topoPrincipal, body.contraste #topoBlog {
-    border-bottom: 1px solid white; }
 
 section.caixa {
   margin: 0 auto;
@@ -95,28 +94,59 @@ header {
     display: inline-flex;
     background-color: #043767;
     font-weight: 300;
+    font-size: .875rem;
     order: 2;
-    z-index: 2; }
+    z-index: 2;
+    /*    ul {
+          display: inline-flex;
+    
+          button {
+            background: transparent;
+            border: none;
+            color: white;
+            padding: 0;
+          }     
+        }*/
+    /*    #ligacoesExternas {
+    
+          > li {
+            position: relative;
+            display: inline-flex;        
+            padding: 1rem 10px;
+            font-size: .9rem;
+    
+            i.fas {
+              margin-right: .25rem;
+            }
+          }
+        }*/ }
     header #barraAuxiliar section.caixa {
       display: inline-flex;
       align-items: center;
-      /*justify-content: space-between;*/
-      justify-content: flex-end;
       color: white; }
-    header #barraAuxiliar ul {
-      display: inline-flex; }
-      header #barraAuxiliar ul button {
-        background: transparent;
-        border: none;
-        color: white;
-        padding: 0; }
-    header #barraAuxiliar .fas, header #barraAuxiliar .fab {
-      margin-right: .5rem; }
-    header #barraAuxiliar #atalhosAcessibilidade {
-      padding: 0 10px; }
-      header #barraAuxiliar #atalhosAcessibilidade:hover ul {
-        visibility: visible !important; }
-      header #barraAuxiliar #atalhosAcessibilidade #atalhosAcessibBotao {
+    header #barraAuxiliar .btoMenu {
+      margin: 10px;
+      width: calc(100vw - 20px);
+      text-align: right; }
+
+#barraAuxiliar .caixa, #topoPrincipal .caixa, #topoBlog .caixa {
+  display: inline-flex;
+  flex-wrap: wrap;
+  max-width: 100%; }
+@media (min-width: 993px) {
+  #barraAuxiliar .btoMenu, #topoPrincipal .btoMenu, #topoBlog .btoMenu {
+    display: none; } }
+
+#topoPrincipal, #topoBlog {
+  order: 3; }
+  #topoPrincipal .caixa, #topoBlog .caixa {
+    justify-content: space-between; }
+  @media (min-width: 993px) {
+    #topoPrincipal, #topoBlog {
+      display: inline-flex;
+      padding: 0 20px;
+      background-color: #1661A6; }
+      #topoPrincipal .caixa, #topoBlog .caixa {
         display: inline-flex;
         padding: 1em 0; }
         header #barraAuxiliar #atalhosAcessibilidade #atalhosAcessibBotao:hover {
@@ -186,32 +216,137 @@ header {
     header #topoPrincipal svg .assinatura {
       display: none; }
 
-@media screen and (min-width: 992px) {
-  header #topoBlog {
+#barraAuxiliar .caixa {
+  justify-content: flex-end; }
+
+@media screen and (min-width: 993px) {
+  #topoPrincipal {
     position: relative;
-    height: 80px; }
-    header #topoBlog svg {
-      height: 200px;
+    height: 100px; }
+    #topoPrincipal #menuPrincipal > ul > li {
+      height: calc(100px - 2.4rem); } }
+
+#topoBlog svg#nossoBlog {
+  width: 80px;
+  z-index: 1; }
+@media screen and (min-width: 993px) {
+  #topoBlog {
+    position: relative;
+    height: 110px; }
+    #topoBlog svg#nossoBlog {
+      height: 270px;
       width: 260px;
       transition: height .5s;
       padding: 0; }
-  header #topoPrincipal svg {
-    height: 60px; }
-    header #topoPrincipal svg .assinatura {
-      display: block; }
-  header #topoPrincipal #menuPrincipal li {
-    display: inline-flex;
-    align-items: center;
-    height: 60px;
-    padding: 1.2rem .6rem; }
-  header #topoPrincipal #menuPrincipal .temSubnivel {
-    position: relative; }
-    header #topoPrincipal #menuPrincipal .temSubnivel .menuSuspenso {
-      top: calc(60px + 2.4rem); }
-  header #topoPrincipal #menuPrincipal #menuHamburguer {
-    display: none; }
-  header #topoPrincipal #menuPrincipal #itensMenu {
-    display: block; } }
+    #topoBlog svg.seadUfes {
+      margin: 25px 0 25px 25px;
+      height: 60px; }
+    #topoBlog #menuPrincipal > ul > li {
+      height: calc(110px - 2.4rem); } }
+@media screen and (max-width: 992px) {
+  #topoBlog svg#nossoBlog, #topoBlog svg.seadUfes {
+    margin: 10px 20px;
+    height: 50px; }
+  #topoBlog svg#nossoBlog {
+    order: 1; }
+  #topoBlog svg.seadUfes {
+    order: 2; }
+  #topoBlog .btoMenu {
+    order: 3; }
+  #topoBlog .menu {
+    order: 4; }
+    #topoBlog .menu .menuAberto .temSubmenu > span i.fas {
+      display: none; }
+    #topoBlog .menu .menuAberto ul.menuSuspenso {
+      position: relative;
+      transform: translateX(0); } }
+
+nav.menu {
+  font-weight: 500;
+  text-transform: uppercase; }
+  nav.menu li ul {
+    font-weight: 400;
+    text-transform: none; }
+  nav.menu li.temSubmenu span .fas {
+    margin-left: .1em; }
+  @media (min-width: 993px) {
+    nav.menu {
+      display: inline-flex;
+      align-items: center; }
+      nav.menu > ul > li {
+        display: inline-flex;
+        align-items: center;
+        padding: 1.2rem .6rem; }
+        nav.menu > ul > li ul li {
+          display: inline-flex;
+          align-items: center;
+          width: 100%; }
+      nav.menu ul li {
+        position: relative;
+        float: left; }
+        nav.menu ul li:hover, nav.menu ul li.menuSuspensoAtivo {
+          z-index: 100; }
+          nav.menu ul li:hover ul.menuSuspenso, nav.menu ul li.menuSuspensoAtivo ul.menuSuspenso {
+            left: 0; }
+      nav.menu .temSubmenu span {
+        cursor: pointer; }
+      nav.menu .temSubmenu .menuSuspenso {
+        position: absolute;
+        top: 100%;
+        left: -9999em;
+        flex-flow: column;
+        background-color: #043767;
+        padding: 1em 1em .75em 1em;
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+        white-space: normal; }
+        nav.menu .temSubmenu .menuSuspenso li {
+          position: static;
+          float: none;
+          padding: .3em 0;
+          white-space: nowrap; }
+          nav.menu .temSubmenu .menuSuspenso li a {
+            padding: .3em 0;
+            border-bottom: 1px solid transparent; }
+            nav.menu .temSubmenu .menuSuspenso li a:hover {
+              border-bottom: 1px solid #E37531; } }
+  @media (max-width: 992px) {
+    nav.menu {
+      width: 100vw;
+      padding: 0 20px;
+      box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.25);
+      text-align: right; }
+      nav.menu ul {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        transform: translateY(-100vh);
+        z-index: -1; }
+        nav.menu ul.menuAberto {
+          position: relative;
+          padding: 20px 0;
+          transform: translateY(0) !important;
+          z-index: 0; }
+      nav.menu li {
+        line-height: 2em; }
+        nav.menu li ul {
+          margin: 0 -20px 10px -20px;
+          padding: 0 20px; }
+      nav.menu .temSubmenu .menuSuspenso {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        transform: translateX(-100%);
+        z-index: -1; }
+      nav.menu .temSubmenu.submenuAberto span i.fas:before {
+        content: "\f077"; }
+      nav.menu .temSubmenu.submenuAberto .menuSuspenso {
+        position: relative;
+        z-index: 100;
+        transform: translateX(0);
+        z-index: 0; } }
+
 footer {
   background-color: #043767;
   color: white;

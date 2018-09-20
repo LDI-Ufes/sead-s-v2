@@ -44,7 +44,7 @@
                     <p>Clique sobre os municípios para mais informações</p>
                 </div>
             </div>
-            <?php get_template_part('svg/inline', 'mapaES') ?>
+            <?php echo file_get_contents(get_template_directory_uri() . '/svg/mapaES.svg'); ?>
         </section>
       </main>
       
