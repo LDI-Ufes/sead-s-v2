@@ -9,12 +9,21 @@ Description: Tema desenvolvido para o sítio da Secretaria de Ensino a Distânci
 Version: 2.0
 */
 
-@import 'scss/variaveis';
-@import 'scss/desfazer';
+@import 'variaveis';
+@import 'desfazer';
 
-@import 'scss/globais';
-@import 'scss/cabecalho';
-@import 'scss/rodape';
+@import 'globais';
+@import 'cabecalho';
+@import 'rodape';
+
+@import 'index';
+@import 'edital';
+@import 'noticia';
+@import 'page';
+@import 'page-blog';
+@import 'page-editais';
+@import 'page-galeria';
+@import 'page-polos';
 
 /*
 position:
