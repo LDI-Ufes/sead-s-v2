@@ -20,7 +20,9 @@
 
       <div id="topoBlog">
         <section class="caixa">
-          <?php echo file_get_contents(get_template_directory_uri() . '/svg/nossoBlog.svg'); ?>
+          <a id="enderecoBlog" href="<?php echo site_url(); ?>/blog" title="Ir para início do Blog">
+            <?php echo file_get_contents(get_template_directory_uri() . '/svg/nossoBlog.svg'); ?>
+          </a>
           <span class="btoMenu">Menu</span>
           <nav id="menuPrincipal" class="menu" role="navigation">
             <ul class="menuLista">
@@ -37,7 +39,9 @@
               </li>
             </ul>
           </nav>
-          <?php echo file_get_contents(get_template_directory_uri() . '/svg/sead-ufes.svg'); ?>
+          <a href="<?php echo site_url(); ?>" title="Ir para início do Portal Sead">
+            <?php echo file_get_contents(get_template_directory_uri() . '/svg/sead-ufes.svg'); ?>
+          </a>
         </section>
       </div>
     </header>

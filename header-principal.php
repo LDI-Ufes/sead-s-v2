@@ -19,7 +19,9 @@
 
       <div id="topoPrincipal">
         <section class="caixa">
-          <?php echo file_get_contents(get_template_directory_uri() . '/svg/sead-ufes-extenso.svg'); ?>
+          <a href="<?php echo site_url(); ?>" title="Ir para início do sítio">
+            <?php echo file_get_contents(get_template_directory_uri() . '/svg/sead-ufes-extenso.svg'); ?>
+          </a>
           <span class="btoMenu">Menu</span>
           <nav id="menuPrincipal" class="menu" role="navigation">
             <ul class="menuLista">
