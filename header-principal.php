@@ -40,6 +40,9 @@
               <li><a href="/sitiosead/blog">Notícias</a></li>
             </ul>
           </nav>
+          <form id="pesquisa" role="search" method="get" action="<?php echo esc_url(home_url('/')); ?>">
+            <input title="Pesquisar" type="search" placeholder="Pesquisar" value="<?php echo get_search_query(); ?>" name="s" title="<?php echo esc_attr_x('Search for:', 'label'); ?>">
+          </form>
         </section>
       </div>
     </header>

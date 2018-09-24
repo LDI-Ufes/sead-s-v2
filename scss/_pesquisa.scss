@@ -1,0 +1,72 @@
+form#pesquisa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  input:-webkit-autofill {
+    background-color: transparent !important;
+  }
+
+  input {
+    float: right;
+    height: 15px;
+    border: none;
+    outline: none;
+    background-color: transparent !important;
+
+    &[type=search] {
+      background: url(svg/fontawesome/search-solid.svg) no-repeat 9px center !important;
+      background-color: transparent !important;
+      -webkit-appearance: textfield;
+      -webkit-box-sizing: content-box;
+      font-family: inherit;
+      font-size: 100%;
+    }
+
+    &::-webkit-search-decoration,
+    &::-webkit-search-cancel-button {
+      display: none;
+    }
+
+    &[type=search] {
+      padding: 9px 10px 9px 32px;
+      width: 55px;
+
+      -webkit-transition: all .5s;
+      -moz-transition: all .5s;
+      transition: all .5s;
+    }
+
+    &:-moz-placeholder {
+      color: #999;
+    }
+
+    &::-webkit-input-placeholder {
+      color: #999;
+    }
+
+    &[type=search] {
+      width: 15px;
+      padding-left: 10px;
+      color: transparent;
+      cursor: pointer;
+    }
+
+    &[type=search]:focus {
+      width: 130px;
+      padding-left: 40px;
+      border-radius: 15px;
+      background-color: lighten($azul, 20%) !important;
+      color: #fff;
+      cursor: auto;
+    }
+
+    &:-moz-placeholder {
+      color: transparent;
+    }
+
+    &::-webkit-input-placeholder {
+      color: transparent;
+    }
+  }
+}
