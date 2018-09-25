@@ -1,28 +1,32 @@
 <?php get_header('principal'); ?>
-<?php
-$s=get_search_query();
-$args = array(
-                's' =>$s
-            );
-    // The Query
-$the_query = new WP_Query( $args );
-if ( $the_query->have_posts() ) {
-        _e("<h2 style='font-weight:bold;color:#000'>Search Results for: ".get_query_var('s')."</h2>");
-        while ( $the_query->have_posts() ) {
-           $the_query->the_post();
-                 ?>
-                    <li>
-                        <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-                    </li>
-                 <?php
-        }
-    }else{
-?>
-        <h2 style='font-weight:bold;color:#000'>Nothing Found</h2>
-        <div class="alert alert-info">
-          <p>Sorry, but nothing matched your search criteria. Please try again with some different keywords.</p>
-        </div>
-<?php } ?>
 
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+<main id="pagPesquisa">
+  <div class="container">
+
+    <?php
+    $s = get_search_query();
+    $args = array(
+        's' => $s
+    );
+    $the_query = new WP_Query($args);
+    if ($the_query->have_posts()) {
+      _e("<h1>Resultados de pesquisa para: " . get_query_var('s') . "</h1>");
+      while ($the_query->have_posts()) {
+        $the_query->the_post();
+        ?>
+        <li>
+          <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+        </li>
+        <?php
+      }
+    } else {
+      ?>
+      <h1>Nada encontrado</h1>
+      <p>Desculpe, mas nada foi encontrado com seu termo de pesquisa. Por favor, tente novamente com alguma(s) palavra(s) diferente(s).</p>
+    <?php } ?>
+
+  </div>
+</main>
+
+<?php
+get_footer();

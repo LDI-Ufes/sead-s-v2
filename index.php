@@ -1,16 +1,16 @@
 <?php get_header('principal'); ?>
 
-<main>
+<main style="margin-bottom: 50px;">
   <div class="container">
 
-    <?php get_search_form(); ?>
-
-    <h2><?php the_title() ?></h2>
+    <h1><?php the_title() ?></h1>
 
     <section>
-      <?php while (have_posts()) : the_post();
+      <?php
+      while (have_posts()) : the_post();
         the_content();
-      endwhile; ?>
+      endwhile;
+      ?>
     </section>
 
   </div>
