@@ -8,6 +8,7 @@
 
   <ul id="eventos">
         <?php 
+                            
             $args = array(
                 'post_type' => 'galeria', 
                 'tax_query' => array( 
@@ -24,26 +25,27 @@
             <?php while ($eventos->have_posts()) : $eventos->the_post(); ?>	
                 <li>
                     <h2><span><?php the_title(); ?></span></h2>
+                    
                     <p><?php the_excerpt(); ?></p>
+                    
                     <ul class="imagens" id="<?php the_ID(); ?>">
                       <?php the_content() ?>
                     </ul>
-                    <button class="abrirTodas">Abrir todas</button>
-                    <!--<button class="abrirTodas" onclick="show(<?//php the_ID(); ?>)">Abrir todas</button>-->
+                    
+                    <button class="abrirTodas" onclick="show()">Abrir todas</button>
                 </li>
-            <?php endwhile; ?>
-<!--            <script>
-                function show(id){
-                    $('#'id' img:nth-child(-n+6)').addClass("visivel");
-                }
-            </script>-->
-            
-            <?php wp_reset_postdata(); ?>
+                
+                <script>;
+                    function show(){
+                        $('#<?php the_ID(); ?> img:nth-child(n+7)').toggleClass("visivel");
+                    }
+                </script>
+            <?php endwhile; ?>            
+                <?php wp_reset_postdata(); ?>
             <?php else : ?>
-            <p><?php esc_html_e('Não há eventos cadastrados.'); ?></p>
+                <p><?php esc_html_e('Não há eventos cadastrados.'); ?></p>
         <?php endif; ?>     
   </ul>
-
 </main>
 
 <?php get_footer(); ?>

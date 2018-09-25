@@ -3,7 +3,7 @@
 
   @import 'ultimos-editais';
 
-  &.container{
+  .container{
     width: 100%;
     padding: 0;
     padding-top: 3rem;
@@ -216,6 +216,11 @@
     margin-top: 5rem;
     padding-top: 2rem;
     padding-bottom: 5rem;
+    
+    .container{
+        width: unset;
+        padding: 0 1rem;
+    }
 
     h2{
       background-color: $laranjaEscuro;
@@ -229,38 +234,57 @@
 
     ul{
 
-      li{
-        font-weight: $light;
-        color: white;
-        font-size: 1.2rem;
-        padding-top: 1rem;
-        width: 100%;
+        li{
+          font-weight: $light;
+          color: white;
+          font-size: 1.2rem;
+          padding-top: 1rem;
+          width: 100%;
+          position: relative;
 
-        span{
-          font-weight: $bold;
-        }
-
-        ul{
-          display: flex;
-
-          li{
-            padding: 0;   
-            display: inline-flex;
-            position: relative;
-            flex-grow: 1;
-            margin: 1.5rem;
-            margin-left: 0;
-
-            img{
-              width: 100%;
-              height: 100%;
-              object-fit: cover;
+            h3{
+                font-weight: $light;
+                margin: 0;
+                
+                span{
+                    font-weight: $bold;
+                    padding-right: 1rem;
+                }
             }
 
-            &.verMais{
-              margin-right: 0;
+            p{
+                display: flex;
+                margin-right: -1.5rem;
 
-              a{
+                img{
+                    padding: 0;   
+                    display: inline-flex;
+                    position: relative;
+                    flex-grow: 1;
+                    margin: 1.5rem;
+                    margin-left: 0;
+                    object-fit: cover;
+                    width: calc(50% - 1.5rem);
+                    height: 10rem;
+
+                    &:nth-child(n+3){
+                        display: none;
+                    }
+
+                    &:nth-child(4){
+                      margin-right: 0;
+                    }
+                  }
+              }
+              
+            a{
+                position: absolute;
+                bottom: 1.5rem;
+                right: 0;
+                background-color: rgba(171, 71, 17, .7);
+                width: calc(50% - .75rem);
+                height: 10rem;
+
                 span{
                   position: absolute;
                   width: 100%;
@@ -268,58 +292,41 @@
                   text-align: center;
                   font-size: .8rem;
                   font-weight: $bold;
-                  padding-top: 35%;
+                  padding-top: 4.5rem;
 
                 }
-
-                &:before{
-                  content: "";
-                  height: 0;
-                  left: 0;
-                  position: absolute;
-                  top: 0;
-                  width: 100%;
-                  height: 100%;
-                  background-color: rgba(171, 71, 17, .5);
+                
+                &:hover{
+                    background-color: rgba(171, 71, 17, .9);
                 }
-
-                &:hover{                                       
-                  &:before{
-                    background-color: rgba(171, 71, 17, .6);
-                  }
-                }
-              }
             }
           }
-
         }
-      }
     }
 
-    button{  
+    a[role=button]{  
       background-color: white;
       color: $laranjaEscuro;
       text-transform: uppercase;
       text-align: center;
       font-size: .8rem;
       font-weight: $bold;
-      border: none;
       height: 2rem;
-      padding: 0 1rem;
+      padding: 0 1.5rem;
       float: right;
-      margin-top: .5rem;
+      line-height: 2rem;
 
       &:hover{
         background-color: $laranjaEscuro;
         color: white;
       }
     }
-  }
+
 
   @media screen and (min-width: 992px) {
 
-    &.container{
-      padding-top: 8rem;
+    .container{
+      padding-top: 10rem;
     }
 
     #posts{
@@ -369,6 +376,28 @@
 
     #galeria{
       padding: 2rem 0 5rem;
+      
+      .container{
+          padding: 0 !important;
+      }
+      
+      ul{
+          li{
+              p{
+                  margin-right: 0;
+                  
+                  img{
+                        width: calc(25% - 1.5rem);
+                        
+                        &:nth-child(-n+4){
+                            display: inline-flex;
+                        }
+                  }
+              }
+              
+              a{width: calc(25% - 1.1rem)}
+          }
+      }
     }
   }
 }
