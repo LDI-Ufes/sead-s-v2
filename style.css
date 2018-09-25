@@ -1386,56 +1386,85 @@ footer {
 
 #formPesquisa {
   display: flex;
-  flex-direction: column;
-  justify-content: center; }
-  #formPesquisa input:-webkit-autofill {
-    background-color: transparent !important; }
+  align-self: center;
+  align-items: center;
+  border-radius: 25px;
+  /* Remove o 'X' do Internet Explorer */
+  /* Remove o 'X' do Chrome */ }
+  #formPesquisa input, #formPesquisa .botaoSubmissao {
+    position: absolute;
+    left: -9999px; }
+  #formPesquisa .botaoSubmissao, #formPesquisa .botaoFalso {
+    cursor: pointer;
+    padding: 10px; }
   #formPesquisa input {
-    float: right;
-    height: 15px;
-    border: none;
-    border-radius: 15px;
-    outline: none;
-    background-color: transparent !important;
-    /*    &:-webkit-autofill {
-          -webkit-box-shadow: 0 0 0px 30px lighten($azul, 20%) inset;
-          -webkit-text-fill-color: white !important;
-        }*/ }
-    #formPesquisa input[type=search] {
-      background: url(svg/fontawesome/search-solid.svg) no-repeat 9px center !important;
-      background-color: transparent !important;
-      -webkit-appearance: textfield;
-      -webkit-box-sizing: content-box;
-      font-family: inherit;
-      font-size: 100%; }
-    #formPesquisa input::-webkit-search-decoration, #formPesquisa input::-webkit-search-cancel-button {
+    padding: 10px 35px 10px 15px; }
+  #formPesquisa input[type=search]::-ms-clear {
+    display: none;
+    width: 0;
+    height: 0; }
+  #formPesquisa input[type=search]::-ms-reveal {
+    display: none;
+    width: 0;
+    height: 0; }
+  #formPesquisa input[type="search"]::-webkit-search-decoration,
+  #formPesquisa input[type="search"]::-webkit-search-cancel-button,
+  #formPesquisa input[type="search"]::-webkit-search-results-button,
+  #formPesquisa input[type="search"]::-webkit-search-results-decoration {
+    display: none; }
+  #formPesquisa.formPesquisaAtivo {
+    position: relative; }
+    #formPesquisa.formPesquisaAtivo input, #formPesquisa.formPesquisaAtivo .botaoSubmissao {
+      position: relative;
+      left: 0;
+      border: none;
+      background: none;
+      color: white; }
+    #formPesquisa.formPesquisaAtivo input {
+      border-radius: 25px;
+      background-color: #3d95e5 !important; }
+    #formPesquisa.formPesquisaAtivo input::placeholder {
+      color: white; }
+    #formPesquisa.formPesquisaAtivo input:-webkit-autofill {
+      -webkit-box-shadow: 0 0 0px 30px #3d95e5 inset;
+      -webkit-text-fill-color: white !important; }
+    #formPesquisa.formPesquisaAtivo .botaoSubmissao {
+      position: absolute;
+      left: calc(100% - 40px); }
+    #formPesquisa.formPesquisaAtivo .botaoFalso {
       display: none; }
-    #formPesquisa input[type=search] {
-      padding: 9px 10px 9px 32px;
-      width: 55px;
-      -webkit-transition: all .5s;
-      -moz-transition: all .5s;
-      transition: all .5s; }
-    #formPesquisa input:-moz-placeholder {
-      color: #999; }
-    #formPesquisa input::-webkit-input-placeholder {
-      color: #999; }
-    #formPesquisa input[type=search] {
-      width: 15px;
-      padding-left: 10px;
-      color: transparent;
-      cursor: pointer; }
-    #formPesquisa input[type=search]:focus {
-      width: 130px;
-      padding-left: 40px;
-      border-radius: 15px;
-      background-color: #3d95e5 !important;
-      color: #fff;
-      cursor: auto; }
-    #formPesquisa input:-moz-placeholder {
-      color: transparent; }
-    #formPesquisa input::-webkit-input-placeholder {
-      color: transparent; }
+
+#formPesquisaDepreciado input:-webkit-autofill {
+  background-color: transparent !important; }
+#formPesquisaDepreciado input {
+  float: right;
+  height: 15px;
+  outline: none; }
+  #formPesquisaDepreciado input[type=search] {
+    background: url(svg/fontawesome/search-solid.svg) no-repeat 9px center !important;
+    background-color: transparent !important;
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    font-family: inherit;
+    font-size: 100%; }
+  #formPesquisaDepreciado input::-webkit-search-decoration, #formPesquisaDepreciado input::-webkit-search-cancel-button {
+    display: none; }
+  #formPesquisaDepreciado input[type=search] {
+    padding: 9px 10px 9px 32px;
+    width: 55px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s; }
+  #formPesquisaDepreciado input[type=search] {
+    padding-left: 10px;
+    color: transparent;
+    cursor: pointer; }
+  #formPesquisaDepreciado input[type=search]:focus {
+    width: 130px;
+    padding-left: 40px;
+    border-radius: 15px;
+    color: #fff;
+    cursor: auto; }
 
 /*
 position:

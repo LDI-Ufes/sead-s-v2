@@ -1,7 +1,81 @@
+
 #formPesquisa {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  align-self: center;
+  align-items: center;
+  border-radius: 25px;
+
+  input, .botaoSubmissao {
+    position: absolute;
+    left: -9999px;
+  }
+
+  .botaoSubmissao, .botaoFalso {
+    cursor: pointer;
+    padding: 10px;
+  }
+
+  input {
+    padding: 10px 35px 10px 15px;
+  }
+
+  /* Remove o 'X' do Internet Explorer */
+  input[type=search]::-ms-clear {  display: none; width : 0; height: 0; }
+  input[type=search]::-ms-reveal {  display: none; width : 0; height: 0; }
+
+  /* Remove o 'X' do Chrome */
+  input[type="search"]::-webkit-search-decoration,
+  input[type="search"]::-webkit-search-cancel-button,
+  input[type="search"]::-webkit-search-results-button,
+  input[type="search"]::-webkit-search-results-decoration { display: none; }
+
+  &.formPesquisaAtivo {
+    position: relative;
+
+    input, .botaoSubmissao {
+      position: relative;
+      left: 0;
+      border: none;
+      background: none;
+      color: white;
+    }
+
+    input {
+      border-radius: 25px;
+      background-color: lighten($azul, 20%) !important; 
+    }
+
+    input::placeholder {
+      color: white;
+    }
+    
+    // Mudar cores do autocompletar (padrão: amarelo e preto)
+    input:-webkit-autofill {
+      -webkit-box-shadow: 0 0 0px 30px lighten($azul, 20%) inset;
+      -webkit-text-fill-color: white !important;
+    }
+
+    .botaoSubmissao {
+      position: absolute;
+      left: calc(100% - 40px);
+    }
+
+    .botaoFalso {
+      display: none;
+    }
+
+  }
+
+}
+
+
+
+
+
+
+
+
+#formPesquisaDepreciado {
 
   input:-webkit-autofill {
     background-color: transparent !important;
@@ -10,10 +84,8 @@
   input {
     float: right;
     height: 15px;
-    border: none;
-    border-radius: 15px;
     outline: none;
-    background-color: transparent !important;
+    //background-color: transparent !important;
 
     &[type=search] {
       background: url(svg/fontawesome/search-solid.svg) no-repeat 9px center !important;
@@ -38,16 +110,7 @@
       transition: all .5s;
     }
 
-    &:-moz-placeholder {
-      color: #999;
-    }
-
-    &::-webkit-input-placeholder {
-      color: #999;
-    }
-
     &[type=search] {
-      width: 15px;
       padding-left: 10px;
       color: transparent;
       cursor: pointer;
@@ -57,23 +120,10 @@
       width: 130px;
       padding-left: 40px;
       border-radius: 15px;
-      background-color: lighten($azul, 20%) !important;
       color: #fff;
       cursor: auto;
     }
 
-    &:-moz-placeholder {
-      color: transparent;
-    }
-
-    &::-webkit-input-placeholder {
-      color: transparent;
-    }
-
-    // Mudar cores do autocompletar (padrão: amarelo e preto)
-/*    &:-webkit-autofill {
-      -webkit-box-shadow: 0 0 0px 30px lighten($azul, 20%) inset;
-      -webkit-text-fill-color: white !important;
-    }*/
+    
   }
 }
