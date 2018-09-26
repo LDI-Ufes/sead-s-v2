@@ -111,10 +111,10 @@
     height: 110px;
 
     svg#nossoBlog {
-      height: 270px;
       width: 260px;
-      transition: height .5s;
+      transition: margin-top .5s;
       padding: 0;
+      margin-top: 50px;
     }
 
     svg.seadUfes {
