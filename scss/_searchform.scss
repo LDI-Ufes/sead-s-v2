@@ -1,0 +1,86 @@
+
+#formPesquisa {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  border-radius: 25px;
+
+  input, .botaoSubmissao {
+    position: absolute;
+    left: -9999px;
+  }
+
+  .botaoSubmissao, .botaoFalso {
+    cursor: pointer;
+  }
+
+  .botaoSubmissao {
+    padding: 10px;
+  }
+
+  .botaoFalso {
+    padding: 10px 14px;
+  }
+
+  input {
+    padding: 10px 35px 10px 15px;
+  }
+
+  // [Browser Default Reset] Remove o 'X' do Internet Explorer
+  input[type=search]::-ms-clear,
+  input[type=search]::-ms-reveal {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+
+  // [Browser Default Reset] Remove o 'X' do Chrome
+  input[type="search"]::-webkit-search-decoration,
+  input[type="search"]::-webkit-search-cancel-button,
+  input[type="search"]::-webkit-search-results-button,
+  input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+  }
+
+
+  &.formPesquisaAtivo {
+    position: relative;
+
+    input, .botaoSubmissao {
+      position: relative;
+      left: 0;
+      border: none;
+      background: none;
+      color: white;
+    }
+
+    input {
+      border-radius: 25px;
+      background-color: lighten($azul, 20%) !important;
+    }
+
+    // [Browser Default Reset] Cor do texto do placeholder
+    input::placeholder,
+    input::-webkit-input-placeholder,
+    input::-moz-placeholder,
+    input:-ms-input-placeholder {
+      color: white;
+    }
+
+    // [Browser Default Reset] Cores do autocompletar (padrão: amarelo e preto)
+    input:-webkit-autofill {
+      -webkit-box-shadow: 0 0 0px 30px lighten($azul, 20%) inset;
+      -webkit-text-fill-color: white !important;
+      background-color: transparent !important;
+    }
+
+    .botaoSubmissao {
+      position: absolute;
+      left: calc(100% - 40px);
+    }
+
+    .botaoFalso {
+      display: none;
+    }
+  }
+}

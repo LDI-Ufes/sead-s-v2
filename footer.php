@@ -58,6 +58,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="<?php echo site_url(); ?>/wp-content/themes/sead-v2/js/altoContraste.js"></script>
 <script src="<?php echo site_url(); ?>/wp-content/themes/sead-v2/js/menu.js"></script>
+<script src="<?php echo site_url(); ?>/wp-content/themes/sead-v2/js/pesquisa.js"></script>
 
 </body>
 </html>
