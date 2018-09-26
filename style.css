@@ -64,6 +64,10 @@ h1 {
   color: #1661A6;
   padding: 2rem 0 1rem; }
 
+.esconder {
+  position: absolute;
+  left: -9999px; }
+
 @media screen and (min-width: 992px) {
   .container {
     max-width: 960px;
@@ -1388,21 +1392,19 @@ footer {
   display: flex;
   align-self: center;
   align-items: center;
-  border-radius: 25px;
-  /* Remove o 'X' do Internet Explorer */
-  /* Remove o 'X' do Chrome */ }
+  border-radius: 25px; }
   #formPesquisa input, #formPesquisa .botaoSubmissao {
     position: absolute;
     left: -9999px; }
   #formPesquisa .botaoSubmissao, #formPesquisa .botaoFalso {
-    cursor: pointer;
+    cursor: pointer; }
+  #formPesquisa .botaoSubmissao {
     padding: 10px; }
+  #formPesquisa .botaoFalso {
+    padding: 10px 14px; }
   #formPesquisa input {
     padding: 10px 35px 10px 15px; }
-  #formPesquisa input[type=search]::-ms-clear {
-    display: none;
-    width: 0;
-    height: 0; }
+  #formPesquisa input[type=search]::-ms-clear,
   #formPesquisa input[type=search]::-ms-reveal {
     display: none;
     width: 0;
@@ -1423,48 +1425,20 @@ footer {
     #formPesquisa.formPesquisaAtivo input {
       border-radius: 25px;
       background-color: #3d95e5 !important; }
-    #formPesquisa.formPesquisaAtivo input::placeholder {
+    #formPesquisa.formPesquisaAtivo input::placeholder,
+    #formPesquisa.formPesquisaAtivo input::-webkit-input-placeholder,
+    #formPesquisa.formPesquisaAtivo input::-moz-placeholder,
+    #formPesquisa.formPesquisaAtivo input:-ms-input-placeholder {
       color: white; }
     #formPesquisa.formPesquisaAtivo input:-webkit-autofill {
       -webkit-box-shadow: 0 0 0px 30px #3d95e5 inset;
-      -webkit-text-fill-color: white !important; }
+      -webkit-text-fill-color: white !important;
+      background-color: transparent !important; }
     #formPesquisa.formPesquisaAtivo .botaoSubmissao {
       position: absolute;
       left: calc(100% - 40px); }
     #formPesquisa.formPesquisaAtivo .botaoFalso {
       display: none; }
-
-#formPesquisaDepreciado input:-webkit-autofill {
-  background-color: transparent !important; }
-#formPesquisaDepreciado input {
-  float: right;
-  height: 15px;
-  outline: none; }
-  #formPesquisaDepreciado input[type=search] {
-    background: url(svg/fontawesome/search-solid.svg) no-repeat 9px center !important;
-    background-color: transparent !important;
-    -webkit-appearance: textfield;
-    -webkit-box-sizing: content-box;
-    font-family: inherit;
-    font-size: 100%; }
-  #formPesquisaDepreciado input::-webkit-search-decoration, #formPesquisaDepreciado input::-webkit-search-cancel-button {
-    display: none; }
-  #formPesquisaDepreciado input[type=search] {
-    padding: 9px 10px 9px 32px;
-    width: 55px;
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    transition: all .5s; }
-  #formPesquisaDepreciado input[type=search] {
-    padding-left: 10px;
-    color: transparent;
-    cursor: pointer; }
-  #formPesquisaDepreciado input[type=search]:focus {
-    width: 130px;
-    padding-left: 40px;
-    border-radius: 15px;
-    color: #fff;
-    cursor: auto; }
 
 /*
 position:

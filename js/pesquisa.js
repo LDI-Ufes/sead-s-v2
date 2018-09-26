@@ -1,54 +1,55 @@
-// Em qualquer clique (rato ou teclado)
-//$(document).on('click keyup', function () {
-//
-//  // Se a pesquisa estiver em foco
-//  if ($('input').is(':focus')) {
-//
-//    // Esconde menu principal
-//    $('#menuPrincipal').hide()
-//    $('#formPesquisa').addClass('formPesquisaAtivo')
-//
-//  } else {
-//    $('#menuPrincipal').show()
-//    $('#formPesquisa').removeClass('formPesquisaAtivo')
-//  }
-//});
-
-$(document).on('click', function() {
-  
-  $('#formPesquisa').removeClass('formPesquisaAtivo');
-  
-})
-
-
-$('.botaoFalso').on('click', function () {
-
-  $('#formPesquisa').addClass('formPesquisaAtivo');
-  $('#formPesquisa input').focus();
-  return false;
-  
-});
-
-$('#formPesquisa input').on('click', function () {
-
-  $('#formPesquisa').addClass('formPesquisaAtivo');
-  $('#formPesquisa input').focus();
-  return false;
-  
-});
-
+// Em qualquer clique ou navegação por teclado
 $(document).on('click keyup', function () {
 
+  // Se o input da pesquisa estiver em foco
   if ($('#formPesquisa input').is(':focus')) {
 
-    $('#formPesquisa').addClass('formPesquisaAtivo');
-    
+    // Esconde menu principal
+    $('#menuPrincipal').addClass('esconder')
+    $('#formPesquisa').addClass('formPesquisaAtivo')
+
+    // Ou se o botão da pesquisa estiver em foco
   } else if ($('#formPesquisa .botaoSubmissao').is(':focus')) {
-    
-    $('#formPesquisa').addClass('formPesquisaAtivo');
-    
+
+    // Esconde menu principal
+    $('#menuPrincipal').addClass('esconder')
+    $('#formPesquisa').addClass('formPesquisaAtivo')
+
+    // Se não
   } else {
-    $('#formPesquisa').removeClass('formPesquisaAtivo');
+
+    // Esconde a pesquisa e mostra o menu
+    $('#formPesquisa').removeClass('formPesquisaAtivo')
+    $('#menuPrincipal').removeClass('esconder')
   }
-    
 });
+
+// Em cliques no botão falso
+$('.botaoFalso').on('click', function () {
+
+  // Esconde o menu e mostra a pesquisa
+  $('#menuPrincipal').addClass('esconder')
+  $('#formPesquisa').addClass('formPesquisaAtivo')
+
+  // Guia o foco para a pesquisa
+  $('#formPesquisa input').focus()
+
+  // Evita que a função anterior propague
+  return false;
+});
+
+// Em cliques na pesquisa
+$('#formPesquisa input').on('click', function () {
+
+  // Esconde o menu e mostra a pesquisa
+  $('#menuPrincipal').addClass('esconder')
+  $('#formPesquisa').addClass('formPesquisaAtivo')
+
+  // Guia o foco para a pesquisa
+  $('#formPesquisa input').focus()
+
+  // Evita que a penúltima função propague
+  return false;
+});
+
+

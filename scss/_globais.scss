@@ -34,39 +34,44 @@ section.caixa {
 }
 
 .container{
-    padding: 0 1rem;
+  padding: 0 1rem;
 }
 
 #breadcrumbs{
-    font-size: .8rem;
-    padding-top: 2rem;
+  font-size: .8rem;
+  padding-top: 2rem;
 
-    a{
-        color: $azul;
-        font-weight: $medium;
+  a{
+    color: $azul;
+    font-weight: $medium;
 
-        &:hover{
-            color: $laranja;
-            text-decoration: underline;
-        }
+    &:hover{
+      color: $laranja;
+      text-decoration: underline;
     }
+  }
 
-    span{
-        color: $azulClaro;
-    }
+  span{
+    color: $azulClaro;
+  }
 }
 
 h1{
-    font-size: 2rem;
-    font-weight: $bold;
-    color: $azul;
-    padding: 2rem 0 1rem;
+  font-size: 2rem;
+  font-weight: $bold;
+  color: $azul;
+  padding: 2rem 0 1rem;
+}
+
+.esconder {
+  position: absolute;
+  left: -9999px; 
 }
 
 @media screen and (min-width: 992px) {
-    
-    .container{
-        max-width: 960px;
-        margin: 0 auto;
-    }
+
+  .container{
+    max-width: 960px;
+    margin: 0 auto;
+  }
 }
