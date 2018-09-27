@@ -18,9 +18,9 @@
       <?php include 'components/barra-acessibilidade.php' ?>
       <?php include 'components/barra-brasil.php' ?>
 
-      <div id="topoBlog">
+      <div id="topoBlog" class="topo">
         <section class="caixa">
-          <a id="enderecoBlog" href="<?php echo site_url(); ?>/blog" title="Ir para início do Blog">
+          <a id="enderecoBlog" class="marca" href="<?php echo site_url(); ?>/blog" title="Ir para início do Blog">
             <?php echo file_get_contents(get_template_directory_uri() . '/svg/nossoBlog.svg'); ?>
           </a>
           <span class="btoMenu">Menu</span>
@@ -39,7 +39,8 @@
               </li>
             </ul>
           </nav>
-          <a href="<?php echo site_url(); ?>" title="Ir para início do Portal Sead">
+          <?php get_search_form() ?>
+          <a class="marca" href="<?php echo site_url(); ?>" title="Ir para início do Portal Sead">
             <?php echo file_get_contents(get_template_directory_uri() . '/svg/sead-ufes.svg'); ?>
           </a>
         </section>

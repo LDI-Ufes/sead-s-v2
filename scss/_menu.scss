@@ -4,7 +4,7 @@
 // Ordenado do maior para menor agrupamento, em ordem alfabética
 //
 
-#barraAuxiliar, #topoPrincipal, #topoBlog {
+#barraAuxiliar, .topo {
 
   .caixa {
     display: inline-flex;
@@ -12,21 +12,21 @@
     max-width: 100%;
   }
 
-  @media (min-width: 993px) {
+  @media screen and (min-width: 993px) {
     .btoMenu {
       display: none;
     }
   }
 }
 
-#topoPrincipal, #topoBlog {
+.topo {
   order: 3;
 
   .caixa {
     justify-content: space-between;
   }
 
-  @media (min-width: 993px) {
+  @media screen and (min-width: 993px) {
     display: inline-flex;
     padding: 0 20px;
     background-color: $azul;
@@ -42,7 +42,7 @@
     }
   }
 
-  @media (max-width: 992px) {
+  @media screen and (max-width: 992px) {
     background-color: #1661A6;
     color: white;
 
@@ -97,6 +97,22 @@
       }
     }
   }
+  
+  @media screen and (max-width: 992px) {
+  
+    .btoMenu {
+      order: 3;
+    }
+    
+    #menuPrincipal {
+      order: 4;
+    }
+    
+    #formPesquisa {
+      order: 2;
+    }
+  
+  }
 }
 
 #topoBlog {
@@ -146,7 +162,9 @@
     }
     
     svg.seadUfes {
-      order: 2;
+      //order: 2;
+      position: absolute;
+      left: -9999px;
     }
     
     .btoMenu {
@@ -202,7 +220,7 @@ nav.menu {
     }
   }
 
-  @media (min-width: 993px) {
+  @media screen and (min-width: 993px) {
     display: inline-flex;
     align-items: center;
 
@@ -269,7 +287,7 @@ nav.menu {
     }
   }
 
-  @media (max-width: 992px) {
+  @media screen and (max-width: 992px) {
     width: 100vw;
     padding: 0 20px;
     box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.25);

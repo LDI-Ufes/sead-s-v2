@@ -41,10 +41,16 @@
   input[type="search"]::-webkit-search-results-decoration {
     display: none;
   }
+}
 
+.formPesquisaAtivo {
 
-  &.formPesquisaAtivo {
+  #formPesquisa {
     position: relative;
+    
+    @media screen and (max-width: 992px) {
+      margin: 19.5px auto;
+    }
 
     input, .botaoSubmissao {
       position: relative;
@@ -60,10 +66,7 @@
     }
 
     // [Browser Default Reset] Cor do texto do placeholder
-    input::placeholder,
-    input::-webkit-input-placeholder,
-    input::-moz-placeholder,
-    input:-ms-input-placeholder {
+    input::placeholder {
       color: white;
     }
 
@@ -81,6 +84,19 @@
 
     .botaoFalso {
       display: none;
+    }
+  }
+
+  #menuPrincipal, .btoMenu {
+    position: absolute;
+    left: -9999px;
+  }
+
+  @media screen and (max-width: 992px) {
+
+    .marca {
+      position: absolute;
+      left: -9999px;
     }
   }
 }
