@@ -14,7 +14,7 @@
     $args = array(
         'posts_per_page' => 2,
         'paged' => $paged,
-        'post_type' => 'edital',
+        'post_type' => 'editais',
     );
 
     $editais = new WP_Query($args);

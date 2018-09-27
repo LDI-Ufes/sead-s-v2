@@ -28,7 +28,7 @@ endif; // sitiosead_setup
 add_action('after_setup_theme', 'sitiosead_setup');
 
 function create_post_type() {
-  register_post_type( 'edital',
+  register_post_type( 'editais',
     array(
       'labels' => array(
         'name' => __( 'Editais' ),
@@ -48,7 +48,7 @@ function create_post_type() {
     )
   );
   
-    register_post_type( 'noticia',
+    register_post_type( 'blog',
     array(
       'labels' => array(
         'name' => __( 'Notícias' ),
@@ -92,25 +92,25 @@ function create_post_type() {
 add_action( 'init', 'create_post_type' );
 
 /* Criar taxonomia para curso, tipo de curso e atribuição */
-add_action('init', 'create_edital_tax');
+add_action('init', 'create_editais_tax');
 
-function create_edital_tax() {
+function create_editais_tax() {
     register_taxonomy(
-        'curso', 'edital', array(
+        'curso', 'editais', array(
         'label' => __('Curso'),
         'rewrite' => array('slug' => 'curso'),
         'hierarchical' => true,
             )
     );
     register_taxonomy(
-        'tipo-de-curso', 'edital', array(
+        'tipo-de-curso', 'editais', array(
         'label' => __('Tipo de Curso'),
         'rewrite' => array('slug' => 'tipo-de-curso'),
         'hierarchical' => true,
             )
     );
         register_taxonomy(
-        'atribuicao', 'edital', array(
+        'atribuicao', 'editais', array(
         'label' => __('Atribuição'),
         'rewrite' => array('slug' => 'atribuicao'),
         'hierarchical' => true,

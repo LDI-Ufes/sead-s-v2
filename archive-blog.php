@@ -8,7 +8,7 @@
       $args = array(
           'posts_per_page' => 4,
           'paged' => $paged,
-          'post_type' => 'noticia',
+          'post_type' => 'blog',
       );
 
       $noticias = new WP_Query($args);
