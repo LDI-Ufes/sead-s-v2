@@ -9,19 +9,7 @@
   </div>
 
   <ul id="editais" class="content">
-    <?php
-    $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
-    $args = array(
-        'posts_per_page' => 2,
-        'paged' => $paged,
-        'post_type' => 'edital',
-    );
-
-    $editais = new WP_Query($args);
-
-    if ($editais->have_posts()) :
-      ?>
-      <?php while ($editais->have_posts()) : $editais->the_post(); ?>	
+     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>	
         <li>
           <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3><!--
           --><p class="atribuicao"><?php echo strip_tags(get_the_term_list($post->ID, 'atribuicao')); ?></p><!--
@@ -32,8 +20,8 @@
     </ul>
 
     <div id="postsNav">  
-      <div class="nav-right"><?php next_posts_link('Editais antigos  >', $editais->max_num_pages); ?></div>
-      <div class="nav-left"><?php previous_posts_link('<  Editais recentes', $editais->max_num_pages); ?></div>
+      <div class="nav-right"><?php next_posts_link('Editais antigos  >'); ?></div>
+      <div class="nav-left"><?php previous_posts_link('<  Editais recentes'); ?></div>
     </div>
     <?php wp_reset_postdata(); ?>
   <?php else : ?>

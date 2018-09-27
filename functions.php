@@ -72,7 +72,7 @@ function create_post_type() {
     register_post_type( 'galeria',
     array(
       'labels' => array(
-        'name' => __( 'Galerias' ),
+        'name' => __( 'Galeria' ),
         'singular_name' => __( 'Galeria' )
       ),
       'public' => true,
@@ -128,6 +128,25 @@ function create_galeria_tax() {
         'hierarchical' => true,
             )
     );
+}
+add_action( 'pre_get_posts' ,'query_post_type_edital', 1, 1 );
+
+function query_post_type_edital( $query )
+{
+    if ( ! is_admin() && is_post_type_archive( 'edital' ) && $query->is_main_query() )
+    {
+        $query->set( 'posts_per_page', 8 );
+    }
+}
+
+add_action( 'pre_get_posts' ,'query_post_type_noticia', 1, 1 );
+
+function query_post_type_noticia( $query )
+{
+    if ( ! is_admin() && is_post_type_archive( 'noticia' ) && $query->is_main_query() )
+    {
+        $query->set( 'posts_per_page', 4 );
+    }
 }
 
 ?>
