@@ -3,19 +3,7 @@
 <main id="page-blog">
     <div class="container">
     <ul id="posts">
-      <?php
-      $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
-      $args = array(
-          'posts_per_page' => 4,
-          'paged' => $paged,
-          'post_type' => 'blog',
-      );
-
-      $noticias = new WP_Query($args);
-
-      if ($noticias->have_posts()) :
-        ?>
-    <?php while ($noticias->have_posts()) : $noticias->the_post(); ?>	
+      <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
           <li class="blog-post">
             <div class="blog-post-header">
               <span>Seminários</span>
@@ -27,8 +15,8 @@
           </li>
     <?php endwhile; ?>
         <div id="postsNav">  
-          <div class="nav-right"><?php next_posts_link('Notícias antigas  >', $noticias->max_num_pages); ?></div>
-          <div class="nav-left"><?php previous_posts_link('<  Notícias recentes', $noticias->max_num_pages); ?></div>
+          <div class="nav-right"><?php next_posts_link('Notícias antigas  >'); ?></div>
+          <div class="nav-left"><?php previous_posts_link('<  Notícias recentes'); ?></div>
         </div>
         <?php wp_reset_postdata(); ?>
       <?php else : ?>
