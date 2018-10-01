@@ -15,15 +15,12 @@
             ) );
             
             $ano = isset($_GET['ano']) ? filter_var($_GET['ano'], FILTER_SANITIZE_URL) : '2018';
-            
-            
-            
+         
             foreach( $terms as $term ) {
                 $ativo = ($ano == $term->name) ? ' class="active" ' : '';
                 
                 echo '<a id="'.  $term->name .'" href="/sitiosead/galeria/?ano=' .  $term->name . '" '. $ativo .' >' . $term->name .'</a>';
             }
-            
         ?>
 
   </section>
@@ -70,7 +67,6 @@
 
                 <script>
                     $('.abrirTodas').click(e => {
-                        console.log('oi');
-                      $(e.target.parentElement).find('img:nth-of-type(n+7)').toggleClass("visivel");
+                      $(e.target.parentElement).find('a:nth-of-type(n+7)').toggleClass("visivel");
                     });
                 </script>

@@ -60,5 +60,6 @@
 <script src="<?php echo site_url(); ?>/wp-content/themes/sead-v2/js/menu.js"></script>
 <script src="<?php echo site_url(); ?>/wp-content/themes/sead-v2/js/pesquisa.js"></script>
 
+<?php wp_footer(); ?>
 </body>
 </html>
