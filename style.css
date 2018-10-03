@@ -115,6 +115,8 @@ header {
       margin: 10px;
       width: calc(100vw - 20px);
       text-align: right; }
+  header .topo .marca {
+    height: 100%; }
 
 #barraAuxiliar .caixa, .topo .caixa {
   display: inline-flex;
@@ -763,7 +765,8 @@ footer {
 #noticia {
   padding: 0 1.25rem; }
   #noticia .post-capa {
-    position: relative; }
+    position: relative;
+    z-index: -1; }
     #noticia .post-capa img {
       width: 100%;
       height: 40vw;
@@ -1119,28 +1122,32 @@ footer {
     #page-blog #galeria ul li p {
       display: flex;
       margin-right: -1.5rem; }
-      #page-blog #galeria ul li p img {
+      #page-blog #galeria ul li p a {
         padding: 0;
         display: inline-flex;
         position: relative;
         flex-grow: 1;
         margin: 1.5rem;
         margin-left: 0;
-        object-fit: cover;
         width: calc(50% - 1.5rem);
-        height: 10rem; }
-        #page-blog #galeria ul li p img:nth-child(n+3) {
+        height: 10rem;
+        pointer-events: none; }
+        #page-blog #galeria ul li p a:nth-child(n+3) {
           display: none; }
-        #page-blog #galeria ul li p img:nth-child(4) {
+        #page-blog #galeria ul li p a:nth-child(4) {
           margin-right: 0; }
-    #page-blog #galeria ul li a {
+        #page-blog #galeria ul li p a img {
+          object-fit: cover;
+          width: 100%;
+          height: 100%; }
+    #page-blog #galeria ul li .ver-mais {
       position: absolute;
       bottom: 1.5rem;
       right: 0;
       background-color: rgba(171, 71, 17, 0.7);
       width: calc(50% - .75rem);
       height: 10rem; }
-      #page-blog #galeria ul li a span {
+      #page-blog #galeria ul li .ver-mais span {
         position: absolute;
         width: 100%;
         text-transform: uppercase;
@@ -1148,7 +1155,7 @@ footer {
         font-size: .8rem;
         font-weight: 700;
         padding-top: 4.5rem; }
-      #page-blog #galeria ul li a:hover {
+      #page-blog #galeria ul li .ver-mais:hover {
         background-color: rgba(171, 71, 17, 0.9); }
 #page-blog a[role=button] {
   background-color: white;
@@ -1196,11 +1203,11 @@ footer {
       padding: 0 !important; }
     #page-blog #galeria ul li p {
       margin-right: 0; }
-      #page-blog #galeria ul li p img {
+      #page-blog #galeria ul li p a {
         width: calc(25% - 1.5rem); }
-        #page-blog #galeria ul li p img:nth-child(-n+4) {
+        #page-blog #galeria ul li p a:nth-child(-n+4) {
           display: inline-flex; }
-    #page-blog #galeria ul li a {
+    #page-blog #galeria ul li .ver-mais {
       width: calc(25% - 1.1rem); } }
 
 #page-editais #editais {
@@ -1304,19 +1311,22 @@ footer {
       #page-galeria #eventos li .imagens p {
         display: flex;
         flex-wrap: wrap; }
-        #page-galeria #eventos li .imagens p img {
+        #page-galeria #eventos li .imagens p a {
           margin: 1rem 0;
           height: 10rem;
           flex-grow: 1;
           margin-right: 1rem;
-          object-fit: cover;
           display: none; }
-          #page-galeria #eventos li .imagens p img:nth-child(-n+6) {
+          #page-galeria #eventos li .imagens p a:nth-child(-n+6) {
             display: inline-block; }
-          #page-galeria #eventos li .imagens p img.visivel {
+          #page-galeria #eventos li .imagens p a.visivel {
             display: inline-block; }
-          #page-galeria #eventos li .imagens p img:last-child {
+          #page-galeria #eventos li .imagens p a:last-child {
             /*max-width: calc(50% - 1.5rem);*/ }
+          #page-galeria #eventos li .imagens p a img {
+            object-fit: cover;
+            width: 100%;
+            height: 100%; }
       #page-galeria #eventos li .imagens .abrirTodas {
         float: right;
         background-color: #E37531;
@@ -1344,13 +1354,15 @@ footer {
       display: inline-block;
       padding-bottom: 0;
       margin-right: 1rem; }
-    #page-galeria #eventos li .imagens {
-      margin-right: -1.5rem; }
-      #page-galeria #eventos li .imagens p img {
-        margin-right: 1.5rem;
-        height: 12rem; }
-        #page-galeria #eventos li .imagens p img:last-child {
-          max-width: calc(33% - 1.5rem); } }
+    #page-galeria #eventos li {
+      padding-top: 2rem; }
+      #page-galeria #eventos li .imagens {
+        margin-right: -1.5rem; }
+        #page-galeria #eventos li .imagens p a {
+          margin-right: 1.5rem;
+          height: 12rem; }
+          #page-galeria #eventos li .imagens p a:last-child {
+            max-width: calc(33% - 1.5rem); } }
 
 #page-polos .conteudo {
   line-height: 1.8rem; }
