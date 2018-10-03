@@ -116,7 +116,12 @@ header {
       width: calc(100vw - 20px);
       text-align: right; }
   header .topo .marca {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
     height: 100%; }
+    header .topo .marca#enderecoBlog {
+      flex-direction: row; }
 
 #barraAuxiliar .caixa, .topo .caixa {
   display: inline-flex;
@@ -133,13 +138,13 @@ header {
   @media screen and (min-width: 993px) {
     .topo {
       display: inline-flex;
+      position: relative;
+      height: 100px;
       padding: 0 20px;
       background-color: #1661A6; }
       .topo .caixa {
         display: inline-flex;
-        justify-content: space-between; }
-        .topo .caixa svg.seadUfesExtenso {
-          padding: 1.2rem .6rem; } }
+        justify-content: space-between; } }
   @media screen and (max-width: 992px) {
     .topo {
       background-color: #1661A6;
@@ -164,11 +169,8 @@ header {
   justify-content: flex-end; }
 
 @media screen and (min-width: 993px) {
-  #topoPrincipal {
-    position: relative;
-    height: 100px; }
-    #topoPrincipal #menuPrincipal > ul > li {
-      height: calc(100px - 2.4rem); } }
+  #topoPrincipal #menuPrincipal > ul > li {
+    height: calc(100px - 2.4rem); } }
 @media screen and (max-width: 992px) {
   #topoPrincipal .btoMenu {
     order: 3; }
@@ -183,19 +185,13 @@ header {
   width: 80px;
   z-index: 1; }
 @media screen and (min-width: 993px) {
-  #topoBlog {
-    position: relative;
-    height: 110px; }
-    #topoBlog svg#nossoBlog {
-      width: 260px;
-      transition: margin-top .5s;
-      padding: 0;
-      margin-top: 50px; }
-    #topoBlog svg.seadUfes {
-      margin: 25px 0 25px 25px;
-      height: 60px; }
-    #topoBlog #menuPrincipal > ul > li {
-      height: calc(110px - 2.4rem); } }
+  #topoBlog svg#nossoBlog {
+    width: 260px;
+    transition: margin-top .5s;
+    padding: 0;
+    margin-top: 40px; }
+  #topoBlog #menuPrincipal > ul > li {
+    height: calc(100px - 2.4rem); } }
 @media screen and (max-width: 992px) {
   #topoBlog svg#nossoBlog, #topoBlog svg.seadUfes {
     margin: 10px 20px;
