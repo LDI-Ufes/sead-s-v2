@@ -55,7 +55,7 @@
                     <li>
                         <h3><span><?php the_title(); ?></span><?php echo strip_tags(get_the_excerpt()); ?></h3>
                         <?php the_content() ?>
-                        <a href=""><span>Ver mais</span></a>
+                        <a class="ver-mais" href="/sitiosead/galeria#evento-<?php the_ID(); ?>"><span>Ver mais</span></a>
                     </li>
                 <?php endwhile; ?>
         <?php endif; ?> 

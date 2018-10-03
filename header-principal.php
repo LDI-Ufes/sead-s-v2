@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <title><?php wp_title($sep = '') ?> | Sead Ufes</title>
+    <meta charset="utf-8">  
 
     <!-- Contexto do órgão no Portal de Serviços -->
     <meta property="creator.productor" content="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/425">
@@ -11,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,600,700,700i" rel="stylesheet"> <!-- Conferir necessidade de variações -->
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700i" rel="stylesheet"> <!-- Conferir necessidade de variações -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <?php wp_head(); ?>
   </head>
   <body>
     <header>
