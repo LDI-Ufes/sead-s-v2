@@ -23,7 +23,8 @@ button {
 
 *:focus {
   outline: 2px solid #E37531;
-  outline-offset: 2px; }
+  outline-offset: 2px;
+  z-index: 7; }
 
 html {
   font-size: 16px; }
