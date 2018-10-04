@@ -762,7 +762,8 @@ footer {
 #noticia {
   padding: 0 1.25rem; }
   #noticia .post-capa {
-    position: relative; }
+    position: relative;
+    z-index: -1; }
     #noticia .post-capa img {
       width: 100%;
       height: 40vw;
@@ -1067,23 +1068,24 @@ footer {
   background: linear-gradient(45deg, #043767, #1661A6);
   border: none;
   color: white;
-  width: 100%;
-  height: 7rem;
+  width: calc(100% - 3rem);
+  height: 5rem;
   margin-top: 2rem;
-  display: table; }
+  display: table;
+  padding: 1.5rem; }
   #page-blog .social-media span {
     width: 50%;
     display: inline-table;
     vertical-align: middle;
     font-size: 1.4rem;
-    text-align: left;
-    margin-left: -1rem; }
+    text-align: left; }
   #page-blog .social-media i {
     font-size: 4rem;
     display: inline-table;
-    width: 30%;
+    width: calc(50% - 1rem);
     vertical-align: middle;
-    text-align: right; }
+    text-align: right;
+    padding-right: 1rem; }
   #page-blog .social-media:hover {
     background: linear-gradient(45deg, #043767, #5992DD); }
 #page-blog #galeria {
@@ -1118,28 +1120,32 @@ footer {
     #page-blog #galeria ul li p {
       display: flex;
       margin-right: -1.5rem; }
-      #page-blog #galeria ul li p img {
+      #page-blog #galeria ul li p a {
         padding: 0;
         display: inline-flex;
         position: relative;
         flex-grow: 1;
         margin: 1.5rem;
         margin-left: 0;
-        object-fit: cover;
         width: calc(50% - 1.5rem);
-        height: 10rem; }
-        #page-blog #galeria ul li p img:nth-child(n+3) {
+        height: 10rem;
+        pointer-events: none; }
+        #page-blog #galeria ul li p a:nth-child(n+3) {
           display: none; }
-        #page-blog #galeria ul li p img:nth-child(4) {
+        #page-blog #galeria ul li p a:nth-child(4) {
           margin-right: 0; }
-    #page-blog #galeria ul li a {
+        #page-blog #galeria ul li p a img {
+          object-fit: cover;
+          width: 100%;
+          height: 100%; }
+    #page-blog #galeria ul li .ver-mais {
       position: absolute;
       bottom: 1.5rem;
       right: 0;
       background-color: rgba(171, 71, 17, 0.7);
       width: calc(50% - .75rem);
       height: 10rem; }
-      #page-blog #galeria ul li a span {
+      #page-blog #galeria ul li .ver-mais span {
         position: absolute;
         width: 100%;
         text-transform: uppercase;
@@ -1147,7 +1153,7 @@ footer {
         font-size: .8rem;
         font-weight: 700;
         padding-top: 4.5rem; }
-      #page-blog #galeria ul li a:hover {
+      #page-blog #galeria ul li .ver-mais:hover {
         background-color: rgba(171, 71, 17, 0.9); }
 #page-blog a[role=button] {
   background-color: white;
@@ -1195,13 +1201,83 @@ footer {
       padding: 0 !important; }
     #page-blog #galeria ul li p {
       margin-right: 0; }
-      #page-blog #galeria ul li p img {
+      #page-blog #galeria ul li p a {
         width: calc(25% - 1.5rem); }
-        #page-blog #galeria ul li p img:nth-child(-n+4) {
+        #page-blog #galeria ul li p a:nth-child(-n+4) {
           display: inline-flex; }
-    #page-blog #galeria ul li a {
+    #page-blog #galeria ul li .ver-mais {
       width: calc(25% - 1.1rem); } }
 
+#page-editais #filtros {
+  padding-bottom: 3rem; }
+  #page-editais #filtros #aplicados {
+    padding: 1rem 0;
+    color: white; }
+    #page-editais #filtros #aplicados span {
+      background-color: #1661A6;
+      padding: 5px;
+      font-size: .8rem;
+      padding-left: 8px;
+      display: inline-block;
+      margin-bottom: 5px; }
+    #page-editais #filtros #aplicados button.excluir-filtro {
+      background-color: transparent;
+      border: none;
+      color: white;
+      margin-left: 5px; }
+  #page-editais #filtros #seletores {
+    border: solid 0.5px #5992DD; }
+    #page-editais #filtros #seletores button#mostra-seletores {
+      font-size: 1.2rem;
+      border: none;
+      background: none;
+      text-align: left;
+      padding: 10px 15px;
+      position: relative;
+      width: 100%;
+      border-bottom: solid 0.5px #5992DD; }
+      #page-editais #filtros #seletores button#mostra-seletores i {
+        right: 15px;
+        position: absolute;
+        color: gray; }
+    #page-editais #filtros #seletores .lista-filtros {
+      display: none;
+      font-weight: 300;
+      vertical-align: top; }
+      #page-editais #filtros #seletores .lista-filtros button.exibe-filtros {
+        font-size: 1.2rem;
+        border: none;
+        background: none;
+        width: 100%;
+        text-align: left;
+        padding: 10px 15px;
+        position: relative; }
+        #page-editais #filtros #seletores .lista-filtros button.exibe-filtros:after {
+          content: '\f107';
+          right: 15px;
+          width: auto;
+          font-family: "Font Awesome 5 Free";
+          font-weight: 600;
+          position: absolute;
+          color: lightgray; }
+      #page-editais #filtros #seletores .lista-filtros li {
+        display: none;
+        padding: 5px 10px;
+        line-height: 1.8; }
+        #page-editais #filtros #seletores .lista-filtros li input[type="checkbox"]:checked + label {
+          color: #9C4C22;
+          font-weight: 400; }
+      #page-editais #filtros #seletores .lista-filtros.expandido-mobile {
+        display: block; }
+      #page-editais #filtros #seletores .lista-filtros.expandido {
+        background-color: rgba(89, 146, 221, 0.15); }
+        #page-editais #filtros #seletores .lista-filtros.expandido li {
+          display: block; }
+        #page-editais #filtros #seletores .lista-filtros.expandido button.exibe-filtros {
+          color: #043767;
+          font-weight: 400; }
+          #page-editais #filtros #seletores .lista-filtros.expandido button.exibe-filtros:after {
+            content: '\f106'; }
 #page-editais #editais {
   width: 100%;
   font-weight: 300;
@@ -1234,6 +1310,22 @@ footer {
   #page-editais #postsNav .nav-left {
     float: left; }
 @media screen and (min-width: 992px) {
+  #page-editais #filtros {
+    margin-right: -15px; }
+    #page-editais #filtros button#mostra-seletores {
+      display: none; }
+    #page-editais #filtros #seletores {
+      border: none; }
+      #page-editais #filtros #seletores .lista-filtros {
+        display: inline-block;
+        border: solid 0.5px #5992DD;
+        margin-right: 15px; }
+        #page-editais #filtros #seletores .lista-filtros button.exibe-filtros:after {
+          color: gray; }
+        #page-editais #filtros #seletores .lista-filtros#cursos {
+          width: calc(40% - 16px); }
+        #page-editais #filtros #seletores .lista-filtros#atribuicoes, #page-editais #filtros #seletores .lista-filtros#tipo-de-curso, #page-editais #filtros #seletores .lista-filtros#ano {
+          width: calc(20% - 16px); }
   #page-editais #editais li {
     margin-bottom: 0; }
     #page-editais #editais li p, #page-editais #editais li h3 {
@@ -1303,19 +1395,22 @@ footer {
       #page-galeria #eventos li .imagens p {
         display: flex;
         flex-wrap: wrap; }
-        #page-galeria #eventos li .imagens p img {
+        #page-galeria #eventos li .imagens p a {
           margin: 1rem 0;
           height: 10rem;
           flex-grow: 1;
           margin-right: 1rem;
-          object-fit: cover;
           display: none; }
-          #page-galeria #eventos li .imagens p img:nth-child(-n+6) {
+          #page-galeria #eventos li .imagens p a:nth-child(-n+6) {
             display: inline-block; }
-          #page-galeria #eventos li .imagens p img.visivel {
+          #page-galeria #eventos li .imagens p a.visivel {
             display: inline-block; }
-          #page-galeria #eventos li .imagens p img:last-child {
+          #page-galeria #eventos li .imagens p a:last-child {
             /*max-width: calc(50% - 1.5rem);*/ }
+          #page-galeria #eventos li .imagens p a img {
+            object-fit: cover;
+            width: 100%;
+            height: 100%; }
       #page-galeria #eventos li .imagens .abrirTodas {
         float: right;
         background-color: #E37531;
@@ -1343,13 +1438,15 @@ footer {
       display: inline-block;
       padding-bottom: 0;
       margin-right: 1rem; }
-    #page-galeria #eventos li .imagens {
-      margin-right: -1.5rem; }
-      #page-galeria #eventos li .imagens p img {
-        margin-right: 1.5rem;
-        height: 12rem; }
-        #page-galeria #eventos li .imagens p img:last-child {
-          max-width: calc(33% - 1.5rem); } }
+    #page-galeria #eventos li {
+      padding-top: 2rem; }
+      #page-galeria #eventos li .imagens {
+        margin-right: -1.5rem; }
+        #page-galeria #eventos li .imagens p a {
+          margin-right: 1.5rem;
+          height: 12rem; }
+          #page-galeria #eventos li .imagens p a:last-child {
+            max-width: calc(33% - 1.5rem); } }
 
 #page-polos .conteudo {
   line-height: 1.8rem; }

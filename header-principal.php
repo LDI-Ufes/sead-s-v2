@@ -25,19 +25,19 @@
           <span class="btoMenu">Menu</span>
           <nav id="menuPrincipal" class="menu" role="navigation">
             <ul class="menuLista">
-              <li><a href="/sitiosead">Início</a></li>
+              <li><a href="/sitiosead" title="Ir para página inicial">Início</a></li>
               <li class="temSubmenu">
                 <span>Ensino <i class="fas fa-chevron-down"></i></span>
                 <ul class="menuSuspenso">
-                  <li><a href="">Como é a EaD na Ufes?</a></li>
-                  <li><a href="">A Secretaria</a></li>
-                  <li><a href="">Contatos</a></li>
+                  <li><a href="/sitiosead/ead-na-ufes" title="Ir para Ensino - Como é a Ead na Ufes?">Como é a EaD na Ufes?</a></li>
+                  <li><a href="/sitiosead/a-secretaria" title="Ir para Ensino - A Secretaria">A Secretaria</a></li>
+                  <li><a href="/sitiosead/contatos" title="Ir para Ensino - Contatos">Contatos</a></li>
                 </ul>
               </li>
-              <li><a href="/sitiosead/editais">Editais</a></li>
-              <li><a href="">Cursos</a></li>
-              <li><a href="/sitiosead/polos">Polos</a></li>            
-              <li><a href="/sitiosead/blog">Notícias</a></li>
+              <li><a href="/sitiosead/editais" title="Ir para Editais">Editais</a></li>
+              <li><a href="/sitiosead/cursos" title="Ir para Cursos">Cursos</a></li>
+              <li><a href="/sitiosead/polos" title="Ir para Polos">Polos</a></li>            
+              <li><a href="/sitiosead/blog" title="Ir para Notícias">Notícias</a></li>
             </ul>
           </nav>
           <?php get_search_form() ?>

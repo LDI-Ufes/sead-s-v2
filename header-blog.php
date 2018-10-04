@@ -29,12 +29,12 @@
               <li class="temSubmenu">
                 <span>Portal Sead <i class="fas fa-chevron-down"></i></span>
                 <ul class="menuSuspenso">
-                  <li><a href="/sitiosead">Início</a></li>
+                  <li><a href="/sitiosead" title="Ir para página inicial">Início</a></li>
                   <li><a href="">Ensino</a></li>
-                  <li><a href="/sitiosead/editais">Editais</a></li>
-                  <li><a href="">Cursos</a></li>
-                  <li><a href="/sitiosead/editais">Polos</a></li>            
-                  <li><a href="/sitiosead/blog">Notícias</a></li>
+                  <li><a href="/sitiosead/editais" title="Ir para Editais">Editais</a></li>
+                  <li><a href="/sitiosead/cursos" title="Ir para Cursos">Cursos</a></li>
+                  <li><a href="/sitiosead/editais" title="Ir para Polos">Polos</a></li>            
+                  <li><a href="/sitiosead/blog" title="Ir para Notícias">Notícias</a></li>
                 </ul>
               </li>
             </ul>
