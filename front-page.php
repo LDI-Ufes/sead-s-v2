@@ -45,11 +45,11 @@
         <ul>
           <li>
             <div class="numero">1</div>
-            <a class="instrucao">Veja como funciona a EaD da Ufes<i class="fas fa-external-link-square-alt"></i></a>
+            <a class="instrucao" href="/sitiosead/ead-na-ufes" title="Ir para Ensino - Como é a Ead na Ufes?">Veja como funciona a EaD da Ufes<i class="fas fa-external-link-square-alt"></i></a>
           </li>
           <li>
             <div class="numero">2</div>
-            <a class="instrucao">Fique de olho nos próximos editais<i class="fas fa-external-link-square-alt"></i></a>
+            <a class="instrucao" href="/sitiosead/editais" title="Ir para Editais">Fique de olho nos próximos editais<i class="fas fa-external-link-square-alt"></i></a>
           </li>
         </ul>
       </div>
@@ -65,7 +65,7 @@
           ?>
           <div class="noticia">
             <?php the_post_thumbnail(); ?>
-            <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
+            <h3><a href="<?php the_permalink() ?>" title="Ir para notícia: <?php the_title(); ?>"><?php the_title(); ?></a></h3>
           </div>
         <?php endwhile;
         wp_reset_postdata();
@@ -76,8 +76,8 @@
 
       <div class="confira-mais">
         <h2>Confira mais do que acontece nos polos</h2>
-        <a href="" title="Visite o Facebook da Sead"><i class="fab fa-facebook-f"></i></a>
-        <a href="/sitiosead/blog" title="Vá para a página Blog"><?php include 'svg/nossoBLOG.svg' ?></a>
+        <a href="https://www.facebook.com/sead.ufes/" title="Ir para página da Sead no Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="/sitiosead/blog" title="Ir para a página Blog"><?php include 'svg/nossoBLOG.svg' ?></a>
       </div>
     </section>
   </div>
@@ -87,7 +87,7 @@
 <?php include 'svg/mapaInicio.svg' ?>
       <h2>A EaD está presente em todo o estado!</h2>
       <p>Atualmente a Ufes oferta cursos EaD em 27 Polos Municipais de Apoio Presencial – UAB.</p>
-      <a href="/sitiosead/polos">Conheça nossos polos!</a>
+      <a href="/sitiosead/polos" title="Ir para Polos">Conheça nossos polos!</a>
     </div>
   </section>
 </main>

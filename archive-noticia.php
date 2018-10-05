@@ -10,7 +10,7 @@
       <?php the_post_thumbnail(); ?>
               <div class="post-date"><?php the_date('j \d\e F \d\e Y'); ?></div>
             </div>
-            <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
+            <h3><a href="<?php the_permalink() ?>" title="Ir para notícia: <?php the_title(); ?>"><?php the_title(); ?></a></h3>
             <p><?php echo wp_trim_words(get_the_content(), 40, ' [...]'); ?></p>
           </li>
     <?php endwhile; ?>
@@ -20,7 +20,7 @@
         </div>
         <?php wp_reset_postdata(); ?>
       <?php else : ?>
-        <p><?php esc_html_e('Sorry, no posts matched your criteria.'); ?></p>
+        <p><?php esc_html_e('Nenhuma notícia cadastrada'); ?></p>
   <?php endif; ?>              
     </ul>
 
@@ -37,7 +37,7 @@
         <form><input type="email" placeholder="Digite seu e-mail"><input type="submit" value="Enviar"></form>
       </section>
 
-      <button class="social-media"><span>Siga-nos também no facebook</span><i class="fab fa-facebook-f"></i></button>  
+      <a class="social-media" href="https://www.facebook.com/sead.ufes/" title="Ir para página da Sead no Facebook"><span>Siga-nos também no facebook</span><i class="fab fa-facebook-f"></i></a>  
     </aside>
     </div>
     
@@ -55,12 +55,12 @@
                     <li>
                         <h3><span><?php the_title(); ?></span><?php echo strip_tags(get_the_excerpt()); ?></h3>
                         <?php the_content() ?>
-                        <a href=""><span>Ver mais</span></a>
+                        <a class="ver-mais" href="/sitiosead/galeria#evento-<?php the_ID(); ?>" title="Ver mais fotos do evento na Galeria de Fotos"><span>Ver mais</span></a>
                     </li>
                 <?php endwhile; ?>
         <?php endif; ?> 
       </ul>
-      <a role="button" href="/sitiosead/galeria">Confira os eventos antigos</a>
+      <a role="button" href="/sitiosead/galeria" title="Ir para Galeria de Fotos">Confira os eventos antigos</a>
     </div>
   </section>
 </main>

@@ -14,18 +14,18 @@
     <section>
       <h4>Mapa do sítio</h4>
       <ul>
-        <li><a href="/sitiosead">Início</a></li>
+        <li><a href="/sitiosead" title="Ir para página inicial">Início</a></li>
         <li>Ensino
           <ul class="subitens">
-            <li><a href="">Como é a Ead na Ufes?</a></li>
-            <li><a href="">A Secretaria</a></li>
-            <li><a href="">Contatos</a></li>
+            <li><a href="/sitiosead/ead-na-ufes" title="Ir para Ensino - Como é a EaD na Ufes?">Como é a Ead na Ufes?</a></li>
+            <li><a href="/sitiosead/a-secretaria" title="Ir para Ensino - A Secretaria">A Secretaria</a></li>
+            <li><a href="/sitiosead/contatos" title="Ir para Ensino - Contatos">Contatos</a></li>
           </ul>
         </li>
-        <li><a href="/sitiosead/editais">Editais</a></li>
-        <li><a href="/sitiosead/cursos">Cursos</a></li>
-        <li><a href="/sitiosead/polos">Polos</a></li>
-        <li><a href="/sitiosead/blog">Notícias</a></li>             
+        <li><a href="/sitiosead/editais" title="Ir para Editais">Editais</a></li>
+        <li><a href="/sitiosead/cursos" title="Ir para Cursos">Cursos</a></li>
+        <li><a href="/sitiosead/polos" title="Ir para Polos">Polos</a></li>
+        <li><a href="/sitiosead/blog" title="Ir para Notícias">Notícias</a></li>             
       </ul>
     </section>
 
@@ -40,16 +40,16 @@
     <section>
       <h4>Ambiente EaD Ufes</h4>
       <ul>
-        <li><a href="http://acervodigital.eadufes.org/">Acervo Digital</a></li>
-        <li><a href="http://www.ead.ufes.br/">AVA Graduação</a></li>
-        <li><a href="http://www.especializacao.aperfeicoamento.ufes.br/">AVA Especialização e Aperfeiçoamento</a></li>
-        <li><a href="http://selecao.neaad.ufes.br">Sistema de Seleção</a></li>
-        <li><a href="http://videos.ufes.br/sead">Vídeos Ufes</a></li>          
+        <li><a href="http://acervodigital.eadufes.org/" title="Ir para o Acervo Digital da Sead">Acervo Digital</a></li>
+        <li><a href="http://www.ead.ufes.br/" title="Ir para o AVA de Graduação">AVA Graduação</a></li>
+        <li><a href="http://www.especializacao.aperfeicoamento.ufes.br/" title="Ir para o AVA de Especialização e Aperfeiçoamento">AVA Especialização e Aperfeiçoamento</a></li>
+        <li><a href="http://selecao.neaad.ufes.br" title="Ir para o Sistema de Seleção da Sead">Sistema de Seleção</a></li>
+        <li><a href="http://videos.ufes.br/sead" title="Ir para Vídeos Ufes">Vídeos Ufes</a></li>          
       </ul>
     </section>
   </div>
   <div class="creditos">
-    <p>2018 - Todos os direitos reservados. <span><a href="http://www.ufes.br/">Ufes</a> | <a href="">Sead</a> | <a href="https://ldi.eadufes.org/">LDI</a> | Educação a Distância Ufes</span></p>
+    <p>2018 - Todos os direitos reservados. <span><a href="http://www.ufes.br/" title="Ir para o sítio da Ufes">Ufes</a> | Sead | <a href="https://ldi.eadufes.org/" title="Ir para o sítio do LDI">LDI</a> | Educação a Distância Ufes</span></p>
     <?php echo file_get_contents(get_template_directory_uri() . '/svg/ldi.svg'); ?>
   </div>
 </footer>
@@ -60,5 +60,6 @@
 <script src="<?php echo site_url(); ?>/wp-content/themes/sead-v2/js/menu.js"></script>
 <script src="<?php echo site_url(); ?>/wp-content/themes/sead-v2/js/pesquisa.js"></script>
 
+<?php wp_footer(); ?>
 </body>
 </html>

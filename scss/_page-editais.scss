@@ -1,8 +1,104 @@
-
 #page-editais {
+  #filtros{ 
+    padding-bottom: 3rem;
 
-  #filtros{
-    #aplicados{}
+    #aplicados{
+      padding: 1rem 0;
+      color: white;
+
+      span{
+        background-color: $azul;
+        padding: 5px;
+        font-size: .8rem;
+        padding-left: 8px;
+        display: inline-block;
+        margin-bottom: 5px;
+      }
+
+      button.excluir-filtro{
+        background-color: transparent;
+        border: none;
+        color: white;
+        margin-left: 5px;
+      }
+    }
+
+    #seletores{
+      border: solid .5px $azulClaro;
+
+      button#mostra-seletores{
+        font-size: 1.2rem;
+        border: none;
+        background: none;
+        text-align: left;
+        padding: 10px 15px;
+        position: relative;
+        width: 100%;
+        border-bottom: solid .5px $azulClaro;
+
+        i{
+          right: 15px;
+          position: absolute;
+          color: gray;
+        }
+      }
+
+      .lista-filtros{
+        display: none;
+        font-weight: $light;
+        vertical-align: top;
+
+        button.exibe-filtros{
+          font-size: 1.2rem;
+          border: none;
+          background: none;
+          width: 100%;
+          text-align: left;
+          padding: 10px 15px;
+          position: relative;
+
+          &:after{
+            content: '\f107';
+            right: 15px;
+            width: auto;
+            font-family: "Font Awesome 5 Free";
+            font-weight: 600;
+            position: absolute;
+            color: lightgray;
+          }
+        }
+
+        li{
+          display: none;
+          padding: 5px 10px;
+          line-height: 1.8;
+
+          input[type="checkbox"]:checked{
+            +label{
+              color: $laranjaEscuro;
+              font-weight: $regular;
+            }
+          }
+        }
+
+        &.expandido-mobile{
+          display: block;
+        }
+
+        &.expandido{
+          background-color: rgba(89, 146, 221, 0.15);
+
+          li{display: block;}
+
+          button.exibe-filtros{
+            color: $azulEscuro;
+            font-weight: $regular;
+
+            &:after{content: '\f106';}
+          }
+        }
+      }
+    }
   }   
 
   #editais{
@@ -61,6 +157,34 @@
 
   @media screen and (min-width: 992px) {
 
+    #filtros{
+      margin-right: -15px;
+
+      button#mostra-seletores{
+        display: none;
+      }
+
+      #seletores{
+        border: none;
+
+        .lista-filtros{
+          display: inline-block;
+          border: solid 0.5px #5992DD;
+          margin-right: 15px;
+          
+          button.exibe-filtros:after{
+            color: gray;
+          }
+          
+          &#cursos{width: calc(40% - 16px);}
+
+          &#atribuicoes, &#tipo-de-curso, &#ano{
+            width: calc(20% - 16px);
+          }
+        }
+      }
+    }
+    
     #editais{          
       li{
         margin-bottom: 0;
