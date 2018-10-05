@@ -34,12 +34,12 @@
               <li class="temSubmenu">
                 <span>Portal Sead <i class="fas fa-chevron-down"></i></span>
                 <ul class="menuSuspenso">
-                  <li><a href="/sitiosead">Início</a></li>
+                  <li><a href="<?php echo site_url(); ?>">Início</a></li>
                   <li><a href="">Ensino</a></li>
-                  <li><a href="/sitiosead/editais">Editais</a></li>
+                  <li><a href="<?php echo site_url(); ?>/editais">Editais</a></li>
                   <li><a href="">Cursos</a></li>
-                  <li><a href="/sitiosead/editais">Polos</a></li>            
-                  <li><a href="/sitiosead/blog">Notícias</a></li>
+                  <li><a href="<?php echo site_url(); ?>/editais">Polos</a></li>            
+                  <li><a href="<?php echo site_url(); ?>/blog">Notícias</a></li>
                 </ul>
               </li>
             </ul>

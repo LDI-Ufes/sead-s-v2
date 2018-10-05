@@ -31,7 +31,7 @@
           <span class="btoMenu">Menu</span>
           <nav id="menuPrincipal" class="menu" role="navigation">
             <ul class="menuLista">
-              <li><a href="/sitiosead">Início</a></li>
+              <li><a href="<?php echo site_url(); ?>">Início</a></li>
               <li class="temSubmenu">
                 <span>Ensino <i class="fas fa-chevron-down"></i></span>
                 <ul class="menuSuspenso">
@@ -40,10 +40,10 @@
                   <li><a href="">Contatos</a></li>
                 </ul>
               </li>
-              <li><a href="/sitiosead/editais">Editais</a></li>
+              <li><a href="<?php echo site_url(); ?>/editais">Editais</a></li>
               <li><a href="">Cursos</a></li>
-              <li><a href="/sitiosead/polos">Polos</a></li>            
-              <li><a href="/sitiosead/blog">Notícias</a></li>
+              <li><a href="<?php echo site_url(); ?>/polos">Polos</a></li>            
+              <li><a href="<?php echo site_url(); ?>/blog">Notícias</a></li>
             </ul>
           </nav>
           <?php get_search_form() ?>
