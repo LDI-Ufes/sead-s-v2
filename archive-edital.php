@@ -1,7 +1,7 @@
 <?php get_header('principal'); ?>
 
 <main id="page-editais" class="container">
-  <section id="breadcrumbs">Você está em: <span>Editais</span></section>
+  <section class="breadcrumb">Você está em: <span>Editais</span></section>
   <h1>Editais</h1>
 
   <div id="filtros">

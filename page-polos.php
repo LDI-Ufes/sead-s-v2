@@ -1,7 +1,7 @@
 <?php get_header('principal'); ?>
 
 <main id="page-polos" class='container'>
-  <section id="breadcrumbs">Você está em: <span>Polos</span></section>
+  <section class="breadcrumb">Você está em: <span>Polos</span></section>
   <section class="conteudo">
     <h1>Polos</h1>   
 

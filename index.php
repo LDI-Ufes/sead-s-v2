@@ -1,7 +1,8 @@
 <?php get_header('principal'); ?>
 
-<main style="margin-bottom: 50px;">
-  <div class="container">
+<main class="container">
+  
+  <section class="conteudo">
 
     <h1><?php the_title() ?></h1>
 
@@ -13,7 +14,8 @@
       ?>
     </section>
 
-  </div>
+  </section>
+  
 </main>
 
 <?php get_footer(); ?>
