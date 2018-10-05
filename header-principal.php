@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-BR" dir="ltr">
   <head>
-    <meta charset="utf-8">  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://cdn.eadufes.org/icone/sead.png">
+    <link rel="icon" type="image/svg+xml" href="https://cdn.eadufes.org/icone/sead.svg">
 
     <!-- Contexto do órgão no Portal de Serviços -->
     <meta property="creator.productor" content="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/425">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="<?php echo site_url(); ?>/wp-content/themes/sead-v2/style.css">
+
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,600,700,700i" rel="stylesheet"> <!-- Conferir necessidade de variações -->
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700i" rel="stylesheet"> <!-- Conferir necessidade de variações -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="<?php echo site_url(); ?>/wp-content/themes/sead-v2/style.css">
     <?php wp_head(); ?>
   </head>
   <body>
@@ -25,7 +31,7 @@
           <span class="btoMenu">Menu</span>
           <nav id="menuPrincipal" class="menu" role="navigation">
             <ul class="menuLista">
-              <li><a href="/sitiosead" title="Ir para página inicial">Início</a></li>
+              <li><a href="<?php echo site_url(); ?>" title="Ir para página inicial">Início</a></li>
               <li class="temSubmenu">
                 <span>Ensino <i class="fas fa-chevron-down"></i></span>
                 <ul class="menuSuspenso">
@@ -34,10 +40,10 @@
                   <li><a href="/sitiosead/contatos" title="Ir para Ensino - Contatos">Contatos</a></li>
                 </ul>
               </li>
-              <li><a href="/sitiosead/editais" title="Ir para Editais">Editais</a></li>
-              <li><a href="/sitiosead/cursos" title="Ir para Cursos">Cursos</a></li>
-              <li><a href="/sitiosead/polos" title="Ir para Polos">Polos</a></li>            
-              <li><a href="/sitiosead/blog" title="Ir para Notícias">Notícias</a></li>
+              <li><a href="<?php echo site_url(); ?>/editais" title="Ir para Editais">Editais</a></li>
+              <li><a href="<?php echo site_url(); ?>/cursos" title="Ir para Cursos">Cursos</a></li>
+              <li><a href="<?php echo site_url(); ?>/polos" title="Ir para Polos">Polos</a></li>            
+              <li><a href="<?php echo site_url(); ?>/blog" title="Ir para Notícias">Notícias</a></li>
             </ul>
           </nav>
           <?php get_search_form() ?>

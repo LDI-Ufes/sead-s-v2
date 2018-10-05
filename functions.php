@@ -11,7 +11,7 @@ endif; // sitiosead_setup
 add_action('after_setup_theme', 'sitiosead_setup');
 
 function create_post_type() {
-  register_post_type( 'editais',
+  register_post_type( 'edital',
     array(
       'labels' => array(
         'name' => __( 'Editais' ),
@@ -31,7 +31,7 @@ function create_post_type() {
     )
   );
   
-    register_post_type( 'blog',
+    register_post_type( 'noticia',
     array(
       'labels' => array(
         'name' => __( 'Notícias' ),
