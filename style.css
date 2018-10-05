@@ -1457,7 +1457,7 @@ footer {
   position: relative; }
   @media screen and (max-width: 992px) {
     .formPesquisaAtivo #formPesquisa {
-      margin: 19.5px auto; } }
+      margin: 17.5px auto; } }
   .formPesquisaAtivo #formPesquisa input, .formPesquisaAtivo #formPesquisa .botaoSubmissao {
     position: relative;
     left: 0;
