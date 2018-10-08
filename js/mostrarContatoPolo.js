@@ -4,6 +4,7 @@ function init(evt)
     {
         svgDocument = evt.target.ownerDocument;
     }
+
 }
 
 var AfonsoClaudio = {
@@ -223,20 +224,26 @@ var Vitoria ={
 };
 
 function template(municipio){
-    return  '<h2 id="municipioTitulo">'+ municipio.nome + '</h2>' +
-            '<i class="fa fa-user"></i> <b>Coordenador</b><br>' +
-                    municipio.coord + '<br><br>' +
-            '<i class="fa fa-envelope" style="margin-right:5px;"></i> <b>E-mail(s)</b> <br>' +
-                    municipio.email + '<br><br>' +
-            '<i class="fa fa-phone" style="margin-right:5px;"></i> <b>Telefone(s)</b> <br>' +
-                    municipio.telefone
+//    return  '<h2 id="municipioTitulo">'+ municipio.nome + '</h2>' +
+//            '<i class="fa fa-user"></i> <b>Coordenador</b><br>' +
+//                    municipio.coord + '<br><br>' +
+//            '<i class="fa fa-envelope" style="margin-right:5px;"></i> <b>E-mail(s)</b> <br>' +
+//                    municipio.email + '<br><br>' +
+//                    municipio.telefone
+//}
+
+return '<li id="'+ municipio +'">' +
+    '<a class="municipioTitulo">'+ municipio.nome +'</a>' +
+    '<div class="info-polo">' +
+      '<i class="fa fa-user"></i> <b>Coordenador</b><br>' + municipio.coord + '<br><br>' +
+      '<i class="fa fa-envelope" style="margin-right:5px;"></i> <b>E-mail(s)</b> <br>'+ municipio.email + '<br><br>' +
+      '<i class="fa fa-phone" style="margin-right:5px;"></i> <b>Telefone(s)</b> <br>'+ municipio.telefone +
+    '</div>' +
+  '</li>';
 }
 
 function mostrarContatoPolo(municipio){
     var idt = '#' + municipio.id;
-    
-    $('#mostrarContatoPolo').html(template(municipio));
-    $('.geografia').css('fill','#5992DD');
-    $(idt).css('fill','#FDA65B');
-    $('#municipioTitulo').focus();
+    $('li'+idt).toggleClass('expandido');
+//    $('#polos').html(template(municipio));
 }
