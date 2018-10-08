@@ -59,7 +59,7 @@
   <div class="container">
     <section id="noticias">
       <?php
-      $ultimas_noticias = new WP_Query(array('post_type' => 'blog', 'posts_per_page' => 4));
+      $ultimas_noticias = new WP_Query(array('post_type' => 'noticia', 'posts_per_page' => 4));
 
       if ($ultimas_noticias->have_posts()) : while ($ultimas_noticias->have_posts()) : $ultimas_noticias->the_post();
           ?>

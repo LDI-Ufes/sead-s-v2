@@ -14,7 +14,7 @@
             <p>Especialização em Oratória, Transversalidade e Didática da Fala para Formação de Professores</p>
         </li>-->
         <?php           
-            $ultimos_editais = new WP_Query( array( 'post_type' => 'editais', 'posts_per_page' => 3 ) );
+            $ultimos_editais = new WP_Query( array( 'post_type' => 'edital', 'posts_per_page' => 3 ) );
             
             if ( $ultimos_editais->have_posts() ) : while ( $ultimos_editais->have_posts() ) : $ultimos_editais->the_post(); ?>
                 <li>
