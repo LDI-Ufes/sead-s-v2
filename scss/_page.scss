@@ -1,4 +1,31 @@
 
+.page {
+
+  .conteudo {
+    line-height: 1.8rem;
+
+    @media (min-width: 992px) {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    p {
+      font-weight: $light;
+    }
+
+    blockquote {
+      color: $laranja;
+      font-family: $texto;
+      font-weight: $bold;
+      font-style: italic;
+      margin: 2rem 0;
+      font-size: 1.25rem;
+    }
+
+  }
+
+}
+
 #page {
 
   .video{

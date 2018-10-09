@@ -17,9 +17,9 @@
         <li><a href="<?php echo site_url(); ?>" title="Ir para página inicial">Início</a></li>
         <li>Ensino
           <ul class="subitens">
-            <li><a href="<?php echo site_url(); ?>/ead-na-ufes" title="Ir para Ensino - Como é a EaD na Ufes?">Como é a Ead na Ufes?</a></li>
-            <li><a href="<?php echo site_url(); ?>/a-secretaria" title="Ir para Ensino - A Secretaria">A Secretaria</a></li>
-            <li><a href="<?php echo site_url(); ?>/contatos" title="Ir para Ensino - Contatos">Contatos</a></li>
+            <li><a href="/sitiosead/ead-na-ufes" title="Ir para Ensino - Como é a EaD na Ufes?">Como é a EaD na Ufes?</a></li>
+            <li><a href="/sitiosead/a-secretaria" title="Ir para Ensino - A Secretaria">A Secretaria</a></li>
+            <li><a href="/sitiosead/contatos" title="Ir para Ensino - Contatos">Contatos</a></li>
           </ul>
         </li>
         <li><a href="<?php echo site_url(); ?>/editais" title="Ir para Editais">Editais</a></li>
@@ -56,9 +56,13 @@
 
 <script defer="defer" src="//barra.brasil.gov.br/barra.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="<?php echo site_url(); ?>/wp-content/themes/sead-v2/js/altoContraste.js"></script>
-<script src="<?php echo site_url(); ?>/wp-content/themes/sead-v2/js/menu.js"></script>
-<script src="<?php echo site_url(); ?>/wp-content/themes/sead-v2/js/pesquisa.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/altoContraste.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/menu.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/pesquisa.js"></script>
+
+<!-- Lity Lightbox -->
+<link href="<?php echo get_template_directory_uri(); ?>/plugins/lity/lity.min.css" rel="stylesheet">
+<script src="<?php echo get_template_directory_uri(); ?>/plugins/lity/lity.min.js"></script>
 
 <?php wp_footer(); ?>
 </body>

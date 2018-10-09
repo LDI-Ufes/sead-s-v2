@@ -26,7 +26,17 @@ body {
         color: yellow;
       }
     }
-  } 
+  }
+  
+  main {
+    padding: 2rem 0 3rem 0;
+    
+    h1:first-of-type {
+      margin: 0;
+      padding: 1rem 0;
+    }
+  }
+  
 }
 
 section.caixa {
@@ -58,10 +68,14 @@ section.caixa {
   span {
     color: $azulClaro;
   }
+  
+  .seta {
+    color: $laranja;
+  }
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: $bold;
   color: $azul;
   padding: 2rem 0 1rem;
