@@ -1,7 +1,7 @@
 <?php get_header('principal'); ?>
 
 <main class="container">
-  
+
   <section class="conteudo">
 
     <h1><?php the_title() ?></h1>
@@ -15,7 +15,7 @@
     </section>
 
   </section>
-  
+
 </main>
 
 <?php get_footer(); ?>

@@ -1,23 +1,6 @@
 
 #page-polos {
 
-  .conteudo{
-    line-height: 1.8rem;
-
-    p{
-      font-weight: $light;  
-    }
-
-    blockquote{
-      color: $laranja;
-      font-family: $texto;
-      font-weight: $bold;
-      font-style: italic;
-      margin: 2rem 0; 
-      font-size: 1.25rem;
-    }
-  }
-
   #mapaInterativo{
 
     .popoverMunicipios{
@@ -107,11 +90,6 @@
   }
 
   @media screen and (min-width: 992px) {
-
-    .conteudo {
-      max-width: 720px;
-      margin: 0 auto;
-    }
 
     #mapaInterativo {
       
