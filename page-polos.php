@@ -20,218 +20,10 @@
   <section id="mapaInterativo">         
     <div class="popoverMunicipios">
       <p>Selecione um polo para exibir mais informações</p>
-      
+
       <ul id="polos">
-      <li id="AfonsoClaudio">
-        <a class="municipioTitulo">Afonso Cláudio</a>
-        <div class="info-polo">
-          <i class="fa fa-user"></i> <b>Coordenador</b><br>Deziere Aparecida de Azevedo Siqueira<br><br>
-          <i class="fa fa-envelope" style="margin-right:5px;"></i> <b>E-mail(s)</b> <br>uab2linhares@gmail.com<br>deziere.az@gmail.com<br><br>
-          <i class="fa fa-phone" style="margin-right:5px;"></i> <b>Telefone(s)</b> <br>(27) 3373-7900<br>(27) 3373-7924
-        </div>
-      </li>
-      <li id="Alegre">
-        <a class="municipioTitulo">Alegre</a>
-        <div class="info-polo">
-          <i class="fa fa-user"></i> <b>Coordenador</b><br>Deziere Aparecida de Azevedo Siqueira<br><br>
-          <i class="fa fa-envelope" style="margin-right:5px;"></i> <b>E-mail(s)</b> <br>uab2linhares@gmail.com<br>deziere.az@gmail.com<br><br>
-          <i class="fa fa-phone" style="margin-right:5px;"></i> <b>Telefone(s)</b> <br>(27) 3373-7900<br>(27) 3373-7924
-        </div>
-      </li>
-      <li id="AfonsoClaudio">
-        <a class="municipioTitulo">Afonso Cláudio</a>
-        <div class="info-polo">
-          <i class="fa fa-user"></i> <b>Coordenador</b><br>Deziere Aparecida de Azevedo Siqueira<br><br>
-          <i class="fa fa-envelope" style="margin-right:5px;"></i> <b>E-mail(s)</b> <br>uab2linhares@gmail.com<br>deziere.az@gmail.com<br><br>
-          <i class="fa fa-phone" style="margin-right:5px;"></i> <b>Telefone(s)</b> <br>(27) 3373-7900<br>(27) 3373-7924
-        </div>
-      </li>
-      <li id="Alegre">
-        <a class="municipioTitulo">Alegre</a>
-        <div class="info-polo">
-          <i class="fa fa-user"></i> <b>Coordenador</b><br>Deziere Aparecida de Azevedo Siqueira<br><br>
-          <i class="fa fa-envelope" style="margin-right:5px;"></i> <b>E-mail(s)</b> <br>uab2linhares@gmail.com<br>deziere.az@gmail.com<br><br>
-          <i class="fa fa-phone" style="margin-right:5px;"></i> <b>Telefone(s)</b> <br>(27) 3373-7900<br>(27) 3373-7924
-        </div>
-      </li>
-      <li id="AfonsoClaudio">
-        <a class="municipioTitulo">Afonso Cláudio</a>
-        <div class="info-polo">
-          <i class="fa fa-user"></i> <b>Coordenador</b><br>Deziere Aparecida de Azevedo Siqueira<br><br>
-          <i class="fa fa-envelope" style="margin-right:5px;"></i> <b>E-mail(s)</b> <br>uab2linhares@gmail.com<br>deziere.az@gmail.com<br><br>
-          <i class="fa fa-phone" style="margin-right:5px;"></i> <b>Telefone(s)</b> <br>(27) 3373-7900<br>(27) 3373-7924
-        </div>
-      </li>
-      <li id="Alegre">
-        <a class="municipioTitulo">Alegre</a>
-        <div class="info-polo">
-          <i class="fa fa-user"></i> <b>Coordenador</b><br>Deziere Aparecida de Azevedo Siqueira<br><br>
-          <i class="fa fa-envelope" style="margin-right:5px;"></i> <b>E-mail(s)</b> <br>uab2linhares@gmail.com<br>deziere.az@gmail.com<br><br>
-          <i class="fa fa-phone" style="margin-right:5px;"></i> <b>Telefone(s)</b> <br>(27) 3373-7900<br>(27) 3373-7924
-        </div>
-      </li>
-      <li id="AfonsoClaudio">
-        <a class="municipioTitulo">Afonso Cláudio</a>
-        <div class="info-polo">
-          <i class="fa fa-user"></i> <b>Coordenador</b><br>Deziere Aparecida de Azevedo Siqueira<br><br>
-          <i class="fa fa-envelope" style="margin-right:5px;"></i> <b>E-mail(s)</b> <br>uab2linhares@gmail.com<br>deziere.az@gmail.com<br><br>
-          <i class="fa fa-phone" style="margin-right:5px;"></i> <b>Telefone(s)</b> <br>(27) 3373-7900<br>(27) 3373-7924
-        </div>
-      </li>
-      <li id="Alegre">
-        <a class="municipioTitulo">Alegre</a>
-        <div class="info-polo">
-          <i class="fa fa-user"></i> <b>Coordenador</b><br>Deziere Aparecida de Azevedo Siqueira<br><br>
-          <i class="fa fa-envelope" style="margin-right:5px;"></i> <b>E-mail(s)</b> <br>uab2linhares@gmail.com<br>deziere.az@gmail.com<br><br>
-          <i class="fa fa-phone" style="margin-right:5px;"></i> <b>Telefone(s)</b> <br>(27) 3373-7900<br>(27) 3373-7924
-        </div>
-      </li>
-      <li id="AfonsoClaudio">
-        <a class="municipioTitulo">Afonso Cláudio</a>
-        <div class="info-polo">
-          <i class="fa fa-user"></i> <b>Coordenador</b><br>Deziere Aparecida de Azevedo Siqueira<br><br>
-          <i class="fa fa-envelope" style="margin-right:5px;"></i> <b>E-mail(s)</b> <br>uab2linhares@gmail.com<br>deziere.az@gmail.com<br><br>
-          <i class="fa fa-phone" style="margin-right:5px;"></i> <b>Telefone(s)</b> <br>(27) 3373-7900<br>(27) 3373-7924
-        </div>
-      </li>
-      <li id="Alegre">
-        <a class="municipioTitulo">Alegre</a>
-        <div class="info-polo">
-          <i class="fa fa-user"></i> <b>Coordenador</b><br>Deziere Aparecida de Azevedo Siqueira<br><br>
-          <i class="fa fa-envelope" style="margin-right:5px;"></i> <b>E-mail(s)</b> <br>uab2linhares@gmail.com<br>deziere.az@gmail.com<br><br>
-          <i class="fa fa-phone" style="margin-right:5px;"></i> <b>Telefone(s)</b> <br>(27) 3373-7900<br>(27) 3373-7924
-        </div>
-      </li>
-      <li id="AfonsoClaudio">
-        <a class="municipioTitulo">Afonso Cláudio</a>
-        <div class="info-polo">
-          <i class="fa fa-user"></i> <b>Coordenador</b><br>Deziere Aparecida de Azevedo Siqueira<br><br>
-          <i class="fa fa-envelope" style="margin-right:5px;"></i> <b>E-mail(s)</b> <br>uab2linhares@gmail.com<br>deziere.az@gmail.com<br><br>
-          <i class="fa fa-phone" style="margin-right:5px;"></i> <b>Telefone(s)</b> <br>(27) 3373-7900<br>(27) 3373-7924
-        </div>
-      </li>
-      <li id="Alegre">
-        <a class="municipioTitulo">Alegre</a>
-        <div class="info-polo">
-          <i class="fa fa-user"></i> <b>Coordenador</b><br>Deziere Aparecida de Azevedo Siqueira<br><br>
-          <i class="fa fa-envelope" style="margin-right:5px;"></i> <b>E-mail(s)</b> <br>uab2linhares@gmail.com<br>deziere.az@gmail.com<br><br>
-          <i class="fa fa-phone" style="margin-right:5px;"></i> <b>Telefone(s)</b> <br>(27) 3373-7900<br>(27) 3373-7924
-        </div>
-      </li>
-      <li id="AfonsoClaudio">
-        <a class="municipioTitulo">Afonso Cláudio</a>
-        <div class="info-polo">
-          <i class="fa fa-user"></i> <b>Coordenador</b><br>Deziere Aparecida de Azevedo Siqueira<br><br>
-          <i class="fa fa-envelope" style="margin-right:5px;"></i> <b>E-mail(s)</b> <br>uab2linhares@gmail.com<br>deziere.az@gmail.com<br><br>
-          <i class="fa fa-phone" style="margin-right:5px;"></i> <b>Telefone(s)</b> <br>(27) 3373-7900<br>(27) 3373-7924
-        </div>
-      </li>
-      <li id="Alegre">
-        <a class="municipioTitulo">Alegre</a>
-        <div class="info-polo">
-          <i class="fa fa-user"></i> <b>Coordenador</b><br>Deziere Aparecida de Azevedo Siqueira<br><br>
-          <i class="fa fa-envelope" style="margin-right:5px;"></i> <b>E-mail(s)</b> <br>uab2linhares@gmail.com<br>deziere.az@gmail.com<br><br>
-          <i class="fa fa-phone" style="margin-right:5px;"></i> <b>Telefone(s)</b> <br>(27) 3373-7900<br>(27) 3373-7924
-        </div>
-      </li>
-      <li id="AfonsoClaudio">
-        <a class="municipioTitulo">Afonso Cláudio</a>
-        <div class="info-polo">
-          <i class="fa fa-user"></i> <b>Coordenador</b><br>Deziere Aparecida de Azevedo Siqueira<br><br>
-          <i class="fa fa-envelope" style="margin-right:5px;"></i> <b>E-mail(s)</b> <br>uab2linhares@gmail.com<br>deziere.az@gmail.com<br><br>
-          <i class="fa fa-phone" style="margin-right:5px;"></i> <b>Telefone(s)</b> <br>(27) 3373-7900<br>(27) 3373-7924
-        </div>
-      </li>
-      <li id="Alegre">
-        <a class="municipioTitulo">Alegre</a>
-        <div class="info-polo">
-          <i class="fa fa-user"></i> <b>Coordenador</b><br>Deziere Aparecida de Azevedo Siqueira<br><br>
-          <i class="fa fa-envelope" style="margin-right:5px;"></i> <b>E-mail(s)</b> <br>uab2linhares@gmail.com<br>deziere.az@gmail.com<br><br>
-          <i class="fa fa-phone" style="margin-right:5px;"></i> <b>Telefone(s)</b> <br>(27) 3373-7900<br>(27) 3373-7924
-        </div>
-      </li>
-      <li id="AfonsoClaudio">
-        <a class="municipioTitulo">Afonso Cláudio</a>
-        <div class="info-polo">
-          <i class="fa fa-user"></i> <b>Coordenador</b><br>Deziere Aparecida de Azevedo Siqueira<br><br>
-          <i class="fa fa-envelope" style="margin-right:5px;"></i> <b>E-mail(s)</b> <br>uab2linhares@gmail.com<br>deziere.az@gmail.com<br><br>
-          <i class="fa fa-phone" style="margin-right:5px;"></i> <b>Telefone(s)</b> <br>(27) 3373-7900<br>(27) 3373-7924
-        </div>
-      </li>
-      <li id="Alegre">
-        <a class="municipioTitulo">Alegre</a>
-        <div class="info-polo">
-          <i class="fa fa-user"></i> <b>Coordenador</b><br>Deziere Aparecida de Azevedo Siqueira<br><br>
-          <i class="fa fa-envelope" style="margin-right:5px;"></i> <b>E-mail(s)</b> <br>uab2linhares@gmail.com<br>deziere.az@gmail.com<br><br>
-          <i class="fa fa-phone" style="margin-right:5px;"></i> <b>Telefone(s)</b> <br>(27) 3373-7900<br>(27) 3373-7924
-        </div>
-      </li>
-      <li id="AfonsoClaudio">
-        <a class="municipioTitulo">Afonso Cláudio</a>
-        <div class="info-polo">
-          <i class="fa fa-user"></i> <b>Coordenador</b><br>Deziere Aparecida de Azevedo Siqueira<br><br>
-          <i class="fa fa-envelope" style="margin-right:5px;"></i> <b>E-mail(s)</b> <br>uab2linhares@gmail.com<br>deziere.az@gmail.com<br><br>
-          <i class="fa fa-phone" style="margin-right:5px;"></i> <b>Telefone(s)</b> <br>(27) 3373-7900<br>(27) 3373-7924
-        </div>
-      </li>
-      <li id="Alegre">
-        <a class="municipioTitulo">Alegre</a>
-        <div class="info-polo">
-          <i class="fa fa-user"></i> <b>Coordenador</b><br>Deziere Aparecida de Azevedo Siqueira<br><br>
-          <i class="fa fa-envelope" style="margin-right:5px;"></i> <b>E-mail(s)</b> <br>uab2linhares@gmail.com<br>deziere.az@gmail.com<br><br>
-          <i class="fa fa-phone" style="margin-right:5px;"></i> <b>Telefone(s)</b> <br>(27) 3373-7900<br>(27) 3373-7924
-        </div>
-      </li>
-      <li id="AfonsoClaudio">
-        <a class="municipioTitulo">Afonso Cláudio</a>
-        <div class="info-polo">
-          <i class="fa fa-user"></i> <b>Coordenador</b><br>Deziere Aparecida de Azevedo Siqueira<br><br>
-          <i class="fa fa-envelope" style="margin-right:5px;"></i> <b>E-mail(s)</b> <br>uab2linhares@gmail.com<br>deziere.az@gmail.com<br><br>
-          <i class="fa fa-phone" style="margin-right:5px;"></i> <b>Telefone(s)</b> <br>(27) 3373-7900<br>(27) 3373-7924
-        </div>
-      </li>
-      <li id="Alegre">
-        <a class="municipioTitulo">Alegre</a>
-        <div class="info-polo">
-          <i class="fa fa-user"></i> <b>Coordenador</b><br>Deziere Aparecida de Azevedo Siqueira<br><br>
-          <i class="fa fa-envelope" style="margin-right:5px;"></i> <b>E-mail(s)</b> <br>uab2linhares@gmail.com<br>deziere.az@gmail.com<br><br>
-          <i class="fa fa-phone" style="margin-right:5px;"></i> <b>Telefone(s)</b> <br>(27) 3373-7900<br>(27) 3373-7924
-        </div>
-      </li>
-      <li id="AfonsoClaudio">
-        <a class="municipioTitulo">Afonso Cláudio</a>
-        <div class="info-polo">
-          <i class="fa fa-user"></i> <b>Coordenador</b><br>Deziere Aparecida de Azevedo Siqueira<br><br>
-          <i class="fa fa-envelope" style="margin-right:5px;"></i> <b>E-mail(s)</b> <br>uab2linhares@gmail.com<br>deziere.az@gmail.com<br><br>
-          <i class="fa fa-phone" style="margin-right:5px;"></i> <b>Telefone(s)</b> <br>(27) 3373-7900<br>(27) 3373-7924
-        </div>
-      </li>
-      <li id="Alegre">
-        <a class="municipioTitulo">Alegre</a>
-        <div class="info-polo">
-          <i class="fa fa-user"></i> <b>Coordenador</b><br>Deziere Aparecida de Azevedo Siqueira<br><br>
-          <i class="fa fa-envelope" style="margin-right:5px;"></i> <b>E-mail(s)</b> <br>uab2linhares@gmail.com<br>deziere.az@gmail.com<br><br>
-          <i class="fa fa-phone" style="margin-right:5px;"></i> <b>Telefone(s)</b> <br>(27) 3373-7900<br>(27) 3373-7924
-        </div>
-      </li><li id="AfonsoClaudio">
-        <a class="municipioTitulo">Afonso Cláudio</a>
-        <div class="info-polo">
-          <i class="fa fa-user"></i> <b>Coordenador</b><br>Deziere Aparecida de Azevedo Siqueira<br><br>
-          <i class="fa fa-envelope" style="margin-right:5px;"></i> <b>E-mail(s)</b> <br>uab2linhares@gmail.com<br>deziere.az@gmail.com<br><br>
-          <i class="fa fa-phone" style="margin-right:5px;"></i> <b>Telefone(s)</b> <br>(27) 3373-7900<br>(27) 3373-7924
-        </div>
-      </li>
-      <li id="Alegre">
-        <a class="municipioTitulo">Alegre</a>
-        <div class="info-polo">
-          <i class="fa fa-user"></i> <b>Coordenador</b><br>Deziere Aparecida de Azevedo Siqueira<br><br>
-          <i class="fa fa-envelope" style="margin-right:5px;"></i> <b>E-mail(s)</b> <br>uab2linhares@gmail.com<br>deziere.az@gmail.com<br><br>
-          <i class="fa fa-phone" style="margin-right:5px;"></i> <b>Telefone(s)</b> <br>(27) 3373-7900<br>(27) 3373-7924
-        </div>
-      </li>
-      
-      
-    </ul>
+
+      </ul>
     </div>
     <?php echo file_get_contents(get_template_directory_uri() . '/svg/mapaES.svg'); ?>
 
@@ -242,8 +34,37 @@
 <?php get_footer(); ?>
 
 <script>
-  $(".municipioTitulo").click(function(){
-    $(this).parent().toggleClass('expandido');
-  });
+  
+  $(function () {
+    var polos = [];
 
+    $.getJSON('/sitiosead/wp-content/themes/sead-v2/js/polos.json', function (data) {
+      $.each(data.polo, function (i, municipio) {
+        var lItem = '<li id="'+ municipio.id +'">' + '<a class="municipioTitulo">' + municipio.nome + '</a>' + 
+                      '<div class="info-polo">' +
+                        '<i class="fa fa-user"></i> <b>Coordenador</b><br>' + municipio.coord + '<br><br>' +
+                        '<i class="fa fa-envelope" style="margin-right:5px;"></i> <b>E-mail(s)</b> <br>' + municipio.email + '<br><br>' +
+                        '<i class="fa fa-phone" style="margin-right:5px;"></i> <b>Telefone(s)</b> <br>' + municipio.telefone +
+                      '</div>' +
+                    '</li>';
+        $(lItem).appendTo("#polos");
+      });
+    }).then(function(){
+      $(".municipioTitulo").click( function(){
+        $(this).parent().toggleClass('expandido');
+      });}    
+    );
+
+  });
+  
+  function mostrarContatoPolo(municipio){
+    var idt = '#' + municipio.id;
+    $('li'+idt).toggleClass('expandido');
+    $('html, body').animate({ scrollTop: $("li"+idt).offset().top }, 800);
+  };
+   
 </script>
+
+        
+        
+        
