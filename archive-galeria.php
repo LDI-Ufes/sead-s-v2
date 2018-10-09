@@ -64,6 +64,6 @@
 
 <script>
     $('.abrirTodas').click(e => {
-      $(e.target.parentElement).find('a:nth-of-type(n+7)').toggleClass("visivel");
+      $(e.target.parentElement).find('a:nth-of-type(n+5)').toggleClass("visivel");
     });
 </script>
