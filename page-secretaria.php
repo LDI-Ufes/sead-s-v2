@@ -13,7 +13,7 @@
     </section>
   </a>
 
-  <section class="conteudo">
+  <section class="conteudo container">
 
     <section class="breadcrumb">Você está em: <span>Ensino</span> <span class="seta">></span> <span><b>Secretaria de Ensino a Distância</b></span></section>
 
