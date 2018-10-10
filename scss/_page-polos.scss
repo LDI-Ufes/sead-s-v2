@@ -134,19 +134,10 @@
                 fill: #333;
               }
 
-              &:hover {
-                cursor: pointer;
-
-                .geografia {
-                  opacity: 0.7 !important;
-                  transition: all ease-in-out 300ms;
-                }
-              }
-            }       
-          }
-        } /* #comPolos */
-      } /* svg */
-    } /* #mapaInterativo */
+    #mapaInterativo {
+      
+      .popoverMunicipios {
+        width: 30%;
 
   }
 }
