@@ -1,7 +1,7 @@
 <?php get_header('blog'); ?>
 
 <main id="page-galeria" class="container">
-  <section class="breadcrumb">Você está em: <a href="/sitiosead/blog">Blog</a> > <span>Galeria de Imagens</span></section>
+  <section class="breadcrumb">Você está em: <a href="/sitiosead/blog">Blog</a> <span class="seta">></span> <span>Galeria de Imagens</span></section>
   <h1>Galeria de Imagens</h1>
 
   <section id="filtros">

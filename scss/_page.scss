@@ -1,57 +1,35 @@
-
 .page {
+  line-height: 1.8rem;
 
-  .conteudo {
-    line-height: 1.8rem;
+  p {
+    font-weight: $light;
+  }
 
-    @media (min-width: 992px) {
-      max-width: 720px;
-      margin: 0 auto;
-    }
+  blockquote {
+    color: $laranja;
+    font-family: $texto;
+    font-weight: $bold;
+    font-style: italic;
+    margin: 2rem 0;
+    font-size: 1.25rem;
+  }
+} /* page */
 
-    p {
-      font-weight: $light;
-    }
+#erro{
+  blockquote{
+    max-width: 500px;
+    font-weight: $light;
+    color: $azul;
+    font-size: 2rem;
+    margin-left: 4rem;
+    font-family: $fira;
+    font-style: normal;
+    line-height: 1.2;
 
-    blockquote {
-      color: $laranja;
-      font-family: $texto;
+    span{
+      font-size: 1rem;
       font-weight: $bold;
-      font-style: italic;
-      margin: 2rem 0;
-      font-size: 1.25rem;
-    }
-
-  }
-
-}
-
-#page {
-
-  .video{
-    position: relative;
-
-    img{
-      width: 100%;
-      height: 30vw;
-      object-fit: cover;
+      text-transform: uppercase;
     }
   }
-
-  @media screen and (min-width: 992px) {
-
-    .gradient{
-      &:before {
-        content: '';
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        height: 24vw;
-        opacity: .6;
-        background-image: linear-gradient(rgba(5,60,123,100),rgba(89,146,221,0));
-      }   
-    }
-  }
-}
+} /* erro */

@@ -65,7 +65,8 @@ section.caixa {
   .breadcrumb span {
     color: #5992DD; }
   .breadcrumb .seta {
-    color: #E37531; }
+    color: #E37531;
+    font-weight: 700; }
 
 h1 {
   font-size: 2.5rem;
@@ -867,15 +868,11 @@ footer {
         float: right;
         margin-top: .5rem; } }
 
-.page .conteudo {
+.page {
   line-height: 1.8rem; }
-  @media (min-width: 992px) {
-    .page .conteudo {
-      max-width: 720px;
-      margin: 0 auto; } }
-  .page .conteudo p {
+  .page p {
     font-weight: 300; }
-  .page .conteudo blockquote {
+  .page blockquote {
     color: #E37531;
     font-family: "Merriweather", serif;
     font-weight: 700;
@@ -883,24 +880,22 @@ footer {
     margin: 2rem 0;
     font-size: 1.25rem; }
 
-#page .video {
-  position: relative; }
-  #page .video img {
-    width: 100%;
-    height: 30vw;
-    object-fit: cover; }
-@media screen and (min-width: 992px) {
-  #page .gradient:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height: 24vw;
-    opacity: .6;
-    background-image: linear-gradient(#053c7b, rgba(89, 146, 221, 0)); } }
+/* page */
+#erro blockquote {
+  max-width: 500px;
+  font-weight: 300;
+  color: #1661A6;
+  font-size: 2rem;
+  margin-left: 4rem;
+  font-family: "Fira Sans", sans;
+  font-style: normal;
+  line-height: 1.2; }
+  #erro blockquote span {
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase; }
 
+/* erro */
 #page-blog #ultimos-editais {
   background-color: rgba(89, 146, 221, 0.15);
   padding: 1.5rem; }
@@ -1231,7 +1226,7 @@ footer {
         #page-blog #galeria ul li p a:nth-child(-n+4) {
           display: inline-flex; }
     #page-blog #galeria ul li .ver-mais {
-      width: calc(25% - 1.1rem); } }
+      width: calc(25% - 1.15rem); } }
 
 #page-editais #filtros {
   padding-bottom: 3rem; }
@@ -1372,26 +1367,45 @@ footer {
       color: black;
       font-style: normal; } }
 
-#page-galeria #filtros span {
-  display: block;
-  padding-bottom: 1.5rem; }
-#page-galeria #filtros a {
-  background-color: white;
-  color: #9C4C22;
-  border: none;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
-  padding: .4rem .8rem;
-  margin-right: .6rem;
-  font-weight: 700; }
-  #page-galeria #filtros a:hover {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-    padding: .5rem .9rem; }
-  #page-galeria #filtros a.active {
-    background-color: #9C4C22;
-    color: white;
-    pointer-events: none; }
+#page-galeria #filtros {
+  padding: 2rem 0; }
+  #page-galeria #filtros span {
+    display: block;
+    padding-bottom: 1.5rem; }
+  #page-galeria #filtros a {
+    background-color: white;
+    color: #9C4C22;
+    border: none;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    padding: .4rem .8rem;
+    margin-right: .6rem;
+    font-weight: 700; }
+    #page-galeria #filtros a:hover {
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+      padding: .5rem .9rem; }
+    #page-galeria #filtros a.active {
+      background-color: #9C4C22;
+      color: white;
+      pointer-events: none; }
 #page-galeria #eventos li {
-  margin-bottom: 7rem; }
+  margin-bottom: 7rem;
+  /*      &:nth-child(even){
+          h2{
+            color: $azul;
+  
+            &:before{
+              background-color: $azul;
+            }
+          }
+  
+          .abrirTodas{
+            background-color: $azul;
+  
+            &:hover{
+              background-color: darken($azul, 20%);
+            }
+          }
+        }*/ }
   #page-galeria #eventos li h2 {
     position: relative;
     font-weight: 600;
@@ -1424,12 +1438,10 @@ footer {
         flex-grow: 1;
         margin-right: 1rem;
         display: none; }
-        #page-galeria #eventos li .imagens p a:nth-child(-n+6) {
+        #page-galeria #eventos li .imagens p a:nth-child(-n+4) {
           display: inline-block; }
         #page-galeria #eventos li .imagens p a.visivel {
           display: inline-block; }
-        #page-galeria #eventos li .imagens p a:last-child {
-          /*max-width: calc(50% - 1.5rem);*/ }
         #page-galeria #eventos li .imagens p a img {
           object-fit: cover;
           width: 100%;
@@ -1442,18 +1454,9 @@ footer {
       text-transform: uppercase;
       padding: .5rem 1.5rem;
       font-weight: 700;
-      margin-top: 1rem;
       margin-right: 1.5rem; }
       #page-galeria #eventos li .imagens .abrirTodas:hover {
         background-color: #994715; }
-  #page-galeria #eventos li:nth-child(even) h2 {
-    color: #1661A6; }
-    #page-galeria #eventos li:nth-child(even) h2:before {
-      background-color: #1661A6; }
-  #page-galeria #eventos li:nth-child(even) .abrirTodas {
-    background-color: #1661A6; }
-    #page-galeria #eventos li:nth-child(even) .abrirTodas:hover {
-      background-color: #0a2c4c; }
 @media screen and (min-width: 992px) {
   #page-galeria {
     padding-top: 10rem; }
@@ -1462,26 +1465,17 @@ footer {
       padding-bottom: 0;
       margin-right: 1rem; }
     #page-galeria #eventos li {
-      padding-top: 2rem; }
+      padding-top: 2rem;
+      margin-bottom: 5rem; }
       #page-galeria #eventos li .imagens {
         margin-right: -1.5rem; }
         #page-galeria #eventos li .imagens p a {
           margin-right: 1.5rem;
-          height: 12rem; }
-          #page-galeria #eventos li .imagens p a:last-child {
-            max-width: calc(33% - 1.5rem); } }
+          max-width: calc(25% - 1.5rem);
+          /*&:last-child{                   
+            max-width: calc(25% - 1.5rem);
+          }*/ } }
 
-#page-polos .conteudo {
-  line-height: 1.8rem; }
-  #page-polos .conteudo p {
-    font-weight: 300; }
-  #page-polos .conteudo blockquote {
-    color: #E37531;
-    font-family: "Merriweather", serif;
-    font-weight: 700;
-    font-style: italic;
-    margin: 2rem 0;
-    font-size: 1.25rem; }
 #page-polos #mapaInterativo {
   margin: 5rem 0;
   position: relative; }
@@ -1542,9 +1536,6 @@ footer {
 @media screen and (min-width: 992px) {
   #page-polos {
     /* #mapaInterativo */ }
-    #page-polos .conteudo {
-      max-width: 720px;
-      margin: 0 auto; }
     #page-polos #mapaInterativo {
       /* svg */ }
       #page-polos #mapaInterativo .popoverMunicipios {
@@ -1583,14 +1574,15 @@ footer {
   background-image: linear-gradient(#E37531, transparent), url("./img/video-destaque.png"); }
   .destaque .titulo {
     padding: 6rem 1rem;
-    color: white; }
+    color: white;
+    line-height: 3rem; }
     .destaque .titulo h1 {
       color: white; }
     .destaque .titulo .fas {
       margin: .5rem 0;
       font-size: 3.875rem; }
 
-.conteudo .breadcrumb {
+.breadcrumb {
   margin: 1.5rem 0; }
 
 #misVisValCap {

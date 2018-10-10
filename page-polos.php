@@ -1,9 +1,9 @@
 <?php get_header('principal'); ?>
 
-<main id="page-polos" class='container'>
+<main id="page-polos" class='container page'>
   <section class="breadcrumb">Você está em: <span>Polos</span></section>
-  <section class="conteudo">
-    <h1>Polos</h1>   
+  <section>
+    <h1>Polos</h1>
 
     <p>Os polos de apoio presencial são as unidades operacionais para o desenvolvimento descentralizado de atividades pedagógicas e administrativas relativas aos cursos e programas ofertados a distância pelas instituições públicas de ensino superior no âmbito do Sistema UAB. Mantidos por Municípios ou Governos de Estado, os polos oferecem a infraestrutura física, tecnológica e pedagógica para que os alunos possam acompanhar os cursos a distância.
     </p>
