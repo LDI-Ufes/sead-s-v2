@@ -29,8 +29,7 @@
 
   </section>
 </main>
-
-<script src="<?php echo site_url(); ?>/wp-content/themes/sead-v2/js/mostrarContatoPolo.js"></script> 
+ 
 <?php get_footer(); ?>
 
 <script>
@@ -51,14 +50,15 @@
       });
     }).then(function(){
       $(".municipioTitulo").click( function(){
+        $('li').not($(this).parent()).removeClass('expandido');
         $(this).parent().toggleClass('expandido');
       });}    
     );
-
   });
   
   function mostrarContatoPolo(municipio){
-    var idt = '#' + municipio.id;
+    var idt = '#' + municipio;
+    $('li').not( idt ).removeClass('expandido');
     $('li'+idt).toggleClass('expandido');
     $('html, body').animate({ scrollTop: $("li"+idt).offset().top }, 800);
   };

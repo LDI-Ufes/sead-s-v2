@@ -885,15 +885,27 @@ footer {
   max-width: 500px;
   font-weight: 300;
   color: #1661A6;
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-left: 4rem;
+  margin-top: 6rem;
   font-family: "Fira Sans", sans;
   font-style: normal;
-  line-height: 1.2; }
+  line-height: 1.2;
+  position: relative; }
   #erro blockquote span {
     font-size: 1rem;
     font-weight: 700;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    display: block;
+    padding-top: 1rem; }
+  #erro blockquote:before {
+    content: url("svg/aspas-abrir.svg");
+    position: absolute;
+    left: -4rem; }
+#erro:before {
+  content: '';
+  position: absolute;
+  background: url("svg/404.svg"); }
 
 /* erro */
 #page-blog #ultimos-editais {
@@ -1534,38 +1546,34 @@ footer {
 #page-polos svg {
   display: none; }
 @media screen and (min-width: 992px) {
-  #page-polos {
-    /* #mapaInterativo */ }
-    #page-polos #mapaInterativo {
-      /* svg */ }
-      #page-polos #mapaInterativo .popoverMunicipios {
-        width: 45%; }
-        #page-polos #mapaInterativo .popoverMunicipios p:after {
-          width: 32rem; }
-      #page-polos #mapaInterativo svg {
-        display: inline-block;
-        width: 50%;
-        position: sticky;
-        top: 3rem;
-        /* #comPolos */ }
-        #page-polos #mapaInterativo svg text {
-          font-weight: 700;
-          font-family: inherit;
-          font-size: 1rem; }
-        #page-polos #mapaInterativo svg #semPolos path {
-          fill: gainsboro; }
-        #page-polos #mapaInterativo svg #comPolos a g .geografia {
-          fill: #5992DD; }
-        #page-polos #mapaInterativo svg #comPolos a g .pin {
-          fill: black !important;
-          stroke: none; }
-        #page-polos #mapaInterativo svg #comPolos a g text {
-          fill: #333; }
-        #page-polos #mapaInterativo svg #comPolos a g:hover {
-          cursor: pointer; }
-          #page-polos #mapaInterativo svg #comPolos a g:hover .geografia {
-            opacity: 0.7 !important;
-            transition: all ease-in-out 300ms; } }
+  #page-polos #mapaInterativo .popoverMunicipios {
+    width: 45%; }
+    #page-polos #mapaInterativo .popoverMunicipios p:after {
+      width: 32rem; }
+  #page-polos #mapaInterativo svg {
+    display: inline-block;
+    width: 50%;
+    position: sticky;
+    top: 3rem; }
+    #page-polos #mapaInterativo svg text {
+      font-weight: 700;
+      font-family: inherit;
+      font-size: 1rem; }
+    #page-polos #mapaInterativo svg #semPolos path {
+      fill: gainsboro; }
+    #page-polos #mapaInterativo svg #comPolos a {
+      cursor: pointer; }
+      #page-polos #mapaInterativo svg #comPolos a g .geografia {
+        fill: #5992DD; }
+      #page-polos #mapaInterativo svg #comPolos a g .pin {
+        fill: black !important;
+        stroke: none; }
+      #page-polos #mapaInterativo svg #comPolos a g text {
+        fill: #333; }
+      #page-polos #mapaInterativo svg #comPolos a:hover g .geografia {
+        fill: #1661A6; }
+      #page-polos #mapaInterativo svg #comPolos a.selecionado g .geografia {
+        fill: #FDA65B; } }
 
 .destaque {
   position: relative;

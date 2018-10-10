@@ -20,16 +20,33 @@
     max-width: 500px;
     font-weight: $light;
     color: $azul;
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-left: 4rem;
+    margin-top: 6rem;
     font-family: $fira;
     font-style: normal;
     line-height: 1.2;
+    position: relative;
 
     span{
       font-size: 1rem;
       font-weight: $bold;
       text-transform: uppercase;
+      display: block;
+      padding-top: 1rem;
+    }
+
+    &:before {
+      content: url('svg/aspas-abrir.svg');
+      position: absolute;
+      left: -4rem;
     }
   }
+  
+  &:before {
+    content: '';
+    position: absolute;
+    background: url('svg/404.svg'); 
+  }
+  
 } /* erro */
