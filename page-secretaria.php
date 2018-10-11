@@ -13,7 +13,7 @@
     </section>
   </a>
 
-  <section class="container">
+  <div class="container">
 
     <section class="breadcrumb">Você está em: <a>Ensino</a> <span class="seta">></span> <span>Secretaria de Ensino a Distância</span></section>
 
@@ -26,7 +26,7 @@
           <span class="valores" aria-hidden="true">valores</span>
         </h2>
 
-        <p>Propiciar a missão do ensino superior e qualificação profissional aos cidadãos na modalidade EaD, de forma colaborativa.</p>
+        <p>Propiciar ensino superior e qualificação profissional aos cidadãos na modalidade EaD, de forma colaborativa.</p>
       </div>
 
       <div class="misVisVal visaoCap">
@@ -36,7 +36,7 @@
           <span class="valores" aria-hidden="true">valores</span>
         </h2>
 
-        <p>Propiciar a visão do ensino superior e qualificação profissional aos cidadãos na modalidade EaD, de forma colaborativa.</p>
+        <p>Consolidar institucionalmente a EaD e ser reconhecida nacionalmente pelo seu nível de excelência.</p>
       </div>
 
       <div class="misVisVal valoresCap">
@@ -46,7 +46,7 @@
           <span class="valores ativo">valores</span>
         </h2>
 
-        <p>Propiciar os valores do ensino superior e qualificação profissional aos cidadãos na modalidade EaD, de forma colaborativa.</p>
+        <p>Valorização do EaD – Excelência – Empreendedorismo – Colaboração – Inclusão – Diversidade.</p>
       </div>
 
     </div>
@@ -66,8 +66,64 @@
       <p>O primeiro curso EaD da Ufes foi o de Pedagogia, por meio do qual formaram-se 6.171 professores das séries iniciais do ensino fundamental dos sistemas públicos de ensino dos 78 municípios capixabas, que atuavam sem formação em nível superior.</p>
 
     </div>
+    
+    <section id="linha-do-tempo"></section>
+    <section id="estrutura">
+      <h2>Relação de Dirigentes</h2>
+      <ul id="dirigentes">
+        <li><strong>Secretária de Ensino a Distância e Coordenadora UAB/ES</strong><br>Maria José Campos Rodrigues</li>
+        <li><strong>Diretor Financeiro</strong><br>Mauro Pantoja Ferreira</li>
+        <li><strong>Diretor Acadêmico e Coordenador Adjunto UAB/ES</strong><br>Júlio Francelino Ferreira Filho</li>
+        <li><strong>Diretor de Tecnologia da Informação e Comunicação</strong><br>Luiz Otavio Bastos Rebello</li>
+      </ul>
+      
+      <h2>Infraestrutura</h2>
+      <ul id="infraestrutura">
+        <li>
+          <h3>Coordenação de Tecnologia de Informação</h3>
+          <p>A Coordenação de TI provê soluções de Tecnologia da Informação (TI) para o alcance dos objetivos da Sead/Ufes. É composta por uma equipe de técnicos e analistas que desempenham tarefas de Desenvolvimento e administração de serviços e sistemas para apoio à EaD e demais atividades-meio; Gerenciamento de infraestrutura física e virtual e Atendimento interno.</p>
+          <p>
+            <strong>Coordenação</strong><br>
+            Fernando Lyrio Annecchini<br>
+            <strong>Equipe</strong><br>
+            Eduardo França<br>
+            Marco Aurélio Cardoso<br>
+            Paulo de Lacerda<br>
+            Ramony Ramos<br>
+            Wagner Perin
+          </p>
+        </li>
+        <li>
+          <h3>Webconferência</h3>
+          <p>O Setor de Webconferência é responsável pelo suporte e atribuições relacionadas à elaboração de webaulas (gravação, edição e guarda de conteúdo intelectual criado na Sead/Ufes), transmissão em tempo real com interação entre interlocutores, tanto para aulas on-line, quanto defesas de bancas de programas da Ufes e de outras IES nacionais e estrangeiras de Mestrado, Doutorado, e, também, de eventos como conferências, palestras, seminários e simpósios, entre outros.</p>
+          <p>
+            <strong>Equipe</strong><br>
+            Leonardo José Gomes Kolaga<br>
+            Magno Wesley Buscaroli<br>
+            Raysa Calegari Aguiar
+          </p>
+        </li>
+        <li>
+          <h3>Laboratório de Design Instrucional</h3>
+          <p>O Laboratório de Design Instrucional – LDI trabalha no desenvolvimento de soluções em design para os materiais didáticos da modalidade de ensino a distância da Ufes. A equipe atua nas áreas de gerência, diagramação, ilustração e multimídia desenvolvendo os materiais em parceria com os professores da universidade.</p>
+          <p>
+            <strong>Coordenação</strong><br>
+            Coordenadora Geral: Letícia Pedruzzi<br>
+            Coordenadora de Diagramação: Thaís Imbroisi<br>
+            Coordenadora de Ilustração e Multimídia: Priscilla Garone<br>
+            Coordenador de Web: Edson Rufino<br><br>
+            <strong>Mais informações:</strong><a href="https://ldi.eadufes.org" title="Ir para o sítio do LDI">Visite o sítio do LDI</a>
+          </p>
+        </li>
+      </ul>
+      <div id="planta-sead">
+        <span>Quer nos visitar ou conhecer melhor nossa estrutura? Clique no mapa!</span>
+        <button>Abrir mapa detalhado</button>
+        <a href="" title="Abrir mapa detalhado"><img src="<?php echo site_url(); ?>/wp-content/themes/sead-v2//svg/planta-sead.png"></a>
+      </div>
+    </section>
 
-  </section>
+  </div>
 
 </main>
 
