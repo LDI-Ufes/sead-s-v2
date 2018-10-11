@@ -3,7 +3,7 @@
   #mapaInterativo{
     margin: 5rem 0;
     position: relative;
-    
+
     .popoverMunicipios{
       width: 100%;
       display: inline-block;
@@ -28,7 +28,7 @@
         margin-top: 1rem;
         position: relative;
         margin-bottom: 4rem;
-        
+
         &:after{
           content: '';
           position: absolute;
@@ -50,7 +50,7 @@
           color: $azul;
           cursor: pointer;
           transition: font-size .2s;
-          
+
           &:hover{
             border-bottom: solid .5px $azulEscuro;
             color: $azulEscuro;
@@ -71,7 +71,7 @@
             font-weight: $bold;
             font-size: 1.5rem;
             color: $laranja;
-            
+
             &:hover{
               border-bottom-color: $laranja;
             }
@@ -134,10 +134,16 @@
                 fill: #333;
               }
 
-    #mapaInterativo {
-      
-      .popoverMunicipios {
-        width: 30%;
+              #mapaInterativo {
 
+                .popoverMunicipios {
+                  width: 30%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
