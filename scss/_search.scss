@@ -2,8 +2,37 @@
 #pagPesquisa {
   
   .container {
-    margin-top: 25px;
+    /*margin-top: 25px;*/
     margin-bottom: 50px;
+    
+    h1{
+      margin-bottom: 3rem;
+      span{
+        font-weight: $regular;
+      }
+    }
+    
+    li{
+      list-style: none;
+      max-width: 720px;
+      margin: 0 auto;
+      margin-bottom: 2rem;
+      
+      a{
+        color: $laranja;
+        font-weight: $medium;
+        
+        &:hover{
+          color: $laranjaEscuro;
+          border-bottom: solid .5ps $laranjaEscuro;
+        }
+      }
+      
+      p{
+        font-weight: $light;
+        line-height: 1.4;
+      }
+    }
   }
   
 }
