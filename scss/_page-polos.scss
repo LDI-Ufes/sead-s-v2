@@ -45,11 +45,13 @@
       li{
         padding: .5rem 0;
 
-        a.municipioTitulo{
+        button.municipioTitulo{
           font-weight: $medium;
           color: $azul;
           cursor: pointer;
           transition: font-size .2s;
+          border: none;
+          background: none;
 
           &:hover{
             border-bottom: solid .5px $azulEscuro;
@@ -67,13 +69,13 @@
         }
 
         &.expandido{
-          a.municipioTitulo{
+          button.municipioTitulo{
             font-weight: $bold;
             font-size: 1.5rem;
             color: $laranja;
 
             &:hover{
-              border-bottom-color: $laranja;
+              border: none;
             }
           }
           .info-polo{

@@ -28,11 +28,7 @@
   <?php include 'components/ultimos-editais.php' ?>
 
       <section id="informativo">
-        <h2><span>Informativo #17</span></h2>
-        <ul>
-          <li><i class="fas fa-angle-right"></i><a>Curso de Licenciatura em Filosofia EaD/Ufes recebe nota máxima 5 do Inep/MEC</a></li>
-          <li><i class="fas fa-angle-right"></i><a>Curso de Especialização em Educação em Direitos Humanos realiza doação de livros para unidades do IASES</a></li>
-        </ul>
+        <h2><span>Informativos</span></h2>
         <label>Receba as notícias mais importantes direto no seu e-mail, cadastre-se:</label><br>
         <form><input type="email" placeholder="Digite seu e-mail"><input type="submit" value="Enviar"></form>
       </section>
