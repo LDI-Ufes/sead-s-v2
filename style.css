@@ -40,7 +40,7 @@ body {
     body.contraste * a {
       color: yellow; }
   body main {
-    /*padding: 2rem 0 3rem 0;*/ }
+    min-height: 40rem; }
     body main h1:first-of-type {
       margin: 0;
       padding: 1rem 0; }
@@ -50,7 +50,7 @@ section.caixa {
   width: 960px; }
 
 .container {
-  padding: 4rem 1rem; }
+  padding: 2rem 1rem; }
   .container h1 {
     padding: 0; }
 
@@ -93,30 +93,7 @@ header {
     font-weight: 300;
     font-size: .875rem;
     order: 2;
-    z-index: 2;
-    /*    ul {
-          display: inline-flex;
-
-          button {
-            background: transparent;
-            border: none;
-            color: white;
-            padding: 0;
-          }
-        }*/
-    /*    #ligacoesExternas {
-
-          > li {
-            position: relative;
-            display: inline-flex;
-            padding: 1rem 10px;
-            font-size: .9rem;
-
-            i.fas {
-              margin-right: .25rem;
-            }
-          }
-        }*/ }
+    z-index: 2; }
     header #barraAuxiliar section.caixa {
       display: inline-flex;
       align-items: center;
@@ -907,6 +884,8 @@ footer {
 /* page */
 #erro {
   position: relative; }
+  #erro h1 {
+    margin-top: 2rem; }
   #erro #fundo {
     background-image: url("svg/404.svg");
     background-repeat: no-repeat;
@@ -1436,15 +1415,15 @@ footer {
   /*      &:nth-child(even){
           h2{
             color: $azul;
-
+  
             &:before{
               background-color: $azul;
             }
           }
-
+  
           .abrirTodas{
             background-color: $azul;
-
+  
             &:hover{
               background-color: darken($azul, 20%);
             }
@@ -1516,7 +1495,7 @@ footer {
         #page-galeria #eventos li .imagens p a {
           margin-right: 1.5rem;
           max-width: calc(25% - 1.5rem);
-          /*&:last-child{
+          /*&:last-child{                   
             max-width: calc(25% - 1.5rem);
           }*/ } }
 
@@ -1773,27 +1752,45 @@ footer {
     display: block;
     width: 100%;
     margin-right: 0; } }
-#pagPesquisa .container {
-  /*margin-top: 25px;*/
-  margin-bottom: 50px; }
-  #pagPesquisa .container h1 {
-    margin-bottom: 3rem; }
-    #pagPesquisa .container h1 span {
-      font-weight: 400; }
-  #pagPesquisa .container li {
+#pagPesquisa .container h1 {
+  margin-bottom: 3rem; }
+  #pagPesquisa .container h1 span {
+    font-weight: 400; }
+#pagPesquisa .container #resultados {
+  min-height: 15rem; }
+  #pagPesquisa .container #resultados li {
     list-style: none;
     max-width: 720px;
     margin: 0 auto;
-    margin-bottom: 2rem; }
-    #pagPesquisa .container li a {
+    margin-bottom: 3rem; }
+    #pagPesquisa .container #resultados li a {
       color: #E37531;
       font-weight: 500; }
-      #pagPesquisa .container li a:hover {
+      #pagPesquisa .container #resultados li a:hover {
         color: #9C4C22;
         border-bottom: solid 0.5ps #9C4C22; }
-    #pagPesquisa .container li p {
+    #pagPesquisa .container #resultados li span {
+      font-weight: 300; }
+      #pagPesquisa .container #resultados li span strong {
+        font-style: italic;
+        color: #1661A6;
+        text-transform: capitalize; }
+    #pagPesquisa .container #resultados li p {
       font-weight: 300;
-      line-height: 1.4; }
+      line-height: 1.6; }
+#pagPesquisa .container #postsNav {
+  color: #E37531;
+  padding: 2rem 1rem 4rem;
+  text-align: center; }
+  #pagPesquisa .container #postsNav a, #pagPesquisa .container #postsNav span {
+    padding: 0 1rem; }
+  #pagPesquisa .container #postsNav a:hover {
+    border-bottom: solid 1px #9C4C22;
+    color: #9C4C22; }
+  #pagPesquisa .container #postsNav span {
+    color: #1661A6; }
+  #pagPesquisa .container #postsNav h2 {
+    display: none; }
 
 #formPesquisa {
   display: flex;
