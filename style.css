@@ -139,6 +139,9 @@ header {
 @media screen and (min-width: 993px) {
   #barraAuxiliar .btoMenu, .topo .btoMenu {
     display: none; } }
+@media screen and (max-width: 992px) {
+  #barraAuxiliar .btoMenu, .topo .btoMenu {
+    cursor: pointer; } }
 
 .topo {
   order: 3; }
@@ -195,6 +198,16 @@ header {
   z-index: 1; }
 #topoBlog #formPesquisa {
   margin: 0; }
+#topoBlog #menuPrincipal .temSubmenu .menuSuspenso .temSubmenu.submenuAberto {
+  position: relative;
+  flex-direction: column; }
+  #topoBlog #menuPrincipal .temSubmenu .menuSuspenso .temSubmenu.submenuAberto > span {
+    width: 100%; }
+  #topoBlog #menuPrincipal .temSubmenu .menuSuspenso .temSubmenu.submenuAberto .menuSuspenso {
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    box-shadow: none; }
 @media screen and (min-width: 993px) {
   #topoBlog svg#nossoBlog {
     width: 260px;
@@ -209,18 +222,21 @@ header {
     height: 50px; }
   #topoBlog svg#nossoBlog {
     order: 1; }
-  #topoBlog svg.seadUfes {
+  #topoBlog #enderecoPortal {
     position: absolute;
     left: -9999px; }
   #topoBlog .btoMenu {
     order: 3; }
   #topoBlog .menu {
     order: 4; }
-    #topoBlog .menu .menuAberto .temSubmenu > span i.fas {
+    #topoBlog .menu .menuAberto > .temSubmenu > span i.fas {
       display: none; }
-    #topoBlog .menu .menuAberto ul.menuSuspenso {
+    #topoBlog .menu .menuAberto > .temSubmenu > ul.menuSuspenso {
       position: relative;
-      transform: translateX(0); } }
+      transform: translateX(0);
+      z-index: 0; }
+      #topoBlog .menu .menuAberto > .temSubmenu > ul.menuSuspenso > .temSubmenu > .menuSuspenso {
+        margin: 0 0 10px 0; } }
 
 nav.menu {
   font-weight: 500;
@@ -228,8 +244,18 @@ nav.menu {
   nav.menu li ul {
     font-weight: 400;
     text-transform: none; }
-  nav.menu li.temSubmenu span .fas {
-    margin-left: .1em; }
+  nav.menu li.temSubmenu span {
+    cursor: pointer; }
+    nav.menu li.temSubmenu span .fas {
+      margin-left: .1em; }
+  nav.menu .temSubmenu.submenuAberto > span i.fas:before {
+    content: "\f077"; }
+  nav.menu .temSubmenu.submenuAberto > .menuSuspenso {
+    position: relative;
+    left: 0;
+    z-index: 100;
+    transform: translateX(0);
+    z-index: 0; }
   @media screen and (min-width: 993px) {
     nav.menu {
       display: inline-flex;
@@ -242,12 +268,12 @@ nav.menu {
           display: inline-flex;
           align-items: center;
           width: 100%; }
-      nav.menu ul li {
+      nav.menu ul.menuLista > li {
         position: relative;
         float: left; }
-        nav.menu ul li:hover, nav.menu ul li.menuSuspensoAtivo {
+        nav.menu ul.menuLista > li:hover, nav.menu ul.menuLista > li.menuSuspensoAtivo {
           z-index: 100; }
-          nav.menu ul li:hover ul.menuSuspenso, nav.menu ul li.menuSuspensoAtivo ul.menuSuspenso {
+          nav.menu ul.menuLista > li:hover > ul.menuSuspenso, nav.menu ul.menuLista > li.menuSuspensoAtivo > ul.menuSuspenso {
             left: 0; }
       nav.menu .temSubmenu span {
         cursor: pointer; }
@@ -299,14 +325,7 @@ nav.menu {
         left: 0;
         width: 100%;
         transform: translateX(-100%);
-        z-index: -1; }
-      nav.menu .temSubmenu.submenuAberto span i.fas:before {
-        content: "\f077"; }
-      nav.menu .temSubmenu.submenuAberto .menuSuspenso {
-        position: relative;
-        z-index: 100;
-        transform: translateX(0);
-        z-index: 0; } }
+        z-index: -1; } }
 
 footer {
   background-color: #043767;
@@ -1534,38 +1553,30 @@ footer {
 #page-polos svg {
   display: none; }
 @media screen and (min-width: 992px) {
-  #page-polos {
-    /* #mapaInterativo */ }
-    #page-polos #mapaInterativo {
-      /* svg */ }
-      #page-polos #mapaInterativo .popoverMunicipios {
-        width: 45%; }
-        #page-polos #mapaInterativo .popoverMunicipios p:after {
-          width: 32rem; }
-      #page-polos #mapaInterativo svg {
-        display: inline-block;
-        width: 50%;
-        position: sticky;
-        top: 3rem;
-        /* #comPolos */ }
-        #page-polos #mapaInterativo svg text {
-          font-weight: 700;
-          font-family: inherit;
-          font-size: 1rem; }
-        #page-polos #mapaInterativo svg #semPolos path {
-          fill: gainsboro; }
-        #page-polos #mapaInterativo svg #comPolos a g .geografia {
-          fill: #5992DD; }
-        #page-polos #mapaInterativo svg #comPolos a g .pin {
-          fill: black !important;
-          stroke: none; }
-        #page-polos #mapaInterativo svg #comPolos a g text {
-          fill: #333; }
-        #page-polos #mapaInterativo svg #comPolos a g:hover {
-          cursor: pointer; }
-          #page-polos #mapaInterativo svg #comPolos a g:hover .geografia {
-            opacity: 0.7 !important;
-            transition: all ease-in-out 300ms; } }
+  #page-polos #mapaInterativo .popoverMunicipios {
+    width: 45%; }
+    #page-polos #mapaInterativo .popoverMunicipios p:after {
+      width: 32rem; }
+  #page-polos #mapaInterativo svg {
+    display: inline-block;
+    width: 50%;
+    position: sticky;
+    top: 3rem; }
+    #page-polos #mapaInterativo svg text {
+      font-weight: 700;
+      font-family: inherit;
+      font-size: 1rem; }
+    #page-polos #mapaInterativo svg #semPolos path {
+      fill: gainsboro; }
+    #page-polos #mapaInterativo svg #comPolos a g .geografia {
+      fill: #5992DD; }
+    #page-polos #mapaInterativo svg #comPolos a g .pin {
+      fill: black !important;
+      stroke: none; }
+    #page-polos #mapaInterativo svg #comPolos a g text {
+      fill: #333; }
+    #page-polos #mapaInterativo svg #comPolos a g #mapaInterativo .popoverMunicipios {
+      width: 30%; } }
 
 .destaque {
   position: relative;

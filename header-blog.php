@@ -35,7 +35,14 @@
                 <span>Portal Sead <i class="fas fa-chevron-down"></i></span>
                 <ul class="menuSuspenso">
                   <li><a href="<?php echo site_url(); ?>" title="Ir para página inicial">Início</a></li>
-                  <li><a href="">Ensino</a></li>
+                  <li class="temSubmenu">
+                    <span title="Clique para expandir/ocultar">Ensino <i class="fas fa-chevron-down"></i></span>
+                    <ul class="menuSuspenso">
+                      <li><a href="/sitiosead/ead-na-ufes" title="Ir para Ensino - Como é a Ead na Ufes?">Como é a EaD na Ufes?</a></li>
+                      <li><a href="/sitiosead/secretaria" title="Ir para Ensino - A Secretaria">A Secretaria</a></li>
+                      <li><a href="/sitiosead/contatos" title="Ir para Ensino - Contatos">Contatos</a></li>
+                    </ul>
+                  </li>
                   <li><a href="<?php echo site_url(); ?>/editais" title="Ir para Editais">Editais</a></li>
                   <li><a href="<?php echo site_url(); ?>/cursos" title="Ir para Cursos">Cursos</a></li>
                   <li><a href="<?php echo site_url(); ?>/polos" title="Ir para Polos">Polos</a></li>            
@@ -45,7 +52,7 @@
             </ul>
           </nav>
           <?php get_search_form() ?>
-          <a class="marca" href="<?php echo site_url(); ?>" title="Ir para início do Portal Sead">
+          <a id="enderecoPortal" class="marca" href="<?php echo site_url(); ?>" title="Ir para início do Portal Sead">
             <?php echo file_get_contents(get_template_directory_uri() . '/svg/sead-ufes.svg'); ?>
           </a>
         </section>
