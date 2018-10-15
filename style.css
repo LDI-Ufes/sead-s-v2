@@ -173,8 +173,10 @@ header {
   #topoPrincipal #formPesquisa {
     order: 2; } }
 
-#topoBlog #enderecoBlog:focus {
-  outline: none; }
+#topoBlog #enderecoBlog {
+  max-height: 100%; }
+  #topoBlog #enderecoBlog:focus {
+    outline: none; }
 #topoBlog svg#nossoBlog {
   width: 80px;
   z-index: 1; }
@@ -1595,7 +1597,8 @@ footer {
 .destaque {
   position: relative;
   min-height: 65vh;
-  background-image: linear-gradient(#E37531, transparent), url("./img/video-destaque.png"); }
+  background-image: linear-gradient(#E37531, transparent), url("./img/video-destaque.png");
+  background-size: cover; }
   .destaque .titulo {
     padding: 6rem 1rem;
     color: white;

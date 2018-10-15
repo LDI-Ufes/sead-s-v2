@@ -13,14 +13,14 @@
   }
 
   @media screen and (min-width: 993px) {
-    
+
     .btoMenu {
       display: none;
     }
   }
-  
+
   @media screen and (max-width: 992px) {
-    
+
     .btoMenu {
       cursor: pointer;
     }
@@ -120,8 +120,12 @@
 
 #topoBlog {
 
-  #enderecoBlog:focus {
-    outline: none;
+  #enderecoBlog {
+    max-height: 100%;
+
+    &:focus {
+      outline: none;
+    }
   }
 
   svg#nossoBlog {
@@ -203,9 +207,9 @@
             position: relative;
             transform: translateX(0);
             z-index: 0;
-            
+
             > .temSubmenu {
-              
+
               > .menuSuspenso {
                 margin: 0 0 10px 0;
               }
