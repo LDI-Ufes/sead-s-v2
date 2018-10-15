@@ -1,19 +1,19 @@
 <?php get_header('blog'); ?>
 
 <main id="page-blog">
-    <div class="container">
+  <div class="container">
     <ul id="posts">
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
           <li class="blog-post">
             <div class="blog-post-header">
               <span>Seminários</span>
-      <?php the_post_thumbnail(); ?>
+              <?php the_post_thumbnail(); ?>
               <div class="post-date"><?php the_date('j \d\e F \d\e Y'); ?></div>
             </div>
             <h3><a href="<?php the_permalink() ?>" title="Ir para notícia: <?php the_title(); ?>"><?php the_title(); ?></a></h3>
             <p><?php echo wp_trim_words(get_the_content(), 40, ' [...]'); ?></p>
           </li>
-    <?php endwhile; ?>
+      <?php endwhile; ?>
         <div id="postsNav">  
           <div class="nav-right"><?php next_posts_link('Notícias antigas  >'); ?></div>
           <div class="nav-left"><?php previous_posts_link('<  Notícias recentes'); ?></div>
@@ -21,11 +21,11 @@
         <?php wp_reset_postdata(); ?>
       <?php else : ?>
         <p><?php esc_html_e('Nenhuma notícia cadastrada'); ?></p>
-  <?php endif; ?>              
+      <?php endif; ?>              
     </ul>
 
     <aside>
-  <?php include 'components/ultimos-editais.php' ?>
+      <?php include 'components/ultimos-editais.php' ?>
 
       <section id="informativo">
         <h2><span>Informativos</span></h2>
@@ -35,7 +35,7 @@
 
       <a class="social-media" href="https://www.facebook.com/sead.ufes/" title="Ir para página da Sead no Facebook"><span>Siga-nos também no facebook</span><i class="fab fa-facebook-f"></i></a>  
     </aside>
-    </div>
+  </div>
     
   <section id="galeria">
     <div class="container">
