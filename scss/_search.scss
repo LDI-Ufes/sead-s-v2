@@ -1,9 +1,66 @@
-
 #pagPesquisa {
-  
-  .container {
-    margin-top: 25px;
-    margin-bottom: 50px;
+ 
+  .container {   
+    h1{
+      margin-bottom: 3rem;
+      span{
+        font-weight: $regular;
+      }
+    }
+    #resultados{
+      min-height: 15rem;
+      
+      li{
+        list-style: none;
+        max-width: 720px;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+
+        a{
+          color: $laranja;
+          font-weight: $medium;
+
+          &:hover{
+            color: $laranjaEscuro;
+            border-bottom: solid .5ps $laranjaEscuro;
+          }
+        }
+        
+        span{
+          font-weight: $light;
+          
+          strong{
+            font-style: italic;
+            color: $azul;
+            text-transform: capitalize;
+          }
+        }
+
+        p{
+          font-weight: $light;
+          line-height: 1.6;
+        }
+      }
+    }
+
+    #postsNav{
+      color: $laranja;
+      padding: 2rem 1rem 4rem;
+      text-align: center;
+      
+      a, span{padding: 0 1rem;}
+      
+      a:hover{
+        border-bottom: solid 1px $laranjaEscuro;
+        color: $laranjaEscuro;
+      }
+      
+      span{
+        color: $azul;
+      }
+      
+      h2{display: none;}
+    }
   }
   
 }

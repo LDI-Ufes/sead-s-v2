@@ -129,24 +129,8 @@
       }
     }
 
-    li{
-      padding: 0 0 1rem;
-      a{
-        color: $azul;
-        text-decoration: none;
-
-        &:hover{
-          text-decoration: underline;
-        }
-      }
-      i{
-        color: $laranja;
-        padding-right: .2rem;
-      }
-    }
-
     label{
-      font-size: 1.4rem;
+      font-size: 1.6rem;
       font-weight: $light;
       color: $laranja;
     }
