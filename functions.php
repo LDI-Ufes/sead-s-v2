@@ -112,24 +112,28 @@ function create_galeria_tax() {
             )
     );
 }
-add_action( 'pre_get_posts' ,'query_post_type_edital', 1, 1 );
+add_action( 'pre_get_posts' ,'paginate_post_type_edital', 1, 1 );
 
-function query_post_type_edital( $query )
-{
-    if ( ! is_admin() && is_post_type_archive( 'edital' ) && $query->is_main_query() )
-    {
-        $query->set( 'posts_per_page', 8 );
-    }
+function paginate_post_type_edital( $query ){
+  if ( ! is_admin() && is_post_type_archive( 'edital' ) && $query->is_main_query() ){
+    $query->set( 'posts_per_page', 8 );
+  }
 }
 
-add_action( 'pre_get_posts' ,'query_post_type_noticia', 1, 1 );
+add_action( 'pre_get_posts' ,'paginate_post_type_noticia', 1, 1 );
 
-function query_post_type_noticia( $query )
-{
-    if ( ! is_admin() && is_post_type_archive( 'noticia' ) && $query->is_main_query() )
-    {
-        $query->set( 'posts_per_page', 4 );
-    }
+function paginate_post_type_noticia( $query ){
+  if ( ! is_admin() && is_post_type_archive( 'noticia' ) && $query->is_main_query() ){
+    $query->set( 'posts_per_page', 4 );
+  }
+}
+
+add_action( 'pre_get_posts' ,'paginate_search', 1, 1 );
+
+function paginate_search( $query ){
+  if ( $query->is_search() ){
+    $query->set( 'posts_per_page', 4 );
+  }
 }
 
 ?>
