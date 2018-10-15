@@ -1,6 +1,6 @@
 <div id="barraAuxiliar">
   <section class="caixa">
-    <span class="btoMenu">Endereços úteis</span>
+    <span class="btoMenu">Endereços úteis <i class="fas fa-chevron-down"></i></span>
     <nav class="menu">
       <ul id="ligacoesExternas" class="menuLista">
         <li>

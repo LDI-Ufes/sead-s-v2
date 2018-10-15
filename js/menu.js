@@ -32,3 +32,7 @@ $('.temSubmenu span').click(function() {
   $(this).parent().toggleClass('submenuAberto')
 })
 
+$('.btoMenu').click(function() {
+  $(this).children('i.fas').toggleClass('expandido');
+})
+

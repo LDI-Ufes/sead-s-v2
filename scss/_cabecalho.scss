@@ -22,9 +22,18 @@ header {
     }
 
     .btoMenu {
-      margin: 10px;
-      width: calc(100vw - 20px);
+      padding: 10px;
+      width: 100vw;
       text-align: right;
+
+      i.fas {
+        font-size: .8rem;
+        margin-left: .25rem;
+        
+        &.expandido:before {
+          content: "\f077";
+        }
+      }
     }
   }
 
@@ -34,8 +43,7 @@ header {
       display: inline-flex;
       flex-direction: column;
       justify-content: center;
-      height: 100%;
-      
+
       &#enderecoBlog {
         flex-direction: row;
       }

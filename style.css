@@ -99,14 +99,18 @@ header {
       align-items: center;
       color: white; }
     header #barraAuxiliar .btoMenu {
-      margin: 10px;
-      width: calc(100vw - 20px);
+      padding: 10px;
+      width: 100vw;
       text-align: right; }
+      header #barraAuxiliar .btoMenu i.fas {
+        font-size: .8rem;
+        margin-left: .25rem; }
+        header #barraAuxiliar .btoMenu i.fas.expandido:before {
+          content: "\f077"; }
   header .topo .marca {
     display: inline-flex;
     flex-direction: column;
-    justify-content: center;
-    height: 100%; }
+    justify-content: center; }
     header .topo .marca#enderecoBlog {
       flex-direction: row; }
 
@@ -174,7 +178,7 @@ header {
 #topoBlog svg#nossoBlog {
   width: 80px;
   z-index: 1; }
-#topoBlog #formPesquisa {
+#topoBlog form {
   margin: 0; }
 #topoBlog #menuPrincipal .temSubmenu .menuSuspenso .temSubmenu.submenuAberto {
   position: relative;
