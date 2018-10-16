@@ -31,7 +31,7 @@ html {
 
 body {
   margin: 0;
-  min-width: calc(340px + 2rem);
+  min-width: 360px;
   font-family: 'Fira Sans', sans-serif;
   font-size: 1rem; }
   body.contraste * {
@@ -1814,6 +1814,7 @@ footer {
   #formPesquisa .botaoFalso {
     padding: 10px 14px; }
   #formPesquisa input {
+    width: 205px;
     padding: 10px 35px 10px 15px; }
   #formPesquisa input[type=search]::-ms-clear,
   #formPesquisa input[type=search]::-ms-reveal {

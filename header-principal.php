@@ -42,7 +42,7 @@
               </li>
               <li><a href="<?php echo site_url(); ?>/editais" title="Ir para Editais">Editais</a></li>
               <li><a href="<?php echo site_url(); ?>/cursos" title="Ir para Cursos">Cursos</a></li>
-              <li><a href="<?php echo site_url(); ?>/polos" title="Ir para Polos">Polos</a></li>            
+              <li><a href="<?php echo site_url(); ?>/polos" title="Ir para Polos">Polos</a></li>
               <li><a href="<?php echo site_url(); ?>/blog" title="Ir para Notícias">Notícias</a></li>
             </ul>
           </nav>
