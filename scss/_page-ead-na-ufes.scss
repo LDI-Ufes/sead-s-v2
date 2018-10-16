@@ -1,0 +1,76 @@
+#ead-na-ufes{
+  
+  .destaque {
+    position: relative;
+    min-height: 65vh;
+    background-image: linear-gradient($azulEscuro, transparent), url('./img/video-destaque.png');
+    background-size: cover;
+    margin-top: 0;
+
+    .titulo {
+      padding: 6rem 1rem;
+      color: white;
+      line-height: 3rem;
+
+      h1 {
+        color: white;
+      }
+
+      .fas {
+        margin: .5rem 0;
+        font-size: 3.875rem;
+      }
+    }
+  }
+
+  .breadcrumb {
+    margin: 1.5rem 0;
+    margin-bottom: 4rem;
+  }
+  
+  section{margin-top: 4rem;}
+  
+  h2{
+    color: $azul;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  h3{
+    color: $laranja;
+    margin-top: 3rem;
+  }
+  
+  #destaques{
+    background-color: #E6F0F7;
+    padding: 2rem 0;
+    
+    li{
+      font-weight: $light;
+      max-width: 960px;
+      margin: 2rem auto;
+      display: flex;
+      
+      div{
+        max-width: 640px;
+        margin-left: 4rem;
+        
+        h2{
+          font-weight: $light;
+          font-style: italic;
+          color: $laranjaEscuro;
+        }
+      }
+    }    
+  }
+  
+  #agentes{
+    margin-bottom: 4rem;
+    
+    li{
+      font-weight: $light;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+  }
+}

@@ -49,25 +49,19 @@
         <p>Valorização do EaD – Excelência – Empreendedorismo – Colaboração – Inclusão – Diversidade.</p>
       </div>
 
-    </div>
+    </div> <!-- misVisValCap -->
 
     <div>
-
       <p>A Universidade Federal do Espírito Santo – Ufes, ao longo de sua história, tem formado geração de profissionais e, por isso, conquistou respeito e credibilidade junto à sociedade espírito-santense. A partir de 2001,  credenciou-se junto ao Ministério da Educação – MEC para a oferta de cursos superiores na modalidade de EaD.</p>
-
       <p>Para dar suporte a essa iniciativa, a Ufes introduziu, na sua estrutura organizacional, o Núcleo de Educação Aberta e a Distância – Ne@ad. Ao longo dos anos, o ne@ad consolidou-se como órgão mediador e gestor das propostas de EaD, tornando-se responsável pela introdução sistematizada dessa cultura na Universidade, bem como  pela mediação, organização, oferta de cursos e demais atividades acadêmicas à população espírito-santense.</p>
-
       <p>A partir de abril/2014, por meio da Resolução n. 08/2014 do Conselho Universitário, foi aprovada a reestruturação organizacional da Ufes. Nessa nova estrutura, o ne@ad passou a ser denominado “Secretaria de Ensino a Distância” – Sead.</p>
-
       <p>Em 2006, a Universidade fez adesão ao projeto piloto do curso de Administração, a distância,  do Sistema Universidade Aberta do Brasil – UAB. Atualmente oferta cursos EaD em 27 Polos Municipais de Apoio Presencial –  UAB. Assim, a Ufes apresenta-se como parceira institucional no desenvolvimento do ensino, pesquisa, formação continuada e demais ações direcionadas à formação de cidadãos deste estado.</p>
-
       <blockquote>Nesse contexto, a  proposta de EaD da Ufes visa a intensificar a cultura da educação aberta e a distância na Universidade, bem como a utilização das novas tecnologias da comunicação e da informação nos espaços formadores internos.</blockquote>
-
       <p>O primeiro curso EaD da Ufes foi o de Pedagogia, por meio do qual formaram-se 6.171 professores das séries iniciais do ensino fundamental dos sistemas públicos de ensino dos 78 municípios capixabas, que atuavam sem formação em nível superior.</p>
-
     </div>
-    
+
     <section id="linha-do-tempo"></section>
+
     <section id="estrutura">
       <h2>Relação de Dirigentes</h2>
       <ul id="dirigentes">
@@ -76,7 +70,7 @@
         <li><strong>Diretor Acadêmico e Coordenador Adjunto UAB/ES</strong><br>Júlio Francelino Ferreira Filho</li>
         <li><strong>Diretor de Tecnologia da Informação e Comunicação</strong><br>Luiz Otavio Bastos Rebello</li>
       </ul>
-      
+
       <h2>Infraestrutura</h2>
       <ul id="infraestrutura">
         <li>
@@ -119,12 +113,11 @@
       <div id="planta-sead">
         <span>Quer nos visitar ou conhecer melhor nossa estrutura? Clique no mapa!</span>
         <button>Abrir mapa detalhado</button>
-        <a href="" title="Abrir mapa detalhado"><img src="<?php echo site_url(); ?>/wp-content/themes/sead-v2//svg/planta-sead.png"></a>
+        <a href="" title="Abrir mapa detalhado"><img src="<?php echo site_url(); ?>/wp-content/themes/sead-v2/img/planta-sead.png"></a>
       </div>
-    </section>
-
-  </div>
-
+      
+    </section> <!-- estrutura -->
+  </div> <!-- container -->
 </main>
 
 <?php get_footer(); ?>
@@ -135,18 +128,18 @@
     $('#misVisValCap').addClass('missaoAtivo');
     $('#misVisValCap').removeClass('visaoAtivo');
     $('#misVisValCap').removeClass('valoresAtivo');
-  })
+  });
 
   $('.visao').click(function () {
     $('#misVisValCap').removeClass('missaoAtivo');
     $('#misVisValCap').addClass('visaoAtivo');
     $('#misVisValCap').removeClass('valoresAtivo');
-  })
+  });
 
   $('.valores').click(function () {
     $('#misVisValCap').removeClass('missaoAtivo');
     $('#misVisValCap').removeClass('visaoAtivo');
     $('#misVisValCap').addClass('valoresAtivo');
-  })
+  });
 
 </script>

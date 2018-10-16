@@ -24,7 +24,7 @@
         <?php if ( has_excerpt() ) { ?>
           <p><?php the_excerpt() ?></p>
         <?php } else { ?>
-          <p><?php echo wp_trim_words(get_the_content(), 40, ' [...]'); ?></p>
+          <p><?php echo wp_trim_words(get_the_content(), 38, ' [...]'); ?></p>
         <?php } ?>
           
       </li>
