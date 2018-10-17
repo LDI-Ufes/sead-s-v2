@@ -1,238 +1,8 @@
-
-//
-// Comum a mais de um
-// Ordenado do maior para menor agrupamento, em ordem alfabética
-//
-
-#barraAuxiliar, .topo {
-
-  .caixa {
-    display: inline-flex;
-    flex-wrap: wrap;
-    max-width: 100%;
-  }
-
-  @media screen and (min-width: 993px) {
-
-    .btoMenu {
-      display: none;
-    }
-  }
-
-  @media screen and (max-width: 992px) {
-
-    .btoMenu {
-      cursor: pointer;
-    }
-  }
-}
-
-.topo {
-  order: 3;
-
-  .caixa {
-    justify-content: space-between;
-  }
-
-  @media screen and (min-width: 993px) {
-    display: inline-flex;
-    position: relative;
-    height: 100px;
-    padding: 0 20px;
-    background-color: $azul;
-
-    .caixa {
-      display: inline-flex;
-      justify-content: space-between;
-    }
-  }
-
-  @media screen and (max-width: 992px) {
-    background-color: #1661A6;
-    color: white;
-
-    a { text-decoration: none; color: white; }
-
-    .caixa {
-
-      svg.seadUfesExtenso, .btoMenu {
-        margin: 10px 20px;
-        z-index: 1;
-      }
-
-      svg.seadUfesExtenso {
-        width: auto;
-        height: 30px;
-        padding: 10px 0;
-      }
-
-      .btoMenu {
-        padding: 10px;
-        background-color: #043767;
-        line-height: 30px;
-        text-transform: uppercase;
-      }
-    }
-  }
-}
-
-
-//
-// Específicos
-// Ordenação alfabética
-//
-
-#barraAuxiliar {
-
-  .caixa {
-    justify-content: flex-end;
-  }
-}
-
-#topoPrincipal {
-
-  @media screen and (min-width: 993px) {
-
-    #menuPrincipal {
-
-      > ul > li {
-        height: calc(100px - 2.4rem);
-      }
-    }
-  }
-
-  @media screen and (max-width: 992px) {
-
-    .btoMenu {
-      order: 3;
-    }
-
-    #menuPrincipal {
-      order: 4;
-    }
-
-    #formPesquisa {
-      order: 2;
-    }
-
-  }
-}
-
-#topoBlog {
-
-  #enderecoBlog {
-    max-height: 100%;
-
-    &:focus {
-      outline: none;
-    }
-  }
-
-  svg#nossoBlog {
-    width: 80px;
-    z-index: 1;
-  }
-
-  form {
-    margin: 0;
-  }
-
-  #menuPrincipal .temSubmenu .menuSuspenso .temSubmenu.submenuAberto {
-    position: relative;
-    flex-direction: column;
-
-    > span {
-      width: 100%;
-    }
-
-    .menuSuspenso {
-      position: relative;
-      padding-left: 0;
-      padding-right: 0;
-      box-shadow: none;
-    }
-
-  }
-
-  @media screen and (min-width: 993px) {
-
-    svg#nossoBlog {
-      width: 260px;
-      transition: margin-top .5s;
-      padding: 0;
-      margin-top: 40px;
-    }
-
-    #menuPrincipal {
-
-      > ul > li {
-        height: calc(100px - 2.4rem);
-      }
-    }
-  }
-
-  @media screen and (max-width: 992px) {
-
-    svg#nossoBlog, svg.seadUfes {
-      margin: 10px 20px;
-      height: 50px;
-    }
-
-    svg#nossoBlog {
-      order: 1;
-    }
-
-    #enderecoPortal {
-      //order: 2;
-      position: absolute;
-      left: -9999px;
-    }
-
-    .btoMenu {
-      order: 3;
-    }
-
-    .menu {
-      order: 4;
-
-      .menuAberto {
-
-        > .temSubmenu {
-
-          > span i.fas {
-            display: none;
-          }          
-
-          > ul.menuSuspenso {
-            position: relative;
-            transform: translateX(0);
-            z-index: 0;
-
-            > .temSubmenu {
-
-              > .menuSuspenso {
-                margin: 0 0 10px 0;
-              }
-            }
-          }
-        }
-      }
-    }    
-  }
-}
-
-
-
-//
-// Geral
-//
-
 nav.menu {
   font-weight: $medium;
   text-transform: uppercase;
 
   li {
-
     ul {
       font-weight: $regular;
       text-transform: none;
@@ -244,41 +14,62 @@ nav.menu {
         cursor: pointer;
 
         .fas {
-          margin-left: .1em;
+          margin-left: 0.1em;
+
+          &:before {
+            font-size: 0.9em;
+          }
+        }
+      }
+
+      &.submenuAberto {
+        > span {
+          i.fas:before {
+            content: "\f077";
+          }
+        }
+
+        > .menuSuspenso {
+          position: relative;
+          left: 0;
+          z-index: 100;
+          transform: translateX(0);
+          z-index: 0;
         }
       }
     }
   }
+}
 
-  .temSubmenu {
-
-    &.submenuAberto {
-
-      > span {
-
-        i.fas:before {
-          content: "\f077";
-        }
-      }
-
-      > .menuSuspenso {
-        position: relative;
-        left: 0;
-        z-index: 100;
-        transform: translateX(0);
-        z-index: 0;
-      }
-    }
-  }
-
-  @media screen and (min-width: 993px) {
+@media screen and (min-width: 993px) {
+  nav.menu {
     display: inline-flex;
     align-items: center;
+
+    &#menuPrincipal {
+      .temSubmenu .menuSuspenso {
+        .temSubmenu span i.fas:before {
+          margin-left: 0.2em;
+          font-size: 0.8em;
+        }
+
+        li:hover {
+          position: relative;
+
+          .menuSuspenso {
+            top: 0;
+            left: 100%;
+            padding: 0.5em 0;
+            box-shadow: inset 4px 0px 4px rgba(0, 0, 0, 0.25);
+          }
+        }
+      }
+    }
 
     > ul > li {
       display: inline-flex;
       align-items: center;
-      padding: 1.2rem .6rem;
+      padding: 1.2rem 0.6rem;
 
       ul li {
         display: inline-flex;
@@ -288,12 +79,12 @@ nav.menu {
     }
 
     ul.menuLista {
-
       > li {
         position: relative;
         float: left;
 
-        &:hover, &.menuSuspensoAtivo {
+        &:hover,
+        &.menuSuspensoAtivo {
           z-index: 100;
 
           > ul.menuSuspenso {
@@ -305,40 +96,39 @@ nav.menu {
 
     .temSubmenu {
 
-      span {
-        cursor: pointer;
-      }
-
       .menuSuspenso {
         position: absolute;
         top: 100%;
         left: -9999em;
         flex-flow: column;
         background-color: $azulEscuro;
-        padding: 1em 1em .75em 1em;
+        padding: 1em 0 0.75em 0;
         box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
         white-space: normal;
 
         li {
           position: static;
           float: none;
-          padding: .3em 0;
+          width: calc(100% - 2em);
+          padding: 0.3em 1em;
           white-space: nowrap;
 
           a {
-            padding: .3em 0;
+            padding: 0.3em 0;
             border-bottom: 1px solid transparent;
 
             &:hover {
-              border-bottom: 1px solid #E37531;
+              border-bottom: 1px solid #e37531;
             }
           }
         }
       }
     }
   }
+}
 
-  @media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {
+  nav.menu {
     width: 100vw;
     padding: 0 20px;
     box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.25);
@@ -368,13 +158,11 @@ nav.menu {
         padding: 0 20px;
 
         li {
-
         }
       }
     }
 
     .temSubmenu {
-
       .menuSuspenso {
         position: absolute;
         top: 0;
