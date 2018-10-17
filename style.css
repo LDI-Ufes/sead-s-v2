@@ -241,9 +241,9 @@ nav.menu {
     nav.menu#menuPrincipal .temSubmenu .menuSuspenso .temSubmenu span i.fas:before {
       margin-left: 0.2em;
       font-size: 0.8em; }
-    nav.menu#menuPrincipal .temSubmenu .menuSuspenso li:hover {
+    nav.menu#menuPrincipal .temSubmenu .menuSuspenso li:hover, nav.menu#menuPrincipal .temSubmenu .menuSuspenso li.temSubmenu.menuSuspensoAtivo {
       position: relative; }
-      nav.menu#menuPrincipal .temSubmenu .menuSuspenso li:hover .menuSuspenso {
+      nav.menu#menuPrincipal .temSubmenu .menuSuspenso li:hover .menuSuspenso, nav.menu#menuPrincipal .temSubmenu .menuSuspenso li.temSubmenu.menuSuspensoAtivo .menuSuspenso {
         top: 0;
         left: 100%;
         padding: 0.5em 0;

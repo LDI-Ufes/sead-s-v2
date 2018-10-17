@@ -69,7 +69,7 @@ nav.menu {
           font-size: 0.8em;
         }
 
-        li:hover {
+        li:hover, li.temSubmenu.menuSuspensoAtivo {
           position: relative;
 
           .menuSuspenso {
