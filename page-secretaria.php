@@ -1,6 +1,6 @@
 <?php get_header('principal'); ?>
 
-<main class="page">
+<main id="secretaria" class="page">
 
   <a href="//www.youtube.com/watch?v=XSGBVzeBUbk" data-lity>
     <section class="destaque">

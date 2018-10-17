@@ -1547,232 +1547,305 @@ footer {
       #page-polos #mapaInterativo svg #comPolos a.selecionado g .geografia {
         fill: #FDA65B; } }
 
-.destaque {
-  position: relative;
-  min-height: 65vh;
-  background-image: linear-gradient(#E37531, transparent), url("./img/video-destaque.png");
-  background-size: cover; }
-  .destaque .titulo {
-    padding: 6rem 1rem;
-    color: white;
-    line-height: 3rem; }
-    .destaque .titulo h1 {
-      color: white; }
-    .destaque .titulo .fas {
-      margin: .5rem 0;
-      font-size: 3.875rem; }
-
-.breadcrumb {
-  margin: 1.5rem 0; }
-
-#misVisValCap {
-  position: relative;
-  display: inline-flex;
-  margin: 0 -100px;
-  width: calc(100% + 200px);
-  height: 200px;
-  padding: 3.5rem 0;
-  overflow: hidden; }
-  #misVisValCap:before, #misVisValCap:after {
-    position: absolute; }
-  #misVisValCap:before {
-    content: url("svg/aspas-abrir.svg");
-    top: 100px;
-    left: 100px; }
-  #misVisValCap:after {
-    content: url("svg/aspas-fechar.svg");
-    top: 200px;
-    right: 100px; }
-  #misVisValCap.missaoAtivo .missaoCap {
-    left: 100px; }
-  #misVisValCap.missaoAtivo .visaoCap {
-    right: -9999px; }
-  #misVisValCap.missaoAtivo .valoresCap {
-    right: -9999px; }
-  #misVisValCap.visaoAtivo .missaoCap {
-    left: -9999px; }
-  #misVisValCap.visaoAtivo .visaoCap {
-    left: 100px; }
-  #misVisValCap.visaoAtivo .valoresCap {
-    right: -9999px; }
-  #misVisValCap.valoresAtivo .missaoCap {
-    left: -9999px; }
-  #misVisValCap.valoresAtivo .visaoCap {
-    left: -9999px; }
-  #misVisValCap.valoresAtivo .valoresCap {
-    right: 100px; }
-  #misVisValCap .misVisVal {
-    position: absolute;
-    width: calc(100% - 200px); }
-    #misVisValCap .misVisVal h2 {
-      display: flex;
-      justify-content: space-between;
-      margin: 0 auto 1rem auto;
-      width: 550px;
-      line-height: 3.75rem;
-      font-style: italic;
-      font-size: 3rem;
-      color: #E37531; }
-      #misVisValCap .misVisVal h2 span {
-        cursor: pointer; }
-        #misVisValCap .misVisVal h2 span.ativo {
-          color: #1661A6; }
-    #misVisValCap .misVisVal p {
-      text-align: center;
-      line-height: 2.4rem;
-      font-size: 1.75rem;
-      color: #1661A6; }
-
-#estrutura {
-  margin-top: 7rem; }
-  #estrutura h2 {
-    color: #1661A6;
-    margin-top: 6rem;
-    font-size: 2rem; }
-  #estrutura h3 {
-    color: #E37531;
-    max-width: 720px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3rem; }
-  #estrutura #dirigentes li {
-    display: inline-block;
-    width: calc(50% - 2rem);
-    margin: 1rem 0;
-    margin-right: 1rem; }
-  #estrutura p > a {
-    font-style: italic;
-    color: #1661A6;
-    margin-left: .5rem; }
-    #estrutura p > a:hover {
-      border-bottom: 0.5px solid #1661A6; }
-  #estrutura #planta-sead {
-    margin: 6rem 0;
-    position: relative; }
-    #estrutura #planta-sead span {
-      font-size: 2rem;
-      color: #1661A6;
-      width: 60%;
-      display: block;
-      line-height: 1.4;
-      font-weight: 300; }
-    #estrutura #planta-sead button {
-      background-color: #E37531;
-      text-transform: uppercase;
+#secretaria {
+  /* media */ }
+  #secretaria .destaque {
+    position: relative;
+    min-height: 65vh;
+    background-image: linear-gradient(#E37531, transparent), url("./img/video-destaque.png");
+    background-size: cover; }
+    #secretaria .destaque .titulo {
+      padding: 6rem 1rem;
       color: white;
-      border: none;
-      padding: .6rem 2rem;
-      margin: 1rem 0;
-      font-weight: 500;
-      margin-top: 3rem; }
-    #estrutura #planta-sead img {
-      position: absolute;
-      width: 60%;
-      height: auto;
-      right: 0;
-      top: -2rem; }
-
-@media (max-width: 992px) {
-  #misVisValCap {
+      line-height: 3rem; }
+      #secretaria .destaque .titulo h1 {
+        color: white; }
+      #secretaria .destaque .titulo .fas {
+        margin: .5rem 0;
+        font-size: 3.875rem; }
+  #secretaria .breadcrumb {
+    margin: 1.5rem 0; }
+  #secretaria #misVisValCap {
+    display: inline-flex;
     flex-direction: column;
     flex-wrap: wrap;
     height: auto;
     padding: 0 0 2rem 0;
     margin: 0;
     width: 100%; }
-    #misVisValCap:before, #misVisValCap:after {
+    #secretaria #misVisValCap:before, #secretaria #misVisValCap:after {
       display: none; }
-    #misVisValCap .misVisVal {
-      position: initial;
+    #secretaria #misVisValCap .misVisVal {
       width: 100%; }
-      #misVisValCap .misVisVal h2 {
+      #secretaria #misVisValCap .misVisVal h2 {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto 1rem auto;
+        line-height: 3.75rem;
+        font-style: italic;
+        color: #E37531;
         margin-top: 2rem;
         width: 100%;
         font-size: 2rem; }
-        #misVisValCap .misVisVal h2 span {
+        #secretaria #misVisValCap .misVisVal h2 span {
           display: none; }
-          #misVisValCap .misVisVal h2 span.ativo {
+          #secretaria #misVisValCap .misVisVal h2 span.ativo {
             display: initial;
             margin: 0 auto;
             color: #E37531; }
-      #misVisValCap .misVisVal p {
-        margin: 0 auto;
-        max-width: 550px;
-        font-size: 1.25rem; }
-
-  p {
+      #secretaria #misVisValCap .misVisVal p {
+        font-size: 1.25rem;
+        color: #1661A6;
+        text-align: center;
+        line-height: 2.4rem; }
+  #secretaria #estrutura h2 {
+    color: #1661A6;
+    margin-top: 6rem;
+    font-size: 2rem; }
+  #secretaria #estrutura h3 {
+    color: #E37531;
+    max-width: 720px;
     margin-left: auto;
     margin-right: auto;
-    max-width: 650px; }
-
-  blockquote {
-    margin-left: auto !important;
-    margin-right: auto !important;
-    max-width: 550px; }
-
-  #estrutura #dirigentes li {
+    margin-top: 3rem; }
+  #secretaria #estrutura #dirigentes li {
     display: block;
     width: 100%;
+    margin: 1rem 0;
     margin-right: 0; }
-  #estrutura #planta-sead {
+  #secretaria #estrutura p > a {
+    font-style: italic;
+    color: #1661A6;
+    margin-left: .5rem; }
+    #secretaria #estrutura p > a:hover {
+      border-bottom: 0.5px solid #1661A6; }
+  #secretaria #estrutura #planta-sead {
+    margin: 6rem 0;
     margin-bottom: 1rem; }
-    #estrutura #planta-sead span {
-      width: 100%; }
-    #estrutura #planta-sead button {
+    #secretaria #estrutura #planta-sead span {
+      width: 100%;
+      font-size: 2rem;
+      color: #1661A6;
+      line-height: 1.4;
+      font-weight: 300; }
+    #secretaria #estrutura #planta-sead button {
+      background-color: #E37531;
+      text-transform: uppercase;
+      color: white;
+      border: none;
+      padding: .6rem 2rem;
+      font-weight: 500;
       width: 100%;
       margin-top: 2rem; }
-    #estrutura #planta-sead img {
-      position: relative;
+    #secretaria #estrutura #planta-sead img {
       width: 100%;
-      margin-top: 4rem; } }
-#ead-na-ufes .destaque {
-  position: relative;
-  min-height: 65vh;
-  background-image: linear-gradient(#043767, transparent), url("./img/video-destaque.png");
-  background-size: cover;
-  margin-top: 0; }
-  #ead-na-ufes .destaque .titulo {
-    padding: 6rem 1rem;
-    color: white;
-    line-height: 3rem; }
-    #ead-na-ufes .destaque .titulo h1 {
-      color: white; }
-    #ead-na-ufes .destaque .titulo .fas {
-      margin: .5rem 0;
-      font-size: 3.875rem; }
-#ead-na-ufes .breadcrumb {
-  margin: 1.5rem 0;
-  margin-bottom: 4rem; }
-#ead-na-ufes section {
-  margin-top: 4rem; }
-#ead-na-ufes h2 {
-  color: #1661A6;
-  font-size: 2rem;
-  margin-bottom: 3rem; }
-#ead-na-ufes h3 {
-  color: #E37531;
-  margin-top: 3rem; }
-#ead-na-ufes #destaques {
-  background-color: #E6F0F7;
-  padding: 2rem 0; }
-  #ead-na-ufes #destaques li {
-    font-weight: 300;
-    max-width: 960px;
-    margin: 2rem auto;
-    display: flex; }
-    #ead-na-ufes #destaques li div {
-      max-width: 640px;
-      margin-left: 4rem; }
-      #ead-na-ufes #destaques li div h2 {
+      margin-top: 4rem; }
+  @media (min-width: 992px) {
+    #secretaria #misVisValCap {
+      position: relative;
+      margin: 0 -100px;
+      width: calc(100% + 200px);
+      height: 200px;
+      padding: 3.5rem 0;
+      overflow: hidden; }
+      #secretaria #misVisValCap:before, #secretaria #misVisValCap:after {
+        position: absolute;
+        display: block; }
+      #secretaria #misVisValCap:before {
+        content: url("svg/aspas-abrir.svg");
+        top: 100px;
+        left: 100px; }
+      #secretaria #misVisValCap:after {
+        content: url("svg/aspas-fechar.svg");
+        top: 200px;
+        right: 100px; }
+      #secretaria #misVisValCap.missaoAtivo .missaoCap {
+        left: 100px; }
+      #secretaria #misVisValCap.missaoAtivo .visaoCap {
+        right: -9999px; }
+      #secretaria #misVisValCap.missaoAtivo .valoresCap {
+        right: -9999px; }
+      #secretaria #misVisValCap.visaoAtivo .missaoCap {
+        left: -9999px; }
+      #secretaria #misVisValCap.visaoAtivo .visaoCap {
+        left: 100px; }
+      #secretaria #misVisValCap.visaoAtivo .valoresCap {
+        right: -9999px; }
+      #secretaria #misVisValCap.valoresAtivo .missaoCap {
+        left: -9999px; }
+      #secretaria #misVisValCap.valoresAtivo .visaoCap {
+        left: -9999px; }
+      #secretaria #misVisValCap.valoresAtivo .valoresCap {
+        right: 100px; }
+      #secretaria #misVisValCap .misVisVal {
+        position: absolute;
+        width: calc(100% - 200px); }
+        #secretaria #misVisValCap .misVisVal h2 {
+          width: 550px;
+          font-size: 3rem; }
+          #secretaria #misVisValCap .misVisVal h2 span {
+            cursor: pointer;
+            display: initial; }
+            #secretaria #misVisValCap .misVisVal h2 span.ativo {
+              color: #1661A6;
+              margin: 0; }
+        #secretaria #misVisValCap .misVisVal p {
+          font-size: 1.75rem; }
+    #secretaria #estrutura {
+      margin-top: 7rem; }
+      #secretaria #estrutura #dirigentes li {
+        display: inline-block;
+        width: calc(50% - 2rem);
+        margin-right: 1rem; }
+      #secretaria #estrutura #planta-sead {
+        position: relative;
+        margin-bottom: 6rem; }
+        #secretaria #estrutura #planta-sead span {
+          width: 60%;
+          display: block; }
+        #secretaria #estrutura #planta-sead button {
+          margin: 1rem 0;
+          margin-top: 3rem;
+          width: auto; }
+        #secretaria #estrutura #planta-sead img {
+          position: absolute;
+          width: 60%;
+          height: auto;
+          right: 0;
+          top: -2rem;
+          margin-top: 0; } }
+
+/* #secretaria */
+#ead-na-ufes {
+  /* #destaques */
+  /* media */ }
+  #ead-na-ufes .destaque {
+    position: relative;
+    min-height: 65vh;
+    background-image: linear-gradient(#043767, transparent), url("./img/video-destaque.png");
+    background-size: cover;
+    margin-top: 0; }
+    #ead-na-ufes .destaque .titulo {
+      padding: 6rem 1rem;
+      color: white;
+      line-height: 3rem; }
+      #ead-na-ufes .destaque .titulo h1 {
+        color: white; }
+      #ead-na-ufes .destaque .titulo .fas {
+        margin: .5rem 0;
+        font-size: 3.875rem; }
+  #ead-na-ufes .breadcrumb {
+    margin: 1.5rem 0;
+    margin-bottom: 4rem; }
+  #ead-na-ufes section {
+    margin-top: 4rem; }
+  #ead-na-ufes h2 {
+    color: #1661A6;
+    font-size: 2rem;
+    margin-bottom: 3rem; }
+  #ead-na-ufes h3 {
+    color: #E37531;
+    margin-top: 3rem; }
+  #ead-na-ufes #destaques {
+    background-color: #E6F0F7;
+    /* ul */ }
+    #ead-na-ufes #destaques ul {
+      position: relative;
+      height: inherit;
+      padding: 0;
+      /* button */ }
+      #ead-na-ufes #destaques ul button {
+        color: transparent;
+        border: 0;
+        background: none;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 2rem; }
+        #ead-na-ufes #destaques ul button:before {
+          font-family: "Font Awesome 5 Free";
+          font-weight: 600;
+          font-size: 3rem;
+          color: #1661A6; }
+        #ead-na-ufes #destaques ul button.seta-prev {
+          left: 1rem; }
+          #ead-na-ufes #destaques ul button.seta-prev:before {
+            content: '\f104'; }
+        #ead-na-ufes #destaques ul button.seta-next {
+          right: 1rem; }
+          #ead-na-ufes #destaques ul button.seta-next:before {
+            content: '\f105'; }
+      #ead-na-ufes #destaques ul li {
         font-weight: 300;
-        font-style: italic;
-        color: #9C4C22; }
-#ead-na-ufes #agentes {
-  margin-bottom: 4rem; }
-  #ead-na-ufes #agentes li {
-    font-weight: 300;
-    max-width: 720px;
-    margin: 0 auto; }
+        padding: 0 4rem;
+        padding-top: 3rem;
+        display: none;
+        text-align: center; }
+        #ead-na-ufes #destaques ul li.ativo {
+          display: block; }
+        #ead-na-ufes #destaques ul li svg {
+          height: 7rem; }
+        #ead-na-ufes #destaques ul li .grupo h2 {
+          font-weight: 300;
+          font-style: italic;
+          color: #9C4C22;
+          line-height: 1.3;
+          margin-bottom: 1.5rem;
+          margin-top: 1rem; }
+      #ead-na-ufes #destaques ul .dots {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 1rem;
+        padding: 2rem 0 1rem; }
+        #ead-na-ufes #destaques ul .dots .dot {
+          position: relative;
+          display: inline-block;
+          margin: 0 5px;
+          cursor: pointer;
+          color: transparent;
+          padding: 0; }
+          #ead-na-ufes #destaques ul .dots .dot:before {
+            font-family: "Font Awesome 5 Free";
+            font-weight: 600;
+            font-size: .8rem;
+            content: '\f111';
+            color: #1661A6;
+            margin-left: 5px; }
+          #ead-na-ufes #destaques ul .dots .dot.ativo:before {
+            color: #9C4C22; }
+  #ead-na-ufes #agentes {
+    margin-bottom: 4rem; }
+    #ead-na-ufes #agentes li {
+      font-weight: 300;
+      max-width: 720px;
+      margin: 0 auto; }
+  @media (min-width: 992px) {
+    #ead-na-ufes {
+      /* #destaques */ }
+      #ead-na-ufes #destaques {
+        height: 23rem;
+        /* ul */ }
+        #ead-na-ufes #destaques ul {
+          padding: 0; }
+          #ead-na-ufes #destaques ul button {
+            width: 3rem; }
+            #ead-na-ufes #destaques ul button:before {
+              font-size: 5rem; }
+          #ead-na-ufes #destaques ul li {
+            margin: 2rem 0;
+            padding: 0 8rem;
+            padding-top: 3rem;
+            text-align: left; }
+            #ead-na-ufes #destaques ul li.ativo {
+              display: flex; }
+            #ead-na-ufes #destaques ul li svg {
+              margin-top: 1rem; }
+            #ead-na-ufes #destaques ul li .grupo {
+              max-width: 600px;
+              margin-left: 3rem; }
+          #ead-na-ufes #destaques ul .dots {
+            position: absolute;
+            bottom: 1rem; } }
 
 #erro {
   position: relative; }
