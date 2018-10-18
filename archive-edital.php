@@ -1,6 +1,6 @@
 <?php get_header('principal'); ?>
 
-<main id="page-editais" class="container">
+<main id="page-editais" class="container page">
   <section class="breadcrumb">Você está em: <span>Editais</span></section>
   <h1>Editais</h1>
 
@@ -65,9 +65,10 @@
   </div> <!-- filtros -->
 
   <ul id="editais" class="content">
+    <div class="titulos"><span>Edital</span><span>Atribuição</span><span>Tipo de curso</span><span>Curso</span></div>
      <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-        <li class="edital" data-curso="<?php echo strip_tags(get_the_term_list($post->ID, 'curso')); ?>" data-atribuicao="<?php echo strip_tags(get_the_term_list($post->ID, 'atribuicao')); ?>" data-tipo="<?php echo strip_tags(get_the_term_list($post->ID, 'tipo-de-curso')); ?>">
-          <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3><!--
+        <li class="edital">
+          <h3><a href="<?php the_permalink() ?>"><span>Edital </span><?php the_title(); ?></a></h3><!--
           --><p class="atribuicao"><?php echo strip_tags(get_the_term_list($post->ID, 'atribuicao')); ?></p><!--
           --><p class="tipo-de-curso"><?php echo strip_tags(get_the_term_list($post->ID, 'tipo-de-curso')); ?></p><!--
           --><p class="curso"><?php echo strip_tags(get_the_term_list($post->ID, 'curso')); ?></p>

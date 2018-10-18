@@ -1,0 +1,68 @@
+{
+  "contatoGraduacao": [
+    {
+      "id": "ArtesVisuais",
+      "curso": "Artes Visuais",
+      "secr": "Jaqueline Ferreira de Almeida",
+      "secr_email": "xxxxxxxxxx@gmail.com",
+      "secr_telefone": "(27) 4009-8890",
+      "coord": "Andreia Chiari Lins",
+      "coord_email": "xxxxxxxxxx@gmail.com",
+      "coord_telefone": "(27) 4009-8890"
+    },
+    {
+      "id": "Biologia",
+      "curso": "Biologia",
+      "secr": "Jaqueline Ferreira de Almeida",
+      "secr_email": "xxxxxxxxxx@gmail.com",
+      "secr_telefone": "(27) 4009-8890",
+      "coord": "Andreia Chiari Lins",
+      "coord_email": "xxxxxxxxxx@gmail.com",
+      "coord_telefone": "(27) 4009-8890"
+    },
+    {
+      "id": "CienciasContabeis",
+      "curso": "Ciências Contábeis",
+      "secr": "Jaqueline Ferreira de Almeida",
+      "secr_email": "xxxxxxxxxx@gmail.com",
+      "secr_telefone": "(27) 4009-8890",
+      "coord": "Andreia Chiari Lins",
+      "coord_email": "xxxxxxxxxx@gmail.com",
+      "coord_telefone": "(27) 4009-8890"
+    }
+   ],
+   
+   "contatoEspecializacao": [
+    {
+      "id": "ArtesVisuais",
+      "curso": "Artes Visuais",
+      "secr": "Jaqueline Ferreira de Almeida",
+      "secr_email": "xxxxxxxxxx@gmail.com",
+      "secr_telefone": "(27) 4009-8890",
+      "coord": "Andreia Chiari Lins",
+      "coord_email": "xxxxxxxxxx@gmail.com",
+      "coord_telefone": "(27) 4009-8890"
+    },
+    {
+      "id": "Biologia",
+      "curso": "Biologia",
+      "secr": "Jaqueline Ferreira de Almeida",
+      "secr_email": "xxxxxxxxxx@gmail.com",
+      "secr_telefone": "(27) 4009-8890",
+      "coord": "Andreia Chiari Lins",
+      "coord_email": "xxxxxxxxxx@gmail.com",
+      "coord_telefone": "(27) 4009-8890"
+    },
+    {
+      "id": "CienciasContabeis",
+      "curso": "Ciências Contábeis",
+      "secr": "Jaqueline Ferreira de Almeida",
+      "secr_email": "xxxxxxxxxx@gmail.com",
+      "secr_telefone": "(27) 4009-8890",
+      "coord": "Andreia Chiari Lins",
+      "coord_email": "xxxxxxxxxx@gmail.com",
+      "coord_telefone": "(27) 4009-8890"
+    }
+   ]
+}
+

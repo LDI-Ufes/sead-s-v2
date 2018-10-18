@@ -106,6 +106,9 @@
     font-weight: $light;
     border-bottom: 1px solid $azulClaro;
 
+    .titulos{
+      display: none;
+    }  
 
     li{
       border-top: 1px solid $azulClaro;
@@ -185,7 +188,33 @@
       }
     }
     
-    #editais{          
+    #editais{
+      
+      .titulos{
+        display: block;
+
+        span{
+          font-weight: $bold;
+          color: $laranja;
+          font-size: 1.2rem;
+          margin: 1.5rem 0;
+          display: inline-block;
+          
+          &:nth-of-type(1){
+            width: 17%;
+          }
+          &:nth-of-type(2){
+            width: 26%;
+          }
+          &:nth-of-type(3){
+            width: 22%;
+          }
+          &:nth-of-type(4){
+            width: 35%;
+          }
+        }
+      }
+      
       li{
         margin-bottom: 0;
 
@@ -197,10 +226,22 @@
           vertical-align: top;
         }
 
-        h3{width: 17%;}
+        h3{
+          width: 17%;
+          color: $azul;
+          font-weight: $medium;
+          
+          a:hover{
+            border-bottom: solid 1.5px $azulEscuro;
+            color: $azulEscuro;
+          }
+          
+          span{display: none;}
+        }
+        
         .atribuicao{width: 26%;}
-        .tipo-de-curso{width: 17%;}
-        .curso{width: 40%;}
+        .tipo-de-curso{width: 22%;}
+        .curso{width: 35%;}
 
         .atribuicao, .tipo-de-curso, .curso{
           font-weight: $light;

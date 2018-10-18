@@ -1,0 +1,85 @@
+#contatos{
+
+  .alerta{
+    font-weight: $light;
+    color: $laranja;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    margin: 2rem 0;
+    display: block;
+    max-width: 500px;
+  }
+
+  h2{ margin-top: 3rem; }
+
+  ul{
+    margin-bottom: 4rem;
+
+    .titulos{ display: none; }
+
+    li{
+      border-top: solid .5px $azulClaro;
+
+      h3{
+        font-size: 1.2rem;
+        margin: 1.5rem 0;
+      }
+
+      div{
+        padding-bottom: 1.5rem;
+
+        span{
+          font-weight: $bold;
+          color: gray;
+          display: block;
+        }
+      }
+    }
+    
+  } /* ul */
+
+  @media (min-width: 992px){
+
+    ul{
+      border-bottom: solid .5px $azulClaro;
+
+      .titulos{
+        display: block;
+
+        span{
+          width: 30%;
+          font-weight: $bold;
+          color: $laranja;
+          font-size: 1.2rem;
+          margin: 1.5rem 0;
+          display: inline-block;
+        }
+      }
+
+      li{
+        padding-top: .8rem;
+
+        h3{
+          width: 30%;
+          font-weight: $regular;
+          color: black;
+          font-size: 1rem;
+          display: inline-block;
+          margin: 0;
+          vertical-align: top;
+        }
+
+        div{
+          display: inline-block;
+          width: 30%;
+          padding-bottom: .8rem;
+
+          span{ display: none; }
+        }
+      }
+      
+    } /* ul */
+
+  } /* media */
+
+}
