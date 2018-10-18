@@ -296,16 +296,11 @@
   }
 
   a[role=button]{  
+    @extend %botao;
     background-color: white;
     color: $laranjaEscuro;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: .8rem;
-    font-weight: $bold;
-    height: 2rem;
-    padding: 0 1.5rem;
     float: right;
-    line-height: 2rem;
+    margin: 0;
 
     &:hover{
       background-color: $laranjaEscuro;

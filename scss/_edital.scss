@@ -3,7 +3,7 @@
   line-height: 2;
   font-weight: $light;
   padding-bottom: 4rem !important;
-
+  
   #informacoes{
     em{
       color: $laranja;
@@ -11,12 +11,11 @@
       font-weight: $bold;
     }
 
-    div{
-      &#descricao{
+    div#descricao{
         padding-top: 1.2rem;
-        p{display: inline;}
+        
+        p{ display: inline; }
       }
-    }
   }
 
   .secao-edital{
@@ -50,10 +49,6 @@
 
             }
 
-            /*                    i{
-                                    color: $laranja;
-                                    padding-right: .5rem;
-                                }*/
             &:hover{
               font-weight: $semi-bold;
               color: $laranja;
@@ -62,42 +57,36 @@
           }
         }
       }
-    }
+    } /* &#anexos */
 
     &#inscricao{
 
-      p{padding-bottom: 1.5rem;}
-      a[role="button"]{
-        background-color: $laranja;
-        text-transform: uppercase;
-        color: white;
-        border: none;
-        padding: .6rem 2rem;
-        margin: 1rem 0;
-        font-weight: $medium;
-
-        &:hover{
-          background-color: $laranjaEscuro;                
-        }
+      p{
+        padding-bottom: 1.5rem;
+        max-width: unset;
       }
+      
+      a[role="button"]{ @extend %botao; }
     }
-  }
+  } /* secao-edital */
 
   @media screen and (min-width: 992px) {
+    
     #informacoes{
+      
       div{
         padding-right: 2rem;
         width: calc(50% - 2rem);
-
         display: inline-block;
         vertical-align: top;
 
         &#descricao{
           padding-top: 0;
 
-          p{display: inline;}
+          p{ display: inline; }
         }
       }
     }
-  } 
+    
+  } /* media */
 }

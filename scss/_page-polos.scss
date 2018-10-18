@@ -39,7 +39,7 @@
           margin-top: 4rem;
         }
       }
-    }
+    } /* popoverMunicipios */
 
     #polos{
       li{
@@ -82,13 +82,11 @@
             display: block;
           }
         }
-      }
-    }
-  }
+      } /* li */
+    } /* #polos */
+  } /* #mapaInterativo */
 
-  svg {
-    display: none;
-  }
+  svg {display: none;}
 
   @media screen and (min-width: 992px) {
 
@@ -97,9 +95,7 @@
       .popoverMunicipios {
         width: 45%;
 
-        p:after {
-          width: 32rem;
-        }
+        p:after{ width: 32rem; }
       }
 
       svg{
@@ -115,47 +111,36 @@
         }
 
         #semPolos {
-          path {
-            fill: rgb(220,220,220);
-          }
+          path {fill: rgb(220,220,220);}
         }
 
         #comPolos {
           a{
             cursor: pointer;
 
-            g {
-              .geografia {
-                fill: $azulClaro;
-              }
+            g { 
+              .geografia {fill: $azulClaro;}
 
               .pin {
                 fill: darken($azul, 40%) !important;
                 stroke: none;
               }
 
-              text {
-                fill: #333;
-              }
+              text {fill: #333;}
             }
 
             &:hover{
-              g {
-                .geografia {
-                  fill: $azul;
-                }
-              }
+              g > .geografia {fill: $azul;}
             }
+
             &.selecionado{
-              g{
-                .geografia{
-                  fill: $laranjaClaro;
-                }
-              }
+              g > .geografia{fill: $laranjaClaro;}
             }
           }
-        }
-      }
-    }
-  }
+        } /* #comPolos */
+
+      } /* svg */
+    } /* #mapaInterativo */
+  } /* media */
+
 }

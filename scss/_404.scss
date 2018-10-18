@@ -1,7 +1,7 @@
 #erro{
   position: relative;
   
-  h1{margin-top: 2rem;}
+  h1{ margin-top: 2rem; }
   
   #fundo{
     background-image: url('svg/404.svg');
@@ -19,17 +19,16 @@
     color: $laranjaEscuro;
     font-weight: $medium;
     
-    &:hover{
-      border-bottom: solid .5px $laranjaEscuro;
-    }
+    &:hover{ border-bottom: solid .5px $laranjaEscuro; }
   }
+  
   blockquote{
     width: calc(100% - 4rem);
     margin-right: 0 !important;
     font-weight: $light;
     color: $azul;
     font-size: 1.8rem;
-    margin-left: 4rem;
+    margin-left: 4rem !important;
     margin-top: 6rem;
     font-family: $fira;
     font-style: normal;

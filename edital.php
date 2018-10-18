@@ -1,9 +1,9 @@
 <?php get_header('principal'); ?>
 
-<main id="edital" class='container'>
+<main id="edital" class='container page'>
   <!--Inserir conteúdo-->
   <section class="breadcrumb">Você está em: <a href="/sitiosead/editais">Editais</a> <span class="seta">></span> <span><?php the_title(); ?></span></section>
-  <h1><?php the_title(); ?></h1>
+  <h1>Edital <?php the_title(); ?></h1>
   <section id="informacoes">
     <div>
       <em>Curso: </em><?php echo strip_tags(get_the_term_list($post->ID, 'curso')); ?><br>

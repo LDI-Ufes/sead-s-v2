@@ -21,6 +21,23 @@ button {
   font-size: inherit;
   font-weight: inherit; }
 
+/* .page > #ead-na-ufes, #secretaria */
+#edital .secao-edital#inscricao a[role="button"], #page-blog a[role=button], #page-galeria #eventos li .imagens .abrirTodas, #secretaria #estrutura #planta-sead button {
+  background-color: #E37531;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  padding: .6rem 2rem;
+  margin: 1rem 0;
+  font-weight: 500; }
+  #edital .secao-edital#inscricao a[role="button"]:hover, #page-blog a[role=button]:hover, #page-galeria #eventos li .imagens .abrirTodas:hover, #secretaria #estrutura #planta-sead button:hover {
+    background-color: #9C4C22; }
+
+.page p, .page blockquote, #secretaria #estrutura h3 {
+  max-width: 720px;
+  margin-right: auto !important;
+  margin-left: auto !important; }
+
 *:focus {
   outline: 2px solid #E37531;
   outline-offset: 2px;
@@ -41,9 +58,6 @@ body {
       color: yellow; }
   body main {
     min-height: 40rem; }
-    body main h1:first-of-type {
-      margin: 0;
-      padding: 1rem 0; }
 
 section.caixa {
   margin: 0 auto;
@@ -51,29 +65,6 @@ section.caixa {
 
 .container {
   padding: 2rem 1rem; }
-  .container h1 {
-    padding: 0; }
-
-.breadcrumb {
-  font-size: .8rem; }
-  .breadcrumb a {
-    color: #1661A6;
-    font-weight: 500; }
-    .breadcrumb a:hover {
-      color: #E37531;
-      text-decoration: underline; }
-  .breadcrumb span {
-    color: #5992DD; }
-  .breadcrumb .seta {
-    color: #E37531;
-    font-weight: 700; }
-
-h1 {
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: #1661A6;
-  padding: 2rem 0 1rem;
-  line-height: 1.3; }
 
 @media screen and (min-width: 992px) {
   .container {
@@ -712,7 +703,9 @@ footer {
 #edital {
   line-height: 2;
   font-weight: 300;
-  padding-bottom: 4rem !important; }
+  padding-bottom: 4rem !important;
+  /* secao-edital */
+  /* media */ }
   #edital #informacoes em {
     color: #E37531;
     font-style: normal;
@@ -723,7 +716,8 @@ footer {
       display: inline; }
   #edital .secao-edital {
     border-top: solid 2px #5992DD;
-    margin-top: 3rem; }
+    margin-top: 3rem;
+    /* &#anexos */ }
     #edital .secao-edital h2 {
       color: #1661A6;
       font-weight: 600;
@@ -734,11 +728,7 @@ footer {
       padding-bottom: 1rem;
       /*line-height: 3rem;*/ }
       #edital .secao-edital#anexos ul li a {
-        color: black;
-        /*                    i{
-                                color: $laranja;
-                                padding-right: .5rem;
-                            }*/ }
+        color: black; }
         #edital .secao-edital#anexos ul li a:before {
           content: '\f56d';
           font-family: "Font Awesome 5 Free";
@@ -750,17 +740,8 @@ footer {
           font-weight: 600;
           color: #E37531; }
     #edital .secao-edital#inscricao p {
-      padding-bottom: 1.5rem; }
-    #edital .secao-edital#inscricao a[role="button"] {
-      background-color: #E37531;
-      text-transform: uppercase;
-      color: white;
-      border: none;
-      padding: .6rem 2rem;
-      margin: 1rem 0;
-      font-weight: 500; }
-      #edital .secao-edital#inscricao a[role="button"]:hover {
-        background-color: #9C4C22; }
+      padding-bottom: 1.5rem;
+      max-width: unset; }
   @media screen and (min-width: 992px) {
     #edital #informacoes div {
       padding-right: 2rem;
@@ -882,10 +863,34 @@ footer {
     font-style: italic;
     margin: 2rem 0;
     font-size: 1.25rem; }
-  .page p, .page blockquote {
-    max-width: 720px;
-    margin-right: auto;
-    margin-left: auto; }
+  .page .breadcrumb {
+    font-size: .8rem;
+    margin: 1.5rem 0; }
+    .page .breadcrumb a {
+      color: #1661A6;
+      font-weight: 500; }
+      .page .breadcrumb a:hover {
+        color: #E37531;
+        text-decoration: underline; }
+    .page .breadcrumb span {
+      color: #5992DD; }
+    .page .breadcrumb .seta {
+      color: #E37531;
+      font-weight: 700; }
+  .page h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1661A6;
+    padding: 1rem 0 1rem;
+    line-height: 1.3;
+    margin: 0; }
+  .page h2 {
+    color: #1661A6;
+    font-size: 2rem;
+    margin-bottom: 3rem; }
+  .page h3 {
+    color: #E37531;
+    margin-top: 3rem; }
 
 /* page */
 #page-blog #ultimos-editais {
@@ -1160,14 +1165,8 @@ footer {
 #page-blog a[role=button] {
   background-color: white;
   color: #9C4C22;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: .8rem;
-  font-weight: 700;
-  height: 2rem;
-  padding: 0 1.5rem;
   float: right;
-  line-height: 2rem; }
+  margin: 0; }
   #page-blog a[role=button]:hover {
     background-color: #9C4C22;
     color: white; }
@@ -1284,6 +1283,8 @@ footer {
   width: 100%;
   font-weight: 300;
   border-bottom: 1px solid #5992DD; }
+  #page-editais #editais .titulos {
+    display: none; }
   #page-editais #editais li {
     border-top: 1px solid #5992DD;
     position: relative;
@@ -1328,6 +1329,22 @@ footer {
           width: calc(40% - 16px); }
         #page-editais #filtros #seletores .lista-filtros#atribuicoes, #page-editais #filtros #seletores .lista-filtros#tipo-de-curso, #page-editais #filtros #seletores .lista-filtros#ano {
           width: calc(20% - 16px); }
+  #page-editais #editais .titulos {
+    display: block; }
+    #page-editais #editais .titulos span {
+      font-weight: 700;
+      color: #E37531;
+      font-size: 1.2rem;
+      margin: 1.5rem 0;
+      display: inline-block; }
+      #page-editais #editais .titulos span:nth-of-type(1) {
+        width: 17%; }
+      #page-editais #editais .titulos span:nth-of-type(2) {
+        width: 26%; }
+      #page-editais #editais .titulos span:nth-of-type(3) {
+        width: 22%; }
+      #page-editais #editais .titulos span:nth-of-type(4) {
+        width: 35%; }
   #page-editais #editais li {
     margin-bottom: 0; }
     #page-editais #editais li p, #page-editais #editais li h3 {
@@ -1337,20 +1354,27 @@ footer {
       font-size: 1rem;
       vertical-align: top; }
     #page-editais #editais li h3 {
-      width: 17%; }
+      width: 17%;
+      color: #1661A6;
+      font-weight: 500; }
+      #page-editais #editais li h3 a:hover {
+        border-bottom: solid 1.5px #043767;
+        color: #043767; }
+      #page-editais #editais li h3 span {
+        display: none; }
     #page-editais #editais li .atribuicao {
       width: 26%; }
     #page-editais #editais li .tipo-de-curso {
-      width: 17%; }
+      width: 22%; }
     #page-editais #editais li .curso {
-      width: 40%; }
+      width: 35%; }
     #page-editais #editais li .atribuicao, #page-editais #editais li .tipo-de-curso, #page-editais #editais li .curso {
       font-weight: 300;
       color: black;
       font-style: normal; } }
 
 #page-galeria #filtros {
-  padding: 2rem 0; }
+  padding: 1.5rem 0; }
   #page-galeria #filtros span {
     display: block;
     padding-bottom: 1.5rem; }
@@ -1369,79 +1393,75 @@ footer {
       background-color: #9C4C22;
       color: white;
       pointer-events: none; }
-#page-galeria #eventos li {
-  margin-bottom: 7rem;
-  /*      &:nth-child(even){
-          h2{
-            color: $azul;
-  
-            &:before{
+#page-galeria #eventos {
+  margin-bottom: 8rem; }
+  #page-galeria #eventos li {
+    margin-bottom: 7rem;
+    /*      &:nth-child(even){
+            h2{
+              color: $azul;
+    
+              &:before{
+                background-color: $azul;
+              }
+            }
+    
+            .abrirTodas{
               background-color: $azul;
+    
+              &:hover{
+                background-color: darken($azul, 20%);
+              }
             }
-          }
-  
-          .abrirTodas{
-            background-color: $azul;
-  
-            &:hover{
-              background-color: darken($azul, 20%);
-            }
-          }
-        }*/ }
-  #page-galeria #eventos li h2 {
-    position: relative;
-    font-weight: 600;
-    font-size: 1.5rem;
-    color: #E37531; }
-    #page-galeria #eventos li h2 span {
-      background-color: #fff;
-      padding-right: 15px;
-      position: relative; }
-    #page-galeria #eventos li h2:before {
-      content: '';
-      display: block;
-      vertical-align: middle;
-      height: 3px;
-      background-color: #E37531;
-      width: 100%;
-      margin-right: -100%;
-      position: absolute;
-      top: 50%;
-      left: 0;
-      z-index: -1; }
-  #page-galeria #eventos li .imagens {
-    margin-right: -1rem; }
-    #page-galeria #eventos li .imagens p {
-      display: flex;
-      flex-wrap: wrap; }
-      #page-galeria #eventos li .imagens p a {
-        margin: 1rem 0;
-        height: 10rem;
-        flex-grow: 1;
-        margin-right: 1rem;
-        display: none; }
-        #page-galeria #eventos li .imagens p a:nth-child(-n+4) {
-          display: inline-block; }
-        #page-galeria #eventos li .imagens p a.visivel {
-          display: inline-block; }
-        #page-galeria #eventos li .imagens p a img {
-          object-fit: cover;
-          width: 100%;
-          height: 100%; }
-    #page-galeria #eventos li .imagens .abrirTodas {
-      float: right;
-      background-color: #E37531;
-      border: none;
-      color: white;
-      text-transform: uppercase;
-      padding: .5rem 1.5rem;
-      font-weight: 700;
-      margin-right: 1.5rem; }
-      #page-galeria #eventos li .imagens .abrirTodas:hover {
-        background-color: #994715; }
+          }*/ }
+    #page-galeria #eventos li h2 {
+      position: relative;
+      font-weight: 600;
+      font-size: 1.5rem;
+      color: #E37531;
+      margin-bottom: 0; }
+      #page-galeria #eventos li h2 span {
+        background-color: #fff;
+        padding-right: 15px;
+        position: relative; }
+      #page-galeria #eventos li h2:before {
+        content: '';
+        display: block;
+        vertical-align: middle;
+        height: 3px;
+        background-color: #E37531;
+        width: 100%;
+        margin-right: -100%;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        z-index: -1; }
+    #page-galeria #eventos li .imagens {
+      margin-right: -1rem; }
+      #page-galeria #eventos li .imagens p {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: unset; }
+        #page-galeria #eventos li .imagens p a {
+          margin: 1rem 0;
+          height: 10rem;
+          flex-grow: 1;
+          margin-right: 1rem;
+          display: none; }
+          #page-galeria #eventos li .imagens p a:nth-child(-n+4) {
+            display: inline-block; }
+          #page-galeria #eventos li .imagens p a.visivel {
+            display: inline-block; }
+          #page-galeria #eventos li .imagens p a img {
+            object-fit: cover;
+            width: 100%;
+            height: 100%; }
+      #page-galeria #eventos li .imagens .abrirTodas {
+        float: right;
+        margin-right: 1.5rem; }
 @media screen and (min-width: 992px) {
   #page-galeria {
-    padding-top: 10rem; }
+    padding-top: 8rem; }
     #page-galeria #filtros span {
       display: inline-block;
       padding-bottom: 0;
@@ -1458,102 +1478,116 @@ footer {
             max-width: calc(25% - 1.5rem);
           }*/ } }
 
-#page-polos #mapaInterativo {
-  margin: 5rem 0;
-  position: relative; }
-  #page-polos #mapaInterativo .popoverMunicipios {
-    width: 100%;
-    display: inline-block;
-    vertical-align: top;
-    line-height: 1.5;
-    font-weight: 300;
-    margin-bottom: 2rem; }
-    #page-polos #mapaInterativo .popoverMunicipios h2 {
-      color: #E37531;
-      font-size: 1.5rem; }
-    #page-polos #mapaInterativo .popoverMunicipios i {
-      color: #5992DD; }
-    #page-polos #mapaInterativo .popoverMunicipios p {
-      font-size: 2rem;
-      color: #1661A6;
-      line-height: 1.3;
-      margin-top: 1rem;
-      position: relative;
-      margin-bottom: 4rem; }
-      #page-polos #mapaInterativo .popoverMunicipios p:after {
-        content: '';
-        position: absolute;
-        height: 0;
-        left: 0;
-        width: 100%;
-        border-top: 2px solid #5992DD;
-        margin-top: 4rem; }
-  #page-polos #mapaInterativo #polos li {
-    padding: .5rem 0; }
-    #page-polos #mapaInterativo #polos li button.municipioTitulo {
-      font-weight: 500;
-      color: #1661A6;
-      cursor: pointer;
-      transition: font-size .2s;
-      border: none;
-      background: none; }
-      #page-polos #mapaInterativo #polos li button.municipioTitulo:hover {
-        border-bottom: solid 0.5px #043767;
-        color: #043767; }
-    #page-polos #mapaInterativo #polos li .info-polo {
-      display: none;
+#page-polos {
+  /* #mapaInterativo */
+  /* media */ }
+  #page-polos #mapaInterativo {
+    margin: 5rem 0;
+    position: relative;
+    /* popoverMunicipios */
+    /* #polos */ }
+    #page-polos #mapaInterativo .popoverMunicipios {
+      width: 100%;
+      display: inline-block;
+      vertical-align: top;
       line-height: 1.5;
-      padding-top: 1rem;
-      padding-left: 1rem; }
-      #page-polos #mapaInterativo #polos li .info-polo i {
-        color: #E37531; }
-    #page-polos #mapaInterativo #polos li.expandido button.municipioTitulo {
-      font-weight: 700;
-      font-size: 1.5rem;
-      color: #E37531; }
-      #page-polos #mapaInterativo #polos li.expandido button.municipioTitulo:hover {
-        border: none; }
-    #page-polos #mapaInterativo #polos li.expandido .info-polo {
-      display: block; }
-#page-polos svg {
-  display: none; }
-@media screen and (min-width: 992px) {
-  #page-polos #mapaInterativo .popoverMunicipios {
-    width: 45%; }
-    #page-polos #mapaInterativo .popoverMunicipios p:after {
-      width: 32rem; }
-  #page-polos #mapaInterativo svg {
-    display: inline-block;
-    width: 50%;
-    position: sticky;
-    top: 3rem; }
-    #page-polos #mapaInterativo svg text {
-      font-weight: 700;
-      font-family: inherit;
-      font-size: 1rem; }
-    #page-polos #mapaInterativo svg #semPolos path {
-      fill: gainsboro; }
-    #page-polos #mapaInterativo svg #comPolos a {
-      cursor: pointer; }
-      #page-polos #mapaInterativo svg #comPolos a g .geografia {
-        fill: #5992DD; }
-      #page-polos #mapaInterativo svg #comPolos a g .pin {
-        fill: black !important;
-        stroke: none; }
-      #page-polos #mapaInterativo svg #comPolos a g text {
-        fill: #333; }
-      #page-polos #mapaInterativo svg #comPolos a:hover g .geografia {
-        fill: #1661A6; }
-      #page-polos #mapaInterativo svg #comPolos a.selecionado g .geografia {
-        fill: #FDA65B; } }
+      font-weight: 300;
+      margin-bottom: 2rem; }
+      #page-polos #mapaInterativo .popoverMunicipios h2 {
+        color: #E37531;
+        font-size: 1.5rem; }
+      #page-polos #mapaInterativo .popoverMunicipios i {
+        color: #5992DD; }
+      #page-polos #mapaInterativo .popoverMunicipios p {
+        font-size: 2rem;
+        color: #1661A6;
+        line-height: 1.3;
+        margin-top: 1rem;
+        position: relative;
+        margin-bottom: 4rem; }
+        #page-polos #mapaInterativo .popoverMunicipios p:after {
+          content: '';
+          position: absolute;
+          height: 0;
+          left: 0;
+          width: 100%;
+          border-top: 2px solid #5992DD;
+          margin-top: 4rem; }
+    #page-polos #mapaInterativo #polos {
+      /* li */ }
+      #page-polos #mapaInterativo #polos li {
+        padding: .5rem 0; }
+        #page-polos #mapaInterativo #polos li button.municipioTitulo {
+          font-weight: 500;
+          color: #1661A6;
+          cursor: pointer;
+          transition: font-size .2s;
+          border: none;
+          background: none; }
+          #page-polos #mapaInterativo #polos li button.municipioTitulo:hover {
+            border-bottom: solid 0.5px #043767;
+            color: #043767; }
+        #page-polos #mapaInterativo #polos li .info-polo {
+          display: none;
+          line-height: 1.5;
+          padding-top: 1rem;
+          padding-left: 1rem; }
+          #page-polos #mapaInterativo #polos li .info-polo i {
+            color: #E37531; }
+        #page-polos #mapaInterativo #polos li.expandido button.municipioTitulo {
+          font-weight: 700;
+          font-size: 1.5rem;
+          color: #E37531; }
+          #page-polos #mapaInterativo #polos li.expandido button.municipioTitulo:hover {
+            border: none; }
+        #page-polos #mapaInterativo #polos li.expandido .info-polo {
+          display: block; }
+  #page-polos svg {
+    display: none; }
+  @media screen and (min-width: 992px) {
+    #page-polos {
+      /* #mapaInterativo */ }
+      #page-polos #mapaInterativo {
+        /* svg */ }
+        #page-polos #mapaInterativo .popoverMunicipios {
+          width: 45%; }
+          #page-polos #mapaInterativo .popoverMunicipios p:after {
+            width: 32rem; }
+        #page-polos #mapaInterativo svg {
+          display: inline-block;
+          width: 50%;
+          position: sticky;
+          top: 3rem;
+          /* #comPolos */ }
+          #page-polos #mapaInterativo svg text {
+            font-weight: 700;
+            font-family: inherit;
+            font-size: 1rem; }
+          #page-polos #mapaInterativo svg #semPolos path {
+            fill: gainsboro; }
+          #page-polos #mapaInterativo svg #comPolos a {
+            cursor: pointer; }
+            #page-polos #mapaInterativo svg #comPolos a g .geografia {
+              fill: #5992DD; }
+            #page-polos #mapaInterativo svg #comPolos a g .pin {
+              fill: black !important;
+              stroke: none; }
+            #page-polos #mapaInterativo svg #comPolos a g text {
+              fill: #333; }
+            #page-polos #mapaInterativo svg #comPolos a:hover g > .geografia {
+              fill: #1661A6; }
+            #page-polos #mapaInterativo svg #comPolos a.selecionado g > .geografia {
+              fill: #FDA65B; } }
 
 #secretaria {
+  /* #misVisValCap */
   /* media */ }
   #secretaria .destaque {
     position: relative;
     min-height: 65vh;
     background-image: linear-gradient(#E37531, transparent), url("./img/video-destaque.png");
-    background-size: cover; }
+    background-size: cover;
+    margin-top: 0; }
     #secretaria .destaque .titulo {
       padding: 6rem 1rem;
       color: white;
@@ -1563,8 +1597,6 @@ footer {
       #secretaria .destaque .titulo .fas {
         margin: .5rem 0;
         font-size: 3.875rem; }
-  #secretaria .breadcrumb {
-    margin: 1.5rem 0; }
   #secretaria #misVisValCap {
     display: inline-flex;
     flex-direction: column;
@@ -1585,8 +1617,7 @@ footer {
         font-style: italic;
         color: #E37531;
         margin-top: 2rem;
-        width: 100%;
-        font-size: 2rem; }
+        width: 100%; }
         #secretaria #misVisValCap .misVisVal h2 span {
           display: none; }
           #secretaria #misVisValCap .misVisVal h2 span.ativo {
@@ -1599,15 +1630,7 @@ footer {
         text-align: center;
         line-height: 2.4rem; }
   #secretaria #estrutura h2 {
-    color: #1661A6;
-    margin-top: 6rem;
-    font-size: 2rem; }
-  #secretaria #estrutura h3 {
-    color: #E37531;
-    max-width: 720px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3rem; }
+    margin-top: 6rem; }
   #secretaria #estrutura #dirigentes li {
     display: block;
     width: 100%;
@@ -1629,95 +1652,91 @@ footer {
       line-height: 1.4;
       font-weight: 300; }
     #secretaria #estrutura #planta-sead button {
-      background-color: #E37531;
-      text-transform: uppercase;
-      color: white;
-      border: none;
-      padding: .6rem 2rem;
-      font-weight: 500;
       width: 100%;
       margin-top: 2rem; }
     #secretaria #estrutura #planta-sead img {
       width: 100%;
       margin-top: 4rem; }
   @media (min-width: 992px) {
-    #secretaria #misVisValCap {
-      position: relative;
-      margin: 0 -100px;
-      width: calc(100% + 200px);
-      height: 200px;
-      padding: 3.5rem 0;
-      overflow: hidden; }
-      #secretaria #misVisValCap:before, #secretaria #misVisValCap:after {
-        position: absolute;
-        display: block; }
-      #secretaria #misVisValCap:before {
-        content: url("svg/aspas-abrir.svg");
-        top: 100px;
-        left: 100px; }
-      #secretaria #misVisValCap:after {
-        content: url("svg/aspas-fechar.svg");
-        top: 200px;
-        right: 100px; }
-      #secretaria #misVisValCap.missaoAtivo .missaoCap {
-        left: 100px; }
-      #secretaria #misVisValCap.missaoAtivo .visaoCap {
-        right: -9999px; }
-      #secretaria #misVisValCap.missaoAtivo .valoresCap {
-        right: -9999px; }
-      #secretaria #misVisValCap.visaoAtivo .missaoCap {
-        left: -9999px; }
-      #secretaria #misVisValCap.visaoAtivo .visaoCap {
-        left: 100px; }
-      #secretaria #misVisValCap.visaoAtivo .valoresCap {
-        right: -9999px; }
-      #secretaria #misVisValCap.valoresAtivo .missaoCap {
-        left: -9999px; }
-      #secretaria #misVisValCap.valoresAtivo .visaoCap {
-        left: -9999px; }
-      #secretaria #misVisValCap.valoresAtivo .valoresCap {
-        right: 100px; }
-      #secretaria #misVisValCap .misVisVal {
-        position: absolute;
-        width: calc(100% - 200px); }
-        #secretaria #misVisValCap .misVisVal h2 {
-          width: 550px;
-          font-size: 3rem; }
-          #secretaria #misVisValCap .misVisVal h2 span {
-            cursor: pointer;
-            display: initial; }
-            #secretaria #misVisValCap .misVisVal h2 span.ativo {
-              color: #1661A6;
-              margin: 0; }
-        #secretaria #misVisValCap .misVisVal p {
-          font-size: 1.75rem; }
-    #secretaria #estrutura {
-      margin-top: 7rem; }
-      #secretaria #estrutura #dirigentes li {
-        display: inline-block;
-        width: calc(50% - 2rem);
-        margin-right: 1rem; }
-      #secretaria #estrutura #planta-sead {
+    #secretaria {
+      /* #misVisValCap */ }
+      #secretaria #misVisValCap {
         position: relative;
-        margin-bottom: 6rem; }
-        #secretaria #estrutura #planta-sead span {
-          width: 60%;
-          display: block; }
-        #secretaria #estrutura #planta-sead button {
-          margin: 1rem 0;
-          margin-top: 3rem;
-          width: auto; }
-        #secretaria #estrutura #planta-sead img {
+        margin: 0 -100px;
+        width: calc(100% + 200px);
+        height: 200px;
+        padding: 3.5rem 0;
+        overflow: hidden; }
+        #secretaria #misVisValCap:before, #secretaria #misVisValCap:after {
           position: absolute;
-          width: 60%;
-          height: auto;
-          right: 0;
-          top: -2rem;
-          margin-top: 0; } }
+          display: block; }
+        #secretaria #misVisValCap:before {
+          content: url("svg/aspas-abrir.svg");
+          top: 100px;
+          left: 100px; }
+        #secretaria #misVisValCap:after {
+          content: url("svg/aspas-fechar.svg");
+          top: 200px;
+          right: 100px; }
+        #secretaria #misVisValCap.missaoAtivo .missaoCap {
+          left: 100px; }
+        #secretaria #misVisValCap.missaoAtivo .visaoCap {
+          right: -9999px; }
+        #secretaria #misVisValCap.missaoAtivo .valoresCap {
+          right: -9999px; }
+        #secretaria #misVisValCap.visaoAtivo .missaoCap {
+          left: -9999px; }
+        #secretaria #misVisValCap.visaoAtivo .visaoCap {
+          left: 100px; }
+        #secretaria #misVisValCap.visaoAtivo .valoresCap {
+          right: -9999px; }
+        #secretaria #misVisValCap.valoresAtivo .missaoCap {
+          left: -9999px; }
+        #secretaria #misVisValCap.valoresAtivo .visaoCap {
+          left: -9999px; }
+        #secretaria #misVisValCap.valoresAtivo .valoresCap {
+          right: 100px; }
+        #secretaria #misVisValCap .misVisVal {
+          position: absolute;
+          width: calc(100% - 200px); }
+          #secretaria #misVisValCap .misVisVal h2 {
+            width: 550px;
+            font-size: 3rem; }
+            #secretaria #misVisValCap .misVisVal h2 span {
+              cursor: pointer;
+              display: initial; }
+              #secretaria #misVisValCap .misVisVal h2 span.ativo {
+                color: #1661A6;
+                margin: 0; }
+          #secretaria #misVisValCap .misVisVal p {
+            font-size: 1.75rem; }
+      #secretaria #estrutura {
+        margin-top: 7rem; }
+        #secretaria #estrutura #dirigentes li {
+          display: inline-block;
+          width: calc(50% - 2rem);
+          margin-right: 1rem; }
+        #secretaria #estrutura #planta-sead {
+          position: relative;
+          margin-bottom: 6rem; }
+          #secretaria #estrutura #planta-sead span {
+            width: 60%;
+            display: block; }
+          #secretaria #estrutura #planta-sead button {
+            margin: 1rem 0;
+            margin-top: 3rem;
+            width: auto; }
+          #secretaria #estrutura #planta-sead img {
+            position: absolute;
+            width: 60%;
+            height: auto;
+            right: 0;
+            top: -2rem;
+            margin-top: 0; } }
 
 /* #secretaria */
 #ead-na-ufes {
-  /* #destaques */
+  /* #slider */
   /* media */ }
   #ead-na-ufes .destaque {
     position: relative;
@@ -1735,26 +1754,16 @@ footer {
         margin: .5rem 0;
         font-size: 3.875rem; }
   #ead-na-ufes .breadcrumb {
-    margin: 1.5rem 0;
     margin-bottom: 4rem; }
-  #ead-na-ufes section {
-    margin-top: 4rem; }
-  #ead-na-ufes h2 {
-    color: #1661A6;
-    font-size: 2rem;
-    margin-bottom: 3rem; }
-  #ead-na-ufes h3 {
-    color: #E37531;
-    margin-top: 3rem; }
-  #ead-na-ufes #destaques {
+  #ead-na-ufes #slider {
     background-color: #E6F0F7;
     /* ul */ }
-    #ead-na-ufes #destaques ul {
+    #ead-na-ufes #slider ul {
       position: relative;
       height: inherit;
       padding: 0;
       /* button */ }
-      #ead-na-ufes #destaques ul button {
+      #ead-na-ufes #slider ul button {
         color: transparent;
         border: 0;
         background: none;
@@ -1762,56 +1771,56 @@ footer {
         top: 50%;
         transform: translateY(-50%);
         width: 2rem; }
-        #ead-na-ufes #destaques ul button:before {
+        #ead-na-ufes #slider ul button:before {
           font-family: "Font Awesome 5 Free";
           font-weight: 600;
           font-size: 3rem;
           color: #1661A6; }
-        #ead-na-ufes #destaques ul button.seta-prev {
+        #ead-na-ufes #slider ul button.seta-prev {
           left: 1rem; }
-          #ead-na-ufes #destaques ul button.seta-prev:before {
+          #ead-na-ufes #slider ul button.seta-prev:before {
             content: '\f104'; }
-        #ead-na-ufes #destaques ul button.seta-next {
+        #ead-na-ufes #slider ul button.seta-next {
           right: 1rem; }
-          #ead-na-ufes #destaques ul button.seta-next:before {
+          #ead-na-ufes #slider ul button.seta-next:before {
             content: '\f105'; }
-      #ead-na-ufes #destaques ul li {
+      #ead-na-ufes #slider ul li {
         font-weight: 300;
         padding: 0 4rem;
         padding-top: 3rem;
         display: none;
         text-align: center; }
-        #ead-na-ufes #destaques ul li.ativo {
+        #ead-na-ufes #slider ul li.ativo {
           display: block; }
-        #ead-na-ufes #destaques ul li svg {
+        #ead-na-ufes #slider ul li svg {
           height: 7rem; }
-        #ead-na-ufes #destaques ul li .grupo h2 {
+        #ead-na-ufes #slider ul li .grupo h2 {
           font-weight: 300;
           font-style: italic;
           color: #9C4C22;
           line-height: 1.3;
           margin-bottom: 1.5rem;
           margin-top: 1rem; }
-      #ead-na-ufes #destaques ul .dots {
+      #ead-na-ufes #slider ul .dots {
         text-align: center;
         width: 100%;
         margin-bottom: 1rem;
         padding: 2rem 0 1rem; }
-        #ead-na-ufes #destaques ul .dots .dot {
+        #ead-na-ufes #slider ul .dots .dot {
           position: relative;
           display: inline-block;
           margin: 0 5px;
           cursor: pointer;
           color: transparent;
           padding: 0; }
-          #ead-na-ufes #destaques ul .dots .dot:before {
+          #ead-na-ufes #slider ul .dots .dot:before {
             font-family: "Font Awesome 5 Free";
             font-weight: 600;
             font-size: .8rem;
             content: '\f111';
             color: #1661A6;
             margin-left: 5px; }
-          #ead-na-ufes #destaques ul .dots .dot.ativo:before {
+          #ead-na-ufes #slider ul .dots .dot.ativo:before {
             color: #9C4C22; }
   #ead-na-ufes #agentes {
     margin-bottom: 4rem; }
@@ -1821,31 +1830,90 @@ footer {
       margin: 0 auto; }
   @media (min-width: 992px) {
     #ead-na-ufes {
-      /* #destaques */ }
-      #ead-na-ufes #destaques {
+      /* #slider */ }
+      #ead-na-ufes #slider {
         height: 23rem;
         /* ul */ }
-        #ead-na-ufes #destaques ul {
+        #ead-na-ufes #slider ul {
           padding: 0; }
-          #ead-na-ufes #destaques ul button {
+          #ead-na-ufes #slider ul button {
             width: 3rem; }
-            #ead-na-ufes #destaques ul button:before {
+            #ead-na-ufes #slider ul button:before {
               font-size: 5rem; }
-          #ead-na-ufes #destaques ul li {
+          #ead-na-ufes #slider ul li {
             margin: 2rem 0;
             padding: 0 8rem;
             padding-top: 3rem;
             text-align: left; }
-            #ead-na-ufes #destaques ul li.ativo {
+            #ead-na-ufes #slider ul li.ativo {
               display: flex; }
-            #ead-na-ufes #destaques ul li svg {
+            #ead-na-ufes #slider ul li svg {
               margin-top: 1rem; }
-            #ead-na-ufes #destaques ul li .grupo {
+            #ead-na-ufes #slider ul li .grupo {
               max-width: 600px;
               margin-left: 3rem; }
-          #ead-na-ufes #destaques ul .dots {
+          #ead-na-ufes #slider ul .dots {
             position: absolute;
             bottom: 1rem; } }
+
+#contatos {
+  /* ul */
+  /* media */ }
+  #contatos .alerta {
+    font-weight: 300;
+    color: #E37531;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    margin: 2rem 0;
+    display: block;
+    max-width: 500px; }
+  #contatos h2 {
+    margin-top: 3rem; }
+  #contatos ul {
+    margin-bottom: 4rem; }
+    #contatos ul .titulos {
+      display: none; }
+    #contatos ul li {
+      border-top: solid 0.5px #5992DD; }
+      #contatos ul li h3 {
+        font-size: 1.2rem;
+        margin: 1.5rem 0; }
+      #contatos ul li div {
+        padding-bottom: 1.5rem; }
+        #contatos ul li div span {
+          font-weight: 700;
+          color: gray;
+          display: block; }
+  @media (min-width: 992px) {
+    #contatos {
+      /* ul */ }
+      #contatos ul {
+        border-bottom: solid 0.5px #5992DD; }
+        #contatos ul .titulos {
+          display: block; }
+          #contatos ul .titulos span {
+            width: 30%;
+            font-weight: 700;
+            color: #E37531;
+            font-size: 1.2rem;
+            margin: 1.5rem 0;
+            display: inline-block; }
+        #contatos ul li {
+          padding-top: .8rem; }
+          #contatos ul li h3 {
+            width: 30%;
+            font-weight: 400;
+            color: black;
+            font-size: 1rem;
+            display: inline-block;
+            margin: 0;
+            vertical-align: top; }
+          #contatos ul li div {
+            display: inline-block;
+            width: 30%;
+            padding-bottom: .8rem; }
+            #contatos ul li div span {
+              display: none; } }
 
 #erro {
   position: relative; }
@@ -1872,7 +1940,7 @@ footer {
     font-weight: 300;
     color: #1661A6;
     font-size: 1.8rem;
-    margin-left: 4rem;
+    margin-left: 4rem !important;
     margin-top: 6rem;
     font-family: "Fira Sans", sans;
     font-style: normal;
@@ -1894,45 +1962,47 @@ footer {
       max-width: 500px; } }
 
 /* erro */
-#pagPesquisa .container h1 {
-  margin-bottom: 3rem; }
-  #pagPesquisa .container h1 span {
-    font-weight: 400; }
-#pagPesquisa .container #resultados {
-  min-height: 15rem; }
-  #pagPesquisa .container #resultados li {
-    list-style: none;
-    max-width: 720px;
-    margin: 0 auto;
+#pagPesquisa {
+  /* #resultados */ }
+  #pagPesquisa h1 {
     margin-bottom: 3rem; }
-    #pagPesquisa .container #resultados li a {
-      color: #E37531;
-      font-weight: 500; }
-      #pagPesquisa .container #resultados li a:hover {
-        color: #9C4C22;
-        border-bottom: solid 0.5ps #9C4C22; }
-    #pagPesquisa .container #resultados li span {
-      font-weight: 300; }
-      #pagPesquisa .container #resultados li span strong {
-        font-style: italic;
-        color: #1661A6;
-        text-transform: capitalize; }
-    #pagPesquisa .container #resultados li p {
-      font-weight: 300;
-      line-height: 1.6; }
-#pagPesquisa .container #postsNav {
-  color: #E37531;
-  padding: 2rem 1rem 4rem;
-  text-align: center; }
-  #pagPesquisa .container #postsNav a, #pagPesquisa .container #postsNav span {
-    padding: 0 1rem; }
-  #pagPesquisa .container #postsNav a:hover {
-    border-bottom: solid 1px #9C4C22;
-    color: #9C4C22; }
-  #pagPesquisa .container #postsNav span {
-    color: #1661A6; }
-  #pagPesquisa .container #postsNav h2 {
-    display: none; }
+    #pagPesquisa h1 span {
+      font-weight: 400; }
+  #pagPesquisa #resultados {
+    min-height: 15rem; }
+    #pagPesquisa #resultados li {
+      list-style: none;
+      max-width: 720px;
+      margin: 0 auto;
+      margin-bottom: 3rem; }
+      #pagPesquisa #resultados li a {
+        color: #E37531;
+        font-weight: 500; }
+        #pagPesquisa #resultados li a:hover {
+          color: #9C4C22;
+          border-bottom: solid 0.5ps #9C4C22; }
+      #pagPesquisa #resultados li span {
+        font-weight: 300; }
+        #pagPesquisa #resultados li span strong {
+          font-style: italic;
+          color: #1661A6;
+          text-transform: capitalize; }
+      #pagPesquisa #resultados li p {
+        font-weight: 300;
+        line-height: 1.6; }
+  #pagPesquisa #postsNav {
+    color: #E37531;
+    padding: 2rem 1rem 4rem;
+    text-align: center; }
+    #pagPesquisa #postsNav a, #pagPesquisa #postsNav span {
+      padding: 0 1rem; }
+    #pagPesquisa #postsNav a:hover {
+      border-bottom: solid 1px #9C4C22;
+      color: #9C4C22; }
+    #pagPesquisa #postsNav span {
+      color: #1661A6; }
+    #pagPesquisa #postsNav h2 {
+      display: none; }
 
 #formPesquisa {
   display: flex;

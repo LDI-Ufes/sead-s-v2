@@ -1,47 +1,10 @@
 #ead-na-ufes{
 
-  .destaque {
-    position: relative;
-    min-height: 65vh;
-    background-image: linear-gradient($azulEscuro, transparent), url('./img/video-destaque.png');
-    background-size: cover;
-    margin-top: 0;
+  .destaque{ @include destaque($azulEscuro); }
 
-    .titulo {
-      padding: 6rem 1rem;
-      color: white;
-      line-height: 3rem;
+  .breadcrumb{ margin-bottom: 4rem; }
 
-      h1 {
-        color: white;
-      }
-
-      .fas {
-        margin: .5rem 0;
-        font-size: 3.875rem;
-      }
-    }
-  }
-
-  .breadcrumb {
-    margin: 1.5rem 0;
-    margin-bottom: 4rem;
-  }
-
-  section{margin-top: 4rem;}
-
-  h2{
-    color: $azul;
-    font-size: 2rem;
-    margin-bottom: 3rem;
-  }
-
-  h3{
-    color: $laranja;
-    margin-top: 3rem;
-  }
-
-  #destaques{
+  #slider{
     background-color: #E6F0F7;
 
     ul{
@@ -68,17 +31,13 @@
         &.seta-prev{
           left: 1rem;
 
-          &:before{
-            content: '\f104';
-          }
+          &:before{ content: '\f104'; }
         }
 
         &.seta-next{
           right: 1rem;
 
-          &:before{
-            content: '\f105';
-          }
+          &:before{ content: '\f105'; }
         }
       } /* button */
 
@@ -89,11 +48,9 @@
         display: none;
         text-align: center;
 
-        &.ativo{
-          display: block;
-        }
+        &.ativo{ display: block; }
 
-        svg{height: 7rem;}
+        svg{ height: 7rem; }
 
         .grupo{
           h2{
@@ -130,14 +87,12 @@
             margin-left: 5px;
           }
 
-          &.ativo:before{
-            color: $laranjaEscuro;
-          }
+          &.ativo:before{ color: $laranjaEscuro; }
         }
       }
 
     } /* ul */
-  } /* #destaques */
+  } /* #slider */
 
   #agentes{
     margin-bottom: 4rem;
@@ -151,7 +106,7 @@
 
   @media (min-width: 992px) {
 
-    #destaques{
+    #slider{
       height: 23rem;
 
       ul{
@@ -160,9 +115,7 @@
         button{
           width: 3rem;
 
-          &:before{
-            font-size: 5rem;
-          }
+          &:before{ font-size: 5rem; }
         }
 
         li{
@@ -171,13 +124,9 @@
           padding-top: 3rem;
           text-align: left;
 
-          &.ativo{
-            display: flex;
-          }
+          &.ativo{ display: flex; }
 
-          svg{
-            margin-top: 1rem;
-          }
+          svg{ margin-top: 1rem; }
 
           .grupo{
             max-width: 600px;
@@ -191,7 +140,7 @@
         }
         
       } /* ul */
-    } /* #destaques */
+    } /* #slider */
 
   } /* media */
 }

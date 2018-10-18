@@ -2,7 +2,7 @@
 #page-galeria {
 
   #filtros{
-    padding: 2rem 0;
+    padding: 1.5rem 0;
         
     span{
       display: block;
@@ -31,6 +31,8 @@
   }
 
   #eventos{
+    margin-bottom: 8rem;
+    
     li{
       margin-bottom: 7rem;
 
@@ -39,6 +41,7 @@
         font-weight: $semi-bold;
         font-size: 1.5rem;
         color: $laranja;
+        margin-bottom: 0;
 
         span{
           background-color: #fff;
@@ -67,6 +70,7 @@
         p{
           display: flex;
           flex-wrap: wrap;
+          max-width: unset;
 
           a {
             margin: 1rem 0;
@@ -92,18 +96,10 @@
         }
 
         .abrirTodas{
+          @extend %botao;
           float: right;
-          background-color: $laranja;
-          border: none;
-          color: white;
-          text-transform: uppercase;
-          padding: .5rem 1.5rem;
-          font-weight: $bold;
           margin-right: 1.5rem;
 
-          &:hover{
-            background-color: darken($laranja, 20%);
-          }
         }
       }
       
@@ -128,7 +124,7 @@
   }
 
   @media screen and (min-width: 992px) {   
-    padding-top: 10rem;  
+    padding-top: 8rem;  
 
     #filtros{
       span{
