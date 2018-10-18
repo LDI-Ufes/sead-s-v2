@@ -36,22 +36,6 @@ nav.menu {
         a, a:hover {
           border-width: 1px;
         }
-
-        &.submenuAberto {
-          > span {
-            i.fas:before {
-              content: "\f077";
-            }
-          }
-
-          > .menuSuspenso {
-            position: relative;
-            left: 0;
-            z-index: 100;
-            transform: translateX(0);
-            z-index: 0;
-          }
-        }
       }
     }
   }
@@ -64,7 +48,9 @@ nav.menu {
 
     &#menuPrincipal {
       .temSubmenu .menuSuspenso {
+
         .temSubmenu span i.fas:before {
+          content: '\f054';
           margin-left: 0.2em;
           font-size: 0.8em;
         }
@@ -162,9 +148,6 @@ nav.menu {
       ul {
         margin: 0 -20px 10px -20px;
         padding: 0 20px;
-
-        li {
-        }
       }
     }
 
@@ -176,6 +159,29 @@ nav.menu {
         width: 100%;
         transform: translateX(-100%);
         z-index: -1;
+
+        .temSubmenu {
+
+          .menuSuspenso {
+            padding: 0;
+          }
+        }
+      }
+    }
+
+    .submenuAberto {
+      > span {
+        i.fas:before {
+          content: "\f077";
+        }
+      }
+
+      > .menuSuspenso {
+        position: relative;
+        left: 0;
+        z-index: 100;
+        transform: translateX(0);
+        z-index: 0;
       }
     }
   }

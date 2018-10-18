@@ -225,20 +225,13 @@ nav.menu {
     text-transform: none; }
   nav.menu .menuLista li.temSubmenu a, nav.menu .menuLista li.temSubmenu a:hover {
     border-width: 1px; }
-  nav.menu .menuLista li.temSubmenu.submenuAberto > span i.fas:before {
-    content: "\f077"; }
-  nav.menu .menuLista li.temSubmenu.submenuAberto > .menuSuspenso {
-    position: relative;
-    left: 0;
-    z-index: 100;
-    transform: translateX(0);
-    z-index: 0; }
 
 @media screen and (min-width: 993px) {
   nav.menu {
     display: inline-flex;
     align-items: center; }
     nav.menu#menuPrincipal .temSubmenu .menuSuspenso .temSubmenu span i.fas:before {
+      content: '\f054';
       margin-left: 0.2em;
       font-size: 0.8em; }
     nav.menu#menuPrincipal .temSubmenu .menuSuspenso li:hover, nav.menu#menuPrincipal .temSubmenu .menuSuspenso li.temSubmenu.menuSuspensoAtivo {
@@ -307,7 +300,17 @@ nav.menu {
       left: 0;
       width: 100%;
       transform: translateX(-100%);
-      z-index: -1; } }
+      z-index: -1; }
+      nav.menu .temSubmenu .menuSuspenso .temSubmenu .menuSuspenso {
+        padding: 0; }
+    nav.menu .submenuAberto > span i.fas:before {
+      content: "\f077"; }
+    nav.menu .submenuAberto > .menuSuspenso {
+      position: relative;
+      left: 0;
+      z-index: 100;
+      transform: translateX(0);
+      z-index: 0; } }
 footer {
   background-color: #043767;
   color: white;

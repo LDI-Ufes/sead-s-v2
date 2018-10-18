@@ -36,7 +36,7 @@
                 <ul class="menuSuspenso">
                   <li><a href="<?php echo site_url(); ?>" title="Ir para página inicial">Início</a></li>
                   <li class="temSubmenu">
-                    <span>Ensino <i class="fas fa-chevron-right"></i></span>
+                    <span>Ensino <i class="fas fa-chevron-down"></i></span>
                     <ul class="menuSuspenso">
                       <li><a href="/sitiosead/ead-na-ufes" title="Ir para Ensino - Como é a Ead na Ufes?">Como é a EaD na Ufes?</a></li>
                       <li><a href="/sitiosead/secretaria" title="Ir para Ensino - A Secretaria">A Secretaria</a></li>
