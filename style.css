@@ -203,8 +203,10 @@ header {
       padding: 10px;
       background-color: #043767;
       line-height: 30px;
-      text-transform: uppercase;
-      cursor: pointer; } }
+      text-transform: uppercase; }
+
+  .btoMenu {
+    cursor: pointer; } }
 nav.menu {
   font-weight: 500;
   text-transform: uppercase; }
@@ -227,6 +229,18 @@ nav.menu {
     border-width: 1px; }
 
 @media screen and (min-width: 993px) {
+  #barraAuxiliar ul.menuLista > li.temSubmenu .menuSuspenso {
+    right: -9999px; }
+  #barraAuxiliar ul.menuLista > li.temSubmenu:hover > ul.menuSuspenso {
+    right: 0; }
+    #barraAuxiliar ul.menuLista > li.temSubmenu:hover > ul.menuSuspenso > li {
+      justify-content: flex-end; }
+
+  .topo ul.menuLista > li.temSubmenu .menuSuspenso {
+    left: -9999px; }
+  .topo ul.menuLista > li.temSubmenu:hover > ul.menuSuspenso, .topo ul.menuLista > li.temSubmenu.menuSuspensoAtivo > ul.menuSuspenso {
+    left: 0; }
+
   nav.menu {
     display: inline-flex;
     align-items: center; }
@@ -254,12 +268,9 @@ nav.menu {
       float: left; }
       nav.menu ul.menuLista > li:hover, nav.menu ul.menuLista > li.menuSuspensoAtivo {
         z-index: 100; }
-        nav.menu ul.menuLista > li:hover > ul.menuSuspenso, nav.menu ul.menuLista > li.menuSuspensoAtivo > ul.menuSuspenso {
-          left: 0; }
     nav.menu .temSubmenu .menuSuspenso {
       position: absolute;
       top: 100%;
-      left: -9999em;
       flex-flow: column;
       background-color: #043767;
       padding: 1em 0 0.75em 0;

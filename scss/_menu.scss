@@ -42,6 +42,52 @@ nav.menu {
 }
 
 @media screen and (min-width: 993px) {
+
+  #barraAuxiliar {
+
+    ul.menuLista {
+
+      > li.temSubmenu {
+
+        .menuSuspenso {
+          right: -9999px;
+        }
+
+        &:hover {
+
+          > ul.menuSuspenso {
+            right: 0;
+
+            > li {
+              justify-content: flex-end;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .topo {
+
+    ul.menuLista {
+
+      > li.temSubmenu {
+
+        .menuSuspenso {
+          left: -9999px;
+        }
+
+        &:hover,
+        &.menuSuspensoAtivo {
+
+          > ul.menuSuspenso {
+            left: 0;
+          }
+        }
+      }
+    }
+  }
+
   nav.menu {
     display: inline-flex;
     align-items: center;
@@ -90,7 +136,7 @@ nav.menu {
           z-index: 100;
 
           > ul.menuSuspenso {
-            left: 0;
+            //left: 0;
           }
         }
       }
@@ -100,7 +146,7 @@ nav.menu {
       .menuSuspenso {
         position: absolute;
         top: 100%;
-        left: -9999em;
+        //left: -9999em;
         flex-flow: column;
         background-color: $azulEscuro;
         padding: 1em 0 0.75em 0;
