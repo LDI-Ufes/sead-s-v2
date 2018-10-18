@@ -19,13 +19,13 @@ Version: 2.0
 @import 'cabecalho';
 @import 'rodape';
 
-@import 'index';
+@import 'front-page';
+@import 'page';
+@import 'archive-noticia';
+@import 'archive-edital';
+@import 'archive-galeria';
 @import 'edital';
 @import 'noticia';
-@import 'page';
-@import 'page-blog';
-@import 'page-editais';
-@import 'page-galeria';
 @import 'page-polos';
 @import 'page-secretaria';
 @import 'page-ead-na-ufes';

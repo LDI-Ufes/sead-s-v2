@@ -1,6 +1,6 @@
 <?php get_header('principal'); ?>
 
-<main id="index">
+<main id="inicio">
   <div class="container">
     <section id="ead-na-ufes">
       <h2>Você conhece o EaD da Ufes?</h2>
@@ -59,32 +59,34 @@
   <div class="container">
     <section id="noticias">
       <?php
-      $ultimas_noticias = new WP_Query(array('post_type' => 'noticia', 'posts_per_page' => 4));
+        $ultimas_noticias = new WP_Query(array('post_type' => 'noticia', 'posts_per_page' => 4));
 
-      if ($ultimas_noticias->have_posts()) : while ($ultimas_noticias->have_posts()) : $ultimas_noticias->the_post();
-          ?>
-          <div class="noticia">
-            <?php the_post_thumbnail(); ?>
-            <h3><a href="<?php the_permalink() ?>" title="Ir para notícia: <?php the_title(); ?>"><?php the_title(); ?></a></h3>
-          </div>
-        <?php endwhile;
-        wp_reset_postdata();
-        ?>
+      if ($ultimas_noticias->have_posts()) : while ($ultimas_noticias->have_posts()) : $ultimas_noticias->the_post();?>
+      
+        <div class="noticia">
+          <?php the_post_thumbnail(); ?>
+          <h3><a href="<?php the_permalink() ?>" title="Ir para notícia: <?php the_title(); ?>"><?php the_title(); ?></a></h3>
+        </div>
+      
+        <?php endwhile; wp_reset_postdata(); ?>
       <?php else : ?>
+      
         <p><?php esc_html_e('Sem notícias.'); ?></p>
-<?php endif; ?>
+        
+      <?php endif; ?>
 
       <div class="confira-mais">
         <h2>Confira mais do que acontece nos polos</h2>
         <a href="https://www.facebook.com/sead.ufes/" title="Ir para página da Sead no Facebook"><i class="fab fa-facebook-f"></i></a>
         <a href="/sitiosead/blog" title="Ir para a página Blog"><?php include 'svg/nossoBLOG.svg' ?></a>
       </div>
+        
     </section>
   </div>
 
   <section id="polos">
     <div class="container">
-<?php include 'svg/mapaInicio.svg' ?>
+      <?php include 'svg/mapaInicio.svg' ?>
       <h2>A EaD está presente em todo o estado!</h2>
       <p>Atualmente a Ufes oferta cursos EaD em 27 Polos Municipais de Apoio Presencial – UAB.</p>
       <a href="/sitiosead/polos" title="Ir para Polos">Conheça nossos polos!</a>
