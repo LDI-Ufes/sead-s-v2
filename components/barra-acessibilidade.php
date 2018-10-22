@@ -4,7 +4,7 @@
     <nav class="menu">
       <ul id="ligacoesExternas" class="menuLista">
         <li>
-          <a href="">Dúvidas frequentes</a>
+          <a href="<?php echo site_url(); ?>/faq">Dúvidas frequentes</a>
         </li>
         <li class="temSubmenu">
           <span>AVA Moodle <i class="fas fa-chevron-down"></i></span>

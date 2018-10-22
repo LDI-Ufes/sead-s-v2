@@ -1,0 +1,49 @@
+
+#faq{
+  ul{
+    li{
+      @extend %largura-texto;
+      margin: 1.5rem 0;
+      
+      button{
+        background: none;
+        border: none;
+        width: 100%;
+        text-align: left;
+
+        h2{
+          color: black;
+          font-size: 1.2rem;
+          padding: 0;
+          margin: 0;
+          font-weight: $regular;
+
+          &:before{
+            content: '\f067';
+            font-family: "Font Awesome 5 Free";
+            color: $laranja;
+            font-size: 1rem;
+            padding-right: .6rem;
+            font-weight: $bold;
+          }
+        }
+        
+        &.ativo{  
+          h2{ 
+            font-weight: $bold;
+            
+            &:before{ content: '\f068'; }
+          }          
+        }
+        
+      }
+      
+      p{
+        display: none;
+        
+        &.expandido{ display: block; }
+      }
+      
+    } /* li */
+  } /* ul */
+}

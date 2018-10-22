@@ -33,7 +33,7 @@ button {
   #page-blog a[role=button]:hover, #page-galeria #eventos li .imagens .abrirTodas:hover, #edital .secao-edital#inscricao a[role="button"]:hover, #secretaria #estrutura #planta-sead button:hover {
     background-color: #9C4C22; }
 
-.page p, .page blockquote, #secretaria #estrutura h3 {
+.page p, .page blockquote, #secretaria #estrutura h3, #faq ul li {
   max-width: 720px;
   margin-right: auto !important;
   margin-left: auto !important; }
@@ -1939,6 +1939,39 @@ footer {
             vertical-align: top; }
             #contatos ul li div span {
               display: none; } }
+
+#faq {
+  /* ul */ }
+  #faq ul {
+    /* li */ }
+    #faq ul li {
+      margin: 1.5rem 0; }
+      #faq ul li button {
+        background: none;
+        border: none;
+        width: 100%;
+        text-align: left; }
+        #faq ul li button h2 {
+          color: black;
+          font-size: 1.2rem;
+          padding: 0;
+          margin: 0;
+          font-weight: 400; }
+          #faq ul li button h2:before {
+            content: '\f067';
+            font-family: "Font Awesome 5 Free";
+            color: #E37531;
+            font-size: 1rem;
+            padding-right: .6rem;
+            font-weight: 700; }
+        #faq ul li button.ativo h2 {
+          font-weight: 700; }
+          #faq ul li button.ativo h2:before {
+            content: '\f068'; }
+      #faq ul li p {
+        display: none; }
+        #faq ul li p.expandido {
+          display: block; }
 
 #erro {
   position: relative; }
