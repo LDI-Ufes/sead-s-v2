@@ -53,7 +53,8 @@ nav.menu {
           right: -9999px;
         }
 
-        &:hover {
+        &:hover,
+        &.menuSuspensoAtivo {
 
           > ul.menuSuspenso {
             right: 0;
