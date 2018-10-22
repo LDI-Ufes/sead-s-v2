@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="https://cdn.eadufes.org/icone/sead.png">
@@ -42,7 +43,7 @@
               </li>
               <li><a href="<?php echo site_url(); ?>/editais" title="Ir para Editais">Editais</a></li>
               <li><a href="<?php echo site_url(); ?>/cursos" title="Ir para Cursos">Cursos</a></li>
-              <li><a href="<?php echo site_url(); ?>/polos" title="Ir para Polos">Polos</a></li>            
+              <li><a href="<?php echo site_url(); ?>/polos" title="Ir para Polos">Polos</a></li>
               <li><a href="<?php echo site_url(); ?>/blog" title="Ir para Notícias">Notícias</a></li>
             </ul>
           </nav>

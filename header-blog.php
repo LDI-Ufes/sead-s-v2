@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="https://cdn.eadufes.org/icone/sead.png">
@@ -36,7 +37,7 @@
                 <ul class="menuSuspenso">
                   <li><a href="<?php echo site_url(); ?>" title="Ir para página inicial">Início</a></li>
                   <li class="temSubmenu">
-                    <span title="Clique para expandir/ocultar">Ensino <i class="fas fa-chevron-down"></i></span>
+                    <span>Ensino <i class="fas fa-chevron-down"></i></span>
                     <ul class="menuSuspenso">
                       <li><a href="/sitiosead/ead-na-ufes" title="Ir para Ensino - Como é a Ead na Ufes?">Como é a EaD na Ufes?</a></li>
                       <li><a href="/sitiosead/secretaria" title="Ir para Ensino - A Secretaria">A Secretaria</a></li>
@@ -45,7 +46,7 @@
                   </li>
                   <li><a href="<?php echo site_url(); ?>/editais" title="Ir para Editais">Editais</a></li>
                   <li><a href="<?php echo site_url(); ?>/cursos" title="Ir para Cursos">Cursos</a></li>
-                  <li><a href="<?php echo site_url(); ?>/polos" title="Ir para Polos">Polos</a></li>            
+                  <li><a href="<?php echo site_url(); ?>/polos" title="Ir para Polos">Polos</a></li>
                   <li><a href="<?php echo site_url(); ?>/blog" title="Ir para Notícias">Notícias</a></li>
                 </ul>
               </li>
