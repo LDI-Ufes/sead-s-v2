@@ -1666,7 +1666,6 @@ footer {
               fill: #FDA65B; } }
 
 #secretaria {
-  /* #misVisValCap */
   /* media */ }
   #secretaria .destaque {
     position: relative;
@@ -1683,38 +1682,43 @@ footer {
       #secretaria .destaque .titulo .fas {
         margin: .5rem 0;
         font-size: 3.875rem; }
-  #secretaria #misVisValCap {
+  #secretaria #abas {
+    position: relative;
     display: inline-flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    height: auto;
-    padding: 0 0 2rem 0;
-    margin: 0;
-    width: 100%; }
-    #secretaria #misVisValCap:before, #secretaria #misVisValCap:after {
-      display: none; }
-    #secretaria #misVisValCap .misVisVal {
-      width: 100%; }
-      #secretaria #misVisValCap .misVisVal h2 {
-        display: flex;
-        justify-content: space-between;
-        margin: 0 auto 1rem auto;
-        line-height: 3.75rem;
-        font-style: italic;
-        color: #E37531;
-        margin-top: 2rem;
-        width: 100%; }
-        #secretaria #misVisValCap .misVisVal h2 span {
-          display: none; }
-          #secretaria #misVisValCap .misVisVal h2 span.ativo {
-            display: initial;
-            margin: 0 auto;
-            color: #E37531; }
-      #secretaria #misVisValCap .misVisVal p {
-        font-size: 1.25rem;
-        color: #1661A6;
-        text-align: center;
-        line-height: 2.4rem; }
+    margin: 0 -100px;
+    width: calc(100% + 200px);
+    height: 200px;
+    padding: 3.5rem 0;
+    overflow: hidden; }
+    #secretaria #abas:before, #secretaria #abas:after {
+      position: absolute; }
+    #secretaria #abas:before {
+      content: url(svg/aspas-abrir.svg);
+      top: 100px;
+      left: 100px; }
+    #secretaria #abas:after {
+      content: url(svg/aspas-fechar.svg);
+      top: 200px;
+      right: 100px; }
+    #secretaria #abas .tabsList {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto 1rem auto;
+      width: 550px;
+      line-height: 3.75rem;
+      text-transform: lowercase;
+      font-style: italic;
+      font-size: 3rem;
+      font-weight: 800;
+      color: #E37531; }
+      #secretaria #abas .tabsList .current {
+        color: #1661A6; }
+    #secretaria #abas .tabPanel {
+      text-align: center;
+      line-height: 2.4rem;
+      font-size: 1.75rem;
+      color: #1661A6; }
   #secretaria #estrutura h2 {
     margin-top: 6rem; }
   #secretaria #estrutura #dirigentes li {
@@ -1744,81 +1748,29 @@ footer {
       width: 100%;
       margin-top: 4rem; }
   @media (min-width: 992px) {
-    #secretaria {
-      /* #misVisValCap */ }
-      #secretaria #misVisValCap {
+    #secretaria #estrutura {
+      margin-top: 7rem; }
+      #secretaria #estrutura #dirigentes li {
+        display: inline-block;
+        width: calc(50% - 2rem);
+        margin-right: 1rem; }
+      #secretaria #estrutura #planta-sead {
         position: relative;
-        margin: 0 -100px;
-        width: calc(100% + 200px);
-        height: 200px;
-        padding: 3.5rem 0;
-        overflow: hidden; }
-        #secretaria #misVisValCap:before, #secretaria #misVisValCap:after {
-          position: absolute;
+        margin-bottom: 6rem; }
+        #secretaria #estrutura #planta-sead span {
+          width: 60%;
           display: block; }
-        #secretaria #misVisValCap:before {
-          content: url("svg/aspas-abrir.svg");
-          top: 100px;
-          left: 100px; }
-        #secretaria #misVisValCap:after {
-          content: url("svg/aspas-fechar.svg");
-          top: 200px;
-          right: 100px; }
-        #secretaria #misVisValCap.missaoAtivo .missaoCap {
-          left: 100px; }
-        #secretaria #misVisValCap.missaoAtivo .visaoCap {
-          right: -9999px; }
-        #secretaria #misVisValCap.missaoAtivo .valoresCap {
-          right: -9999px; }
-        #secretaria #misVisValCap.visaoAtivo .missaoCap {
-          left: -9999px; }
-        #secretaria #misVisValCap.visaoAtivo .visaoCap {
-          left: 100px; }
-        #secretaria #misVisValCap.visaoAtivo .valoresCap {
-          right: -9999px; }
-        #secretaria #misVisValCap.valoresAtivo .missaoCap {
-          left: -9999px; }
-        #secretaria #misVisValCap.valoresAtivo .visaoCap {
-          left: -9999px; }
-        #secretaria #misVisValCap.valoresAtivo .valoresCap {
-          right: 100px; }
-        #secretaria #misVisValCap .misVisVal {
+        #secretaria #estrutura #planta-sead button {
+          margin: 1rem 0;
+          margin-top: 3rem;
+          width: auto; }
+        #secretaria #estrutura #planta-sead img {
           position: absolute;
-          width: calc(100% - 200px); }
-          #secretaria #misVisValCap .misVisVal h2 {
-            width: 550px;
-            font-size: 3rem; }
-            #secretaria #misVisValCap .misVisVal h2 span {
-              cursor: pointer;
-              display: initial; }
-              #secretaria #misVisValCap .misVisVal h2 span.ativo {
-                color: #1661A6;
-                margin: 0; }
-          #secretaria #misVisValCap .misVisVal p {
-            font-size: 1.75rem; }
-      #secretaria #estrutura {
-        margin-top: 7rem; }
-        #secretaria #estrutura #dirigentes li {
-          display: inline-block;
-          width: calc(50% - 2rem);
-          margin-right: 1rem; }
-        #secretaria #estrutura #planta-sead {
-          position: relative;
-          margin-bottom: 6rem; }
-          #secretaria #estrutura #planta-sead span {
-            width: 60%;
-            display: block; }
-          #secretaria #estrutura #planta-sead button {
-            margin: 1rem 0;
-            margin-top: 3rem;
-            width: auto; }
-          #secretaria #estrutura #planta-sead img {
-            position: absolute;
-            width: 60%;
-            height: auto;
-            right: 0;
-            top: -2rem;
-            margin-top: 0; } }
+          width: 60%;
+          height: auto;
+          right: 0;
+          top: -2rem;
+          margin-top: 0; } }
 
 /* #secretaria */
 #ead-na-ufes {
