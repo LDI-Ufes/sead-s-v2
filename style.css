@@ -1912,12 +1912,14 @@ footer {
         #contatos ul .titulos {
           display: block; }
           #contatos ul .titulos span {
-            width: 30%;
+            width: 35%;
             font-weight: 700;
             color: #E37531;
             font-size: 1.2rem;
             margin: 1.5rem 0;
             display: inline-block; }
+            #contatos ul .titulos span:first-of-type {
+              width: 30%; }
         #contatos ul li {
           padding-top: .8rem; }
           #contatos ul li h3 {
@@ -1930,8 +1932,9 @@ footer {
             vertical-align: top; }
           #contatos ul li div {
             display: inline-block;
-            width: 30%;
-            padding-bottom: .8rem; }
+            width: 35%;
+            padding-bottom: .8rem;
+            vertical-align: top; }
             #contatos ul li div span {
               display: none; } }
 

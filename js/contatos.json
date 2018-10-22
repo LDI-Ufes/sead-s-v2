@@ -3,65 +3,155 @@
     {
       "id": "ArtesVisuais",
       "curso": "Artes Visuais",
-      "secr": "Jaqueline Ferreira de Almeida",
-      "secr_email": "xxxxxxxxxx@gmail.com",
-      "secr_telefone": "(27) 4009-8890",
+      "secr": "Livia Teixeira Lemos",
+      "secr_email": "artesvisuais.ead@gmail.com",
+      "secr_telefone": "(27) 4009-2091",
       "coord": "Andreia Chiari Lins",
-      "coord_email": "xxxxxxxxxx@gmail.com",
-      "coord_telefone": "(27) 4009-8890"
+      "coord_email": "artesvisuais.ead@gmail.com",
+      "coord_telefone": "(27) 4009-2070"
     },
     {
       "id": "Biologia",
       "curso": "Biologia",
-      "secr": "Jaqueline Ferreira de Almeida",
-      "secr_email": "xxxxxxxxxx@gmail.com",
-      "secr_telefone": "(27) 4009-8890",
-      "coord": "Andreia Chiari Lins",
-      "coord_email": "xxxxxxxxxx@gmail.com",
-      "coord_telefone": "(27) 4009-8890"
+      "secr": "Bruno Costa Oliveira",
+      "secr_email": "biologia.ead.ufes@gmail.com",
+      "secr_telefone": "(27) 4009-2064",
+      "coord": "Luciana Dias Thomaz",
+      "coord_email": "biologia.ead.ufes@gmail.com",
+      "coord_telefone": "(27) 4009-2091"
     },
     {
-      "id": "CienciasContabeis",
-      "curso": "Ciências Contábeis",
-      "secr": "Jaqueline Ferreira de Almeida",
-      "secr_email": "xxxxxxxxxx@gmail.com",
-      "secr_telefone": "(27) 4009-8890",
-      "coord": "Andreia Chiari Lins",
-      "coord_email": "xxxxxxxxxx@gmail.com",
-      "coord_telefone": "(27) 4009-8890"
+      "id": "Filosofia",
+      "curso": "Filosofia",
+      "secr": "Thiago Sobreira Marques",
+      "secr_email": "licfilosofia.ead@gmail.com",
+      "secr_telefone": "(27) 4009-2094",
+      "coord": "Claudia Pereira do Carmo Murta",
+      "coord_email": "licfilosofia.ead@gmail.com",
+      "coord_telefone": "(27) 4009-2063"
+    },
+    {
+      "id": "Fisica",
+      "curso": "Física",
+      "secr": "Sandra",
+      "secr_email": "secretariafisicaead@gmail.com",
+      "secr_telefone": "(27) 4009-5304",
+      "coord": "Valério Marra",
+      "coord_email": "secretariafisicaead@gmail.com",
+      "coord_telefone": "(27) 4009-5304"
+    },
+    {
+      "id": "Historia",
+      "curso": "História",
+      "secr": "Sônia Maria Calisto",
+      "secr_email": "historia.ead.ufes@gmail.com",
+      "secr_telefone": "(27) 4009-2228",
+      "coord": "Geraldo Antonio Soares",
+      "coord_email": "historia.ead.ufes@gmail.com",
+      "coord_telefone": "(27) 4009-2096"
+    },
+    {
+      "id": "Pedagogia",
+      "curso": "Pedagogia",
+      "secr": "Jose Roberto Basílio de Souza",
+      "secr_email": "eadedpedufes@gmail.com",
+      "secr_telefone": "(27) 4009-2091",
+      "coord": "Iguatemi Santos Rangel",
+      "coord_email": "eadedpedufes@gmail.com",
+      "coord_telefone": "(27) 4009-2091"
+    },
+    {
+      "id": "Quimica",
+      "curso": "Química",
+      "secr": "Bruno Costa Oliveira",
+      "secr_email": "quimica1.ead@gmail.com",
+      "secr_telefone": "(27) 4009-2064",
+      "coord": "Pedro Mitsuo Takahashi",
+      "coord_email": "quimica1.ead@gmail.com",
+      "coord_telefone": "(27) 4009-7946"
+    },
+    {
+      "id": "LetrasItaliano",
+      "curso": "Letras Italiano",
+      "secr": "Bruna Rodrigues Tabachi",
+      "secr_email": "bruna.direitoshumanos@gmail.com",
+      "secr_telefone": "(27) 4009-2094 | (27) 4009-2063",
+      "coord": "Mariza Silva de Moraes",
+      "coord_email": "bruna.direitoshumanos@gmail.com",
+      "coord_telefone": "(27) 4009-2094 | (27) 4009-2063"
     }
    ],
    
    "contatoEspecializacao": [
     {
-      "id": "ArtesVisuais",
-      "curso": "Artes Visuais",
-      "secr": "Jaqueline Ferreira de Almeida",
-      "secr_email": "xxxxxxxxxx@gmail.com",
-      "secr_telefone": "(27) 4009-8890",
-      "coord": "Andreia Chiari Lins",
-      "coord_email": "xxxxxxxxxx@gmail.com",
-      "coord_telefone": "(27) 4009-8890"
+      "id": "EducacaoEmDireitosHumanos",
+      "curso": "Educacao em Direitos Humanos",
+      "secr": "Bruna Rodrigues Tabachi",
+      "secr_email": "bruna.direitoshumanos@gmail.com",
+      "secr_telefone": "(27) 4009-2094 | (27) 4009-2063",
+      "coord": "Paulo Velten",
+      "coord_email": "bruna.direitoshumanos@gmail.com",
+      "coord_telefone": "(27) 4009-2063"
     },
     {
-      "id": "Biologia",
-      "curso": "Biologia",
-      "secr": "Jaqueline Ferreira de Almeida",
-      "secr_email": "xxxxxxxxxx@gmail.com",
-      "secr_telefone": "(27) 4009-8890",
-      "coord": "Andreia Chiari Lins",
-      "coord_email": "xxxxxxxxxx@gmail.com",
-      "coord_telefone": "(27) 4009-8890"
+      "id": "MatematicaNoEnsinoMedio",
+      "curso": "Matemática no Ensino Médio",
+      "secr": "Bruno Costa Oliveira",
+      "secr_email": "matematicanapraticaead@gmail.com",
+      "secr_telefone": "(27) 4009-2064",
+      "coord": "Jaqueline Magalhães Brum",
+      "coord_email": "coormatematicanapratica@gmail.com",
+      "coord_telefone": "(27) 4009-2096"
     },
     {
-      "id": "CienciasContabeis",
-      "curso": "Ciências Contábeis",
-      "secr": "Jaqueline Ferreira de Almeida",
-      "secr_email": "xxxxxxxxxx@gmail.com",
-      "secr_telefone": "(27) 4009-8890",
-      "coord": "Andreia Chiari Lins",
-      "coord_email": "xxxxxxxxxx@gmail.com",
-      "coord_telefone": "(27) 4009-8890"
+      "id": "Epidemiologia",
+      "curso": "Epidemiologia",
+      "secr": "Lidia Cristina Pinto Fuligno Pantoja",
+      "secr_email": "lidiacpf.secretaria@gmail.com",
+      "secr_telefone": "(27) 4009-2097",
+      "coord": "Edson Theodoro Maciel",
+      "coord_email": "lidiacpf.secretaria@gmail.com",
+      "coord_telefone": "(27) 4009-2097"
+    },
+    {
+      "id": "FilosofiaEPsicanalise",
+      "curso": "Filosofia e Psicanálise",
+      "secr": "Verônica Alves Queiroz",
+      "secr_email": "ufes.filpsi2017@gmail.com",
+      "secr_telefone": "(27) 4009-2063",
+      "coord": "Claudia Pereira do Carmo Murta",
+      "coord_email": "ufes.filpsi2017@gmail.com",
+      "coord_telefone": "(27) 4009-2063"
+    },
+    {
+      "id": "GestaoEmSaude",
+      "curso": "Gestão em Saúde",
+      "secr": "Bruno Costa Oliveira",
+      "secr_email": "gestaosaudeead@gmail.com",
+      "secr_telefone": "(27) 4009-2064",
+      "coord": "Leila Massaroni",
+      "coord_email": "gestaosaudeead@gmail.com",
+      "coord_telefone": "(27) 4009-2096"
+    },
+    {
+      "id": "Oratoria",
+      "curso": "Oratória, Transversalidade e Didática da Fala",
+      "secr": "Flávia Teixeira Rocha",
+      "secr_email": "eadoratoria@gmail.com",
+      "secr_telefone": "(27) 4009-2091",
+      "coord": "Carlos Vinícius Costa de Medonça",
+      "coord_email": "eadoratoria@gmail.com",
+      "coord_telefone": "(27) 4009-2091"
+    },
+    {
+      "id": "GestaoPublica",
+      "curso": "Gestão Pública",
+      "secr": "Flávia Teixeira Rocha",
+      "secr_email": "gestaopublicasead@gmail.com",
+      "secr_telefone": "(27) 4009-2091",
+      "coord": "Ricardo Roberto Behr",
+      "coord_email": "gestaopublicasead@gmail.com",
+      "coord_telefone": "(27) 4009-2091"
     }
    ]
 }

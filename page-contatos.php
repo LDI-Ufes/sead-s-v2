@@ -40,8 +40,8 @@
     $.getJSON('/sitiosead/wp-content/themes/sead-v2/js/contatos.json', function (data) {
       $.each(data.contatoGraduacao, function (i, curso) {
         var lItem = '<li><h3>' + curso.curso + '</h3>' + 
-                      '<div><span>Secretaria</span>'+ curso.secr + '<br>Telefone: '+ curso.secr_telefone +'<br>E-mail: '+ curso.secr_email +'</div>' +
-                      '<div><span>Coordenação</span>'+ curso.coord + '<br>Telefone: '+ curso.coord_telefone +'<br>E-mail: '+ curso.coord_email +'</div>' +
+                      '<div><span>Secretaria</span>'+ curso.secr + '<br>'+ curso.secr_telefone +'<br>'+ curso.secr_email +'</div>' +
+                      '<div><span>Coordenação</span>'+ curso.coord + '<br>'+ curso.coord_telefone +'</div>' +
                     '</li>';
         $(lItem).appendTo("#graduacao");
       });
@@ -54,8 +54,8 @@
     $.getJSON('/sitiosead/wp-content/themes/sead-v2/js/contatos.json', function (data) {
       $.each(data.contatoEspecializacao, function (i, curso) {
         var lItem = '<li><h3>' + curso.curso + '</h3>' + 
-                      '<div><span>Secretaria</span>'+ curso.secr + '<br>Telefone: '+ curso.secr_telefone +'<br>E-mail: '+ curso.secr_email +'</div>' +
-                      '<div><span>Coordenação</span>'+ curso.coord + '<br>Telefone: '+ curso.coord_telefone +'<br>E-mail: '+ curso.coord_email +'</div>' +
+                      '<div><span>Secretaria</span>'+ curso.secr + '<br>'+ curso.secr_telefone +'<br>'+ curso.secr_email +'</div>' +
+                      '<div><span>Coordenação</span>'+ curso.coord + '<br>'+ curso.coord_telefone +'</div>' +
                     '</li>';
         $(lItem).appendTo("#especializacao");
       });

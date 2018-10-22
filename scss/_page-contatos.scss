@@ -47,12 +47,16 @@
         display: block;
 
         span{
-          width: 30%;
+          width: 35%;
           font-weight: $bold;
           color: $laranja;
           font-size: 1.2rem;
           margin: 1.5rem 0;
           display: inline-block;
+          
+          &:first-of-type{
+            width: 30%;
+          }
         }
       }
 
@@ -71,10 +75,12 @@
 
         div{
           display: inline-block;
-          width: 30%;
+          width: 35%;
           padding-bottom: .8rem;
+          vertical-align: top;
 
           span{ display: none; }
+
         }
       }
       
