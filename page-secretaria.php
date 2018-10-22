@@ -15,7 +15,7 @@
 
   <div class="container">
 
-    <section class="breadcrumb">Você está em: <a>Ensino</a> <span class="seta">></span> <span>Secretaria de Ensino a Distância</span></section>
+    <section class="breadcrumb">Você está em: <a>Ensino</a><i class="fas fa-greater-than"></i><span>Secretaria de Ensino a Distância</span></section>
 
     <div id="misVisValCap" class="missaoAtivo">
 

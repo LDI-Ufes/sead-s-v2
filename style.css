@@ -742,9 +742,11 @@ footer {
         text-decoration: underline; }
     .page .breadcrumb span {
       color: #5992DD; }
-    .page .breadcrumb .seta {
+    .page .breadcrumb i {
       color: #E37531;
-      font-weight: 700; }
+      font-weight: 700;
+      font-size: .6rem;
+      padding: 0 .3rem; }
   .page h1 {
     font-size: 2.5rem;
     font-weight: 700;

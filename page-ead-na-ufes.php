@@ -14,7 +14,7 @@
   </a>
 
   <div class="container">
-    <section class="breadcrumb">Você está em: <a>Ensino</a> <span class="seta">></span> <span>EaD na Ufes</span></section>
+    <section class="breadcrumb">Você está em: <a>Ensino</a><i class="fas fa-greater-than"></i><span>EaD na Ufes</span></section>
 
     <div>
       <p>A Educação a Distância constitui-se em um instrumento eficaz de democratização do acesso ao ensino superior e uma opção de qualificação profissional. </p>

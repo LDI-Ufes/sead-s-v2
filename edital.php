@@ -2,7 +2,7 @@
 
 <main id="edital" class='container page'>
   <!--Inserir conteúdo-->
-  <section class="breadcrumb">Você está em: <a href="/sitiosead/editais">Editais</a> <span class="seta">></span> <span><?php the_title(); ?></span></section>
+  <section class="breadcrumb">Você está em: <a href="/sitiosead/editais">Editais</a><i class="fas fa-greater-than"></i><span><?php the_title(); ?></span></section>
   <h1>Edital <?php the_title(); ?></h1>
   <section id="informacoes">
     <div>
