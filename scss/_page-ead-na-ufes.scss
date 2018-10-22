@@ -30,6 +30,7 @@
 
         &.seta-prev{
           left: 1rem;
+          display: none;
 
           &:before{ content: '\f104'; }
         }

@@ -28,11 +28,10 @@
       <?php endwhile; ?> 
     </section>
   
-    <div id="postsNav">  
+    <div id="paginacao">  
       <?php the_posts_pagination(array(
-          'mid_size' => 2,
-          'prev_text' => __('Anterior', 'textdomain'),
-          'next_text' => __('Próxima', 'textdomain'),
+          'prev_text' => __('<', 'textdomain'),
+          'next_text' => __('>', 'textdomain')
       )); ?>
     </div>
   

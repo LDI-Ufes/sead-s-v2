@@ -62,5 +62,23 @@
     color: $laranja;
     margin-top: 3rem;
   }
+  
+  #paginacao{
+    color: $laranja;
+    padding: 2rem 1rem 4rem;
+    text-align: center;
+    font-weight: $bold;
+
+    a, span{ padding: 0 1rem; }
+
+    a:hover{
+      border-bottom: solid 1px $laranjaEscuro;
+      color: $laranjaEscuro;
+    }
+
+    span{ color: $azul; }
+
+    h2{ display: none; }
+  }
 
 } /* page */

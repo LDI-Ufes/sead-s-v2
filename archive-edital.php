@@ -76,9 +76,13 @@
       <?php endwhile; ?>
     </ul>
 
-    <div id="postsNav">  
-      <div class="nav-right"><?php next_posts_link('Editais antigos  >'); ?></div>
-      <div class="nav-left"><?php previous_posts_link('<  Editais recentes'); ?></div>
+    <div id="paginacao">  
+<!--      <div class="nav-right"><?php next_posts_link('Editais antigos  >'); ?></div>
+      <div class="nav-left"><?php previous_posts_link('<  Editais recentes'); ?></div>-->
+      <?php the_posts_pagination(array(
+        'prev_text' => __('<', 'textdomain'),
+        'next_text' => __('>', 'textdomain')
+      )); ?>
     </div>
     <?php wp_reset_postdata(); ?>
   <?php else : ?>
