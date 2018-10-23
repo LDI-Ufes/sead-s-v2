@@ -1,9 +1,18 @@
 <?php get_header('principal'); ?>
 
 <main id="inicio">
+  
+  <section id="banner" class="destaque">
+    <div class="container">
+      <h2>os materiais do EaD da Ufes estão disponíveis em nosso <span>Acervo Digital</span></h2>
+      <a href="https://acervodigital.eadufes.org" target="_blank">Conheça o Acervo Sead</a>
+    </div>
+  </section>
+  
   <div class="container">
+    
     <section id="ead-na-ufes">
-      <h2>Você conhece o EaD da Ufes?</h2>
+      <h2>Você conhece a EaD da Ufes?</h2>
       <p>Nós somos a Secretaria responsável por promover ações educativas e de formação da EaD na Ufes. Fique atento aos editais para mais informações de cada curso!</p>
       <div class="topico-ead">
         <figure>
@@ -78,7 +87,7 @@
       <div class="confira-mais">
         <h2>Confira mais do que acontece nos polos</h2>
         <a href="https://www.facebook.com/sead.ufes/" title="Ir para página da Sead no Facebook"><i class="fab fa-facebook-f"></i></a>
-        <a href="/sitiosead/blog" title="Ir para a página Blog"><?php include 'svg/nossoBLOG.svg' ?></a>
+        <a href="/sitiosead/blog" title="Ir para a página Blog"><?php include 'svg/nossoBlog.svg' ?></a>
       </div>
         
     </section>
