@@ -230,11 +230,19 @@ header {
 nav.menu {
   font-weight: 500;
   text-transform: uppercase; }
+  nav.menu .menuLista li.temSubmenu > span {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: transparent; }
   nav.menu .menuLista li a {
     padding: .3em 0;
-    border-bottom: 2px solid transparent; }
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: transparent; }
     nav.menu .menuLista li a:hover {
-      border-bottom: 2px solid #e37531; }
+      border-bottom-width: 2px;
+      border-bottom-style: solid;
+      border-bottom-color: #E37531; }
   nav.menu .menuLista li.temSubmenu span {
     cursor: pointer;
     padding: .3em 0; }
@@ -249,6 +257,8 @@ nav.menu {
     border-width: 1px; }
 
 @media screen and (min-width: 993px) {
+  #barraAuxiliar ul.menuLista > li {
+    padding: .4rem .6rem; }
   #barraAuxiliar ul.menuLista > li.temSubmenu .menuSuspenso {
     right: -9999px; }
   #barraAuxiliar ul.menuLista > li.temSubmenu:hover > ul.menuSuspenso, #barraAuxiliar ul.menuLista > li.temSubmenu.menuSuspensoAtivo > ul.menuSuspenso {
@@ -256,6 +266,8 @@ nav.menu {
     #barraAuxiliar ul.menuLista > li.temSubmenu:hover > ul.menuSuspenso > li, #barraAuxiliar ul.menuLista > li.temSubmenu.menuSuspensoAtivo > ul.menuSuspenso > li {
       justify-content: flex-end; }
 
+  .topo ul.menuLista > li {
+    padding: 1.2rem 0.6rem; }
   .topo ul.menuLista > li.temSubmenu .menuSuspenso {
     left: -9999px; }
   .topo ul.menuLista > li.temSubmenu:hover > ul.menuSuspenso, .topo ul.menuLista > li.temSubmenu.menuSuspensoAtivo > ul.menuSuspenso {
@@ -277,8 +289,7 @@ nav.menu {
         box-shadow: inset 4px 0px 4px rgba(0, 0, 0, 0.25); }
     nav.menu > ul > li {
       display: inline-flex;
-      align-items: center;
-      padding: 1.2rem 0.6rem; }
+      align-items: center; }
       nav.menu > ul > li ul li {
         display: inline-flex;
         align-items: center;
@@ -1682,13 +1693,17 @@ footer {
       #secretaria .destaque .titulo .fas {
         margin: .5rem 0;
         font-size: 3.875rem; }
+    @media (max-width: 992px) {
+      #secretaria .destaque {
+        min-height: 35vh; }
+        #secretaria .destaque .titulo {
+          padding: 3rem 1rem; } }
   #secretaria #abas {
     position: relative;
     display: inline-flex;
     flex-direction: column;
     margin: 0 -100px;
     width: calc(100% + 200px);
-    height: 200px;
     padding: 3.5rem 0;
     overflow: hidden; }
     #secretaria #abas:before, #secretaria #abas:after {
@@ -1712,8 +1727,13 @@ footer {
       font-size: 3rem;
       font-weight: 800;
       color: #E37531; }
+      #secretaria #abas .tabsList a:hover {
+        color: #e9935e; }
       #secretaria #abas .tabsList .current {
         color: #1661A6; }
+        #secretaria #abas .tabsList .current a:hover {
+          cursor: default;
+          color: inherit; }
     #secretaria #abas .tabPanel {
       text-align: center;
       line-height: 2.4rem;
@@ -1747,7 +1767,9 @@ footer {
     #secretaria #estrutura #planta-sead img {
       width: 100%;
       margin-top: 4rem; }
-  @media (min-width: 992px) {
+  @media (min-width: 993px) {
+    #secretaria #abas {
+      min-height: 200px; }
     #secretaria #estrutura {
       margin-top: 7rem; }
       #secretaria #estrutura #dirigentes li {
@@ -1771,6 +1793,33 @@ footer {
           right: 0;
           top: -2rem;
           margin-top: 0; } }
+  @media (max-width: 992px) {
+    #secretaria #abas {
+      margin: 0;
+      width: 100%;
+      padding: 0; }
+      #secretaria #abas:before, #secretaria #abas:after {
+        content: ""; }
+      #secretaria #abas .tabsList {
+        position: relative;
+        justify-content: space-around;
+        margin: 0 auto;
+        max-width: 720px;
+        line-height: 2.75rem;
+        font-size: 2rem; }
+      #secretaria #abas .tabPanel {
+        line-height: 2rem;
+        font-size: 1.25rem; } }
+  @media (max-width: 576px) {
+    #secretaria #abas {
+      border-left: 4px solid #1661A6;
+      width: calc(100% - 20px);
+      padding-left: 15px; }
+      #secretaria #abas .tabsList {
+        flex-direction: column;
+        width: 100%; }
+      #secretaria #abas .tabPanel {
+        text-align: left; } }
 
 /* #secretaria */
 #ead-na-ufes {
@@ -1791,6 +1840,11 @@ footer {
       #ead-na-ufes .destaque .titulo .fas {
         margin: .5rem 0;
         font-size: 3.875rem; }
+    @media (max-width: 992px) {
+      #ead-na-ufes .destaque {
+        min-height: 35vh; }
+        #ead-na-ufes .destaque .titulo {
+          padding: 3rem 1rem; } }
   #ead-na-ufes .breadcrumb {
     margin-bottom: 4rem; }
   #ead-na-ufes #slider {
