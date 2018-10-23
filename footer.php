@@ -49,7 +49,7 @@
     </section>
   </div>
   <div class="creditos">
-    <p>2018 - Todos os direitos reservados. <span><a href="http://www.ufes.br/" title="Ir para o sítio da Ufes">Ufes</a> | Sead | <a href="https://ldi.eadufes.org/" title="Ir para o sítio do LDI">LDI</a> | Educação a Distância Ufes</span></p>
+    <p>2018 - Todos os direitos reservados. <span><a href="http://www.ufes.br/" target="_blank" title="Ir para o sítio da Ufes">Ufes</a> | Sead | <a href="https://ldi.eadufes.org/" target="_blank" title="Ir para o sítio do LDI">LDI</a> | Educação a Distância Ufes</span></p>
     <?php echo file_get_contents(get_template_directory_uri() . '/svg/ldi.svg'); ?>
   </div>
 </footer>

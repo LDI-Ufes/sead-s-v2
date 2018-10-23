@@ -111,9 +111,9 @@
         </li>
       </ul>
       <div id="planta-sead">
-        <span>Quer nos visitar ou conhecer melhor nossa estrutura? Clique no mapa!</span>
+        <span>Quer nos visitar ou conhecer melhor nossa estrutura?</span>
         <button>Abrir mapa detalhado</button>
-        <a href="" title="Abrir mapa detalhado"><img src="<?php echo site_url(); ?>/wp-content/themes/sead-v2/img/planta-sead.png"></a>
+        <a title="Abrir mapa detalhado"><img src="<?php echo site_url(); ?>/wp-content/themes/sead-v2/img/planta-sead.png"></a>
       </div>
       
     </section> <!-- estrutura -->
