@@ -35,4 +35,3 @@ $('.temSubmenu span').click(function() {
 $('.btoMenu').click(function() {
   $(this).children('i.fas').toggleClass('expandido');
 })
-
