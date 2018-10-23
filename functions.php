@@ -23,7 +23,7 @@ function create_post_type() {
       'supports' => array( 
         'title', 
         'editor', 
-        'excerpt', 
+        'excerpt'
       ),
       'rewrite' => array(
         'slug' => 'editais',
@@ -79,21 +79,21 @@ add_action('init', 'create_editais_tax');
 
 function create_editais_tax() {
     register_taxonomy(
-        'curso', 'editais', array(
+        'curso', 'edital', array(
         'label' => __('Curso'),
         'rewrite' => array('slug' => 'curso'),
         'hierarchical' => true,
             )
     );
     register_taxonomy(
-        'tipo-de-curso', 'editais', array(
+        'tipo-de-curso', 'edital', array(
         'label' => __('Tipo de Curso'),
         'rewrite' => array('slug' => 'tipo-de-curso'),
         'hierarchical' => true,
             )
     );
         register_taxonomy(
-        'atribuicao', 'editais', array(
+        'atribuicao', 'edital', array(
         'label' => __('Atribuição'),
         'rewrite' => array('slug' => 'atribuicao'),
         'hierarchical' => true,
