@@ -4,12 +4,24 @@ nav.menu {
 
   .menuLista {
     li {
+      @mixin bordaItemMenu($cor) {
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+        border-bottom-color: $cor;
+      }
+
+      &.temSubmenu {
+        > span {
+          @include bordaItemMenu(transparent);
+        }
+      }
+
       a {
         padding: .3em 0;
-        border-bottom: 2px solid transparent;
+        @include bordaItemMenu(transparent);
 
         &:hover {
-          border-bottom: 2px solid #e37531;
+          @include bordaItemMenu($laranja);
         }
       }
 
@@ -47,6 +59,10 @@ nav.menu {
 
     ul.menuLista {
 
+      > li {
+        padding: .4rem .6rem;
+      }
+
       > li.temSubmenu {
 
         .menuSuspenso {
@@ -71,6 +87,10 @@ nav.menu {
   .topo {
 
     ul.menuLista {
+
+      > li {
+        padding: 1.2rem 0.6rem;
+      }
 
       > li.temSubmenu {
 
@@ -118,7 +138,6 @@ nav.menu {
     > ul > li {
       display: inline-flex;
       align-items: center;
-      padding: 1.2rem 0.6rem;
 
       ul li {
         display: inline-flex;
@@ -135,10 +154,6 @@ nav.menu {
         &:hover,
         &.menuSuspensoAtivo {
           z-index: 100;
-
-          > ul.menuSuspenso {
-            //left: 0;
-          }
         }
       }
     }
@@ -147,7 +162,6 @@ nav.menu {
       .menuSuspenso {
         position: absolute;
         top: 100%;
-        //left: -9999em;
         flex-flow: column;
         background-color: $azulEscuro;
         padding: 1em 0 0.75em 0;
