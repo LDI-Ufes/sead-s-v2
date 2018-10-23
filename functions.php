@@ -112,6 +112,19 @@ function create_galeria_tax() {
             )
     );
 }
+
+add_action('init', 'create_noticia_tax');
+
+function create_noticia_tax() {
+    register_taxonomy(
+        'tag', 'noticia', array(
+        'label' => __('Tag'),
+        'rewrite' => array('slug' => 'tag'),
+        'hierarchical' => true,
+            )
+    );
+}
+
 add_action( 'pre_get_posts' ,'paginate_post_type_edital', 1, 1 );
 
 function paginate_post_type_edital( $query ){
