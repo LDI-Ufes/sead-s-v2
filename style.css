@@ -433,17 +433,18 @@ footer {
   #inicio #banner {
     min-height: 20vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./img/video-destaque.png");
-    background-size: cover; }
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 2rem; }
     #inicio #banner .container {
       margin-top: 0; }
       #inicio #banner .container h2 {
-        margin: 0;
-        padding-top: 3rem;
+        margin: 0 auto;
+        padding: 2rem 0;
         color: white;
         max-width: 350px;
         font-weight: 300;
-        font-style: italic;
-        display: inline-block; }
+        font-style: italic; }
         #inicio #banner .container h2 span {
           font-family: "Merriweather", serif;
           font-weight: 700;
@@ -451,9 +452,6 @@ footer {
           display: block;
           font-size: 2rem;
           line-height: 1.5; }
-      #inicio #banner .container a {
-        margin: 6.5rem 3rem 0;
-        float: right; }
   #inicio #ultimos-editais {
     background-color: #EDF9FF;
     padding: 1.5rem; }
@@ -735,6 +733,17 @@ footer {
       /* #quer-ser */
       /* #noticias */
       /* #polos */ }
+      #inicio #banner {
+        text-align: left;
+        padding-bottom: 0; }
+        #inicio #banner .container h2 {
+          padding-top: 3rem;
+          padding-bottom: 1rem;
+          display: inline-block;
+          margin: 0; }
+        #inicio #banner .container a {
+          margin: 6.5rem 3rem 0;
+          float: right; }
       #inicio .container {
         max-width: 960px;
         margin: 3rem auto; }

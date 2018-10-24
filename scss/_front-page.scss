@@ -6,18 +6,19 @@
     min-height: 20vh;
     background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('./img/video-destaque.png');
     background-size: cover;
+    text-align: center;
+    padding-bottom: 2rem;
     
     .container{
       margin-top: 0;
       
       h2{
-        margin: 0;
-        padding-top: 3rem;
+        margin: 0 auto;
+        padding: 2rem 0;
         color: white;
         max-width: 350px;
         font-weight: $light;
         font-style: italic;
-        display: inline-block;
 
         span{
           font-family: $merriweather;
@@ -31,8 +32,6 @@
 
       a{ 
         @extend %botao; 
-        margin: 6.5rem 3rem 0;
-        float: right; 
       }
     }
   }
@@ -325,7 +324,27 @@
   @media screen and (min-width: 992px) {
     margin: unset;
     max-width: unset;
+    
+    #banner{
+      text-align: left;
+      padding-bottom: 0;
+      
+      .container{
 
+        h2{
+          padding-top: 3rem;
+          padding-bottom: 1rem;
+          display: inline-block;
+          margin: 0;
+        }
+
+        a{ 
+          margin: 6.5rem 3rem 0;
+          float: right; 
+        }
+      }
+    }
+  
     /*PASSAR PRA GLOBAIS OU NAO*/
     .container{
       max-width: 960px;
