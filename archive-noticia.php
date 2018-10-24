@@ -11,7 +11,7 @@
               <div class="post-date"><?php the_date('j \d\e F \d\e Y'); ?></div>
             </div>
             <h3><a href="<?php the_permalink() ?>" title="Ir para notícia: <?php the_title(); ?>"><?php the_title(); ?></a></h3>
-            <p><?php echo wp_trim_words(get_the_content(), 40, ' [...]'); ?></p>
+            <p><?php echo wp_trim_words( strip_shortcodes( get_the_content() ), 40, ' [...]'); ?></p>
           </li>
       <?php endwhile; ?>
         <div id="postsNav">  
