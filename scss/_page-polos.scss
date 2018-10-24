@@ -13,17 +13,17 @@
       margin-bottom: 2rem;
 
       h2{
-        color: $laranja;
+        color: $laranjaRegular;
         font-size: 1.5rem;
       }
 
       i{
-        color: $azulClaro;
+        color: $azulRegular;
       }
 
       p{
         font-size: 2rem;
-        color: $azul;
+        color: $azulRegular;
         line-height: 1.3;
         margin-top: 1rem;
         position: relative;
@@ -47,15 +47,15 @@
 
         button.municipioTitulo{
           font-weight: $medium;
-          color: $azul;
+          color: $azulRegular;
           cursor: pointer;
           transition: font-size .2s;
           border: none;
           background: none;
 
           &:hover{
-            border-bottom: solid .5px $azulEscuro;
-            color: $azulEscuro;
+            border-bottom: solid .5px $azulMedio;
+            color: $azulMedio;
           }
         }
 
@@ -65,14 +65,14 @@
           padding-top: 1rem;
           padding-left: 1rem;
 
-          i{color: $laranja;}
+          i{color: $laranjaRegular;}
         }
 
         &.expandido{
           button.municipioTitulo{
             font-weight: $bold;
             font-size: 1.5rem;
-            color: $laranja;
+            color: $laranjaRegular;
 
             &:hover{
               border: none;
@@ -120,21 +120,10 @@
 
             g { 
               .geografia {fill: $azulClaro;}
-
-              .pin {
-                fill: darken($azul, 40%) !important;
-                stroke: none;
-              }
-
-              text {fill: #333;}
             }
 
             &:hover{
-              g > .geografia {fill: $azul;}
-            }
-
-            &.selecionado{
-              g > .geografia{fill: $laranjaClaro;}
+              g > .geografia {fill: $laranjaClaro;}
             }
           }
         } /* #comPolos */

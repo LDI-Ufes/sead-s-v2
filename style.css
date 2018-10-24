@@ -8,19 +8,13 @@ Description: Tema desenvolvido para o sítio da Secretaria de Ensino a Distânci
 Version: 2.0
 */
 /*
-$azulExtraClaro: #EDF9FF;
-$azulClaro: #CFEAFF;
-$azulRegular: #1765AB;
-$azulMedio: #05427B;
-$azulEscuro: #043166;
+$azul: #1661A6;
+$azulClaro: #5992DD;
+$azulEscuro: #043767;
 
-$laranjaExtraClaro: #FFDCC5;
-$laranjaClaro: #FFA161;
-$laranjaRegular: #F06C00;
-$laranjaMedio: #DB5800;
-$laranjaEscuro: #C75000;
-
-*/
+$laranja: #E37531;
+$laranjaClaro: #FDA65B;
+$laranjaEscuro: #9C4C22;*/
 a {
   text-decoration: none;
   color: inherit; }
@@ -37,7 +31,7 @@ button {
 
 /* .page > #ead-na-ufes, #secretaria */
 #inicio #banner .container a, #page-blog a[role=button], #page-galeria #eventos li .imagens .abrirTodas, #edital .secao-edital#inscricao a[role="button"], #secretaria #estrutura #planta-sead button {
-  background-color: #E37531;
+  background-color: #C75000;
   text-transform: uppercase;
   color: white;
   border: none;
@@ -45,7 +39,7 @@ button {
   margin: 1rem 0;
   font-weight: 500; }
   #inicio #banner .container a:hover, #page-blog a[role=button]:hover, #page-galeria #eventos li .imagens .abrirTodas:hover, #edital .secao-edital#inscricao a[role="button"]:hover, #secretaria #estrutura #planta-sead button:hover {
-    background-color: #9C4C22; }
+    background-color: #C75000; }
 
 .page p, .page blockquote, #secretaria #estrutura h3, #faq ul li {
   max-width: 720px;
@@ -53,7 +47,7 @@ button {
   margin-left: auto !important; }
 
 *:focus {
-  outline: 2px solid #E37531;
+  outline: 2px solid #F06C00;
   outline-offset: 2px;
   z-index: 7; }
 
@@ -86,27 +80,13 @@ section.caixa {
   .container h1 {
     padding: 0; }
 
-.breadcrumb {
-  font-size: .8rem; }
-  .breadcrumb a {
-    color: #1661A6;
-    font-weight: 500; }
-    .breadcrumb a:hover {
-      color: #E37531;
-      text-decoration: underline; }
-  .breadcrumb span {
-    color: #5992DD; }
-  .breadcrumb .seta {
-    color: #E37531;
-    font-weight: 700; }
-
-h1 {
+/*h1 {
   font-size: 2.5rem;
-  font-weight: 700;
-  color: #1661A6;
+  font-weight: $bold;
+  color: $azulRegular;
   padding: 2rem 0 1rem;
-  line-height: 1.3; }
-
+  line-height: 1.3;
+}*/
 @media screen and (min-width: 992px) {
   .container {
     max-width: 960px;
@@ -126,7 +106,7 @@ header {
     order: 1; }
   header #barraAuxiliar {
     display: inline-flex;
-    background-color: #043767;
+    background-color: #043166;
     font-weight: 300;
     font-size: 0.875rem;
     order: 2;
@@ -185,7 +165,7 @@ header {
     position: relative;
     height: 100px;
     padding: 0 20px;
-    background-color: #1661A6; }
+    background-color: #1765AB; }
     .topo .caixa {
       display: inline-flex;
       justify-content: space-between; } }
@@ -220,7 +200,7 @@ header {
         margin: 0 0 10px 0; }
 
   .topo {
-    background-color: #1661a6;
+    background-color: #1765AB;
     color: white; }
     .topo a {
       text-decoration: none;
@@ -235,7 +215,7 @@ header {
       padding: 10px 0; }
     .topo .caixa .btoMenu {
       padding: 10px;
-      background-color: #043767;
+      background-color: #043166;
       line-height: 30px;
       text-transform: uppercase; }
 
@@ -256,7 +236,7 @@ nav.menu {
     nav.menu .menuLista li a:hover {
       border-bottom-width: 2px;
       border-bottom-style: solid;
-      border-bottom-color: #E37531; }
+      border-bottom-color: #F06C00; }
   nav.menu .menuLista li.temSubmenu span {
     cursor: pointer;
     padding: .3em 0; }
@@ -317,7 +297,7 @@ nav.menu {
       position: absolute;
       top: 100%;
       flex-flow: column;
-      background-color: #043767;
+      background-color: #043166;
       padding: 1em 0 0.75em 0;
       box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
       white-space: normal; }
@@ -368,21 +348,15 @@ nav.menu {
       transform: translateX(0);
       z-index: 0; } }
 /*
-$azulExtraClaro: #EDF9FF;
-$azulClaro: #CFEAFF;
-$azulRegular: #1765AB;
-$azulMedio: #05427B;
-$azulEscuro: #043166;
+$azul: #1661A6;
+$azulClaro: #5992DD;
+$azulEscuro: #043767;
 
-$laranjaExtraClaro: #FFDCC5;
-$laranjaClaro: #FFA161;
-$laranjaRegular: #F06C00;
-$laranjaMedio: #DB5800;
-$laranjaEscuro: #C75000;
-
-*/
+$laranja: #E37531;
+$laranjaClaro: #FDA65B;
+$laranjaEscuro: #9C4C22;*/
 footer {
-  background-color: #043767;
+  background-color: #043166;
   color: white;
   font-weight: 300;
   line-height: 1.7; }
@@ -398,15 +372,15 @@ footer {
           content: '';
           display: block;
           height: 2px;
-          background-color: #E37531;
+          background-color: #F06C00;
           width: 100%;
           margin-top: .4rem; }
       footer .content section a:hover {
-        color: #5992DD; }
+        border-bottom: solid 0.5px #F06C00; }
       footer .content section .subitens {
         margin-left: 1rem; }
   footer .creditos {
-    background-color: #E37531;
+    background-color: #C75000;
     color: white;
     height: 3rem;
     text-align: center; }
@@ -416,10 +390,9 @@ footer {
       font-size: .8rem;
       line-height: 3rem;
       vertical-align: top;
-      height: inherit;
-      /*padding-right: .2rem;*/ }
+      height: inherit; }
       footer .creditos p a:hover {
-        color: #043767; }
+        text-decoration: underline; }
       footer .creditos p span {
         display: none; }
     footer .creditos svg {
@@ -428,35 +401,29 @@ footer {
       margin-bottom: -1rem; }
       footer .creditos svg path {
         fill: white; }
+  @media screen and (min-width: 992px) {
+    footer .content {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 2rem 0; }
+      footer .content section {
+        width: calc(50% - .7rem);
+        vertical-align: top; }
+        footer .content section:nth-child(even) {
+          float: right; }
+    footer .creditos p span {
+      display: inline-block; } }
 
-@media screen and (min-width: 992px) {
-  footer .content {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 2rem 0; }
-    footer .content section {
-      width: calc(50% - .7rem);
-      vertical-align: top; }
-      footer .content section:nth-child(even) {
-        float: right; }
-  footer .creditos p span {
-    display: inline-block; } }
 #inicio {
   margin: 0;
   /*
-  $azulExtraClaro: #EDF9FF;
-  $azulClaro: #CFEAFF;
-  $azulRegular: #1765AB;
-  $azulMedio: #05427B;
-  $azulEscuro: #043166;
+  $azul: #1661A6;
+  $azulClaro: #5992DD;
+  $azulEscuro: #043767;
   
-  $laranjaExtraClaro: #FFDCC5;
-  $laranjaClaro: #FFA161;
-  $laranjaRegular: #F06C00;
-  $laranjaMedio: #DB5800;
-  $laranjaEscuro: #C75000;
-  
-  */
+  $laranja: #E37531;
+  $laranjaClaro: #FDA65B;
+  $laranjaEscuro: #9C4C22;*/
   /* #ead-na-ufes */
   /* #quer-ser */
   /* #noticias */
@@ -488,7 +455,7 @@ footer {
         margin: 6.5rem 3rem 0;
         float: right; }
   #inicio #ultimos-editais {
-    background-color: rgba(89, 146, 221, 0.15);
+    background-color: #EDF9FF;
     padding: 1.5rem; }
     #inicio #ultimos-editais .box-title {
       font-style: italic;
@@ -497,12 +464,12 @@ footer {
       margin-top: -4.5rem;
       width: 300px; }
       #inicio #ultimos-editais .box-title span {
-        color: #E37531;
+        color: #F06C00;
         font-size: 8rem;
         display: inline-block;
         font-weight: 900; }
       #inicio #ultimos-editais .box-title h2 {
-        color: #1661A6;
+        color: #1765AB;
         font-size: 2rem;
         display: inline-block;
         line-height: 1; }
@@ -519,24 +486,15 @@ footer {
         vertical-align: top; }
         #inicio #ultimos-editais ul li h3 {
           color: black;
-          border-bottom: solid 1px #E37531;
+          border-bottom: solid 1px #F06C00;
           font-size: 1.13rem;
           font-weight: 400;
           display: inline-block;
           margin: 0 .5rem 0 0; }
           #inicio #ultimos-editais ul li h3:hover {
-            border-bottom: solid 1px #9C4C22;
-            font-weight: semi-bold;
-            color: #9C4C22; }
-        #inicio #ultimos-editais ul li em {
-          background-color: #E37531;
-          color: white;
-          display: inline-block;
-          padding: .2rem;
-          font-style: normal;
-          font-size: .8rem; }
+            font-weight: 600; }
         #inicio #ultimos-editais ul li p {
-          color: #043767;
+          color: #043166;
           margin: .5rem 0;
           font-size: .8rem;
           line-height: 1.5; }
@@ -546,17 +504,17 @@ footer {
             font-size: 1rem; }
         #inicio #ultimos-editais ul li:nth-of-type(odd) {
           margin-right: .8rem; }
-  @media screen and (min-width: 652px) {
-    #inicio #ultimos-editais .box-title {
-      width: 600px; }
-    #inicio #ultimos-editais ul {
-      max-width: 620px; } }
-  @media screen and (min-width: 992px) {
-    #inicio #ultimos-editais {
-      padding: 1.2rem; }
+    @media screen and (min-width: 652px) {
       #inicio #ultimos-editais .box-title {
-        width: 100%;
-        max-width: 300px; } }
+        width: 600px; }
+      #inicio #ultimos-editais ul {
+        max-width: 620px; } }
+    @media screen and (min-width: 992px) {
+      #inicio #ultimos-editais {
+        padding: 1.2rem; }
+        #inicio #ultimos-editais .box-title {
+          width: 100%;
+          max-width: 300px; } }
   #inicio .container {
     padding: 0; }
   #inicio #ead-na-ufes {
@@ -584,7 +542,7 @@ footer {
           height: 72px;
           width: auto; }
         #inicio #ead-na-ufes .topico-ead figure figcaption {
-          color: #E37531;
+          color: #C75000;
           text-transform: uppercase;
           font-weight: 700; }
   #inicio #quer-ser {
@@ -606,7 +564,7 @@ footer {
         #inicio #quer-ser .container #quer-ser-titulo .box-titulo {
           position: absolute;
           left: 0;
-          border-bottom: 5rem solid #9C4C22;
+          border-bottom: 5rem solid #C75000;
           border-left: 0 solid transparent;
           border-right: 25px solid transparent;
           width: 80%;
@@ -620,7 +578,7 @@ footer {
         #inicio #quer-ser .container #quer-ser-itens .box-titulo {
           position: absolute;
           right: 0;
-          border-top: 10rem solid #FDA65B;
+          border-top: 10rem solid #F06C00;
           border-left: 40px solid transparent;
           border-right: 0 solid transparent;
           width: 85%;
@@ -635,13 +593,12 @@ footer {
           #inicio #quer-ser .container #quer-ser-itens li:first-child {
             margin-right: 1.5rem; }
           #inicio #quer-ser .container #quer-ser-itens li i {
-            color: #9C4C22;
             padding-left: 0.5rem; }
           #inicio #quer-ser .container #quer-ser-itens li div {
             display: inline-block;
             height: 4rem; }
           #inicio #quer-ser .container #quer-ser-itens li .numero {
-            color: #9C4C22;
+            color: #C75000;
             font-size: 2.8rem;
             font-weight: 700;
             background-color: white;
@@ -668,7 +625,7 @@ footer {
       display: inline-block;
       flex-grow: 1;
       width: 100%;
-      border-top: solid 3px #E37531;
+      border-top: solid 3px #F06C00;
       position: relative;
       margin-bottom: 2rem;
       height: 300px;
@@ -677,14 +634,14 @@ footer {
       flex-wrap: wrap;
       padding: 0 1rem; }
       #inicio #noticias .confira-mais h2 {
-        color: #9C4C22;
+        color: #F06C00;
         font-weight: 300;
         font-size: 2.3rem;
         margin: .5rem 0;
         line-height: 2.8rem; }
       #inicio #noticias .confira-mais a {
         width: calc(50% - 0.5rem);
-        background-image: linear-gradient(#043767, #1661A6);
+        background-image: linear-gradient(#043166, #1765AB);
         display: inline-block;
         color: white;
         height: 50%;
@@ -694,7 +651,7 @@ footer {
         #inicio #noticias .confira-mais a:last-child {
           margin-left: 1rem; }
         #inicio #noticias .confira-mais a:hover {
-          background-image: linear-gradient(#043767, #5992DD); }
+          background-image: linear-gradient(#043166, #0074cf); }
         #inicio #noticias .confira-mais a svg {
           max-width: 5rem;
           height: 100%;
@@ -708,7 +665,7 @@ footer {
       display: inline-block;
       flex-grow: 1;
       width: 100%;
-      border-top: solid 3px #E37531;
+      border-top: solid 3px #F06C00;
       position: relative;
       margin-bottom: 2rem;
       height: 300px; }
@@ -721,7 +678,7 @@ footer {
         left: 0;
         height: 100%;
         opacity: .6;
-        background-image: linear-gradient(rgba(89, 146, 221, 0), #053c7b); }
+        background-image: linear-gradient(transparent, #043166); }
       #inicio #noticias .noticia img {
         width: 100%;
         object-fit: cover;
@@ -742,11 +699,11 @@ footer {
       #inicio #noticias .noticia:nth-of-type(n+3) {
         display: none; }
   #inicio #polos {
-    color: #043767;
-    background-color: #FDA65B;
+    color: #043166;
+    background-color: #FFDCC5;
     padding: 2.5rem 1rem; }
     #inicio #polos h2 {
-      color: white;
+      color: #C75000;
       font-size: 2rem;
       margin-top: 0; }
     #inicio #polos p {
@@ -757,7 +714,7 @@ footer {
       font-weight: 700;
       font-size: 1.5rem; }
       #inicio #polos a:hover {
-        border-bottom: solid 1px #043767; }
+        border-bottom: solid 1px #043166; }
     #inicio #polos svg {
       display: none; }
   @media screen and (min-width: 652px) {
@@ -768,7 +725,7 @@ footer {
       #inicio #quer-ser .container #quer-ser-itens {
         max-width: 600px; }
         #inicio #quer-ser .container #quer-ser-itens .box-titulo {
-          border-top: 5rem solid #FDA65B;
+          border-top: 5rem solid #F06C00;
           border-left: 25px solid transparent; } }
   @media screen and (min-width: 992px) {
     #inicio {
@@ -845,7 +802,7 @@ footer {
   .page p {
     font-weight: 300; }
   .page blockquote {
-    color: #E37531;
+    color: #F06C00;
     font-family: "Merriweather", serif;
     font-weight: 700;
     font-style: italic;
@@ -855,65 +812,60 @@ footer {
     font-size: .8rem;
     margin: 1.5rem 0; }
     .page .breadcrumb a {
-      color: #1661A6;
+      color: #05427B;
       font-weight: 500; }
       .page .breadcrumb a:hover {
-        color: #E37531;
-        text-decoration: underline; }
+        color: #043166;
+        text-decoration: underline;
+        font-weight: 700; }
     .page .breadcrumb span {
-      color: #5992DD; }
+      color: #1765AB; }
     .page .breadcrumb i {
-      color: #E37531;
+      color: #F06C00;
       font-weight: 700;
       font-size: .6rem;
       padding: 0 .3rem; }
   .page h1 {
     font-size: 2.5rem;
     font-weight: 700;
-    color: #1661A6;
+    color: #1765AB;
     padding: 1rem 0 1rem;
     line-height: 1.3;
     margin: 0; }
   .page h2 {
-    color: #1661A6;
+    color: #1765AB;
     font-size: 2rem;
     margin-bottom: 3rem; }
   .page h3 {
-    color: #E37531;
+    color: #F06C00;
     margin-top: 3rem; }
   .page #paginacao {
-    color: #E37531;
+    color: #C75000;
     padding: 2rem 1rem 4rem;
     text-align: center;
     font-weight: 700; }
     .page #paginacao a, .page #paginacao span {
       padding: 0 1rem; }
     .page #paginacao a:hover {
-      border-bottom: solid 1px #9C4C22;
-      color: #9C4C22; }
+      border-bottom: solid 1px #C75000;
+      color: #C75000; }
     .page #paginacao span {
-      color: #1661A6; }
+      color: #1765AB; }
     .page #paginacao h2 {
       display: none; }
 
 /* page */
 #page-blog {
   /*
-  $azulExtraClaro: #EDF9FF;
-  $azulClaro: #CFEAFF;
-  $azulRegular: #1765AB;
-  $azulMedio: #05427B;
-  $azulEscuro: #043166;
+  $azul: #1661A6;
+  $azulClaro: #5992DD;
+  $azulEscuro: #043767;
   
-  $laranjaExtraClaro: #FFDCC5;
-  $laranjaClaro: #FFA161;
-  $laranjaRegular: #F06C00;
-  $laranjaMedio: #DB5800;
-  $laranjaEscuro: #C75000;
-  
-  */ }
+  $laranja: #E37531;
+  $laranjaClaro: #FDA65B;
+  $laranjaEscuro: #9C4C22;*/ }
   #page-blog #ultimos-editais {
-    background-color: rgba(89, 146, 221, 0.15);
+    background-color: #EDF9FF;
     padding: 1.5rem; }
     #page-blog #ultimos-editais .box-title {
       font-style: italic;
@@ -922,12 +874,12 @@ footer {
       margin-top: -4.5rem;
       width: 300px; }
       #page-blog #ultimos-editais .box-title span {
-        color: #E37531;
+        color: #F06C00;
         font-size: 8rem;
         display: inline-block;
         font-weight: 900; }
       #page-blog #ultimos-editais .box-title h2 {
-        color: #1661A6;
+        color: #1765AB;
         font-size: 2rem;
         display: inline-block;
         line-height: 1; }
@@ -944,24 +896,15 @@ footer {
         vertical-align: top; }
         #page-blog #ultimos-editais ul li h3 {
           color: black;
-          border-bottom: solid 1px #E37531;
+          border-bottom: solid 1px #F06C00;
           font-size: 1.13rem;
           font-weight: 400;
           display: inline-block;
           margin: 0 .5rem 0 0; }
           #page-blog #ultimos-editais ul li h3:hover {
-            border-bottom: solid 1px #9C4C22;
-            font-weight: semi-bold;
-            color: #9C4C22; }
-        #page-blog #ultimos-editais ul li em {
-          background-color: #E37531;
-          color: white;
-          display: inline-block;
-          padding: .2rem;
-          font-style: normal;
-          font-size: .8rem; }
+            font-weight: 600; }
         #page-blog #ultimos-editais ul li p {
-          color: #043767;
+          color: #043166;
           margin: .5rem 0;
           font-size: .8rem;
           line-height: 1.5; }
@@ -971,17 +914,17 @@ footer {
             font-size: 1rem; }
         #page-blog #ultimos-editais ul li:nth-of-type(odd) {
           margin-right: .8rem; }
-  @media screen and (min-width: 652px) {
-    #page-blog #ultimos-editais .box-title {
-      width: 600px; }
-    #page-blog #ultimos-editais ul {
-      max-width: 620px; } }
-  @media screen and (min-width: 992px) {
-    #page-blog #ultimos-editais {
-      padding: 1.2rem; }
+    @media screen and (min-width: 652px) {
       #page-blog #ultimos-editais .box-title {
-        width: 100%;
-        max-width: 300px; } }
+        width: 600px; }
+      #page-blog #ultimos-editais ul {
+        max-width: 620px; } }
+    @media screen and (min-width: 992px) {
+      #page-blog #ultimos-editais {
+        padding: 1.2rem; }
+        #page-blog #ultimos-editais .box-title {
+          width: 100%;
+          max-width: 300px; } }
   #page-blog .container {
     width: 100%;
     padding: 0;
@@ -996,7 +939,7 @@ footer {
       min-height: 100px;
       max-height: 250px; }
       #page-blog #posts .blog-post .blog-post-header span {
-        background-color: #043767;
+        background-color: #05427B;
         color: white;
         text-transform: uppercase;
         position: absolute;
@@ -1018,7 +961,7 @@ footer {
         top: 0;
         width: 100%;
         opacity: .6;
-        background-image: linear-gradient(rgba(89, 146, 221, 0), #053c7b); }
+        background-image: linear-gradient(transparent, #05427B); }
       #page-blog #posts .blog-post .blog-post-header .post-date {
         color: white;
         position: absolute;
@@ -1027,23 +970,24 @@ footer {
         padding: .8rem;
         font-size: .8rem; }
     #page-blog #posts .blog-post h3 {
-      color: #043767;
+      color: #05427B;
       font-weight: 600;
       font-size: 1.3rem;
       margin: 1.5rem; }
       #page-blog #posts .blog-post h3 a:hover {
-        border-bottom: solid 1px #043767; }
+        color: #043166;
+        border-bottom: solid 1px #043166; }
     #page-blog #posts .blog-post p {
       font-family: "Merriweather", serif;
       font-weight: 400;
       line-height: 1.5;
       margin: 1rem 1.5rem; }
   #page-blog #posts #postsNav {
-    color: #E37531;
+    color: #C75000;
     padding: 0 1rem 6rem; }
     #page-blog #posts #postsNav a:hover {
-      border-bottom: solid 1px #9C4C22;
-      color: #9C4C22; }
+      border-bottom: solid 1px #C75000;
+      color: #C75000; }
     #page-blog #posts #postsNav .nav-right {
       float: right; }
     #page-blog #posts #postsNav .nav-left {
@@ -1053,7 +997,7 @@ footer {
     padding: 1.5rem; }
     #page-blog #informativo h2 {
       position: relative;
-      color: #E37531;
+      color: #F06C00;
       text-transform: uppercase; }
       #page-blog #informativo h2 span {
         background-color: #fff;
@@ -1064,7 +1008,7 @@ footer {
         display: block;
         vertical-align: middle;
         height: 2px;
-        background-color: #E37531;
+        background-color: #F06C00;
         width: 100%;
         margin-right: -100%;
         position: absolute;
@@ -1074,28 +1018,28 @@ footer {
     #page-blog #informativo label {
       font-size: 1.6rem;
       font-weight: 300;
-      color: #E37531; }
+      color: #F06C00; }
     #page-blog #informativo form {
       display: inline-flex;
       width: 100%; }
       #page-blog #informativo form input {
         margin-top: 1rem;
         font-family: 'Fira Sans', sans-serif !important;
-        border: solid 1px #043767; }
+        border: solid 1px #05427B; }
         #page-blog #informativo form input[type=email] {
           height: 1.5rem;
-          background-color: rgba(89, 146, 221, 0.05);
+          background-color: #EDF9FF;
           padding-left: .5rem;
           width: 100%; }
         #page-blog #informativo form input[type=submit] {
-          background-color: #043767;
+          background-color: #05427B;
           text-transform: uppercase;
           color: white;
           font-size: .8rem;
           padding: .35rem;
           width: 70px; }
   #page-blog .social-media {
-    background: linear-gradient(45deg, #043767, #1661A6);
+    background: linear-gradient(45deg, #043166, #1765AB);
     border: none;
     color: white;
     width: calc(100% - 3rem);
@@ -1117,9 +1061,9 @@ footer {
       text-align: right;
       padding-right: 1rem; }
     #page-blog .social-media:hover {
-      background: linear-gradient(45deg, #043767, #5992DD); }
+      background: linear-gradient(45deg, #043166, #0074cf); }
   #page-blog #galeria {
-    background-color: #FDA65B;
+    background-color: #FFA161;
     margin-top: 5rem;
     padding-top: 2rem;
     padding-bottom: 5rem; }
@@ -1127,7 +1071,7 @@ footer {
       width: unset;
       padding: 0 1rem; }
     #page-blog #galeria h2 {
-      background-color: #9C4C22;
+      background-color: #C75000;
       color: white;
       text-transform: uppercase;
       position: absolute;
@@ -1136,7 +1080,7 @@ footer {
       font-size: 1.2rem; }
     #page-blog #galeria ul li {
       font-weight: 300;
-      color: white;
+      color: #C75000;
       font-size: 1.2rem;
       padding-top: 1rem;
       width: 100%;
@@ -1172,7 +1116,8 @@ footer {
         position: absolute;
         bottom: 1.5rem;
         right: 0;
-        background-color: rgba(171, 71, 17, 0.7);
+        background-color: #C75000;
+        opacity: .7;
         width: calc(50% - .75rem);
         height: 10rem; }
         #page-blog #galeria ul li .ver-mais span {
@@ -1182,16 +1127,18 @@ footer {
           text-align: center;
           font-size: .8rem;
           font-weight: 700;
-          padding-top: 4.5rem; }
+          padding-top: 4.5rem;
+          color: white; }
         #page-blog #galeria ul li .ver-mais:hover {
-          background-color: rgba(171, 71, 17, 0.9); }
+          background-color: #C75000;
+          opacity: .8; }
   #page-blog a[role=button] {
     background-color: white;
-    color: #9C4C22;
+    color: #C75000;
     float: right;
     margin: 0; }
     #page-blog a[role=button]:hover {
-      background-color: #9C4C22;
+      background-color: #C75000;
       color: white; }
   @media screen and (min-width: 992px) {
     #page-blog .container {
@@ -1232,179 +1179,161 @@ footer {
       #page-blog #galeria ul li .ver-mais {
         width: calc(25% - 1.15rem); } }
 
-#page-editais {
-  /*  #paginacao{
-      color: $laranja;
-      padding: 3rem 0;
-  
-      a:hover{
-        border-bottom: solid 1px $laranjaEscuro;
-        color: $laranjaEscuro;
-      }
-  
-      .nav-right{
-        float: right;
-      }
-  
-      .nav-left{
-        float: left;
-      }
-    }*/ }
-  #page-editais #filtros {
-    padding-bottom: 3rem; }
-    #page-editais #filtros #aplicados {
-      padding: 1rem 0;
-      color: white; }
-      #page-editais #filtros #aplicados span {
-        background-color: #1661A6;
-        padding: 5px;
-        font-size: .8rem;
-        padding-left: 8px;
-        display: inline-block;
-        margin-bottom: 5px; }
-      #page-editais #filtros #aplicados button.excluir-filtro {
-        background-color: transparent;
-        border: none;
-        color: white;
-        margin-left: 5px; }
-    #page-editais #filtros #seletores {
-      border: solid 0.5px #5992DD; }
-      #page-editais #filtros #seletores button#mostra-seletores {
+#page-editais #filtros {
+  padding-bottom: 3rem; }
+  #page-editais #filtros #aplicados {
+    padding: 1rem 0;
+    color: white; }
+    #page-editais #filtros #aplicados span {
+      background-color: #1765AB;
+      padding: 5px;
+      font-size: .8rem;
+      padding-left: 8px;
+      display: inline-block;
+      margin-bottom: 5px; }
+    #page-editais #filtros #aplicados button.excluir-filtro {
+      background-color: transparent;
+      border: none;
+      color: white;
+      margin-left: 5px; }
+  #page-editais #filtros #seletores {
+    border: solid 0.5px #CFEAFF; }
+    #page-editais #filtros #seletores button#mostra-seletores {
+      font-size: 1.2rem;
+      border: none;
+      background: none;
+      text-align: left;
+      padding: 10px 15px;
+      position: relative;
+      width: 100%;
+      border-bottom: solid 0.5px #CFEAFF; }
+      #page-editais #filtros #seletores button#mostra-seletores i {
+        right: 15px;
+        position: absolute;
+        color: gray; }
+    #page-editais #filtros #seletores .lista-filtros {
+      display: none;
+      font-weight: 300;
+      vertical-align: top; }
+      #page-editais #filtros #seletores .lista-filtros button.exibe-filtros {
         font-size: 1.2rem;
         border: none;
         background: none;
+        width: 100%;
         text-align: left;
         padding: 10px 15px;
-        position: relative;
-        width: 100%;
-        border-bottom: solid 0.5px #5992DD; }
-        #page-editais #filtros #seletores button#mostra-seletores i {
+        position: relative; }
+        #page-editais #filtros #seletores .lista-filtros button.exibe-filtros:after {
+          content: '\f107';
           right: 15px;
+          width: auto;
+          font-family: "Font Awesome 5 Free";
+          font-weight: 600;
           position: absolute;
-          color: gray; }
-      #page-editais #filtros #seletores .lista-filtros {
+          color: lightgray; }
+      #page-editais #filtros #seletores .lista-filtros li {
         display: none;
-        font-weight: 300;
-        vertical-align: top; }
-        #page-editais #filtros #seletores .lista-filtros button.exibe-filtros {
-          font-size: 1.2rem;
-          border: none;
-          background: none;
-          width: 100%;
-          text-align: left;
-          padding: 10px 15px;
-          position: relative; }
-          #page-editais #filtros #seletores .lista-filtros button.exibe-filtros:after {
-            content: '\f107';
-            right: 15px;
-            width: auto;
-            font-family: "Font Awesome 5 Free";
-            font-weight: 600;
-            position: absolute;
-            color: lightgray; }
-        #page-editais #filtros #seletores .lista-filtros li {
-          display: none;
-          padding: 5px 10px;
-          line-height: 1.8; }
-          #page-editais #filtros #seletores .lista-filtros li input[type="checkbox"]:checked + label {
-            color: #9C4C22;
-            font-weight: 400; }
-        #page-editais #filtros #seletores .lista-filtros.expandido-mobile {
+        padding: 5px 10px;
+        line-height: 1.8; }
+        #page-editais #filtros #seletores .lista-filtros li input[type="checkbox"]:checked + label {
+          color: #1765AB;
+          font-weight: 400; }
+      #page-editais #filtros #seletores .lista-filtros.expandido-mobile {
+        display: block; }
+      #page-editais #filtros #seletores .lista-filtros.expandido {
+        background-color: #EDF9FF; }
+        #page-editais #filtros #seletores .lista-filtros.expandido li {
           display: block; }
-        #page-editais #filtros #seletores .lista-filtros.expandido {
-          background-color: rgba(89, 146, 221, 0.15); }
-          #page-editais #filtros #seletores .lista-filtros.expandido li {
-            display: block; }
-          #page-editais #filtros #seletores .lista-filtros.expandido button.exibe-filtros {
-            color: #043767;
-            font-weight: 400; }
-            #page-editais #filtros #seletores .lista-filtros.expandido button.exibe-filtros:after {
-              content: '\f106'; }
-  #page-editais #editais {
-    width: 100%;
-    font-weight: 300;
-    border-bottom: 1px solid #5992DD;
-    margin-bottom: 3rem; }
-    #page-editais #editais .titulos {
+        #page-editais #filtros #seletores .lista-filtros.expandido button.exibe-filtros {
+          color: #043166;
+          font-weight: 400; }
+          #page-editais #filtros #seletores .lista-filtros.expandido button.exibe-filtros:after {
+            content: '\f106'; }
+#page-editais #editais {
+  width: 100%;
+  font-weight: 300;
+  border-bottom: 1px solid #CFEAFF;
+  margin-bottom: 3rem; }
+  #page-editais #editais .titulos {
+    display: none; }
+  #page-editais #editais li {
+    border-top: 1px solid #CFEAFF;
+    position: relative;
+    margin-bottom: 1.2rem; }
+    #page-editais #editais li h3 {
+      color: #F06C00;
+      font-weight: 700;
+      margin-top: 1rem; }
+      #page-editais #editais li h3 a:hover {
+        border-bottom: solid 1.5px #C75000;
+        color: #C75000; }
+    #page-editais #editais li .atribuicao {
+      font-weight: 400; }
+    #page-editais #editais li .tipo-de-curso {
+      font-style: italic;
+      margin: .3rem 0; }
+    #page-editais #editais li .curso {
+      margin: .3rem 0; }
+@media screen and (min-width: 992px) {
+  #page-editais #filtros {
+    margin-right: -15px; }
+    #page-editais #filtros button#mostra-seletores {
       display: none; }
-    #page-editais #editais li {
-      border-top: 1px solid #5992DD;
-      position: relative;
-      margin-bottom: 1.2rem; }
-      #page-editais #editais li h3 {
-        color: #E37531;
-        font-weight: 700;
-        margin-top: 1rem; }
-        #page-editais #editais li h3 a:hover {
-          border-bottom: solid 1.5px #9C4C22;
-          color: #9C4C22; }
-      #page-editais #editais li .atribuicao {
-        font-weight: 400; }
-      #page-editais #editais li .tipo-de-curso {
-        font-style: italic;
-        margin: .3rem 0; }
-      #page-editais #editais li .curso {
-        margin: .3rem 0; }
-  @media screen and (min-width: 992px) {
-    #page-editais #filtros {
-      margin-right: -15px; }
-      #page-editais #filtros button#mostra-seletores {
-        display: none; }
-      #page-editais #filtros #seletores {
-        border: none; }
-        #page-editais #filtros #seletores .lista-filtros {
-          display: inline-block;
-          border: solid 0.5px #5992DD;
-          margin-right: 15px; }
-          #page-editais #filtros #seletores .lista-filtros button.exibe-filtros:after {
-            color: gray; }
-          #page-editais #filtros #seletores .lista-filtros#cursos {
-            width: calc(40% - 16px); }
-          #page-editais #filtros #seletores .lista-filtros#atribuicoes, #page-editais #filtros #seletores .lista-filtros#tipo-de-curso, #page-editais #filtros #seletores .lista-filtros#ano {
-            width: calc(20% - 16px); }
-    #page-editais #editais .titulos {
-      display: block; }
-      #page-editais #editais .titulos span {
-        font-weight: 700;
-        color: #E37531;
-        font-size: 1.2rem;
-        margin: 1.5rem 0;
-        display: inline-block; }
-        #page-editais #editais .titulos span:nth-of-type(1) {
-          width: 15%; }
-        #page-editais #editais .titulos span:nth-of-type(2) {
-          width: 28%; }
-        #page-editais #editais .titulos span:nth-of-type(3) {
-          width: 22%; }
-        #page-editais #editais .titulos span:nth-of-type(4) {
-          width: 35%; }
-    #page-editais #editais li {
-      margin-bottom: 0; }
-      #page-editais #editais li p, #page-editais #editais li h3 {
-        margin: 1rem 0 !important;
-        position: relative !important;
+    #page-editais #filtros #seletores {
+      border: none; }
+      #page-editais #filtros #seletores .lista-filtros {
         display: inline-block;
-        font-size: 1rem;
-        vertical-align: top; }
-      #page-editais #editais li h3 {
-        width: 15%;
-        color: #1661A6;
-        font-weight: 500; }
-        #page-editais #editais li h3 a:hover {
-          border-bottom: solid 1.5px #043767;
-          color: #043767; }
-        #page-editais #editais li h3 span {
-          display: none; }
-      #page-editais #editais li .atribuicao {
+        border: solid 0.5px #5992DD;
+        margin-right: 15px; }
+        #page-editais #filtros #seletores .lista-filtros button.exibe-filtros:after {
+          color: gray; }
+        #page-editais #filtros #seletores .lista-filtros#cursos {
+          width: calc(40% - 16px); }
+        #page-editais #filtros #seletores .lista-filtros#atribuicoes, #page-editais #filtros #seletores .lista-filtros#tipo-de-curso, #page-editais #filtros #seletores .lista-filtros#ano {
+          width: calc(20% - 16px); }
+  #page-editais #editais .titulos {
+    display: block; }
+    #page-editais #editais .titulos span {
+      font-weight: 700;
+      color: #F06C00;
+      font-size: 1.2rem;
+      margin: 1.5rem 0;
+      display: inline-block; }
+      #page-editais #editais .titulos span:nth-of-type(1) {
+        width: 15%; }
+      #page-editais #editais .titulos span:nth-of-type(2) {
         width: 28%; }
-      #page-editais #editais li .tipo-de-curso {
+      #page-editais #editais .titulos span:nth-of-type(3) {
         width: 22%; }
-      #page-editais #editais li .curso {
+      #page-editais #editais .titulos span:nth-of-type(4) {
         width: 35%; }
-      #page-editais #editais li .atribuicao, #page-editais #editais li .tipo-de-curso, #page-editais #editais li .curso {
-        font-weight: 300;
-        color: black;
-        font-style: normal; } }
+  #page-editais #editais li {
+    margin-bottom: 0; }
+    #page-editais #editais li p, #page-editais #editais li h3 {
+      margin: 1rem 0 !important;
+      position: relative !important;
+      display: inline-block;
+      font-size: 1rem;
+      vertical-align: top; }
+    #page-editais #editais li h3 {
+      width: 15%;
+      color: #1765AB;
+      font-weight: 500; }
+      #page-editais #editais li h3 a:hover {
+        border-bottom: solid 1.5px #05427B;
+        color: #05427B; }
+      #page-editais #editais li h3 span {
+        display: none; }
+    #page-editais #editais li .atribuicao {
+      width: 28%; }
+    #page-editais #editais li .tipo-de-curso {
+      width: 22%; }
+    #page-editais #editais li .curso {
+      width: 35%; }
+    #page-editais #editais li .atribuicao, #page-editais #editais li .tipo-de-curso, #page-editais #editais li .curso {
+      font-weight: 300;
+      color: black;
+      font-style: normal; } }
 
 #page-galeria #filtros {
   padding: 1.5rem 0; }
@@ -1423,7 +1352,7 @@ footer {
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
       padding: .5rem .9rem; }
     #page-galeria #filtros a.active {
-      background-color: #9C4C22;
+      background-color: #C75000;
       color: white;
       pointer-events: none; }
 #page-galeria #eventos {
@@ -1432,18 +1361,18 @@ footer {
     margin-bottom: 7rem;
     /*      &:nth-child(even){
             h2{
-              color: $azul;
+              color: $azulRegular;
     
               &:before{
-                background-color: $azul;
+                background-color: $azulRegular;
               }
             }
     
             .abrirTodas{
-              background-color: $azul;
+              background-color: $azulRegular;
     
               &:hover{
-                background-color: darken($azul, 20%);
+                background-color: $azulMedio;
               }
             }
           }*/ }
@@ -1451,7 +1380,7 @@ footer {
       position: relative;
       font-weight: 600;
       font-size: 1.5rem;
-      color: #E37531;
+      color: #F06C00;
       margin-bottom: 0; }
       #page-galeria #eventos li h2 span {
         background-color: #fff;
@@ -1462,7 +1391,7 @@ footer {
         display: block;
         vertical-align: middle;
         height: 3px;
-        background-color: #E37531;
+        background-color: #F06C00;
         width: 100%;
         margin-right: -100%;
         position: absolute;
@@ -1508,10 +1437,7 @@ footer {
         margin-right: -1.5rem; }
         #page-galeria #eventos li .imagens p a {
           margin-right: 1.5rem;
-          max-width: calc(25% - 1.5rem);
-          /*&:last-child{                   
-            max-width: calc(25% - 1.5rem);
-          }*/ } }
+          max-width: calc(25% - 1.5rem); } }
 
 #edital {
   line-height: 2;
@@ -1520,7 +1446,7 @@ footer {
   /* secao-edital */
   /* media */ }
   #edital #informacoes em {
-    color: #E37531;
+    color: #C75000;
     font-style: normal;
     font-weight: 700; }
   #edital #informacoes div#descricao {
@@ -1528,12 +1454,10 @@ footer {
     #edital #informacoes div#descricao p {
       display: inline; }
   #edital .secao-edital {
-    border-top: solid 2px #5992DD;
+    border-top: solid 2px #CFEAFF;
     margin-top: 3rem;
     /* &#anexos */ }
     #edital .secao-edital h2 {
-      color: #1661A6;
-      font-weight: 600;
       font-size: 1.6rem; }
     #edital .secao-edital#anexos ul li {
       color: gray;
@@ -1545,13 +1469,13 @@ footer {
         #edital .secao-edital#anexos ul li a:before {
           content: '\f56d';
           font-family: "Font Awesome 5 Free";
-          color: #E37531;
+          color: #F06C00;
           padding-right: .5rem;
           font-weight: 600;
           font-style: normal; }
         #edital .secao-edital#anexos ul li a:hover {
           font-weight: 600;
-          color: #E37531; }
+          color: #C75000; }
     #edital .secao-edital#inscricao p {
       padding-bottom: 1.5rem;
       max-width: unset; }
@@ -1581,14 +1505,14 @@ footer {
       font-size: 2.25rem;
       line-height: 1.2;
       font-weight: 300;
-      color: #043767;
+      color: #05427B;
       margin-bottom: 0.8rem;
       margin-top: 2rem; }
     #noticia article .post-date {
       font-size: 0.9rem;
       font-weight: 300; }
       #noticia article .post-date i {
-        color: #E37531;
+        color: #F06C00;
         padding-right: 0.5rem; }
     #noticia article .post-body {
       font-family: "Merriweather", serif;
@@ -1598,7 +1522,7 @@ footer {
       #noticia article .post-body p, #noticia article .post-body img, #noticia article .post-body blockquote {
         margin-top: 3rem; }
       #noticia article .post-body blockquote {
-        color: #043767;
+        color: #1765AB;
         font-weight: 700;
         font-style: italic;
         width: 85%;
@@ -1620,17 +1544,17 @@ footer {
       #noticia article .post-autor .autor-info {
         font-weight: 300; }
         #noticia article .post-autor .autor-info .autor-name {
-          color: #043767;
+          color: #05427B;
           font-weight: 600;
           font-size: 1.5rem; }
         #noticia article .post-autor .autor-info .autor-role {
-          color: #E37531;
+          color: #C75000;
           text-transform: uppercase;
           margin-bottom: 1rem; }
     #noticia article .links-compartilhamento {
-      color: #E37531;
+      color: #C75000;
       font-weight: 300;
-      border-top: solid 2px #E37531;
+      border-top: solid 2px #C75000;
       margin-top: 5rem;
       line-height: 3rem; }
       #noticia article .links-compartilhamento span {
@@ -1652,7 +1576,7 @@ footer {
         left: 0;
         height: 24vw;
         opacity: .6;
-        background-image: linear-gradient(#043767, transparent); }
+        background-image: linear-gradient(#043166, transparent); }
       #noticia article h1 {
         font-size: 2.75rem;
         margin-top: 4rem; }
@@ -1681,13 +1605,13 @@ footer {
       font-weight: 300;
       margin-bottom: 2rem; }
       #page-polos #mapaInterativo .popoverMunicipios h2 {
-        color: #E37531;
+        color: #F06C00;
         font-size: 1.5rem; }
       #page-polos #mapaInterativo .popoverMunicipios i {
-        color: #5992DD; }
+        color: #1765AB; }
       #page-polos #mapaInterativo .popoverMunicipios p {
         font-size: 2rem;
-        color: #1661A6;
+        color: #1765AB;
         line-height: 1.3;
         margin-top: 1rem;
         position: relative;
@@ -1698,7 +1622,7 @@ footer {
           height: 0;
           left: 0;
           width: 100%;
-          border-top: 2px solid #5992DD;
+          border-top: 2px solid #CFEAFF;
           margin-top: 4rem; }
     #page-polos #mapaInterativo #polos {
       /* li */ }
@@ -1706,25 +1630,25 @@ footer {
         padding: .5rem 0; }
         #page-polos #mapaInterativo #polos li button.municipioTitulo {
           font-weight: 500;
-          color: #1661A6;
+          color: #1765AB;
           cursor: pointer;
           transition: font-size .2s;
           border: none;
           background: none; }
           #page-polos #mapaInterativo #polos li button.municipioTitulo:hover {
-            border-bottom: solid 0.5px #043767;
-            color: #043767; }
+            border-bottom: solid 0.5px #05427B;
+            color: #05427B; }
         #page-polos #mapaInterativo #polos li .info-polo {
           display: none;
           line-height: 1.5;
           padding-top: 1rem;
           padding-left: 1rem; }
           #page-polos #mapaInterativo #polos li .info-polo i {
-            color: #E37531; }
+            color: #F06C00; }
         #page-polos #mapaInterativo #polos li.expandido button.municipioTitulo {
           font-weight: 700;
           font-size: 1.5rem;
-          color: #E37531; }
+          color: #F06C00; }
           #page-polos #mapaInterativo #polos li.expandido button.municipioTitulo:hover {
             border: none; }
         #page-polos #mapaInterativo #polos li.expandido .info-polo {
@@ -1755,23 +1679,16 @@ footer {
           #page-polos #mapaInterativo svg #comPolos a {
             cursor: pointer; }
             #page-polos #mapaInterativo svg #comPolos a g .geografia {
-              fill: #5992DD; }
-            #page-polos #mapaInterativo svg #comPolos a g .pin {
-              fill: black !important;
-              stroke: none; }
-            #page-polos #mapaInterativo svg #comPolos a g text {
-              fill: #333; }
+              fill: #CFEAFF; }
             #page-polos #mapaInterativo svg #comPolos a:hover g > .geografia {
-              fill: #1661A6; }
-            #page-polos #mapaInterativo svg #comPolos a.selecionado g > .geografia {
-              fill: #FDA65B; } }
+              fill: #FFA161; } }
 
 #secretaria {
   /* media */ }
   #secretaria .destaque {
     position: relative;
     min-height: 65vh;
-    background-image: linear-gradient(#E37531, transparent), url("./img/video-destaque.png");
+    background-image: linear-gradient(#F06C00, transparent), url("./img/video-destaque.png");
     background-size: cover;
     margin-top: 0; }
     #secretaria .destaque .titulo {
@@ -1816,11 +1733,11 @@ footer {
       font-style: italic;
       font-size: 3rem;
       font-weight: 800;
-      color: #E37531; }
+      color: #F06C00; }
       #secretaria #abas .tabsList a:hover {
-        color: #e9935e; }
+        color: #ff8724; }
       #secretaria #abas .tabsList .current {
-        color: #1661A6; }
+        color: #1765AB; }
         #secretaria #abas .tabsList .current a:hover {
           cursor: default;
           color: inherit; }
@@ -1838,17 +1755,17 @@ footer {
     margin-right: 0; }
   #secretaria #estrutura p > a {
     font-style: italic;
-    color: #1661A6;
+    color: #1765AB;
     margin-left: .5rem; }
     #secretaria #estrutura p > a:hover {
-      border-bottom: 0.5px solid #1661A6; }
+      border-bottom: 0.5px solid #1765AB; }
   #secretaria #estrutura #planta-sead {
     margin: 6rem 0;
     margin-bottom: 1rem; }
     #secretaria #estrutura #planta-sead span {
       width: 100%;
       font-size: 2rem;
-      color: #1661A6;
+      color: #1765AB;
       line-height: 1.4;
       font-weight: 300; }
     #secretaria #estrutura #planta-sead button {
@@ -1902,7 +1819,7 @@ footer {
         font-size: 1.25rem; } }
   @media (max-width: 576px) {
     #secretaria #abas {
-      border-left: 4px solid #1661A6;
+      border-left: 4px solid #1765AB;
       width: calc(100% - 20px);
       padding-left: 15px; }
       #secretaria #abas .tabsList {
@@ -1918,7 +1835,7 @@ footer {
   #ead-na-ufes .destaque {
     position: relative;
     min-height: 65vh;
-    background-image: linear-gradient(#043767, transparent), url("./img/video-destaque.png");
+    background-image: linear-gradient(#05427B, transparent), url("./img/video-destaque.png");
     background-size: cover;
     margin-top: 0; }
     #ead-na-ufes .destaque .titulo {
@@ -1938,7 +1855,7 @@ footer {
   #ead-na-ufes .breadcrumb {
     margin-bottom: 4rem; }
   #ead-na-ufes #slider {
-    background-color: #E6F0F7;
+    background-color: #EDF9FF;
     /* ul */ }
     #ead-na-ufes #slider ul {
       position: relative;
@@ -1957,7 +1874,7 @@ footer {
           font-family: "Font Awesome 5 Free";
           font-weight: 600;
           font-size: 3rem;
-          color: #1661A6; }
+          color: #1765AB; }
         #ead-na-ufes #slider ul button.seta-prev {
           left: 1rem;
           display: none; }
@@ -1980,7 +1897,7 @@ footer {
         #ead-na-ufes #slider ul li .grupo h2 {
           font-weight: 300;
           font-style: italic;
-          color: #9C4C22;
+          color: #C75000;
           line-height: 1.3;
           margin-bottom: 1.5rem;
           margin-top: 1rem; }
@@ -2001,10 +1918,10 @@ footer {
             font-weight: 600;
             font-size: .8rem;
             content: '\f111';
-            color: #1661A6;
+            color: #1765AB;
             margin-left: 5px; }
           #ead-na-ufes #slider ul .dots .dot.ativo:before {
-            color: #9C4C22; }
+            color: #C75000; }
   #ead-na-ufes #agentes {
     margin-bottom: 4rem; }
     #ead-na-ufes #agentes li {
@@ -2044,7 +1961,7 @@ footer {
   /* media */ }
   #contatos .alerta {
     font-weight: 300;
-    color: #E37531;
+    color: #F06C00;
     font-size: 1.5rem;
     line-height: 1.4;
     margin: 2rem 0;
@@ -2057,7 +1974,7 @@ footer {
     #contatos ul .titulos {
       display: none; }
     #contatos ul li {
-      border-top: solid 0.5px #5992DD; }
+      border-top: solid 0.5px #CFEAFF; }
       #contatos ul li h3 {
         font-size: 1.2rem;
         margin: 1.5rem 0; }
@@ -2071,13 +1988,13 @@ footer {
     #contatos {
       /* ul */ }
       #contatos ul {
-        border-bottom: solid 0.5px #5992DD; }
+        border-bottom: solid 0.5px #CFEAFF; }
         #contatos ul .titulos {
           display: block; }
           #contatos ul .titulos span {
             width: 35%;
             font-weight: 700;
-            color: #E37531;
+            color: #F06C00;
             font-size: 1.2rem;
             margin: 1.5rem 0;
             display: inline-block; }
@@ -2121,7 +2038,7 @@ footer {
           #faq ul li button h2:before {
             content: '\f067';
             font-family: "Font Awesome 5 Free";
-            color: #E37531;
+            color: #F06C00;
             font-size: 1rem;
             padding-right: .6rem;
             font-weight: 700; }
@@ -2150,15 +2067,15 @@ footer {
     z-index: -1;
     opacity: .5; }
   #erro a {
-    color: #9C4C22;
+    color: #C75000;
     font-weight: 500; }
     #erro a:hover {
-      border-bottom: solid 0.5px #9C4C22; }
+      border-bottom: solid 0.5px #C75000; }
   #erro blockquote {
     width: calc(100% - 4rem);
     margin-right: 0 !important;
     font-weight: 300;
-    color: #1661A6;
+    color: #1765AB;
     font-size: 1.8rem;
     margin-left: 4rem !important;
     margin-top: 6rem;
@@ -2196,16 +2113,16 @@ footer {
       margin: 0 auto;
       margin-bottom: 3rem; }
       #pagPesquisa #resultados li a {
-        color: #E37531;
+        color: #C75000;
         font-weight: 500; }
         #pagPesquisa #resultados li a:hover {
-          color: #9C4C22;
-          border-bottom: solid 0.5ps #9C4C22; }
+          color: #C75000;
+          border-bottom: solid 0.5ps #C75000; }
       #pagPesquisa #resultados li span {
         font-weight: 300; }
         #pagPesquisa #resultados li span strong {
           font-style: italic;
-          color: #1661A6;
+          color: #1765AB;
           text-transform: capitalize; }
       #pagPesquisa #resultados li p {
         font-weight: 300;
@@ -2252,11 +2169,11 @@ footer {
     color: white; }
   .formPesquisaAtivo #formPesquisa input {
     border-radius: 25px;
-    background-color: #3d95e5 !important; }
+    background-color: #4298e6 !important; }
   .formPesquisaAtivo #formPesquisa input::placeholder {
     color: white; }
   .formPesquisaAtivo #formPesquisa input:-webkit-autofill {
-    -webkit-box-shadow: 0 0 0px 30px #3d95e5 inset;
+    -webkit-box-shadow: 0 0 0px 30px #4298e6 inset;
     -webkit-text-fill-color: white !important;
     background-color: transparent !important; }
   .formPesquisaAtivo #formPesquisa .botaoSubmissao {

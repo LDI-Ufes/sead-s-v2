@@ -6,7 +6,7 @@
   
   #informacoes{
     em{
-      color: $laranja;
+      color: $laranjaMedio;
       font-style: normal;
       font-weight: $bold;
     }
@@ -22,11 +22,7 @@
     border-top: solid 2px $azulClaro;
     margin-top: 3rem;
 
-    h2{
-      color: $azul;
-      font-weight: $semi-bold;
-      font-size: 1.6rem;
-    }
+    h2{ font-size: 1.6rem; }
 
     &#anexos{
       ul{
@@ -42,7 +38,7 @@
             &:before{
               content: '\f56d';
               font-family: "Font Awesome 5 Free";
-              color: $laranja;
+              color: $laranjaRegular;
               padding-right: .5rem;
               font-weight: 600;
               font-style: normal;
@@ -51,7 +47,7 @@
 
             &:hover{
               font-weight: $semi-bold;
-              color: $laranja;
+              color: $laranjaMedio;
             }
 
           }

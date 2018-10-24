@@ -7,7 +7,7 @@
       color: white;
 
       span{
-        background-color: $azul;
+        background-color: $azulRegular;
         padding: 5px;
         font-size: .8rem;
         padding-left: 8px;
@@ -75,7 +75,7 @@
 
           input[type="checkbox"]:checked{
             +label{
-              color: $laranjaEscuro;
+              color: $azulRegular;
               font-weight: $regular;
             }
           }
@@ -86,7 +86,7 @@
         }
 
         &.expandido{
-          background-color: rgba(89, 146, 221, 0.15);
+          background-color: $azulExtraClaro;
 
           li{display: block;}
 
@@ -117,13 +117,13 @@
       margin-bottom: 1.2rem;
 
       h3{
-        color: $laranja;
+        color: $laranjaRegular;
         font-weight: $bold;
         margin-top: 1rem;
 
         a:hover{
-          border-bottom: solid 1.5px $laranjaEscuro;
-          color: $laranjaEscuro;
+          border-bottom: solid 1.5px $laranjaMedio;
+          color: $laranjaMedio;
         }
       }
 
@@ -141,24 +141,6 @@
       }
     }
   }
-
-/*  #paginacao{
-    color: $laranja;
-    padding: 3rem 0;
-
-    a:hover{
-      border-bottom: solid 1px $laranjaEscuro;
-      color: $laranjaEscuro;
-    }
-
-    .nav-right{
-      float: right;
-    }
-
-    .nav-left{
-      float: left;
-    }
-  }*/
 
   @media screen and (min-width: 992px) {
 
@@ -197,7 +179,7 @@
 
         span{
           font-weight: $bold;
-          color: $laranja;
+          color: $laranjaRegular;
           font-size: 1.2rem;
           margin: 1.5rem 0;
           display: inline-block;
@@ -230,12 +212,12 @@
 
         h3{
           width: 15%;
-          color: $azul;
+          color: $azulRegular;
           font-weight: $medium;
           
           a:hover{
-            border-bottom: solid 1.5px $azulEscuro;
-            color: $azulEscuro;
+            border-bottom: solid 1.5px $azulMedio;
+            color: $azulMedio;
           }
           
           span{display: none;}

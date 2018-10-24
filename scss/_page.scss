@@ -8,7 +8,7 @@
   }
 
   blockquote {
-    color: $laranja;
+    color: $laranjaRegular;
     font-family: $merriweather;
     font-weight: $bold;
     font-style: italic;
@@ -22,21 +22,22 @@
     margin: 1.5rem 0;
 
     a {
-      color: $azul;
+      color: $azulMedio;
       font-weight: $medium;
 
       &:hover{
-        color: $laranja;
+        color: $azulEscuro;
         text-decoration: underline;
+        font-weight: $bold;
       }
     }
 
     span {
-      color: $azulClaro;
+      color: $azulRegular;
     }
 
     i {
-      color: $laranja;
+      color: $laranjaRegular;
       font-weight: $bold;
       font-size: .6rem;
       padding: 0 .3rem;
@@ -46,25 +47,25 @@
   h1 {
     font-size: 2.5rem;
     font-weight: $bold;
-    color: $azul;
+    color: $azulRegular;
     padding: 1rem 0 1rem;
     line-height: 1.3;
     margin: 0;
   }
   
   h2{
-    color: $azul;
+    color: $azulRegular;
     font-size: 2rem;
     margin-bottom: 3rem;
   }
 
   h3{
-    color: $laranja;
+    color: $laranjaRegular;
     margin-top: 3rem;
   }
   
   #paginacao{
-    color: $laranja;
+    color: $laranjaMedio;
     padding: 2rem 1rem 4rem;
     text-align: center;
     font-weight: $bold;
@@ -76,7 +77,7 @@
       color: $laranjaEscuro;
     }
 
-    span{ color: $azul; }
+    span{ color: $azulRegular; }
 
     h2{ display: none; }
   }

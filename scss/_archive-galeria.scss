@@ -23,7 +23,7 @@
       }
 
       &.active{
-        background-color: $laranjaEscuro;
+        background-color: $laranjaMedio;
         color: white;
         pointer-events: none;
       }
@@ -40,7 +40,7 @@
         position: relative;
         font-weight: $semi-bold;
         font-size: 1.5rem;
-        color: $laranja;
+        color: $laranjaRegular;
         margin-bottom: 0;
 
         span{
@@ -54,7 +54,7 @@
           display: block;
           vertical-align:middle;
           height:3px;
-          background-color: $laranja;
+          background-color: $laranjaRegular;
           width:100%;
           margin-right: -100%;
           position: absolute;
@@ -107,20 +107,22 @@
         }
       }
       
+      // Intercalando cores dos itens
+      
 /*      &:nth-child(even){
         h2{
-          color: $azul;
+          color: $azulRegular;
 
           &:before{
-            background-color: $azul;
+            background-color: $azulRegular;
           }
         }
 
         .abrirTodas{
-          background-color: $azul;
+          background-color: $azulRegular;
 
           &:hover{
-            background-color: darken($azul, 20%);
+            background-color: $azulMedio;
           }
         }
       }*/
@@ -150,10 +152,6 @@
             a{
               margin-right: 1.5rem;
               max-width: calc(25% - 1.5rem);
-
-              /*&:last-child{                   
-                max-width: calc(25% - 1.5rem);
-              }*/
             }
           }
         }

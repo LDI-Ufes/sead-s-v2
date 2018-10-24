@@ -73,7 +73,7 @@
         }
 
         figcaption{
-          color: $laranja;
+          color: $laranjaMedio;
           text-transform: uppercase;
           font-weight: $bold;
         }
@@ -120,7 +120,7 @@
         .box-titulo{
           position: absolute;
           right: 0;
-          border-top: 10rem solid $laranjaClaro;
+          border-top: 10rem solid $laranjaRegular;
           border-left: 40px solid transparent;
           border-right: 0 solid transparent;
           width: 85%;
@@ -137,10 +137,7 @@
           text-align: left;
           padding: 0.5rem 0;
 
-          i{
-            color: $laranjaEscuro;
-            padding-left: 0.5rem;
-          }
+          i{ padding-left: 0.5rem; }
 
           div{
             display: inline-block;
@@ -148,7 +145,7 @@
           }
 
           .numero{
-            color: $laranjaEscuro;
+            color: $laranjaMedio;
             font-size: 2.8rem;
             font-weight: $bold;
             background-color: white;
@@ -186,7 +183,7 @@
       display: inline-block;
       flex-grow: 1;
       width: 100%;
-      border-top: solid 3px $laranja;
+      border-top: solid 3px $laranjaRegular;
       position: relative;
       margin-bottom: 2rem;
       height: 300px;
@@ -196,7 +193,7 @@
       padding: 0 1rem;
 
       h2{
-        color: $laranjaEscuro;
+        color: $laranjaRegular;
         font-weight: $light;
         font-size: 2.3rem;
         margin: .5rem 0;
@@ -205,7 +202,7 @@
 
       a{
         width: calc(50% - 0.5rem);
-        background-image: linear-gradient($azulEscuro,$azul);
+        background-image: linear-gradient($azulEscuro,$azulRegular);
         display: inline-block;
         color: white;
         height: 50%;
@@ -215,7 +212,7 @@
 
         &:last-child{ margin-left: 1rem; }
 
-        &:hover{ background-image: linear-gradient($azulEscuro,$azulClaro); }
+        &:hover{ background-image: linear-gradient($azulEscuro, darken($azulClaro, 50%)); }
 
         svg{
           max-width: 5rem;
@@ -236,7 +233,7 @@
       display: inline-block;
       flex-grow: 1;
       width: 100%;
-      border-top: solid 3px $laranja;
+      border-top: solid 3px $laranjaRegular;
       position: relative;
       margin-bottom: 2rem;
       height: 300px;
@@ -250,7 +247,7 @@
         left: 0;
         height: 100%;
         opacity: .6;
-        background-image: linear-gradient(rgba(89,146,221,0), rgba(5,60,123,100));
+        background-image: linear-gradient(transparent, $azulEscuro);
       }
 
       img{
@@ -280,11 +277,11 @@
 
   #polos{
     color: $azulEscuro;
-    background-color: $laranjaClaro;
+    background-color: $laranjaExtraClaro;
     padding: 2.5rem 1rem;
 
     h2{
-      color: white;
+      color: $laranjaMedio;
       font-size: 2rem;
       margin-top: 0;
     }
@@ -316,7 +313,7 @@
           max-width: 600px;
 
           .box-titulo{
-            border-top: 5rem solid $laranjaClaro;
+            border-top: 5rem solid $laranjaRegular;
             border-left: 25px solid transparent;
           }
         }

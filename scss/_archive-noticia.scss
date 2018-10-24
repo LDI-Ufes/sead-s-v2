@@ -23,7 +23,7 @@
         max-height: 250px;
 
         span{
-          background-color: $azulEscuro;
+          background-color: $azulMedio;
           color: white;
           text-transform: uppercase;
           position: absolute;
@@ -49,7 +49,7 @@
           top: 0;
           width: 100%;
           opacity: .6;
-          background-image: linear-gradient(rgba(89,146,221,0),rgba(5,60,123,100));
+          background-image: linear-gradient(transparent,$azulMedio);
         }
 
         .post-date{
@@ -63,12 +63,13 @@
       }
 
       h3{
-        color: $azulEscuro;
+        color: $azulMedio;
         font-weight: $semi-bold;
         font-size: 1.3rem;
         margin: 1.5rem;
 
         a:hover{
+          color: $azulEscuro;
           border-bottom: solid 1px $azulEscuro;
         }
       }
@@ -82,7 +83,7 @@
     }
 
     #postsNav{
-      color: $laranja;
+      color: $laranjaMedio;
       padding: 0 1rem 6rem;
 
       a:hover{
@@ -90,13 +91,9 @@
         color: $laranjaEscuro;
       }
 
-      .nav-right{
-        float: right;
-      }
+      .nav-right{ float: right; }
 
-      .nav-left{
-        float: left;
-      }
+      .nav-left{ float: left; }
     }
   }
 
@@ -106,7 +103,7 @@
 
     h2{
       position: relative;
-      color: $laranja;
+      color: $laranjaRegular;
       text-transform: uppercase;
 
       span{
@@ -120,7 +117,7 @@
         display: block;
         vertical-align:middle;
         height:2px;
-        background-color: $laranja;
+        background-color: $laranjaRegular;
         width:100%;
         margin-right: -100%;
         position: absolute;
@@ -133,7 +130,7 @@
     label{
       font-size: 1.6rem;
       font-weight: $light;
-      color: $laranja;
+      color: $laranjaRegular;
     }
 
     form{
@@ -144,16 +141,17 @@
       input{
         margin-top: 1rem;
         font-family: 'Fira Sans', sans-serif !important;
-        border: solid 1px $azulEscuro;
+        border: solid 1px $azulMedio;
 
         &[type=email]{                   
           height: 1.5rem;
-          background-color: rgba(89, 146, 221, 0.05); 
+          background-color: $azulExtraClaro; 
           padding-left: .5rem; 
-          width: 100%
+          width: 100%;
         }
+        
         &[type=submit]{
-          background-color: $azulEscuro;
+          background-color: $azulMedio;
           text-transform: uppercase;
           color: white;
           font-size: .8rem;
@@ -165,7 +163,7 @@
   }
 
   .social-media{
-    background: linear-gradient(45deg, $azulEscuro, $azul);
+    background: linear-gradient(45deg, $azulEscuro, $azulRegular);
     border: none;
     color: white;
     width: calc(100% - 3rem);
@@ -192,7 +190,7 @@
     }
 
     &:hover{
-      background: linear-gradient(45deg, $azulEscuro, $azulClaro);
+      background: linear-gradient(45deg, $azulEscuro, darken($azulClaro, 50%));
     }
 
   }
@@ -209,7 +207,7 @@
     }
 
     h2{
-      background-color: $laranjaEscuro;
+      background-color: $laranjaMedio;
       color: white;
       text-transform: uppercase;
       position: absolute;
@@ -222,7 +220,7 @@
 
       li{
         font-weight: $light;
-        color: white;
+        color: $laranjaEscuro;
         font-size: 1.2rem;
         padding-top: 1rem;
         width: 100%;
@@ -251,7 +249,7 @@
             margin-left: 0;
             width: calc(50% - 1.5rem);
             height: 10rem;
-            pointer-events: none;
+            pointer-events: none;           
 
             &:nth-child(n+3){
               display: none;
@@ -273,7 +271,8 @@
           position: absolute;
           bottom: 1.5rem;
           right: 0;
-          background-color: rgba(171, 71, 17, .7);
+          background-color: $laranjaEscuro;
+          opacity: .7;
           width: calc(50% - .75rem);
           height: 10rem;
 
@@ -285,11 +284,13 @@
             font-size: .8rem;
             font-weight: $bold;
             padding-top: 4.5rem;
+            color: white;
 
           }
 
           &:hover{
-            background-color: rgba(171, 71, 17, .9);
+            background-color: $laranjaEscuro;
+            opacity: .8;
           }
         }
       }
@@ -299,12 +300,12 @@
   a[role=button]{  
     @extend %botao;
     background-color: white;
-    color: $laranjaEscuro;
+    color: $laranjaMedio;
     float: right;
     margin: 0;
 
     &:hover{
-      background-color: $laranjaEscuro;
+      background-color: $laranjaMedio;
       color: white;
     }
   }
@@ -312,9 +313,7 @@
 
   @media screen and (min-width: 992px) {
 
-    .container{
-      padding-top: 10rem;
-    }
+    .container{ padding-top: 10rem; }
 
     #posts{
       width: 560px;
@@ -325,13 +324,9 @@
         .blog-post-header{
           height: 20vw;
 
-          span{
-            margin-left: 2rem;
-          }
+          span{ margin-left: 2rem; }
 
-          img{
-            height: 20vw;
-          }
+          img{ height: 20vw; }
 
           .post-date{
             padding: 1rem;
@@ -339,15 +334,10 @@
           }
         }
 
-        h3, p{
-          margin: 1rem 0;
-
-        }
+        h3, p{ margin: 1rem 0; }
       }
 
-      #postsNav{
-        padding: 0 0 2rem;
-      }
+      #postsNav{ padding: 0 0 2rem; }
     }
 
     aside{
@@ -357,16 +347,12 @@
       margin-left: 75px;
     }
 
-    #informativo{
-      padding: 0;
-    }
+    #informativo{ padding: 0; }
 
     #galeria{
       padding: 2rem 0 5rem;
 
-      .container{
-        padding: 0 !important;
-      }
+      .container{ padding: 0 !important; }
 
       ul{
         li{
@@ -376,13 +362,11 @@
             a{
               width: calc(25% - 1.5rem);
 
-              &:nth-child(-n+4){
-                display: inline-flex;
-              }
+              &:nth-child(-n+4){ display: inline-flex; }
             }
           }
 
-          .ver-mais{width: calc(25% - 1.15rem)}
+          .ver-mais{ width: calc(25% - 1.15rem); }
         }
       }
     }

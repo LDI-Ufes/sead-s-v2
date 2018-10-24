@@ -17,17 +17,17 @@
   }
   
   a{
-    color: $laranjaEscuro;
+    color: $laranjaMedio;
     font-weight: $medium;
     
-    &:hover{ border-bottom: solid .5px $laranjaEscuro; }
+    &:hover{ border-bottom: solid .5px $laranjaMedio; }
   }
   
   blockquote{
     width: calc(100% - 4rem);
     margin-right: 0 !important;
     font-weight: $light;
-    color: $azul;
+    color: $azulRegular;
     font-size: 1.8rem;
     margin-left: 4rem !important;
     margin-top: 6rem;

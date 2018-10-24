@@ -20,7 +20,7 @@
       font-size: 2.25rem;
       line-height: 1.2;
       font-weight: $light;
-      color: $azulEscuro;
+      color: $azulMedio;
       margin-bottom: 0.8rem;
       margin-top: 2rem;
     }
@@ -30,7 +30,7 @@
       font-weight: $light;
 
       i{
-        color: $laranja;
+        color: $laranjaRegular;
         padding-right: 0.5rem;
       }
     }
@@ -46,7 +46,7 @@
       }
 
       blockquote{
-        color: $azulEscuro;
+        color: $azulRegular;
         font-weight: $bold;
         font-style: italic;
         width: 85%;
@@ -77,13 +77,13 @@
         font-weight: $light;
 
         .autor-name{
-          color: $azulEscuro;
+          color: $azulMedio;
           font-weight: $semi-bold;
           font-size: 1.5rem;  
         }
 
         .autor-role{
-          color: $laranja;
+          color: $laranjaMedio;
           text-transform: uppercase; 
           margin-bottom: 1rem;
         }
@@ -91,9 +91,9 @@
     }
 
     .links-compartilhamento{
-      color: $laranja;
+      color: $laranjaMedio;
       font-weight: $light;
-      border-top: solid 2px $laranja;
+      border-top: solid 2px $laranjaMedio;
       margin-top: 5rem;
       line-height: 3rem;
 

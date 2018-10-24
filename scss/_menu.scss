@@ -21,7 +21,7 @@ nav.menu {
         @include bordaItemMenu(transparent);
 
         &:hover {
-          @include bordaItemMenu($laranja);
+          @include bordaItemMenu($laranjaRegular);
         }
       }
 

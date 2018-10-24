@@ -16,7 +16,7 @@
       margin-bottom: 3rem;
 
       a{
-        color: $laranja;
+        color: $laranjaMedio;
         font-weight: $medium;
 
         &:hover{
@@ -30,7 +30,7 @@
 
         strong{
           font-style: italic;
-          color: $azul;
+          color: $azulRegular;
           text-transform: capitalize;
         }
       }

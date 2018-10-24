@@ -1,103 +1,89 @@
 @import 'variaveis';
 
 footer{
-    background-color: $azulEscuro;
+  background-color: $azulEscuro;
+  color: white;
+  font-weight: $light;
+  line-height: 1.7;
+
+  .content{
+    padding: 2rem 1rem;
+
+    section{          
+      display: inline-block;
+      width: 100%;
+
+      h4{
+        font-size: 1.2rem;
+        font-weight: $semi-bold;
+
+        &:after{
+          content: '';
+          display: block;
+          height: 2px;
+          background-color: $laranjaRegular;
+          width: 100%;
+          margin-top: .4rem;
+        }
+      }
+
+      a:hover{ border-bottom: solid .5px $laranjaRegular }
+
+      .subitens{ margin-left: 1rem; }
+    }
+  }
+    
+  .creditos{
+    background-color: $laranjaMedio;
     color: white;
-    font-weight: $light;
-    line-height: 1.7;
-    
+    height: 3rem;
+    text-align: center;
+
+    p{
+      margin: 0;
+      display: inline-block;
+      font-size: .8rem;
+      line-height: 3rem;
+      vertical-align: top;
+      height: inherit;
+
+      a:hover{ text-decoration: underline; }
+
+      span{ display: none; }
+    }
+
+    svg{
+      height: 3rem;
+      width: auto;
+      margin-bottom: -1rem;
+
+      path{ fill: white; }
+    }
+  }
+
+
+  @media screen and (min-width: 992px) {
+
     .content{
-        padding: 2rem 1rem;
-        
-        section{          
-            display: inline-block;
-            width: 100%;
-            
-            h4{
-                font-size: 1.2rem;
-                font-weight: $semi-bold;
-                    
-                &:after{
-                    content: '';
-                    display: block;
-                    height: 2px;
-                    background-color: $laranja;
-                    width: 100%;
-                    margin-top: .4rem;
-                }
-            }
-                       
-            a:hover{
-                color: $azulClaro;
-            }
-            
-            .subitens{
-                margin-left: 1rem;
-            }
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 2rem 0;
+
+      section{          
+        width: calc(50% - .7rem);
+        vertical-align: top;
+
+        &:nth-child(even){
+          float: right;
         }
+      }
+    }
+
+    .creditos{
+      p{
+        span{ display: inline-block; }
+      }
     }
     
-    .creditos{
-        background-color: $laranja;
-        color: white;
-        height: 3rem;
-        text-align: center;
-        
-        p{
-            margin: 0;
-            display: inline-block;
-            font-size: .8rem;
-            line-height: 3rem;
-            vertical-align: top;
-            height: inherit;
-            /*padding-right: .2rem;*/
-            
-            a:hover{
-                color: $azulEscuro;
-            }
-            
-            span{
-                display: none;
-            }
-        }
-        
-        svg{
-            height: 3rem;
-            width: auto;
-            margin-bottom: -1rem;
-            
-            path{
-                fill: white;
-            }
-        }
-
-    }
-}
-
-@media screen and (min-width: 992px) {
-    footer{
-        .content{
-            max-width: 960px;
-            margin: 0 auto;
-            padding: 2rem 0;
-
-            section{          
-                width: calc(50% - .7rem);
-                vertical-align: top;
-
-                &:nth-child(even){
-                    float: right;
-                }
-
-            }
-        }
-        
-        .creditos{
-            p{
-                span{
-                    display: inline-block;
-                }
-            }
-        }
-    }
+  }
 }
