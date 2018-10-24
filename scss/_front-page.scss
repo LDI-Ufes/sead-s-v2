@@ -30,9 +30,7 @@
         }
       }
 
-      a{ 
-        @extend %botao; 
-      }
+      a{ @extend %botao;  }
     }
   }
 
@@ -267,7 +265,7 @@
         line-height: 2rem;
         padding-bottom: 0;
 
-        a:hover{ border-bottom: solid 1px white; }
+        a:hover{ border-bottom: solid 2px $laranjaRegular; }
       }
 
       &:nth-of-type(n+3){ display: none; }
@@ -278,6 +276,7 @@
     color: $azulEscuro;
     background-color: $laranjaExtraClaro;
     padding: 2.5rem 1rem;
+    text-align: center;
 
     h2{
       color: $laranjaMedio;
@@ -285,16 +284,12 @@
       margin-top: 0;
     }
 
-    p{ padding: 0; }
-
-    a{
-      font-family: $merriweather;
-      font-style: italic;
-      font-weight: $bold;
-      font-size: 1.5rem;
-
-      &:hover{ border-bottom: solid 1px $azulEscuro; }
+    p{ 
+      padding: 0; 
+      padding-bottom: 1.5rem;
     }
+
+    a{ @extend %botao;  }
 
     svg{ display: none; }
 
@@ -427,14 +422,13 @@
 
     #polos{
       padding: 2rem 1rem 1rem;
-
-      a{ font-size: 1.8rem;}
+      text-align: left;
 
       svg{
         display: inline-block;
         float: left;
         margin: 0 2rem;
-        margin-top: -8rem;
+        margin-top: -7rem;
         height: 350px;
         width: auto;
       }

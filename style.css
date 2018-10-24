@@ -30,7 +30,7 @@ button {
   font-weight: inherit; }
 
 /* .page > #ead-na-ufes, #secretaria */
-#inicio #banner .container a, #page-blog a[role=button], #page-galeria #eventos li .imagens .abrirTodas, #edital .secao-edital#inscricao a[role="button"], #secretaria #estrutura #planta-sead button {
+#inicio #banner .container a, #inicio #polos a, #page-blog a[role=button], #page-galeria #eventos li .imagens .abrirTodas, #edital .secao-edital#inscricao a[role="button"], #secretaria #estrutura #planta-sead button {
   background-color: #C75000;
   text-transform: uppercase;
   color: white;
@@ -38,7 +38,7 @@ button {
   padding: .6rem 2rem;
   margin: 1rem 0;
   font-weight: 500; }
-  #inicio #banner .container a:hover, #page-blog a[role=button]:hover, #page-galeria #eventos li .imagens .abrirTodas:hover, #edital .secao-edital#inscricao a[role="button"]:hover, #secretaria #estrutura #planta-sead button:hover {
+  #inicio #banner .container a:hover, #inicio #polos a:hover, #page-blog a[role=button]:hover, #page-galeria #eventos li .imagens .abrirTodas:hover, #edital .secao-edital#inscricao a[role="button"]:hover, #secretaria #estrutura #planta-sead button:hover {
     background-color: #B24800; }
 
 .page p, .page blockquote, #secretaria #estrutura h3, #faq ul li {
@@ -696,26 +696,21 @@ footer {
         line-height: 2rem;
         padding-bottom: 0; }
         #inicio #noticias .noticia h3 a:hover {
-          border-bottom: solid 1px white; }
+          border-bottom: solid 2px #F06C00; }
       #inicio #noticias .noticia:nth-of-type(n+3) {
         display: none; }
   #inicio #polos {
     color: #043166;
     background-color: #FFDCC5;
-    padding: 2.5rem 1rem; }
+    padding: 2.5rem 1rem;
+    text-align: center; }
     #inicio #polos h2 {
       color: #C75000;
       font-size: 2rem;
       margin-top: 0; }
     #inicio #polos p {
-      padding: 0; }
-    #inicio #polos a {
-      font-family: "Merriweather", serif;
-      font-style: italic;
-      font-weight: 700;
-      font-size: 1.5rem; }
-      #inicio #polos a:hover {
-        border-bottom: solid 1px #043166; }
+      padding: 0;
+      padding-bottom: 1.5rem; }
     #inicio #polos svg {
       display: none; }
   @media screen and (min-width: 652px) {
@@ -800,14 +795,13 @@ footer {
           #inicio #noticias .noticia:nth-of-type(n) {
             display: block; }
       #inicio #polos {
-        padding: 2rem 1rem 1rem; }
-        #inicio #polos a {
-          font-size: 1.8rem; }
+        padding: 2rem 1rem 1rem;
+        text-align: left; }
         #inicio #polos svg {
           display: inline-block;
           float: left;
           margin: 0 2rem;
-          margin-top: -8rem;
+          margin-top: -7rem;
           height: 350px;
           width: auto; } }
 
