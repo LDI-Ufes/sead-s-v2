@@ -126,18 +126,11 @@
           color: $laranjaMedio;
         }
       }
-
+      
+      p{margin: .3rem 0;}
+      
       .atribuicao{
         font-weight: $regular;
-      }
-
-      .tipo-de-curso{
-        font-style: italic;
-        margin: .3rem 0;
-      }
-
-      .curso{
-        margin: .3rem 0;
       }
     }
   }

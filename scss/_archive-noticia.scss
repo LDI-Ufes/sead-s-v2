@@ -271,8 +271,7 @@
           position: absolute;
           bottom: 1.5rem;
           right: 0;
-          background-color: $laranjaEscuro;
-          opacity: .7;
+          background-color: rgba(178, 72, 0, .7);
           width: calc(50% - .75rem);
           height: 10rem;
 
@@ -288,10 +287,7 @@
 
           }
 
-          &:hover{
-            background-color: $laranjaEscuro;
-            opacity: .8;
-          }
+          &:hover{ background-color: rgba(178, 72, 0, .8); }
         }
       }
     }

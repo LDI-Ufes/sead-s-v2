@@ -39,7 +39,7 @@ button {
   margin: 1rem 0;
   font-weight: 500; }
   #inicio #banner .container a:hover, #page-blog a[role=button]:hover, #page-galeria #eventos li .imagens .abrirTodas:hover, #edital .secao-edital#inscricao a[role="button"]:hover, #secretaria #estrutura #planta-sead button:hover {
-    background-color: #C75000; }
+    background-color: #B24800; }
 
 .page p, .page blockquote, #secretaria #estrutura h3, #faq ul li {
   max-width: 720px;
@@ -477,7 +477,7 @@ footer {
       margin: 0 auto; }
       #inicio #ultimos-editais ul li {
         list-style-type: none;
-        margin-bottom: 1.5rem;
+        margin-bottom: 1.2rem;
         text-align: left;
         display: inline-block;
         width: 280px;
@@ -488,18 +488,18 @@ footer {
           font-size: 1.13rem;
           font-weight: 400;
           display: inline-block;
-          margin: 0 .5rem 0 0; }
+          margin: 0;
+          margin-bottom: .5rem; }
           #inicio #ultimos-editais ul li h3:hover {
-            font-weight: 600; }
+            font-weight: 500;
+            border-bottom: solid 2px #F06C00; }
         #inicio #ultimos-editais ul li p {
-          color: #043166;
-          margin: .5rem 0;
-          font-size: .8rem;
-          line-height: 1.5; }
+          margin: .3rem 0;
+          font-size: .9rem;
+          font-weight: 300;
+          line-height: 1.4; }
           #inicio #ultimos-editais ul li p.atribuicao {
-            color: black;
-            font-weight: 300;
-            font-size: 1rem; }
+            font-weight: 400; }
         #inicio #ultimos-editais ul li:nth-of-type(odd) {
           margin-right: .8rem; }
     @media screen and (min-width: 652px) {
@@ -509,10 +509,13 @@ footer {
         max-width: 620px; } }
     @media screen and (min-width: 992px) {
       #inicio #ultimos-editais {
-        padding: 1.2rem; }
+        padding: 1.2rem;
+        padding-bottom: .5rem; }
         #inicio #ultimos-editais .box-title {
           width: 100%;
-          max-width: 300px; } }
+          max-width: 300px; }
+        #inicio #ultimos-editais ul > li:last-of-type {
+          display: none; } }
   #inicio .container {
     padding: 0; }
   #inicio #ead-na-ufes {
@@ -562,7 +565,7 @@ footer {
         #inicio #quer-ser .container #quer-ser-titulo .box-titulo {
           position: absolute;
           left: 0;
-          border-bottom: 5rem solid #C75000;
+          border-bottom: 5rem solid #B24800;
           border-left: 0 solid transparent;
           border-right: 25px solid transparent;
           width: 80%;
@@ -756,6 +759,8 @@ footer {
       #inicio #ead-na-ufes {
         margin: 0;
         display: inline-block; }
+        #inicio #ead-na-ufes .topico-ead {
+          margin: 3rem auto; }
       #inicio #quer-ser .container {
         display: flex;
         justify-content: space-between; }
@@ -856,8 +861,8 @@ footer {
     .page #paginacao a, .page #paginacao span {
       padding: 0 1rem; }
     .page #paginacao a:hover {
-      border-bottom: solid 1px #C75000;
-      color: #C75000; }
+      border-bottom: solid 1px #B24800;
+      color: #B24800; }
     .page #paginacao span {
       color: #1765AB; }
     .page #paginacao h2 {
@@ -898,7 +903,7 @@ footer {
       margin: 0 auto; }
       #page-blog #ultimos-editais ul li {
         list-style-type: none;
-        margin-bottom: 1.5rem;
+        margin-bottom: 1.2rem;
         text-align: left;
         display: inline-block;
         width: 280px;
@@ -909,18 +914,18 @@ footer {
           font-size: 1.13rem;
           font-weight: 400;
           display: inline-block;
-          margin: 0 .5rem 0 0; }
+          margin: 0;
+          margin-bottom: .5rem; }
           #page-blog #ultimos-editais ul li h3:hover {
-            font-weight: 600; }
+            font-weight: 500;
+            border-bottom: solid 2px #F06C00; }
         #page-blog #ultimos-editais ul li p {
-          color: #043166;
-          margin: .5rem 0;
-          font-size: .8rem;
-          line-height: 1.5; }
+          margin: .3rem 0;
+          font-size: .9rem;
+          font-weight: 300;
+          line-height: 1.4; }
           #page-blog #ultimos-editais ul li p.atribuicao {
-            color: black;
-            font-weight: 300;
-            font-size: 1rem; }
+            font-weight: 400; }
         #page-blog #ultimos-editais ul li:nth-of-type(odd) {
           margin-right: .8rem; }
     @media screen and (min-width: 652px) {
@@ -930,10 +935,13 @@ footer {
         max-width: 620px; } }
     @media screen and (min-width: 992px) {
       #page-blog #ultimos-editais {
-        padding: 1.2rem; }
+        padding: 1.2rem;
+        padding-bottom: .5rem; }
         #page-blog #ultimos-editais .box-title {
           width: 100%;
-          max-width: 300px; } }
+          max-width: 300px; }
+        #page-blog #ultimos-editais ul > li:last-of-type {
+          display: none; } }
   #page-blog .container {
     width: 100%;
     padding: 0;
@@ -995,8 +1003,8 @@ footer {
     color: #C75000;
     padding: 0 1rem 6rem; }
     #page-blog #posts #postsNav a:hover {
-      border-bottom: solid 1px #C75000;
-      color: #C75000; }
+      border-bottom: solid 1px #B24800;
+      color: #B24800; }
     #page-blog #posts #postsNav .nav-right {
       float: right; }
     #page-blog #posts #postsNav .nav-left {
@@ -1089,7 +1097,7 @@ footer {
       font-size: 1.2rem; }
     #page-blog #galeria ul li {
       font-weight: 300;
-      color: #C75000;
+      color: #B24800;
       font-size: 1.2rem;
       padding-top: 1rem;
       width: 100%;
@@ -1125,8 +1133,7 @@ footer {
         position: absolute;
         bottom: 1.5rem;
         right: 0;
-        background-color: #C75000;
-        opacity: .7;
+        background-color: rgba(178, 72, 0, 0.7);
         width: calc(50% - .75rem);
         height: 10rem; }
         #page-blog #galeria ul li .ver-mais span {
@@ -1139,8 +1146,7 @@ footer {
           padding-top: 4.5rem;
           color: white; }
         #page-blog #galeria ul li .ver-mais:hover {
-          background-color: #C75000;
-          opacity: .8; }
+          background-color: rgba(178, 72, 0, 0.8); }
   #page-blog a[role=button] {
     background-color: white;
     color: #C75000;
@@ -1276,13 +1282,10 @@ footer {
       #page-editais #editais li h3 a:hover {
         border-bottom: solid 1.5px #C75000;
         color: #C75000; }
+    #page-editais #editais li p {
+      margin: .3rem 0; }
     #page-editais #editais li .atribuicao {
       font-weight: 400; }
-    #page-editais #editais li .tipo-de-curso {
-      font-style: italic;
-      margin: .3rem 0; }
-    #page-editais #editais li .curso {
-      margin: .3rem 0; }
 @media screen and (min-width: 992px) {
   #page-editais #filtros {
     margin-right: -15px; }
@@ -2125,8 +2128,8 @@ footer {
         color: #C75000;
         font-weight: 500; }
         #pagPesquisa #resultados li a:hover {
-          color: #C75000;
-          border-bottom: solid 0.5ps #C75000; }
+          color: #B24800;
+          border-bottom: solid 0.5ps #B24800; }
       #pagPesquisa #resultados li span {
         font-weight: 300; }
         #pagPesquisa #resultados li span strong {
