@@ -36,7 +36,7 @@
     }
 
     .post-body{
-      font-family: $texto;
+      font-family: $merriweather;
       line-height: 2;
       color: #333;
       margin-bottom: 3rem;
@@ -65,7 +65,7 @@
     .post-autor{
       display: inline-flex;
 
-      .autor-avatar{
+      img{
         width: 96px;
         height: 96px;
         max-width: 100%;
@@ -124,7 +124,7 @@
         left: 0;
         height: 24vw;
         opacity: .6;
-        background-image: linear-gradient(rgba(5,60,123,100),rgba(89,146,221,0));
+        background-image: linear-gradient($azulEscuro, transparent);
       }   
     }
 

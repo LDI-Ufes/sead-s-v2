@@ -6,7 +6,7 @@
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
           <li class="blog-post">
             <div class="blog-post-header">
-              <span>Seminários</span>
+              <span><?php echo strip_tags(get_the_term_list($post->ID, 'tag')); ?></span>
               <?php the_post_thumbnail(); ?>
               <div class="post-date"><?php the_date('j \d\e F \d\e Y'); ?></div>
             </div>

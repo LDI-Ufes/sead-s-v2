@@ -36,7 +36,8 @@
             margin-bottom: 1.5rem;
             text-align: left;
             display: inline-block;
-            width: 300px;
+            width: 280px;
+            vertical-align: top;
 
             h3{
                 color: black;
@@ -73,6 +74,10 @@
                     font-weight: $light;
                     font-size: 1rem;
                 }
+            }
+            
+            &:nth-of-type(odd){
+              margin-right: .8rem;
             }
         }
     }
