@@ -409,7 +409,8 @@ footer {
     background-color: #E37531;
     color: white;
     height: 3rem;
-    text-align: center; }
+    text-align: center;
+    cursor: default; }
     footer .creditos p {
       margin: 0;
       display: inline-block;
@@ -2254,6 +2255,18 @@ footer {
     border-radius: 25px;
     background-color: #3d95e5 !important; }
   .formPesquisaAtivo #formPesquisa input::placeholder {
+    color: white; }
+  .formPesquisaAtivo #formPesquisa input::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: white; }
+  .formPesquisaAtivo #formPesquisa input::-moz-placeholder {
+    /* Firefox 19+ */
+    color: white; }
+  .formPesquisaAtivo #formPesquisa input:-ms-input-placeholder {
+    /* IE 10+ */
+    color: white; }
+  .formPesquisaAtivo #formPesquisa input:-moz-placeholder {
+    /* Firefox 18- */
     color: white; }
   .formPesquisaAtivo #formPesquisa input:-webkit-autofill {
     -webkit-box-shadow: 0 0 0px 30px #3d95e5 inset;
