@@ -27,7 +27,7 @@
       <div id="topoBlog" class="topo">
         <section class="caixa">
           <a id="enderecoBlog" class="marca" href="<?php echo site_url(); ?>/blog" title="Ir para início do Blog">
-            <?php echo file_get_contents(get_template_directory_uri() . '/svg/nossoBlog.svg'); ?>
+            <?php include 'svg/nossoBlog.svg'; ?>
           </a>
           <span class="btoMenu">Menu</span>
           <nav id="menuPrincipal" class="menu" role="navigation">
@@ -54,7 +54,7 @@
           </nav>
           <?php get_search_form() ?>
           <a id="enderecoPortal" class="marca" href="<?php echo site_url(); ?>" title="Ir para início do Portal Sead">
-            <?php echo file_get_contents(get_template_directory_uri() . '/svg/sead-ufes.svg'); ?>
+            <?php include 'svg/sead-ufes.svg'; ?>
           </a>
         </section>
       </div>

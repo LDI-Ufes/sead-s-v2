@@ -10,26 +10,26 @@
     <blockquote>O objetivo dos polos é oferecer o espaço físico de apoio presencial aos alunos da sua região, mantendo as instalações físicas necessárias para atender aos alunos em questões tecnológicas, de laboratório, de biblioteca, entre outras.</blockquote>
     <p>A Secretaria de Educação a Distância-SEAD da Universidade Federal do Espírito Santo-UFES está presente em 27 polos de apoio presencial da Universidade Aberta do Brasil (UAB), estratégicamente espalhados por várias regiões do estado do Espírito Santo.</p>
   </section>
-  
-  <section id="mapaInterativo">         
+
+  <section id="mapaInterativo">
     <div class="popoverMunicipios">
       <p>Selecione um polo para exibir mais informações</p>
       <ul id="polos"></ul>
     </div>
-    <?php echo file_get_contents(get_template_directory_uri() . '/svg/mapaES.svg'); ?>
+    <?php include 'svg/mapaES.svg'; ?>
   </section>
 </main>
- 
+
 <?php get_footer(); ?>
 
 <script>
-  
+
   $(function () {
     var polos = [];
 
     $.getJSON('/sitiosead/wp-content/themes/sead-v2/js/polos.json', function (data) {
       $.each(data.polo, function (i, municipio) {
-        var lItem = '<li id="'+ municipio.id +'">' + '<button class="municipioTitulo">' + municipio.nome + '</button>' + 
+        var lItem = '<li id="'+ municipio.id +'">' + '<button class="municipioTitulo">' + municipio.nome + '</button>' +
                       '<div class="info-polo">' +
                         '<i class="fa fa-user"></i> <b>Coordenador</b><br>' + municipio.coord + '<br><br>' +
                         '<i class="fa fa-envelope" style="margin-right:5px;"></i> <b>E-mail(s)</b> <br>' + municipio.email + '<br><br>' +
@@ -42,19 +42,15 @@
       $(".municipioTitulo").click( function(){
         $('li').not($(this).parent()).removeClass('expandido');
         $(this).parent().toggleClass('expandido');
-      });}    
+      });}
     );
   });
-  
+
   function mostrarContatoPolo(municipio){
     var idt = '#' + municipio;
     $('li').not( idt ).removeClass('expandido');
     $('li'+idt).toggleClass('expandido');
     $('html, body').animate({ scrollTop: $("li"+idt).offset().top-50 }, 800);
   };
-   
-</script>
 
-        
-        
-        
+</script>

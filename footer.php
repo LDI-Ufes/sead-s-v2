@@ -25,7 +25,7 @@
         <li><a href="<?php echo site_url(); ?>/editais" title="Ir para Editais">Editais</a></li>
         <li><a href="<?php echo site_url(); ?>/cursos" title="Ir para Cursos">Cursos</a></li>
         <li><a href="<?php echo site_url(); ?>/polos" title="Ir para Polos">Polos</a></li>
-        <li><a href="<?php echo site_url(); ?>/blog" title="Ir para Notícias">Notícias</a></li>             
+        <li><a href="<?php echo site_url(); ?>/blog" title="Ir para Notícias">Notícias</a></li>
       </ul>
     </section>
 
@@ -34,7 +34,7 @@
       <p>Av. Fernando Ferrari, 514, Vitória-ES. Ufes.<br>Térreo do Teatro Universitário</p>
       <p>(27) 4009-2208</p>
       <p><a href = "mailto: diretoria.sead@institucional.ufes.br">diretoria.sead@institucional.ufes.br</a></p>
-      <div class="fb-page" data-href="https://www.facebook.com/sead.ufes" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/sead.ufes" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/sead.ufes">Secretaria de Ensino a Distância - SEAD UFES</a></blockquote></div>               
+      <div class="fb-page" data-href="https://www.facebook.com/sead.ufes" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/sead.ufes" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/sead.ufes">Secretaria de Ensino a Distância - SEAD UFES</a></blockquote></div>
     </section>
 
     <section>
@@ -44,13 +44,13 @@
         <li><a href="http://www.ead.ufes.br/" title="Ir para o AVA de Graduação">AVA Graduação</a></li>
         <li><a href="http://www.especializacao.aperfeicoamento.ufes.br/" title="Ir para o AVA de Especialização e Aperfeiçoamento">AVA Especialização e Aperfeiçoamento</a></li>
         <li><a href="http://selecao.neaad.ufes.br" title="Ir para o Sistema de Seleção da Sead">Sistema de Seleção</a></li>
-        <li><a href="http://videos.ufes.br/sead" title="Ir para Vídeos Ufes">Vídeos Ufes</a></li>          
+        <li><a href="http://videos.ufes.br/sead" title="Ir para Vídeos Ufes">Vídeos Ufes</a></li>
       </ul>
     </section>
   </div>
   <div class="creditos">
     <p>2018 - Todos os direitos reservados. <span><a href="http://www.ufes.br/" title="Ir para o sítio da Ufes">Ufes</a> | Sead | <a href="https://ldi.eadufes.org/" title="Ir para o sítio do LDI">LDI</a> | Educação a Distância Ufes</span></p>
-    <?php echo file_get_contents(get_template_directory_uri() . '/svg/ldi.svg'); ?>
+     <?php include 'svg/ldi.svg'; ?>
   </div>
 </footer>
 
