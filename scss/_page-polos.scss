@@ -1,10 +1,9 @@
 #page-polos {
-
-  #mapaInterativo{
+  #mapaInterativo {
     margin: 5rem 0;
     position: relative;
 
-    .popoverMunicipios{
+    .popoverMunicipios {
       width: 100%;
       display: inline-block;
       vertical-align: top;
@@ -12,16 +11,16 @@
       font-weight: $light;
       margin-bottom: 2rem;
 
-      h2{
+      h2 {
         color: $laranja;
         font-size: 1.5rem;
       }
 
-      i{
+      i {
         color: $azulClaro;
       }
 
-      p{
+      p {
         font-size: 2rem;
         color: $azul;
         line-height: 1.3;
@@ -29,8 +28,8 @@
         position: relative;
         margin-bottom: 4rem;
 
-        &:after{
-          content: '';
+        &:after {
+          content: "";
           position: absolute;
           height: 0;
           left: 0;
@@ -41,44 +40,46 @@
       }
     } /* popoverMunicipios */
 
-    #polos{
-      li{
-        padding: .5rem 0;
+    #polos {
+      li {
+        padding: 0.5rem 0;
 
-        button.municipioTitulo{
+        button.municipioTitulo {
           font-weight: $medium;
           color: $azul;
           cursor: pointer;
-          transition: font-size .2s;
+          transition: font-size 0.2s;
           border: none;
           background: none;
 
-          &:hover{
-            border-bottom: solid .5px $azulEscuro;
+          &:hover {
+            border-bottom: solid 0.5px $azulEscuro;
             color: $azulEscuro;
           }
         }
 
-        .info-polo{
+        .info-polo {
           display: none;
           line-height: 1.5;
           padding-top: 1rem;
           padding-left: 1rem;
 
-          i{color: $laranja;}
+          i {
+            color: $laranja;
+          }
         }
 
-        &.expandido{
-          button.municipioTitulo{
+        &.expandido {
+          button.municipioTitulo {
             font-weight: $bold;
             font-size: 1.5rem;
             color: $laranja;
 
-            &:hover{
+            &:hover {
               border: none;
             }
           }
-          .info-polo{
+          .info-polo {
             display: block;
           }
         }
@@ -86,61 +87,25 @@
     } /* #polos */
   } /* #mapaInterativo */
 
-  svg {display: none;}
-
   @media screen and (min-width: 992px) {
-
     #mapaInterativo {
-
       .popoverMunicipios {
         width: 45%;
 
-        p:after{ width: 32rem; }
+        p:after {
+          width: 32rem;
+        }
       }
-
-      svg{
-        display: inline-block;
-        width: 50%;
-        position: sticky;
-        top: 3rem;
-
-        text {
-          font-weight: $bold;
-          font-family: inherit;
-          font-size: 1rem;
-        }
-
-        #semPolos {
-          path {fill: rgb(220,220,220);}
-        }
-
-        #comPolos {
-          a{
-            cursor: pointer;
-
-            g { 
-              .geografia {fill: $azulClaro;}
-
-              .pin {
-                fill: darken($azul, 40%) !important;
-                stroke: none;
-              }
-
-              text {fill: #333;}
-            }
-
-            &:hover{
-              g > .geografia {fill: $azul;}
-            }
-
-            &.selecionado{
-              g > .geografia{fill: $laranjaClaro;}
-            }
-          }
-        } /* #comPolos */
-
-      } /* svg */
     } /* #mapaInterativo */
   } /* media */
 
+  @media screen and (max-width: 991px) {
+
+    #mapaInterativo {
+
+      svg {
+        display: none;
+      }
+    }
+  }
 }
