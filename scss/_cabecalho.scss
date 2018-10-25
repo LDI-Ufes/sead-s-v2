@@ -49,7 +49,14 @@ header {
     }
   }
 
+  form{
+    flex-grow: 10;
+    display: flex;
+    justify-content: flex-end;
+  }
+
   #topoBlog {
+
     #enderecoBlog {
       max-height: 100%;
 
@@ -62,9 +69,7 @@ header {
       width: auto;
     }
 
-    form {
-      margin: 0;
-    }
+    form { margin: 0; }
   }
 
   .topo {
@@ -84,148 +89,177 @@ header {
       }
     }
   }
-}
 
-@media screen and (min-width: 993px) {
-  #barraAuxiliar,
-  .topo {
-    .btoMenu {
-      display: none;
-    }
-  }
 
-  #topoPrincipal {
-    #menuPrincipal {
-      > ul > li {
-        height: calc(100px - 2.4rem);
+  @media screen and (min-width: 993px) {
+    #barraAuxiliar,
+    .topo {
+      .btoMenu {
+        display: none;
       }
     }
-  }
 
-  #topoBlog {
-    svg#nossoBlog {
-      width: 260px;
-      transition: margin-top 0.5s;
-      padding: 0;
-      margin-top: 40px;
-    }
+    form{ 
+      flex-grow: 0;
 
-    #menuPrincipal {
-      > ul > li {
-        height: calc(100px - 2.4rem);
+      .botaoFalso {
+        padding: 10px 25px;
       }
     }
-  }
 
-  .topo {
-    display: inline-flex;
-    position: relative;
-    height: 100px;
-    padding: 0 20px;
-    background-color: $azulRegular;
+    #topoPrincipal {
+      #menuPrincipal {
+        
+        flex-grow: 10;
+        display: flex;
+        justify-content: flex-end;
+        
+        > ul > li {
+          height: calc(100px - 2.4rem);
 
-    .caixa {
+          &#espaco{ width: 13rem; }
+        }
+      }
+    }
+
+    #topoBlog {
+      svg#nossoBlog {
+        width: 260px;
+        transition: margin-top 0.5s;
+        padding: 0;
+        margin-top: 40px;
+      }
+
+      #menuPrincipal {
+
+        flex-grow: 10;
+        display: flex;
+        justify-content: flex-end;
+
+        > ul > li {
+          height: calc(100px - 2.4rem);
+        }
+      }
+      
+      &.formPesquisaAtivo{
+        
+        form{
+          flex-grow: 10;
+          margin-right: 20px;
+        }
+      }
+      
+    }
+
+    .topo {
       display: inline-flex;
-      justify-content: space-between;
-    }
-  }
-}
+      position: relative;
+      height: 100px;
+      padding: 0 20px;
+      background-color: $azulRegular;
 
-@media screen and (max-width: 992px) {
-  #topoPrincipal {
-    #menuPrincipal {
-      order: 4;
-    }
-
-    #formPesquisa {
-      order: 2;
-    }
-
-    .btoMenu {
-      order: 3;
+      .caixa {
+        display: inline-flex;
+        justify-content: space-between;
+      }
     }
   }
 
-  #topoBlog {
-    svg#nossoBlog,
-    svg.seadUfes {
-      margin: 10px 20px;
-      height: 50px;
+  @media screen and (max-width: 992px) {
+    #topoPrincipal {
+      #menuPrincipal {
+        order: 4;
+      }
+
+      #formPesquisa {
+        order: 2;
+      }
+
+      .btoMenu {
+        order: 3;
+      }
     }
 
-    svg#nossoBlog {
-      order: 1;
-    }
+    #topoBlog {
+      svg#nossoBlog,
+      svg.seadUfes {
+        margin: 10px 20px;
+        height: 50px;
+      }
 
-    #enderecoPortal {
-      position: absolute;
-      left: -9999px;
-    }
+      svg#nossoBlog {
+        order: 1;
+      }
 
-    .btoMenu {
-      order: 3;
-    }
+      #enderecoPortal {
+        position: absolute;
+        left: -9999px;
+      }
 
-    .menu {
-      order: 4;
+      .btoMenu {
+        order: 3;
+      }
 
-      .menuAberto {
-        > .temSubmenu {
-          > span i.fas {
-            display: none;
-          }
+      .menu {
+        order: 4;
 
-          > ul.menuSuspenso {
-            position: relative;
-            transform: translateX(0);
-            z-index: 0;
+        .menuAberto {
+          > .temSubmenu {
+            > span i.fas {
+              display: none;
+            }
 
-            > .temSubmenu {
-              > .menuSuspenso {
-                margin: 0 0 10px 0;
+            > ul.menuSuspenso {
+              position: relative;
+              transform: translateX(0);
+              z-index: 0;
+
+              > .temSubmenu {
+                > .menuSuspenso {
+                  margin: 0 0 10px 0;
+                }
               }
             }
           }
         }
       }
     }
-  }
 
-  .topo {
-    background-color: $azulRegular;
-    color: white;
-
-    a {
-      text-decoration: none;
+    .topo {
+      background-color: $azulRegular;
       color: white;
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+
+      .caixa {
+        svg.seadUfesExtenso,
+        .btoMenu {
+          margin: 10px 20px;
+          z-index: 1;
+        }
+
+        svg.seadUfesExtenso {
+          width: auto;
+          height: 30px;
+          padding: 10px 0;
+        }
+
+        .btoMenu {
+          padding: 10px;
+          background-color: $azulEscuro;
+          line-height: 30px;
+          text-transform: uppercase;
+        }
+      }
     }
 
-    .caixa {
-      svg.seadUfesExtenso,
-      .btoMenu {
-        margin: 10px 20px;
-        z-index: 1;
-      }
-
-      svg.seadUfesExtenso {
-        width: auto;
-        height: 30px;
-        padding: 10px 0;
-      }
-
-      .btoMenu {
-        padding: 10px;
-        background-color: $azulEscuro;
-        line-height: 30px;
-        text-transform: uppercase;
-      }
+    .btoMenu {
+      cursor: pointer;
     }
-  }
-
-  .btoMenu {
-    cursor: pointer;
   }
 }
-
 
 @import "menu";
