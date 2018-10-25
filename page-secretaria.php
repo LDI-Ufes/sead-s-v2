@@ -96,7 +96,7 @@
       <div id="planta-sead">
         <span>Quer nos visitar ou conhecer melhor nossa estrutura?</span>
         <button>Abrir mapa detalhado</button>
-        <a title="Abrir mapa detalhado"><img src="<?php echo site_url(); ?>/wp-content/themes/sead-v2/img/planta-sead.png"></a>
+        <?php the_content() ?>
       </div>
 
     </section> <!-- estrutura -->
@@ -106,7 +106,13 @@
 <?php get_footer(); ?>
 
 <script>
+  
+  $('button').click(function(){
+    console.log("clique");
+    $(this).siblings("p").find('#img-sead').trigger('click');
 
+  });
+  
   $(function() {
     var tabs = $("#abas");
 

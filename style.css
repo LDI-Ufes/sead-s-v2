@@ -1774,11 +1774,11 @@ footer {
     width: 100%;
     margin: 1rem 0;
     margin-right: 0; }
-  #secretaria #estrutura p > a {
+  #secretaria #estrutura #infraestrutura p > a {
     font-style: italic;
     color: #1765AB;
     margin-left: .5rem; }
-    #secretaria #estrutura p > a:hover {
+    #secretaria #estrutura #infraestrutura p > a:hover {
       border-bottom: 0.5px solid #1765AB; }
   #secretaria #estrutura #planta-sead {
     margin: 6rem 0;
@@ -1792,9 +1792,14 @@ footer {
     #secretaria #estrutura #planta-sead button {
       width: 100%;
       margin-top: 2rem; }
-    #secretaria #estrutura #planta-sead img {
-      width: 100%;
-      margin-top: 4rem; }
+    #secretaria #estrutura #planta-sead P {
+      display: none; }
+      #secretaria #estrutura #planta-sead P:last-of-type {
+        display: block;
+        width: 100%; }
+        #secretaria #estrutura #planta-sead P:last-of-type img {
+          width: 100%;
+          height: auto; }
   @media (min-width: 993px) {
     #secretaria #abas {
       min-height: 200px; }
@@ -1814,12 +1819,12 @@ footer {
           margin: 1rem 0;
           margin-top: 3rem;
           width: auto; }
-        #secretaria #estrutura #planta-sead img {
+        #secretaria #estrutura #planta-sead p:last-of-type img {
           position: absolute;
           width: 60%;
           height: auto;
           right: 0;
-          top: -2rem;
+          top: -4rem;
           margin-top: 0; } }
   @media (max-width: 992px) {
     #secretaria #abas {
