@@ -1,104 +1,107 @@
-@import 'variaveis';
+@import "variaveis";
 
-footer{
-    background-color: $azulEscuro;
+footer {
+  background-color: $azulEscuro;
+  color: white;
+  font-weight: $light;
+  line-height: 1.7;
+
+  .content {
+    padding: 2rem 1rem;
+
+    section {
+      display: inline-block;
+      width: 100%;
+
+      h4 {
+        font-size: 1.2rem;
+        font-weight: $semi-bold;
+
+        &:after {
+          content: "";
+          display: block;
+          height: 2px;
+          background-color: $laranja;
+          width: 100%;
+          margin-top: 0.4rem;
+        }
+      }
+
+      a:hover {
+        color: $azulClaro;
+      }
+
+      .subitens {
+        margin-left: 1rem;
+      }
+    }
+  }
+
+  .creditos {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+    width: 100%;
+    height: 3rem;
+    background-color: $laranja;
+    text-align: center;
     color: white;
-    font-weight: $light;
-    line-height: 1.7;
-    
-    .content{
-        padding: 2rem 1rem;
-        
-        section{          
-            display: inline-block;
-            width: 100%;
-            
-            h4{
-                font-size: 1.2rem;
-                font-weight: $semi-bold;
-                    
-                &:after{
-                    content: '';
-                    display: block;
-                    height: 2px;
-                    background-color: $laranja;
-                    width: 100%;
-                    margin-top: .4rem;
-                }
-            }
-                       
-            a:hover{
-                color: $azulClaro;
-            }
-            
-            .subitens{
-                margin-left: 1rem;
-            }
-        }
-    }
-    
-    .creditos{
-        background-color: $laranja;
-        color: white;
-        height: 3rem;
-        text-align: center;
-        cursor: default;
-        
-        p{
-            margin: 0;
-            display: inline-block;
-            font-size: .8rem;
-            line-height: 3rem;
-            vertical-align: top;
-            height: inherit;
-            /*padding-right: .2rem;*/
-            
-            a:hover{
-                color: $azulEscuro;
-            }
-            
-            span{
-                display: none;
-            }
-        }
-        
-        svg{
-            height: 3rem;
-            width: auto;
-            margin-bottom: -1rem;
-            
-            path{
-                fill: white;
-            }
-        }
 
+    p {
+      margin: 0;
+      display: inline-block;
+      font-size: 0.8rem;
+      line-height: 3rem;
+      vertical-align: top;
+      height: inherit;
+
+      a:hover {
+        color: $azulEscuro;
+      }
+
+      span {
+        display: none;
+      }
     }
+
+    .creditosMarca {
+      display: inline-flex;
+      padding: 0 5px;
+      cursor: help;
+
+      svg {
+        path {
+          fill: white;
+        }
+      }
+    }
+  }
 }
 
 @media screen and (min-width: 992px) {
-    footer{
-        .content{
-            max-width: 960px;
-            margin: 0 auto;
-            padding: 2rem 0;
+  footer {
+    .content {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 2rem 0;
 
-            section{          
-                width: calc(50% - .7rem);
-                vertical-align: top;
+      section {
+        width: calc(50% - 0.7rem);
+        vertical-align: top;
 
-                &:nth-child(even){
-                    float: right;
-                }
-
-            }
+        &:nth-child(even) {
+          float: right;
         }
-        
-        .creditos{
-            p{
-                span{
-                    display: inline-block;
-                }
-            }
-        }
+      }
     }
+
+    .creditos {
+      p {
+        span {
+          display: inline-block;
+        }
+      }
+    }
+  }
 }

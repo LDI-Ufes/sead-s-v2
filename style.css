@@ -64,7 +64,7 @@ body {
   margin: 0;
   min-width: 360px;
   overflow-x: hidden;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-size: 1rem; }
   body.contraste * {
     background-color: black !important;
@@ -72,6 +72,7 @@ body {
     body.contraste * a {
       color: yellow; }
   body main {
+    display: block;
     min-height: 40rem; }
     body main h1:first-of-type {
       margin: 0;
@@ -87,7 +88,7 @@ section.caixa {
     padding: 0; }
 
 .breadcrumb {
-  font-size: .8rem; }
+  font-size: 0.8rem; }
   .breadcrumb a {
     color: #1661A6;
     font-weight: 500; }
@@ -106,6 +107,30 @@ h1 {
   color: #1661A6;
   padding: 2rem 0 1rem;
   line-height: 1.3; }
+
+.mapaES {
+  position: sticky;
+  top: 3rem;
+  width: 50%; }
+  .mapaES text {
+    font-weight: 700;
+    font-family: inherit;
+    font-size: 1rem; }
+  .mapaES #semPolos path {
+    fill: gainsboro; }
+  .mapaES #comPolos path {
+    fill: #5992DD; }
+  .mapaES #comPolos a {
+    cursor: pointer; }
+    .mapaES #comPolos a .pin {
+      fill: black !important;
+      stroke: none; }
+    .mapaES #comPolos a text {
+      fill: #333; }
+    .mapaES #comPolos a:hover g > .geografia {
+      fill: #1661A6; }
+    .mapaES #comPolos a.selecionado g > .geografia {
+      fill: #FDA65B; }
 
 @media screen and (min-width: 992px) {
   .container {
@@ -395,39 +420,42 @@ footer {
         font-size: 1.2rem;
         font-weight: 600; }
         footer .content section h4:after {
-          content: '';
+          content: "";
           display: block;
           height: 2px;
           background-color: #E37531;
           width: 100%;
-          margin-top: .4rem; }
+          margin-top: 0.4rem; }
       footer .content section a:hover {
         color: #5992DD; }
       footer .content section .subitens {
         margin-left: 1rem; }
   footer .creditos {
-    background-color: #E37531;
-    color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+    width: 100%;
     height: 3rem;
+    background-color: #E37531;
     text-align: center;
-    cursor: default; }
+    color: white; }
     footer .creditos p {
       margin: 0;
       display: inline-block;
-      font-size: .8rem;
+      font-size: 0.8rem;
       line-height: 3rem;
       vertical-align: top;
-      height: inherit;
-      /*padding-right: .2rem;*/ }
+      height: inherit; }
       footer .creditos p a:hover {
         color: #043767; }
       footer .creditos p span {
         display: none; }
-    footer .creditos svg {
-      height: 3rem;
-      width: auto;
-      margin-bottom: -1rem; }
-      footer .creditos svg path {
+    footer .creditos .creditosMarca {
+      display: inline-flex;
+      padding: 0 5px;
+      cursor: help; }
+      footer .creditos .creditosMarca svg path {
         fill: white; }
 
 @media screen and (min-width: 992px) {
@@ -436,7 +464,7 @@ footer {
     margin: 0 auto;
     padding: 2rem 0; }
     footer .content section {
-      width: calc(50% - .7rem);
+      width: calc(50% - 0.7rem);
       vertical-align: top; }
       footer .content section:nth-child(even) {
         float: right; }
@@ -653,7 +681,7 @@ footer {
           #inicio #quer-ser .container #quer-ser-itens li .instrucao {
             width: 180px;
             vertical-align: bottom;
-            margin-left: .5rem;
+            margin-left: 0.5rem;
             display: inline-block;
             line-height: 1.7; }
             #inicio #quer-ser .container #quer-ser-itens li .instrucao:hover {
@@ -681,7 +709,7 @@ footer {
         color: #9C4C22;
         font-weight: 300;
         font-size: 2.3rem;
-        margin: .5rem 0;
+        margin: 0.5rem 0;
         line-height: 2.8rem; }
       #inicio #noticias .confira-mais a {
         width: calc(50% - 0.5rem);
@@ -714,14 +742,14 @@ footer {
       margin-bottom: 2rem;
       height: 300px; }
       #inicio #noticias .noticia:after {
-        content: '';
+        content: "";
         position: absolute;
         top: 0;
         right: 0;
         bottom: 0;
         left: 0;
         height: 100%;
-        opacity: .6;
+        opacity: 0.6;
         background-image: linear-gradient(rgba(89, 146, 221, 0), #053c7b); }
       #inicio #noticias .noticia img {
         width: 100%;
@@ -740,7 +768,7 @@ footer {
         padding-bottom: 0; }
         #inicio #noticias .noticia h3 a:hover {
           border-bottom: solid 1px white; }
-      #inicio #noticias .noticia:nth-of-type(n+3) {
+      #inicio #noticias .noticia:nth-of-type(n + 3) {
         display: none; }
   #inicio #polos {
     color: #043767;
@@ -798,8 +826,7 @@ footer {
           max-width: 300px;
           display: inline-block;
           padding: 0;
-          margin: 0;
-          flex-grow: 1; }
+          margin: 0; }
           #inicio #quer-ser .container #quer-ser-titulo .box-titulo {
             width: calc(40% - 1.5rem); }
         #inicio #quer-ser .container #quer-ser-itens {
@@ -807,8 +834,7 @@ footer {
           padding: 0;
           margin: 0;
           top: -0.5rem;
-          padding-left: 1rem;
-          flex-grow: 2; }
+          padding-left: 1rem; }
           #inicio #quer-ser .container #quer-ser-itens .box-titulo {
             width: calc(60% - 1.5rem);
             margin-top: -0.5rem; }
@@ -837,9 +863,7 @@ footer {
           display: inline-block;
           float: left;
           margin: 0 2rem;
-          margin-top: -8rem;
-          height: 350px;
-          width: auto; } }
+          margin-top: -8rem; } }
 
 .page {
   line-height: 1.8rem; }
@@ -1694,7 +1718,7 @@ footer {
         position: relative;
         margin-bottom: 4rem; }
         #page-polos #mapaInterativo .popoverMunicipios p:after {
-          content: '';
+          content: "";
           position: absolute;
           height: 0;
           left: 0;
@@ -1704,12 +1728,12 @@ footer {
     #page-polos #mapaInterativo #polos {
       /* li */ }
       #page-polos #mapaInterativo #polos li {
-        padding: .5rem 0; }
+        padding: 0.5rem 0; }
         #page-polos #mapaInterativo #polos li button.municipioTitulo {
           font-weight: 500;
           color: #1661A6;
           cursor: pointer;
-          transition: font-size .2s;
+          transition: font-size 0.2s;
           border: none;
           background: none; }
           #page-polos #mapaInterativo #polos li button.municipioTitulo:hover {
@@ -1730,42 +1754,16 @@ footer {
             border: none; }
         #page-polos #mapaInterativo #polos li.expandido .info-polo {
           display: block; }
-  #page-polos svg {
-    display: none; }
   @media screen and (min-width: 992px) {
     #page-polos {
       /* #mapaInterativo */ }
-      #page-polos #mapaInterativo {
-        /* svg */ }
-        #page-polos #mapaInterativo .popoverMunicipios {
-          width: 45%; }
-          #page-polos #mapaInterativo .popoverMunicipios p:after {
-            width: 32rem; }
-        #page-polos #mapaInterativo svg {
-          display: inline-block;
-          width: 50%;
-          position: sticky;
-          top: 3rem;
-          /* #comPolos */ }
-          #page-polos #mapaInterativo svg text {
-            font-weight: 700;
-            font-family: inherit;
-            font-size: 1rem; }
-          #page-polos #mapaInterativo svg #semPolos path {
-            fill: gainsboro; }
-          #page-polos #mapaInterativo svg #comPolos a {
-            cursor: pointer; }
-            #page-polos #mapaInterativo svg #comPolos a g .geografia {
-              fill: #5992DD; }
-            #page-polos #mapaInterativo svg #comPolos a g .pin {
-              fill: black !important;
-              stroke: none; }
-            #page-polos #mapaInterativo svg #comPolos a g text {
-              fill: #333; }
-            #page-polos #mapaInterativo svg #comPolos a:hover g > .geografia {
-              fill: #1661A6; }
-            #page-polos #mapaInterativo svg #comPolos a.selecionado g > .geografia {
-              fill: #FDA65B; } }
+      #page-polos #mapaInterativo .popoverMunicipios {
+        width: 45%; }
+        #page-polos #mapaInterativo .popoverMunicipios p:after {
+          width: 32rem; } }
+  @media screen and (max-width: 991px) {
+    #page-polos #mapaInterativo svg {
+      display: none; } }
 
 #secretaria {
   /* media */ }
