@@ -1,6 +1,5 @@
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="MapaES" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-     width="650px" height="1012px" viewBox="0 0 650 1012" enable-background="new 0 0 650 1012" xml:space="preserve" style="max-width:100%;height:auto;">
+<svg version="1.1" id="MapaES" class="mapaES" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     width="650px" height="1012px" viewBox="0 0 650 1012" enable-background="new 0 0 650 1012" xml:space="preserve" style="max-width:100%;">
     <g id="semPolos">
         <path fill="#CDCCCC" stroke="#758B9A" stroke-width="0.5" d="M523.693,311.1c-1.857-1.341-1.96-0.928-3.714-2.785
               c-1.754-1.856-2.062-4.848-2.062-4.848l-7.428-0.103l-0.721,1.03c-1.857,2.889-2.598,1.032-2.598,1.032s-0.703-13.407-0.085-17.017

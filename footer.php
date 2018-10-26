@@ -50,7 +50,7 @@
   </div>
   <div class="creditos">
     <p>2018 - Todos os direitos reservados. <span><a href="http://www.ufes.br/" target="_blank" title="Ir para o sítio da Ufes">Ufes</a> | Sead | <a href="https://ldi.eadufes.org/" target="_blank" title="Ir para o sítio do LDI">LDI</a> | Educação a Distância Ufes</span></p>
-    <?php include 'svg/ldi.svg'; ?>
+    <span title="Sítio desenvolvido pelo Laboratório de Design Instrucional" class="creditosMarca"><?php include 'svg/ldi.svg'; ?></span>
   </div>
 </footer>
 

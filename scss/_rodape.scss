@@ -1,4 +1,4 @@
-@import 'variaveis';
+@import "variaveis";
 
 footer{
   background-color: $azulEscuro;
@@ -9,7 +9,7 @@ footer{
   .content{
     padding: 2rem 1rem;
 
-    section{          
+    section{
       display: inline-block;
       width: 100%;
 
@@ -32,12 +32,17 @@ footer{
       .subitens{ margin-left: 1rem; }
     }
   }
-    
+
   .creditos{
-    background-color: $laranjaMedio;
-    color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+    width: 100%;
     height: 3rem;
+    background-color: $laranjaMedio;
     text-align: center;
+    color: white;
 
     p{
       margin: 0;
@@ -69,7 +74,7 @@ footer{
       margin: 0 auto;
       padding: 2rem 0;
 
-      section{          
+      section{
         width: calc(50% - .7rem);
         vertical-align: top;
 
@@ -83,7 +88,18 @@ footer{
       p{
         span{ display: inline-block; }
       }
+
+      .creditosMarca {
+        display: inline-flex;
+        padding: 0 5px;
+        cursor: help;
+
+        svg {
+          path {
+            fill: white;
+          }
+        }
+      }
     }
-    
   }
 }
