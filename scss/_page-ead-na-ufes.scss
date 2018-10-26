@@ -1,18 +1,21 @@
-#ead-na-ufes{
+#ead-na-ufes {
+  .destaque {
+    @include destaque($azulMedio, url("./img/video-destaque.png"));
+  }
 
-  .destaque{ @include destaque($azulMedio, url('./img/video-destaque.png')); }
+  .breadcrumb {
+    margin-bottom: 4rem;
+  }
 
-  .breadcrumb{ margin-bottom: 4rem; }
-
-  #slider{
+  #slider {
     background-color: $azulExtraClaro;
 
-    ul{
+    ul {
       position: relative;
       height: inherit;
       padding: 0;
 
-      button{
+      button {
         color: transparent;
         border: 0;
         background: none;
@@ -21,40 +24,48 @@
         transform: translateY(-50%);
         width: 2rem;
 
-        &:before{
+        &:before {
           font-family: "Font Awesome 5 Free";
           font-weight: 600;
           font-size: 3rem;
           color: $azulRegular;
         }
 
-        &.seta-prev{
+        &.seta-prev {
           left: 1rem;
           display: none;
 
-          &:before{ content: '\f104'; }
+          &:before {
+            content: "\f104";
+          }
         }
 
-        &.seta-next{
+        &.seta-next {
           right: 1rem;
 
-          &:before{ content: '\f105'; }
+          &:before {
+            content: "\f105";
+          }
         }
       } /* button */
 
-      li{
+      li {
         font-weight: $light;
         padding: 0 4rem;
         padding-top: 3rem;
         display: none;
         text-align: center;
 
-        &.ativo{ display: block; }
+        &.ativo {
+          display: block;
+        }
 
-        svg{ height: 7rem; }
+        svg {
+          height: 7rem;
+        }
 
-        .grupo{
-          h2{
+        .grupo {
+          h2 {
             font-weight: $light;
             font-style: italic;
             color: $laranjaMedio;
@@ -65,13 +76,13 @@
         }
       }
 
-      .dots{
+      .dots {
         text-align: center;
         width: 100%;
         margin-bottom: 1rem;
         padding: 2rem 0 1rem;
 
-        .dot{
+        .dot {
           position: relative;
           display: inline-block;
           margin: 0 5px;
@@ -79,26 +90,27 @@
           color: transparent;
           padding: 0;
 
-          &:before{
+          &:before {
             font-family: "Font Awesome 5 Free";
             font-weight: 600;
-            font-size: .8rem;
-            content: '\f111';
+            font-size: 0.8rem;
+            content: "\f111";
             color: $azulRegular;
             margin-left: 5px;
           }
 
-          &.ativo:before{ color: $laranjaMedio; }
+          &.ativo:before {
+            color: $laranjaMedio;
+          }
         }
       }
-
     } /* ul */
   } /* #slider */
 
-  #agentes{
+  #agentes {
     margin-bottom: 4rem;
 
-    li{
+    li {
       font-weight: $light;
       max-width: 720px;
       margin: 0 auto;
@@ -106,42 +118,45 @@
   }
 
   @media (min-width: 992px) {
-
-    #slider{
+    #slider {
       height: 23rem;
 
-      ul{
+      ul {
         padding: 0;
 
-        button{
+        button {
           width: 3rem;
 
-          &:before{ font-size: 5rem; }
+          &:before {
+            font-size: 5rem;
+          }
         }
 
-        li{
+        li {
           margin: 2rem 0;
           padding: 0 8rem;
           padding-top: 3rem;
           text-align: left;
 
-          &.ativo{ display: flex; }
+          &.ativo {
+            display: flex;
+          }
 
-          svg{ margin-top: 1rem; }
+          svg {
+            margin-top: 1rem;
+          }
 
-          .grupo{
+          .grupo {
             max-width: 600px;
             margin-left: 3rem;
           }
         }
-        
-        .dots{
+
+        .dots {
           position: absolute;
           bottom: 1rem;
         }
-        
       } /* ul */
     } /* #slider */
-
   } /* media */
 }

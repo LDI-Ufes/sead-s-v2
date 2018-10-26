@@ -49,14 +49,13 @@ header {
     }
   }
 
-  form{
+  form {
     flex-grow: 10;
     display: flex;
     justify-content: flex-end;
   }
 
   #topoBlog {
-
     #enderecoBlog {
       max-height: 100%;
 
@@ -69,7 +68,9 @@ header {
       width: auto;
     }
 
-    form { margin: 0; }
+    form {
+      margin: 0;
+    }
   }
 
   .topo {
@@ -90,7 +91,6 @@ header {
     }
   }
 
-
   @media screen and (min-width: 993px) {
     #barraAuxiliar,
     .topo {
@@ -99,7 +99,7 @@ header {
       }
     }
 
-    form{ 
+    form {
       flex-grow: 0;
 
       .botaoFalso {
@@ -109,15 +109,16 @@ header {
 
     #topoPrincipal {
       #menuPrincipal {
-        
         flex-grow: 10;
         display: flex;
         justify-content: flex-end;
-        
+
         > ul > li {
           height: calc(100px - 2.4rem);
 
-          &#espaco{ width: 13rem; }
+          &#espaco {
+            width: 13rem;
+          }
         }
       }
     }
@@ -131,7 +132,6 @@ header {
       }
 
       #menuPrincipal {
-
         flex-grow: 10;
         display: flex;
         justify-content: flex-end;
@@ -140,15 +140,13 @@ header {
           height: calc(100px - 2.4rem);
         }
       }
-      
-      &.formPesquisaAtivo{
-        
-        form{
+
+      &.formPesquisaAtivo {
+        form {
           flex-grow: 10;
           margin-right: 20px;
         }
       }
-      
     }
 
     .topo {

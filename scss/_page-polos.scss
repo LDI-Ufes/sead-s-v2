@@ -11,12 +11,12 @@
       font-weight: $light;
       margin-bottom: 2rem;
 
-      h2{
+      h2 {
         color: $laranjaRegular;
         font-size: 1.5rem;
       }
 
-      i{
+      i {
         color: $azulRegular;
       }
 
@@ -52,8 +52,8 @@
           border: none;
           background: none;
 
-          &:hover{
-            border-bottom: solid .5px $azulMedio;
+          &:hover {
+            border-bottom: solid 0.5px $azulMedio;
             color: $azulMedio;
           }
         }
@@ -64,7 +64,9 @@
           padding-top: 1rem;
           padding-left: 1rem;
 
-          i{color: $laranjaRegular;}
+          i {
+            color: $laranjaRegular;
+          }
         }
 
         &.expandido {
@@ -83,6 +85,12 @@
         }
       } /* li */
     } /* #polos */
+
+    .mapaES {
+      position: sticky;
+      top: 3rem;
+      width: 50%;
+    }
   } /* #mapaInterativo */
 
   @media screen and (min-width: 992px) {
@@ -98,10 +106,8 @@
   } /* media */
 
   @media screen and (max-width: 991px) {
-
     #mapaInterativo {
-
-      svg {
+      .mapaES {
         display: none;
       }
     }

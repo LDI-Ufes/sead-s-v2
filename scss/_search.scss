@@ -1,45 +1,45 @@
 #pagPesquisa {
-
-  h1{
+  h1 {
     margin-bottom: 3rem;
 
-    span{ font-weight: $regular; }
+    span {
+      font-weight: $regular;
+    }
   }
 
-  #resultados{
+  #resultados {
     min-height: 15rem;
 
-    li{
+    li {
       list-style: none;
       max-width: 720px;
       margin: 0 auto;
       margin-bottom: 3rem;
 
-      a{
+      a {
         color: $laranjaMedio;
         font-weight: $medium;
 
-        &:hover{
+        &:hover {
           color: $laranjaEscuro;
-          border-bottom: solid .5ps $laranjaEscuro;
+          border-bottom: solid 0.5ps $laranjaEscuro;
         }
       }
 
-      span{
+      span {
         font-weight: $light;
 
-        strong{
+        strong {
           font-style: italic;
           color: $azulRegular;
           text-transform: capitalize;
         }
       }
 
-      p{
+      p {
         font-weight: $light;
         line-height: 1.6;
       }
     }
   } /* #resultados */
-  
 }

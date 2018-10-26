@@ -17,7 +17,7 @@ nav.menu {
       }
 
       a {
-        padding: .3em 0;
+        padding: 0.3em 0;
         @include bordaItemMenu(transparent);
 
         &:hover {
@@ -26,10 +26,9 @@ nav.menu {
       }
 
       &.temSubmenu {
-
         span {
           cursor: pointer;
-          padding: .3em 0;
+          padding: 0.3em 0;
 
           .fas {
             margin-left: 0.1em;
@@ -45,7 +44,8 @@ nav.menu {
           text-transform: none;
         }
 
-        a, a:hover {
+        a,
+        a:hover {
           border-width: 1px;
         }
       }
@@ -54,24 +54,19 @@ nav.menu {
 }
 
 @media screen and (min-width: 993px) {
-
   #barraAuxiliar {
-
     ul.menuLista {
-
       > li {
-        padding: .4rem .6rem;
+        padding: 0.4rem 0.6rem;
       }
 
       > li.temSubmenu {
-
         .menuSuspenso {
           right: -9999px;
         }
 
         &:hover,
         &.menuSuspensoAtivo {
-
           > ul.menuSuspenso {
             right: 0;
 
@@ -85,22 +80,18 @@ nav.menu {
   }
 
   .topo {
-
     ul.menuLista {
-
       > li {
         padding: 1.2rem 0.6rem;
       }
 
       > li.temSubmenu {
-
         .menuSuspenso {
           left: -9999px;
         }
 
         &:hover,
         &.menuSuspensoAtivo {
-
           > ul.menuSuspenso {
             left: 0;
           }
@@ -115,14 +106,14 @@ nav.menu {
 
     &#menuPrincipal {
       .temSubmenu .menuSuspenso {
-
         .temSubmenu span i.fas:before {
-          content: '\f054';
+          content: "\f054";
           margin-left: 0.2em;
           font-size: 0.8em;
         }
 
-        li:hover, li.temSubmenu.menuSuspensoAtivo {
+        li:hover,
+        li.temSubmenu.menuSuspensoAtivo {
           position: relative;
 
           .menuSuspenso {
@@ -222,7 +213,6 @@ nav.menu {
         z-index: -1;
 
         .temSubmenu {
-
           .menuSuspenso {
             padding: 0;
           }

@@ -61,9 +61,6 @@ section.caixa {
 }*/
 
 .mapaES {
-  position: sticky;
-  top: 3rem;
-  width: 50%;
 
   text {
     font-weight: $bold;
@@ -78,9 +75,9 @@ section.caixa {
   }
 
   #comPolos {
-    path {
-      fill: $azulClaro;
-    }
+    // path {
+    //   fill: $azulClaro;
+    // }
 
     a {
       cursor: pointer;
@@ -89,14 +86,14 @@ section.caixa {
         fill: $azulClaro;
       }
 
-      .pin {
-        fill: darken($azul, 40%) !important;
-        stroke: none;
-      }
+      // .pin {
+      //   fill: darken($azul, 40%) !important;
+      //   stroke: none;
+      // }
 
-      text {
-        fill: #333;
-      }
+      // text {
+      //   fill: #333;
+      // }
 
       &:hover {
         .geografia {

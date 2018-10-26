@@ -1,39 +1,43 @@
 @import "variaveis";
 
-footer{
+footer {
   background-color: $azulEscuro;
   color: white;
   font-weight: $light;
   line-height: 1.7;
 
-  .content{
+  .content {
     padding: 2rem 1rem;
 
-    section{
+    section {
       display: inline-block;
       width: 100%;
 
-      h4{
+      h4 {
         font-size: 1.2rem;
         font-weight: $semi-bold;
 
-        &:after{
-          content: '';
+        &:after {
+          content: "";
           display: block;
           height: 2px;
           background-color: $laranjaRegular;
           width: 100%;
-          margin-top: .4rem;
+          margin-top: 0.4rem;
         }
       }
 
-      a:hover{ border-bottom: solid .5px $laranjaRegular }
+      a:hover {
+        border-bottom: solid 0.5px $laranjaRegular;
+      }
 
-      .subitens{ margin-left: 1rem; }
+      .subitens {
+        margin-left: 1rem;
+      }
     }
   }
 
-  .creditos{
+  .creditos {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -44,60 +48,56 @@ footer{
     text-align: center;
     color: white;
 
-    p{
+    p {
       margin: 0;
       display: inline-block;
-      font-size: .8rem;
+      font-size: 0.8rem;
       line-height: 3rem;
       vertical-align: top;
       height: inherit;
 
-      a:hover{ text-decoration: underline; }
+      a:hover {
+        text-decoration: underline;
+      }
 
-      span{ display: none; }
+      span {
+        display: none;
+      }
     }
 
-    svg{
-      height: 3rem;
-      width: auto;
-      margin-bottom: -1rem;
+    .creditosMarca {
+      display: inline-flex;
+      padding: 0 5px;
+      cursor: help;
 
-      path{ fill: white; }
+      svg {
+        path {
+          fill: white;
+        }
+      }
     }
   }
 
-
   @media screen and (min-width: 992px) {
-
-    .content{
+    .content {
       max-width: 960px;
       margin: 0 auto;
       padding: 2rem 0;
 
-      section{
-        width: calc(50% - .7rem);
+      section {
+        width: calc(50% - 0.7rem);
         vertical-align: top;
 
-        &:nth-child(even){
+        &:nth-child(even) {
           float: right;
         }
       }
     }
 
-    .creditos{
-      p{
-        span{ display: inline-block; }
-      }
-
-      .creditosMarca {
-        display: inline-flex;
-        padding: 0 5px;
-        cursor: help;
-
-        svg {
-          path {
-            fill: white;
-          }
+    .creditos {
+      p {
+        span {
+          display: inline-block;
         }
       }
     }

@@ -1,28 +1,26 @@
-
 #page-galeria {
-
-  #filtros{
+  #filtros {
     padding: 1.5rem 0;
-        
-    span{
+
+    span {
       display: block;
       padding-bottom: 1.5rem;
     }
-    a{
+    a {
       background-color: white;
-      color: #9C4C22;
+      color: #9c4c22;
       border: none;
-      box-shadow: 0 4px 4px rgba(0, 0, 0, .15);
-      padding: .4rem .8rem;
-      margin-right: .6rem;
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+      padding: 0.4rem 0.8rem;
+      margin-right: 0.6rem;
       font-weight: $bold;
 
-      &:hover{
+      &:hover {
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-        padding: .5rem .9rem;
+        padding: 0.5rem 0.9rem;
       }
 
-      &.active{
+      &.active {
         background-color: $laranjaMedio;
         color: white;
         pointer-events: none;
@@ -30,32 +28,32 @@
     }
   }
 
-  #eventos{
+  #eventos {
     margin-bottom: 8rem;
-    
-    li{
+
+    li {
       margin-bottom: 7rem;
 
-      h2{
+      h2 {
         position: relative;
         font-weight: $semi-bold;
         font-size: 1.5rem;
         color: $laranjaRegular;
         margin-bottom: 0;
 
-        span{
+        span {
           background-color: #fff;
           padding-right: 15px;
           position: relative;
         }
 
-        &:before{
-          content: '';
+        &:before {
+          content: "";
           display: block;
-          vertical-align:middle;
-          height:3px;
+          vertical-align: middle;
+          height: 3px;
           background-color: $laranjaRegular;
-          width:100%;
+          width: 100%;
           margin-right: -100%;
           position: absolute;
           top: 50%;
@@ -63,15 +61,15 @@
           z-index: -1;
         }
       }
-      
-      p{
+
+      p {
         max-width: unset;
       }
 
-      .imagens{
+      .imagens {
         margin-right: -1rem;
 
-        p{
+        p {
           display: flex;
           flex-wrap: wrap;
           max-width: unset;
@@ -83,15 +81,15 @@
             margin-right: 1rem;
             display: none;
 
-            &:nth-child(-n+4){                   
+            &:nth-child(-n + 4) {
               display: inline-block;
             }
 
-            &.visivel{
+            &.visivel {
               display: inline-block;
             }
 
-            img{
+            img {
               object-fit: cover;
               width: 100%;
               height: 100%;
@@ -99,17 +97,16 @@
           }
         }
 
-        .abrirTodas{
+        .abrirTodas {
           @extend %botao;
           float: right;
           margin-right: 1.5rem;
-
         }
       }
-      
+
       // Intercalando cores dos itens
-      
-/*      &:nth-child(even){
+
+      /*      &:nth-child(even){
         h2{
           color: $azulRegular;
 
@@ -129,27 +126,26 @@
     }
   }
 
-  @media screen and (min-width: 992px) {   
-    padding-top: 8rem;  
+  @media screen and (min-width: 992px) {
+    padding-top: 8rem;
 
-    #filtros{
-      span{
+    #filtros {
+      span {
         display: inline-block;
         padding-bottom: 0;
         margin-right: 1rem;
       }
     }
-    #eventos{
-      li{
+    #eventos {
+      li {
         padding-top: 2rem;
         margin-bottom: 5rem;
 
-        .imagens{
+        .imagens {
           margin-right: -1.5rem;
 
-          p{
-
-            a{
+          p {
+            a {
               margin-right: 1.5rem;
               max-width: calc(25% - 1.5rem);
             }

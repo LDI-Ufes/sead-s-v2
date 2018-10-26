@@ -1,88 +1,89 @@
-
 #edital {
   line-height: 2;
   font-weight: $light;
   padding-bottom: 4rem !important;
-  
-  #informacoes{
-    em{
+
+  #informacoes {
+    em {
       color: $laranjaMedio;
       font-style: normal;
       font-weight: $bold;
     }
 
-    div#descricao{
-        padding-top: 1.2rem;
-        
-        p{ display: inline; }
+    div#descricao {
+      padding-top: 1.2rem;
+
+      p {
+        display: inline;
       }
+    }
   }
 
-  .secao-edital{
+  .secao-edital {
     border-top: solid 2px $azulClaro;
     margin-top: 3rem;
 
-    h2{ font-size: 1.6rem; }
+    h2 {
+      font-size: 1.6rem;
+    }
 
-    &#anexos{
-      ul{
-        li{
+    &#anexos {
+      ul {
+        li {
           color: gray;
           font-style: italic;
-          padding-bottom: 1rem;;
+          padding-bottom: 1rem;
           /*line-height: 3rem;*/
 
-          a{
+          a {
             color: black;
 
-            &:before{
-              content: '\f56d';
+            &:before {
+              content: "\f56d";
               font-family: "Font Awesome 5 Free";
               color: $laranjaRegular;
-              padding-right: .5rem;
+              padding-right: 0.5rem;
               font-weight: 600;
               font-style: normal;
-
             }
 
-            &:hover{
+            &:hover {
               font-weight: $semi-bold;
               color: $laranjaMedio;
             }
-
           }
         }
       }
     } /* &#anexos */
 
-    &#inscricao{
-
-      p{
+    &#inscricao {
+      p {
         padding-bottom: 1.5rem;
         max-width: unset;
       }
-      
-      a[role="button"]{ @extend %botao; }
+
+      a[role="button"] {
+        @extend %botao;
+      }
     }
   } /* secao-edital */
 
   @media screen and (min-width: 992px) {
-    
-    #informacoes{
-      
-      div{
+    #informacoes {
+      div {
         padding-right: 2rem;
         width: calc(50% - 2rem);
         display: inline-block;
         vertical-align: top;
 
-        &#descricao{
+        &#descricao {
           padding-top: 0;
 
-          p{ display: inline; }
+          p {
+            display: inline;
+          }
         }
       }
     }
-    
   } /* media */
 }

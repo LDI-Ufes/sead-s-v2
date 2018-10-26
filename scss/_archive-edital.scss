@@ -1,21 +1,21 @@
 #page-editais {
-  #filtros{ 
+  #filtros {
     padding-bottom: 3rem;
 
-    #aplicados{
+    #aplicados {
       padding: 1rem 0;
       color: white;
 
-      span{
+      span {
         background-color: $azulRegular;
         padding: 5px;
-        font-size: .8rem;
+        font-size: 0.8rem;
         padding-left: 8px;
         display: inline-block;
         margin-bottom: 5px;
       }
 
-      button.excluir-filtro{
+      button.excluir-filtro {
         background-color: transparent;
         border: none;
         color: white;
@@ -23,10 +23,10 @@
       }
     }
 
-    #seletores{
-      border: solid .5px $azulClaro;
+    #seletores {
+      border: solid 0.5px $azulClaro;
 
-      button#mostra-seletores{
+      button#mostra-seletores {
         font-size: 1.2rem;
         border: none;
         background: none;
@@ -34,21 +34,21 @@
         padding: 10px 15px;
         position: relative;
         width: 100%;
-        border-bottom: solid .5px $azulClaro;
+        border-bottom: solid 0.5px $azulClaro;
 
-        i{
+        i {
           right: 15px;
           position: absolute;
           color: gray;
         }
       }
 
-      .lista-filtros{
+      .lista-filtros {
         display: none;
         font-weight: $light;
         vertical-align: top;
 
-        button.exibe-filtros{
+        button.exibe-filtros {
           font-size: 1.2rem;
           border: none;
           background: none;
@@ -57,8 +57,8 @@
           padding: 10px 15px;
           position: relative;
 
-          &:after{
-            content: '\f107';
+          &:after {
+            content: "\f107";
             right: 15px;
             width: auto;
             font-family: "Font Awesome 5 Free";
@@ -68,134 +68,143 @@
           }
         }
 
-        li{
+        li {
           display: none;
           padding: 5px 10px;
           line-height: 1.8;
 
-          input[type="checkbox"]:checked{
-            +label{
+          input[type="checkbox"]:checked {
+            + label {
               color: $azulRegular;
               font-weight: $regular;
             }
           }
         }
 
-        &.expandido-mobile{
+        &.expandido-mobile {
           display: block;
         }
 
-        &.expandido{
+        &.expandido {
           background-color: $azulExtraClaro;
 
-          li{display: block;}
+          li {
+            display: block;
+          }
 
-          button.exibe-filtros{
+          button.exibe-filtros {
             color: $azulEscuro;
             font-weight: $regular;
 
-            &:after{content: '\f106';}
+            &:after {
+              content: "\f106";
+            }
           }
         }
       }
     }
-  }   
+  }
 
-  #editais{
+  #editais {
     width: 100%;
     font-weight: $light;
     border-bottom: 1px solid $azulClaro;
     margin-bottom: 3rem;
 
-    .titulos{
+    .titulos {
       display: none;
-    }  
+    }
 
-    li{
+    li {
       border-top: 1px solid $azulClaro;
       position: relative;
       margin-bottom: 1.2rem;
 
-      h3{
+      h3 {
         color: $laranjaRegular;
         font-weight: $bold;
         margin-top: 1rem;
 
-        a:hover{
+        a:hover {
           border-bottom: solid 1.5px $laranjaMedio;
           color: $laranjaMedio;
         }
       }
-      
-      p{margin: .3rem 0;}
-      
-      .atribuicao{
+
+      p {
+        margin: 0.3rem 0;
+      }
+
+      .atribuicao {
         font-weight: $regular;
       }
     }
   }
 
   @media screen and (min-width: 992px) {
-
-    #filtros{
+    #filtros {
       margin-right: -15px;
 
-      button#mostra-seletores{
+      button#mostra-seletores {
         display: none;
       }
 
-      #seletores{
+      #seletores {
         border: none;
 
-        .lista-filtros{
+        .lista-filtros {
           display: inline-block;
-          border: solid 0.5px #5992DD;
+          border: solid 0.5px #5992dd;
           margin-right: 15px;
-          
-          button.exibe-filtros:after{
+
+          button.exibe-filtros:after {
             color: gray;
           }
-          
-          &#cursos{width: calc(40% - 16px);}
 
-          &#atribuicoes, &#tipo-de-curso, &#ano{
+          &#cursos {
+            width: calc(40% - 16px);
+          }
+
+          &#atribuicoes,
+          &#tipo-de-curso,
+          &#ano {
             width: calc(20% - 16px);
           }
         }
       }
     }
-    
-    #editais{
-      
-      .titulos{
+
+    #editais {
+      .titulos {
         display: block;
 
-        span{
+        span {
           font-weight: $bold;
           color: $laranjaRegular;
           font-size: 1.2rem;
           margin: 1.5rem 0;
           display: inline-block;
-          
-          &:nth-of-type(1){
+
+          &:nth-of-type(1) {
             width: 15%;
           }
-          &:nth-of-type(2){
+          &:nth-of-type(2) {
             width: 28%;
           }
-          &:nth-of-type(3){
+          &:nth-of-type(3) {
             width: 22%;
           }
-          &:nth-of-type(4){
+          &:nth-of-type(4) {
             width: 35%;
           }
         }
       }
-      
-      li{
+
+      li {
         margin-bottom: 0;
 
-        p, h3{
+        p,
+        h3 {
           margin: 1rem 0 !important;
           position: relative !important;
           display: inline-block;
@@ -203,28 +212,38 @@
           vertical-align: top;
         }
 
-        h3{
+        h3 {
           width: 15%;
           color: $azulRegular;
           font-weight: $medium;
-          
-          a:hover{
+
+          a:hover {
             border-bottom: solid 1.5px $azulMedio;
             color: $azulMedio;
           }
-          
-          span{display: none;}
-        }
-        
-        .atribuicao{width: 28%;}
-        .tipo-de-curso{width: 22%;}
-        .curso{width: 35%;}
 
-        .atribuicao, .tipo-de-curso, .curso{
+          span {
+            display: none;
+          }
+        }
+
+        .atribuicao {
+          width: 28%;
+        }
+        .tipo-de-curso {
+          width: 22%;
+        }
+        .curso {
+          width: 35%;
+        }
+
+        .atribuicao,
+        .tipo-de-curso,
+        .curso {
           font-weight: $light;
           color: black;
-          font-style: normal;   
-        }               
+          font-style: normal;
+        }
       }
     }
   }

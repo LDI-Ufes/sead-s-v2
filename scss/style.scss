@@ -9,28 +9,28 @@ Description: Tema desenvolvido para o sítio da Secretaria de Ensino a Distânci
 Version: 2.0
 */
 
-@import 'variaveis';
-@import 'desfazer';
+@import "variaveis";
+@import "desfazer";
 
-@import 'mixins';
-@import 'placeholders';
+@import "mixins";
+@import "placeholders";
 
-@import 'globais';
-@import 'cabecalho';
-@import 'rodape';
+@import "globais";
+@import "cabecalho";
+@import "rodape";
 
-@import 'front-page';
-@import 'page';
-@import 'archive-noticia';
-@import 'archive-edital';
-@import 'archive-galeria';
-@import 'edital';
-@import 'noticia';
-@import 'page-polos';
-@import 'page-secretaria';
-@import 'page-ead-na-ufes';
-@import 'page-contatos';
-@import 'page-faq';
-@import '404';
-@import 'search';
-@import 'searchform';
+@import "front-page";
+@import "page";
+@import "archive-noticia";
+@import "archive-edital";
+@import "archive-galeria";
+@import "edital";
+@import "noticia";
+@import "page-polos";
+@import "page-secretaria";
+@import "page-ead-na-ufes";
+@import "page-contatos";
+@import "page-faq";
+@import "404";
+@import "search";
+@import "searchform";

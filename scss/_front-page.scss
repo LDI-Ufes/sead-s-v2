@@ -9,10 +9,10 @@
     text-align: center;
     padding-bottom: 2rem;
 
-    .container{
+    .container {
       margin-top: 0;
 
-      h2{
+      h2 {
         margin: 0 auto;
         padding: 2rem 0;
         color: white;
@@ -30,7 +30,9 @@
         }
       }
 
-      a{ @extend %botao;  }
+      a {
+        @extend %botao;
+      }
     }
   }
 
@@ -73,7 +75,7 @@
           width: auto;
         }
 
-        figcaption{
+        figcaption {
           color: $laranjaMedio;
           text-transform: uppercase;
           font-weight: $bold;
@@ -140,14 +142,16 @@
           text-align: left;
           padding: 0.5rem 0;
 
-          i{ padding-left: 0.5rem; }
+          i {
+            padding-left: 0.5rem;
+          }
 
           div {
             display: inline-block;
             height: 4rem;
           }
 
-          .numero{
+          .numero {
             color: $laranjaMedio;
             font-size: 2.8rem;
             font-weight: $bold;
@@ -193,7 +197,7 @@
       flex-wrap: wrap;
       padding: 0 1rem;
 
-      h2{
+      h2 {
         color: $laranjaRegular;
         font-weight: $light;
         font-size: 2.3rem;
@@ -203,7 +207,7 @@
 
       a {
         width: calc(50% - 0.5rem);
-        background-image: linear-gradient($azulEscuro,$azulRegular);
+        background-image: linear-gradient($azulEscuro, $azulRegular);
         display: inline-block;
         color: white;
         height: 50%;
@@ -215,7 +219,12 @@
           margin-left: 1rem;
         }
 
-        &:hover{ background-image: linear-gradient($azulEscuro, darken($azulClaro, 50%)); }
+        &:hover {
+          background-image: linear-gradient(
+            $azulEscuro,
+            darken($azulClaro, 50%)
+          );
+        }
 
         svg {
           max-width: 5rem;
@@ -251,7 +260,7 @@
         bottom: 0;
         left: 0;
         height: 100%;
-        opacity: .6;
+        opacity: 0.6;
         background-image: linear-gradient(transparent, $azulEscuro);
       }
 
@@ -273,7 +282,9 @@
         line-height: 2rem;
         padding-bottom: 0;
 
-        a:hover{ border-bottom: solid 2px $laranjaRegular; }
+        a:hover {
+          border-bottom: solid 2px $laranjaRegular;
+        }
       }
 
       &:nth-of-type(n + 3) {
@@ -288,21 +299,24 @@
     padding: 2.5rem 1rem;
     text-align: center;
 
-    h2{
+    h2 {
       color: $laranjaMedio;
       font-size: 2rem;
       margin-top: 0;
     }
 
-    p{
+    p {
       padding: 0;
       padding-bottom: 1.5rem;
     }
 
-    a{ @extend %botao;  }
+    a {
+      @extend %botao;
+    }
 
-    svg{ display: none; }
-
+    .mapaES {
+      display: none;
+    }
   } /* #polos */
 
   @media screen and (min-width: 652px) {
@@ -315,7 +329,7 @@
         #quer-ser-itens {
           max-width: 600px;
 
-          .box-titulo{
+          .box-titulo {
             border-top: 5rem solid $laranjaRegular;
             border-left: 25px solid transparent;
           }
@@ -328,20 +342,19 @@
     margin: unset;
     max-width: unset;
 
-    #banner{
+    #banner {
       text-align: left;
       padding-bottom: 0;
 
-      .container{
-
-        h2{
+      .container {
+        h2 {
           padding-top: 3rem;
           padding-bottom: 1rem;
           display: inline-block;
           margin: 0;
         }
 
-        a{
+        a {
           margin: 6.5rem 3rem 0;
           float: right;
         }
@@ -366,7 +379,9 @@
       margin: 0;
       display: inline-block;
 
-      .topico-ead{ margin: 3rem auto; }
+      .topico-ead {
+        margin: 3rem auto;
+      }
     }
 
     #quer-ser {
@@ -433,11 +448,12 @@
       padding: 2rem 1rem 1rem;
       text-align: left;
 
-      svg {
+      .mapaES {
         display: inline-block;
         float: left;
         margin: 0 2rem;
         margin-top: -7rem;
+        height: 350px;
       }
     } /* #polos */
   } /* media */

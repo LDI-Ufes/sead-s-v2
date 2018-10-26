@@ -1,14 +1,14 @@
-%botao{
+%botao {
   background-color: $laranjaMedio;
   text-transform: uppercase;
   color: white;
   border: none;
-  padding: .6rem 2rem;
+  padding: 0.6rem 2rem;
   margin: 1rem 0;
   font-weight: $medium;
 
-  &:hover{
-    background-color: $laranjaEscuro;                
+  &:hover {
+    background-color: $laranjaEscuro;
   }
 }
 
@@ -17,4 +17,3 @@
   margin-right: auto !important;
   margin-left: auto !important;
 }
-

@@ -1,49 +1,50 @@
-
-#faq{
-  ul{
-    li{
+#faq {
+  ul {
+    li {
       @extend %largura-texto;
       margin: 1.5rem 0;
-      
-      button{
+
+      button {
         background: none;
         border: none;
         width: 100%;
         text-align: left;
 
-        h2{
+        h2 {
           color: black;
           font-size: 1.2rem;
           padding: 0;
           margin: 0;
           font-weight: $regular;
 
-          &:before{
-            content: '\f067';
+          &:before {
+            content: "\f067";
             font-family: "Font Awesome 5 Free";
             color: $laranjaRegular;
             font-size: 1rem;
-            padding-right: .6rem;
+            padding-right: 0.6rem;
             font-weight: $bold;
           }
         }
-        
-        &.ativo{  
-          h2{ 
+
+        &.ativo {
+          h2 {
             font-weight: $bold;
-            
-            &:before{ content: '\f068'; }
-          }          
+
+            &:before {
+              content: "\f068";
+            }
+          }
         }
-        
       }
-      
-      p{
+
+      p {
         display: none;
-        
-        &.expandido{ display: block; }
+
+        &.expandido {
+          display: block;
+        }
       }
-      
     } /* li */
   } /* ul */
 }

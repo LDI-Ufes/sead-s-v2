@@ -1,28 +1,25 @@
-
 #page-blog {
+  @import "ultimos-editais";
 
-  @import 'ultimos-editais';
-
-  .container{
+  .container {
     width: 100%;
     padding: 0;
     padding-top: 3rem;
   }
 
-  #posts{
-
-    .blog-post{
+  #posts {
+    .blog-post {
       margin-bottom: 3rem;
       list-style-type: none;
       font-weight: $semi-bold;
 
-      .blog-post-header{
+      .blog-post-header {
         position: relative;
         height: 30vw;
         min-height: 100px;
         max-height: 250px;
 
-        span{
+        span {
           background-color: $azulMedio;
           color: white;
           text-transform: uppercase;
@@ -30,51 +27,51 @@
           margin-left: 1rem;
           margin-top: -0.5rem;
           line-height: 1.8;
-          padding: 0 .8rem;
+          padding: 0 0.8rem;
         }
 
-        img{
+        img {
           width: 100%;
           height: 30vw;
           min-height: 100px;
           max-height: 250px;
-          object-fit: cover; 
+          object-fit: cover;
         }
 
-        &:before{
+        &:before {
           content: "";
           height: 100%;
           left: 0;
           position: absolute;
           top: 0;
           width: 100%;
-          opacity: .6;
-          background-image: linear-gradient(transparent,$azulMedio);
+          opacity: 0.6;
+          background-image: linear-gradient(transparent, $azulMedio);
         }
 
-        .post-date{
+        .post-date {
           color: white;
           position: absolute;
           bottom: 0;
           right: 0;
-          padding: .8rem;
-          font-size: .8rem;
+          padding: 0.8rem;
+          font-size: 0.8rem;
         }
       }
 
-      h3{
+      h3 {
         color: $azulMedio;
         font-weight: $semi-bold;
         font-size: 1.3rem;
         margin: 1.5rem;
 
-        a:hover{
+        a:hover {
           color: $azulEscuro;
           border-bottom: solid 1px $azulEscuro;
         }
       }
 
-      p{
+      p {
         font-family: $merriweather;
         font-weight: $regular;
         line-height: 1.5;
@@ -82,43 +79,47 @@
       }
     }
 
-    #postsNav{
+    #postsNav {
       color: $laranjaMedio;
       padding: 0 1rem 6rem;
 
-      a:hover{
+      a:hover {
         border-bottom: solid 1px $laranjaEscuro;
         color: $laranjaEscuro;
       }
 
-      .nav-right{ float: right; }
+      .nav-right {
+        float: right;
+      }
 
-      .nav-left{ float: left; }
+      .nav-left {
+        float: left;
+      }
     }
   }
 
-  #informativo{
+  #informativo {
     margin-top: 2rem;
     padding: 1.5rem;
 
-    h2{
+    h2 {
       position: relative;
       color: $laranjaRegular;
       text-transform: uppercase;
 
-      span{
+      span {
         background-color: #fff;
         padding-right: 15px;
         position: relative;
       }
 
-      &:before{
-        content: '';
+      &:before {
+        content: "";
         display: block;
-        vertical-align:middle;
-        height:2px;
+        vertical-align: middle;
+        height: 2px;
         background-color: $laranjaRegular;
-        width:100%;
+        width: 100%;
         margin-right: -100%;
         position: absolute;
         top: 50%;
@@ -127,42 +128,41 @@
       }
     }
 
-    label{
+    label {
       font-size: 1.6rem;
       font-weight: $light;
       color: $laranjaRegular;
     }
 
-    form{
-
+    form {
       display: inline-flex;
       width: 100%;
 
-      input{
+      input {
         margin-top: 1rem;
-        font-family: 'Fira Sans', sans-serif !important;
+        font-family: "Fira Sans", sans-serif !important;
         border: solid 1px $azulMedio;
 
-        &[type=email]{                   
+        &[type="email"] {
           height: 1.5rem;
-          background-color: $azulExtraClaro; 
-          padding-left: .5rem; 
+          background-color: $azulExtraClaro;
+          padding-left: 0.5rem;
           width: 100%;
         }
-        
-        &[type=submit]{
+
+        &[type="submit"] {
           background-color: $azulMedio;
           text-transform: uppercase;
           color: white;
-          font-size: .8rem;
-          padding: .35rem;
+          font-size: 0.8rem;
+          padding: 0.35rem;
           width: 70px;
         }
       }
     }
   }
 
-  .social-media{
+  .social-media {
     background: linear-gradient(45deg, $azulEscuro, $azulRegular);
     border: none;
     color: white;
@@ -172,7 +172,7 @@
     display: table;
     padding: 1.5rem;
 
-    span{
+    span {
       width: 50%;
       display: inline-table;
       vertical-align: middle;
@@ -180,7 +180,7 @@
       text-align: left;
     }
 
-    i{
+    i {
       font-size: 4rem;
       display: inline-table;
       width: calc(50% - 1rem);
@@ -189,36 +189,34 @@
       padding-right: 1rem;
     }
 
-    &:hover{
+    &:hover {
       background: linear-gradient(45deg, $azulEscuro, darken($azulClaro, 50%));
     }
-
   }
 
-  #galeria{
+  #galeria {
     background-color: $laranjaClaro;
     margin-top: 5rem;
     padding-top: 2rem;
     padding-bottom: 5rem;
 
-    .container{
+    .container {
       width: unset;
       padding: 0 1rem;
     }
 
-    h2{
+    h2 {
       background-color: $laranjaMedio;
       color: white;
       text-transform: uppercase;
       position: absolute;
       margin-top: -3rem;
-      padding: .3rem .8rem;
+      padding: 0.3rem 0.8rem;
       font-size: 1.2rem;
     }
 
-    ul{
-
-      li{
+    ul {
+      li {
         font-weight: $light;
         color: $laranjaEscuro;
         font-size: 1.2rem;
@@ -226,22 +224,22 @@
         width: 100%;
         position: relative;
 
-        h3{
+        h3 {
           font-weight: $light;
           margin: 0;
 
-          span{
+          span {
             font-weight: $bold;
             padding-right: 1rem;
           }
         }
 
-        p{
+        p {
           display: flex;
           margin-right: -1.5rem;
 
-          a{
-            padding: 0;   
+          a {
+            padding: 0;
             display: inline-flex;
             position: relative;
             flex-grow: 1;
@@ -249,17 +247,17 @@
             margin-left: 0;
             width: calc(50% - 1.5rem);
             height: 10rem;
-            pointer-events: none;           
+            pointer-events: none;
 
-            &:nth-child(n+3){
+            &:nth-child(n + 3) {
               display: none;
             }
 
-            &:nth-child(4){
+            &:nth-child(4) {
               margin-right: 0;
             }
 
-            img{
+            img {
               object-fit: cover;
               width: 100%;
               height: 100%;
@@ -267,102 +265,119 @@
           }
         }
 
-        .ver-mais{
+        .ver-mais {
           position: absolute;
           bottom: 1.5rem;
           right: 0;
-          background-color: rgba(178, 72, 0, .7);
-          width: calc(50% - .75rem);
+          background-color: rgba(178, 72, 0, 0.7);
+          width: calc(50% - 0.75rem);
           height: 10rem;
 
-          span{
+          span {
             position: absolute;
             width: 100%;
             text-transform: uppercase;
             text-align: center;
-            font-size: .8rem;
+            font-size: 0.8rem;
             font-weight: $bold;
             padding-top: 4.5rem;
             color: white;
-
           }
 
-          &:hover{ background-color: rgba(178, 72, 0, .8); }
+          &:hover {
+            background-color: rgba(178, 72, 0, 0.8);
+          }
         }
       }
     }
   }
 
-  a[role=button]{  
+  a[role="button"] {
     @extend %botao;
     background-color: white;
     color: $laranjaMedio;
     float: right;
     margin: 0;
 
-    &:hover{
+    &:hover {
       background-color: $laranjaMedio;
       color: white;
     }
   }
 
-
   @media screen and (min-width: 992px) {
+    .container {
+      padding-top: 10rem;
+    }
 
-    .container{ padding-top: 10rem; }
-
-    #posts{
+    #posts {
       width: 560px;
       display: inline-block;
 
-      .blog-post{
-
-        .blog-post-header{
+      .blog-post {
+        .blog-post-header {
           height: 20vw;
 
-          span{ margin-left: 2rem; }
+          span {
+            margin-left: 2rem;
+          }
 
-          img{ height: 20vw; }
+          img {
+            height: 20vw;
+          }
 
-          .post-date{
+          .post-date {
             padding: 1rem;
             font-size: 1rem;
           }
         }
 
-        h3, p{ margin: 1rem 0; }
+        h3,
+        p {
+          margin: 1rem 0;
+        }
       }
 
-      #postsNav{ padding: 0 0 2rem; }
+      #postsNav {
+        padding: 0 0 2rem;
+      }
     }
 
-    aside{
+    aside {
       display: inline-block;
       width: 320px;
       vertical-align: top;
       margin-left: 75px;
     }
 
-    #informativo{ padding: 0; }
+    #informativo {
+      padding: 0;
+    }
 
-    #galeria{
+    #galeria {
       padding: 2rem 0 5rem;
 
-      .container{ padding: 0 !important; }
+      .container {
+        padding: 0 !important;
+      }
 
-      ul{
-        li{
-          p{
+      ul {
+        li {
+          p {
             margin-right: 0;
 
-            a{
+            a {
               width: calc(25% - 1.5rem);
 
-              &:nth-child(-n+4){ display: inline-flex; }
+              &:nth-child(-n + 4) {
+                display: inline-flex;
+              }
             }
           }
 
-          .ver-mais{ width: calc(25% - 1.15rem); }
+          .ver-mais {
+            width: calc(25% - 1.15rem);
+          }
         }
       }
     }
