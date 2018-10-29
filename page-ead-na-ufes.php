@@ -14,7 +14,7 @@
   </a>
 
   <div class="container">
-    <section class="breadcrumb">Você está em: <a>Ensino</a><i class="fas fa-greater-than"></i><span>EaD na Ufes</span></section>
+    <section class="breadcrumb">Você está em: <strong>Ensino</strong><i class="fas fa-greater-than"></i><span>EaD na Ufes</span></section>
 
     <div>
       <p>A Secretaria de Ensino a Distância – Sead é a instância responsável por promover ações educativas e de formação na modalidade a distância da Ufes, nas quais a mediação didático-pedagógica dos processos de ensino e de aprendizagem ocorre por meio da utilização das tecnologias da informação e da comunicação, nos ambientes virtuais de aprendizagens – AVA, e, presencialmente, nos Polos de Apoio Presencial da Universidade Aberta do Brasil – UAB e em outros espaços educativos.</p>

@@ -2,7 +2,7 @@
 
 <main class="page container" id="contatos">
 
-    <section class="breadcrumb">Você está em: <a>Ensino</a><i class="fas fa-greater-than"></i><span>Contatos</span></section>
+    <section class="breadcrumb">Você está em: <strong>Ensino</strong><i class="fas fa-greater-than"></i><span>Contatos</span></section>
 
     <h1>Contatos</h1>
     

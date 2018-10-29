@@ -15,7 +15,7 @@
 
   <div class="container">
 
-    <section class="breadcrumb">Você está em: <a>Ensino</a><i class="fas fa-greater-than"></i><span>Secretaria de Ensino a Distância</span></section>
+    <section class="breadcrumb">Você está em: <strong>Ensino</strong>><i class="fas fa-greater-than"></i><span>Secretaria de Ensino a Distância</span></section>
 
     <div id="abas">
       <ul>
@@ -94,8 +94,8 @@
         </li>
       </ul>
       <div id="planta-sead">
-        <span>Quer nos visitar ou conhecer melhor nossa estrutura?</span>
-        <button>Abrir mapa detalhado</button>
+        <span>Quer conhecer melhor nossa estrutura? Clique na planta!</span>
+        <!--<button>Abrir mapa detalhado</button>-->
         <?php the_content() ?>
       </div>
 

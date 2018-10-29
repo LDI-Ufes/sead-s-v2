@@ -20,7 +20,7 @@
     font-size: 0.8rem;
     margin: 1.5rem 0;
 
-    a {
+    a{
       color: $azulMedio;
       font-weight: $medium;
 
@@ -29,6 +29,11 @@
         text-decoration: underline;
         font-weight: $bold;
       }
+    }
+    
+    strong{
+      color: $azulMedio;
+      font-weight: $medium;
     }
 
     span {

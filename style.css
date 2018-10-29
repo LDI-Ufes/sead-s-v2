@@ -860,6 +860,9 @@ footer {
         color: #043166;
         text-decoration: underline;
         font-weight: 700; }
+    .page .breadcrumb strong {
+      color: #05427b;
+      font-weight: 500; }
     .page .breadcrumb span {
       color: #1765ab; }
     .page .breadcrumb i {
