@@ -5,11 +5,11 @@
     <ul id="posts">
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
           <li class="blog-post">
-            <div class="blog-post-header">
+             <a href="<?php the_permalink() ?>" title="Ir para notícia: <?php the_title(); ?>"><div class="blog-post-header">
               <span><?php echo strip_tags(get_the_term_list($post->ID, 'tag')); ?></span>
-              <?php the_post_thumbnail(); ?>
+             <?php the_post_thumbnail(); ?>
               <div class="post-date"><?php the_date('j \d\e F \d\e Y'); ?></div>
-            </div>
+               </div></a>
             <h3><a href="<?php the_permalink() ?>" title="Ir para notícia: <?php the_title(); ?>"><?php the_title(); ?></a></h3>
             <p><?php echo wp_trim_words( strip_shortcodes( get_the_content() ), 40, ' [...]'); ?></p>
           </li>
@@ -44,7 +44,7 @@
         <?php                          
             $args = array(
                 'post_type' => 'galeria', 
-                'posts_per_page' => 3
+                'posts_per_page' => 2
             );
             $eventos = new WP_Query( $args ); if ($eventos->have_posts()) : ?>  
                 <?php while ($eventos->have_posts()) : $eventos->the_post(); ?>	

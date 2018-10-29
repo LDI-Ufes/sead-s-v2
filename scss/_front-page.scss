@@ -347,16 +347,12 @@
       padding-bottom: 0;
 
       .container {
+        padding-bottom: 3rem;
+        
         h2 {
           padding-top: 3rem;
-          padding-bottom: 1rem;
-          display: inline-block;
+          padding-bottom: 1.5rem;
           margin: 0;
-        }
-
-        a {
-          margin: 6.5rem 3rem 0;
-          float: right;
         }
       }
     }

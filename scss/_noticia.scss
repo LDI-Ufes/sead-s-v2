@@ -61,6 +61,16 @@
         height: auto;
         margin-bottom: 1rem;
       }
+      
+      a{
+        font-style: italic;
+        color: $laranjaMedio;
+        
+        &:hover{
+          color: $laranjaEscuro;
+          text-decoration: underline;
+        }
+      }
     }
 
     .post-autor {

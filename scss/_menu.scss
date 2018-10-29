@@ -3,6 +3,9 @@ nav.menu {
   text-transform: uppercase;
 
   .menuLista {
+    
+    &#ligacoesExternas{ font-weight: 400; }
+    
     li {
       @mixin bordaItemMenu($cor) {
         border-bottom-width: 2px;

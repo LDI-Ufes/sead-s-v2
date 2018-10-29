@@ -33,9 +33,9 @@
       <button class="seta-next">Próximo</button>
       <div class="dots">
         <ul aria-hidden="true">
-          <li class="dot ativo">1</li>
-          <li class="dot">2</li>
-          <li class="dot">3</li>
+          <li class="dot ativo"></li>
+          <li class="dot"></li>
+          <li class="dot"></li>
         </ul>
       </div>
     </ul>
@@ -79,6 +79,7 @@ $('.seta-prev').click(function(){
   $('.dot.ativo').next().removeClass('ativo');
   $('.item.ativo h2').focus();
   
+  $('.item:nth-of-type(2).ativo').siblings('.seta-next').css('display', 'block');
   $('.item:nth-of-type(1).ativo').siblings('.seta-prev').css('display', 'none').siblings('.seta-next').css('display', 'block');
 });
 
