@@ -64,6 +64,8 @@
 <link href="<?php echo get_template_directory_uri(); ?>/plugins/lity/lity.min.css" rel="stylesheet">
 <script src="<?php echo get_template_directory_uri(); ?>/plugins/lity/lity.min.js"></script>
 
+<script src="https://unpkg.com/focus-visible@latest/dist/focus-visible.min.js"></script>
+
 <?php wp_footer(); ?>
 </body>
 </html>

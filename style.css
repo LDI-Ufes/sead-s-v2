@@ -46,11 +46,6 @@ button {
   margin-right: auto !important;
   margin-left: auto !important; }
 
-*:focus {
-  outline: 2px solid #f06c00;
-  outline-offset: 2px;
-  z-index: 7; }
-
 html {
   font-size: 16px; }
 
@@ -100,6 +95,19 @@ section.caixa {
     fill: #cfeaff; }
   .mapaES #comPolos a:hover .geografia {
     fill: #ffa161; }
+
+*:focus {
+  outline: none; }
+
+.focus-visible {
+  outline: 2px solid #f06c00;
+  outline-offset: 3px;
+  z-index: 7; }
+
+input.focus-visible,
+button.focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px #f06c00; }
 
 @media screen and (min-width: 992px) {
   .container {
@@ -295,7 +303,10 @@ nav.menu {
       justify-content: flex-end; }
 
   .topo ul.menuLista > li {
-    padding: 1.2rem 0.6rem; }
+    padding: 1.2rem 0.3rem; }
+    .topo ul.menuLista > li a {
+      padding-left: .3rem;
+      padding-right: .3rem; }
   .topo ul.menuLista > li.temSubmenu .menuSuspenso {
     left: -9999px; }
   .topo ul.menuLista > li.temSubmenu:hover > ul.menuSuspenso, .topo ul.menuLista > li.temSubmenu.menuSuspensoAtivo > ul.menuSuspenso {
@@ -375,9 +386,9 @@ nav.menu {
       z-index: -1; }
       nav.menu .temSubmenu .menuSuspenso .temSubmenu .menuSuspenso {
         padding: 0; }
-    nav.menu .submenuAberto > span i.fas:before {
+    nav.menu .submenuAberto > span i.fas:before, nav.menu .menuSuspensoAtivo > span i.fas:before {
       content: "\f077"; }
-    nav.menu .submenuAberto > .menuSuspenso {
+    nav.menu .submenuAberto > .menuSuspenso, nav.menu .menuSuspensoAtivo > .menuSuspenso {
       position: relative;
       left: 0;
       z-index: 100;

@@ -3,9 +3,9 @@ nav.menu {
   text-transform: uppercase;
 
   .menuLista {
-    
+
     &#ligacoesExternas{ font-weight: 400; }
-    
+
     li {
       @mixin bordaItemMenu($cor) {
         border-bottom-width: 2px;
@@ -85,7 +85,12 @@ nav.menu {
   .topo {
     ul.menuLista {
       > li {
-        padding: 1.2rem 0.6rem;
+        padding: 1.2rem 0.3rem;
+
+        a {
+          padding-left: .3rem;
+          padding-right: .3rem;
+        }
       }
 
       > li.temSubmenu {
@@ -223,7 +228,7 @@ nav.menu {
       }
     }
 
-    .submenuAberto {
+    .submenuAberto, .menuSuspensoAtivo {
       > span {
         i.fas:before {
           content: "\f077";
