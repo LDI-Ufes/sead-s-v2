@@ -67,25 +67,22 @@
 
   <div class="container">
     <section id="noticias">
-      <?php
-        $ultimas_noticias = new WP_Query(array('post_type' => 'noticia', 'posts_per_page' => 4));
-
-      if ($ultimas_noticias->have_posts()) : while ($ultimas_noticias->have_posts()) : $ultimas_noticias->the_post();?>
+      <?php $ultimas_noticias = new WP_Query(array('post_type' => 'noticia', 'posts_per_page' => 4));
+        if ($ultimas_noticias->have_posts()) : while ($ultimas_noticias->have_posts()) : $ultimas_noticias->the_post();?>
+        
+          <a class="noticia" href="<?php the_permalink() ?>" title="Ir para notícia: <?php the_title(); ?>">    
+            <?php the_post_thumbnail(); ?>
+            <h3><?php the_title(); ?></h3>          
+          </a>
       
-        <div class="noticia">
-          <?php the_post_thumbnail(); ?>
-          <h3><a href="<?php the_permalink() ?>" title="Ir para notícia: <?php the_title(); ?>"><?php the_title(); ?></a></h3>
-        </div>
+        <?php endwhile; wp_reset_postdata(); else : ?>
       
-        <?php endwhile; wp_reset_postdata(); ?>
-      <?php else : ?>
-      
-        <p><?php esc_html_e('Sem notícias.'); ?></p>
+        <p>Sem notícias.</p>
         
       <?php endif; ?>
 
       <div class="confira-mais">
-        <h2>Confira mais do que acontece nos polos</h2>
+        <h2>Confira mais do que acontece nos polos:</h2>
         <a href="https://www.facebook.com/sead.ufes/" title="Ir para página da Sead no Facebook"><i class="fab fa-facebook-f"></i></a>
         <a href="/sitiosead/blog" title="Ir para a página Blog"><?php include 'svg/nossoBlog.svg' ?></a>
       </div>

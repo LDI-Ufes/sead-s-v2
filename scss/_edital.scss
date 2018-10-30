@@ -21,10 +21,11 @@
 
   .secao-edital {
     border-top: solid 2px $azulClaro;
-    margin-top: 3rem;
+    margin-top: 4rem;
 
     h2 {
       font-size: 1.6rem;
+      margin: .8rem 0 1rem;
     }
 
     &#anexos {
@@ -32,8 +33,7 @@
         li {
           color: gray;
           font-style: italic;
-          padding-bottom: 1rem;
-          /*line-height: 3rem;*/
+          padding-bottom: .5rem;
 
           a {
             color: black;
@@ -58,7 +58,7 @@
 
     &#inscricao {
       p {
-        padding-bottom: 1.5rem;
+        padding-bottom: .5rem;
         max-width: unset;
       }
 
@@ -79,9 +79,7 @@
         &#descricao {
           padding-top: 0;
 
-          p {
-            display: inline;
-          }
+          p { display: inline; }
         }
       }
     }

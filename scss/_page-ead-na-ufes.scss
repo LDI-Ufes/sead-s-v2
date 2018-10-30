@@ -130,6 +130,11 @@
           &:before {
             font-size: 5rem;
           }
+
+          &:hover:before{
+            font-size: 5.5rem;
+            color: $azulMedio;
+          }
         }
 
         li {

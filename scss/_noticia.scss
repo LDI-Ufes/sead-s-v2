@@ -1,6 +1,4 @@
 #noticia {
-  padding: 0 1.25rem;
-
   .post-capa {
     position: relative;
     z-index: -1;
@@ -10,6 +8,21 @@
       height: 40vw;
       object-fit: cover;
     }
+
+    &.gradient {
+      &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        height: 24vw;
+        opacity: 0.6;
+        background-image: linear-gradient($azulEscuro, transparent);
+      }
+    }
+
   }
 
   article {
@@ -21,7 +34,6 @@
       font-weight: $light;
       color: $azulMedio;
       margin-bottom: 0.8rem;
-      margin-top: 2rem;
     }
 
     .post-date {
@@ -43,7 +55,7 @@
       p,
       img,
       blockquote {
-        margin-top: 3rem;
+        margin-top: 1.5rem;
       }
 
       blockquote {
@@ -61,11 +73,11 @@
         height: auto;
         margin-bottom: 1rem;
       }
-      
+
       a{
         font-style: italic;
         color: $laranjaMedio;
-        
+
         &:hover{
           color: $laranjaEscuro;
           text-decoration: underline;
@@ -122,31 +134,23 @@
   }
 
   @media screen and (min-width: 992px) {
-    padding: 0;
-
-    .gradient {
-      &:before {
-        content: "";
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        height: 24vw;
-        opacity: 0.6;
-        background-image: linear-gradient($azulEscuro, transparent);
-      }
-    }
+    .post-capa > img{ height: 30vw; }
 
     article {
-      h1 {
+      h1 { 
         font-size: 2.75rem;
-        margin-top: 4rem;
+        margin-top: 2rem;
       }
 
       .post-body {
         max-width: 720px;
         margin: 0 auto 80px;
+
+        p,
+        img,
+        blockquote {
+          margin-top: 3rem;
+        }
       }
 
       .links-compartilhamento {

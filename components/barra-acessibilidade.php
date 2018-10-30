@@ -9,8 +9,8 @@
         <li class="temSubmenu">
           <span>AVA Moodle <i class="fas fa-chevron-down"></i></span>
           <ul class="menuSuspenso">
-            <li><a href="" title="AVA Moodle de Graduação">Graduação</a></li>
-            <li><a href="" title="AVA Moodle de Especialização e Aperfeiçamento">Especialização e Aperfeiçoamento</a></li>
+            <li><a href="http://www.ead.ufes.br" title="AVA Moodle de Graduação">Graduação</a></li>
+            <li><a href="http://www.especializacao.aperfeicoamento.ufes.br" title="AVA Moodle de Especialização e Aperfeiçamento">Especialização e Aperfeiçoamento</a></li>
           </ul>
         </li>
       </ul>
