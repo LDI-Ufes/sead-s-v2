@@ -5,16 +5,15 @@
   <h1>Editais</h1>
 
   <div id="filtros">
+    
     <div id="aplicados">
-      <span>Artes Visuais<button class="excluir-filtro"><i class="fas fa-times"></i></button></span>
-      <span>Artes Visuais<button class="excluir-filtro"><i class="fas fa-times"></i></button></span>
-      <span>Artes Visuais<button class="excluir-filtro"><i class="fas fa-times"></i></button></span>
-      <span>Artes Visuais<button class="excluir-filtro"><i class="fas fa-times"></i></button></span>
-      
+      <!--<span>Artes Visuais<button class="excluir-filtro"><i class="fas fa-times"></i></button></span>-->
     </div>
+    
     <div id="seletores">
-      <button id="mostra-seletores">Exibir filtros</button>
-      <ul id="cursos" class="lista-filtros">
+      <button id="exibe-seletores">Exibir filtros</button>
+      
+      <div id="cursos" class="seletor" data-tipo='curso'>
         <button class="exibe-filtros">Curso</button>
         <?php 
           $cursos = get_terms( array(
@@ -24,16 +23,14 @@
           ) );
 
           foreach( $cursos as $curso ) {
-              echo '<li>
-                  <input class="filtro" type="checkbox" value=" '. $curso->name .' " id="filter-'. $curso->name .'" />
-                  <label for="filter-'. $curso->name .'">'. $curso->name .'</label>
-              </li>';
+              echo '<div>'
+            . '<input class="filtro" type="checkbox" id="filter-'. $curso->name .'" data-type="curso" data-id="'. $curso->name .'" /><label for="filter-'. $curso->name .'">'. $curso->name .'</label></div>';
           }
-        ?>
-      </ul><!--
-
-      --><ul id="atribuicoes" class="lista-filtros">
-       <button class="exibe-filtros">Atribuição</button>
+        ?>   
+      </div><!--
+      
+      --><div id="atribuicoes" class="seletor" data-tipo='atribuicao'>
+        <button class="exibe-filtros">Atribuição</button>
         <?php 
           $atribuicoes = get_terms( array(
               'taxonomy' => 'atribuicao',
@@ -42,48 +39,74 @@
           ) );
 
           foreach( $atribuicoes as $atribuicao ) {
-              echo '<li>
-                  <input class="filtro" type="checkbox" value=" '. $atribuicao->name .' " id="filter-'. $atribuicao->name .'" />
-                  <label for="filter-'. $atribuicao->name .'">'. $atribuicao->name .'</label>
-              </li>';
+              echo '<div>'
+            . '<input class="filtro" type="checkbox" id="filter-'. $atribuicao->name .'" data-type="atribuicao" data-id="'. $atribuicao->name .'" /><label for="filter-'. $atribuicao->name .'">'. $atribuicao->name .'</label></div>';
           }
-        ?>
-      </ul><!--
+        ?>   
+      </div><!--
 
-      --><ul id="tipo-de-curso" class="lista-filtros">
+      --><div id="tipo-de-curso" class="seletor" data-tipo='tipo-de-curso'>
         <button class="exibe-filtros">Tipo de curso</button>
-        <li><input class="filtro" type="checkbox"></li>
-        <li><input class="filtro" type="checkbox"></li>
-      </ul><!--
+        <?php 
+          $tipos = get_terms( array(
+              'taxonomy' => 'tipo-de-curso',
+              'oderby' => 'name',
+              'order' => 'ASC'
+          ) );
 
-      --><ul id="ano" class="lista-filtros">
+          foreach( $tipos as $tipo ) {
+              echo '<div>'
+            . '<input class="filtro" type="checkbox" id="filter-'. $tipo->name .'" data-type="formacao" data-id="'. $tipo->name .'" /><label for="filter-'. $tipo->name .'">'. $tipo->name .'</label></div>';
+          }
+        ?>   
+      </div><!--
+
+      --><div id="ano" class="seletor" data-tipo='ano'>
         <button class="exibe-filtros">Ano</button>
-        <li><input class="filtro" type="checkbox"></li>
-        <li><input class="filtro" type="checkbox"></li>      
-      </ul>
+        <?php 
+          $anos = get_terms( array(
+              'taxonomy' => 'ano',
+              'oderby' => 'name',
+              'order' => 'ASC'
+          ) );
+
+          foreach( $anos as $ano ) {
+              echo '<div>'
+            . '<input class="filtro" type="checkbox" id="filter-'. $ano->name .'" data-type="ano" data-id="'. $ano->name .'" /><label for="filter-'. $ano->name .'">'. $ano->name .'</label></div>';
+          }
+        ?>   
+      </div>
+      
+      <div>
+        <input type="button" id="limpaFiltros" value="Limpar Filtros" />
+      </div>
+
+      
     </div> <!-- seletores -->
   </div> <!-- filtros -->
 
   <ul id="editais" class="content">
+    
     <div class="titulos"><span>Edital</span><span>Atribuição</span><span>Tipo de curso</span><span>Curso</span></div>
-     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-        <li class="edital">
+      
+      <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+        <li class="edital edital-item" data-curso="<?php echo strip_tags(get_the_term_list($post->ID, 'curso')); ?>" data-atribuicao="<?php echo strip_tags(get_the_term_list($post->ID, 'atribuicao')); ?>" data-formacao="<?php echo strip_tags(get_the_term_list($post->ID, 'tipo-de-curso')); ?>" data-ano="<?php echo strip_tags(get_the_term_list($post->ID, 'ano')); ?>">
           <h3><a href="<?php the_permalink() ?>"><span>Edital </span><?php the_title(); ?></a></h3><!--
           --><p class="atribuicao"><?php echo strip_tags(get_the_term_list($post->ID, 'atribuicao')); ?></p><!--
           --><p class="tipo-de-curso"><?php echo strip_tags(get_the_term_list($post->ID, 'tipo-de-curso')); ?></p><!--
           --><p class="curso"><?php echo strip_tags(get_the_term_list($post->ID, 'curso')); ?></p>
         </li>
       <?php endwhile; ?>
+        
     </ul>
 
     <div id="paginacao">  
-<!--      <div class="nav-right"><?php next_posts_link('Editais antigos  >'); ?></div>
-      <div class="nav-left"><?php previous_posts_link('<  Editais recentes'); ?></div>-->
       <?php the_posts_pagination(array(
         'prev_text' => __('<', 'textdomain'),
         'next_text' => __('>', 'textdomain')
       )); ?>
     </div>
+  
     <?php wp_reset_postdata(); ?>
   <?php else : ?>
     <p><?php esc_html_e('Não há editais cadastrados.'); ?></p>
@@ -93,23 +116,12 @@
 <?php get_footer(); ?>
 
 <script>
-//  $(".filtro").click(function(){
-//    
-//    
-//      var selectSize = $(this).val();
-//      filter(selectSize);
-//  });
-//  function filter(e){
-//  $('.edital').hide()
-//      .filter('[data-curso*="'+ e +'"]')
-//      .show(); // show the filtered elements
-//  }
 
 $(".exibe-filtros").click(function(){
   $(this).parent().toggleClass('expandido');
 });
 
-$("#mostra-seletores").click(function(){
+$("#exibe-seletores").click(function(){
   $(this).siblings().toggleClass('expandido-mobile');
   
   if ($(this).text() === "Exibir filtros")
@@ -117,5 +129,73 @@ $("#mostra-seletores").click(function(){
   else
     $(this).text("Exibir filtros");
 });
+
+//Eduardo
+
+$(".filtro").on("click", () => atualizaSelecao());
+
+$("#limpaFiltros").on("click", function() {
+  let $stats = $(".filtro:checked");
+
+  for (item of $stats) item.checked = false;
+   
+  $("#editais li").show();
+  
+  $("#aplicados > .excluir-filtro").remove();
+  atualizaSelecao();
+});
+
+
+const criaTag = (seletor, texto) => {
+  $("#aplicados").append(
+    $(`<div class="seletores excluir-filtro" data-seletor="${seletor}">
+        <a class="removeTag" href="#">${texto}<i class="fas fa-times"></i></a>   
+      </div>`)
+  );
+  
+  $(".removeTag").on("click", function() {
+    let $stats = $(".filtro:checked");
+
+    for (item of $stats) {
+      if ($(item).data("id") === $(this.parentElement).data("seletor")) {
+        item.checked = false;
+        break;
+      }
+    }
+
+    $(this.parentElement).remove();
+    atualizaSelecao();
+  });
+};
+
+const zeraTags = () => {
+  $("#aplicados > div").remove();
+};
+
+
+const atualizaSelecao = () => {
+  let $stats = $(".filtro:checked");
+  let $items = $("#editais li");
+
+  zeraTags();
+  $items.show();
+
+  if ($stats.length == 0) return;
+
+  var $vstats = $.map($stats, function(o) {
+    return $(o).data("id");
+  });
+
+  $stats.each(function() {
+    var $stat = $(this);
+    $items
+      .filter(function() {
+        return $vstats.indexOf($(this).data($stat.data("type"))) < 0;
+      })
+      .hide();
+
+    criaTag($(this).data("id"), this.parentElement.textContent);
+  });
+};
 
 </script>

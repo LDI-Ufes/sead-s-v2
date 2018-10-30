@@ -99,6 +99,13 @@ function create_editais_tax() {
         'hierarchical' => true,
             )
     );
+        register_taxonomy(
+        'atribuicao', 'ano', array(
+        'label' => __('Ano'),
+        'rewrite' => array('slug' => 'ano'),
+        'hierarchical' => true,
+            )
+    );
 }
 
 add_action('init', 'create_galeria_tax');
@@ -149,6 +156,5 @@ function paginate_search( $query ){
   }
 }
 
-?>
+include 'plugins/campo-customizado-autor.php';
 
-<?php include 'plugins/campo-customizado-autor.php' ?>

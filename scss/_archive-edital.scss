@@ -6,27 +6,22 @@
       padding: 1rem 0;
       color: white;
 
-      span {
+      .excluir-filtro {
         background-color: $azulRegular;
-        padding: 5px;
+        line-height: 1.8;
         font-size: 0.8rem;
         padding-left: 8px;
         display: inline-block;
-        margin-bottom: 5px;
-      }
-
-      button.excluir-filtro {
-        background-color: transparent;
-        border: none;
-        color: white;
-        margin-left: 5px;
+        margin-bottom: .5rem;
+        margin-right: 1rem;
+        i{ padding: 0 8px; }
       }
     }
 
     #seletores {
       border: solid 0.5px $azulClaro;
 
-      button#mostra-seletores {
+      button#exibe-seletores {
         font-size: 1.2rem;
         border: none;
         background: none;
@@ -43,7 +38,7 @@
         }
       }
 
-      .lista-filtros {
+      .seletor {
         display: none;
         font-weight: $light;
         vertical-align: top;
@@ -68,7 +63,7 @@
           }
         }
 
-        li {
+        div {
           display: none;
           padding: 5px 10px;
           line-height: 1.8;
@@ -88,7 +83,7 @@
         &.expandido {
           background-color: $azulExtraClaro;
 
-          li {
+          div {
             display: block;
           }
 
@@ -145,14 +140,14 @@
     #filtros {
       margin-right: -15px;
 
-      button#mostra-seletores {
+      button#exibe-seletores {
         display: none;
       }
 
       #seletores {
         border: none;
 
-        .lista-filtros {
+        .seletor {
           display: inline-block;
           border: solid 0.5px #5992dd;
           margin-right: 15px;
