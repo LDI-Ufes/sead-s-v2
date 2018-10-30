@@ -1,19 +1,13 @@
 <?php get_header('principal'); ?>
 
-<main class="container">
+<main class="container page">
 
-  <section class="conteudo">
+  <h1><?php the_title() ?></h1>
 
-    <h1><?php the_title() ?></h1>
-
-    <section>
-      <?php
-      while (have_posts()) : the_post();
-        the_content();
-      endwhile;
-      ?>
-    </section>
-
+  <section>
+    <?php while (have_posts()) : the_post();
+      the_content();
+    endwhile; ?>
   </section>
 
 </main>
