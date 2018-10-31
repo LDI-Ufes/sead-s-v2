@@ -22,14 +22,13 @@
       border: solid 0.5px $azulClaro;
 
       button#exibe-seletores {
-        font-size: 1.2rem;
+        font-size: 1rem;
         border: none;
         background: none;
         text-align: left;
-        padding: 10px 15px;
+        padding: 8px 15px;
         position: relative;
         width: 100%;
-        border-bottom: solid 0.5px $azulClaro;
 
         i {
           right: 15px;
@@ -43,30 +42,31 @@
         font-weight: $light;
         vertical-align: top;
 
-        button.exibe-filtros {
-          font-size: 1.2rem;
+        button.exibe-filtros, button#limpaFiltros {
+          font-size: 1rem;
           border: none;
           background: none;
           width: 100%;
           text-align: left;
-          padding: 10px 15px;
+          padding: 8px 15px;
           position: relative;
-
-          &:after {
-            content: "\f107";
-            right: 15px;
-            width: auto;
-            font-family: "Font Awesome 5 Free";
-            font-weight: 600;
-            position: absolute;
-            color: lightgray;
-          }
         }
 
-        div {
+        button.exibe-filtros:after{
+          content: "\f107";
+          right: 15px;
+          width: auto;
+          font-family: "Font Awesome 5 Free";
+          font-weight: 600;
+          position: absolute;
+          color: lightgray;
+        }
+
+        ul {
           display: none;
           padding: 5px 10px;
           line-height: 1.8;
+          padding-bottom: 1rem;
 
           input[type="checkbox"]:checked {
             + label {
@@ -74,6 +74,7 @@
               font-weight: $regular;
             }
           }
+          label{ margin-left: .3rem;}
         }
 
         &.expandido-mobile {
@@ -83,7 +84,7 @@
         &.expandido {
           background-color: $azulExtraClaro;
 
-          div {
+          ul {
             display: block;
           }
 
@@ -94,6 +95,17 @@
             &:after {
               content: "\f106";
             }
+          }
+        }
+
+        &#limpar{ 
+          background-color: $azulRegular; 
+
+          button{ 
+            text-align: center;
+            font-weight: $regular;
+            text-transform: uppercase;
+            color: white;
           }
         }
       }
@@ -146,25 +158,39 @@
 
       #seletores {
         border: none;
+        display: flex;
 
         .seletor {
           display: inline-block;
-          border: solid 0.5px #5992dd;
+          border: solid 0.5px $azulRegular;
           margin-right: 15px;
+          position: relative;
 
           button.exibe-filtros:after {
             color: gray;
           }
 
-          &#cursos {
-            width: calc(40% - 16px);
+          &#ano{ width: calc(15% - 1rem) }
+          
+          &#atribuicoes,
+          &#tipo-de-curso{
+            width: calc(27.5% - 1rem);
           }
 
-          &#atribuicoes,
-          &#tipo-de-curso,
-          &#ano {
-            width: calc(20% - 16px);
+          &#cursos{
+            width: calc(30% - 1rem);
           }
+
+          ul{
+            position: absolute;
+            background-color: $azulExtraClaro;
+            border: solid 0.5px $azulRegular;
+            border-top: none;
+            width: calc(100% - 1.2rem - .5px);
+            margin-left: -.5px;
+            padding-bottom: .5rem;
+          }
+
         }
       }
     }
@@ -184,10 +210,10 @@
             width: 15%;
           }
           &:nth-of-type(2) {
-            width: 28%;
+            width: 25%;
           }
           &:nth-of-type(3) {
-            width: 22%;
+            width: 25%;
           }
           &:nth-of-type(4) {
             width: 35%;
@@ -223,10 +249,10 @@
         }
 
         .atribuicao {
-          width: 28%;
+          width: 25%;
         }
         .tipo-de-curso {
-          width: 22%;
+          width: 25%;
         }
         .curso {
           width: 35%;
