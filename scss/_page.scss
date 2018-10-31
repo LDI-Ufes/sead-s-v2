@@ -1,5 +1,6 @@
 .page {
   line-height: 1.8rem;
+  padding-bottom: 4rem;
 
   p {
     font-weight: $light;
@@ -70,7 +71,7 @@
 
   #paginacao {
     color: $laranjaMedio;
-    padding: 2rem 1rem 4rem;
+    padding: 1rem 1rem 2rem;
     text-align: center;
     font-weight: $bold;
 

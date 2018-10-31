@@ -152,7 +152,8 @@ header {
     display: flex;
     justify-content: flex-end; }
   header #topoBlog #enderecoBlog {
-    max-height: 100%; }
+    max-height: 100%;
+    z-index: 1; }
     header #topoBlog #enderecoBlog:focus {
       outline: none; }
   header #topoBlog #nossoBlog {
@@ -486,6 +487,8 @@ footer {
     min-height: 20vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./img/video-destaque.png");
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     text-align: center;
     padding-bottom: 2rem; }
     #inicio #banner .container {
@@ -543,8 +546,7 @@ footer {
           margin: 0;
           margin-bottom: .5rem; }
           #inicio #ultimos-editais ul li h3:hover {
-            font-weight: 500;
-            border-bottom: solid 2px #f06c00; }
+            font-weight: 500; }
         #inicio #ultimos-editais ul li p {
           margin: .3rem 0;
           font-size: .9rem;
@@ -858,7 +860,8 @@ footer {
           height: 350px; } }
 
 .page {
-  line-height: 1.8rem; }
+  line-height: 1.8rem;
+  padding-bottom: 4rem; }
   .page p {
     font-weight: 300; }
   .page blockquote {
@@ -904,7 +907,7 @@ footer {
     margin-top: 3rem; }
   .page #paginacao {
     color: #c75000;
-    padding: 2rem 1rem 4rem;
+    padding: 1rem 1rem 2rem;
     text-align: center;
     font-weight: 700; }
     .page #paginacao a,
@@ -967,8 +970,7 @@ footer {
           margin: 0;
           margin-bottom: .5rem; }
           #page-blog #ultimos-editais ul li h3:hover {
-            font-weight: 500;
-            border-bottom: solid 2px #f06c00; }
+            font-weight: 500; }
         #page-blog #ultimos-editais ul li p {
           margin: .3rem 0;
           font-size: .9rem;
@@ -1000,12 +1002,12 @@ footer {
     margin-bottom: 5rem;
     list-style-type: none;
     font-weight: 600; }
-    #page-blog #posts .blog-post .blog-post-header {
+    #page-blog #posts .blog-post a .blog-post-header {
       position: relative;
       height: 30vw;
       min-height: 100px;
       max-height: 250px; }
-      #page-blog #posts .blog-post .blog-post-header span {
+      #page-blog #posts .blog-post a .blog-post-header span {
         background-color: #05427b;
         color: white;
         text-transform: uppercase;
@@ -1014,13 +1016,13 @@ footer {
         margin-top: -0.5rem;
         line-height: 1.8;
         padding: 0 0.8rem; }
-      #page-blog #posts .blog-post .blog-post-header img {
+      #page-blog #posts .blog-post a .blog-post-header img {
         width: 100%;
         height: 30vw;
         min-height: 100px;
         max-height: 250px;
         object-fit: cover; }
-      #page-blog #posts .blog-post .blog-post-header:before {
+      #page-blog #posts .blog-post a .blog-post-header:before {
         content: "";
         height: 100%;
         left: 0;
@@ -1028,14 +1030,16 @@ footer {
         top: 0;
         width: 100%;
         opacity: 0.6;
-        background-image: linear-gradient(transparent, #05427b); }
-      #page-blog #posts .blog-post .blog-post-header .post-date {
+        background-image: linear-gradient(transparent, #043166); }
+      #page-blog #posts .blog-post a .blog-post-header .post-date {
         color: white;
         position: absolute;
         bottom: 0;
         right: 0;
         padding: 0.8rem;
         font-size: 0.8rem; }
+    #page-blog #posts .blog-post a:hover .blog-post-header:before {
+      opacity: 0.8; }
     #page-blog #posts .blog-post h3 {
       color: #05427b;
       font-weight: 600;
@@ -1185,7 +1189,7 @@ footer {
         position: absolute;
         bottom: 1.5rem;
         right: 0;
-        background-color: rgba(178, 72, 0, 0.7);
+        background-color: rgba(178, 72, 0, 0.5);
         width: calc(50% - 0.75rem);
         height: 10rem; }
         #page-blog #galeria ul li .ver-mais span {
@@ -1198,7 +1202,7 @@ footer {
           padding-top: 4.5rem;
           color: white; }
         #page-blog #galeria ul li .ver-mais:hover {
-          background-color: rgba(178, 72, 0, 0.8); }
+          background-color: rgba(178, 72, 0, 0.7); }
   #page-blog a[role="button"] {
     background-color: white;
     color: #c75000;
@@ -1213,17 +1217,16 @@ footer {
     #page-blog #posts {
       width: 560px;
       display: inline-block; }
-      #page-blog #posts .blog-post .blog-post-header {
+      #page-blog #posts .blog-post a .blog-post-header {
         height: 20vw; }
-        #page-blog #posts .blog-post .blog-post-header span {
+        #page-blog #posts .blog-post a .blog-post-header span {
           margin-left: 2rem; }
-        #page-blog #posts .blog-post .blog-post-header img {
+        #page-blog #posts .blog-post a .blog-post-header img {
           height: 20vw; }
-        #page-blog #posts .blog-post .blog-post-header .post-date {
+        #page-blog #posts .blog-post a .blog-post-header .post-date {
           padding: 1rem;
           font-size: 1rem; }
-      #page-blog #posts .blog-post h3,
-      #page-blog #posts .blog-post p {
+      #page-blog #posts .blog-post h3, #page-blog #posts .blog-post p {
         margin: 1rem 0; }
       #page-blog #posts #postsNav {
         padding: 0 0 2rem; }
@@ -1267,14 +1270,13 @@ footer {
   #page-editais #filtros #seletores {
     border: solid 0.5px #cfeaff; }
     #page-editais #filtros #seletores button#exibe-seletores {
-      font-size: 1.2rem;
+      font-size: 1rem;
       border: none;
       background: none;
       text-align: left;
-      padding: 10px 15px;
+      padding: 8px 15px;
       position: relative;
-      width: 100%;
-      border-bottom: solid 0.5px #cfeaff; }
+      width: 100%; }
       #page-editais #filtros #seletores button#exibe-seletores i {
         right: 15px;
         position: absolute;
@@ -1283,40 +1285,50 @@ footer {
       display: none;
       font-weight: 300;
       vertical-align: top; }
-      #page-editais #filtros #seletores .seletor button.exibe-filtros {
-        font-size: 1.2rem;
+      #page-editais #filtros #seletores .seletor button.exibe-filtros, #page-editais #filtros #seletores .seletor button#limpaFiltros {
+        font-size: 1rem;
         border: none;
         background: none;
         width: 100%;
         text-align: left;
-        padding: 10px 15px;
+        padding: 8px 15px;
         position: relative; }
-        #page-editais #filtros #seletores .seletor button.exibe-filtros:after {
-          content: "\f107";
-          right: 15px;
-          width: auto;
-          font-family: "Font Awesome 5 Free";
-          font-weight: 600;
-          position: absolute;
-          color: lightgray; }
-      #page-editais #filtros #seletores .seletor div {
+      #page-editais #filtros #seletores .seletor button.exibe-filtros:after {
+        content: "\f107";
+        right: 15px;
+        width: auto;
+        font-family: "Font Awesome 5 Free";
+        font-weight: 600;
+        position: absolute;
+        color: lightgray; }
+      #page-editais #filtros #seletores .seletor ul {
         display: none;
         padding: 5px 10px;
-        line-height: 1.8; }
-        #page-editais #filtros #seletores .seletor div input[type="checkbox"]:checked + label {
+        line-height: 1.8;
+        padding-bottom: 1rem; }
+        #page-editais #filtros #seletores .seletor ul input[type="checkbox"]:checked + label {
           color: #1765ab;
           font-weight: 400; }
+        #page-editais #filtros #seletores .seletor ul label {
+          margin-left: .3rem; }
       #page-editais #filtros #seletores .seletor.expandido-mobile {
         display: block; }
       #page-editais #filtros #seletores .seletor.expandido {
         background-color: #edf9ff; }
-        #page-editais #filtros #seletores .seletor.expandido div {
+        #page-editais #filtros #seletores .seletor.expandido ul {
           display: block; }
         #page-editais #filtros #seletores .seletor.expandido button.exibe-filtros {
           color: #043166;
           font-weight: 400; }
           #page-editais #filtros #seletores .seletor.expandido button.exibe-filtros:after {
             content: "\f106"; }
+      #page-editais #filtros #seletores .seletor#limpar {
+        background-color: #1765ab; }
+        #page-editais #filtros #seletores .seletor#limpar button {
+          text-align: center;
+          font-weight: 400;
+          text-transform: uppercase;
+          color: white; }
 #page-editais #editais {
   width: 100%;
   font-weight: 300;
@@ -1345,17 +1357,29 @@ footer {
     #page-editais #filtros button#exibe-seletores {
       display: none; }
     #page-editais #filtros #seletores {
-      border: none; }
+      border: none;
+      display: flex; }
       #page-editais #filtros #seletores .seletor {
         display: inline-block;
-        border: solid 0.5px #5992dd;
-        margin-right: 15px; }
+        border: solid 0.5px #1765ab;
+        margin-right: 15px;
+        position: relative; }
         #page-editais #filtros #seletores .seletor button.exibe-filtros:after {
           color: gray; }
+        #page-editais #filtros #seletores .seletor#ano {
+          width: calc(15% - 1rem); }
+        #page-editais #filtros #seletores .seletor#atribuicoes, #page-editais #filtros #seletores .seletor#tipo-de-curso {
+          width: calc(27.5% - 1rem); }
         #page-editais #filtros #seletores .seletor#cursos {
-          width: calc(40% - 16px); }
-        #page-editais #filtros #seletores .seletor#atribuicoes, #page-editais #filtros #seletores .seletor#tipo-de-curso, #page-editais #filtros #seletores .seletor#ano {
-          width: calc(20% - 16px); }
+          width: calc(30% - 1rem); }
+        #page-editais #filtros #seletores .seletor ul {
+          position: absolute;
+          background-color: #edf9ff;
+          border: solid 0.5px #1765ab;
+          border-top: none;
+          width: calc(100% - 1.2rem - .5px);
+          margin-left: -.5px;
+          padding-bottom: .5rem; }
   #page-editais #editais .titulos {
     display: block; }
     #page-editais #editais .titulos span {
@@ -1367,9 +1391,9 @@ footer {
       #page-editais #editais .titulos span:nth-of-type(1) {
         width: 15%; }
       #page-editais #editais .titulos span:nth-of-type(2) {
-        width: 28%; }
+        width: 25%; }
       #page-editais #editais .titulos span:nth-of-type(3) {
-        width: 22%; }
+        width: 25%; }
       #page-editais #editais .titulos span:nth-of-type(4) {
         width: 35%; }
   #page-editais #editais li {
@@ -1391,9 +1415,9 @@ footer {
       #page-editais #editais li h3 span {
         display: none; }
     #page-editais #editais li .atribuicao {
-      width: 28%; }
+      width: 25%; }
     #page-editais #editais li .tipo-de-curso {
-      width: 22%; }
+      width: 25%; }
     #page-editais #editais li .curso {
       width: 35%; }
     #page-editais #editais li .atribuicao,
@@ -1510,7 +1534,7 @@ footer {
 #edital {
   line-height: 2;
   font-weight: 300;
-  padding-bottom: 4rem !important;
+  padding-bottom: 6rem !important;
   /* secao-edital */
   /* media */ }
   #edital #informacoes em {
@@ -1560,21 +1584,11 @@ footer {
 
 #noticia .post-capa {
   position: relative;
-  z-index: -1; }
-  #noticia .post-capa img {
-    width: 100%;
-    height: 40vw;
-    object-fit: cover; }
-  #noticia .post-capa.gradient:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height: 24vw;
-    opacity: 0.6;
-    background-image: linear-gradient(#043166, transparent); }
+  min-height: 25vh;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-top: 0;
+  background-position: center; }
 #noticia article {
   padding-bottom: 4rem; }
   #noticia article h1 {
@@ -1645,11 +1659,11 @@ footer {
       display: none; }
     #noticia article .links-compartilhamento a {
       margin-top: -0.5rem;
-      font-size: 1.5rem;
-      display: block; }
+      margin-left: .5rem;
+      font-size: 1.5rem; }
 @media screen and (min-width: 992px) {
-  #noticia .post-capa > img {
-    height: 30vw; }
+  #noticia .post-capa {
+    min-height: 65vh; }
   #noticia article h1 {
     font-size: 2.75rem;
     margin-top: 2rem; }
@@ -1753,6 +1767,7 @@ footer {
     background-image: linear-gradient(#f06c00, transparent), url("./img/video-destaque.png");
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
     margin-top: 0; }
     #secretaria .destaque .titulo {
       padding: 6rem 1rem;
@@ -1906,6 +1921,7 @@ footer {
     background-image: linear-gradient(#05427b, transparent), url("./img/video-destaque.png");
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
     margin-top: 0; }
     #ead-na-ufes .destaque .titulo {
       padding: 6rem 1rem;
@@ -1996,8 +2012,7 @@ footer {
     #ead-na-ufes #agentes li {
       font-weight: 300;
       max-width: 720px;
-      margin: 0 auto;
-      margin-top: 2rem; }
+      margin: 0 auto; }
       #ead-na-ufes #agentes li button {
         background: none;
         border: none;
@@ -2024,7 +2039,7 @@ footer {
           text-underline-position: under; }
       #ead-na-ufes #agentes li div {
         display: none;
-        padding-top: 1rem; }
+        padding: 1rem 0; }
         #ead-na-ufes #agentes li div.expandido-texto {
           display: block; }
   @media (min-width: 992px) {

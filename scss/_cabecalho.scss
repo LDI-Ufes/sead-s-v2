@@ -58,6 +58,7 @@ header {
   #topoBlog {
     #enderecoBlog {
       max-height: 100%;
+      z-index: 1;
 
       &:focus {
         outline: none;

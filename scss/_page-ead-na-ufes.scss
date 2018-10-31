@@ -114,7 +114,6 @@
       font-weight: $light;
       max-width: 720px;
       margin: 0 auto;
-      margin-top: 2rem;
 
       button{
         background: none;
@@ -152,7 +151,7 @@
 
       div {
         display: none;
-        padding-top: 1rem;
+        padding: 1rem 0;
 
         &.expandido-texto {
           display: block;
