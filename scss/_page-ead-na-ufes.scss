@@ -114,6 +114,50 @@
       font-weight: $light;
       max-width: 720px;
       margin: 0 auto;
+      margin-top: 2rem;
+
+      button{
+        background: none;
+        border: none;
+        padding: .5rem;
+        margin-left: -.5rem;
+
+        h3{
+          margin: 0;
+          padding: 0;
+          display: inline-block;
+        }
+
+        &:before {
+          content: "\f067";
+          font-family: "Font Awesome 5 Free";
+          font-size: 1rem;
+          padding-right: 0.6rem;
+          font-weight: $bold;
+          color: $laranjaRegular;
+        }
+
+        &.expandido-botao:before { content: "\f068"; }
+
+        &:hover{
+          &:before{ color: $laranjaMedio; }
+
+          h3{
+            color: $laranjaMedio;
+            text-decoration: underline;
+            text-underline-position: under;
+          }
+        }
+      }
+
+      div {
+        display: none;
+        padding-top: 1rem;
+
+        &.expandido-texto {
+          display: block;
+        }
+      }
     }
   }
 

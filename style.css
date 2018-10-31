@@ -1996,7 +1996,37 @@ footer {
     #ead-na-ufes #agentes li {
       font-weight: 300;
       max-width: 720px;
-      margin: 0 auto; }
+      margin: 0 auto;
+      margin-top: 2rem; }
+      #ead-na-ufes #agentes li button {
+        background: none;
+        border: none;
+        padding: .5rem;
+        margin-left: -.5rem; }
+        #ead-na-ufes #agentes li button h3 {
+          margin: 0;
+          padding: 0;
+          display: inline-block; }
+        #ead-na-ufes #agentes li button:before {
+          content: "\f067";
+          font-family: "Font Awesome 5 Free";
+          font-size: 1rem;
+          padding-right: 0.6rem;
+          font-weight: 700;
+          color: #f06c00; }
+        #ead-na-ufes #agentes li button.expandido-botao:before {
+          content: "\f068"; }
+        #ead-na-ufes #agentes li button:hover:before {
+          color: #c75000; }
+        #ead-na-ufes #agentes li button:hover h3 {
+          color: #c75000;
+          text-decoration: underline;
+          text-underline-position: under; }
+      #ead-na-ufes #agentes li div {
+        display: none;
+        padding-top: 1rem; }
+        #ead-na-ufes #agentes li div.expandido-texto {
+          display: block; }
   @media (min-width: 992px) {
     #ead-na-ufes {
       /* #slider */ }
