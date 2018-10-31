@@ -1,8 +1,7 @@
 <?php get_header('blog'); ?>
 
 <main id="noticia">
-  <div class="post-capa gradient">
-    <?php the_post_thumbnail(); ?>  
+  <div class="post-capa" style="background-image: linear-gradient(#043166, transparent), url('<?php echo get_the_post_thumbnail_url(); ?>');">
   </div>
 
   <article class="container">
@@ -26,6 +25,8 @@
     <div class="links-compartilhamento">
       <span>Gostou do que leu?</span> Compartilhe essa notícia.
       <a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo get_permalink(); ?>" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="http://twitter.com/share?text=Ead na Ufes:&url=<?php echo get_permalink(); ?>" target="_blank"><i class="fab fa-twitter"></i></a>   
+      <a href="https://www.linkedin.com/shareArticle?mini=true&url=<?php echo get_permalink(); ?>" target="_blank"><i class="fab fa-linkedin"></i></a>      
     </div>
 
   </article>
