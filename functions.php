@@ -100,7 +100,7 @@ function create_editais_tax() {
             )
     );
         register_taxonomy(
-        'atribuicao', 'ano', array(
+        'ano', 'edital', array(
         'label' => __('Ano'),
         'rewrite' => array('slug' => 'ano'),
         'hierarchical' => true,
@@ -112,7 +112,7 @@ add_action('init', 'create_galeria_tax');
 
 function create_galeria_tax() {
     register_taxonomy(
-        'ano', 'galeria', array(
+        'ano-evento', 'galeria', array(
         'label' => __('Ano'),
         'rewrite' => array('slug' => 'ano'),
         'hierarchical' => true,
@@ -127,6 +127,13 @@ function create_noticia_tax() {
         'tag', 'noticia', array(
         'label' => __('Tag'),
         'rewrite' => array('slug' => 'tag'),
+        'hierarchical' => true,
+            )
+    );
+    register_taxonomy(
+        'curso-noticia', 'noticia', array(
+        'label' => __('Curso'),
+        'rewrite' => array('slug' => 'curso'),
         'hierarchical' => true,
             )
     );
