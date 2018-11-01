@@ -20,17 +20,18 @@ function create_post_type() {
       'public' => true,
       'has_archive' => true,
       'menu_icon' => 'dashicons-admin-links',
-      'supports' => array( 
-        'title', 
-        'editor', 
-        'excerpt'
+      'supports' => array(
+        'title',
+        'editor',
+        'excerpt',
+        'custom-fields'
       ),
       'rewrite' => array(
         'slug' => 'editais',
       )
     )
   );
-  
+
     register_post_type( 'noticia',
     array(
       'labels' => array(
@@ -40,18 +41,18 @@ function create_post_type() {
       'public' => true,
       'has_archive' => true,
       'menu_icon' => 'dashicons-format-aside',
-      'supports' => array( 
-        'title', 
-        'editor', 
+      'supports' => array(
+        'title',
+        'editor',
         'author',
-        'thumbnail'  
+        'thumbnail'
       ),
       'rewrite' => array(
         'slug' => 'blog',
       )
     )
   );
-    
+
     register_post_type( 'galeria',
     array(
       'labels' => array(
@@ -61,8 +62,8 @@ function create_post_type() {
       'public' => true,
       'has_archive' => true,
       'menu_icon' => 'dashicons-images-alt',
-      'supports' => array( 
-        'title', 
+      'supports' => array(
+        'title',
         'editor',
         'excerpt'
       ),
@@ -164,4 +165,3 @@ function paginate_search( $query ){
 }
 
 include 'plugins/campo-customizado-autor.php';
-
