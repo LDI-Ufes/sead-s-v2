@@ -2171,30 +2171,38 @@ footer {
         color: inherit; }
 #page-cursos #abas .tabPanel ul {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
-  margin-right: -1rem; }
-  #page-cursos #abas .tabPanel ul li {
+  margin-right: -2rem; }
+  #page-cursos #abas .tabPanel ul a {
     height: 7rem;
-    max-width: 28%;
+    max-width: 41%;
     background-image: linear-gradient(transparent, #1765ab);
     color: white;
     vertical-align: baseline;
     padding: 1rem;
-    flex: 1 0 28%;
+    flex: 1 0 41%;
     margin-right: 1rem;
     margin-bottom: 2rem;
     position: relative; }
-    #page-cursos #abas .tabPanel ul li div {
+    #page-cursos #abas .tabPanel ul a li {
       bottom: .5rem;
       position: absolute; }
-      #page-cursos #abas .tabPanel ul li div h3 {
+      #page-cursos #abas .tabPanel ul a li h3 {
         color: white;
         margin: 0;
         padding: 0;
         font-size: 1.3rem;
         font-weight: 600;
         line-height: 1.5rem; }
+    #page-cursos #abas .tabPanel ul a:hover {
+      background-image: linear-gradient(transparent, #05427b); }
+      #page-cursos #abas .tabPanel ul a:hover h3 {
+        text-decoration: underline #f06c00;
+        text-underline-position: under; }
+@media (min-width: 992px) {
+  #page-cursos #abas .tabPanel ul a {
+    max-width: 28%;
+    flex: 1 0 28%; } }
 
 #faq {
   /* ul */ }

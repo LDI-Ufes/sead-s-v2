@@ -14,10 +14,14 @@
     </ul>
     <div>
       <ul>
-        <li><div><h3>Filosofia</h3>Licenciatura</div></li>
-        <li><div><h3>Artes Visuais</h3>Licenciatura</div></li>
-        <li><div><h3>Química</h3>Licenciatura</div></li>
-        <li><div><h3>Pedagogia</h3>Bacharelado</div></li>
+        <a href=""><li><h3>Artes Visuais</h3>Licenciatura</li></a>
+        <a href=""><li><h3>Biologia</h3>Licenciatura</li></a>
+        <a href=""><li><h3>Filosofia</h3>Licenciatura</li></a>
+        <a href=""><li><h3>Física</h3>Licenciatura</li></a>
+        <a href=""><li><h3>História</h3>Licenciatura</li></a>
+        <a href=""><li><h3>Letras Italiano</h3>Licenciatura</li></a>
+        <a href=""><li><h3>Pedagogia</h3>Licenciatura</li></a>
+        <a href=""><li><h3>Química</h3>Licenciatura</li></a>
       </ul>
     </div>
     <div>
@@ -87,7 +91,7 @@
                         tab.attr("aria-selected", "true").parent().addClass("current");
 
                         // Set focus to the paragraph in the newly revealed tab content
-                        tabPanel.children("p").attr("tabindex", -1).focus();
+                        tabPanel.children("ul").find('a:first-of-type').focus();
                       }
               );
             }

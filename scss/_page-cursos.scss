@@ -38,23 +38,22 @@
     .tabPanel {
       ul{
         display: flex;
-        justify-content: space-between;
         flex-wrap: wrap;
-        margin-right: -1rem;
+        margin-right: -2rem;
 
-        li{
+        a{
           height: 7rem;
-          max-width: 28%;
+          max-width: 41%;
           background-image: linear-gradient(transparent, $azulRegular);
           color: white;
           vertical-align: baseline;
           padding: 1rem;
-          flex: 1 0 28%;
+          flex: 1 0 41%;
           margin-right: 1rem;
           margin-bottom: 2rem;
           position: relative;
 
-          div{
+          li{
             bottom: .5rem;
             position: absolute;
 
@@ -67,12 +66,34 @@
               line-height: 1.5rem;
             }
           }
+
+          &:hover{
+            background-image: linear-gradient(transparent, $azulMedio);
+
+            h3{ 
+              text-decoration: underline $laranjaRegular;
+              text-underline-position: under;
+            }
+          }
         }
       }
     }
   }
 
-  @media(min-width: 992px){
 
+  @media(min-width: 992px){
+    #abas{
+
+      .tabPanel{
+        ul{
+
+          a{
+            max-width: 28%;
+            flex: 1 0 28%;
+
+          }
+        }
+      }
+    }
   }
 }
