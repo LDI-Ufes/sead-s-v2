@@ -1,7 +1,7 @@
 @import 'variaveis';
 
 #ultimos-editais{
-  background-color: $azulExtraClaro;
+  background-image: url('./img/pattern.png'),linear-gradient($azulExtraClaro,$azulExtraClaro);
   padding: 1.5rem;  
 
   .box-title{
