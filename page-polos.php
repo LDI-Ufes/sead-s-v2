@@ -42,6 +42,7 @@
       $(".municipioTitulo").click( function(){
         $('li').not($(this).parent()).removeClass('expandido');
         $(this).parent().toggleClass('expandido');
+        $('html, body').animate({ scrollTop: $(this).offset().top-280 }, 800);
       });}
     );
   });
@@ -50,7 +51,7 @@
     var idt = '#' + municipio;
     $('li').not( idt ).removeClass('expandido');
     $('li'+idt).toggleClass('expandido');
-    $('html, body').animate({ scrollTop: $("li"+idt).offset().top-50 }, 800);
+    $('html, body').animate({ scrollTop: $("li"+idt).offset().top-280 }, 800);
   };
 
 </script>
