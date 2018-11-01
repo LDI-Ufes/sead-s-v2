@@ -34,19 +34,20 @@
     li {
       margin-bottom: 7rem;
 
-      h2 {
+      div {
         position: relative;
         font-weight: $semi-bold;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         color: $laranjaRegular;
         margin-bottom: 0;
+        text-align: right;
 
         span {
           background-color: #fff;
-          padding-right: 15px;
+          padding-left: 15px;
           position: relative;
         }
-
+        
         &:before {
           content: "";
           display: block;
@@ -62,8 +63,11 @@
         }
       }
 
-      p {
-        max-width: unset;
+      h2 {
+        font-weight: $light;
+        color: $laranjaRegular;
+        font-size: 1.6rem;
+        margin: 1rem 0 1.2rem;
       }
 
       .imagens {
@@ -73,11 +77,12 @@
           display: flex;
           flex-wrap: wrap;
           max-width: unset;
+          margin: 0;
 
           a {
-            margin: 1rem 0;
             height: 10rem;
             flex-grow: 1;
+            margin-bottom: 1rem;
             margin-right: 1rem;
             display: none;
 

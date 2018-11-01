@@ -63,8 +63,7 @@ function create_post_type() {
       'menu_icon' => 'dashicons-images-alt',
       'supports' => array( 
         'title', 
-        'editor',
-        'excerpt'
+        'editor'
       ),
       'rewrite' => array(
         'slug' => 'galeria',
@@ -113,7 +112,7 @@ add_action('init', 'create_galeria_tax');
 function create_galeria_tax() {
     register_taxonomy(
         'ano-evento', 'galeria', array(
-        'label' => __('Ano'),
+        'label' => __('Ano do evento'),
         'rewrite' => array('slug' => 'ano'),
         'hierarchical' => true,
             )

@@ -508,7 +508,7 @@ footer {
           font-size: 2rem;
           line-height: 1.5; }
   #inicio #ultimos-editais {
-    background-color: #edf9ff;
+    background-image: url("./img/pattern.png"), linear-gradient(#edf9ff, #edf9ff);
     padding: 1.5rem; }
     #inicio #ultimos-editais .box-title {
       font-style: italic;
@@ -614,8 +614,9 @@ footer {
           color: white;
           font-weight: 700;
           font-size: 1.2rem;
-          line-height: 1.7;
-          margin: 0; }
+          line-height: 1.5;
+          margin: 0;
+          padding-top: .25rem; }
         #inicio #quer-ser .container #quer-ser-titulo .box-titulo {
           position: absolute;
           left: 0;
@@ -658,15 +659,16 @@ footer {
             font-weight: 700;
             background-color: white;
             width: 4rem;
-            line-height: 1.4;
+            line-height: 1.5;
             border-radius: 2rem;
             text-align: center; }
           #inicio #quer-ser .container #quer-ser-itens li .instrucao {
             width: 180px;
-            vertical-align: bottom;
+            vertical-align: sub;
             margin-left: 0.5rem;
             display: inline-block;
-            line-height: 1.7; }
+            line-height: 1.5;
+            padding-top: .25rem; }
             #inicio #quer-ser .container #quer-ser-itens li .instrucao:hover {
               text-decoration: underline;
               cursor: pointer; }
@@ -932,7 +934,7 @@ footer {
   $laranjaClaro: #FDA65B;
   $laranjaEscuro: #9C4C22;*/ }
   #page-blog #ultimos-editais {
-    background-color: #edf9ff;
+    background-image: url("./img/pattern.png"), linear-gradient(#edf9ff, #edf9ff);
     padding: 1.5rem; }
     #page-blog #ultimos-editais .box-title {
       font-style: italic;
@@ -1468,17 +1470,18 @@ footer {
           }
         }
       }*/ }
-    #page-galeria #eventos li h2 {
+    #page-galeria #eventos li div {
       position: relative;
       font-weight: 600;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       color: #f06c00;
-      margin-bottom: 0; }
-      #page-galeria #eventos li h2 span {
+      margin-bottom: 0;
+      text-align: right; }
+      #page-galeria #eventos li div span {
         background-color: #fff;
-        padding-right: 15px;
+        padding-left: 15px;
         position: relative; }
-      #page-galeria #eventos li h2:before {
+      #page-galeria #eventos li div:before {
         content: "";
         display: block;
         vertical-align: middle;
@@ -1490,18 +1493,22 @@ footer {
         top: 50%;
         left: 0;
         z-index: -1; }
-    #page-galeria #eventos li p {
-      max-width: unset; }
+    #page-galeria #eventos li h2 {
+      font-weight: 300;
+      color: #f06c00;
+      font-size: 1.6rem;
+      margin: 1rem 0 1.2rem; }
     #page-galeria #eventos li .imagens {
       margin-right: -1rem; }
       #page-galeria #eventos li .imagens p {
         display: flex;
         flex-wrap: wrap;
-        max-width: unset; }
+        max-width: unset;
+        margin: 0; }
         #page-galeria #eventos li .imagens p a {
-          margin: 1rem 0;
           height: 10rem;
           flex-grow: 1;
+          margin-bottom: 1rem;
           margin-right: 1rem;
           display: none; }
           #page-galeria #eventos li .imagens p a:nth-child(-n + 4) {
