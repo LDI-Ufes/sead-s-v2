@@ -67,5 +67,11 @@
 <script src="https://unpkg.com/focus-visible@latest/dist/focus-visible.min.js"></script>
 
 <?php wp_footer(); ?>
+
+<script>
+  // Todas as tags meta e link para dentro tag head
+  $('meta').appendTo('head');
+  $('link').appendTo('head');
+</script>
 </body>
 </html>
