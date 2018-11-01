@@ -68,10 +68,5 @@
 
 <?php wp_footer(); ?>
 
-<script>
-  // Todas as tags meta e link para dentro tag head
-  $('meta').appendTo('head');
-  $('link').appendTo('head');
-</script>
 </body>
 </html>

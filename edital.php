@@ -1,5 +1,3 @@
-<?php get_header('principal'); ?>
-
 <main id="edital" class='container page'>
   <!--Inserir conteúdo-->
   <section class="breadcrumb">Você está em: <a href="/sitiosead/editais">Editais</a><i class="fas fa-greater-than"></i><span><?php the_title(); ?></span></section>
@@ -28,5 +26,3 @@
   </section>
 
 </main>
-
-<?php get_footer(); ?>

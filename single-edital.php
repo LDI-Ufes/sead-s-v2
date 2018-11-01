@@ -1,9 +1,4 @@
-<?php
-/**
- * The template for displaying all single posts and attachments
- */
- 
-//get_header(); ?>
+<?php get_header('principal'); ?>
  
     <div id="primary" class="content-area">
  
@@ -18,4 +13,4 @@
  
     </div><!-- .content-area -->
  
-<?php // get_footer(); ?>
+<?php  get_footer(); ?>

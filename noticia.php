@@ -1,5 +1,3 @@
-<?php get_header('blog'); ?>
-
 <main id="noticia">
   <div class="post-capa" style="background-image: linear-gradient(#043166, transparent), url('<?php echo get_the_post_thumbnail_url(); ?>');">
   </div>
@@ -31,5 +29,3 @@
 
   </article>
 </main>
-
-<?php get_footer(); ?>
