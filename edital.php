@@ -6,12 +6,12 @@
   <h1>Edital <?php the_title(); ?></h1>
 
   <section id="informacoes">
-    <div style="background:red">
+    <div>
       <em>Curso: </em><?php echo strip_tags(get_the_term_list($post->ID, 'curso')); ?><br>
       <em>Formação/nível: </em><?php echo strip_tags(get_the_term_list($post->ID, 'tipo-de-curso')); ?><br>
       <em>Atribuição: </em><?php echo strip_tags(get_the_term_list($post->ID, 'atribuicao')); ?><br>
     </div>
-    <div id="descricao" style="background:gray">
+    <div id="descricao">
       <em>Descrição: </em><?php the_excerpt(); ?><br>
     </div>
   </section>

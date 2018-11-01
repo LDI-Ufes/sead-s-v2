@@ -98,10 +98,10 @@
           }
         }
 
-        &#limpar{ 
-          background-color: $azulRegular; 
+        &#limpar{
+          background-color: $azulRegular;
 
-          button{ 
+          button{
             text-align: center;
             font-weight: $regular;
             text-transform: uppercase;
@@ -123,6 +123,8 @@
     }
 
     li {
+      display: flex;
+      flex-direction: column;
       border-top: 1px solid $azulClaro;
       position: relative;
       margin-bottom: 1.2rem;
@@ -139,7 +141,7 @@
       }
 
       p {
-        margin: 0.3rem 0;
+        margin: 0.3rem 0 !important;
       }
 
       .atribuicao {
@@ -171,7 +173,7 @@
           }
 
           &#ano{ width: calc(15% - 1rem) }
-          
+
           &#atribuicoes,
           &#tipo-de-curso{
             width: calc(27.5% - 1rem);
@@ -222,6 +224,7 @@
       }
 
       li {
+        flex-direction: row;
         margin-bottom: 0;
 
         p,
