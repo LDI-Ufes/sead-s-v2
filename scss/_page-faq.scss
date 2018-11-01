@@ -7,13 +7,16 @@
       button {
         background: none;
         border: none;
-        width: 100%;
         text-align: left;
 
-        &:hover > h2{
-          border-bottom: 2px solid $laranjaRegular;
+        &:hover {
+          cursor: pointer;
+
+          > h2 {
+            border-bottom: 2px solid $laranjaRegular;
+          }
         }
-        
+
         &:before {
           content: "\f067";
           font-family: "Font Awesome 5 Free";
@@ -22,7 +25,7 @@
           padding-right: 0.6rem;
           font-weight: $bold;
         }
-        
+
         h2 {
           color: black;
           font-size: 1.2rem;
@@ -33,10 +36,13 @@
         }
 
         &.ativo {
-          
-          &:before { content: "\f068"; }
-          
-          h2 { font-weight: $bold; }
+          &:before {
+            content: "\f068";
+          }
+
+          h2 {
+            font-weight: $bold;
+          }
         }
       }
 

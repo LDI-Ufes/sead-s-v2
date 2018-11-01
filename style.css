@@ -1954,7 +1954,8 @@ footer {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        width: 2rem; }
+        width: 2rem;
+        cursor: pointer; }
         #ead-na-ufes #slider ul button:before {
           font-family: "Font Awesome 5 Free";
           font-weight: 600;
@@ -2016,8 +2017,9 @@ footer {
       #ead-na-ufes #agentes li button {
         background: none;
         border: none;
-        padding: .5rem;
-        margin-left: -.5rem; }
+        padding: 0.5rem;
+        margin-left: -0.5rem;
+        cursor: pointer; }
         #ead-na-ufes #agentes li button h3 {
           margin: 0;
           padding: 0;
@@ -2028,7 +2030,8 @@ footer {
           font-size: 1rem;
           padding-right: 0.6rem;
           font-weight: 700;
-          color: #f06c00; }
+          color: #f06c00;
+          cursor: pointer; }
         #ead-na-ufes #agentes li button.expandido-botao:before {
           content: "\f068"; }
         #ead-na-ufes #agentes li button:hover:before {
@@ -2193,10 +2196,11 @@ footer {
       #faq ul li button {
         background: none;
         border: none;
-        width: 100%;
         text-align: left; }
-        #faq ul li button:hover > h2 {
-          border-bottom: 2px solid #f06c00; }
+        #faq ul li button:hover {
+          cursor: pointer; }
+          #faq ul li button:hover > h2 {
+            border-bottom: 2px solid #f06c00; }
         #faq ul li button:before {
           content: "\f067";
           font-family: "Font Awesome 5 Free";

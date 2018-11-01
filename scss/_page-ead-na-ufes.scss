@@ -23,6 +23,7 @@
         top: 50%;
         transform: translateY(-50%);
         width: 2rem;
+        cursor: pointer;
 
         &:before {
           font-family: "Font Awesome 5 Free";
@@ -115,13 +116,14 @@
       max-width: 720px;
       margin: 0 auto;
 
-      button{
+      button {
         background: none;
         border: none;
-        padding: .5rem;
-        margin-left: -.5rem;
+        padding: 0.5rem;
+        margin-left: -0.5rem;
+        cursor: pointer;
 
-        h3{
+        h3 {
           margin: 0;
           padding: 0;
           display: inline-block;
@@ -134,14 +136,19 @@
           padding-right: 0.6rem;
           font-weight: $bold;
           color: $laranjaRegular;
+          cursor: pointer;
         }
 
-        &.expandido-botao:before { content: "\f068"; }
+        &.expandido-botao:before {
+          content: "\f068";
+        }
 
-        &:hover{
-          &:before{ color: $laranjaMedio; }
+        &:hover {
+          &:before {
+            color: $laranjaMedio;
+          }
 
-          h3{
+          h3 {
             color: $laranjaMedio;
             text-decoration: underline;
             text-underline-position: under;
@@ -174,7 +181,7 @@
             font-size: 5rem;
           }
 
-          &:hover:before{
+          &:hover:before {
             font-size: 5.5rem;
             color: $azulMedio;
           }
