@@ -1,0 +1,255 @@
+.curso{
+  padding-bottom: 0;
+
+  .destaque {
+    @include destaque($azulEscuro, url("./img/video-destaque.png"));
+    min-height: 35vh;
+    border-bottom: solid 20px $laranjaRegular;
+
+    .titulo span{
+      font-size: 1.5rem;
+      font-weight: $bold;
+      line-height: 0rem;
+    }
+  }
+
+  #info-curso{
+    background-color: $azulEscuro;
+    color: white;
+    padding: 1.5rem;
+    margin: 2rem 0;
+
+    p{
+      max-width: unset;
+      margin: 0;
+    }
+  }
+
+  #menu{
+    border-top: solid 5px $azulEscuro;
+    position: relative;
+
+    aside{
+      position: sticky;
+      display: inline-block;
+      padding: 1rem .2rem;
+      color: $azulEscuro;
+      font-weight: $light;
+      top: 0;
+
+      li{
+        margin: .2rem;
+      }
+
+      #contato{
+        margin: 1.5rem 0;
+
+        span{
+          display: block;
+          color: $azulEscuro;
+          font-weight: $bold;
+          border-bottom: solid 1px $laranjaRegular;
+          margin-bottom: .5rem;
+        }
+      }
+
+      a{
+        @extend %botao;
+      }
+    }
+
+    #conteudo{
+      display: inline-block;
+      vertical-align: top;
+      width: 720px;
+      
+      height: 1000px; // temporário para teste do posicionamento do menu
+      
+      h2{
+        font-weight: $light;
+      }
+    }
+  }
+
+  #faq-curso {
+    background-color: $azulExtraClaro;
+    padding: 1rem 0;
+
+    h2{
+      color: $azulEscuro;
+      font-style: italic;
+      font-weight: $light;
+      font-weight: $medium;
+      margin: 0 0 2rem;
+    }
+
+    ul {
+      li {
+        max-width: unset;
+        margin: .5rem 0;
+        background: white; 
+
+        button {
+          background: none;
+          border: none;
+          text-align: left;
+          padding: .5rem 1rem;
+          width: 100%;
+
+          &:hover {
+            cursor: pointer;
+
+            > h3 {
+              border-bottom: 2px solid $azulEscuro;
+            }
+          }
+
+          &:before {
+            content: "\f067";
+            font-family: "Font Awesome 5 Free";
+            color: $azulRegular;
+            font-size: 1rem;
+            padding-right: 0.6rem;
+            font-weight: $bold;
+          }
+
+          h3 {
+            color: black;
+            font-size: 1.2rem;
+            padding: 0;
+            margin: 0;
+            font-weight: $regular;
+            display: inline;
+          }
+
+          &.ativo {
+            &:before {
+              content: "\f068";
+            }
+
+            h3 {
+              font-weight: $bold;
+            }
+          }
+        }
+
+        p {
+          display: none;
+          max-width: unset;
+          padding: 1rem 1.5rem;
+          margin: 0;
+
+          &.expandido {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+
+  #noticias {
+    background-color: $azulClaro;
+    padding: 1rem 0;
+
+    h2{
+      color: $azulEscuro;
+      font-weight: $bold;
+      font-size: 1.6rem;
+      margin: 0 0 2rem;
+    }
+
+    div.flex{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .noticia {
+        border-top: solid 3px $laranjaRegular;
+        position: relative;
+        height: 10rem;
+        margin-bottom: 1rem;
+
+        &:after {
+          content: "";
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          height: 100%;
+          opacity: .9;
+          background-image: linear-gradient(transparent, $azulEscuro);
+        }
+
+        img {
+          width: 100%;
+          object-fit: cover;
+          height: 10rem;
+          margin-bottom: -0.3rem;
+        }
+
+        h3 {
+          color: white;
+          position: absolute;
+          bottom: 0;
+          z-index: 1;
+          padding: 0;
+          max-width: calc(100% - 2rem);
+          font-weight: normal;
+          font-size: 1.2rem;
+          line-height: 1.4;
+          margin-left: 1rem;
+        }
+
+        &:hover{
+          &:after{ opacity: 1; }
+
+          h3{ 
+            text-decoration: underline #f06c00;
+            text-underline-position: under;
+          }
+        }
+      }
+    } /* noticia */
+  } /* #noticias */
+
+  @media (min-width: 992px){
+
+    #objetivo{
+      font-size: 1.5rem;
+      line-height: 1.6;
+      max-width: unset;
+    }
+
+    #info-curso{
+      background-color: $azulEscuro;
+      color: white;
+      padding: 1.5rem;
+
+      div{
+        width: 40%;
+        display: inline-block;
+
+        &#situacao{
+          width: 60%;
+          float: right;
+        }
+      }
+    }
+
+    #noticias {
+
+      div.flex{
+        flex-wrap: nowrap;
+        margin-right: -1rem;
+      }
+
+      .noticia {
+        flex: 1 1 0;
+        margin-right: 1rem;
+        margin-bottom: 0;
+      }
+    }
+
+  }
+}

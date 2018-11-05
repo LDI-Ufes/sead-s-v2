@@ -14,7 +14,7 @@
     </ul>
     <div>
       <ul>
-        <a href=""><li><h3>Artes Visuais</h3>Licenciatura</li></a>
+        <a href="<?php echo site_url(); ?>/cursos/artes-visuais"><li><h3>Artes Visuais</h3>Licenciatura</li></a>
         <a href=""><li><h3>Biologia</h3>Licenciatura</li></a>
         <a href=""><li><h3>Filosofia</h3>Licenciatura</li></a>
         <a href=""><li><h3>Física</h3>Licenciatura</li></a>
