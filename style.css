@@ -1336,6 +1336,8 @@ footer {
   #page-editais #editais .titulos {
     display: none; }
   #page-editais #editais li {
+    display: flex;
+    flex-direction: column;
     border-top: 1px solid #cfeaff;
     position: relative;
     margin-bottom: 1.2rem; }
@@ -1347,7 +1349,7 @@ footer {
         border-bottom: solid 1.5px #c75000;
         color: #c75000; }
     #page-editais #editais li p {
-      margin: 0.3rem 0; }
+      margin: 0.3rem 0 !important; }
     #page-editais #editais li .atribuicao {
       font-weight: 400; }
 @media screen and (min-width: 992px) {
@@ -1396,6 +1398,7 @@ footer {
       #page-editais #editais .titulos span:nth-of-type(4) {
         width: 35%; }
   #page-editais #editais li {
+    flex-direction: row;
     margin-bottom: 0; }
     #page-editais #editais li p,
     #page-editais #editais li h3 {
@@ -1541,14 +1544,19 @@ footer {
   padding-bottom: 6rem !important;
   /* secao-edital */
   /* media */ }
-  #edital #informacoes em {
-    color: #c75000;
-    font-style: normal;
-    font-weight: 700; }
-  #edital #informacoes div#descricao {
-    padding-top: 1.2rem; }
-    #edital #informacoes div#descricao p {
-      display: inline; }
+  #edital #informacoes {
+    display: inline-block;
+    width: 100%; }
+    #edital #informacoes > div {
+      float: left; }
+    #edital #informacoes em {
+      color: #c75000;
+      font-style: normal;
+      font-weight: 700; }
+    #edital #informacoes div#descricao {
+      padding-top: 1.2rem; }
+      #edital #informacoes div#descricao p {
+        display: inline; }
   #edital .secao-edital {
     border-top: solid 2px #cfeaff;
     margin-top: 4rem;

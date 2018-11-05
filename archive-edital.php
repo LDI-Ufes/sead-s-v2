@@ -7,7 +7,6 @@
   <div id="filtros">
 
     <div id="aplicados">
-
     </div>
 
     <div id="seletores">
@@ -24,14 +23,14 @@
                   ));
 
           foreach ($anos as $ano) {
-            echo '<li>'
+              echo '<li>'
             . '<input class="filtro" type="checkbox" id="filter-' . $ano->name . '" data-type="ano" data-id="' . $ano->name . '" /><label for="filter-' . $ano->name . '">' . $ano->name . '</label></li>';
           }
-          ?>   
+          ?>
         </ul>
-      </div><!--
-      
-      --><div id="atribuicoes" class="seletor" data-tipo='atribuicao'>
+      </div>
+
+      <div id="atribuicoes" class="seletor" data-tipo='atribuicao'>
         <button class="exibe-filtros">Atribuição</button>
         <ul>
           <?php
@@ -42,14 +41,14 @@
                   ));
 
           foreach ($atribuicoes as $atribuicao) {
-            echo '<li>'
+              echo '<li>'
             . '<input class="filtro" type="checkbox" id="filter-' . $atribuicao->name . '" data-type="atribuicao" data-id="' . $atribuicao->name . '" /><label for="filter-' . $atribuicao->name . '">' . $atribuicao->name . '</label></li>';
           }
-          ?>   
+          ?>
         </ul>
-      </div><!--
+      </div>
 
-      --><div id="tipo-de-curso" class="seletor" data-tipo='tipo-de-curso'>
+      <div id="tipo-de-curso" class="seletor" data-tipo='tipo-de-curso'>
         <button class="exibe-filtros">Tipo de curso</button>
         <ul>
           <?php
@@ -60,14 +59,14 @@
                   ));
 
           foreach ($tipos as $tipo) {
-            echo '<li>'
+              echo '<li>'
             . '<input class="filtro" type="checkbox" id="filter-' . $tipo->name . '" data-type="formacao" data-id="' . $tipo->name . '" /><label for="filter-' . $tipo->name . '">' . $tipo->name . '</label></li>';
           }
-          ?> 
+          ?>
         </ul>
-      </div><!--
+      </div>
 
-      --><div id="cursos" class="seletor" data-tipo='curso'>
+      <div id="cursos" class="seletor" data-tipo='curso'>
         <button class="exibe-filtros">Curso</button>
         <ul>
           <?php
@@ -78,7 +77,7 @@
                   ));
 
           foreach ($cursos as $curso) {
-            echo '<li>'
+              echo '<li>'
             . '<input class="filtro" type="checkbox" id="filter-' . $curso->name . '" data-type="curso" data-id="' . $curso->name . '" /><label for="filter-' . $curso->name . '">' . $curso->name . '</label></li>';
           }
           ?>
@@ -99,16 +98,16 @@
 
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
         <li class="edital edital-item" data-curso="<?php echo strip_tags(get_the_term_list($post->ID, 'curso')); ?>" data-atribuicao="<?php echo strip_tags(get_the_term_list($post->ID, 'atribuicao')); ?>" data-formacao="<?php echo strip_tags(get_the_term_list($post->ID, 'tipo-de-curso')); ?>" data-ano="<?php echo strip_tags(get_the_term_list($post->ID, 'ano')); ?>">
-          <h3><a href="<?php the_permalink() ?>"><span>Edital </span><?php the_title(); ?></a></h3><!--
-          --><p class="atribuicao"><?php echo strip_tags(get_the_term_list($post->ID, 'atribuicao')); ?></p><!--
-          --><p class="tipo-de-curso"><?php echo strip_tags(get_the_term_list($post->ID, 'tipo-de-curso')); ?></p><!--
-          --><p class="curso"><?php echo strip_tags(get_the_term_list($post->ID, 'curso')); ?></p>
+          <h3><a href="<?php the_permalink() ?>"><span>Edital </span><?php the_title(); ?></a></h3>
+          <p class="atribuicao"><?php echo strip_tags(get_the_term_list($post->ID, 'atribuicao')); ?></p>
+          <p class="tipo-de-curso"><?php echo strip_tags(get_the_term_list($post->ID, 'tipo-de-curso')); ?></p>
+          <p class="curso"><?php echo strip_tags(get_the_term_list($post->ID, 'curso')); ?></p>
         </li>
       <?php endwhile; ?>
 
     </ul>
 
-    <div id="paginacao">  
+    <div id="paginacao">
       <?php
       the_posts_pagination(array(
           'prev_text' => __('<', 'textdomain'),
@@ -141,7 +140,7 @@
       $(this).text("Exibir filtros");
   });
 
-//Eduardo
+  // Filtro
 
   $(".filtro").on("click", () => atualizaSelecao());
 
@@ -160,7 +159,7 @@
   const criaTag = (seletor, texto) => {
     $("#aplicados").append(
             $(`<div class="seletores excluir-filtro" data-seletor="${seletor}">
-        <a class="removeTag" href="#">${texto}<i class="fas fa-times"></i></a>   
+        <a class="removeTag" href="#">${texto}<i class="fas fa-times"></i></a>
       </div>`)
             );
 

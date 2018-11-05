@@ -4,6 +4,13 @@
   padding-bottom: 6rem !important;
 
   #informacoes {
+    display: inline-block;
+    width: 100%;
+
+    > div {
+      float: left;
+    }
+
     em {
       color: $laranjaMedio;
       font-style: normal;
