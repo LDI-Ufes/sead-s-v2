@@ -63,7 +63,7 @@
 
 <script>
   $('.abrirTodas').click(function () {
-    $(this).siblings().find('a:nth-of-type(n+5)').toggleClass("visivel");
+    $(this).siblings().find('a:nth-of-type(n+5)').slideToggle('fast').toggleClass("visivel");
 
     if ($(this).text() === "Abrir todas")
       $(this).text("Mostrar menos");

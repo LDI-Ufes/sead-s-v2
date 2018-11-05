@@ -45,8 +45,9 @@
 <script>
   $('button').click(function () {
     $(this).toggleClass('ativo');
-    $(this).siblings().toggleClass('expandido');
+    $(this).siblings().slideToggle().toggleClass('expandido');
+    $('button').not($(this)).removeClass('ativo').siblings().slideUp();
   });
 
-
 </script>
+

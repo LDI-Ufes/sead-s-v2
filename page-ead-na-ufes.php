@@ -90,7 +90,8 @@ $('.seta-prev').click(function(){
 
   $('#agentes button').click(function () {
     $(this).toggleClass('expandido-botao');
-    $(this).siblings().toggleClass('expandido-texto');
+    $(this).siblings().slideToggle().toggleClass('expandido-texto');
+    $('#agentes button').not($(this)).removeClass('expandido-botao').siblings().slideUp();
   });
 
 </script>

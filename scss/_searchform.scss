@@ -51,6 +51,7 @@
 
     @media screen and (max-width: 992px) {
       margin: 17.5px auto;
+      padding: 0 1rem;
     }
 
     input,
@@ -99,6 +100,10 @@
     .botaoSubmissao {
       position: absolute;
       left: calc(100% - 40px);
+      
+      @media screen and (max-width: 992px) {
+        left: calc(100% - 40px - 1rem);
+      }
     }
 
     .botaoFalso {
