@@ -23,7 +23,7 @@
           max-height: 250px;
 
           span {
-            background-color: $azulMedio;
+            background-color: $azulEscuro;
             color: white;
             text-transform: uppercase;
             position: absolute;
@@ -70,14 +70,13 @@
       }
 
       h3 {
-        color: $azulMedio;
+        color: $azulEscuro;
         font-weight: $semi-bold;
         font-size: 1.3rem;
         margin: 1.5rem;
 
         a:hover {
-          color: $azulEscuro;
-          border-bottom: solid 1px $azulEscuro;
+          border-bottom: solid .5px $laranjaRegular;
         }
       }
 
@@ -151,7 +150,7 @@
       input {
         margin-top: 1rem;
         font-family: "Fira Sans", sans-serif !important;
-        border: solid 1px $azulMedio;
+        border: solid 1px $azulEscuro;
 
         &[type="email"] {
           height: 1.5rem;
@@ -161,11 +160,10 @@
         }
 
         &[type="submit"] {
-          background-color: $azulMedio;
+          background-color: $azulEscuro;
           text-transform: uppercase;
           color: white;
           font-size: 0.8rem;
-          padding: 0.35rem;
           width: 70px;
         }
       }

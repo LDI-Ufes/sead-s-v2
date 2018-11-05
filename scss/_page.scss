@@ -22,18 +22,17 @@
     margin: 1.5rem 0;
 
     a{
-      color: $azulMedio;
+      color: $azulEscuro;
       font-weight: $medium;
 
       &:hover {
-        color: $azulEscuro;
         text-decoration: underline;
         font-weight: $bold;
       }
     }
     
     strong{
-      color: $azulMedio;
+      color: $azulEscuro;
       font-weight: $medium;
     }
 

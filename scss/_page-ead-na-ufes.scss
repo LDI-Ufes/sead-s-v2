@@ -1,6 +1,6 @@
 #ead-na-ufes {
   .destaque {
-    @include destaque($azulMedio, url("./img/video-destaque.png"));
+    @include destaque($azulEscuro, url("./img/video-destaque.png"));
   }
 
   .breadcrumb {
@@ -183,7 +183,7 @@
 
           &:hover:before {
             font-size: 5.5rem;
-            color: $azulMedio;
+            color: $azulEscuro;
           }
         }
 

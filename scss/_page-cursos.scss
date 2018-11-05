@@ -68,7 +68,7 @@
           }
 
           &:hover{
-            background-image: linear-gradient(transparent, $azulMedio);
+            background-image: linear-gradient(transparent, darken($azulRegular, 10));
 
             h3{ 
               text-decoration: underline $laranjaRegular;
