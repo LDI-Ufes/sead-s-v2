@@ -27,12 +27,43 @@ footer {
         }
       }
 
+      p {
+        margin: 0;
+      }
+
       a:hover {
         border-bottom: solid 0.5px $laranjaRegular;
       }
 
       .subitens {
         margin-left: 1rem;
+      }
+
+      .enderecoLink {
+        display: flex;
+        flex-direction: column;
+        margin-top: .25em;
+
+        > span {
+          display: inline-flex;
+
+          &:first-child {
+            margin-bottom: .25em;
+          }
+
+          a {
+            display: inline-flex;
+          }
+
+          img {
+            margin-right: .5em;
+            width: 22px;
+          }
+        }
+      }
+
+      .fb_iframe_widget {
+        margin-top: 1.5rem;
       }
     }
   }

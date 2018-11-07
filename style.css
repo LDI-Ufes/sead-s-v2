@@ -423,10 +423,27 @@ footer {
           background-color: #f06c00;
           width: 100%;
           margin-top: 0.4rem; }
+      footer .content section p {
+        margin: 0; }
       footer .content section a:hover {
         border-bottom: solid 0.5px #f06c00; }
       footer .content section .subitens {
         margin-left: 1rem; }
+      footer .content section .enderecoLink {
+        display: flex;
+        flex-direction: column;
+        margin-top: .25em; }
+        footer .content section .enderecoLink > span {
+          display: inline-flex; }
+          footer .content section .enderecoLink > span:first-child {
+            margin-bottom: .25em; }
+          footer .content section .enderecoLink > span a {
+            display: inline-flex; }
+          footer .content section .enderecoLink > span img {
+            margin-right: .5em;
+            width: 22px; }
+      footer .content section .fb_iframe_widget {
+        margin-top: 1.5rem; }
   footer .creditos {
     display: inline-flex;
     justify-content: center;
