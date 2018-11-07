@@ -95,6 +95,8 @@ section.caixa {
     fill: #cfeaff; }
   .mapaES #comPolos a:hover .geografia {
     fill: #ffa161; }
+  .mapaES #comPolos a .geografia.selecionado {
+    fill: #ffa161; }
 
 *:focus {
   outline: none; }
