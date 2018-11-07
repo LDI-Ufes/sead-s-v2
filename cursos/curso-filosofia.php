@@ -37,32 +37,42 @@
 
       <aside>
         <ul>
-          <li>O curso</li>
-          <li>Matriz curricular</li>
-          <li>Corpo docente</li>
-          <li>Perfil do egresso</li>
-          <li>PPC</li>
-          <li>Guia do aluno</li>
+          <li><a href="#o-curso">O curso</a></li>
+          <li><a href="#matriz-curricular">Matriz curricular</a></li>
+          <li><a href="#corpo-docente">Corpo docente</a></li>
+          <li><a href="#perfil-do-egresso">Perfil do egresso</a></li>
+          <li><a href="#ofertas-anteriores">Ofertas anteriores</a></li>
+          <a>PPC</a>
+          <a>Guia do aluno</a>
         </ul>
 
-        <div id="contato">
-          <span>Contato</span>
-          filspsi2017@gmail.com<br>
-          (027) 3333-3333
-        </div>
+        <span>Contato</span>
+        filspsi2017@gmail.com<br>
+        (027) 3333-3333
 
-        <a href="" title="Voltar ao topo">Voltar ao topo</a>
+        <a href="" title="Voltar ao topo" id="voltar-ao-topo">Voltar ao topo</a>
+        
       </aside> 
 
-      <div id="conteudo">
-        <div id="o-curso">
-          <h2>O curso</h2>
-        </div>
+      <div>
+        <h2 id="o-curso">O curso</h2>
+      </div>
 
-        <div id="matriz-curricular">
-          <h2>Matriz curricular</h2>
-        </div>
-      </div>    
+      <div>
+        <h2 id="matriz-curricular">Matriz curricular</h2>
+      </div>
+
+      <div>
+        <h2 id="corpo-docente">Corpo docente</h2>
+      </div>
+      
+      <div>
+        <h2 id="perfil-do-egresso">Perfil do egresso</h2>
+      </div>
+      
+      <div>
+        <h2 id="ofertas-anteriores">Ofertas anteriores</h2>
+      </div>
 
     </section>
 

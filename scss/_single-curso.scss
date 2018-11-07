@@ -37,39 +37,43 @@
       font-weight: $light;
       top: 0;
 
-      li{
+      li, a{
+        display: block;
         margin: .2rem;
       }
-
-      #contato{
-        margin: 1.5rem 0;
-
-        span{
-          display: block;
-          color: $azulEscuro;
-          font-weight: $bold;
-          border-bottom: solid 1px $laranjaRegular;
-          margin-bottom: .5rem;
-        }
+      
+      li.current{
+        font-weight: $bold;
+        font-style: italic;
       }
 
-      a{
+      span{
+        margin: 1.5rem 0;
+        display: block;
+        color: $azulEscuro;
+        font-weight: $bold;
+        border-bottom: solid 1px $laranjaRegular;
+        margin-bottom: .5rem;
+      }
+
+      #voltar-ao-topo{
         @extend %botao;
       }
     }
 
-    #conteudo{
+    div{
       display: inline-block;
       vertical-align: top;
       width: 720px;
-      
+
       height: 1000px; // temporário para teste do posicionamento do menu
-      
+
       h2{
         font-weight: $light;
       }
     }
   }
+
 
   #faq-curso {
     background-color: $azulExtraClaro;
