@@ -1109,24 +1109,31 @@ footer {
       font-size: 1.6rem;
       font-weight: 300;
       color: #f06c00; }
-    #page-blog #informativo form {
+    #page-blog #informativo form#sendgrid_mc_email_form {
       display: inline-flex;
-      width: 100%; }
-      #page-blog #informativo form input {
-        margin-top: 1rem;
+      margin-top: 1rem;
+      width: 100%;
+      padding: 0 !important; }
+      #page-blog #informativo form#sendgrid_mc_email_form input {
         font-family: "Fira Sans", sans-serif !important;
         border: solid 1px #043166; }
-        #page-blog #informativo form input[type="email"] {
+      #page-blog #informativo form#sendgrid_mc_email_form .sendgrid_mc_fields {
+        width: 100%;
+        padding: 0 !important; }
+        #page-blog #informativo form#sendgrid_mc_email_form .sendgrid_mc_fields .sendgrid_mc_label_div {
+          display: none; }
+        #page-blog #informativo form#sendgrid_mc_email_form .sendgrid_mc_fields .sendgrid_mc_input {
+          width: calc(100% - .5rem - 2px);
           height: 1.5rem;
-          background-color: #edf9ff;
-          padding-left: 0.5rem;
-          width: 100%; }
-        #page-blog #informativo form input[type="submit"] {
-          background-color: #043166;
-          text-transform: uppercase;
-          color: white;
-          font-size: 0.8rem;
-          width: 70px; }
+          padding-left: .5rem;
+          background-color: #edf9ff; }
+      #page-blog #informativo form#sendgrid_mc_email_form .sendgrid_mc_button {
+        margin: 0 !important;
+        height: 100%;
+        background-color: #043166;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        color: white; }
   #page-blog .social-media {
     background: linear-gradient(45deg, #043166, #1765ab);
     border: none;
@@ -1244,7 +1251,8 @@ footer {
         #page-blog #posts .blog-post a .blog-post-header .post-date {
           padding: 1rem;
           font-size: 1rem; }
-      #page-blog #posts .blog-post h3, #page-blog #posts .blog-post p {
+      #page-blog #posts .blog-post h3,
+      #page-blog #posts .blog-post p {
         margin: 1rem 0; }
       #page-blog #posts #postsNav {
         padding: 0 0 2rem; }
