@@ -27,9 +27,9 @@
   <section id="slider">
     <ul class="container">
       <button class="seta-prev">Anterior</button>
-      <li class="item ativo"><?php include 'svg/encontros-pres.svg' ?><div class="grupo"><h2 tabindex="0">Encontros presenciais</h2>O encontro presencial semanal obrigatório se dará com pequenos grupos de alunos e o tutor presencial nas salas e laboratórios em cada Polo UAB integrado ao curso.</div></li>
-      <li class="item"><?php include 'svg/encontros-pres.svg' ?><div class="grupo"><h2 tabindex="0">Momentos semipresenciais</h2>Os encontros semipresenciais entre alunos, tutores e professores especialistas ocorrerão no AVA e nas webconferências conforme planejamento do curso ou necessidade para esclarecimentos e aprofundamento de conteúdos.</div></li>
-      <li class="item"><?php include 'svg/encontros-pres.svg' ?><div class="grupo"><h2 tabindex="0">Ambiente Virtual de Aprendizagem</h2>A Plataforma Moodle trata-se de um sistema de gerenciamento de grupos de estudo, para dar suporte aos cursos oferecidos na modalidade a distância da Ufes, acompanhamento e ajuda ao aluno, executada no AVA e acessível via interface WEB.</div></li>
+      <li class="item ativo"><?php include 'svg/como-encontros-pres.svg' ?><div class="grupo"><h2 tabindex="0">Encontros presenciais</h2>O encontro presencial semanal obrigatório se dará com pequenos grupos de alunos e o tutor presencial nas salas e laboratórios em cada Polo UAB integrado ao curso.</div></li>
+      <li class="item"><?php include 'svg/como-momentos-semi.svg' ?><div class="grupo"><h2 tabindex="0">Momentos semipresenciais</h2>Os encontros semipresenciais entre alunos, tutores e professores especialistas ocorrerão no AVA e nas webconferências conforme planejamento do curso ou necessidade para esclarecimentos e aprofundamento de conteúdos.</div></li>
+      <li class="item"><?php include 'svg/como-ava.svg' ?><div class="grupo"><h2 tabindex="0">Ambiente Virtual de Aprendizagem</h2>A Plataforma Moodle trata-se de um sistema de gerenciamento de grupos de estudo, para dar suporte aos cursos oferecidos na modalidade a distância da Ufes, acompanhamento e ajuda ao aluno, executada no AVA e acessível via interface WEB.</div></li>
       <button class="seta-next">Próximo</button>
       <div class="dots">
         <ul aria-hidden="true">
