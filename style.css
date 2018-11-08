@@ -509,6 +509,7 @@ footer {
           line-height: 1.5; }
   #inicio #ultimos-editais {
     background-image: url("./img/pattern.png"), linear-gradient(#edf9ff, #edf9ff);
+    background-position: center;
     padding: 1.5rem; }
     #inicio #ultimos-editais .box-title {
       font-style: italic;
@@ -597,9 +598,11 @@ footer {
           height: 72px;
           width: auto; }
         #inicio #ead-na-ufes .topico-ead figure figcaption {
-          color: #c75000;
+          color: #f06c00;
+          font-size: 18px;
           text-transform: uppercase;
-          font-weight: 700; }
+          font-weight: 700;
+          margin-top: .5rem; }
   #inicio #quer-ser {
     margin: 2rem 0;
     /* container */ }
@@ -934,6 +937,7 @@ footer {
   $laranjaEscuro: #9C4C22;*/ }
   #page-blog #ultimos-editais {
     background-image: url("./img/pattern.png"), linear-gradient(#edf9ff, #edf9ff);
+    background-position: center;
     padding: 1.5rem; }
     #page-blog #ultimos-editais .box-title {
       font-style: italic;
@@ -1305,6 +1309,10 @@ footer {
         padding: 5px 10px;
         line-height: 1.8;
         padding-bottom: 1rem; }
+        #page-editais #filtros #seletores .seletor ul input[type="checkbox"]:hover + label {
+          color: #1765ab;
+          text-decoration: underline;
+          text-underline-position: under; }
         #page-editais #filtros #seletores .seletor ul input[type="checkbox"]:checked + label {
           color: #1765ab;
           font-weight: 400; }
@@ -1328,6 +1336,10 @@ footer {
           font-weight: 400;
           text-transform: uppercase;
           color: white; }
+        #page-editais #filtros #seletores .seletor#limpar:hover {
+          background-color: #114a7e; }
+      #page-editais #filtros #seletores .seletor:hover {
+        background-color: #edf9ff; }
 #page-editais #editais {
   width: 100%;
   font-weight: 300;
@@ -1380,7 +1392,8 @@ footer {
           border-top: none;
           width: calc(100% - 1.2rem - .5px);
           margin-left: -.5px;
-          padding-bottom: .5rem; }
+          padding-bottom: .5rem;
+          z-index: 1; }
   #page-editais #editais .titulos {
     display: block; }
     #page-editais #editais .titulos span {
@@ -1642,6 +1655,10 @@ footer {
         min-height: 35vh; }
         #secretaria .destaque .titulo {
           padding: 3rem 1rem; } }
+    #secretaria .destaque:hover {
+      background-image: linear-gradient(#d76100, transparent), url("./img/video-destaque.png"); }
+      #secretaria .destaque:hover .titulo .fas {
+        font-size: 5rem; }
   #secretaria #abas {
     position: relative;
     display: inline-flex;
@@ -1796,6 +1813,10 @@ footer {
         min-height: 35vh; }
         #ead-na-ufes .destaque .titulo {
           padding: 3rem 1rem; } }
+    #ead-na-ufes .destaque:hover {
+      background-image: linear-gradient(#03254d, transparent), url("./img/video-destaque.png"); }
+      #ead-na-ufes .destaque:hover .titulo .fas {
+        font-size: 5rem; }
   #ead-na-ufes .breadcrumb {
     margin-bottom: 4rem; }
   #ead-na-ufes #slider {
@@ -2005,7 +2026,7 @@ footer {
 #page-cursos #abas .tabsList {
   display: flex;
   justify-content: flex-start;
-  margin: 3rem auto;
+  margin: 3rem 0;
   color: #1765ab;
   border-bottom: 1px #1765ab solid; }
   #page-cursos #abas .tabsList li {
@@ -2025,17 +2046,17 @@ footer {
   margin-right: -2rem; }
   #page-cursos #abas .tabPanel ul a {
     height: 7rem;
-    max-width: 41%;
+    max-width: calc(100% - 4rem);
     background-image: linear-gradient(transparent, #1765ab);
     color: white;
     vertical-align: baseline;
     padding: 1rem;
-    flex: 1 0 41%;
+    flex: 1 0 100%;
     margin-right: 1rem;
     margin-bottom: 2rem;
     position: relative; }
     #page-cursos #abas .tabPanel ul a li {
-      bottom: .5rem;
+      bottom: 1rem;
       position: absolute; }
       #page-cursos #abas .tabPanel ul a li h3 {
         color: white;
@@ -2049,6 +2070,47 @@ footer {
       #page-cursos #abas .tabPanel ul a:hover h3 {
         text-decoration: underline #f06c00;
         text-underline-position: under; }
+    #page-cursos #abas .tabPanel ul a.inativo {
+      background-image: linear-gradient(transparent, gray);
+      cursor: default;
+      box-shadow: 0px -5px 0px #1765ab inset; }
+      #page-cursos #abas .tabPanel ul a.inativo span {
+        display: none; }
+      #page-cursos #abas .tabPanel ul a.inativo:hover {
+        background-image: linear-gradient(transparent, #676767); }
+        #page-cursos #abas .tabPanel ul a.inativo:hover h3 {
+          text-decoration: none; }
+        #page-cursos #abas .tabPanel ul a.inativo:hover span {
+          display: block;
+          border-radius: 5px;
+          position: absolute;
+          top: -3.5rem;
+          width: 315px;
+          background-color: white;
+          color: #1765ab;
+          border: #1765ab solid 1px;
+          padding: 3px 10px;
+          z-index: 1; }
+          #page-cursos #abas .tabPanel ul a.inativo:hover span:before {
+            content: '';
+            width: 0px;
+            height: 0px;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 10px solid #1765ab;
+            position: absolute;
+            top: 2.1rem;
+            left: 2rem; }
+          #page-cursos #abas .tabPanel ul a.inativo:hover span:after {
+            content: '';
+            width: 0px;
+            height: 0px;
+            border-left: 9px solid transparent;
+            border-right: 9px solid transparent;
+            border-top: 9px solid white;
+            position: absolute;
+            top: 2.1rem;
+            left: 2.1rem; }
 @media (min-width: 992px) {
   #page-cursos #abas .tabPanel ul a {
     max-width: 28%;
@@ -2065,7 +2127,7 @@ footer {
     background-size: cover;
     background-position: center;
     margin-top: 0;
-    min-height: 35vh;
+    min-height: 45vh;
     border-bottom: solid 20px #f06c00; }
     .curso .destaque .titulo {
       padding: 6rem 1rem;
@@ -2081,6 +2143,10 @@ footer {
         min-height: 35vh; }
         .curso .destaque .titulo {
           padding: 3rem 1rem; } }
+    .curso .destaque:hover {
+      background-image: linear-gradient(#03254d, transparent), url("./img/video-destaque.png"); }
+      .curso .destaque:hover .titulo .fas {
+        font-size: 5rem; }
     .curso .destaque .titulo span {
       font-size: 1.5rem;
       font-weight: 700;

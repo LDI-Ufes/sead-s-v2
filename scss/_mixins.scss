@@ -30,4 +30,14 @@
       padding: 3rem 1rem;
     }
   }
+
+  &:hover{
+    background-image: linear-gradient(darken($cor, 5), transparent), $url;
+
+    .titulo{
+      .fas {
+        font-size: 5rem;
+      }
+    }
+  }
 }

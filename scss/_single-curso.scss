@@ -3,7 +3,7 @@
 
   .destaque {
     @include destaque($azulEscuro, url("./img/video-destaque.png"));
-    min-height: 35vh;
+    min-height: 45vh;
     border-bottom: solid 20px $laranjaRegular;
 
     .titulo span{
