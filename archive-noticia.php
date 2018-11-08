@@ -8,7 +8,7 @@
              <a href="<?php the_permalink() ?>" title="Ir para notícia: <?php the_title(); ?>"><div class="blog-post-header">
               <span><?php echo strip_tags(get_the_term_list($post->ID, 'tag')); ?></span>
              <?php the_post_thumbnail(); ?>
-              <div class="post-date"><?php the_date('j \d\e F \d\e Y'); ?></div>
+              <div class="post-date"><?php echo get_the_date('j \d\e F \d\e Y'); ?></div>
                </div></a>
             <h3><a href="<?php the_permalink() ?>" title="Ir para notícia: <?php the_title(); ?>"><?php the_title(); ?></a></h3>
             <p><?php echo wp_trim_words( strip_shortcodes( get_the_content() ), 40, ' [...]'); ?></p>

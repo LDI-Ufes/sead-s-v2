@@ -40,7 +40,7 @@
     if ($eventos->have_posts()) : while ($eventos->have_posts()) : $eventos->the_post(); ?>
     
         <li id="evento-<?php the_ID(); ?>">
-          <div><span><?php the_date('j \d\e F \d\e Y'); ?></span></div>
+          <div><span><?php echo get_the_date('j \d\e F \d\e Y'); ?></span></div>
           <h2><?php the_title(); ?></h2>
 
           <ul class="imagens">
