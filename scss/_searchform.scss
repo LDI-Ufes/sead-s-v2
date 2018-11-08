@@ -100,7 +100,7 @@
     .botaoSubmissao {
       position: absolute;
       left: calc(100% - 40px);
-      
+
       @media screen and (max-width: 992px) {
         left: calc(100% - 40px - 1rem);
       }
@@ -117,7 +117,7 @@
     left: -9999px;
   }
 
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 576px) {
     .marca {
       position: absolute;
       left: -9999px;

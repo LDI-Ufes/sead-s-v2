@@ -2612,7 +2612,7 @@ footer {
 .formPesquisaAtivo .btoMenu {
   position: absolute;
   left: -9999px; }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 576px) {
   .formPesquisaAtivo .marca {
     position: absolute;
     left: -9999px; } }
