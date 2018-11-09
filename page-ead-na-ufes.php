@@ -5,6 +5,10 @@
   <a href="//www.youtube.com/watch?v=XSGBVzeBUbk" data-lity>
     <section class="destaque">
 
+      <video width="auto" height="100%" autoplay loop>
+        <source src="<?php echo get_template_directory_uri(); ?>/video/ead-na-ufes.mp4" type="video/mp4">
+      </video>
+
       <div class="titulo container">
         <h1>Como funciona <br> a EaD na Ufes?</h1>
         <i class="fas fa-play-circle"></i>
@@ -19,11 +23,11 @@
     <div>
       <p>A Secretaria de Ensino a Distância – Sead é a instância responsável por promover ações educativas e de formação na modalidade a distância da Ufes, nas quais a mediação didático-pedagógica dos processos de ensino e de aprendizagem ocorre por meio da utilização das tecnologias da informação e da comunicação, nos ambientes virtuais de aprendizagens – AVA, e, presencialmente, nos Polos de Apoio Presencial da Universidade Aberta do Brasil – UAB e em outros espaços educativos.</p>
       <p>O processo de construção das políticas públicas de Educação a Distância no Brasil iniciou-se a partir da definição de diretrizes e bases da educação nacional, em que o poder público passou a exercer um papel de incentivador do desenvolvimento da modalidade EaD, constituindo-se de um instrumento eficaz de democratização do acesso ao ensino superior e uma opção de qualificação profissional.</p>
-      <p>Hoje, por meio da política de educação a distância assumida pela Administração Central da Ufes, o programa de Interiorização leva conhecimento a todas as regiões do estado. A parceria com os Municípios e Governos de Estado é importante para o desenvolvimento das atividades administrativas e didático pedagógicas do ensino a distância, por meio dos Polos UAB que os alunos recebem orientação diretamente com os tutores presenciais e onde acontecem as práticas e avaliações acadêmicas. Os polos interligam diversos municípios capixabas, os quais se apresentam como parceiros institucionais na oferta de ensino, pesquisa, formação e demais ações direcionadas ao conhecimento.</p>     
+      <p>Hoje, por meio da política de educação a distância assumida pela Administração Central da Ufes, o programa de Interiorização leva conhecimento a todas as regiões do estado. A parceria com os Municípios e Governos de Estado é importante para o desenvolvimento das atividades administrativas e didático pedagógicas do ensino a distância, por meio dos Polos UAB que os alunos recebem orientação diretamente com os tutores presenciais e onde acontecem as práticas e avaliações acadêmicas. Os polos interligam diversos municípios capixabas, os quais se apresentam como parceiros institucionais na oferta de ensino, pesquisa, formação e demais ações direcionadas ao conhecimento.</p>
       <blockquote>A metodologia está centrada na relação dialógica entre os professores especialistas, tutores e alunos, materializando-se nos encontros presenciais e semipresenciais que apoiam os estudos realizados ao longo do curso, seja por meio de materiais didáticos ou nos ambientes virtuais.</blockquote>
     </div>
   </div> <!-- container -->
-    
+
   <section id="slider">
     <ul class="container">
       <button class="seta-prev">Anterior</button>
@@ -54,13 +58,13 @@
       <li><button><h3>Coordenador de Polo</h3></button><div>A função é exercida por professor vinculado às redes públicas, graduado e com, no mínimo, três anos de experiência no magistério, da educação básica ou superior, cuja atribuição, dentre outras, é responsabilizar-se pela gestão do Polo e por acompanhar os processos acadêmicos de integralização dos Cursos oferecidos na instância acadêmica que coordena.</div></li>
     </ul>
   </section>
-  
+
 </main>
 
 <?php get_footer(); ?>
 
 <script>
-  
+
 // Slider
 
 $('.seta-next').click(function(){
@@ -69,7 +73,7 @@ $('.seta-next').click(function(){
   $('.dot.ativo').next().addClass('ativo');
   $('.dot.ativo').prev().removeClass('ativo');
   $('.item.ativo h2').focus();
-  
+
   $('.item:nth-of-type(3).ativo').siblings('.seta-next').css('display', 'none');
   $('.seta-prev').css('display', 'block');
 });
@@ -80,7 +84,7 @@ $('.seta-prev').click(function(){
   $('.dot.ativo').prev().addClass('ativo');
   $('.dot.ativo').next().removeClass('ativo');
   $('.item.ativo h2').focus();
-  
+
   $('.item:nth-of-type(2).ativo').siblings('.seta-next').css('display', 'block');
   $('.item:nth-of-type(1).ativo').siblings('.seta-prev').css('display', 'none').siblings('.seta-next').css('display', 'block');
 });

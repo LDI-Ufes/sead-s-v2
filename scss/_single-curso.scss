@@ -1,4 +1,4 @@
-.curso{
+.curso {
   padding-bottom: 0;
 
   .destaque {
@@ -6,80 +6,80 @@
     min-height: 45vh;
     border-bottom: solid 20px $laranjaRegular;
 
-    .titulo span{
+    .titulo span {
       font-size: 1.5rem;
       font-weight: $bold;
       line-height: 0rem;
     }
   }
 
-  #info-curso{
+  #info-curso {
     background-color: $azulEscuro;
     color: white;
     padding: 1.5rem;
     margin: 2rem 0;
 
-    p{
+    p {
       max-width: unset;
       margin: 0;
     }
   }
 
-  #menu{
+  #menu {
     border-top: solid 5px $azulEscuro;
     position: relative;
 
-    aside{
+    aside {
       position: sticky;
       display: inline-block;
-      padding: 1rem .2rem;
+      padding: 1rem 0.2rem;
       color: $azulEscuro;
       font-weight: $light;
       top: 0;
 
-      li, a{
+      li,
+      a {
         display: block;
-        margin: .2rem;
+        margin: 0.2rem;
       }
-      
-      li.current{
+
+      li.current {
         font-weight: $bold;
         font-style: italic;
       }
 
-      span{
+      span {
         margin: 1.5rem 0;
         display: block;
         color: $azulEscuro;
         font-weight: $bold;
         border-bottom: solid 1px $laranjaRegular;
-        margin-bottom: .5rem;
+        margin-bottom: 0.5rem;
       }
 
-      #voltar-ao-topo{
+      #voltar-ao-topo {
         @extend %botao;
       }
     }
 
-    div{
+    div {
       display: inline-block;
       vertical-align: top;
       width: 720px;
 
       height: 1000px; // temporário para teste do posicionamento do menu
 
-      h2{
+      h2 {
         font-weight: $light;
       }
     }
   }
 
-
   #faq-curso {
     background-color: $azulExtraClaro;
     padding: 1rem 0;
 
-    h2{
+    h2 {
       color: $azulEscuro;
       font-style: italic;
       font-weight: $light;
@@ -90,14 +90,14 @@
     ul {
       li {
         max-width: unset;
-        margin: .5rem 0;
-        background: white; 
+        margin: 0.5rem 0;
+        background: white;
 
         button {
           background: none;
           border: none;
           text-align: left;
-          padding: .5rem 1rem;
+          padding: 0.5rem 1rem;
           width: 100%;
 
           &:hover {
@@ -155,14 +155,14 @@
     background-color: $azulClaro;
     padding: 1rem 0;
 
-    h2{
+    h2 {
       color: $azulEscuro;
       font-weight: $bold;
       font-size: 1.6rem;
       margin: 0 0 2rem;
     }
 
-    div.flex{
+    div.flex {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
@@ -181,7 +181,7 @@
           bottom: 0;
           left: 0;
           height: 100%;
-          opacity: .9;
+          opacity: 0.9;
           background-image: linear-gradient(transparent, $azulEscuro);
         }
 
@@ -205,10 +205,12 @@
           margin-left: 1rem;
         }
 
-        &:hover{
-          &:after{ opacity: 1; }
+        &:hover {
+          &:after {
+            opacity: 1;
+          }
 
-          h3{ 
+          h3 {
             text-decoration: underline #f06c00;
             text-underline-position: under;
           }
@@ -217,24 +219,23 @@
     } /* noticia */
   } /* #noticias */
 
-  @media (min-width: 992px){
-
-    #objetivo{
+  @media (min-width: 992px) {
+    #objetivo {
       font-size: 1.5rem;
       line-height: 1.6;
       max-width: unset;
     }
 
-    #info-curso{
+    #info-curso {
       background-color: $azulEscuro;
       color: white;
       padding: 1.5rem;
 
-      div{
+      div {
         width: 40%;
         display: inline-block;
 
-        &#situacao{
+        &#situacao {
           width: 60%;
           float: right;
         }
@@ -242,8 +243,7 @@
     }
 
     #noticias {
-
-      div.flex{
+      div.flex {
         flex-wrap: nowrap;
         margin-right: -1rem;
       }
@@ -254,6 +254,5 @@
         margin-bottom: 0;
       }
     }
-
   }
 }

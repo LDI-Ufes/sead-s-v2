@@ -5,6 +5,10 @@
   <a href="//www.youtube.com/watch?v=XSGBVzeBUbk" data-lity>
     <section class="destaque">
 
+      <video width="auto" height="100%" autoplay loop>
+        <source src="<?php echo get_template_directory_uri(); ?>/video/secretaria.mp4" type="video/mp4">
+      </video>
+
       <div class="titulo container">
         <h1>Secretaria de Ensino <br> a Distância</h1>
         <i class="fas fa-play-circle"></i>
@@ -106,13 +110,13 @@
 <?php get_footer(); ?>
 
 <script>
-  
+
   $('button').click(function(){
     console.log("clique");
     $(this).siblings("p").find('#img-sead').trigger('click');
 
   });
-  
+
   $(function() {
     var tabs = $("#abas");
 

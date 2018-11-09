@@ -29,7 +29,7 @@ button {
   font-size: inherit;
   font-weight: inherit; }
 
-/* .page > #ead-na-ufes, #secretaria */
+/* .page > #ead-na-ufes, #secretaria, single-curso */
 #inicio #banner .container a, #inicio #polos a, #page-blog a[role="button"], #page-galeria #eventos li .imagens .abrirTodas, #secretaria #estrutura #planta-sead button, .curso #menu aside #voltar-ao-topo, #edital .secao-edital#inscricao a[role="button"] {
   background-color: #c75000;
   text-transform: uppercase;
@@ -1664,8 +1664,9 @@ footer {
   /* media */ }
   #secretaria .destaque {
     position: relative;
-    min-height: 65vh;
-    background-image: linear-gradient(#f06c00, transparent), url("./img/video-destaque.png");
+    height: 65vh;
+    max-height: 545px;
+    background-image: linear-gradient(#f06c00, transparent), none;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -1685,9 +1686,14 @@ footer {
         #secretaria .destaque .titulo {
           padding: 3rem 1rem; } }
     #secretaria .destaque:hover {
-      background-image: linear-gradient(#d76100, transparent), url("./img/video-destaque.png"); }
+      background-image: linear-gradient(#d76100, transparent), none; }
       #secretaria .destaque:hover .titulo .fas {
         font-size: 5rem; }
+    #secretaria .destaque video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1; }
   #secretaria #abas {
     position: relative;
     display: inline-flex;
@@ -1822,8 +1828,9 @@ footer {
   /* media */ }
   #ead-na-ufes .destaque {
     position: relative;
-    min-height: 65vh;
-    background-image: linear-gradient(#043166, transparent), url("./img/video-destaque.png");
+    height: 65vh;
+    max-height: 545px;
+    background-image: linear-gradient(#043166, transparent), none;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -1843,9 +1850,14 @@ footer {
         #ead-na-ufes .destaque .titulo {
           padding: 3rem 1rem; } }
     #ead-na-ufes .destaque:hover {
-      background-image: linear-gradient(#03254d, transparent), url("./img/video-destaque.png"); }
+      background-image: linear-gradient(#03254d, transparent), none; }
       #ead-na-ufes .destaque:hover .titulo .fas {
         font-size: 5rem; }
+    #ead-na-ufes .destaque video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1; }
   #ead-na-ufes .breadcrumb {
     margin-bottom: 4rem; }
   #ead-na-ufes #slider {
@@ -2150,7 +2162,8 @@ footer {
   /* #noticias */ }
   .curso .destaque {
     position: relative;
-    min-height: 65vh;
+    height: 65vh;
+    max-height: 545px;
     background-image: linear-gradient(#043166, transparent), url("./img/video-destaque.png");
     background-attachment: fixed;
     background-size: cover;
@@ -2176,6 +2189,11 @@ footer {
       background-image: linear-gradient(#03254d, transparent), url("./img/video-destaque.png"); }
       .curso .destaque:hover .titulo .fas {
         font-size: 5rem; }
+    .curso .destaque video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1; }
     .curso .destaque .titulo span {
       font-size: 1.5rem;
       font-weight: 700;
@@ -2194,13 +2212,14 @@ footer {
     .curso #menu aside {
       position: sticky;
       display: inline-block;
-      padding: 1rem .2rem;
+      padding: 1rem 0.2rem;
       color: #043166;
       font-weight: 300;
       top: 0; }
-      .curso #menu aside li, .curso #menu aside a {
+      .curso #menu aside li,
+      .curso #menu aside a {
         display: block;
-        margin: .2rem; }
+        margin: 0.2rem; }
       .curso #menu aside li.current {
         font-weight: 700;
         font-style: italic; }
@@ -2210,7 +2229,7 @@ footer {
         color: #043166;
         font-weight: 700;
         border-bottom: solid 1px #f06c00;
-        margin-bottom: .5rem; }
+        margin-bottom: 0.5rem; }
     .curso #menu div {
       display: inline-block;
       vertical-align: top;
@@ -2229,13 +2248,13 @@ footer {
       margin: 0 0 2rem; }
     .curso #faq-curso ul li {
       max-width: unset;
-      margin: .5rem 0;
+      margin: 0.5rem 0;
       background: white; }
       .curso #faq-curso ul li button {
         background: none;
         border: none;
         text-align: left;
-        padding: .5rem 1rem;
+        padding: 0.5rem 1rem;
         width: 100%; }
         .curso #faq-curso ul li button:hover {
           cursor: pointer; }
@@ -2292,7 +2311,7 @@ footer {
           bottom: 0;
           left: 0;
           height: 100%;
-          opacity: .9;
+          opacity: 0.9;
           background-image: linear-gradient(transparent, #043166); }
         .curso #noticias div.flex .noticia img {
           width: 100%;
