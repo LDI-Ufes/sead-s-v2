@@ -95,6 +95,8 @@ section.caixa {
     fill: #cfeaff; }
   .mapaES #comPolos a:hover .geografia {
     fill: #ffa161; }
+  .mapaES #comPolos a .geografia.selecionado {
+    fill: #ffa161; }
 
 *:focus {
   outline: none; }
@@ -423,10 +425,26 @@ footer {
           background-color: #f06c00;
           width: 100%;
           margin-top: 0.4rem; }
+      footer .content section p {
+        margin: 0; }
       footer .content section a:hover {
         border-bottom: solid 0.5px #f06c00; }
       footer .content section .subitens {
         margin-left: 1rem; }
+      footer .content section .enderecoLink {
+        display: flex;
+        flex-direction: column;
+        margin-top: .25em; }
+        footer .content section .enderecoLink > span {
+          display: inline-flex; }
+          footer .content section .enderecoLink > span:first-child {
+            margin-bottom: .25em; }
+          footer .content section .enderecoLink > span a {
+            display: inline-flex; }
+          footer .content section .enderecoLink > span img {
+            margin-right: .5em; }
+      footer .content section .fb_iframe_widget {
+        margin-top: 1.5rem; }
   footer .creditos {
     display: inline-flex;
     justify-content: center;
@@ -1094,24 +1112,31 @@ footer {
       font-size: 1.6rem;
       font-weight: 300;
       color: #f06c00; }
-    #page-blog #informativo form {
+    #page-blog #informativo form#sendgrid_mc_email_form {
       display: inline-flex;
-      width: 100%; }
-      #page-blog #informativo form input {
-        margin-top: 1rem;
+      margin-top: 1rem;
+      width: 100%;
+      padding: 0 !important; }
+      #page-blog #informativo form#sendgrid_mc_email_form input {
         font-family: "Fira Sans", sans-serif !important;
         border: solid 1px #043166; }
-        #page-blog #informativo form input[type="email"] {
+      #page-blog #informativo form#sendgrid_mc_email_form .sendgrid_mc_fields {
+        width: 100%;
+        padding: 0 !important; }
+        #page-blog #informativo form#sendgrid_mc_email_form .sendgrid_mc_fields .sendgrid_mc_label_div {
+          display: none; }
+        #page-blog #informativo form#sendgrid_mc_email_form .sendgrid_mc_fields .sendgrid_mc_input {
+          width: calc(100% - .5rem - 2px);
           height: 1.5rem;
-          background-color: #edf9ff;
-          padding-left: 0.5rem;
-          width: 100%; }
-        #page-blog #informativo form input[type="submit"] {
-          background-color: #043166;
-          text-transform: uppercase;
-          color: white;
-          font-size: 0.8rem;
-          width: 70px; }
+          padding-left: .5rem;
+          background-color: #edf9ff; }
+      #page-blog #informativo form#sendgrid_mc_email_form .sendgrid_mc_button {
+        margin: 0 !important;
+        height: 100%;
+        background-color: #043166;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        color: white; }
   #page-blog .social-media {
     background: linear-gradient(45deg, #043166, #1765ab);
     border: none;
@@ -1229,7 +1254,8 @@ footer {
         #page-blog #posts .blog-post a .blog-post-header .post-date {
           padding: 1rem;
           font-size: 1rem; }
-      #page-blog #posts .blog-post h3, #page-blog #posts .blog-post p {
+      #page-blog #posts .blog-post h3,
+      #page-blog #posts .blog-post p {
         margin: 1rem 0; }
       #page-blog #posts #postsNav {
         padding: 0 0 2rem; }
@@ -1533,6 +1559,7 @@ footer {
             width: 100%;
             height: 100%; }
       #page-galeria #eventos li .imagens .abrirTodas {
+        display: none;
         float: right;
         margin-right: 1.5rem; }
 @media screen and (min-width: 992px) {
@@ -2590,7 +2617,8 @@ footer {
   #formPesquisa .botaoFalso {
     cursor: pointer; }
   #formPesquisa .botaoSubmissao {
-    padding: 10px; }
+    padding: 10px;
+    z-index: 7; }
   #formPesquisa .botaoFalso {
     padding: 10px 14px; }
   #formPesquisa input {
@@ -2653,7 +2681,7 @@ footer {
 .formPesquisaAtivo .btoMenu {
   position: absolute;
   left: -9999px; }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 576px) {
   .formPesquisaAtivo .marca {
     position: absolute;
     left: -9999px; } }

@@ -31,9 +31,19 @@
 
     <section>
       <h4>Fale conosco</h4>
-      <p>Av. Fernando Ferrari, 514, Vitória-ES. Ufes.<br>Térreo do Teatro Universitário</p>
-      <p>(27) 4009-2208</p>
-      <p><a href = "mailto: diretoria.sead@institucional.ufes.br">diretoria.sead@institucional.ufes.br</a></p>
+      <p>Telefone: (27) 4009-2208</p>
+      <p>E-mail: <a href="mailto: diretoria.sead@institucional.ufes.br">diretoria.sead@institucional.ufes.br</a></p>
+      <p style="margin-top: .5rem;">Av. Fernando Ferrari, 514, Vitória - ES <br> Térreo do Teatro Universitário - Ufes Campus Goiabeiras</p>
+      <p class="enderecoLink">
+        <span>
+          <img src="<?php echo get_template_directory_uri()?>/svg/google-maps.svg" alt="">
+          <a href="https://goo.gl/maps/fLngzGoNbzq" title="Abrir endereço no Google Maps" target="_blank"><span>Abrir endereço no Google Maps</span></a>
+        </span>
+        <span>
+          <img src="<?php echo get_template_directory_uri()?>/svg/moovit.svg" alt="">
+          <a href="https://moovit.com/?to=Teatro%20Universitário&tll=-20.27756_-40.301771&metroId=4794&lang=pt-br" title="Abrir endereço no Moovit (rotas de ônibus)" target="_blank"><span>Abrir endereço no Moovit (rotas de ônibus)</span></a>
+        </span>
+      </p>
       <div class="fb-page" data-href="https://www.facebook.com/sead.ufes" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/sead.ufes" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/sead.ufes">Secretaria de Ensino a Distância - SEAD UFES</a></blockquote></div>
     </section>
 
