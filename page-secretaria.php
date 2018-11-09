@@ -10,8 +10,8 @@
       </video>
 
       <div class="titulo container">
-        <h1>Secretaria de Ensino <br> a Distância</h1>
         <i class="fas fa-play-circle"></i>
+        <h1>Secretaria de Ensino <br> a Distância</h1>        
       </div>
 
     </section>

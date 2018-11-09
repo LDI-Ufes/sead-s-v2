@@ -10,8 +10,8 @@
       </video>
 
       <div class="titulo container">
-        <h1>Como funciona <br> a EaD na Ufes?</h1>
         <i class="fas fa-play-circle"></i>
+        <h1>Como funciona <br> a EaD na Ufes?</h1>        
       </div>
 
     </section>

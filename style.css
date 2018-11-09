@@ -1672,9 +1672,14 @@ footer {
     background-position: center;
     margin-top: 0; }
     #secretaria .destaque .titulo {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
       padding: 6rem 1rem;
-      color: white;
-      line-height: 3rem; }
+      text-align: center;
+      line-height: 3rem;
+      color: white; }
       #secretaria .destaque .titulo h1 {
         color: white; }
       #secretaria .destaque .titulo .fas {
@@ -1687,8 +1692,6 @@ footer {
           padding: 3rem 1rem; } }
     #secretaria .destaque:hover {
       background-image: linear-gradient(#d76100, transparent), none; }
-      #secretaria .destaque:hover .titulo .fas {
-        font-size: 5rem; }
     #secretaria .destaque video {
       position: absolute;
       top: 0;
@@ -1836,9 +1839,14 @@ footer {
     background-position: center;
     margin-top: 0; }
     #ead-na-ufes .destaque .titulo {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
       padding: 6rem 1rem;
-      color: white;
-      line-height: 3rem; }
+      text-align: center;
+      line-height: 3rem;
+      color: white; }
       #ead-na-ufes .destaque .titulo h1 {
         color: white; }
       #ead-na-ufes .destaque .titulo .fas {
@@ -1851,8 +1859,6 @@ footer {
           padding: 3rem 1rem; } }
     #ead-na-ufes .destaque:hover {
       background-image: linear-gradient(#03254d, transparent), none; }
-      #ead-na-ufes .destaque:hover .titulo .fas {
-        font-size: 5rem; }
     #ead-na-ufes .destaque video {
       position: absolute;
       top: 0;
@@ -2172,9 +2178,14 @@ footer {
     min-height: 45vh;
     border-bottom: solid 20px #f06c00; }
     .curso .destaque .titulo {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
       padding: 6rem 1rem;
-      color: white;
-      line-height: 3rem; }
+      text-align: center;
+      line-height: 3rem;
+      color: white; }
       .curso .destaque .titulo h1 {
         color: white; }
       .curso .destaque .titulo .fas {
@@ -2187,17 +2198,13 @@ footer {
           padding: 3rem 1rem; } }
     .curso .destaque:hover {
       background-image: linear-gradient(#03254d, transparent), url("./img/video-destaque.png"); }
-      .curso .destaque:hover .titulo .fas {
-        font-size: 5rem; }
     .curso .destaque video {
       position: absolute;
       top: 0;
       left: 0;
       z-index: -1; }
-    .curso .destaque .titulo span {
-      font-size: 1.5rem;
-      font-weight: 700;
-      line-height: 0rem; }
+    .curso .destaque .titulo h2 {
+      color: white; }
   .curso #info-curso {
     background-color: #043166;
     color: white;
