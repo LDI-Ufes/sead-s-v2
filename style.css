@@ -427,8 +427,10 @@ footer {
           margin-top: 0.4rem; }
       footer .content section p {
         margin: 0; }
-      footer .content section a:hover {
-        border-bottom: solid 0.5px #f06c00; }
+      footer .content section a {
+        border-bottom: solid .5px transparent; }
+        footer .content section a:hover {
+          border-color: #f06c00; }
       footer .content section .subitens {
         margin-left: 1rem; }
       footer .content section .enderecoLink {

@@ -31,8 +31,12 @@ footer {
         margin: 0;
       }
 
-      a:hover {
-        border-bottom: solid 0.5px $laranjaRegular;
+      a {
+        border-bottom: solid .5px transparent;
+
+        &:hover {
+          border-color: $laranjaRegular;
+        }
       }
 
       .subitens {
