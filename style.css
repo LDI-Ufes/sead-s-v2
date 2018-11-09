@@ -442,8 +442,7 @@ footer {
           footer .content section .enderecoLink > span a {
             display: inline-flex; }
           footer .content section .enderecoLink > span img {
-            margin-right: .5em;
-            width: 22px; }
+            margin-right: .5em; }
       footer .content section .fb_iframe_widget {
         margin-top: 1.5rem; }
   footer .creditos {
