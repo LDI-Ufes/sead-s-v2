@@ -2549,7 +2549,8 @@ footer {
   #formPesquisa .botaoFalso {
     cursor: pointer; }
   #formPesquisa .botaoSubmissao {
-    padding: 10px; }
+    padding: 10px;
+    z-index: 7; }
   #formPesquisa .botaoFalso {
     padding: 10px 14px; }
   #formPesquisa input {
