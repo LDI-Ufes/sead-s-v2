@@ -77,6 +77,7 @@
 <script src="https://unpkg.com/focus-visible@latest/dist/focus-visible.min.js"></script>
 
 <?php wp_footer(); ?>
+<script src="<?php echo get_template_directory_uri(); ?>/js/globais.js"></script>
 
 </body>
 </html>
