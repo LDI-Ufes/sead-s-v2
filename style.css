@@ -1956,9 +1956,10 @@ footer {
         margin-left: -0.5rem;
         cursor: pointer; }
         #ead-na-ufes #agentes li button h3 {
+          display: inline-block;
           margin: 0;
           padding: 0;
-          display: inline-block; }
+          border-bottom: 1px solid transparent; }
         #ead-na-ufes #agentes li button:before {
           content: "\f067";
           font-family: "Font Awesome 5 Free";
@@ -1971,10 +1972,9 @@ footer {
           content: "\f068"; }
         #ead-na-ufes #agentes li button:hover:before {
           color: #c75000; }
-        #ead-na-ufes #agentes li button:hover h3 {
+        #ead-na-ufes #agentes li button:hover > h3 {
           color: #c75000;
-          text-decoration: underline;
-          text-underline-position: under; }
+          border-bottom: 1px solid #c75000; }
       #ead-na-ufes #agentes li div {
         display: none;
         padding: 1rem 0; }

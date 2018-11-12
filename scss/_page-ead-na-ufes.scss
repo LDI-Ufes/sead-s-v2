@@ -134,9 +134,10 @@
         cursor: pointer;
 
         h3 {
+          display: inline-block;
           margin: 0;
           padding: 0;
-          display: inline-block;
+          border-bottom: 1px solid transparent;
         }
 
         &:before {
@@ -158,10 +159,9 @@
             color: $laranjaMedio;
           }
 
-          h3 {
+          > h3 {
             color: $laranjaMedio;
-            text-decoration: underline;
-            text-underline-position: under;
+            border-bottom: 1px solid $laranjaMedio;
           }
         }
       }
