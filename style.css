@@ -1551,7 +1551,8 @@ footer {
           flex-grow: 1;
           margin-bottom: 1rem;
           margin-right: 1rem;
-          display: none; }
+          display: none;
+          cursor: zoom-in; }
           #page-galeria #eventos li .imagens p a:nth-child(-n + 4) {
             display: inline-block; }
           #page-galeria #eventos li .imagens p a.visivel {
