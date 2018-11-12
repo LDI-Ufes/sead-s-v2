@@ -51,7 +51,7 @@
     <ul>
       <li>
         <button class="expandido-botao"><h3>Professor</h3></button>
-        <div class="expandido-texto" style="display:block">A função é exercida por um professor da área de conhecimento diretamente relacionada à disciplina, cujo papel é responsabilizar-se por todos os processos de sua integralização, da apresentação do material didático à mediação dos saberes neles contidos junto a tutores e a estudantes e, de igual modo, é responsável pela concepção e elaboração dos instrumentos de avaliação da aprendizagem, aplicação, coordenação da correção dessas avaliações, além de responsabilizar-se pela  regularização da situação do aluno junto às instâncias de registros de notas da Ufes.</div>
+        <div class="expandido-texto">A função é exercida por um professor da área de conhecimento diretamente relacionada à disciplina, cujo papel é responsabilizar-se por todos os processos de sua integralização, da apresentação do material didático à mediação dos saberes neles contidos junto a tutores e a estudantes e, de igual modo, é responsável pela concepção e elaboração dos instrumentos de avaliação da aprendizagem, aplicação, coordenação da correção dessas avaliações, além de responsabilizar-se pela  regularização da situação do aluno junto às instâncias de registros de notas da Ufes.</div>
       </li>
       <li>
         <button><h3>Tutor Presencial</h3></button>

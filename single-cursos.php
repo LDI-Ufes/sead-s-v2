@@ -9,18 +9,40 @@
 <?php get_footer(); ?>
 
 <script>
+  
+  // menu mobile
+  
+  $('#dropdown-menu').click( () => {
+    $('#menu').find('ul').toggleClass('expandido');
+  });
+  
+  // scroll top
+  
+  $('#voltar-ao-topo').click( () => {
+    $('html, body').animate({ scrollTop: 0 }, 800);
+  });
+  
+  
+  // matriz - accordion
+  
+  $('#matriz .semestre button').click(function () {
+    $(this).toggleClass('ativo');
+    $(this).siblings().slideToggle().toggleClass('expandido');
+    $('#matriz .semestre button').not($(this)).removeClass('ativo').siblings().slideUp();
+  });
+
+  // faq - accordion
+  
   $('#faq-curso button').click(function () {
     $(this).toggleClass('ativo');
     $(this).siblings().slideToggle().toggleClass('expandido');
     $('#faq-curso button').not($(this)).removeClass('ativo').siblings().slideUp();
   });
 
-</script>
-
-<script>
+// abas
 
   $(function () {
-    var tabs = $("#menu");
+    var tabs = $("#conteudo");
 
     // For each individual tab DIV, set class and aria-hidden attribute, and hide it
     $(tabs).find("> div").attr({
@@ -29,7 +51,7 @@
     }).hide();
 
     // Get the list of tab links
-    var tabsList = tabs.find("aside ul:first").attr({
+    var tabsList = tabs.find("#menu ul:first").attr({
       "class": "tabsList",
     });
 

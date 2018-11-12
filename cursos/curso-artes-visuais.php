@@ -33,41 +33,218 @@
       </div>
     </section>
 
-    <section id="menu">
+    <section id="conteudo">     
 
-      <aside>
+
+      <aside id="menu"> 
+        <button id="dropdown-menu">Menu<i class="fas fa-angle-down"></i></button> 
+
         <ul>
-          <li><a href="#o-curso">O curso</a></li>
-          <li><a href="#matriz-curricular">Matriz curricular</a></li>
+          <!--<li><a href="#o-curso">O curso</a></li>-->
+          <li><a href="#curriculo">Currículo</a></li>
           <li><a href="#corpo-docente">Corpo docente</a></li>
           <li><a href="#perfil-do-egresso">Perfil do egresso</a></li>
           <li><a href="#ofertas-anteriores">Ofertas anteriores</a></li>
-          <a>PPC</a>
-          <a>Guia do aluno</a>
+          <a><i class="fas fa-external-link-alt"></i>PPC</a>
+          <a><i class="fas fa-external-link-alt"></i>Guia do aluno</a>
+
+          <span>Contato</span>
+          filspsi2017@gmail.com<br>
+          (027) 3333-3333
+
         </ul>
 
-        <span>Contato</span>
-        filspsi2017@gmail.com<br>
-        (027) 3333-3333
+        <a title="Voltar ao topo" id="voltar-ao-topo"><b>Voltar ao topo</b><i class="fas fa-arrow-up"></i></a>
+      </aside> 
 
-        <a href="" title="Voltar ao topo" id="voltar-ao-topo">Voltar ao topo</a>
+      <!--      <div>
+              <h2 id="o-curso">O curso</h2>
+            </div>-->
 
-      </aside>
+      <div id='matriz'>
+        <h2 id="curriculo">Duração do curso</h2>
+        <p>Carga horária mínima de integralização curricular: 3280 horas</p>
+        <p>Disciplinas: 1440 horas</p>
+        <p>Estágio Curricular Supervisionado Obrigatório: 400 horas</p>
+        <p>Dimensões Pedagógicas: 600 horas</p>
+        <p>Trabalho de Conclusão de Curso: 160 horas</p>
+        <p>Práticas como Componente Curricular: 480 horas</p>
+        <p>Atividades Complementares: 200 horas</p>
 
-      <div>
-        <h2 id="o-curso">O curso</h2>
+        <h2>Matriz Curricular</h2>
+
+        <ul>
+          <li class='semestre'>
+            <button class='ativo'><h3>1° semestre</h3></button>
+            <ul class='expandido'>
+              <div>Disciplina <span>Ementa</span></div>
+
+              <li>Metodologia da Pesquisa em EAD <span>30h</span></li>
+              <li>Fundamentos Estruturais e Pedagógicos da EAD <span>30h</span></li>
+              <li>Interações Culturais <span>60h</span></li>
+              <li>Linguagem Gráfica <span>60h</span></li>
+              <li>Percepção e Composição <span>60h</span></li>
+              <li>Propostas Metodológicas do Ensino da Arte I <span>60h</span></li>
+              <li>Seminário I <span>60h</span></li>
+            </ul>
+          </li>
+
+          <li class='semestre'>
+            <button><h3>2° semestre</h3></button>
+            <ul>
+              <div>Disciplina <span>Ementa</span></div>
+
+              <li>Artes da Fibra <span>60h</span></li>
+              <li>Aspectos Legais do Ensino da Arte <span>60h</span></li>
+              <li>Cor e Laboratório de Tintas e Materiais <span>60h</span></li>
+              <li>Desenho I <span>60h</span></li>
+              <li>História da Arte I <span>60h</span></li>
+              <li>Propostas Metodológicas do Ensino da Arte II <span>60h</span></li>
+              <li>Seminário II <span>60h</span></li>
+            </ul>
+          </li>
+
+          <li class='semestre'>
+            <button><h3>3° semestre</h3></button>
+            <ul>
+              <div>Disciplina <span>Ementa</span></div>
+
+              <li>Antropologia Visual <span>60h</span></li>
+              <li>Desenho II <span>60h</span></li>
+              <li>Didática do Ensino da Arte <span>60h</span></li>
+              <li>Estágio I <span>100h</span></li>
+              <li>História da Arte II <span>60h</span></li>
+              <li>Modelagem <span>60h</span></li>
+              <li>Seminário III <span>60h</span></li>
+              <li>Sintaxe Visual  <span>60h</span></li>
+            </ul>
+          </li>
+
+          <li class='semestre'>
+            <button><h3>4° semestre</h3></button>
+            <ul>
+              <div>Disciplina <span>Ementa</span></div>
+
+              <li>Filosofia da Arte <span>60h</span></li>
+              <li>Fotografia <span>60h</span></li>
+              <li>História da Arte III <span>60h</span></li>
+              <li>Prática de Ensino I <span>100h</span></li>
+              <li>História da Arte II <span>60h</span></li>
+              <li>Processo de criação <span>60h</span></li>
+              <li>Seminário IV <span>60h</span></li>
+              <li>Teorias da Linguagem Visual <span>60h</span></li>
+            </ul>
+          </li>
+
+          <li class='semestre'>
+            <button><h3>5° semestre</h3></button>
+            <ul>
+              <div>Disciplina <span>Ementa</span></div>
+
+              <li>Cerâmica <span>60h</span></li>
+              <li>Estágio II <span>100h</span></li>
+              <li>História da Arte IV <span>60h</span></li>
+              <li>Pintura <span>60h</span></li>
+              <li>Prática de Ensino II <span>150h</span></li>
+              <li>Seminário V <span>60h</span></li>
+              <li>Vídeo <span>60h</span></li>
+            </ul>
+          </li>
+
+          <li class='semestre'>
+            <button><h3>6° semestre</h3></button>
+            <ul>
+              <div>Disciplina <span>Ementa</span></div>
+
+              <li>Escultura <span>60h</span></li>
+              <li>Estágio III <span>100h</span></li>
+              <li>Gravura <span>60h</span></li>
+              <li>Poéticas digitais <span>60h</span></li>
+              <li>Prática de Ensino III <span>150h</span></li>
+              <li>Trabalho de Graduação I <span>60h</span></li>
+            </ul>
+          </li>
+
+          <li class='semestre'>
+            <button><h3>7° semestre</h3></button>
+            <ul>
+              <div>Disciplina <span>Ementa</span></div>
+
+              <li>Atividades Complementares <span>200h</span></li>
+              <li>Estágio IV <span>100h</span></li>
+              <li>Libras <span>60h</span></li>
+              <li>Trabalho de Graduação <span>120h</span></li>
+            </ul>
+          </li>
+        </ul>
+
       </div>
 
-      <div>
-        <h2 id="matriz-curricular">Matriz curricular</h2>
-      </div>
+      <div id='professores'>
+        <h2 id="corpo-docente">Administração acadêmica</h2>
+        <p><strong>Coordenação:</strong> Andreia Chiari Lins (Lattes)</p>
+        <p>Professora do Departamento de Desenho Industrial, para área de Tecnologias da Imagem, na Universidade Federal do Espírito Santo. Doutorada (2016) e Mestre em Educação pela Universidade Federal do Espírito Santo (2008). Especialista em Educação a Distância pela Universidade Católica de Brasília - DF (2006), Especialista em Administração de Empresas Privadas pelo Centro Universitário Vila Velha - ES (1997). Bacharel em Artes Plásticas pela Universidade Federal do Espírito Santo (1994). 
 
-      <div>
-        <h2 id="corpo-docente">Corpo docente</h2>
+        <p><strong>Colegiado do curso:</strong> Orlando da Rosa Faria (Lattes)</p>
+
+        <p><strong>Núcleo Docente Estruturante:</strong> 
+          <br>Maria Auxiliadora de Carvalho Corassa (Lattes)
+          <br>Aparecido Jose Cirilo
+          <br>Stela Maris Sanmartin (Lattes)
+          <br>Julia Rocha Pinto (Lattes)
+          <br>Fabiola Veloso Menezes (Lattes)
+
+        <h2>Corpo docente</h2>
+
+        <p class='nome'>Adriana Rosely Magro <?//php include '/svg/lattes-01.svg' ?>
+          <span>Doutorado</span>
+        </p>
+        <p class='nome'>Aissa Afonso Guimarães <?//php include 'svg/lattes-02.svg' ?>
+          <span>Doutorado</span>
+        </p>
+        <p class='nome'>Andreia Chiari Lins
+          <span>Doutorado</span>
+        </p>
+        <p class='nome'>Bettina Gatti Caiado da Rocha	
+          <span>Mestrado</span>
+        </p>
+        <p class='nome'>Fernando Augusto dos Santos Neto	
+          <span>Doutorado</span>
+        </p>
+        <p class='nome'>Fernando Gomez Alvarez
+          <span>Doutorado</span>
+        </p>
+        <p class='nome'>João Wesley de Souza
+          <span>Doutorado</span>
+        </p>
+        <p class='nome'>Larissa Fabricio Zanin
+          <span>Doutorado</span>
+        </p>
+        <p class='nome'>Lincoln Guimarães Dias
+          <span>Doutorado</span>
+        </p>
+        <p class='nome'>Maria Gorete Dadalto Gonçalves
+          <span>Doutorado</span>
+        </p>
+        <p class='nome'>Maria Regina Rodrigues
+          <span>Doutorado</span>
+        </p>
+        <p class='nome'>Moema Lúcia Martins Rebouças
+          <span>Doutorado</span>
+        </p>
+
+
       </div>
 
       <div>
         <h2 id="perfil-do-egresso">Perfil do egresso</h2>
+        <p>O Curso de Licenciatura em Artes Visuais propõe um programa de forma a qualificar os seus graduados para o exercício da atividade docente em nível da Educação Infantil, Ensino Fundamental e Médio, assim como para a Pós-graduação, ou para oportunidades de trabalho fora do ambiente acadêmico. Dentro dessas perspectivas, o programa de Licenciatura em Artes visa oferecer aos licenciandos uma formação que priorize a carreira acadêmica, o que necessita, além de uma sólida base de conteúdos do ensino da Arte, de uma formação que contemple áreas de aplicação e sua interação com as práticas culturais.</p> 
+        <p>O Curso de Artes Visuais - Licenciatura deve garantir que seus egressos tenham: uma sólida formação de conteúdos de Arte e de seu ensino; uma formação que lhes prepare para enfrentar os desafios das rápidas transformações sociais, ambientais e tecnológicas da sociedade, do mercado de trabalho e das condições de exercício profissional. </p>
+        <p>Por outro lado, deseja-se as seguintes características para o Licenciado em Artes Visuais: </p>
+        <p> - visão de seu papel social de educador e capacidade de se inserir em diversas realidades com sensibilidade para interpretar as ações dos educandos;</p>
+        <p> - visão da contribuição que a aprendizagem das artes visuais pode oferecer à formação dos indivíduos para o exercício de sua cidadania, respeitando a diversidade social e cultural;</p> 
+        <p> - visão de que o conhecimento estético pode e deve ser acessível a todos, e consciência de seu papel na superação dos preconceitos traduzidos pela angústia, inércia ou rejeição, que, muitas vezes, ainda estão presentes no ensino-aprendizagem da disciplina nas escolas da Educação Básica.</p>
+
       </div>
 
       <div>
@@ -122,19 +299,21 @@
         <h2>Notícias do curso</h2>
         <div class="flex">
 
-            <?php while ($ultimas_noticias->have_posts()) : $ultimas_noticias->the_post(); ?>
-            <a class="noticia" href="<?php the_permalink() ?>" title="Ir para notícia: <?php the_title(); ?>">
-    <?php the_post_thumbnail(); ?>
-              <h3><?php the_title(); ?></h3>
+          <?php while ($ultimas_noticias->have_posts()) : $ultimas_noticias->the_post(); ?>
+            <a class="noticia" href="<?php the_permalink() ?>" title="Ir para notícia: <?php the_title(); ?>">    
+              <?php the_post_thumbnail(); ?>
+              <h3><?php the_title(); ?></h3>          
             </a>
 
-  <?php endwhile;
-  wp_reset_postdata();
-else : ?>
+            <?php
+          endwhile;
+          wp_reset_postdata();
+        else :
+          ?>
 
         </div>
       </div>
     </section>
-<?php endif; ?>
+  <?php endif; ?>
 
 </main>
