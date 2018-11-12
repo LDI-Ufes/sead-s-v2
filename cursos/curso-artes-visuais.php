@@ -182,54 +182,54 @@
 
       <div id='professores'>
         <h2 id="corpo-docente">Administração acadêmica</h2>
-        <p><strong>Coordenação:</strong> Andreia Chiari Lins (Lattes)</p>
+        <p><strong>Coordenação:</strong> Andreia Chiari Lins</p>
         <p>Professora do Departamento de Desenho Industrial, para área de Tecnologias da Imagem, na Universidade Federal do Espírito Santo. Doutorada (2016) e Mestre em Educação pela Universidade Federal do Espírito Santo (2008). Especialista em Educação a Distância pela Universidade Católica de Brasília - DF (2006), Especialista em Administração de Empresas Privadas pelo Centro Universitário Vila Velha - ES (1997). Bacharel em Artes Plásticas pela Universidade Federal do Espírito Santo (1994). 
 
-        <p><strong>Colegiado do curso:</strong> Orlando da Rosa Faria (Lattes)</p>
+        <p><strong>Colegiado do curso:</strong> Orlando da Rosa Faria</p>
 
         <p><strong>Núcleo Docente Estruturante:</strong> 
-          <br>Maria Auxiliadora de Carvalho Corassa (Lattes)
+          <br>Maria Auxiliadora de Carvalho Corassa
           <br>Aparecido Jose Cirilo
-          <br>Stela Maris Sanmartin (Lattes)
-          <br>Julia Rocha Pinto (Lattes)
-          <br>Fabiola Veloso Menezes (Lattes)
+          <br>Stela Maris Sanmartin
+          <br>Julia Rocha Pinto
+          <br>Fabiola Veloso Menezes
 
         <h2>Corpo docente</h2>
 
-        <p class='nome'>Adriana Rosely Magro <?//php include '/svg/lattes-01.svg' ?>
+        <p class='nome'><a href="http://lattes.cnpq.br/7471423621490631" target="_blank">Adriana Rosely Magro</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'>Aissa Afonso Guimarães <?//php include 'svg/lattes-02.svg' ?>
+        <p class='nome'><a href="http://lattes.cnpq.br/5450445723454857" target="_blank">Aissa Afonso Guimarães</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'>Andreia Chiari Lins
+        <p class='nome'><a href="http://lattes.cnpq.br/8500994614485241" target="_blank">Andreia Chiari Lins</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'>Bettina Gatti Caiado da Rocha	
+        <p class='nome'><a href="http://lattes.cnpq.br/7826795757556335" target="_blank">Bettina Gatti Caiado da Rocha</a>	
           <span>Mestrado</span>
         </p>
-        <p class='nome'>Fernando Augusto dos Santos Neto	
+        <p class='nome'><a href="http://lattes.cnpq.br/8230499627602455" target="_blank">Fernando Augusto dos Santos Neto</a>	
           <span>Doutorado</span>
         </p>
-        <p class='nome'>Fernando Gomez Alvarez
+        <p class='nome'><a href="http://lattes.cnpq.br/5302702058647922" target="_blank">Fernando Gomez Alvarez</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'>João Wesley de Souza
+        <p class='nome'><a href="http://lattes.cnpq.br/9563994096531487" target="_blank">João Wesley de Souza</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'>Larissa Fabricio Zanin
+        <p class='nome'><a href="http://lattes.cnpq.br/1595799399527303" target="_blank">Larissa Fabricio Zanin</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'>Lincoln Guimarães Dias
+        <p class='nome'><a href="http://lattes.cnpq.br/5766230898713582" target="_blank">Lincoln Guimarães Dias</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'>Maria Gorete Dadalto Gonçalves
+        <p class='nome'><a href="http://lattes.cnpq.br/1501571974747341" target="_blank">Maria Gorete Dadalto Gonçalves</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'>Maria Regina Rodrigues
+        <p class='nome'><a href="http://lattes.cnpq.br/8089325619947496" target="_blank">Maria Regina Rodrigues</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'>Moema Lúcia Martins Rebouças
+        <p class='nome'><a href="http://lattes.cnpq.br/4414451806305375" target="_blank">Moema Lúcia Martins Rebouças</a>
           <span>Doutorado</span>
         </p>
 

@@ -2298,6 +2298,11 @@ footer {
           display: block;
           line-height: 1.2;
           font-weight: 300; }
+        .curso #conteudo div#professores .nome a:after {
+          content: url("svg/lattes.svg");
+          margin-left: .3rem; }
+        .curso #conteudo div#professores .nome a:hover {
+          border-bottom: 0.5px solid #c75000; }
   .curso #faq-curso {
     background-color: #edf9ff;
     padding: 1rem 0; }

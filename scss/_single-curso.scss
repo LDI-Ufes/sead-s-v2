@@ -40,12 +40,12 @@
       a {
         display: block;
         margin: 0.2rem;
-        
+
         i{ 
           font-size: .8rem;
           margin-right: .3rem;
         }
-        
+
         &:hover{ text-decoration: underline;}
       }
 
@@ -150,6 +150,17 @@
             display: block;
             line-height: 1.2;
             font-weight: $light;
+          }
+
+          a{
+            &:after{
+              content: url('svg/lattes.svg');
+              margin-left: .3rem;
+            }
+            
+            &:hover{ 
+              border-bottom: .5px solid $laranjaMedio;
+            }
           }
         }
       }
