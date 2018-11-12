@@ -14,14 +14,14 @@
             <p><?php echo wp_trim_words( strip_shortcodes( get_the_content() ), 40, ' [...]'); ?></p>
           </li>
       <?php endwhile; ?>
-        <div id="postsNav">  
+        <div id="postsNav">
           <div class="nav-right"><?php next_posts_link('Notícias antigas  >'); ?></div>
           <div class="nav-left"><?php previous_posts_link('<  Notícias recentes'); ?></div>
         </div>
         <?php wp_reset_postdata(); ?>
       <?php else : ?>
         <p><?php esc_html_e('Nenhuma notícia cadastrada'); ?></p>
-      <?php endif; ?>              
+      <?php endif; ?>
     </ul>
 
     <aside>
@@ -29,32 +29,32 @@
 
       <section id="informativo">
         <h2><span>Informativos</span></h2>
-        <label>Receba as notícias mais importantes direto no seu e-mail, cadastre-se:</label><br>
-        <form><input type="email" placeholder="Digite seu e-mail"><input type="submit" value="Enviar"></form>
+        <label>Receba as notícias mais importantes, cadastre seu e-mail:</label><br>
+        <?php if ( dynamic_sidebar('cadastro_informativo') ) : else : endif; ?>
       </section>
 
-      <a class="social-media" href="https://www.facebook.com/sead.ufes/" title="Ir para página da Sead no Facebook"><span>Siga-nos também no facebook</span><i class="fab fa-facebook-f"></i></a>  
+      <a class="social-media" href="https://www.facebook.com/sead.ufes/" title="Ir para página da Sead no Facebook"><span>Siga-nos também no facebook</span><i class="fab fa-facebook-f"></i></a>
     </aside>
   </div>
-    
+
   <section id="galeria">
     <div class="container">
       <h2>Galeria de Fotos</h2>
       <ul>
-        <?php                          
+        <?php
             $args = array(
-                'post_type' => 'galeria', 
+                'post_type' => 'galeria',
                 'posts_per_page' => 2
             );
-            $eventos = new WP_Query( $args ); if ($eventos->have_posts()) : ?>  
-                <?php while ($eventos->have_posts()) : $eventos->the_post(); ?>	
+            $eventos = new WP_Query( $args ); if ($eventos->have_posts()) : ?>
+                <?php while ($eventos->have_posts()) : $eventos->the_post(); ?>
                     <li>
                         <h3><span><?php the_title(); ?></span><?php echo strip_tags(get_the_excerpt()); ?></h3>
                         <?php the_content() ?>
                         <a class="ver-mais" href="/sitiosead/galeria#evento-<?php the_ID(); ?>" title="Ver mais fotos do evento na Galeria de Fotos"><span>Ver mais</span></a>
                     </li>
                 <?php endwhile; ?>
-        <?php endif; ?> 
+        <?php endif; ?>
       </ul>
       <a role="button" href="/sitiosead/galeria" title="Ir para Galeria de Fotos">Confira os eventos antigos</a>
     </div>

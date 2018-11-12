@@ -52,6 +52,8 @@
     $('li').not( idt ).removeClass('expandido');
     $('li'+idt).toggleClass('expandido');
     $('html, body').animate({ scrollTop: $("li"+idt).offset().top-280 }, 800);
+    $('path').removeClass('selecionado');
+    $('path' + idt).addClass('selecionado');
   };
 
 </script>

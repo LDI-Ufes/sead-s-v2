@@ -1,6 +1,6 @@
 #ead-na-ufes {
   .destaque {
-    @include destaque($azulEscuro, url("./img/video-destaque.png"));
+    @include destaque($azulEscuro, none);
   }
 
   .breadcrumb {

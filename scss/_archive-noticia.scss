@@ -8,14 +8,12 @@
   }
 
   #posts {
-
     .blog-post {
-
       margin-bottom: 5rem;
       list-style-type: none;
       font-weight: $semi-bold;
 
-      a{
+      a {
         .blog-post-header {
           position: relative;
           height: 30vw;
@@ -62,8 +60,8 @@
           }
         }
 
-        &:hover{
-          .blog-post-header:before{
+        &:hover {
+          .blog-post-header:before {
             opacity: 0.8;
           }
         }
@@ -76,7 +74,7 @@
         margin: 1.5rem;
 
         a:hover {
-          border-bottom: solid .5px $laranjaRegular;
+          border-bottom: solid 0.5px $laranjaRegular;
         }
       }
 
@@ -86,7 +84,7 @@
         line-height: 1.5;
         margin: 1rem 1.5rem;
       }
-    } 
+    }
 
     #postsNav {
       color: $laranjaMedio;
@@ -143,31 +141,41 @@
       color: $laranjaRegular;
     }
 
-    form {
+    // SendGrid Widget
+    form#sendgrid_mc_email_form {
       display: inline-flex;
+      margin-top: 1rem;
       width: 100%;
+      padding: 0 !important;
 
       input {
-        margin-top: 1rem;
         font-family: "Fira Sans", sans-serif !important;
         border: solid 1px $azulEscuro;
+      }
 
-        &[type="email"] {
+      .sendgrid_mc_fields {
+        width: 100%;
+        padding: 0 !important;
+
+        .sendgrid_mc_label_div {
+          display: none;
+        }
+
+        .sendgrid_mc_input {
+          width: calc(100% - .5rem - 2px);
           height: 1.5rem;
+          padding-left: .5rem;
           background-color: $azulExtraClaro;
-          padding-left: 0.5rem;
-          width: 100%;
         }
+      }
 
-        &[type="submit"] {
-          background-color: $azulEscuro;
-          text-transform: uppercase;
-          color: white;
-          font-size: 0.8rem;
-          width: 70px;
-          
-          &:hover{ background-color: darken($azulEscuro, 10); }
-        }
+      .sendgrid_mc_button {
+        margin: 0 !important;
+        height: 100%;
+        background-color: $azulEscuro;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        color: white;
       }
     }
   }
@@ -249,7 +257,6 @@
           margin: 0;
           margin-bottom: 1rem;
           margin-right: -1.5rem;
-
 
           a {
             padding: 0;
@@ -347,9 +354,12 @@
           }
         }
 
-        h3,p { margin: 1rem 0; }
+        h3,
+        p {
+          margin: 1rem 0;
+        }
       }
-      
+
       #postsNav {
         padding: 0 0 2rem;
       }

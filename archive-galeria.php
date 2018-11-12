@@ -17,8 +17,9 @@
     $ano = isset($_GET['ano']) ? filter_var($_GET['ano'], FILTER_SANITIZE_URL) : '2018';
 
     foreach ($terms as $term) {
-      $ativo = ($ano == $term->name) ? ' class="active" ' : '';
-      echo '<a id="' . $term->name . '" href="/sitiosead/galeria/?ano=' . $term->name . '" ' . $ativo . ' >' . $term->name . '</a>';} 
+        $ativo = ($ano == $term->name) ? ' class="active" ' : '';
+        echo '<a id="' . $term->name . '" href="/sitiosead/galeria/?ano=' . $term->name . '" ' . $ativo . ' >' . $term->name . '</a>';
+    }
     ?>
   </section>
 
@@ -36,26 +37,26 @@
     );
 
     $eventos = new WP_Query($args);
-    
+
     if ($eventos->have_posts()) : while ($eventos->have_posts()) : $eventos->the_post(); ?>
-    
+
         <li id="evento-<?php the_ID(); ?>">
           <div><span><?php echo get_the_date('j \d\e F \d\e Y'); ?></span></div>
           <h2><?php the_title(); ?></h2>
 
           <ul class="imagens">
-            <?php the_content() ?>            
+            <?php the_content() ?>
             <button class="abrirTodas" type="button">Abrir todas</button>
-          </ul> 
-          
+          </ul>
+
         </li>
 
       <?php endwhile; ?>
       <?php wp_reset_postdata(); ?>
     <?php else : ?>
       <p><?php esc_html_e('Não há eventos cadastrados.'); ?></p>
-    <?php endif; ?>     
-      
+    <?php endif; ?>
+
   </ul>
 </main>
 
@@ -70,4 +71,19 @@
     else
       $(this).text("Abrir todas");
   });
+
+
+  // Elegibilidade do 'Abrir Todas'
+  let galeriasQuantidade = $('ul.imagens').length;
+
+  for (i = 0; i < galeriasQuantidade; i++) {
+
+    let galeriaX = $('ul.imagens')[i]
+    let galeriaXQuantidade = $(galeriaX).find('img').length
+
+    if (galeriaXQuantidade >= 4) {
+      $(galeriaX).find('.abrirTodas').fadeIn(300).css('display', 'block')
+    }
+  }
+
 </script>

@@ -47,7 +47,7 @@
           padding-left: 15px;
           position: relative;
         }
-        
+
         &:before {
           content: "";
           display: block;
@@ -103,6 +103,7 @@
         }
 
         .abrirTodas {
+          display: none;
           @extend %botao;
           float: right;
           margin-right: 1.5rem;
