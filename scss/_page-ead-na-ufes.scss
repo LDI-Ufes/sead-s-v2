@@ -32,6 +32,16 @@
           color: $azulRegular;
         }
 
+        &.seta-prev, &.seta-next {
+          height: 85px;
+
+          &:before {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+          }
+        }
+
         &.seta-prev {
           left: 1rem;
           display: none;

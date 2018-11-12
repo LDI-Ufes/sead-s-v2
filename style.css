@@ -1666,6 +1666,7 @@ footer {
     position: relative;
     height: 65vh;
     max-height: 545px;
+    overflow: hidden;
     background-image: linear-gradient(#f06c00, transparent), none;
     background-attachment: fixed;
     background-size: cover;
@@ -1833,6 +1834,7 @@ footer {
     position: relative;
     height: 65vh;
     max-height: 545px;
+    overflow: hidden;
     background-image: linear-gradient(#043166, transparent), none;
     background-attachment: fixed;
     background-size: cover;
@@ -1888,6 +1890,12 @@ footer {
           font-weight: 600;
           font-size: 3rem;
           color: #1765ab; }
+        #ead-na-ufes #slider ul button.seta-prev, #ead-na-ufes #slider ul button.seta-next {
+          height: 85px; }
+          #ead-na-ufes #slider ul button.seta-prev:before, #ead-na-ufes #slider ul button.seta-next:before {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%); }
         #ead-na-ufes #slider ul button.seta-prev {
           left: 1rem;
           display: none; }
@@ -2170,6 +2178,7 @@ footer {
     position: relative;
     height: 65vh;
     max-height: 545px;
+    overflow: hidden;
     background-image: linear-gradient(#043166, transparent), url("./img/video-destaque.png");
     background-attachment: fixed;
     background-size: cover;

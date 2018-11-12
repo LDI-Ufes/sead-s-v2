@@ -3,6 +3,7 @@
   position: relative;
   height: 65vh;
   max-height: 545px;
+  overflow: hidden;
   background-image: linear-gradient($cor, transparent), $url;
   background-attachment: fixed;
   background-size: cover;
