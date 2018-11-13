@@ -13,21 +13,21 @@
   // menu mobile
   
   $('#dropdown-menu').click( () => {
-    $('#menu').find('ul').toggleClass('expandido');
+    $('#menu').find('ul').slideToggle(300);
   });
   
   // scroll top
   
-  $('#voltar-ao-topo').click( () => {
-    $('html, body').animate({ scrollTop: 0 }, 800);
-  });
+//  $('#voltar-ao-topo').click( () => {
+//    $('html, body').animate({ scrollTop: 0 }, 800);
+//  });
   
   
   // matriz - accordion
   
   $('#matriz .semestre button').click(function () {
     $(this).toggleClass('ativo');
-    $(this).siblings().slideToggle().toggleClass('expandido');
+    $(this).siblings().slideToggle();
     $('#matriz .semestre button').not($(this)).removeClass('ativo').siblings().slideUp();
   });
 
@@ -35,7 +35,7 @@
   
   $('#faq-curso button').click(function () {
     $(this).toggleClass('ativo');
-    $(this).siblings().slideToggle().toggleClass('expandido');
+    $(this).siblings().slideToggle();
     $('#faq-curso button').not($(this)).removeClass('ativo').siblings().slideUp();
   });
 
@@ -94,7 +94,7 @@
                         tab.attr("aria-selected", "true").parent().addClass("current");
 
                         // Set focus to the first heading in the newly revealed tab content
-                        tabPanel.children("h2").attr("tabindex", -1).focus();
+                        tabPanel.children("h2:first-of-type").attr("tabindex", -1).focus();
                       }
               );
             }

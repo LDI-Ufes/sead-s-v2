@@ -35,12 +35,10 @@
 
     <section id="conteudo">     
 
-
       <aside id="menu"> 
         <button id="dropdown-menu">Menu<i class="fas fa-angle-down"></i></button> 
 
         <ul>
-          <!--<li><a href="#o-curso">O curso</a></li>-->
           <li><a href="#curriculo">Currículo</a></li>
           <li><a href="#corpo-docente">Corpo docente</a></li>
           <li><a href="#perfil-do-egresso">Perfil do egresso</a></li>
@@ -51,32 +49,27 @@
           <span>Contato</span>
           filspsi2017@gmail.com<br>
           (027) 3333-3333
-
         </ul>
 
-        <a title="Voltar ao topo" id="voltar-ao-topo"><b>Voltar ao topo</b><i class="fas fa-arrow-up"></i></a>
+        <!--<a title="Voltar ao topo" id="voltar-ao-topo"><b>Voltar ao topo</b><i class="fas fa-arrow-up"></i></a>-->
       </aside> 
-
-      <!--      <div>
-              <h2 id="o-curso">O curso</h2>
-            </div>-->
 
       <div id='matriz'>
         <h2 id="curriculo">Duração do curso</h2>
-        <p>Carga horária mínima de integralização curricular: 3280 horas</p>
-        <p>Disciplinas: 1440 horas</p>
-        <p>Estágio Curricular Supervisionado Obrigatório: 400 horas</p>
-        <p>Dimensões Pedagógicas: 600 horas</p>
-        <p>Trabalho de Conclusão de Curso: 160 horas</p>
-        <p>Práticas como Componente Curricular: 480 horas</p>
-        <p>Atividades Complementares: 200 horas</p>
+        <p>Carga horária mínima de integralização curricular: 3280 horas<br>
+        Disciplinas: 1440 horas<br>
+        Estágio Curricular Supervisionado Obrigatório: 400 horas<br>
+        Dimensões Pedagógicas: 600 horas<br>
+        Trabalho de Conclusão de Curso: 160 horas<br>
+        Práticas como Componente Curricular: 480 horas<br>
+        Atividades Complementares: 200 horas</p>
 
         <h2>Matriz Curricular</h2>
 
         <ul>
           <li class='semestre'>
             <button class='ativo'><h3>1° semestre</h3></button>
-            <ul class='expandido'>
+            <ul style="display: block;">
               <div>Disciplina <span>Ementa</span></div>
 
               <li>Metodologia da Pesquisa em EAD <span>30h</span></li>
