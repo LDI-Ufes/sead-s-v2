@@ -2710,7 +2710,8 @@ footer {
     color: white; }
   .formPesquisaAtivo #formPesquisa input::-moz-placeholder {
     /* Firefox 19+ */
-    color: white; }
+    color: white;
+    opacity: 1; }
   .formPesquisaAtivo #formPesquisa input:-ms-input-placeholder {
     /* IE 10+ */
     color: white; }
