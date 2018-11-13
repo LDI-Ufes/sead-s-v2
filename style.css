@@ -101,15 +101,30 @@ section.caixa {
 *:focus {
   outline: none; }
 
-.focus-visible {
-  outline: 2px solid #f06c00;
-  outline-offset: 3px;
-  z-index: 7; }
+.focus-visible, .focus-visible.marca svg, .focus-visible.botaoSubmissao i.fas {
+  outline: 2px solid #f06c00; }
 
-input.focus-visible,
-button.focus-visible {
-  outline: none;
-  box-shadow: 0 0 0 2px #f06c00; }
+#lista-barra-brasil .link-barra.focus-visible {
+  outline-offset: -5px; }
+
+#brasil-vlibras .logo-vlibras.focus-visible {
+  outline-offset: -1px; }
+
+#ligacoesExternas > li a.focus-visible {
+  outline-offset: 2px; }
+
+.focus-visible {
+  z-index: 7;
+  outline-offset: 3px; }
+  .focus-visible.marca {
+    outline: none; }
+    .focus-visible.marca svg {
+      outline-offset: 10px; }
+  .focus-visible.botaoSubmissao {
+    outline: none;
+    box-shadow: none; }
+    .focus-visible.botaoSubmissao i.fas {
+      outline-offset: 5px; }
 
 @media screen and (min-width: 992px) {
   .container {
@@ -273,7 +288,7 @@ nav.menu {
     border-bottom-style: solid;
     border-bottom-color: transparent; }
   nav.menu .menuLista li a {
-    padding: 0.3em 0;
+    padding: 0.3em;
     border-bottom-width: 2px;
     border-bottom-style: solid;
     border-bottom-color: transparent; }
@@ -2661,7 +2676,7 @@ footer {
     padding: 10px 14px; }
   #formPesquisa input {
     width: 205px;
-    padding: 10px 35px 10px 15px; }
+    padding: 10px 30px 10px 10px; }
   #formPesquisa input[type="search"]::-ms-clear,
   #formPesquisa input[type="search"]::-ms-reveal {
     display: none;
@@ -2687,7 +2702,6 @@ footer {
     background: none;
     color: white; }
   .formPesquisaAtivo #formPesquisa input {
-    border-radius: 25px;
     background-color: #4298e6 !important; }
   .formPesquisaAtivo #formPesquisa input::placeholder {
     color: white; }
@@ -2709,10 +2723,10 @@ footer {
     background-color: transparent !important; }
   .formPesquisaAtivo #formPesquisa .botaoSubmissao {
     position: absolute;
-    left: calc(100% - 40px); }
+    left: calc(100% - 35px); }
     @media screen and (max-width: 992px) {
       .formPesquisaAtivo #formPesquisa .botaoSubmissao {
-        left: calc(100% - 40px - 1rem); } }
+        left: calc(100% - 35px - 1rem); } }
   .formPesquisaAtivo #formPesquisa .botaoFalso {
     display: none; }
 .formPesquisaAtivo #menuPrincipal,
