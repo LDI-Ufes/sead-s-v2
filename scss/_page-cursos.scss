@@ -1,10 +1,22 @@
 #page-cursos{
 
-  p > a{
-    color: $laranjaMedio;
-    font-weight: $medium;
+  span{
+    font-weight: $light;
+    
+    a{
+      color: $laranjaMedio;
+      font-weight: $medium;
 
-    &:hover{ border-bottom: .5px solid $laranjaMedio;}
+      &:hover{ border-bottom: .5px solid $laranjaMedio;}
+    }
+
+    &.alerta {
+      color: $laranjaRegular;
+      font-size: 1.5rem;
+      line-height: 1.4;
+      margin: 1.5rem 0 .5rem;
+      display: block;
+    }
   }
 
   #abas {
@@ -52,6 +64,7 @@
           margin-right: 1rem;
           margin-bottom: 2rem;
           position: relative;
+          box-shadow: 0px -3px 0px $azulRegular inset;
 
           li{
             bottom: 1rem;
@@ -77,9 +90,8 @@
           }
 
           &.inativo{
-            background-image: linear-gradient(transparent, gray);
+            background-image: linear-gradient(transparent, lighten(black, 20));
             cursor: default;
-            box-shadow: 0px -5px 0px $azulRegular inset;
 
             span{ 
               display: none;
@@ -87,7 +99,7 @@
 
             &:hover{             
               h3{ text-decoration: none; }
-              background-image: linear-gradient(transparent, darken(gray, 10));
+              background-image: linear-gradient(transparent, black);
 
               span{ 
                 display: block;
@@ -105,9 +117,9 @@
                   content: '';
                   width: 0px;
                   height: 0px;
-                  border-left: 10px solid transparent;
-                  border-right: 10px solid transparent;
-                  border-top: 10px solid $azulRegular;
+                  border-left: 11px solid transparent;
+                  border-right: 11px solid transparent;
+                  border-top: 10.5px solid #1765ab;
                   position: absolute;
                   top: 2.1rem;
                   left: 2rem;
@@ -125,6 +137,37 @@
                   left: 2.1rem;
                 }
               }
+            }
+          }
+        }
+      }
+
+      &#aperfeicoamento, &#especializacao{
+        ul{
+          a{
+            height: 3rem;
+            background-color: $azulRegular;
+            background-image: linear-gradient($azulEscuro, transparent);
+            box-shadow: none;
+
+            li{
+              top: 1rem;
+
+              h3{
+                font-size: 1.1rem;
+                font-weight: $regular;
+                line-height: 1.5rem;
+                margin-right: 1rem;
+              }
+            }
+
+            &:hover{ background-image: linear-gradient(transparent, darken($azulRegular, 10)); }
+
+            &.inativo{
+              background-color: gray;
+              background-image: linear-gradient(lighten(black, 20), transparent);
+
+              &:hover{ background-image: linear-gradient(black, transparent); }
             }
           }
         }
