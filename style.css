@@ -2734,6 +2734,9 @@ footer {
   position: absolute;
   left: -9999px; }
 @media screen and (max-width: 576px) {
+  .formPesquisaAtivo .marca svg {
+    margin: 10px 0 10px 20px !important; } }
+@media screen and (max-width: 359px) {
   .formPesquisaAtivo .marca {
     position: absolute;
     left: -9999px; } }

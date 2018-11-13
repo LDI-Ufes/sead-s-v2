@@ -118,6 +118,12 @@
   }
 
   @media screen and (max-width: 576px) {
+    .marca svg {
+      margin: 10px 0 10px 20px !important;
+    }
+  }
+
+  @media screen and (max-width: 359px) {
     .marca {
       position: absolute;
       left: -9999px;
