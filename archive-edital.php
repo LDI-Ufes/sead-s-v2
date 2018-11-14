@@ -19,7 +19,7 @@
           $anos = get_terms(array(
               'taxonomy' => 'ano',
               'oderby' => 'name',
-              'order' => 'ASC'
+              'order' => 'DESC'
                   ));
 
           foreach ($anos as $ano) {
