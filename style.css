@@ -42,7 +42,7 @@ button {
   #inicio #banner .container a:hover, #inicio #polos a:hover, #page-blog a[role="button"]:hover, #page-galeria #eventos li .imagens .abrirTodas:hover, #secretaria #estrutura #planta-sead button#abrir-modal:hover, #edital .secao-edital#inscricao a[role="button"]:hover {
     background-color: #b24800; }
 
-.page p, .page blockquote, #secretaria #estrutura h3, #faq ul li {
+.page p, .page blockquote, #faq ul li, #secretaria #estrutura h3 {
   max-width: 720px;
   margin-right: auto !important;
   margin-left: auto !important; }
@@ -901,69 +901,56 @@ footer {
           margin-top: -7rem;
           height: 350px; } }
 
-.page {
-  line-height: 1.8rem;
-  padding-bottom: 4rem; }
-  .page p {
-    font-weight: 300; }
-  .page blockquote {
-    color: #f06c00;
-    font-family: "Merriweather", serif;
-    font-weight: 700;
-    font-style: italic;
-    margin: 2rem 0;
-    font-size: 1.25rem; }
-  .page .breadcrumb {
-    font-size: 0.8rem;
-    margin: 1.5rem 0; }
-    .page .breadcrumb a {
-      color: #043166;
-      font-weight: 500; }
-      .page .breadcrumb a:hover {
-        text-decoration: underline;
-        font-weight: 700; }
-    .page .breadcrumb strong {
-      color: #043166;
-      font-weight: 500; }
-    .page .breadcrumb span {
-      color: #1765ab; }
-    .page .breadcrumb i {
-      color: #f06c00;
-      font-weight: 700;
-      font-size: 0.6rem;
-      padding: 0 0.3rem; }
-  .page h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #1765ab;
-    padding: 1rem 0 1rem;
-    line-height: 1.3;
-    margin: 0; }
-  .page h2 {
-    color: #1765ab;
-    font-size: 2rem;
-    margin-bottom: 3rem;
-    line-height: 1.2; }
-  .page h3 {
-    color: #f06c00;
-    margin-top: 3rem; }
-  .page #paginacao {
+#erro {
+  position: relative; }
+  #erro h1 {
+    margin-top: 2rem; }
+  #erro #fundo {
+    background-image: url("svg/404.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right bottom;
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.5; }
+  #erro a {
     color: #c75000;
-    padding: 1rem 1rem 2rem;
-    text-align: center;
-    font-weight: 700; }
-    .page #paginacao a,
-    .page #paginacao span {
-      padding: 0 1rem; }
-    .page #paginacao a:hover {
-      border-bottom: solid 1px #b24800;
-      color: #b24800; }
-    .page #paginacao span {
-      color: #1765ab; }
-    .page #paginacao h2 {
-      display: none; }
+    font-weight: 500; }
+    #erro a:hover {
+      border-bottom: solid 0.5px #c75000; }
+    #erro a i {
+      font-size: .9rem; }
+  #erro blockquote {
+    width: calc(100% - 4rem);
+    margin-right: 0 !important;
+    font-weight: 300;
+    color: #1765ab;
+    font-size: 1.8rem;
+    margin-left: 4rem !important;
+    margin-top: 6rem;
+    font-family: "Fira Sans", sans;
+    font-style: normal;
+    line-height: 1.2;
+    position: relative; }
+    #erro blockquote span {
+      font-size: 1rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      display: block;
+      padding-top: 1rem; }
+    #erro blockquote:before {
+      content: url("svg/aspas-abrir.svg");
+      position: absolute;
+      left: -4rem; }
+  @media (min-width: 992px) {
+    #erro blockquote {
+      width: 100%;
+      max-width: 500px; } }
 
-/* page */
+/* erro */
 #page-blog {
   /*
   $azul: #1661A6;
@@ -1599,422 +1586,105 @@ footer {
           margin-right: 1.5rem;
           max-width: calc(25% - 1.5rem); } }
 
-#page-polos {
-  /* #mapaInterativo */
-  /* media */ }
-  #page-polos #mapaInterativo {
-    margin: 5rem 0;
-    position: relative;
-    /* popoverMunicipios */
-    /* #polos */ }
-    #page-polos #mapaInterativo .popoverMunicipios {
-      width: 100%;
-      display: inline-block;
-      vertical-align: top;
-      line-height: 1.5;
-      font-weight: 300;
-      margin-bottom: 2rem; }
-      #page-polos #mapaInterativo .popoverMunicipios h2 {
-        color: #f06c00;
-        font-size: 1.5rem; }
-      #page-polos #mapaInterativo .popoverMunicipios i {
-        color: #1765ab; }
-      #page-polos #mapaInterativo .popoverMunicipios p {
-        font-size: 2rem;
-        color: #1765ab;
-        line-height: 1.3;
-        margin-top: 1rem;
-        position: relative;
-        margin-bottom: 4rem; }
-        #page-polos #mapaInterativo .popoverMunicipios p:after {
-          content: "";
-          position: absolute;
-          height: 0;
-          left: 0;
-          width: 100%;
-          border-top: 2px solid #cfeaff;
-          margin-top: 4rem; }
-    #page-polos #mapaInterativo #polos {
-      /* li */ }
-      #page-polos #mapaInterativo #polos li {
-        padding: 0.5rem 0; }
-        #page-polos #mapaInterativo #polos li button.municipioTitulo {
-          font-weight: 500;
-          color: #1765ab;
-          cursor: pointer;
-          transition: font-size 0.2s;
-          border: none;
-          background: none; }
-          #page-polos #mapaInterativo #polos li button.municipioTitulo:hover {
-            border-bottom: solid 0.5px #1765ab; }
-        #page-polos #mapaInterativo #polos li .info-polo {
-          display: none;
-          line-height: 1.5;
-          padding-top: 1rem;
-          padding-left: 1rem;
-          margin-bottom: 1.2rem; }
-          #page-polos #mapaInterativo #polos li .info-polo i {
-            color: #f06c00; }
-        #page-polos #mapaInterativo #polos li.expandido button.municipioTitulo {
-          font-weight: 700;
-          font-size: 1.5rem;
-          color: #f06c00;
-          margin-top: .8rem; }
-          #page-polos #mapaInterativo #polos li.expandido button.municipioTitulo:hover {
-            border: none; }
-        #page-polos #mapaInterativo #polos li.expandido .info-polo {
-          display: block; }
-    #page-polos #mapaInterativo .mapaES {
-      position: sticky;
-      top: 3rem;
-      width: 50%; }
-  @media screen and (min-width: 992px) {
-    #page-polos {
-      /* #mapaInterativo */ }
-      #page-polos #mapaInterativo .popoverMunicipios {
-        width: 45%; }
-        #page-polos #mapaInterativo .popoverMunicipios p:after {
-          width: 32rem; } }
-  @media screen and (max-width: 991px) {
-    #page-polos #mapaInterativo .mapaES {
-      display: none; } }
-
-#secretaria {
-  /* media */ }
-  #secretaria .destaque {
-    position: relative;
-    height: 65vh;
-    max-height: 545px;
-    overflow: hidden;
-    background-image: linear-gradient(#f06c00, transparent), none;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    margin-top: 0; }
-    #secretaria .destaque .titulo {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      padding: 6rem 1rem;
-      text-align: center;
-      line-height: 3rem;
-      color: white; }
-      #secretaria .destaque .titulo h1 {
-        color: white; }
-      #secretaria .destaque .titulo .fas {
-        margin: 0.5rem 0;
-        font-size: 3.875rem; }
-    @media (max-width: 992px) {
-      #secretaria .destaque {
-        min-height: 35vh; }
-        #secretaria .destaque .titulo {
-          padding: 3rem 1rem; } }
-    #secretaria .destaque:hover {
-      background-image: linear-gradient(#d76100, transparent), none; }
-    #secretaria .destaque video {
-      position: absolute;
-      top: 0;
-      left: 0;
-      z-index: -1; }
-  #secretaria #missao-visao-valores {
-    margin: 4rem 0;
-    position: relative; }
-    #secretaria #missao-visao-valores li {
-      text-align: center;
-      width: 240px;
-      margin: 0 auto;
-      padding: 0 1rem; }
-      #secretaria #missao-visao-valores li h2 {
-        text-transform: lowercase;
-        font-style: italic;
-        font-size: 3rem;
-        font-weight: 800;
-        color: #f06c00; }
-      #secretaria #missao-visao-valores li p {
-        color: #043166;
-        font-weight: 700;
-        line-height: 1.6; }
-  #secretaria #estrutura h2 {
-    margin-top: 6rem; }
-  #secretaria #estrutura #dirigentes li {
-    display: block;
-    width: 100%;
-    margin: 1rem 0;
-    margin-right: 0; }
-  #secretaria #estrutura #infraestrutura p > a {
+.page {
+  line-height: 1.8rem;
+  padding-bottom: 4rem; }
+  .page p {
+    font-weight: 300; }
+  .page blockquote {
+    color: #f06c00;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
     font-style: italic;
+    margin: 2rem 0;
+    font-size: 1.25rem; }
+  .page .breadcrumb {
+    font-size: 0.8rem;
+    margin: 1.5rem 0; }
+    .page .breadcrumb a {
+      color: #043166;
+      font-weight: 500; }
+      .page .breadcrumb a:hover {
+        text-decoration: underline;
+        font-weight: 700; }
+    .page .breadcrumb strong {
+      color: #043166;
+      font-weight: 500; }
+    .page .breadcrumb span {
+      color: #1765ab; }
+    .page .breadcrumb i {
+      color: #f06c00;
+      font-weight: 700;
+      font-size: 0.6rem;
+      padding: 0 0.3rem; }
+  .page h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
     color: #1765ab;
-    margin-left: 0.5rem; }
-    #secretaria #estrutura #infraestrutura p > a:hover {
-      border-bottom: 0.5px solid #1765ab; }
-  #secretaria #estrutura #planta-sead {
-    margin: 6rem 0;
-    margin-bottom: 1rem; }
-    #secretaria #estrutura #planta-sead span {
-      width: 100%;
-      font-size: 2rem;
-      color: #1765ab;
-      line-height: 1.4;
-      font-weight: 300; }
-    #secretaria #estrutura #planta-sead button#abrir-modal {
-      width: 100%;
-      margin-top: 2rem; }
-    #secretaria #estrutura #planta-sead img#planta {
+    padding: 1rem 0 1rem;
+    line-height: 1.3;
+    margin: 0; }
+  .page h2 {
+    color: #1765ab;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    line-height: 1.2; }
+  .page h3 {
+    color: #f06c00;
+    margin-top: 3rem; }
+  .page #paginacao {
+    color: #c75000;
+    padding: 1rem 1rem 2rem;
+    text-align: center;
+    font-weight: 700; }
+    .page #paginacao a,
+    .page #paginacao span {
+      padding: 0 1rem; }
+    .page #paginacao a:hover {
+      border-bottom: solid 1px #b24800;
+      color: #b24800; }
+    .page #paginacao span {
+      color: #1765ab; }
+    .page #paginacao h2 {
       display: none; }
-    #secretaria #estrutura #planta-sead #modal {
-      display: none;
-      position: fixed;
-      z-index: 1;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.4); }
-      #secretaria #estrutura #planta-sead #modal #modal-content {
-        background-color: #fefefe;
-        margin: 50vh 1rem;
-        transform: translateY(-50%);
-        padding: 20px;
-        border: 1px solid #888;
-        border-radius: 5px; }
-        #secretaria #estrutura #planta-sead #modal #modal-content #close {
-          color: white;
-          float: right;
-          font-size: 18px;
-          line-height: 1.2;
-          font-weight: bold;
-          background-color: rgba(0, 0, 0, 0.3);
-          border: none;
-          cursor: pointer;
-          border-radius: 2px; }
-        #secretaria #estrutura #planta-sead #modal #modal-content img {
-          width: 100%; }
-  @media (min-width: 993px) {
-    #secretaria #missao-visao-valores {
-      display: flex;
-      flex-wrap: nowrap;
-      justify-content: space-around;
-      padding: 0 3rem; }
-      #secretaria #missao-visao-valores:before, #secretaria #missao-visao-valores:after {
-        position: absolute;
-        padding-top: 4rem; }
-      #secretaria #missao-visao-valores:before {
-        content: url(svg/aspas-abrir.svg);
-        left: 0; }
-      #secretaria #missao-visao-valores:after {
-        content: url(svg/aspas-fechar.svg);
-        right: 0; }
-    #secretaria #estrutura {
-      margin-top: 7rem; }
-      #secretaria #estrutura #dirigentes li {
-        display: inline-block;
-        width: calc(50% - 2rem);
-        margin-right: 1rem; }
-      #secretaria #estrutura #planta-sead {
-        position: relative;
-        margin-bottom: 3rem; }
-        #secretaria #estrutura #planta-sead span {
-          width: 60%;
-          display: block; }
-        #secretaria #estrutura #planta-sead button#abrir-modal {
-          margin: 1rem 0;
-          margin-top: 3rem;
-          width: auto; }
-        #secretaria #estrutura #planta-sead img#planta {
-          display: block;
-          width: 50%;
-          float: right;
-          cursor: pointer;
-          margin-top: -5rem; }
-        #secretaria #estrutura #planta-sead #modal #modal-content {
-          width: 50%;
-          margin: 50vh auto; } }
 
-/* #secretaria */
-#ead-na-ufes {
-  /* #slider */
-  /* media */ }
-  #ead-na-ufes .destaque {
-    position: relative;
-    height: 65vh;
-    max-height: 545px;
-    overflow: hidden;
-    background-image: linear-gradient(#043166, transparent), none;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    margin-top: 0; }
-    #ead-na-ufes .destaque .titulo {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      padding: 6rem 1rem;
-      text-align: center;
-      line-height: 3rem;
-      color: white; }
-      #ead-na-ufes .destaque .titulo h1 {
-        color: white; }
-      #ead-na-ufes .destaque .titulo .fas {
-        margin: 0.5rem 0;
-        font-size: 3.875rem; }
-    @media (max-width: 992px) {
-      #ead-na-ufes .destaque {
-        min-height: 35vh; }
-        #ead-na-ufes .destaque .titulo {
-          padding: 3rem 1rem; } }
-    #ead-na-ufes .destaque:hover {
-      background-image: linear-gradient(#03254d, transparent), none; }
-    #ead-na-ufes .destaque video {
-      position: absolute;
-      top: 0;
-      left: 0;
-      z-index: -1; }
-  #ead-na-ufes .breadcrumb {
-    margin-bottom: 4rem; }
-  #ead-na-ufes #slider {
-    background-color: #edf9ff;
-    /* ul */ }
-    #ead-na-ufes #slider ul {
-      position: relative;
-      height: inherit;
-      padding: 0;
-      /* button */ }
-      #ead-na-ufes #slider ul button {
-        color: transparent;
-        border: 0;
-        background: none;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 2rem;
-        cursor: pointer; }
-        #ead-na-ufes #slider ul button:before {
-          font-family: "Font Awesome 5 Free";
-          font-weight: 600;
-          font-size: 3rem;
-          color: #1765ab; }
-        #ead-na-ufes #slider ul button.seta-prev, #ead-na-ufes #slider ul button.seta-next {
-          height: 85px; }
-          #ead-na-ufes #slider ul button.seta-prev:before, #ead-na-ufes #slider ul button.seta-next:before {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%); }
-        #ead-na-ufes #slider ul button.seta-prev {
-          left: 1rem;
-          display: none; }
-          #ead-na-ufes #slider ul button.seta-prev:before {
-            content: "\f104"; }
-        #ead-na-ufes #slider ul button.seta-next {
-          right: 1rem; }
-          #ead-na-ufes #slider ul button.seta-next:before {
-            content: "\f105"; }
-      #ead-na-ufes #slider ul li {
-        font-weight: 300;
-        padding: 0 4rem;
-        padding-top: 3rem;
-        display: none;
-        text-align: center; }
-        #ead-na-ufes #slider ul li.ativo {
-          display: block; }
-        #ead-na-ufes #slider ul li svg {
-          height: 7rem; }
-        #ead-na-ufes #slider ul li .grupo h2 {
-          font-weight: 300;
-          font-style: italic;
-          color: #c75000;
-          line-height: 1.3;
-          margin-bottom: 1.5rem;
-          margin-top: 1rem; }
-      #ead-na-ufes #slider ul .dots {
-        text-align: center;
-        width: 100%;
-        margin-bottom: 1rem;
-        padding: 2rem 0 1rem; }
-        #ead-na-ufes #slider ul .dots .dot {
-          position: relative;
-          display: inline-block;
-          margin: 0 5px;
-          cursor: pointer;
-          color: transparent;
-          padding: 0; }
-          #ead-na-ufes #slider ul .dots .dot:before {
-            font-family: "Font Awesome 5 Free";
-            font-weight: 600;
-            font-size: 0.8rem;
-            content: "\f111";
-            color: #1765ab;
-            margin-left: 5px; }
-          #ead-na-ufes #slider ul .dots .dot.ativo:before {
-            color: #c75000; }
-  #ead-na-ufes #agentes {
-    margin-bottom: 4rem; }
-    #ead-na-ufes #agentes li {
-      font-weight: 300;
-      max-width: 720px;
-      margin: 0 auto; }
-      #ead-na-ufes #agentes li button {
-        background: none;
-        border: none;
-        padding: 0.5rem;
-        margin-left: -0.5rem;
-        cursor: pointer; }
-        #ead-na-ufes #agentes li button h3 {
-          display: inline-block;
-          margin: 0;
-          padding: 0;
-          border-bottom: 1px solid transparent; }
-        #ead-na-ufes #agentes li button:before {
-          content: "\f067";
-          font-family: "Font Awesome 5 Free";
-          font-size: 1rem;
-          padding-right: 0.6rem;
-          font-weight: 700;
-          color: #f06c00;
-          cursor: pointer; }
-        #ead-na-ufes #agentes li button.expandido-botao:before {
-          content: "\f068"; }
-        #ead-na-ufes #agentes li button:hover:before {
-          color: #c75000; }
-        #ead-na-ufes #agentes li button:hover > h3 {
-          color: #c75000;
-          border-bottom: 1px solid #c75000; }
-      #ead-na-ufes #agentes li div {
-        display: none;
-        padding: 1rem 0; }
-        #ead-na-ufes #agentes li div.expandido-texto {
-          display: block; }
-  @media (min-width: 992px) {
-    #ead-na-ufes {
-      /* #slider */ }
-      #ead-na-ufes #slider {
-        height: 23rem;
-        /* ul */ }
-        #ead-na-ufes #slider ul {
-          padding: 0; }
-          #ead-na-ufes #slider ul button {
-            width: 3rem; }
-            #ead-na-ufes #slider ul button:before {
-              font-size: 5rem; }
-            #ead-na-ufes #slider ul button:hover:before {
-              font-size: 5.5rem;
-              color: #043166; }
-          #ead-na-ufes #slider ul li {
-            margin: 2rem 0;
-            padding: 0 8rem;
-            padding-top: 3rem;
-            text-align: left; }
-            #ead-na-ufes #slider ul li.ativo {
-              display: flex; }
-            #ead-na-ufes #slider ul li svg {
-              margin-top: 1rem; }
-            #ead-na-ufes #slider ul li .grupo {
-              max-width: 600px;
-              margin-left: 3rem; }
-          #ead-na-ufes #slider ul .dots {
-            position: absolute;
-            bottom: 1rem; } }
+/* page */
+#informativo-confirmacao > * {
+  padding-left: 5rem;
+  padding-right: 3rem; }
+#informativo-confirmacao h1 {
+  padding-top: 5rem;
+  font-size: 5rem;
+  color: #c75000; }
+#informativo-confirmacao section {
+  margin-bottom: 6rem; }
+  #informativo-confirmacao section a {
+    display: inline-block;
+    margin-top: 1rem;
+    font-weight: 500;
+    color: #c75000; }
+    #informativo-confirmacao section a:hover {
+      border-bottom: solid 0.5px #c75000; }
+    #informativo-confirmacao section a i {
+      font-size: 0.9rem; }
+
+#informativo-invalido > * {
+  padding-left: 5rem;
+  padding-right: 3rem; }
+#informativo-invalido h1 {
+  padding-top: 5rem;
+  font-size: 5rem; }
+#informativo-invalido section {
+  margin-bottom: 6rem; }
+  #informativo-invalido section a {
+    display: inline-block;
+    margin-top: 1rem;
+    font-weight: 500;
+    color: #c75000; }
+    #informativo-invalido section a:hover {
+      border-bottom: solid 0.5px #c75000; }
+    #informativo-invalido section a i {
+      font-size: 0.9rem; }
 
 #contatos {
   /* ul */
@@ -2250,6 +1920,460 @@ footer {
     
         }*/ } }
 
+#ead-na-ufes {
+  /* #slider */
+  /* media */ }
+  #ead-na-ufes .destaque {
+    position: relative;
+    height: 65vh;
+    max-height: 545px;
+    overflow: hidden;
+    background-image: linear-gradient(#043166, transparent), none;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0; }
+    #ead-na-ufes .destaque .titulo {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 6rem 1rem;
+      text-align: center;
+      line-height: 3rem;
+      color: white; }
+      #ead-na-ufes .destaque .titulo h1 {
+        color: white; }
+      #ead-na-ufes .destaque .titulo .fas {
+        margin: 0.5rem 0;
+        font-size: 3.875rem; }
+    @media (max-width: 992px) {
+      #ead-na-ufes .destaque {
+        min-height: 35vh; }
+        #ead-na-ufes .destaque .titulo {
+          padding: 3rem 1rem; } }
+    #ead-na-ufes .destaque:hover {
+      background-image: linear-gradient(#03254d, transparent), none; }
+    #ead-na-ufes .destaque video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1; }
+  #ead-na-ufes .breadcrumb {
+    margin-bottom: 4rem; }
+  #ead-na-ufes #slider {
+    background-color: #edf9ff;
+    /* ul */ }
+    #ead-na-ufes #slider ul {
+      position: relative;
+      height: inherit;
+      padding: 0;
+      /* button */ }
+      #ead-na-ufes #slider ul button {
+        color: transparent;
+        border: 0;
+        background: none;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 2rem;
+        cursor: pointer; }
+        #ead-na-ufes #slider ul button:before {
+          font-family: "Font Awesome 5 Free";
+          font-weight: 600;
+          font-size: 3rem;
+          color: #1765ab; }
+        #ead-na-ufes #slider ul button.seta-prev, #ead-na-ufes #slider ul button.seta-next {
+          height: 85px; }
+          #ead-na-ufes #slider ul button.seta-prev:before, #ead-na-ufes #slider ul button.seta-next:before {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%); }
+        #ead-na-ufes #slider ul button.seta-prev {
+          left: 1rem;
+          display: none; }
+          #ead-na-ufes #slider ul button.seta-prev:before {
+            content: "\f104"; }
+        #ead-na-ufes #slider ul button.seta-next {
+          right: 1rem; }
+          #ead-na-ufes #slider ul button.seta-next:before {
+            content: "\f105"; }
+      #ead-na-ufes #slider ul li {
+        font-weight: 300;
+        padding: 0 4rem;
+        padding-top: 3rem;
+        display: none;
+        text-align: center; }
+        #ead-na-ufes #slider ul li.ativo {
+          display: block; }
+        #ead-na-ufes #slider ul li svg {
+          height: 7rem; }
+        #ead-na-ufes #slider ul li .grupo h2 {
+          font-weight: 300;
+          font-style: italic;
+          color: #c75000;
+          line-height: 1.3;
+          margin-bottom: 1.5rem;
+          margin-top: 1rem; }
+      #ead-na-ufes #slider ul .dots {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 1rem;
+        padding: 2rem 0 1rem; }
+        #ead-na-ufes #slider ul .dots .dot {
+          position: relative;
+          display: inline-block;
+          margin: 0 5px;
+          cursor: pointer;
+          color: transparent;
+          padding: 0; }
+          #ead-na-ufes #slider ul .dots .dot:before {
+            font-family: "Font Awesome 5 Free";
+            font-weight: 600;
+            font-size: 0.8rem;
+            content: "\f111";
+            color: #1765ab;
+            margin-left: 5px; }
+          #ead-na-ufes #slider ul .dots .dot.ativo:before {
+            color: #c75000; }
+  #ead-na-ufes #agentes {
+    margin-bottom: 4rem; }
+    #ead-na-ufes #agentes li {
+      font-weight: 300;
+      max-width: 720px;
+      margin: 0 auto; }
+      #ead-na-ufes #agentes li button {
+        background: none;
+        border: none;
+        padding: 0.5rem;
+        margin-left: -0.5rem;
+        cursor: pointer; }
+        #ead-na-ufes #agentes li button h3 {
+          display: inline-block;
+          margin: 0;
+          padding: 0;
+          border-bottom: 1px solid transparent; }
+        #ead-na-ufes #agentes li button:before {
+          content: "\f067";
+          font-family: "Font Awesome 5 Free";
+          font-size: 1rem;
+          padding-right: 0.6rem;
+          font-weight: 700;
+          color: #f06c00;
+          cursor: pointer; }
+        #ead-na-ufes #agentes li button.expandido-botao:before {
+          content: "\f068"; }
+        #ead-na-ufes #agentes li button:hover:before {
+          color: #c75000; }
+        #ead-na-ufes #agentes li button:hover > h3 {
+          color: #c75000;
+          border-bottom: 1px solid #c75000; }
+      #ead-na-ufes #agentes li div {
+        display: none;
+        padding: 1rem 0; }
+        #ead-na-ufes #agentes li div.expandido-texto {
+          display: block; }
+  @media (min-width: 992px) {
+    #ead-na-ufes {
+      /* #slider */ }
+      #ead-na-ufes #slider {
+        height: 23rem;
+        /* ul */ }
+        #ead-na-ufes #slider ul {
+          padding: 0; }
+          #ead-na-ufes #slider ul button {
+            width: 3rem; }
+            #ead-na-ufes #slider ul button:before {
+              font-size: 5rem; }
+            #ead-na-ufes #slider ul button:hover:before {
+              font-size: 5.5rem;
+              color: #043166; }
+          #ead-na-ufes #slider ul li {
+            margin: 2rem 0;
+            padding: 0 8rem;
+            padding-top: 3rem;
+            text-align: left; }
+            #ead-na-ufes #slider ul li.ativo {
+              display: flex; }
+            #ead-na-ufes #slider ul li svg {
+              margin-top: 1rem; }
+            #ead-na-ufes #slider ul li .grupo {
+              max-width: 600px;
+              margin-left: 3rem; }
+          #ead-na-ufes #slider ul .dots {
+            position: absolute;
+            bottom: 1rem; } }
+
+#faq {
+  /* ul */ }
+  #faq ul {
+    /* li */ }
+    #faq ul li {
+      margin: 1.5rem 0; }
+      #faq ul li button {
+        background: none;
+        border: none;
+        text-align: left; }
+        #faq ul li button:hover {
+          cursor: pointer; }
+          #faq ul li button:hover > h2 {
+            border-bottom: 2px solid #f06c00; }
+        #faq ul li button:before {
+          content: "\f067";
+          font-family: "Font Awesome 5 Free";
+          color: #f06c00;
+          font-size: 1rem;
+          padding-right: 0.6rem;
+          font-weight: 700; }
+        #faq ul li button h2 {
+          color: black;
+          font-size: 1.2rem;
+          padding: 0;
+          margin: 0;
+          font-weight: 400;
+          display: inline; }
+        #faq ul li button.ativo:before {
+          content: "\f068"; }
+        #faq ul li button.ativo h2 {
+          font-weight: 700; }
+      #faq ul li p {
+        display: none; }
+        #faq ul li p.expandido {
+          display: block; }
+
+#page-polos {
+  /* #mapaInterativo */
+  /* media */ }
+  #page-polos #mapaInterativo {
+    margin: 5rem 0;
+    position: relative;
+    /* popoverMunicipios */
+    /* #polos */ }
+    #page-polos #mapaInterativo .popoverMunicipios {
+      width: 100%;
+      display: inline-block;
+      vertical-align: top;
+      line-height: 1.5;
+      font-weight: 300;
+      margin-bottom: 2rem; }
+      #page-polos #mapaInterativo .popoverMunicipios h2 {
+        color: #f06c00;
+        font-size: 1.5rem; }
+      #page-polos #mapaInterativo .popoverMunicipios i {
+        color: #1765ab; }
+      #page-polos #mapaInterativo .popoverMunicipios p {
+        font-size: 2rem;
+        color: #1765ab;
+        line-height: 1.3;
+        margin-top: 1rem;
+        position: relative;
+        margin-bottom: 4rem; }
+        #page-polos #mapaInterativo .popoverMunicipios p:after {
+          content: "";
+          position: absolute;
+          height: 0;
+          left: 0;
+          width: 100%;
+          border-top: 2px solid #cfeaff;
+          margin-top: 4rem; }
+    #page-polos #mapaInterativo #polos {
+      /* li */ }
+      #page-polos #mapaInterativo #polos li {
+        padding: 0.5rem 0; }
+        #page-polos #mapaInterativo #polos li button.municipioTitulo {
+          font-weight: 500;
+          color: #1765ab;
+          cursor: pointer;
+          transition: font-size 0.2s;
+          border: none;
+          background: none; }
+          #page-polos #mapaInterativo #polos li button.municipioTitulo:hover {
+            border-bottom: solid 0.5px #1765ab; }
+        #page-polos #mapaInterativo #polos li .info-polo {
+          display: none;
+          line-height: 1.5;
+          padding-top: 1rem;
+          padding-left: 1rem;
+          margin-bottom: 1.2rem; }
+          #page-polos #mapaInterativo #polos li .info-polo i {
+            color: #f06c00; }
+        #page-polos #mapaInterativo #polos li.expandido button.municipioTitulo {
+          font-weight: 700;
+          font-size: 1.5rem;
+          color: #f06c00;
+          margin-top: .8rem; }
+          #page-polos #mapaInterativo #polos li.expandido button.municipioTitulo:hover {
+            border: none; }
+        #page-polos #mapaInterativo #polos li.expandido .info-polo {
+          display: block; }
+    #page-polos #mapaInterativo .mapaES {
+      position: sticky;
+      top: 3rem;
+      width: 50%; }
+  @media screen and (min-width: 992px) {
+    #page-polos {
+      /* #mapaInterativo */ }
+      #page-polos #mapaInterativo .popoverMunicipios {
+        width: 45%; }
+        #page-polos #mapaInterativo .popoverMunicipios p:after {
+          width: 32rem; } }
+  @media screen and (max-width: 991px) {
+    #page-polos #mapaInterativo .mapaES {
+      display: none; } }
+
+#secretaria {
+  /* media */ }
+  #secretaria .destaque {
+    position: relative;
+    height: 65vh;
+    max-height: 545px;
+    overflow: hidden;
+    background-image: linear-gradient(#f06c00, transparent), none;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0; }
+    #secretaria .destaque .titulo {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 6rem 1rem;
+      text-align: center;
+      line-height: 3rem;
+      color: white; }
+      #secretaria .destaque .titulo h1 {
+        color: white; }
+      #secretaria .destaque .titulo .fas {
+        margin: 0.5rem 0;
+        font-size: 3.875rem; }
+    @media (max-width: 992px) {
+      #secretaria .destaque {
+        min-height: 35vh; }
+        #secretaria .destaque .titulo {
+          padding: 3rem 1rem; } }
+    #secretaria .destaque:hover {
+      background-image: linear-gradient(#d76100, transparent), none; }
+    #secretaria .destaque video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1; }
+  #secretaria #missao-visao-valores {
+    margin: 4rem 0;
+    position: relative; }
+    #secretaria #missao-visao-valores li {
+      text-align: center;
+      width: 240px;
+      margin: 0 auto;
+      padding: 0 1rem; }
+      #secretaria #missao-visao-valores li h2 {
+        text-transform: lowercase;
+        font-style: italic;
+        font-size: 3rem;
+        font-weight: 800;
+        color: #f06c00; }
+      #secretaria #missao-visao-valores li p {
+        color: #043166;
+        font-weight: 700;
+        line-height: 1.6; }
+  #secretaria #estrutura h2 {
+    margin-top: 6rem; }
+  #secretaria #estrutura #dirigentes li {
+    display: block;
+    width: 100%;
+    margin: 1rem 0;
+    margin-right: 0; }
+  #secretaria #estrutura #infraestrutura p > a {
+    font-style: italic;
+    color: #1765ab;
+    margin-left: 0.5rem; }
+    #secretaria #estrutura #infraestrutura p > a:hover {
+      border-bottom: 0.5px solid #1765ab; }
+  #secretaria #estrutura #planta-sead {
+    margin: 6rem 0;
+    margin-bottom: 1rem; }
+    #secretaria #estrutura #planta-sead span {
+      width: 100%;
+      font-size: 2rem;
+      color: #1765ab;
+      line-height: 1.4;
+      font-weight: 300; }
+    #secretaria #estrutura #planta-sead button#abrir-modal {
+      width: 100%;
+      margin-top: 2rem; }
+    #secretaria #estrutura #planta-sead img#planta {
+      display: none; }
+    #secretaria #estrutura #planta-sead #modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.4); }
+      #secretaria #estrutura #planta-sead #modal #modal-content {
+        background-color: #fefefe;
+        margin: 50vh 1rem;
+        transform: translateY(-50%);
+        padding: 20px;
+        border: 1px solid #888;
+        border-radius: 5px; }
+        #secretaria #estrutura #planta-sead #modal #modal-content #close {
+          color: white;
+          float: right;
+          font-size: 18px;
+          line-height: 1.2;
+          font-weight: bold;
+          background-color: rgba(0, 0, 0, 0.3);
+          border: none;
+          cursor: pointer;
+          border-radius: 2px; }
+        #secretaria #estrutura #planta-sead #modal #modal-content img {
+          width: 100%; }
+  @media (min-width: 993px) {
+    #secretaria #missao-visao-valores {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-around;
+      padding: 0 3rem; }
+      #secretaria #missao-visao-valores:before, #secretaria #missao-visao-valores:after {
+        position: absolute;
+        padding-top: 4rem; }
+      #secretaria #missao-visao-valores:before {
+        content: url(svg/aspas-abrir.svg);
+        left: 0; }
+      #secretaria #missao-visao-valores:after {
+        content: url(svg/aspas-fechar.svg);
+        right: 0; }
+    #secretaria #estrutura {
+      margin-top: 7rem; }
+      #secretaria #estrutura #dirigentes li {
+        display: inline-block;
+        width: calc(50% - 2rem);
+        margin-right: 1rem; }
+      #secretaria #estrutura #planta-sead {
+        position: relative;
+        margin-bottom: 3rem; }
+        #secretaria #estrutura #planta-sead span {
+          width: 60%;
+          display: block; }
+        #secretaria #estrutura #planta-sead button#abrir-modal {
+          margin: 1rem 0;
+          margin-top: 3rem;
+          width: auto; }
+        #secretaria #estrutura #planta-sead img#planta {
+          display: block;
+          width: 50%;
+          float: right;
+          cursor: pointer;
+          margin-top: -5rem; }
+        #secretaria #estrutura #planta-sead #modal #modal-content {
+          width: 50%;
+          margin: 50vh auto; } }
+
+/* #secretaria */
 .curso {
   padding-bottom: 0;
   /* #noticias */ }
@@ -2696,93 +2820,6 @@ footer {
     float: right;
     margin-top: 0.5rem; } }
 
-#faq {
-  /* ul */ }
-  #faq ul {
-    /* li */ }
-    #faq ul li {
-      margin: 1.5rem 0; }
-      #faq ul li button {
-        background: none;
-        border: none;
-        text-align: left; }
-        #faq ul li button:hover {
-          cursor: pointer; }
-          #faq ul li button:hover > h2 {
-            border-bottom: 2px solid #f06c00; }
-        #faq ul li button:before {
-          content: "\f067";
-          font-family: "Font Awesome 5 Free";
-          color: #f06c00;
-          font-size: 1rem;
-          padding-right: 0.6rem;
-          font-weight: 700; }
-        #faq ul li button h2 {
-          color: black;
-          font-size: 1.2rem;
-          padding: 0;
-          margin: 0;
-          font-weight: 400;
-          display: inline; }
-        #faq ul li button.ativo:before {
-          content: "\f068"; }
-        #faq ul li button.ativo h2 {
-          font-weight: 700; }
-      #faq ul li p {
-        display: none; }
-        #faq ul li p.expandido {
-          display: block; }
-
-#erro {
-  position: relative; }
-  #erro h1 {
-    margin-top: 2rem; }
-  #erro #fundo {
-    background-image: url("svg/404.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right bottom;
-    width: 100%;
-    height: 80%;
-    position: absolute;
-    bottom: 0;
-    z-index: -1;
-    opacity: 0.5; }
-  #erro a {
-    color: #c75000;
-    font-weight: 500; }
-    #erro a:hover {
-      border-bottom: solid 0.5px #c75000; }
-    #erro a i {
-      font-size: .9rem; }
-  #erro blockquote {
-    width: calc(100% - 4rem);
-    margin-right: 0 !important;
-    font-weight: 300;
-    color: #1765ab;
-    font-size: 1.8rem;
-    margin-left: 4rem !important;
-    margin-top: 6rem;
-    font-family: "Fira Sans", sans;
-    font-style: normal;
-    line-height: 1.2;
-    position: relative; }
-    #erro blockquote span {
-      font-size: 1rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      display: block;
-      padding-top: 1rem; }
-    #erro blockquote:before {
-      content: url("svg/aspas-abrir.svg");
-      position: absolute;
-      left: -4rem; }
-  @media (min-width: 992px) {
-    #erro blockquote {
-      width: 100%;
-      max-width: 500px; } }
-
-/* erro */
 #pagPesquisa {
   /* #resultados */ }
   #pagPesquisa h1 {
