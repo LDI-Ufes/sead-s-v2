@@ -32,6 +32,16 @@
           color: $azulRegular;
         }
 
+        &.seta-prev, &.seta-next {
+          height: 85px;
+
+          &:before {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+          }
+        }
+
         &.seta-prev {
           left: 1rem;
           display: none;
@@ -124,9 +134,10 @@
         cursor: pointer;
 
         h3 {
+          display: inline-block;
           margin: 0;
           padding: 0;
-          display: inline-block;
+          border-bottom: 1px solid transparent;
         }
 
         &:before {
@@ -148,10 +159,9 @@
             color: $laranjaMedio;
           }
 
-          h3 {
+          > h3 {
             color: $laranjaMedio;
-            text-decoration: underline;
-            text-underline-position: under;
+            border-bottom: 1px solid $laranjaMedio;
           }
         }
       }
