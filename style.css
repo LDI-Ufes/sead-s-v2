@@ -30,7 +30,7 @@ button {
   font-weight: inherit; }
 
 /* .page > #ead-na-ufes, #secretaria, single-curso */
-#inicio #banner .container a, #inicio #polos a, #page-blog a[role="button"], #page-galeria #eventos li .imagens .abrirTodas, #secretaria #estrutura #planta-sead button, #edital .secao-edital#inscricao a[role="button"] {
+#inicio #banner .container a, #inicio #polos a, #page-blog a[role="button"], #page-galeria #eventos li .imagens .abrirTodas, #edital .secao-edital#inscricao a[role="button"] {
   background-color: #c75000;
   text-transform: uppercase;
   color: white;
@@ -38,7 +38,7 @@ button {
   padding: 0.6rem 2rem;
   margin: 1rem 0;
   font-weight: 500; }
-  #inicio #banner .container a:hover, #inicio #polos a:hover, #page-blog a[role="button"]:hover, #page-galeria #eventos li .imagens .abrirTodas:hover, #secretaria #estrutura #planta-sead button:hover, #edital .secao-edital#inscricao a[role="button"]:hover {
+  #inicio #banner .container a:hover, #inicio #polos a:hover, #page-blog a[role="button"]:hover, #page-galeria #eventos li .imagens .abrirTodas:hover, #edital .secao-edital#inscricao a[role="button"]:hover {
     background-color: #b24800; }
 
 .page p, .page blockquote, #secretaria #estrutura h3, #faq ul li {
@@ -1714,47 +1714,24 @@ footer {
       top: 0;
       left: 0;
       z-index: -1; }
-  #secretaria #abas {
-    position: relative;
-    display: inline-flex;
-    flex-direction: column;
-    margin: 0 -100px;
-    width: calc(100% + 200px);
-    padding: 3.5rem 0;
-    overflow: hidden; }
-    #secretaria #abas:before, #secretaria #abas:after {
-      position: absolute; }
-    #secretaria #abas:before {
-      content: url(svg/aspas-abrir.svg);
-      top: 100px;
-      left: 100px; }
-    #secretaria #abas:after {
-      content: url(svg/aspas-fechar.svg);
-      top: 200px;
-      right: 100px; }
-    #secretaria #abas .tabsList {
-      display: flex;
-      justify-content: space-between;
-      margin: 0 auto 1rem auto;
-      width: 550px;
-      line-height: 3.75rem;
-      text-transform: lowercase;
-      font-style: italic;
-      font-size: 3rem;
-      font-weight: 800;
-      color: #f06c00; }
-      #secretaria #abas .tabsList a:hover {
-        color: #ff8724; }
-      #secretaria #abas .tabsList .current {
-        color: #1765ab; }
-        #secretaria #abas .tabsList .current a:hover {
-          cursor: default;
-          color: inherit; }
-    #secretaria #abas .tabPanel {
+  #secretaria #missao-visao-valores {
+    margin: 4rem 0;
+    position: relative; }
+    #secretaria #missao-visao-valores li {
       text-align: center;
-      line-height: 2.4rem;
-      font-size: 1.75rem;
-      color: #1661a6; }
+      width: 240px;
+      margin: 0 auto;
+      padding: 0 1rem; }
+      #secretaria #missao-visao-valores li h2 {
+        text-transform: lowercase;
+        font-style: italic;
+        font-size: 3rem;
+        font-weight: 800;
+        color: #f06c00; }
+      #secretaria #missao-visao-valores li p {
+        color: #043166;
+        font-weight: 700;
+        line-height: 1.6; }
   #secretaria #estrutura h2 {
     margin-top: 6rem; }
   #secretaria #estrutura #dirigentes li {
@@ -1777,9 +1754,6 @@ footer {
       color: #1765ab;
       line-height: 1.4;
       font-weight: 300; }
-    #secretaria #estrutura #planta-sead button {
-      width: 100%;
-      margin-top: 2rem; }
     #secretaria #estrutura #planta-sead p {
       display: none; }
       #secretaria #estrutura #planta-sead p:last-of-type {
@@ -1789,8 +1763,20 @@ footer {
           width: 100%;
           height: auto; }
   @media (min-width: 993px) {
-    #secretaria #abas {
-      min-height: 200px; }
+    #secretaria #missao-visao-valores {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-around;
+      padding: 0 3rem; }
+      #secretaria #missao-visao-valores:before, #secretaria #missao-visao-valores:after {
+        position: absolute;
+        padding-top: 4rem; }
+      #secretaria #missao-visao-valores:before {
+        content: url(svg/aspas-abrir.svg);
+        left: 0; }
+      #secretaria #missao-visao-valores:after {
+        content: url(svg/aspas-fechar.svg);
+        right: 0; }
     #secretaria #estrutura {
       margin-top: 7rem; }
       #secretaria #estrutura #dirigentes li {
@@ -1803,10 +1789,6 @@ footer {
         #secretaria #estrutura #planta-sead span {
           width: 60%;
           display: block; }
-        #secretaria #estrutura #planta-sead button {
-          margin: 1rem 0;
-          margin-top: 3rem;
-          width: auto; }
         #secretaria #estrutura #planta-sead p:last-of-type img {
           position: absolute;
           width: 60%;
@@ -1814,33 +1796,6 @@ footer {
           right: 0;
           top: -4rem;
           margin-top: 0; } }
-  @media (max-width: 992px) {
-    #secretaria #abas {
-      margin: 0;
-      width: 100%;
-      padding: 0; }
-      #secretaria #abas:before, #secretaria #abas:after {
-        content: ""; }
-      #secretaria #abas .tabsList {
-        position: relative;
-        justify-content: space-around;
-        margin: 0 auto;
-        max-width: 720px;
-        line-height: 2.75rem;
-        font-size: 2rem; }
-      #secretaria #abas .tabPanel {
-        line-height: 2rem;
-        font-size: 1.25rem; } }
-  @media (max-width: 576px) {
-    #secretaria #abas {
-      border-left: 4px solid #1765ab;
-      width: calc(100% - 20px);
-      padding-left: 15px; }
-      #secretaria #abas .tabsList {
-        flex-direction: column;
-        width: 100%; }
-      #secretaria #abas .tabPanel {
-        text-align: left; } }
 
 /* #secretaria */
 #ead-na-ufes {

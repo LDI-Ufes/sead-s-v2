@@ -21,22 +21,11 @@
 
     <section class="breadcrumb">Você está em: <strong>Ensino</strong><i class="fas fa-greater-than"></i><span>Secretaria de Ensino a Distância</span></section>
 
-    <div id="abas">
-      <ul>
-        <li><a href="#missao">Missão</a></li>
-        <li><a href="#visao">Visão</a></li>
-        <li><a href="#valores">Valores</a></li>
-      </ul>
-      <div>
-        <p>Propiciar ensino superior e qualificação profissional aos cidadãos na modalidade EaD, de forma colaborativa.</p>
-      </div>
-      <div>
-        <p>Consolidar institucionalmente a EaD e ser reconhecida nacionalmente pelo seu nível de excelência.</p>
-      </div>
-      <div>
-        <p> Valorização do EaD – Excelência – Empreendedorismo – Colaboração – Inclusão – Diversidade.</p>
-      </div>
-    </div>
+    <ul id="missao-visao-valores">
+      <li><h2>Missão</h2><p>Propiciar ensino superior e qualificação profissional aos cidadãos na modalidade EaD, de forma colaborativa.</p></li>
+      <li><h2>Visão</h2><p>Consolidar institucionalmente a EaD e ser reconhecida nacionalmente pelo seu nível de excelência.</p></li>
+      <li><h2>Valores</h2><p> Valorização do EaD – Excelência – Empreendedorismo – Colaboração – Inclusão – Diversidade.</p></li>
+    </ul>
 
     <div>
       <p>A Universidade Federal do Espírito Santo – Ufes, ao longo de sua história, tem formado geração de profissionais e, por isso, conquistou respeito e credibilidade junto à sociedade espírito-santense. A partir de 2001,  credenciou-se junto ao Ministério da Educação – MEC para a oferta de cursos superiores na modalidade de EaD.</p>
@@ -99,7 +88,6 @@
       </ul>
       <div id="planta-sead">
         <span>Quer conhecer melhor nossa estrutura? Clique na planta!</span>
-        <!--<button>Abrir mapa detalhado</button>-->
         <?php the_content() ?>
       </div>
 
@@ -108,105 +96,3 @@
 </main>
 
 <?php get_footer(); ?>
-
-<script>
-
-  $('button').click(function(){
-    console.log("clique");
-    $(this).siblings("p").find('#img-sead').trigger('click');
-
-  });
-
-  $(function() {
-    var tabs = $("#abas");
-
-    // For each individual tab DIV, set class and aria-hidden attribute, and hide it
-    $(tabs).find("> div").attr({
-        "class": "tabPanel",
-        "aria-hidden": "true"
-    }).hide();
-
-    // Get the list of tab links
-    var tabsList = tabs.find("ul:first").attr({
-        "class": "tabsList",
-    });
-
-    // For each item in the tabs list...
-    $(tabsList).find("li > a").each(
-        function(a){
-            var tab = $(this);
-
-            // Create a unique id using the tab link's href
-            var tabId = "tab-" + tab.attr("href").slice(1);
-
-            // Assign tab id and aria-selected attribute to the tab control, but do not remove the href
-            tab.attr({
-                "id": tabId,
-                "aria-selected": "false",
-            }).parent().attr("role", "presentation");
-
-            // Assign aria attribute to the relevant tab panel
-            $(tabs).find(".tabPanel").eq(a).attr("aria-labelledby", tabId);
-
-            // Set the click event for each tab link
-            tab.click(
-                function(e){
-                    var tabPanel;
-
-                    // Prevent default click event
-                    e.preventDefault();
-
-                    // Change state of previously selected tabList item
-                    $(tabsList).find("> li.current").removeClass("current").find("> a").attr("aria-selected", "false");
-
-                    // Hide previously selected tabPanel
-                    $(tabs).find(".tabPanel:visible").attr("aria-hidden", "true").hide();
-
-                    // Show newly selected tabPanel
-                    tabPanel = $(tabs).find(".tabPanel").eq(tab.parent().index());
-                    tabPanel.attr("aria-hidden", "false").show();
-
-                    // Set state of newly selected tab list item
-                    tab.attr("aria-selected", "true").parent().addClass("current");
-
-                    // Set focus to the paragraph in the newly revealed tab content
-                    tabPanel.children("p").attr("tabindex", -1).focus();
-                }
-            );
-        }
-    );
-
-    // Set keydown events on tabList item for navigating tabs
-    $(tabsList).delegate("a", "keydown",
-        function (e) {
-            var tab = $(this);
-            switch (e.which) {
-                case 37: case 38:
-                    if (tab.parent().prev().length!=0) {
-                        tab.parent().prev().find("> a").click();
-                    } else {
-                        $(tabsList).find("li:last > a").click();
-                    }
-                    break;
-                case 39: case 40:
-                    if (tab.parent().next().length!=0) {
-                        tab.parent().next().find("> a").click();
-                    } else {
-                        $(tabsList).find("li:first > a").click();
-                    }
-                    break;
-            }
-        }
-    );
-
-    // Show the first tabPanel
-    $(tabs).find(".tabPanel:first").attr("aria-hidden", "false").show();
-
-    // Set state for the first tabsList li
-    $(tabsList).find("li:first").addClass("current").find(" > a").attr({
-        "aria-selected": "true",
-        "tabindex": "0"
-    });
-});
-
-</script>
