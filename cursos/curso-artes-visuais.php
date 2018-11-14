@@ -43,8 +43,8 @@
           <li><a href="#corpo-docente">Corpo docente</a></li>
           <li><a href="#perfil-do-egresso">Perfil do egresso</a></li>
           <li><a href="#ofertas-anteriores">Ofertas anteriores</a></li>
-          <a><i class="fas fa-external-link-alt"></i>PPC</a>
-          <a><i class="fas fa-external-link-alt"></i>Guia do aluno</a>
+          <a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Artes-Visuais_PPC.pdf" target="_blank"><i class="fas fa-external-link-alt"></i>PPC</a>
+          <a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Artes-Visuais_Guia-do-aluno.pdf" target="_blank"><i class="fas fa-external-link-alt"></i>Guia do aluno</a>
 
           <span>Contato</span>
           filspsi2017@gmail.com<br>
@@ -72,13 +72,13 @@
             <ul style="display: block;">
               <div>Disciplina <span>Ementa</span></div>
 
-              <li>Metodologia da Pesquisa em EAD <span>30h</span></li>
-              <li>Fundamentos Estruturais e Pedagógicos da EAD <span>30h</span></li>
-              <li>Interações Culturais <span>60h</span></li>
-              <li>Linguagem Gráfica <span>60h</span></li>
-              <li>Percepção e Composição <span>60h</span></li>
-              <li>Propostas Metodológicas do Ensino da Arte I <span>60h</span></li>
-              <li>Seminário I <span>60h</span></li>
+              <li>Metodologia da Pesquisa em EAD <span>30h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Fundamentos Estruturais e Pedagógicos da EAD <span>30h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Interações Culturais <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Linguagem Gráfica <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Percepção e Composição <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Propostas Metodológicas do Ensino da Arte I <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Seminário I <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
             </ul>
           </li>
 
@@ -87,13 +87,13 @@
             <ul>
               <div>Disciplina <span>Ementa</span></div>
 
-              <li>Artes da Fibra <span>60h</span></li>
-              <li>Aspectos Legais do Ensino da Arte <span>60h</span></li>
-              <li>Cor e Laboratório de Tintas e Materiais <span>60h</span></li>
-              <li>Desenho I <span>60h</span></li>
-              <li>História da Arte I <span>60h</span></li>
-              <li>Propostas Metodológicas do Ensino da Arte II <span>60h</span></li>
-              <li>Seminário II <span>60h</span></li>
+              <li>Artes da Fibra <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Aspectos Legais do Ensino da Arte <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Cor e Laboratório de Tintas e Materiais <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Desenho I <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>História da Arte I <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Propostas Metodológicas do Ensino da Arte II <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Seminário II <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
             </ul>
           </li>
 
@@ -102,14 +102,14 @@
             <ul>
               <div>Disciplina <span>Ementa</span></div>
 
-              <li>Antropologia Visual <span>60h</span></li>
-              <li>Desenho II <span>60h</span></li>
-              <li>Didática do Ensino da Arte <span>60h</span></li>
-              <li>Estágio I <span>100h</span></li>
-              <li>História da Arte II <span>60h</span></li>
-              <li>Modelagem <span>60h</span></li>
-              <li>Seminário III <span>60h</span></li>
-              <li>Sintaxe Visual  <span>60h</span></li>
+              <li>Antropologia Visual <span>60h</span<a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Desenho II <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Didática do Ensino da Arte <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Estágio I <span>100h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>História da Arte II <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Modelagem <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Seminário III <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Sintaxe Visual  <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
             </ul>
           </li>
 
@@ -118,14 +118,14 @@
             <ul>
               <div>Disciplina <span>Ementa</span></div>
 
-              <li>Filosofia da Arte <span>60h</span></li>
-              <li>Fotografia <span>60h</span></li>
-              <li>História da Arte III <span>60h</span></li>
-              <li>Prática de Ensino I <span>100h</span></li>
-              <li>História da Arte II <span>60h</span></li>
-              <li>Processo de criação <span>60h</span></li>
-              <li>Seminário IV <span>60h</span></li>
-              <li>Teorias da Linguagem Visual <span>60h</span></li>
+              <li>Filosofia da Arte <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Fotografia <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>História da Arte III <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Prática de Ensino I <span>100h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>História da Arte II <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Processo de criação <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Seminário IV <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Teorias da Linguagem Visual <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
             </ul>
           </li>
 
@@ -134,13 +134,13 @@
             <ul>
               <div>Disciplina <span>Ementa</span></div>
 
-              <li>Cerâmica <span>60h</span></li>
-              <li>Estágio II <span>100h</span></li>
-              <li>História da Arte IV <span>60h</span></li>
-              <li>Pintura <span>60h</span></li>
-              <li>Prática de Ensino II <span>150h</span></li>
-              <li>Seminário V <span>60h</span></li>
-              <li>Vídeo <span>60h</span></li>
+              <li>Cerâmica <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Estágio II <span>100h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>História da Arte IV <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Pintura <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Prática de Ensino II <span>150h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Seminário V <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Vídeo <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
             </ul>
           </li>
 
@@ -149,12 +149,12 @@
             <ul>
               <div>Disciplina <span>Ementa</span></div>
 
-              <li>Escultura <span>60h</span></li>
-              <li>Estágio III <span>100h</span></li>
-              <li>Gravura <span>60h</span></li>
-              <li>Poéticas digitais <span>60h</span></li>
-              <li>Prática de Ensino III <span>150h</span></li>
-              <li>Trabalho de Graduação I <span>60h</span></li>
+              <li>Escultura <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Estágio III <span>100h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Gravura <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Poéticas digitais <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Prática de Ensino III <span>150h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Trabalho de Graduação I <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
             </ul>
           </li>
 
@@ -163,10 +163,10 @@
             <ul>
               <div>Disciplina <span>Ementa</span></div>
 
-              <li>Atividades Complementares <span>200h</span></li>
-              <li>Estágio IV <span>100h</span></li>
-              <li>Libras <span>60h</span></li>
-              <li>Trabalho de Graduação <span>120h</span></li>
+              <li>Atividades Complementares <span>200h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Estágio IV <span>100h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Libras <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Trabalho de Graduação <span>120h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
             </ul>
           </li>
         </ul>

@@ -2391,6 +2391,12 @@ footer {
           padding: 0.5rem 0; }
           .curso #conteudo div#matriz .semestre ul li span {
             font-weight: 300; }
+          .curso #conteudo div#matriz .semestre ul li a {
+            float: right;
+            color: #f06c00;
+            cursor: pointer; }
+            .curso #conteudo div#matriz .semestre ul li a:hover {
+              color: #c75000; }
       .curso #conteudo div#professores .nome {
         font-weight: 400;
         display: inline-block;
