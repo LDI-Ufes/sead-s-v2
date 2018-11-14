@@ -2,7 +2,7 @@
   padding-bottom: 0;
 
   .destaque {
-    @include destaque($azulEscuro, url("./img/video-destaque.png"));
+    @include destaque($azulEscuro, none);
     border-bottom: solid 20px $laranjaRegular;
 
     .titulo h2 {

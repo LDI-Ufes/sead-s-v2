@@ -21,7 +21,7 @@
 
     </ul>
     
-    <h2>Especialização</h2>
+    <h2>Especialização e Aperfeiçoamento</h2>
     
     <ul id="especializacao">
       <div class="titulos"><span>Curso</span><span>Secretaria</span><span>Coordenação</span></div>

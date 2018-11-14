@@ -86,9 +86,18 @@
           </p>
         </li>
       </ul>
+      
       <div id="planta-sead">
-        <span>Quer conhecer melhor nossa estrutura? Clique na planta!</span>
-        <?php the_content() ?>
+        <span>Quer conhecer melhor nossa estrutura?</span>
+        <button id="abrir-modal">Abrir mapa detalhado</button>
+        <img id="planta" src="<?php echo get_template_directory_uri(); ?>/img/planta-sead.png">
+
+        <div id="modal">
+          <div id="modal-content">
+            <button id="close">&times;</button>
+            <img src="<?php echo get_template_directory_uri(); ?>/img/planta-detalhada.png">
+          </div>
+        </div>
       </div>
 
     </section> <!-- estrutura -->
@@ -96,3 +105,26 @@
 </main>
 
 <?php get_footer(); ?>
+
+<script>
+
+  $("#abrir-modal").click(function () {
+    $('#modal').css('display', 'block');
+  });
+  
+  $("#planta").click(function () {
+    console.log('oi');
+    $('#modal').css('display', 'block');
+  });
+  
+  $('#close').click(function () {
+    $('#modal').css('display', 'none');
+  });
+  
+  $('#modal').click(function () {
+    if(!$(event.target).closest('#modal-content').length){
+      $('#modal').css('display', 'none');
+    }
+  });
+
+</script>
