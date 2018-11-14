@@ -5,7 +5,7 @@
   <h1>Cursos</h1>
 
   <span class="alerta">Os cursos EaD da Ufes são por turma única e não possuem oferta regular.</span>
-  <span>Para ver os cursos que estão com processo seletivo aberto, fique ligado em nossos <a href="<?php echo site_url(); ?>/editais" title="Ir para Editais">Editais</a> e participe de processos seletivos.</span>
+  <span><i class="fas fa-exclamation-circle"></i>Para ver os cursos que estão com processo seletivo aberto, fique ligado em nossos <a href="<?php echo site_url(); ?>/editais" title="Ir para Editais">Editais <i class="fas fa-angle-double-right"></i></a> e participe de processos seletivos.</span>
 
   <div id="abas">
     <ul>
@@ -15,46 +15,50 @@
     </ul>
     <div id="graduacao">
       <ul>
-        <a href="<?php echo site_url(); ?>/cursos/artes-visuais"><li><h3>Artes Visuais</h3>Licenciatura</li></a>
-        <a href="">
-          <li>
-            <h3>Biologia</h3>
-            <span>Licenciatura</span>
-          </li>
-        </a>
-        <a href=""><li><h3>Filosofia</h3>Licenciatura</li></a>
-        <a href=""><li><h3>Física</h3>Licenciatura</li></a>
-        <a href=""><li><h3>História</h3>Licenciatura</li></a>
-        <a href=""><li><h3>Letras Italiano</h3>Licenciatura</li></a>
-        <a href=""><li><h3>Pedagogia</h3>Licenciatura</li></a>
-        <a href=""><li><h3>Química</h3>Licenciatura</li></a>
-        <a class="inativo"><li><h3>Administração</h3>Licenciatura<span>Não há mais informações sobre esse curso.</span></li></a>
-        <a class="inativo"><li><h3>Ciências Contábeis</h3>Bacharelado<span>Não há mais informações sobre esse curso.</span></li></a>
-        <a class="inativo"><li><h3>Educação Física</h3>Licenciatura<span>Não há mais informações sobre esse curso.</span></li></a>
+        <li><a href="<?php echo site_url(); ?>/cursos/artes-visuais"><h3>Artes Visuais</h3><h4>Licenciatura</h4></a></li>
+        <li><h3>Biologia</h3><h4>Licenciatura</h4></li>
+        <li><h3>Filosofia</h3><h4>Licenciatura</h4></li>
+        <li><h3>Física</h3><h4>Licenciatura</h4></li>
+        <li><h3>História</h3><h4>Licenciatura</h4></li>
+        <li><h3>Letras Italiano</h3><h4>Licenciatura</h4></li>
+        <li><h3>Pedagogia</h3><h4>Licenciatura</h4></li>
+        <li><h3>Química</h3><h4>Licenciatura</h4></li>
+        <li class="inativo"><h3>Administração</h3><h4>Licenciatura</h4><span>Não há mais informações sobre esse curso.</span></li>
+        <li class="inativo"><h3>Ciências Contábeis</h3><h4>Bacharelado</h4><span>Não há mais informações sobre esse curso.</span></li>
+        <li class="inativo"><h3>Educação Física</h3><h4>Licenciatura</h4><span>Não há mais informações sobre esse curso.</span></li>
+        
+        <li class="placeholder" aria-hidden="true"></li>
+        <li class="placeholder" aria-hidden="true"></li>
       </ul>
     </div>
     <div id="especializacao">
       <ul>
-        <a tabindex="0" class="inativo"><li><h3>Educação do Campo</h3><span>Não há mais informações sobre esse curso.</span></li></a>
-        <a class="inativo"><li><h3>Ensino da Matemática para o Ensino Médio</h3><span>Não há mais informações sobre esse curso.</span></li></a>
-        <a class="inativo"><li><h3>Filosofia e Psicanálise</h3><span>Não há mais informações sobre esse curso.</span></li></a>
-        <a class="inativo"><li><h3>Gestão de Agronegócios</h3><span>Não há mais informações sobre esse curso.</span></li></a>
-        <a class="inativo"><li><h3>Gestão de Políticas Públicas em Gênero e Raça</h3><span>Não há mais informações sobre esse curso.</span></li></a>
-        <a class="inativo"><li><h3>Gestão em Saúde</h3><span>Não há mais informações sobre esse curso.</span></li></a>
-        <a class="inativo"><li><h3>Logística</h3><span>Não há mais informações sobre esse curso.</span></li></a>
-        <a class="inativo"><li><h3>Mídias na Educação</h3><span>Não há mais informações sobre esse curso.</span></li></a>
+        <li tabindex="0" class="inativo"><h3>Educação do Campo</h3><span>Não há mais informações sobre esse curso.</span></li>
+        <li class="inativo"><h3>Ensino da Matemática para o Ensino Médio</h3><span>Não há mais informações sobre esse curso.</span></li>
+        <li class="inativo"><h3>Filosofia e Psicanálise</h3><span>Não há mais informações sobre esse curso.</span></li>
+        <li class="inativo"><h3>Gestão de Agronegócios</h3><span>Não há mais informações sobre esse curso.</span></li>
+        <li class="inativo"><h3>Gestão de Políticas Públicas em Gênero e Raça</h3><span>Não há mais informações sobre esse curso.</span></li>
+        <li class="inativo"><h3>Gestão em Saúde</h3><span>Não há mais informações sobre esse curso.</span></li>
+        <li class="inativo"><h3>Logística</h3><span>Não há mais informações sobre esse curso.</span></li>
+        <li class="inativo"><h3>Mídias na Educação</h3><span>Não há mais informações sobre esse curso.</span></li>
+        
+        <li class="placeholder" aria-hidden="true"></li>
+        <li class="placeholder" aria-hidden="true"></li>
       </ul>
     </div>
     <div id="aperfeicoamento">
       <ul>
-        <a tabindex="0" class="inativo"><li><h3>Cultura e Histórias dos Povos Indígenas</h3><span>Não há mais informações sobre esse curso.</span></li></a>
-        <a class="inativo"><li><h3>Dimensões da Humanização: Filosofia, Psicanálise e Medicina</h3><span>Não há mais informações sobre esse curso.</span></li></a>
-        <a class="inativo"><li><h3>Educação Ambiental</h3><span>Não há mais informações sobre esse curso.</span></li></a>
-        <a class="inativo"><li><h3>Educação em Direitos Humanos</h3><span>Não há mais informações sobre esse curso.</span></li></a>
-        <a class="inativo"><li><h3>Educação para a Diversidade</h3><span>Não há mais informações sobre esse curso.</span></li></a>
-        <a class="inativo"><li><h3>Educação para as relações Etnicorraciais</h3><span>Não há mais informações sobre esse curso.</span></li></a>
-        <a class="inativo"><li><h3>Gênero e diversidade na Escola</h3><span>Não há mais informações sobre esse curso.</span></li></a>
-        <a class="inativo"><li><h3>Lingua Francesa</h3><span>Não há mais informações sobre esse curso.</span></li></a>
+        <li tabindex="0" class="inativo"><h3>Cultura e Histórias dos Povos Indígenas</h3><span>Não há mais informações sobre esse curso.</span></li>
+        <li class="inativo"><h3>Dimensões da Humanização: Filosofia, Psicanálise e Medicina</h3><span>Não há mais informações sobre esse curso.</span></li>
+        <li class="inativo"><h3>Educação Ambiental</h3><span>Não há mais informações sobre esse curso.</span></li>
+        <li class="inativo"><h3>Educação em Direitos Humanos</h3><span>Não há mais informações sobre esse curso.</span></li>
+        <li class="inativo"><h3>Educação para a Diversidade</h3><span>Não há mais informações sobre esse curso.</span></li>
+        <li class="inativo"><h3>Educação para as relações Etnicorraciais</h3><span>Não há mais informações sobre esse curso.</span></li>
+        <li class="inativo"><h3>Gênero e diversidade na Escola</h3><span>Não há mais informações sobre esse curso.</span></li>
+        <li class="inativo"><h3>Lingua Francesa</h3><span>Não há mais informações sobre esse curso.</span></li>
+        
+        <li class="placeholder" aria-hidden="true"></li>
+        <li class="placeholder" aria-hidden="true"></li>
       </ul>
     </div>
   </div>
@@ -118,7 +122,8 @@
                         tab.attr("aria-selected", "true").parent().addClass("current");
 
                         // Set focus to the paragraph in the newly revealed tab content
-                        tabPanel.children("ul").find('a:first-of-type').focus();
+                        tabPanel.children("ul").find('li:first-of-type').focus();
+                        tabPanel.children("ul").find('li:first-of-type a').focus();
                       }
               );
             }
