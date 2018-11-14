@@ -26,7 +26,7 @@
     border: none;
     position: relative;
 
-    #menu{
+    #menu {
       position: relative;
       display: block;
 
@@ -34,20 +34,23 @@
       color: $azulEscuro;
       font-weight: $light;
 
-      #dropdown-menu{ 
+      #dropdown-menu {
         display: block;
         color: $azulEscuro;
-        padding: .5rem;
+        padding: 0.5rem;
         border: none;
         width: 100%;
         text-align: left;
         background: none;
         border-bottom: 1.5px solid $azulEscuro;
+        cursor: pointer;
 
-        i{ float: right; }
+        i {
+          float: right;
+        }
       }
 
-      ul{
+      ul {
         display: none;
         position: absolute;
         background-color: aliceblue;
@@ -56,16 +59,19 @@
         a {
           display: block;
           margin: 0.2rem;
+          cursor: pointer;
 
-          i{ 
-            font-size: .8rem;
-            margin-right: .3rem;
+          i {
+            font-size: 0.8rem;
+            margin-right: 0.3rem;
           }
 
-          &:hover{ text-decoration: underline;}
+          &:hover {
+            text-decoration: underline;
+          }
         }
 
-        li.current{
+        li.current {
           font-weight: $bold;
           font-style: italic;
         }
@@ -79,19 +85,6 @@
           margin-bottom: 0.5rem;
         }
       }
-
-/*      #voltar-ao-topo {
-        @extend %botao;
-        display: block;
-        position: fixed;
-        bottom: 1rem;
-        right: 1.5rem;
-        padding: .3rem 0.8rem;
-        z-index: 1;
-        text-align: center;
-
-        b { display: none; }
-      }*/
     }
 
     div {
@@ -103,19 +96,19 @@
         font-weight: $light;
         margin: 2.5rem 0 2rem;
         line-height: 1.3;
-
       }
 
-      &#matriz{
-        .semestre{
-          button{
+      &#matriz {
+        .semestre {
+          button {
             background: none;
             border: none;
             text-align: left;
-            padding: .7rem 0;
-            margin-top: .5rem;
+            padding: 0.7rem 0;
+            margin-top: 0.5rem;
+            cursor: pointer;
 
-            h3{ 
+            h3 {
               margin: 0;
               display: block;
 
@@ -123,69 +116,73 @@
                 content: "\f067";
                 font-family: "Font Awesome 5 Free";
                 color: $laranjaRegular;
-                font-size: .8rem;
+                font-size: 0.8rem;
                 padding-right: 0.6rem;
                 font-weight: $bold;
               }
             }
 
-            &.ativo{
-              h3:before{
+            &.ativo {
+              h3:before {
                 content: "\f068";
               }
             }
           }
 
-          ul{
+          ul {
             display: none;
 
-            div{
+            div {
               border-bottom: solid 1px $laranjaRegular;
               border-top: solid 1px $laranjaRegular;
               color: $laranjaRegular;
               padding: 0;
               font-weight: $bold;
-              font-size: .9rem;
-              padding: .2rem 0;
+              font-size: 0.9rem;
+              padding: 0.2rem 0;
 
-              span{ float: right; }
+              span {
+                float: right;
+              }
             }
 
-            li{
+            li {
               color: $azulRegular;
               font-weight: $medium;
-              border-bottom: solid .5px $azulClaro;
-              padding: .5rem 0;
+              border-bottom: solid 0.5px $azulClaro;
+              padding: 0.5rem 0;
 
-              span{ font-weight: $light; }
+              span {
+                font-weight: $light;
+              }
             }
           }
         }
       }
 
-      &#professores{
+      &#professores {
         .nome {
           font-weight: $regular;
           display: inline-block;
           width: 49%;
           min-width: 310px;
 
-          span{
-            font-size: .9rem;
+          span {
+            font-size: 0.9rem;
             font-style: italic;
             display: block;
             line-height: 1.2;
             font-weight: $light;
           }
 
-          a{
-            &:after{
-              content: url('svg/lattes.svg');
-              margin-left: .3rem;
+          a {
+            &:after {
+              content: url("svg/lattes.svg");
+              margin-left: 0.3rem;
             }
 
-            &:hover{ 
-              border-bottom: .5px solid $laranjaMedio;
+            &:hover {
+              border-bottom: 0.5px solid $laranjaMedio;
             }
           }
         }
@@ -356,36 +353,31 @@
       }
     }
 
-    #conteudo{
+    #conteudo {
       border-top: solid 5px $azulEscuro;
 
-      #menu{
+      #menu {
         position: sticky;
         display: inline-block;
         top: 0;
 
-        #dropdown-menu{ display: none;}
+        #dropdown-menu {
+          display: none;
+        }
 
-        ul{ 
-          display: block; 
+        ul {
+          display: block !important;
           background: none;
           position: unset;
         }
-
-/*        #voltar-ao-topo{
-          position: unset;
-
-          b { display: block; }
-          i { display: none; }
-        }*/
       }
 
-      div.tabPanel{ 
+      div.tabPanel {
         display: inline-block;
         vertical-align: top;
         padding-left: 1.5rem;
         width: 720px;
-      } 
+      }
     }
 
     #noticias {
