@@ -1983,8 +1983,6 @@ footer {
       #ead-na-ufes #agentes li div {
         display: none;
         padding: 1rem 0; }
-        #ead-na-ufes #agentes li div.expandido-texto {
-          display: block; }
   @media (min-width: 992px) {
     #ead-na-ufes {
       /* #slider */ }
@@ -2736,8 +2734,6 @@ footer {
           font-weight: 700; }
       #faq ul li p {
         display: none; }
-        #faq ul li p.expandido {
-          display: block; }
 
 #erro {
   position: relative; }

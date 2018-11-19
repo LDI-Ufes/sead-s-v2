@@ -46,13 +46,7 @@
         }
       }
 
-      p {
-        display: none;
-
-        &.expandido {
-          display: block;
-        }
-      }
+      p { display: none; }
     } /* li */
   } /* ul */
 }
