@@ -2981,19 +2981,24 @@ footer {
   .formPesquisaAtivo #formPesquisa input {
     background-color: #114a7e !important; }
   .formPesquisaAtivo #formPesquisa input::placeholder {
+    font-style: italic;
     color: white; }
   .formPesquisaAtivo #formPesquisa input::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
+    font-style: italic;
     color: white; }
   .formPesquisaAtivo #formPesquisa input::-moz-placeholder {
     /* Firefox 19+ */
+    font-style: italic;
     color: white;
     opacity: 1; }
   .formPesquisaAtivo #formPesquisa input:-ms-input-placeholder {
     /* IE 10+ */
+    font-style: italic;
     color: white; }
   .formPesquisaAtivo #formPesquisa input:-moz-placeholder {
     /* Firefox 18- */
+    font-style: italic;
     color: white; }
   .formPesquisaAtivo #formPesquisa input:-webkit-autofill {
     -webkit-box-shadow: 0 0 0px 30px #4298e6 inset;
