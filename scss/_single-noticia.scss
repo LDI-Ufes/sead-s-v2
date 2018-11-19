@@ -1,11 +1,10 @@
 #noticia {
-  .post-capa {
-    position: relative;
-    min-height: 25vh;
-    background-attachment: fixed;
-    background-size: cover;
-    margin-top: 0;
-    background-position: center;
+  .destaque {
+    @include destaque($azulEscuro);
+
+    @media screen and (min-width: 992px) {
+      height: 65vh !important;
+    }
   }
 
   article {
@@ -57,11 +56,11 @@
         margin-bottom: 1rem;
       }
 
-      a{
+      a {
         font-style: italic;
         color: $laranjaMedio;
 
-        &:hover{
+        &:hover {
           color: $laranjaEscuro;
           text-decoration: underline;
         }
@@ -110,17 +109,15 @@
 
       a {
         margin-top: -0.5rem;
-        margin-left: .5rem;
+        margin-left: 0.5rem;
         font-size: 1.5rem;
       }
     }
   }
 
   @media screen and (min-width: 992px) {
-    .post-capa { min-height: 65vh; }
-
     article {
-      h1 { 
+      h1 {
         font-size: 2.75rem;
         margin-top: 2rem;
       }

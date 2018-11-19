@@ -1,24 +1,22 @@
 <?php get_header('principal'); ?>
 
-<main class="page" id="ead-na-ufes">
+<main id='ead-na-ufes' class='page'>
 
-  <a href="//www.youtube.com/watch?v=XSGBVzeBUbk" data-lity>
-    <section class="destaque">
-
-      <video width="auto" height="100%" autoplay loop>
-        <source src="<?php echo get_template_directory_uri(); ?>/video/ead-na-ufes.mp4" type="video/mp4">
+  <a href='//www.youtube.com/watch?v=XSGBVzeBUbk' data-lity>
+    <section class='destaque'>
+      <video width='auto' height='100%' autoplay loop>
+        <source src='<?php echo get_template_directory_uri(); ?>/video/ead-na-ufes.mp4' type='video/mp4'>
       </video>
 
-      <div class="titulo container">
-        <i class="fas fa-play-circle"></i>
+      <div class='titulo container'>
+        <i class='fas fa-play-circle'></i>
         <h1>Como funciona <br> a EaD na Ufes?</h1>
       </div>
-
     </section>
   </a>
 
-  <div class="container">
-    <section class="breadcrumb">Você está em: <strong>Ensino</strong><i class="fas fa-greater-than"></i><span>EaD na Ufes</span></section>
+  <div class='container'>
+    <section class='breadcrumb'>Você está em: <strong>Ensino</strong><i class='fas fa-greater-than'></i><span>EaD na Ufes</span></section>
 
     <div>
       <p>A Secretaria de Ensino a Distância – Sead é a instância responsável por promover ações educativas e de formação na modalidade a distância da Ufes, nas quais a mediação didático-pedagógica dos processos de ensino e de aprendizagem ocorre por meio da utilização das tecnologias da informação e da comunicação, nos ambientes virtuais de aprendizagens – AVA, e, presencialmente, nos Polos de Apoio Presencial da Universidade Aberta do Brasil – UAB e em outros espaços educativos.</p>
@@ -28,30 +26,30 @@
     </div>
   </div> <!-- container -->
 
-  <section id="slider">
-    <ul class="container">
-      <button class="seta-prev">Anterior</button>
-      <li class="item ativo"><?php include 'svg/como-encontros-pres.svg' ?><div class="grupo"><h2 tabindex="0">Encontros presenciais</h2>O encontro presencial semanal obrigatório se dará com pequenos grupos de alunos e o tutor presencial nas salas e laboratórios em cada Polo UAB integrado ao curso.</div></li>
-      <li class="item"><?php include 'svg/como-momentos-semi.svg' ?><div class="grupo"><h2 tabindex="0">Momentos semipresenciais</h2>Os encontros semipresenciais entre alunos, tutores e professores especialistas ocorrerão no AVA e nas webconferências conforme planejamento do curso ou necessidade para esclarecimentos e aprofundamento de conteúdos.</div></li>
-      <li class="item"><?php include 'svg/como-ava.svg' ?><div class="grupo"><h2 tabindex="0">Ambiente Virtual de Aprendizagem</h2>A Plataforma Moodle trata-se de um sistema de gerenciamento de grupos de estudo, para dar suporte aos cursos oferecidos na modalidade a distância da Ufes, acompanhamento e ajuda ao aluno, executada no AVA e acessível via interface WEB.</div></li>
-      <button class="seta-next">Próximo</button>
-      <div class="dots">
-        <ul aria-hidden="true">
-          <li class="dot ativo"></li>
-          <li class="dot"></li>
-          <li class="dot"></li>
+  <section id='slider'>
+    <ul class='container'>
+      <button class='seta-prev'>Anterior</button>
+      <li class='item ativo'><?php include 'svg/como-encontros-pres.svg' ?><div class='grupo'><h2 tabindex='0'>Encontros presenciais</h2>O encontro presencial semanal obrigatório se dará com pequenos grupos de alunos e o tutor presencial nas salas e laboratórios em cada Polo UAB integrado ao curso.</div></li>
+      <li class='item'><?php include 'svg/como-momentos-semi.svg' ?><div class='grupo'><h2 tabindex='0'>Momentos semipresenciais</h2>Os encontros semipresenciais entre alunos, tutores e professores especialistas ocorrerão no AVA e nas webconferências conforme planejamento do curso ou necessidade para esclarecimentos e aprofundamento de conteúdos.</div></li>
+      <li class='item'><?php include 'svg/como-ava.svg' ?><div class='grupo'><h2 tabindex='0'>Ambiente Virtual de Aprendizagem</h2>A Plataforma Moodle trata-se de um sistema de gerenciamento de grupos de estudo, para dar suporte aos cursos oferecidos na modalidade a distância da Ufes, acompanhamento e ajuda ao aluno, executada no AVA e acessível via interface WEB.</div></li>
+      <button class='seta-next'>Próximo</button>
+      <div class='dots'>
+        <ul aria-hidden='true'>
+          <li class='dot ativo'></li>
+          <li class='dot'></li>
+          <li class='dot'></li>
         </ul>
       </div>
     </ul>
   </section>
 
-  <section id="agentes" class="container">
+  <section id='agentes' class='container'>
     <h2>Agentes envolvidos</h2>
     <p>A equipe multidisciplinar EaD da Ufes apresenta quadro de profissionais com características diferenciadas, atribuições claras e definidas. Dentre as responsabilidades de cada profissional está o compromisso de pesquisar, planejar e aperfeiçoar os seus fazeres, para aplicá-los aos processos de oferta dos cursos EaD desta Universidade.</p>
     <ul>
       <li>
-        <button class="expandido-botao"><h3>Professor</h3></button>
-        <div style="display: block;">A função é exercida por um professor da área de conhecimento diretamente relacionada à disciplina, cujo papel é responsabilizar-se por todos os processos de sua integralização, da apresentação do material didático à mediação dos saberes neles contidos junto a tutores e a estudantes e, de igual modo, é responsável pela concepção e elaboração dos instrumentos de avaliação da aprendizagem, aplicação, coordenação da correção dessas avaliações, além de responsabilizar-se pela  regularização da situação do aluno junto às instâncias de registros de notas da Ufes.</div>
+        <button class='expandido-botao'><h3>Professor</h3></button>
+        <div style='display: block'>A função é exercida por um professor da área de conhecimento diretamente relacionada à disciplina, cujo papel é responsabilizar-se por todos os processos de sua integralização, da apresentação do material didático à mediação dos saberes neles contidos junto a tutores e a estudantes e, de igual modo, é responsável pela concepção e elaboração dos instrumentos de avaliação da aprendizagem, aplicação, coordenação da correção dessas avaliações, além de responsabilizar-se pela  regularização da situação do aluno junto às instâncias de registros de notas da Ufes.</div>
       </li>
       <li>
         <button><h3>Tutor Presencial</h3></button>

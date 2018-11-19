@@ -1,14 +1,26 @@
-/* .page > #ead-na-ufes, #secretaria, single-curso */
-@mixin destaque($cor, $url) {
+// page-ead-na-ufes, page-secretaria, single-curso, single-noticia
+@mixin destaque($cor) {
   position: relative;
   height: 65vh;
   max-height: 545px;
   overflow: hidden;
-  background-image: linear-gradient($cor, transparent), $url;
+  background-image: linear-gradient($cor, transparent);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
   margin-top: 0;
+
+  &:hover {
+    background-image: linear-gradient(darken($cor, 5), transparent);
+  }
+
+  &.destaque-imagem{
+    height: 35vh;
+
+    &:hover {
+      background-image: linear-gradient($cor, transparent);
+    }
+  }
 
   .titulo {
     position: absolute;
@@ -20,7 +32,7 @@
     line-height: 3rem;
     color: white;
 
-    h1 {
+    h1, h2 {
       color: white;
     }
 
@@ -30,22 +42,21 @@
     }
   }
 
+  video, img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+  }
+
   @media (max-width: 992px) {
     min-height: 35vh;
 
     .titulo {
       padding: 3rem 1rem;
     }
-  }
-
-  &:hover {
-    background-image: linear-gradient(darken($cor, 5), transparent), $url;
-  }
-
-  video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
   }
 }

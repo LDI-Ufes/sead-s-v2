@@ -2,20 +2,8 @@
   padding-bottom: 0;
 
   .destaque {
-    @include destaque($azulEscuro, none);
+    @include destaque($azulEscuro);
     border-bottom: solid 20px $laranjaRegular;
-
-    .titulo h2 {
-      color: white;
-    }
-
-    &.destaque-imagem{
-      height: 35vh;
-
-      &:hover {
-        background-image: linear-gradient($azulEscuro, transparent);
-      }
-    }
   }
 
   #info-curso {
@@ -416,4 +404,3 @@
     }
   }
 }
-

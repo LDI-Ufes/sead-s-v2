@@ -1,9 +1,10 @@
 <?php get_header('blog'); ?>
- 
+
 <?php while ( have_posts() ) : the_post(); ?>
 
   <main id="noticia">
-    <div class="post-capa" style="background-image: linear-gradient(#043166, transparent), url('<?php echo get_the_post_thumbnail_url(); ?>');">
+    <div class="destaque destaque-imagem">
+      <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
     </div>
 
     <article class="container">
@@ -20,20 +21,20 @@
           postado por
           <div class="autor-name"><?php the_author(); ?></div>
           <div class="autor-role"><?php the_author_meta('cargo'); ?></div>
-          <div class="autor-bio"><?php the_author_meta('description'); ?></div>             
+          <div class="autor-bio"><?php the_author_meta('description'); ?></div>
         </div>
       </div>
 
       <div class="links-compartilhamento">
         <span>Gostou do que leu?</span> Compartilhe essa notícia.
         <a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo get_permalink(); ?>" target="_blank"><i class="fab fa-facebook"></i></a>
-        <a href="http://twitter.com/share?text=Ead na Ufes:&url=<?php echo get_permalink(); ?>" target="_blank"><i class="fab fa-twitter"></i></a>   
-        <a href="https://www.linkedin.com/shareArticle?mini=true&url=<?php echo get_permalink(); ?>" target="_blank"><i class="fab fa-linkedin"></i></a>      
+        <a href="http://twitter.com/share?text=Ead na Ufes:&url=<?php echo get_permalink(); ?>" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=<?php echo get_permalink(); ?>" target="_blank"><i class="fab fa-linkedin"></i></a>
       </div>
 
     </article>
   </main>
 
 <?php endwhile; ?>
- 
+
 <?php get_footer(); ?>

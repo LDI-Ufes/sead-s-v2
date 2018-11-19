@@ -1,15 +1,8 @@
 <main class='page curso'>
 
-  <a href="//www.youtube.com/watch?v=XSGBVzeBUbk" data-lity>
-    <section class="destaque">
-
-      <div class="titulo container">
-        <i class="fas fa-play-circle"></i>
-        <h2>Veja o que o coordenador<br>do curso tem a dizer!<br></h2>
-      </div>
-
-    </section>
-  </a>
+  <section class="destaque destaque-imagem">
+    <img src="<?php echo get_template_directory_uri()?>/img/cursos/filosofia.png" alt="">
+  </section>
 
   <div class="container">
     <section class="breadcrumb">Você está em: <a href="<?php echo site_url(); ?>/cursos">Cursos</a><i class="fas fa-greater-than"></i><span>Filosofia</span></section>
