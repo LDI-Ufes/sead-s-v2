@@ -2979,7 +2979,7 @@ footer {
     background: none;
     color: white; }
   .formPesquisaAtivo #formPesquisa input {
-    background-color: #4298e6 !important; }
+    background-color: #114a7e !important; }
   .formPesquisaAtivo #formPesquisa input::placeholder {
     color: white; }
   .formPesquisaAtivo #formPesquisa input::-webkit-input-placeholder {

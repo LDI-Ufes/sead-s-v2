@@ -65,7 +65,7 @@
     }
 
     input {
-      background-color: lighten($azulRegular, 20%) !important;
+      background-color: darken($azulRegular, 10%) !important;
     }
 
     // [Browser Default Reset] Cor do texto do placeholder
