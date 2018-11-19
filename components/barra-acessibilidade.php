@@ -1,3 +1,8 @@
+<div class="atalhos-navegacao">
+  <a href="" class="atalho-navegacao"><span>Ir para o conteúdo</span></a>
+  <a href="" class="atalho-navegacao"><span>Pular para o menu principal</span></a>
+</div>
+
 <div id="barraAuxiliar">
   <section class="caixa">
     <span class="btoMenu">Endereços úteis <i class="fas fa-chevron-down"></i></span>
