@@ -5,6 +5,14 @@
   p {
     font-weight: $light;
     @extend %largura-texto;
+
+    a{
+      font-style: italic;
+      color: #1765ab;
+      margin-left: 0.5rem;
+
+      &:hover{ border-bottom: 0.5px solid #1765ab; }
+    }
   }
 
   blockquote {
@@ -30,7 +38,7 @@
         font-weight: $bold;
       }
     }
-    
+
     strong{
       color: $azulEscuro;
       font-weight: $medium;

@@ -2,7 +2,7 @@
 
 <main id="inicio">
   
-  <section id="banner" class="destaque">
+  <section id="banner">
     <div class="container">
       <h2>os materiais do EaD da Ufes estão disponíveis em nosso <span>Acervo Digital</span></h2>
       <a href="https://acervodigital.eadufes.org" target="_blank">Conheça o Acervo Sead</a>

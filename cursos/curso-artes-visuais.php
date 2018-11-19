@@ -1,8 +1,9 @@
 <main class='page curso'>
 
   <a href="//www.youtube.com/watch?v=XSGBVzeBUbk" data-lity>
-    <section class="destaque">
-
+    <section class="destaque"> <!-- colocar classe destaque-imagem quando n houver vídeo -->
+      
+      <!-- esse conteúdo só existe para vídeos -->
       <div class="titulo container">
         <i class="fas fa-play-circle"></i>
         <h2>Veja o que o coordenador<br>do curso tem a dizer!<br></h2>
@@ -47,8 +48,8 @@
           <a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Artes-Visuais_Guia-do-aluno.pdf" target="_blank"><i class="fas fa-external-link-alt"></i>Guia do aluno</a>
 
           <span>Contato</span>
-          filspsi2017@gmail.com<br>
-          (027) 3333-3333
+          artesvisuais.ead@gmail.com<br>
+          (27) 4009-2091
         </ul>
 
         <!--<a title="Voltar ao topo" id="voltar-ao-topo"><b>Voltar ao topo</b><i class="fas fa-arrow-up"></i></a>-->
@@ -241,6 +242,15 @@
 
       <div>
         <h2 id="ofertas-anteriores">Ofertas anteriores</h2>
+        
+        <h3>2008/1</h3>
+        <p><strong>Coordenador do Curso:</strong> Maria Gorete Dadalto Gonçalves</p>
+        <p><strong>Polos atendidos:</strong> Alegre, Afonso Claudio, Aracruz, Bom Jesus do Norte, Cachoeiro de Itapemirim, Colatina, Conceição da Barra, Domingos Martins, Ecoporanga, Itapemirim, Iúna, Linhares, Mantenópolis, Nova Venécia, Pinheiros, Piúma, Santa Leopoldina, Santa Teresa, São Mateus, Vargem Alta, Venda Nova do Imigrante, Vila Velha</p>
+      
+        <h3>2014/2</h3>
+        <p><strong>Coordenador do Curso:</strong> Andreia Chiari Lins</p>
+        <p><strong>Polos atendidos:</strong> </p>
+        <p><strong>Seleção:</strong><a href="http://www.sead.ufes.br/conteudo/processo-seletivo-para-ingresso-em-cursos-de-graduação-na-modalidade-distância-0" target="_blank" title="Abrir processo seletivo em nova aba">Ver processo seletivo</a></p>
       </div>
 
     </section>
