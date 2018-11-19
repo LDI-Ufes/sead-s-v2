@@ -87,18 +87,20 @@
         </li>
       </ul>
       
+<!--      Planta da Sead
+      
       <div id="planta-sead">
         <span>Quer conhecer melhor nossa estrutura?</span>
         <button id="abrir-modal">Abrir mapa detalhado</button>
         <img id="planta" src="<?php echo get_template_directory_uri(); ?>/img/planta-sead.png">
 
         <div id="modal">
-          <div id="modal-content">
+          <div id="modal-content" role="dialog" aria-modal="true">
+            <img id="modal-img" src="<?php echo get_template_directory_uri(); ?>/img/planta-detalhada.png" title="Planta da Sead" tabindex='1'>
             <button id="close">&times;</button>
-            <img src="<?php echo get_template_directory_uri(); ?>/img/planta-detalhada.png">
           </div>
         </div>
-      </div>
+      </div>-->
 
     </section> <!-- estrutura -->
   </div> <!-- container -->
@@ -107,24 +109,29 @@
 <?php get_footer(); ?>
 
 <script>
-
-  $("#abrir-modal").click(function () {
-    $('#modal').css('display', 'block');
-  });
   
-  $("#planta").click(function () {
-    console.log('oi');
-    $('#modal').css('display', 'block');
-  });
-  
-  $('#close').click(function () {
-    $('#modal').css('display', 'none');
-  });
-  
-  $('#modal').click(function () {
-    if(!$(event.target).closest('#modal-content').length){
-      $('#modal').css('display', 'none');
-    }
-  });
+//  // Planta da Sead
+//
+//  $("#abrir-modal").click(function () {
+//    $('#modal').css('display', 'block');
+//    $('#modal-img').focus();
+//  });
+//  
+//  $("#planta").click(function () {
+//    $('#modal').css('display', 'block');
+//    $('#modal-img').focus();
+//  });
+//  
+//  $('#close').click(function () {
+//    $('#modal').css('display', 'none');
+//    $('#abrir-modal').focus();
+//  });
+//  
+//  $('#modal').click(function () {
+//    if(!$(event.target).closest('#modal-content').length){
+//      $('#modal').css('display', 'none');
+//      $('#abrir-modal').focus();
+//    }
+//  });
 
 </script>
