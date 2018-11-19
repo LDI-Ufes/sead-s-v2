@@ -2947,13 +2947,13 @@ footer {
   #formPesquisa .botaoFalso {
     cursor: pointer; }
   #formPesquisa .botaoSubmissao {
-    padding: 10px;
+    padding: 10px 15px;
     z-index: 7; }
   #formPesquisa .botaoFalso {
     padding: 10px 14px; }
   #formPesquisa input {
-    width: 205px;
-    padding: 10px 30px 10px 10px; }
+    width: 210px;
+    padding: 10px 40px 10px 15px; }
   #formPesquisa input[type="search"]::-ms-clear,
   #formPesquisa input[type="search"]::-ms-reveal {
     display: none;
@@ -2970,7 +2970,7 @@ footer {
   @media screen and (max-width: 992px) {
     .formPesquisaAtivo #formPesquisa {
       margin: 17.5px auto;
-      padding: 0 1rem; } }
+      padding: 0 0.85rem; } }
   .formPesquisaAtivo #formPesquisa input,
   .formPesquisaAtivo #formPesquisa .botaoSubmissao {
     position: relative;
@@ -3001,10 +3001,10 @@ footer {
     background-color: transparent !important; }
   .formPesquisaAtivo #formPesquisa .botaoSubmissao {
     position: absolute;
-    left: calc(100% - 35px); }
+    left: calc(100% - 45px); }
     @media screen and (max-width: 992px) {
       .formPesquisaAtivo #formPesquisa .botaoSubmissao {
-        left: calc(100% - 35px - 1rem); } }
+        left: calc(100% - 45px - 1rem); } }
   .formPesquisaAtivo #formPesquisa .botaoFalso {
     display: none; }
 .formPesquisaAtivo #menuPrincipal,
