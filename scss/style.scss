@@ -20,19 +20,25 @@ Version: 2.0
 @import "rodape";
 
 @import "front-page";
-@import "page";
+@import "404";
+
 @import "archive-noticia";
 @import "archive-edital";
 @import "archive-galeria";
-@import "page-polos";
-@import "page-secretaria";
-@import "page-ead-na-ufes";
+
+@import "page";
+@import "page-informativo-confirmacao";
+@import "page-informativo-invalido";
 @import "page-contatos";
 @import "page-cursos";
+@import "page-ead-na-ufes";
+@import "page-faq";
+@import "page-polos";
+@import "page-secretaria";
+
 @import "single-curso";
 @import "single-edital";
 @import "single-noticia";
-@import "page-faq";
-@import "404";
+
 @import "search";
 @import "searchform";
