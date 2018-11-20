@@ -1,6 +1,6 @@
 <?php get_header('principal'); ?>
 
-<main id="inicio">
+<main id="conteudoPrincipal" class="inicio">
   
   <section id="banner">
     <div class="container">

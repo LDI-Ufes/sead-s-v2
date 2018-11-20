@@ -1,4 +1,4 @@
-#erro {
+.page-erro {
   position: relative;
 
   h1 {
@@ -18,9 +18,11 @@
     opacity: 0.5;
   }
 
-  a {
+  p > a {
     color: $laranjaMedio;
     font-weight: $medium;
+    font-style: normal;
+    margin: 0;
 
     &:hover {
       border-bottom: solid 0.5px $laranjaMedio;

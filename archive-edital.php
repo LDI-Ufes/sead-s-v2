@@ -1,6 +1,6 @@
 <?php get_header('principal'); ?>
 
-<main id="page-editais" class="container page">
+<main id="conteudoPrincipal" class="container page page-editais">
   <section class="breadcrumb">Você está em: <span>Editais</span></section>
   <h1>Editais</h1>
 

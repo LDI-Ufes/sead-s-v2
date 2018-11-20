@@ -1,6 +1,6 @@
 <?php get_header('principal'); ?>
 
-<main id='ead-na-ufes' class='page'>
+<main id='conteudoPrincipal' class='page ead-na-ufes'>
 
   <a href='//www.youtube.com/watch?v=XSGBVzeBUbk' data-lity>
     <section class='destaque'>

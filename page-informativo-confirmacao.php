@@ -1,6 +1,6 @@
 <?php get_header('principal'); ?>
 
-<main id="informativo-confirmacao" class="container page">
+<main id="conteudoPrincipal" class="container page informativo-confirmacao">
 
   <h1>Parabéns</h1>
 

@@ -1,4 +1,4 @@
-<main class='page curso'>
+<main class='page curso' id="conteudoPrincipal">
 
   <a href='//www.youtube.com/watch?v=XSGBVzeBUbk' data-lity>
     <section class='destaque'>

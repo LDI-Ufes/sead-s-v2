@@ -1,6 +1,6 @@
 <?php get_header('principal'); ?>
 
-<main id="page-polos" class='container page'>
+<main id="conteudoPrincipal" class='container page page-polos'>
   <section class="breadcrumb">Você está em: <span>Polos</span></section>
   <section>
     <h1>Polos</h1>

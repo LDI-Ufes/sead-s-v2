@@ -1,4 +1,4 @@
-<main class='page curso'>
+<main class='page curso' id="conteudoPrincipal">
 
   <section class="destaque destaque-imagem">
     <img src="<?php echo get_template_directory_uri()?>/img/cursos/filosofia.png" alt="">

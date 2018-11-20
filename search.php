@@ -1,6 +1,6 @@
 <?php get_header('principal'); ?>
 
-<main id="pagPesquisa" class="page container">
+<main id="conteudoPrincipal" class="page container pagPesquisa">
   <section class="breadcrumb">Você está em: <span>Resultado de pesquisa</span></section>
   <?php
     global $query_string;

@@ -1,5 +1,5 @@
 <div class='atalhos-navegacao'>
-  <a href='' class='atalho-navegacao'><span>Ir para o conteúdo</span></a>
+  <a href='#conteudoPrincipal' class='atalho-navegacao'><span>Ir para o conteúdo</span></a>
   <a href='#topoPrincipal' class='atalho-navegacao'><span>Pular para o menu principal</span></a>
 </div>
 

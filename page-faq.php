@@ -1,6 +1,6 @@
 <?php get_header('principal'); ?>
 
-<main class="page container" id="faq">
+<main class="page container faq" id="conteudoPrincipal">
   <section class="breadcrumb">Você está em: <span>Dúvidas Frequentes</span></section>
   <h1>Dúvidas Frequentes (FAQ)</h1>
 

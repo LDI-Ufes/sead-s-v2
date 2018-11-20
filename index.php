@@ -1,6 +1,6 @@
 <?php get_header('principal'); ?>
 
-<main class="container page">
+<main class="container page" id="conteudoPrincipal">
 
   <h1><?php the_title() ?></h1>
 

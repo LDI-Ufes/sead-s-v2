@@ -29,7 +29,7 @@ button {
   font-size: inherit;
   font-weight: inherit; }
 
-#inicio #banner .container a, #inicio #polos a, #page-blog a[role="button"], #page-galeria #eventos li .imagens .abrirTodas, #edital .secao-edital#inscricao a[role="button"] {
+.inicio #banner .container a, .inicio #polos a, .page-blog a[role="button"], .page-galeria #eventos li .imagens .abrirTodas, .single-edital .secao-edital#inscricao a[role="button"] {
   background-color: #c75000;
   text-transform: uppercase;
   color: white;
@@ -38,10 +38,10 @@ button {
   margin: 1rem 0;
   font-weight: 500;
   cursor: pointer; }
-  #inicio #banner .container a:hover, #inicio #polos a:hover, #page-blog a[role="button"]:hover, #page-galeria #eventos li .imagens .abrirTodas:hover, #edital .secao-edital#inscricao a[role="button"]:hover {
+  .inicio #banner .container a:hover, .inicio #polos a:hover, .page-blog a[role="button"]:hover, .page-galeria #eventos li .imagens .abrirTodas:hover, .single-edital .secao-edital#inscricao a[role="button"]:hover {
     background-color: #b24800; }
 
-.page p, .page blockquote, #faq ul li, #secretaria #estrutura h3 {
+.page p, .page blockquote, .faq ul li, .secretaria #estrutura h3 {
   max-width: 720px;
   margin-right: auto !important;
   margin-left: auto !important; }
@@ -540,7 +540,7 @@ footer {
     footer .creditos p span {
       display: inline-block; } }
 
-#inicio {
+.inicio {
   margin: 0;
   /*
   $azul: #1661A6;
@@ -556,7 +556,7 @@ footer {
   /* #polos */
   /* media */
   /* media */ }
-  #inicio #banner {
+  .inicio #banner {
     min-height: 20vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./img/destaque-4.png");
     background-size: cover;
@@ -564,54 +564,54 @@ footer {
     background-position: center;
     text-align: center;
     padding-bottom: 2rem; }
-    #inicio #banner .container {
+    .inicio #banner .container {
       margin-top: 0; }
-      #inicio #banner .container h2 {
+      .inicio #banner .container h2 {
         margin: 0 auto;
         padding: 2rem 0;
         color: white;
         max-width: 350px;
         font-weight: 300;
         font-style: italic; }
-        #inicio #banner .container h2 span {
+        .inicio #banner .container h2 span {
           font-family: "Merriweather", serif;
           font-weight: 700;
           font-style: normal;
           display: block;
           font-size: 2rem;
           line-height: 1.5; }
-  #inicio #ultimos-editais {
+  .inicio #ultimos-editais {
     background-image: url("./img/pattern.png"), linear-gradient(#edf9ff, #edf9ff);
     background-position: center;
     padding: 1.5rem; }
-    #inicio #ultimos-editais .box-title {
+    .inicio #ultimos-editais .box-title {
       font-style: italic;
       font-weight: 700;
       margin: 0 auto;
       margin-top: -4.5rem;
       width: 300px; }
-      #inicio #ultimos-editais .box-title span {
+      .inicio #ultimos-editais .box-title span {
         color: #f06c00;
         font-size: 8rem;
         display: inline-block;
         font-weight: 900; }
-      #inicio #ultimos-editais .box-title h2 {
+      .inicio #ultimos-editais .box-title h2 {
         color: #1765ab;
         font-size: 2rem;
         display: inline-block;
         line-height: 1; }
-    #inicio #ultimos-editais ul {
+    .inicio #ultimos-editais ul {
       padding: 0;
       max-width: 300px;
       margin: 0 auto; }
-      #inicio #ultimos-editais ul li {
+      .inicio #ultimos-editais ul li {
         list-style-type: none;
         margin-bottom: 1.2rem;
         text-align: left;
         display: inline-block;
         width: 280px;
         vertical-align: top; }
-        #inicio #ultimos-editais ul li h3 {
+        .inicio #ultimos-editais ul li h3 {
           color: black;
           border-bottom: solid 1px #f06c00;
           font-size: 1.13rem;
@@ -619,81 +619,81 @@ footer {
           display: inline-block;
           margin: 0;
           margin-bottom: .5rem; }
-          #inicio #ultimos-editais ul li h3:hover {
+          .inicio #ultimos-editais ul li h3:hover {
             font-weight: 500; }
-        #inicio #ultimos-editais ul li p {
+        .inicio #ultimos-editais ul li p {
           margin: .3rem 0;
           font-size: .9rem;
           font-weight: 300;
           line-height: 1.4; }
-          #inicio #ultimos-editais ul li p.atribuicao {
+          .inicio #ultimos-editais ul li p.atribuicao {
             font-weight: 400; }
-        #inicio #ultimos-editais ul li:nth-of-type(odd) {
+        .inicio #ultimos-editais ul li:nth-of-type(odd) {
           margin-right: .8rem; }
     @media screen and (min-width: 652px) {
-      #inicio #ultimos-editais .box-title {
+      .inicio #ultimos-editais .box-title {
         width: 600px; }
-      #inicio #ultimos-editais ul {
+      .inicio #ultimos-editais ul {
         max-width: 620px; } }
     @media screen and (min-width: 992px) {
-      #inicio #ultimos-editais {
+      .inicio #ultimos-editais {
         padding: 1.2rem;
         padding-bottom: .5rem; }
-        #inicio #ultimos-editais .box-title {
+        .inicio #ultimos-editais .box-title {
           width: 100%;
           max-width: 300px; }
-        #inicio #ultimos-editais ul > li:last-of-type {
+        .inicio #ultimos-editais ul > li:last-of-type {
           display: none; } }
-  #inicio .container {
+  .inicio .container {
     padding: 0; }
-  #inicio #ead-na-ufes {
+  .inicio #ead-na-ufes {
     font-weight: 300;
     text-align: center;
     line-height: 1.5rem;
     padding: 2rem 1rem;
     max-width: 560px;
     margin: 0 auto; }
-    #inicio #ead-na-ufes h2 {
+    .inicio #ead-na-ufes h2 {
       font-weight: inherit;
       font-size: 1.5rem;
       line-height: 2rem; }
-    #inicio #ead-na-ufes .topico-ead {
+    .inicio #ead-na-ufes .topico-ead {
       margin: 2rem auto 0;
       width: 160px;
       display: inline-block;
       vertical-align: top; }
-      #inicio #ead-na-ufes .topico-ead:not(:first-child) {
+      .inicio #ead-na-ufes .topico-ead:not(:first-child) {
         padding-left: 1rem; }
-      #inicio #ead-na-ufes .topico-ead figure {
+      .inicio #ead-na-ufes .topico-ead figure {
         width: 100%;
         margin: 0; }
-        #inicio #ead-na-ufes .topico-ead figure svg {
+        .inicio #ead-na-ufes .topico-ead figure svg {
           height: 72px;
           width: auto; }
-        #inicio #ead-na-ufes .topico-ead figure figcaption {
+        .inicio #ead-na-ufes .topico-ead figure figcaption {
           color: #f06c00;
           font-size: 18px;
           text-transform: uppercase;
           font-weight: 700;
           margin-top: .5rem; }
-  #inicio #quer-ser {
+  .inicio #quer-ser {
     margin: 2rem 0;
     /* container */ }
-    #inicio #quer-ser .container {
+    .inicio #quer-ser .container {
       /* quer-ser-itens */ }
-      #inicio #quer-ser .container #quer-ser-titulo {
+      .inicio #quer-ser .container #quer-ser-titulo {
         margin-bottom: 1rem;
         padding: 1rem;
         max-width: 300px;
         margin: 0 auto; }
-        #inicio #quer-ser .container #quer-ser-titulo h2 {
+        .inicio #quer-ser .container #quer-ser-titulo h2 {
           color: white;
           font-weight: 700;
           font-size: 1.2rem;
           line-height: 1.5;
           margin: 0;
           padding-top: .25rem; }
-        #inicio #quer-ser .container #quer-ser-titulo .box-titulo {
+        .inicio #quer-ser .container #quer-ser-titulo .box-titulo {
           position: absolute;
           left: 0;
           border-bottom: 5rem solid #b24800;
@@ -702,12 +702,12 @@ footer {
           width: 80%;
           z-index: -1;
           margin-top: -0.5rem; }
-      #inicio #quer-ser .container #quer-ser-itens {
+      .inicio #quer-ser .container #quer-ser-itens {
         padding: 1rem;
         max-width: 350px;
         text-align: right;
         margin: 0 auto; }
-        #inicio #quer-ser .container #quer-ser-itens .box-titulo {
+        .inicio #quer-ser .container #quer-ser-itens .box-titulo {
           position: absolute;
           right: 0;
           border-top: 10rem solid #f06c00;
@@ -715,21 +715,21 @@ footer {
           border-right: 0 solid transparent;
           width: 85%;
           z-index: -1; }
-        #inicio #quer-ser .container #quer-ser-itens li {
+        .inicio #quer-ser .container #quer-ser-itens li {
           color: white;
           font-size: 1.2rem;
           display: inline-block;
           max-width: 300px;
           text-align: left;
           padding: 0.5rem 0; }
-          #inicio #quer-ser .container #quer-ser-itens li:first-child {
+          .inicio #quer-ser .container #quer-ser-itens li:first-child {
             margin-right: 1.5rem; }
-          #inicio #quer-ser .container #quer-ser-itens li i {
+          .inicio #quer-ser .container #quer-ser-itens li i {
             padding-left: 0.5rem; }
-          #inicio #quer-ser .container #quer-ser-itens li div {
+          .inicio #quer-ser .container #quer-ser-itens li div {
             display: inline-block;
             height: 4rem; }
-          #inicio #quer-ser .container #quer-ser-itens li .numero {
+          .inicio #quer-ser .container #quer-ser-itens li .numero {
             color: #c75000;
             font-size: 2.8rem;
             font-weight: 700;
@@ -738,23 +738,23 @@ footer {
             line-height: 1.5;
             border-radius: 2rem;
             text-align: center; }
-          #inicio #quer-ser .container #quer-ser-itens li .instrucao {
+          .inicio #quer-ser .container #quer-ser-itens li .instrucao {
             width: 180px;
             vertical-align: sub;
             margin-left: 0.5rem;
             display: inline-block;
             line-height: 1.5;
             padding-top: .25rem; }
-            #inicio #quer-ser .container #quer-ser-itens li .instrucao:hover {
+            .inicio #quer-ser .container #quer-ser-itens li .instrucao:hover {
               text-decoration: underline;
               cursor: pointer; }
-  #inicio #noticias {
+  .inicio #noticias {
     margin-bottom: 3rem;
     display: flex;
     flex-wrap: wrap;
     /* confira-mais */
     /* noticia */ }
-    #inicio #noticias .confira-mais {
+    .inicio #noticias .confira-mais {
       display: inline-block;
       flex-grow: 1;
       width: 100%;
@@ -766,13 +766,13 @@ footer {
       align-items: flex-end;
       flex-wrap: wrap;
       padding: 0 1rem; }
-      #inicio #noticias .confira-mais h2 {
+      .inicio #noticias .confira-mais h2 {
         color: #f06c00;
         font-weight: 300;
         font-size: 2.3rem;
         margin: 0.5rem 0;
         line-height: 2.8rem; }
-      #inicio #noticias .confira-mais a {
+      .inicio #noticias .confira-mais a {
         width: calc(50% - 0.5rem);
         background-image: linear-gradient(#043166, #1765ab);
         display: inline-block;
@@ -781,20 +781,20 @@ footer {
         border: none;
         font-size: 4rem;
         text-align: center; }
-        #inicio #noticias .confira-mais a:last-child {
+        .inicio #noticias .confira-mais a:last-child {
           margin-left: 1rem; }
-        #inicio #noticias .confira-mais a:hover {
+        .inicio #noticias .confira-mais a:hover {
           background-image: linear-gradient(#043166, #0074cf); }
-        #inicio #noticias .confira-mais a svg {
+        .inicio #noticias .confira-mais a svg {
           max-width: 5rem;
           height: 100%;
           margin: 0 auto; }
-          #inicio #noticias .confira-mais a svg path {
+          .inicio #noticias .confira-mais a svg path {
             fill: white; }
-        #inicio #noticias .confira-mais a i {
+        .inicio #noticias .confira-mais a i {
           vertical-align: text-bottom;
           line-height: 1rem; }
-    #inicio #noticias .noticia {
+    .inicio #noticias .noticia {
       display: inline-block;
       flex-grow: 1;
       width: 100%;
@@ -802,7 +802,7 @@ footer {
       position: relative;
       margin-bottom: 2rem;
       height: 300px; }
-      #inicio #noticias .noticia:after {
+      .inicio #noticias .noticia:after {
         content: "";
         position: absolute;
         top: 0;
@@ -812,12 +812,12 @@ footer {
         height: 100%;
         opacity: .9;
         background-image: linear-gradient(transparent, #043166); }
-      #inicio #noticias .noticia img {
+      .inicio #noticias .noticia img {
         width: 100%;
         object-fit: cover;
         height: 300px;
         margin-bottom: -0.3rem; }
-      #inicio #noticias .noticia h3 {
+      .inicio #noticias .noticia h3 {
         color: white;
         position: absolute;
         bottom: 0;
@@ -828,167 +828,117 @@ footer {
         font-size: 1.2rem;
         line-height: 1.4;
         margin-left: 1rem; }
-      #inicio #noticias .noticia:nth-of-type(n + 3) {
+      .inicio #noticias .noticia:nth-of-type(n + 3) {
         display: none; }
-      #inicio #noticias .noticia:hover:after {
+      .inicio #noticias .noticia:hover:after {
         opacity: 1; }
-      #inicio #noticias .noticia:hover h3 {
+      .inicio #noticias .noticia:hover h3 {
         /*border-bottom: solid 2px $laranjaRegular;*/
         text-decoration: underline #f06c00;
         text-underline-position: under; }
-  #inicio #polos {
+  .inicio #polos {
     color: #043166;
     background-color: #ffdcc5;
     padding: 2.5rem 1rem;
     text-align: center; }
-    #inicio #polos h2 {
+    .inicio #polos h2 {
       color: #c75000;
       font-size: 2rem;
       margin-top: 0; }
-    #inicio #polos p {
+    .inicio #polos p {
       padding: 0;
       padding-bottom: 1.5rem; }
-    #inicio #polos .mapaES {
+    .inicio #polos .mapaES {
       display: none; }
   @media screen and (min-width: 652px) {
-    #inicio {
+    .inicio {
       /* #quer-ser */ }
-      #inicio #quer-ser .container #quer-ser-titulo {
+      .inicio #quer-ser .container #quer-ser-titulo {
         max-width: 600px; }
-      #inicio #quer-ser .container #quer-ser-itens {
+      .inicio #quer-ser .container #quer-ser-itens {
         max-width: 600px; }
-        #inicio #quer-ser .container #quer-ser-itens .box-titulo {
+        .inicio #quer-ser .container #quer-ser-itens .box-titulo {
           border-top: 5rem solid #f06c00;
           border-left: 25px solid transparent; } }
   @media screen and (min-width: 992px) {
-    #inicio {
+    .inicio {
       margin: unset;
       max-width: unset;
       /*PASSAR PRA GLOBAIS OU NAO*/
       /* #quer-ser */
       /* #noticias */
       /* #polos */ }
-      #inicio #banner {
+      .inicio #banner {
         text-align: left;
         padding-bottom: 0;
         min-height: 40vh; }
-        #inicio #banner .container {
+        .inicio #banner .container {
           padding-bottom: 3rem; }
-          #inicio #banner .container h2 {
+          .inicio #banner .container h2 {
             padding-top: 6rem;
             padding-bottom: 1.5rem;
             margin: 0; }
-      #inicio .container {
+      .inicio .container {
         max-width: 960px;
         margin: 3rem auto; }
-      #inicio aside {
+      .inicio aside {
         padding-top: 3rem;
         float: right;
         display: inline-block;
         width: 320px;
         vertical-align: top; }
-      #inicio #ead-na-ufes {
+      .inicio #ead-na-ufes {
         margin: 0;
         display: inline-block; }
-        #inicio #ead-na-ufes .topico-ead {
+        .inicio #ead-na-ufes .topico-ead {
           margin: 1.5rem auto; }
-      #inicio #quer-ser .container {
+      .inicio #quer-ser .container {
         display: flex;
         justify-content: space-between; }
-        #inicio #quer-ser .container #quer-ser-titulo {
+        .inicio #quer-ser .container #quer-ser-titulo {
           max-width: 300px;
           display: inline-block;
           padding: 0;
           margin: 0; }
-          #inicio #quer-ser .container #quer-ser-titulo .box-titulo {
+          .inicio #quer-ser .container #quer-ser-titulo .box-titulo {
             width: calc(40% - 1.5rem); }
-        #inicio #quer-ser .container #quer-ser-itens {
+        .inicio #quer-ser .container #quer-ser-itens {
           display: inline-block;
           padding: 0;
           margin: 0;
           top: -0.5rem;
           padding-left: 1rem; }
-          #inicio #quer-ser .container #quer-ser-itens .box-titulo {
+          .inicio #quer-ser .container #quer-ser-itens .box-titulo {
             width: calc(60% - 1.5rem);
             margin-top: -0.5rem; }
-          #inicio #quer-ser .container #quer-ser-itens li {
+          .inicio #quer-ser .container #quer-ser-itens li {
             padding: 0; }
-      #inicio #noticias {
+      .inicio #noticias {
         margin: 7rem 0;
         margin-right: -1rem; }
-        #inicio #noticias .confira-mais {
+        .inicio #noticias .confira-mais {
           margin-right: 1rem;
           padding: 0;
           width: 300px; }
-        #inicio #noticias .noticia {
+        .inicio #noticias .noticia {
           margin-right: 1rem;
           width: 300px; }
-          #inicio #noticias .noticia:first-child {
+          .inicio #noticias .noticia:first-child {
             flex-grow: 2;
             width: calc(600px + 0.5rem); }
-          #inicio #noticias .noticia:nth-of-type(n) {
+          .inicio #noticias .noticia:nth-of-type(n) {
             display: block; }
-      #inicio #polos {
+      .inicio #polos {
         padding: 1rem;
         text-align: left; }
-        #inicio #polos .mapaES {
+        .inicio #polos .mapaES {
           display: inline-block;
           float: left;
           margin: 0 2rem;
           margin-top: -7rem;
           height: 350px; } }
 
-#erro {
-  position: relative; }
-  #erro h1 {
-    margin-top: 2rem; }
-  #erro #fundo {
-    background-image: url("svg/404.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right bottom;
-    width: 100%;
-    height: 80%;
-    position: absolute;
-    bottom: 0;
-    z-index: -1;
-    opacity: 0.5; }
-  #erro a {
-    color: #c75000;
-    font-weight: 500; }
-    #erro a:hover {
-      border-bottom: solid 0.5px #c75000; }
-    #erro a i {
-      font-size: .9rem; }
-  #erro blockquote {
-    width: calc(100% - 4rem);
-    margin-right: 0 !important;
-    font-weight: 300;
-    color: #1765ab;
-    font-size: 1.8rem;
-    margin-left: 4rem !important;
-    margin-top: 6rem;
-    font-family: "Fira Sans", sans;
-    font-style: normal;
-    line-height: 1.2;
-    position: relative; }
-    #erro blockquote span {
-      font-size: 1rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      display: block;
-      padding-top: 1rem; }
-    #erro blockquote:before {
-      content: url("svg/aspas-abrir.svg");
-      position: absolute;
-      left: -4rem; }
-  @media (min-width: 992px) {
-    #erro blockquote {
-      width: 100%;
-      max-width: 500px; } }
-
-/* erro */
-#page-blog {
+.page-blog {
   /*
   $azul: #1661A6;
   $azulClaro: #5992DD;
@@ -997,38 +947,38 @@ footer {
   $laranja: #E37531;
   $laranjaClaro: #FDA65B;
   $laranjaEscuro: #9C4C22;*/ }
-  #page-blog #ultimos-editais {
+  .page-blog #ultimos-editais {
     background-image: url("./img/pattern.png"), linear-gradient(#edf9ff, #edf9ff);
     background-position: center;
     padding: 1.5rem; }
-    #page-blog #ultimos-editais .box-title {
+    .page-blog #ultimos-editais .box-title {
       font-style: italic;
       font-weight: 700;
       margin: 0 auto;
       margin-top: -4.5rem;
       width: 300px; }
-      #page-blog #ultimos-editais .box-title span {
+      .page-blog #ultimos-editais .box-title span {
         color: #f06c00;
         font-size: 8rem;
         display: inline-block;
         font-weight: 900; }
-      #page-blog #ultimos-editais .box-title h2 {
+      .page-blog #ultimos-editais .box-title h2 {
         color: #1765ab;
         font-size: 2rem;
         display: inline-block;
         line-height: 1; }
-    #page-blog #ultimos-editais ul {
+    .page-blog #ultimos-editais ul {
       padding: 0;
       max-width: 300px;
       margin: 0 auto; }
-      #page-blog #ultimos-editais ul li {
+      .page-blog #ultimos-editais ul li {
         list-style-type: none;
         margin-bottom: 1.2rem;
         text-align: left;
         display: inline-block;
         width: 280px;
         vertical-align: top; }
-        #page-blog #ultimos-editais ul li h3 {
+        .page-blog #ultimos-editais ul li h3 {
           color: black;
           border-bottom: solid 1px #f06c00;
           font-size: 1.13rem;
@@ -1036,45 +986,45 @@ footer {
           display: inline-block;
           margin: 0;
           margin-bottom: .5rem; }
-          #page-blog #ultimos-editais ul li h3:hover {
+          .page-blog #ultimos-editais ul li h3:hover {
             font-weight: 500; }
-        #page-blog #ultimos-editais ul li p {
+        .page-blog #ultimos-editais ul li p {
           margin: .3rem 0;
           font-size: .9rem;
           font-weight: 300;
           line-height: 1.4; }
-          #page-blog #ultimos-editais ul li p.atribuicao {
+          .page-blog #ultimos-editais ul li p.atribuicao {
             font-weight: 400; }
-        #page-blog #ultimos-editais ul li:nth-of-type(odd) {
+        .page-blog #ultimos-editais ul li:nth-of-type(odd) {
           margin-right: .8rem; }
     @media screen and (min-width: 652px) {
-      #page-blog #ultimos-editais .box-title {
+      .page-blog #ultimos-editais .box-title {
         width: 600px; }
-      #page-blog #ultimos-editais ul {
+      .page-blog #ultimos-editais ul {
         max-width: 620px; } }
     @media screen and (min-width: 992px) {
-      #page-blog #ultimos-editais {
+      .page-blog #ultimos-editais {
         padding: 1.2rem;
         padding-bottom: .5rem; }
-        #page-blog #ultimos-editais .box-title {
+        .page-blog #ultimos-editais .box-title {
           width: 100%;
           max-width: 300px; }
-        #page-blog #ultimos-editais ul > li:last-of-type {
+        .page-blog #ultimos-editais ul > li:last-of-type {
           display: none; } }
-  #page-blog .container {
+  .page-blog .container {
     width: 100%;
     padding: 0;
     padding-top: 3rem; }
-  #page-blog #posts .blog-post {
+  .page-blog #posts .blog-post {
     margin-bottom: 5rem;
     list-style-type: none;
     font-weight: 600; }
-    #page-blog #posts .blog-post a .blog-post-header {
+    .page-blog #posts .blog-post a .blog-post-header {
       position: relative;
       height: 30vw;
       min-height: 100px;
       max-height: 250px; }
-      #page-blog #posts .blog-post a .blog-post-header span {
+      .page-blog #posts .blog-post a .blog-post-header span {
         background-color: #043166;
         color: white;
         text-transform: uppercase;
@@ -1083,13 +1033,13 @@ footer {
         margin-top: -0.5rem;
         line-height: 1.8;
         padding: 0 0.8rem; }
-      #page-blog #posts .blog-post a .blog-post-header img {
+      .page-blog #posts .blog-post a .blog-post-header img {
         width: 100%;
         height: 30vw;
         min-height: 100px;
         max-height: 250px;
         object-fit: cover; }
-      #page-blog #posts .blog-post a .blog-post-header:before {
+      .page-blog #posts .blog-post a .blog-post-header:before {
         content: "";
         height: 100%;
         left: 0;
@@ -1098,49 +1048,49 @@ footer {
         width: 100%;
         opacity: 0.6;
         background-image: linear-gradient(transparent, #043166); }
-      #page-blog #posts .blog-post a .blog-post-header .post-date {
+      .page-blog #posts .blog-post a .blog-post-header .post-date {
         color: white;
         position: absolute;
         bottom: 0;
         right: 0;
         padding: 0.8rem;
         font-size: 0.8rem; }
-    #page-blog #posts .blog-post a:hover .blog-post-header:before {
+    .page-blog #posts .blog-post a:hover .blog-post-header:before {
       opacity: 0.8; }
-    #page-blog #posts .blog-post h3 {
+    .page-blog #posts .blog-post h3 {
       color: #043166;
       font-weight: 600;
       font-size: 1.3rem;
       margin: 1.5rem; }
-      #page-blog #posts .blog-post h3 a:hover {
+      .page-blog #posts .blog-post h3 a:hover {
         border-bottom: solid 0.5px #f06c00; }
-    #page-blog #posts .blog-post p {
+    .page-blog #posts .blog-post p {
       font-family: "Merriweather", serif;
       font-weight: 400;
       line-height: 1.5;
       margin: 1rem 1.5rem; }
-  #page-blog #posts #postsNav {
+  .page-blog #posts #postsNav {
     color: #c75000;
     padding: 0 1rem 6rem; }
-    #page-blog #posts #postsNav a:hover {
+    .page-blog #posts #postsNav a:hover {
       border-bottom: solid 1px #b24800;
       color: #b24800; }
-    #page-blog #posts #postsNav .nav-right {
+    .page-blog #posts #postsNav .nav-right {
       float: right; }
-    #page-blog #posts #postsNav .nav-left {
+    .page-blog #posts #postsNav .nav-left {
       float: left; }
-  #page-blog #informativo {
+  .page-blog #informativo {
     margin-top: 2rem;
     padding: 1.5rem; }
-    #page-blog #informativo h2 {
+    .page-blog #informativo h2 {
       position: relative;
       color: #f06c00;
       text-transform: uppercase; }
-      #page-blog #informativo h2 span {
+      .page-blog #informativo h2 span {
         background-color: #fff;
         padding-right: 15px;
         position: relative; }
-      #page-blog #informativo h2:before {
+      .page-blog #informativo h2:before {
         content: "";
         display: block;
         vertical-align: middle;
@@ -1152,36 +1102,36 @@ footer {
         top: 50%;
         left: 0;
         z-index: -1; }
-    #page-blog #informativo label {
+    .page-blog #informativo label {
       font-size: 1.6rem;
       font-weight: 300;
       color: #f06c00; }
-    #page-blog #informativo form#sendgrid_mc_email_form {
+    .page-blog #informativo form#sendgrid_mc_email_form {
       display: inline-flex;
       margin-top: 1rem;
       width: 100%;
       padding: 0 !important; }
-      #page-blog #informativo form#sendgrid_mc_email_form input {
+      .page-blog #informativo form#sendgrid_mc_email_form input {
         font-family: "Fira Sans", sans-serif !important;
         border: solid 1px #043166; }
-      #page-blog #informativo form#sendgrid_mc_email_form .sendgrid_mc_fields {
+      .page-blog #informativo form#sendgrid_mc_email_form .sendgrid_mc_fields {
         width: 100%;
         padding: 0 !important; }
-        #page-blog #informativo form#sendgrid_mc_email_form .sendgrid_mc_fields .sendgrid_mc_label_div {
+        .page-blog #informativo form#sendgrid_mc_email_form .sendgrid_mc_fields .sendgrid_mc_label_div {
           display: none; }
-        #page-blog #informativo form#sendgrid_mc_email_form .sendgrid_mc_fields .sendgrid_mc_input {
+        .page-blog #informativo form#sendgrid_mc_email_form .sendgrid_mc_fields .sendgrid_mc_input {
           width: calc(100% - .5rem - 2px);
           height: 1.5rem;
           padding-left: .5rem;
           background-color: #edf9ff; }
-      #page-blog #informativo form#sendgrid_mc_email_form .sendgrid_mc_button {
+      .page-blog #informativo form#sendgrid_mc_email_form .sendgrid_mc_button {
         margin: 0 !important;
         height: 100%;
         background-color: #043166;
         text-transform: uppercase;
         font-size: 0.8rem;
         color: white; }
-  #page-blog .social-media {
+  .page-blog .social-media {
     background: linear-gradient(45deg, #043166, #1765ab);
     border: none;
     color: white;
@@ -1190,30 +1140,30 @@ footer {
     margin-top: 2rem;
     display: table;
     padding: 1.5rem; }
-    #page-blog .social-media span {
+    .page-blog .social-media span {
       width: 50%;
       display: inline-table;
       vertical-align: middle;
       font-size: 1.4rem;
       text-align: left; }
-    #page-blog .social-media i {
+    .page-blog .social-media i {
       font-size: 4rem;
       display: inline-table;
       width: calc(50% - 1rem);
       vertical-align: middle;
       text-align: right;
       padding-right: 1rem; }
-    #page-blog .social-media:hover {
+    .page-blog .social-media:hover {
       background: linear-gradient(45deg, #043166, #0074cf); }
-  #page-blog #galeria {
+  .page-blog #galeria {
     background-color: #ffdcc5;
     margin-top: 5rem;
     padding-top: 2rem;
     padding-bottom: 5rem; }
-    #page-blog #galeria .container {
+    .page-blog #galeria .container {
       width: unset;
       padding: 0 1rem; }
-    #page-blog #galeria h2 {
+    .page-blog #galeria h2 {
       background-color: #c75000;
       color: white;
       text-transform: uppercase;
@@ -1221,25 +1171,25 @@ footer {
       margin-top: -3rem;
       padding: 0.3rem 0.8rem;
       font-size: 1.2rem; }
-    #page-blog #galeria ul li {
+    .page-blog #galeria ul li {
       font-weight: 300;
       color: #b24800;
       font-size: 1.2rem;
       padding-top: 1rem;
       width: 100%;
       position: relative; }
-      #page-blog #galeria ul li h3 {
+      .page-blog #galeria ul li h3 {
         font-weight: 300;
         margin: 0; }
-        #page-blog #galeria ul li h3 span {
+        .page-blog #galeria ul li h3 span {
           font-weight: 700;
           padding-right: 1rem; }
-      #page-blog #galeria ul li p {
+      .page-blog #galeria ul li p {
         display: flex;
         margin: 0;
         margin-bottom: 1rem;
         margin-right: -1.5rem; }
-        #page-blog #galeria ul li p a {
+        .page-blog #galeria ul li p a {
           padding: 0;
           display: inline-flex;
           position: relative;
@@ -1249,22 +1199,22 @@ footer {
           width: calc(50% - 1.5rem);
           height: 10rem;
           pointer-events: none; }
-          #page-blog #galeria ul li p a:nth-child(n + 3) {
+          .page-blog #galeria ul li p a:nth-child(n + 3) {
             display: none; }
-          #page-blog #galeria ul li p a:nth-child(4) {
+          .page-blog #galeria ul li p a:nth-child(4) {
             margin-right: 0; }
-          #page-blog #galeria ul li p a img {
+          .page-blog #galeria ul li p a img {
             object-fit: cover;
             width: 100%;
             height: 100%; }
-      #page-blog #galeria ul li .ver-mais {
+      .page-blog #galeria ul li .ver-mais {
         position: absolute;
         bottom: 1.5rem;
         right: 0;
         background-color: rgba(178, 72, 0, 0.5);
         width: calc(50% - 0.75rem);
         height: 10rem; }
-        #page-blog #galeria ul li .ver-mais span {
+        .page-blog #galeria ul li .ver-mais span {
           position: absolute;
           width: 100%;
           text-transform: uppercase;
@@ -1273,64 +1223,64 @@ footer {
           font-weight: 700;
           padding-top: 4.5rem;
           color: white; }
-        #page-blog #galeria ul li .ver-mais:hover {
+        .page-blog #galeria ul li .ver-mais:hover {
           background-color: rgba(178, 72, 0, 0.7); }
-  #page-blog a[role="button"] {
+  .page-blog a[role="button"] {
     background-color: white;
     color: #c75000;
     float: right;
     margin: 0; }
-    #page-blog a[role="button"]:hover {
+    .page-blog a[role="button"]:hover {
       background-color: #c75000;
       color: white; }
   @media screen and (min-width: 992px) {
-    #page-blog .container {
+    .page-blog .container {
       padding-top: 10rem; }
-    #page-blog #posts {
+    .page-blog #posts {
       width: 560px;
       display: inline-block; }
-      #page-blog #posts .blog-post a .blog-post-header {
+      .page-blog #posts .blog-post a .blog-post-header {
         height: 20vw; }
-        #page-blog #posts .blog-post a .blog-post-header span {
+        .page-blog #posts .blog-post a .blog-post-header span {
           margin-left: 2rem; }
-        #page-blog #posts .blog-post a .blog-post-header img {
+        .page-blog #posts .blog-post a .blog-post-header img {
           height: 20vw; }
-        #page-blog #posts .blog-post a .blog-post-header .post-date {
+        .page-blog #posts .blog-post a .blog-post-header .post-date {
           padding: 1rem;
           font-size: 1rem; }
-      #page-blog #posts .blog-post h3,
-      #page-blog #posts .blog-post p {
+      .page-blog #posts .blog-post h3,
+      .page-blog #posts .blog-post p {
         margin: 1rem 0; }
-      #page-blog #posts #postsNav {
+      .page-blog #posts #postsNav {
         padding: 0 0 2rem; }
-    #page-blog aside {
+    .page-blog aside {
       display: inline-block;
       width: 320px;
       vertical-align: top;
       margin-left: 75px; }
-    #page-blog #informativo {
+    .page-blog #informativo {
       padding: 0; }
-    #page-blog #galeria {
+    .page-blog #galeria {
       padding: 2rem 0 5rem; }
-      #page-blog #galeria .container {
+      .page-blog #galeria .container {
         padding: 0 !important; }
-      #page-blog #galeria ul {
+      .page-blog #galeria ul {
         padding-top: 1.5rem; }
-        #page-blog #galeria ul li p {
+        .page-blog #galeria ul li p {
           margin-right: 0; }
-          #page-blog #galeria ul li p a {
+          .page-blog #galeria ul li p a {
             width: calc(25% - 1.5rem); }
-            #page-blog #galeria ul li p a:nth-child(-n + 4) {
+            .page-blog #galeria ul li p a:nth-child(-n + 4) {
               display: inline-flex; }
-        #page-blog #galeria ul li .ver-mais {
+        .page-blog #galeria ul li .ver-mais {
           width: calc(25% - 1.15rem); } }
 
-#page-editais #filtros {
+.page-editais #filtros {
   padding-bottom: 3rem; }
-  #page-editais #filtros #aplicados {
+  .page-editais #filtros #aplicados {
     padding: 1rem 0;
     color: white; }
-    #page-editais #filtros #aplicados .excluir-filtro {
+    .page-editais #filtros #aplicados .excluir-filtro {
       background-color: #1765ab;
       line-height: 1.8;
       font-size: 0.8rem;
@@ -1338,11 +1288,11 @@ footer {
       display: inline-block;
       margin-bottom: .5rem;
       margin-right: 1rem; }
-      #page-editais #filtros #aplicados .excluir-filtro i {
+      .page-editais #filtros #aplicados .excluir-filtro i {
         padding: 0 8px; }
-  #page-editais #filtros #seletores {
+  .page-editais #filtros #seletores {
     border: solid 0.5px #cfeaff; }
-    #page-editais #filtros #seletores button#exibe-seletores {
+    .page-editais #filtros #seletores button#exibe-seletores {
       font-size: 1rem;
       border: none;
       background: none;
@@ -1350,15 +1300,15 @@ footer {
       padding: 8px 15px;
       position: relative;
       width: 100%; }
-      #page-editais #filtros #seletores button#exibe-seletores i {
+      .page-editais #filtros #seletores button#exibe-seletores i {
         right: 15px;
         position: absolute;
         color: gray; }
-    #page-editais #filtros #seletores .seletor {
+    .page-editais #filtros #seletores .seletor {
       display: none;
       font-weight: 300;
       vertical-align: top; }
-      #page-editais #filtros #seletores .seletor button.exibe-filtros, #page-editais #filtros #seletores .seletor button#limpaFiltros {
+      .page-editais #filtros #seletores .seletor button.exibe-filtros, .page-editais #filtros #seletores .seletor button#limpaFiltros {
         font-size: 1rem;
         border: none;
         background: none;
@@ -1366,7 +1316,7 @@ footer {
         text-align: left;
         padding: 8px 15px;
         position: relative; }
-      #page-editais #filtros #seletores .seletor button.exibe-filtros:after {
+      .page-editais #filtros #seletores .seletor button.exibe-filtros:after {
         content: "\f107";
         right: 15px;
         width: auto;
@@ -1374,88 +1324,88 @@ footer {
         font-weight: 600;
         position: absolute;
         color: lightgray; }
-      #page-editais #filtros #seletores .seletor ul {
+      .page-editais #filtros #seletores .seletor ul {
         display: none;
         padding: 5px 10px;
         line-height: 1.8;
         padding-bottom: 1rem; }
-        #page-editais #filtros #seletores .seletor ul input[type="checkbox"]:hover + label {
+        .page-editais #filtros #seletores .seletor ul input[type="checkbox"]:hover + label {
           color: #1765ab;
           text-decoration: underline;
           text-underline-position: under; }
-        #page-editais #filtros #seletores .seletor ul input[type="checkbox"]:checked + label {
+        .page-editais #filtros #seletores .seletor ul input[type="checkbox"]:checked + label {
           color: #1765ab;
           font-weight: 400; }
-        #page-editais #filtros #seletores .seletor ul label {
+        .page-editais #filtros #seletores .seletor ul label {
           margin-left: .3rem; }
-      #page-editais #filtros #seletores .seletor.expandido-mobile {
+      .page-editais #filtros #seletores .seletor.expandido-mobile {
         display: block; }
-      #page-editais #filtros #seletores .seletor.expandido {
+      .page-editais #filtros #seletores .seletor.expandido {
         background-color: #edf9ff; }
-        #page-editais #filtros #seletores .seletor.expandido ul {
+        .page-editais #filtros #seletores .seletor.expandido ul {
           display: block; }
-        #page-editais #filtros #seletores .seletor.expandido button.exibe-filtros {
+        .page-editais #filtros #seletores .seletor.expandido button.exibe-filtros {
           color: #043166;
           font-weight: 400; }
-          #page-editais #filtros #seletores .seletor.expandido button.exibe-filtros:after {
+          .page-editais #filtros #seletores .seletor.expandido button.exibe-filtros:after {
             content: "\f106"; }
-      #page-editais #filtros #seletores .seletor#limpar {
+      .page-editais #filtros #seletores .seletor#limpar {
         background-color: #1765ab; }
-        #page-editais #filtros #seletores .seletor#limpar button {
+        .page-editais #filtros #seletores .seletor#limpar button {
           text-align: center;
           font-weight: 400;
           text-transform: uppercase;
           color: white; }
-        #page-editais #filtros #seletores .seletor#limpar:hover {
+        .page-editais #filtros #seletores .seletor#limpar:hover {
           background-color: #114a7e; }
-      #page-editais #filtros #seletores .seletor:hover {
+      .page-editais #filtros #seletores .seletor:hover {
         background-color: #edf9ff; }
-#page-editais #editais {
+.page-editais #editais {
   width: 100%;
   font-weight: 300;
   border-bottom: 1px solid #cfeaff;
   margin-bottom: 3rem; }
-  #page-editais #editais .titulos {
+  .page-editais #editais .titulos {
     display: none; }
-  #page-editais #editais li {
+  .page-editais #editais li {
     display: flex;
     flex-direction: column;
     border-top: 1px solid #cfeaff;
     position: relative;
     margin-bottom: 1.2rem; }
-    #page-editais #editais li h3 {
+    .page-editais #editais li h3 {
       color: #f06c00;
       font-weight: 700;
       margin-top: 1rem; }
-      #page-editais #editais li h3 a:hover {
+      .page-editais #editais li h3 a:hover {
         border-bottom: solid 1.5px #c75000;
         color: #c75000; }
-    #page-editais #editais li p {
+    .page-editais #editais li p {
       margin: 0.3rem 0 !important; }
-    #page-editais #editais li .atribuicao {
+    .page-editais #editais li .atribuicao {
       font-weight: 400; }
 @media screen and (min-width: 992px) {
-  #page-editais #filtros {
+  .page-editais #filtros {
     margin-right: -15px; }
-    #page-editais #filtros button#exibe-seletores {
+    .page-editais #filtros button#exibe-seletores {
       display: none; }
-    #page-editais #filtros #seletores {
+    .page-editais #filtros #seletores {
       border: none;
       display: flex; }
-      #page-editais #filtros #seletores .seletor {
+      .page-editais #filtros #seletores .seletor {
         display: inline-block;
         border: solid 0.5px #1765ab;
         margin-right: 15px;
         position: relative; }
-        #page-editais #filtros #seletores .seletor button.exibe-filtros:after {
+        .page-editais #filtros #seletores .seletor button.exibe-filtros:after {
           color: gray; }
-        #page-editais #filtros #seletores .seletor#ano {
+        .page-editais #filtros #seletores .seletor#ano {
           width: calc(15% - 1rem); }
-        #page-editais #filtros #seletores .seletor#atribuicoes, #page-editais #filtros #seletores .seletor#tipo-de-curso {
+        .page-editais #filtros #seletores .seletor#atribuicoes, .page-editais #filtros #seletores .seletor#tipo-de-curso {
           width: calc(27.5% - 1rem); }
-        #page-editais #filtros #seletores .seletor#cursos {
+        .page-editais #filtros #seletores .seletor#cursos {
           width: calc(30% - 1rem); }
-        #page-editais #filtros #seletores .seletor ul {
+        .page-editais #filtros #seletores .seletor ul {
           position: absolute;
           background-color: #edf9ff;
           border: solid 0.5px #1765ab;
@@ -1464,60 +1414,60 @@ footer {
           margin-left: -.5px;
           padding-bottom: .5rem;
           z-index: 1; }
-  #page-editais #editais .titulos {
+  .page-editais #editais .titulos {
     display: block; }
-    #page-editais #editais .titulos span {
+    .page-editais #editais .titulos span {
       font-weight: 700;
       color: #f06c00;
       font-size: 1.2rem;
       margin: 1.5rem 0;
       display: inline-block; }
-      #page-editais #editais .titulos span:nth-of-type(1) {
+      .page-editais #editais .titulos span:nth-of-type(1) {
         width: 15%; }
-      #page-editais #editais .titulos span:nth-of-type(2) {
+      .page-editais #editais .titulos span:nth-of-type(2) {
         width: 25%; }
-      #page-editais #editais .titulos span:nth-of-type(3) {
+      .page-editais #editais .titulos span:nth-of-type(3) {
         width: 25%; }
-      #page-editais #editais .titulos span:nth-of-type(4) {
+      .page-editais #editais .titulos span:nth-of-type(4) {
         width: 35%; }
-  #page-editais #editais li {
+  .page-editais #editais li {
     flex-direction: row;
     margin-bottom: 0; }
-    #page-editais #editais li p,
-    #page-editais #editais li h3 {
+    .page-editais #editais li p,
+    .page-editais #editais li h3 {
       margin: 1rem 0 !important;
       position: relative !important;
       display: inline-block;
       font-size: 1rem;
       vertical-align: top; }
-    #page-editais #editais li h3 {
+    .page-editais #editais li h3 {
       width: 15%;
       color: #1765ab;
       font-weight: 500; }
-      #page-editais #editais li h3 a:hover {
+      .page-editais #editais li h3 a:hover {
         border-bottom: solid 0.5px #1765ab;
         color: #1765ab; }
-      #page-editais #editais li h3 span {
+      .page-editais #editais li h3 span {
         display: none; }
-    #page-editais #editais li .atribuicao {
+    .page-editais #editais li .atribuicao {
       width: 25%; }
-    #page-editais #editais li .tipo-de-curso {
+    .page-editais #editais li .tipo-de-curso {
       width: 25%; }
-    #page-editais #editais li .curso {
+    .page-editais #editais li .curso {
       width: 35%; }
-    #page-editais #editais li .atribuicao,
-    #page-editais #editais li .tipo-de-curso,
-    #page-editais #editais li .curso {
+    .page-editais #editais li .atribuicao,
+    .page-editais #editais li .tipo-de-curso,
+    .page-editais #editais li .curso {
       font-weight: 300;
       color: black;
       font-style: normal; } }
 
-#page-galeria #filtros {
+.page-galeria #filtros {
   padding: 1.5rem 0; }
-  #page-galeria #filtros span {
+  .page-galeria #filtros span {
     display: block;
     padding-bottom: 1.5rem; }
-  #page-galeria #filtros a {
+  .page-galeria #filtros a {
     background-color: white;
     color: #9c4c22;
     border: none;
@@ -1525,16 +1475,16 @@ footer {
     padding: 0.4rem 0.8rem;
     margin-right: 0.6rem;
     font-weight: 700; }
-    #page-galeria #filtros a:hover {
+    .page-galeria #filtros a:hover {
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
       padding: 0.5rem 0.9rem; }
-    #page-galeria #filtros a.active {
+    .page-galeria #filtros a.active {
       background-color: #c75000;
       color: white;
       pointer-events: none; }
-#page-galeria #eventos {
+.page-galeria #eventos {
   margin-bottom: 8rem; }
-  #page-galeria #eventos li {
+  .page-galeria #eventos li {
     margin-bottom: 7rem;
       /*      &:nth-child(even){
         h2{
@@ -1553,18 +1503,18 @@ footer {
           }
         }
       }*/ }
-    #page-galeria #eventos li div {
+    .page-galeria #eventos li div {
       position: relative;
       font-weight: 600;
       font-size: 1.2rem;
       color: #f06c00;
       margin-bottom: 0;
       text-align: right; }
-      #page-galeria #eventos li div span {
+      .page-galeria #eventos li div span {
         background-color: #fff;
         padding-left: 15px;
         position: relative; }
-      #page-galeria #eventos li div:before {
+      .page-galeria #eventos li div:before {
         content: "";
         display: block;
         vertical-align: middle;
@@ -1576,48 +1526,48 @@ footer {
         top: 50%;
         left: 0;
         z-index: -1; }
-    #page-galeria #eventos li h2 {
+    .page-galeria #eventos li h2 {
       font-weight: 300;
       color: #f06c00;
       font-size: 1.6rem;
       margin: 1rem 0 1.2rem; }
-    #page-galeria #eventos li .imagens {
+    .page-galeria #eventos li .imagens {
       margin-right: -1rem; }
-      #page-galeria #eventos li .imagens p {
+      .page-galeria #eventos li .imagens p {
         display: flex;
         flex-wrap: wrap;
         max-width: unset;
         margin: 0; }
-        #page-galeria #eventos li .imagens p a {
+        .page-galeria #eventos li .imagens p a {
           height: 10rem;
           flex-grow: 1;
           margin-bottom: 1rem;
           margin-right: 1rem;
           display: none;
           cursor: zoom-in; }
-          #page-galeria #eventos li .imagens p a:nth-child(-n + 4) {
+          .page-galeria #eventos li .imagens p a:nth-child(-n + 4) {
             display: inline-block; }
-          #page-galeria #eventos li .imagens p a img {
+          .page-galeria #eventos li .imagens p a img {
             object-fit: cover;
             width: 100%;
             height: 100%; }
-      #page-galeria #eventos li .imagens .abrirTodas {
+      .page-galeria #eventos li .imagens .abrirTodas {
         display: none;
         float: right;
         margin-right: 1.5rem; }
 @media screen and (min-width: 992px) {
-  #page-galeria {
+  .page-galeria {
     padding-top: 8rem; }
-    #page-galeria #filtros span {
+    .page-galeria #filtros span {
       display: inline-block;
       padding-bottom: 0;
       margin-right: 1rem; }
-    #page-galeria #eventos li {
+    .page-galeria #eventos li {
       padding-top: 2rem;
       margin-bottom: 5rem; }
-      #page-galeria #eventos li .imagens {
+      .page-galeria #eventos li .imagens {
         margin-right: -1.5rem; }
-        #page-galeria #eventos li .imagens p a {
+        .page-galeria #eventos li .imagens p a {
           margin-right: 1.5rem;
           max-width: calc(25% - 1.5rem); } }
 
@@ -1690,47 +1640,47 @@ footer {
       display: none; }
 
 /* page */
-#informativo-confirmacao > * {
+.informativo-confirmacao > * {
   padding-left: 5rem;
   padding-right: 3rem; }
-#informativo-confirmacao h1 {
+.informativo-confirmacao h1 {
   padding-top: 5rem;
   font-size: 5rem;
   color: #c75000; }
-#informativo-confirmacao section {
+.informativo-confirmacao section {
   margin-bottom: 6rem; }
-  #informativo-confirmacao section a {
+  .informativo-confirmacao section a {
     display: inline-block;
     margin-top: 1rem;
     font-weight: 500;
     color: #c75000; }
-    #informativo-confirmacao section a:hover {
+    .informativo-confirmacao section a:hover {
       border-bottom: solid 0.5px #c75000; }
-    #informativo-confirmacao section a i {
+    .informativo-confirmacao section a i {
       font-size: 0.9rem; }
 
-#informativo-invalido > * {
+.informativo-invalido > * {
   padding-left: 5rem;
   padding-right: 3rem; }
-#informativo-invalido h1 {
+.informativo-invalido h1 {
   padding-top: 5rem;
   font-size: 5rem; }
-#informativo-invalido section {
+.informativo-invalido section {
   margin-bottom: 6rem; }
-  #informativo-invalido section a {
+  .informativo-invalido section a {
     display: inline-block;
     margin-top: 1rem;
     font-weight: 500;
     color: #c75000; }
-    #informativo-invalido section a:hover {
+    .informativo-invalido section a:hover {
       border-bottom: solid 0.5px #c75000; }
-    #informativo-invalido section a i {
+    .informativo-invalido section a i {
       font-size: 0.9rem; }
 
-#contatos {
+.contatos {
   /* ul */
   /* media */ }
-  #contatos .alerta {
+  .contatos .alerta {
     font-weight: 300;
     color: #f06c00;
     font-size: 1.5rem;
@@ -1738,42 +1688,42 @@ footer {
     margin: 2rem 0;
     display: block;
     max-width: 500px; }
-  #contatos h2 {
+  .contatos h2 {
     margin-top: 5rem; }
-  #contatos ul {
+  .contatos ul {
     margin-bottom: 4rem; }
-    #contatos ul .titulos {
+    .contatos ul .titulos {
       display: none; }
-    #contatos ul li {
+    .contatos ul li {
       border-top: solid 0.5px #cfeaff; }
-      #contatos ul li h3 {
+      .contatos ul li h3 {
         font-size: 1.2rem;
         margin: 1.5rem 0; }
-      #contatos ul li div {
+      .contatos ul li div {
         padding-bottom: 1.5rem; }
-        #contatos ul li div span {
+        .contatos ul li div span {
           font-weight: 700;
           color: gray;
           display: block; }
   @media (min-width: 992px) {
-    #contatos {
+    .contatos {
       /* ul */ }
-      #contatos ul {
+      .contatos ul {
         border-bottom: solid 0.5px #cfeaff; }
-        #contatos ul .titulos {
+        .contatos ul .titulos {
           display: block; }
-          #contatos ul .titulos span {
+          .contatos ul .titulos span {
             width: 35%;
             font-weight: 700;
             color: #f06c00;
             font-size: 1.2rem;
             margin: 1.5rem 0;
             display: inline-block; }
-            #contatos ul .titulos span:first-of-type {
+            .contatos ul .titulos span:first-of-type {
               width: 30%; }
-        #contatos ul li {
+        .contatos ul li {
           padding-top: 0.8rem; }
-          #contatos ul li h3 {
+          .contatos ul li h3 {
             width: 30%;
             font-weight: 400;
             color: black;
@@ -1781,58 +1731,58 @@ footer {
             display: inline-block;
             margin: 0;
             vertical-align: top; }
-          #contatos ul li div {
+          .contatos ul li div {
             display: inline-block;
             width: 35%;
             padding-bottom: 0.8rem;
             vertical-align: top; }
-            #contatos ul li div span {
+            .contatos ul li div span {
               display: none; } }
 
-#page-cursos span {
+.page-cursos span {
   font-weight: 300;
   /*max-width: 720px;*/ }
-  #page-cursos span a {
+  .page-cursos span a {
     color: #c75000;
     font-weight: 500; }
-    #page-cursos span a:hover {
+    .page-cursos span a:hover {
       border-bottom: 0.5px solid #c75000; }
-    #page-cursos span a i {
+    .page-cursos span a i {
       color: #c75000;
       margin: 0;
       font-size: .9rem; }
-  #page-cursos span.alerta {
+  .page-cursos span.alerta {
     color: #f06c00;
     font-size: 1.5rem;
     line-height: 1.4;
     margin: 1.5rem 0 .5rem;
     display: block;
     max-width: unset; }
-  #page-cursos span i {
+  .page-cursos span i {
     color: #f06c00;
     margin-right: .3rem; }
-#page-cursos #abas .tabsList {
+.page-cursos #abas .tabsList {
   display: flex;
   justify-content: flex-start;
   margin: 3rem 0;
   color: #1765ab;
   border-bottom: 1px #1765ab solid; }
-  #page-cursos #abas .tabsList li {
+  .page-cursos #abas .tabsList li {
     margin-right: 1.5rem; }
-    #page-cursos #abas .tabsList li a:hover {
+    .page-cursos #abas .tabsList li a:hover {
       color: #043166; }
-    #page-cursos #abas .tabsList li.current {
+    .page-cursos #abas .tabsList li.current {
       color: #043166;
       font-weight: 700;
       border-bottom: 2px #043166 solid; }
-      #page-cursos #abas .tabsList li.current a:hover {
+      .page-cursos #abas .tabsList li.current a:hover {
         cursor: default;
         color: inherit; }
-#page-cursos #abas .tabPanel ul {
+.page-cursos #abas .tabPanel ul {
   display: flex;
   flex-wrap: wrap;
   margin-right: -1rem; }
-  #page-cursos #abas .tabPanel ul li {
+  .page-cursos #abas .tabPanel ul li {
     height: 7rem;
     background-image: linear-gradient(transparent, #1765ab);
     color: white;
@@ -1845,18 +1795,18 @@ footer {
     /*width: 210px;*/
     flex-basis: 250px;
     flex-grow: 1; }
-    #page-cursos #abas .tabPanel ul li a {
+    .page-cursos #abas .tabPanel ul li a {
       width: 100%;
       height: 100%;
       position: absolute;
       top: 0;
       left: 0; }
-      #page-cursos #abas .tabPanel ul li a h3, #page-cursos #abas .tabPanel ul li a h4 {
+      .page-cursos #abas .tabPanel ul li a h3, .page-cursos #abas .tabPanel ul li a h4 {
         left: 1rem; }
-    #page-cursos #abas .tabPanel ul li h3, #page-cursos #abas .tabPanel ul li h4 {
+    .page-cursos #abas .tabPanel ul li h3, .page-cursos #abas .tabPanel ul li h4 {
       bottom: .8rem;
       position: absolute; }
-    #page-cursos #abas .tabPanel ul li h3 {
+    .page-cursos #abas .tabPanel ul li h3 {
       color: white;
       margin: 0;
       padding: 0;
@@ -1864,24 +1814,24 @@ footer {
       font-weight: 600;
       line-height: 1.5rem;
       margin-bottom: 1.5rem; }
-    #page-cursos #abas .tabPanel ul li h4 {
+    .page-cursos #abas .tabPanel ul li h4 {
       font-weight: 300;
       margin: 0; }
-    #page-cursos #abas .tabPanel ul li:hover {
+    .page-cursos #abas .tabPanel ul li:hover {
       background-image: linear-gradient(transparent, #114a7e); }
-      #page-cursos #abas .tabPanel ul li:hover h3 {
+      .page-cursos #abas .tabPanel ul li:hover h3 {
         text-decoration: underline #f06c00;
         text-underline-position: under; }
-    #page-cursos #abas .tabPanel ul li.inativo {
+    .page-cursos #abas .tabPanel ul li.inativo {
       background-image: linear-gradient(transparent, #333333);
       cursor: default; }
-      #page-cursos #abas .tabPanel ul li.inativo span {
+      .page-cursos #abas .tabPanel ul li.inativo span {
         display: none; }
-      #page-cursos #abas .tabPanel ul li.inativo:hover {
+      .page-cursos #abas .tabPanel ul li.inativo:hover {
         background-image: linear-gradient(transparent, black); }
-        #page-cursos #abas .tabPanel ul li.inativo:hover h3 {
+        .page-cursos #abas .tabPanel ul li.inativo:hover h3 {
           text-decoration: none; }
-        #page-cursos #abas .tabPanel ul li.inativo:hover span {
+        .page-cursos #abas .tabPanel ul li.inativo:hover span {
           display: block;
           border-radius: 5px;
           position: absolute;
@@ -1892,7 +1842,7 @@ footer {
           border: #1765ab solid 1px;
           padding: 3px 10px;
           z-index: 1; }
-          #page-cursos #abas .tabPanel ul li.inativo:hover span:before {
+          .page-cursos #abas .tabPanel ul li.inativo:hover span:before {
             content: '';
             width: 0px;
             height: 0px;
@@ -1902,7 +1852,7 @@ footer {
             position: absolute;
             top: 2.1rem;
             left: 2rem; }
-          #page-cursos #abas .tabPanel ul li.inativo:hover span:after {
+          .page-cursos #abas .tabPanel ul li.inativo:hover span:after {
             content: '';
             width: 0px;
             height: 0px;
@@ -1912,42 +1862,42 @@ footer {
             position: absolute;
             top: 2.1rem;
             left: 2.1rem; }
-    #page-cursos #abas .tabPanel ul li.placeholder {
+    .page-cursos #abas .tabPanel ul li.placeholder {
       background: none;
       height: 0;
       box-shadow: none;
       cursor: none; }
-      #page-cursos #abas .tabPanel ul li.placeholder:hover {
+      .page-cursos #abas .tabPanel ul li.placeholder:hover {
         background: none; }
-#page-cursos #abas .tabPanel#aperfeicoamento ul li, #page-cursos #abas .tabPanel#especializacao ul li {
+.page-cursos #abas .tabPanel#aperfeicoamento ul li, .page-cursos #abas .tabPanel#especializacao ul li {
   height: 3rem;
   background-color: #1765ab;
   background-image: linear-gradient(#043166, transparent);
   box-shadow: none; }
-  #page-cursos #abas .tabPanel#aperfeicoamento ul li h3, #page-cursos #abas .tabPanel#especializacao ul li h3 {
+  .page-cursos #abas .tabPanel#aperfeicoamento ul li h3, .page-cursos #abas .tabPanel#especializacao ul li h3 {
     font-size: 1.1rem;
     font-weight: 400;
     line-height: 1.5rem;
     margin-right: 1rem;
     top: 1rem; }
-  #page-cursos #abas .tabPanel#aperfeicoamento ul li:hover, #page-cursos #abas .tabPanel#especializacao ul li:hover {
+  .page-cursos #abas .tabPanel#aperfeicoamento ul li:hover, .page-cursos #abas .tabPanel#especializacao ul li:hover {
     background-image: linear-gradient(transparent, #114a7e); }
-  #page-cursos #abas .tabPanel#aperfeicoamento ul li.inativo, #page-cursos #abas .tabPanel#especializacao ul li.inativo {
+  .page-cursos #abas .tabPanel#aperfeicoamento ul li.inativo, .page-cursos #abas .tabPanel#especializacao ul li.inativo {
     background-color: gray;
     background-image: linear-gradient(#333333, transparent); }
-    #page-cursos #abas .tabPanel#aperfeicoamento ul li.inativo:hover, #page-cursos #abas .tabPanel#especializacao ul li.inativo:hover {
+    .page-cursos #abas .tabPanel#aperfeicoamento ul li.inativo:hover, .page-cursos #abas .tabPanel#especializacao ul li.inativo:hover {
       background-image: linear-gradient(black, transparent); }
-      #page-cursos #abas .tabPanel#aperfeicoamento ul li.inativo:hover span, #page-cursos #abas .tabPanel#especializacao ul li.inativo:hover span {
+      .page-cursos #abas .tabPanel#aperfeicoamento ul li.inativo:hover span, .page-cursos #abas .tabPanel#especializacao ul li.inativo:hover span {
         top: -2rem; }
-  #page-cursos #abas .tabPanel#aperfeicoamento ul li.placeholder, #page-cursos #abas .tabPanel#especializacao ul li.placeholder {
+  .page-cursos #abas .tabPanel#aperfeicoamento ul li.placeholder, .page-cursos #abas .tabPanel#especializacao ul li.placeholder {
     background: none;
     height: 0;
     box-shadow: none;
     cursor: none; }
-    #page-cursos #abas .tabPanel#aperfeicoamento ul li.placeholder:hover, #page-cursos #abas .tabPanel#especializacao ul li.placeholder:hover {
+    .page-cursos #abas .tabPanel#aperfeicoamento ul li.placeholder:hover, .page-cursos #abas .tabPanel#especializacao ul li.placeholder:hover {
       background: none; }
 @media (min-width: 992px) {
-  #page-cursos {
+  .page-cursos {
     /*    #abas{
     
           .tabPanel{
@@ -1961,10 +1911,10 @@ footer {
     
         }*/ } }
 
-#ead-na-ufes {
+.ead-na-ufes {
   /* #slider */
   /* media */ }
-  #ead-na-ufes .destaque {
+  .ead-na-ufes .destaque {
     position: relative;
     height: 65vh;
     max-height: 545px;
@@ -1974,13 +1924,13 @@ footer {
     background-size: cover;
     background-position: center;
     margin-top: 0; }
-    #ead-na-ufes .destaque:hover {
+    .ead-na-ufes .destaque:hover {
       background-image: linear-gradient(#03254d, transparent); }
-    #ead-na-ufes .destaque.destaque-imagem {
+    .ead-na-ufes .destaque.destaque-imagem {
       height: 35vh; }
-      #ead-na-ufes .destaque.destaque-imagem:hover {
+      .ead-na-ufes .destaque.destaque-imagem:hover {
         background-image: linear-gradient(#043166, transparent); }
-    #ead-na-ufes .destaque .titulo {
+    .ead-na-ufes .destaque .titulo {
       position: absolute;
       top: 50%;
       left: 50%;
@@ -1989,12 +1939,12 @@ footer {
       text-align: center;
       line-height: 3rem;
       color: white; }
-      #ead-na-ufes .destaque .titulo h1, #ead-na-ufes .destaque .titulo h2 {
+      .ead-na-ufes .destaque .titulo h1, .ead-na-ufes .destaque .titulo h2 {
         color: white; }
-      #ead-na-ufes .destaque .titulo .fas {
+      .ead-na-ufes .destaque .titulo .fas {
         margin: 0.5rem 0;
         font-size: 3.875rem; }
-    #ead-na-ufes .destaque video, #ead-na-ufes .destaque img {
+    .ead-na-ufes .destaque video, .ead-na-ufes .destaque img {
       position: absolute;
       top: 0;
       left: 0;
@@ -2003,21 +1953,21 @@ footer {
       max-width: 100%;
       min-height: 100%; }
     @media (max-width: 992px) {
-      #ead-na-ufes .destaque {
+      .ead-na-ufes .destaque {
         min-height: 35vh; }
-        #ead-na-ufes .destaque .titulo {
+        .ead-na-ufes .destaque .titulo {
           padding: 3rem 1rem; } }
-  #ead-na-ufes .breadcrumb {
+  .ead-na-ufes .breadcrumb {
     margin-bottom: 4rem; }
-  #ead-na-ufes #slider {
+  .ead-na-ufes #slider {
     background-color: #edf9ff;
     /* ul */ }
-    #ead-na-ufes #slider ul {
+    .ead-na-ufes #slider ul {
       position: relative;
       height: inherit;
       padding: 0;
       /* button */ }
-      #ead-na-ufes #slider ul button {
+      .ead-na-ufes #slider ul button {
         color: transparent;
         border: 0;
         background: none;
@@ -2026,82 +1976,82 @@ footer {
         transform: translateY(-50%);
         width: 2rem;
         cursor: pointer; }
-        #ead-na-ufes #slider ul button:before {
+        .ead-na-ufes #slider ul button:before {
           font-family: "Font Awesome 5 Free";
           font-weight: 600;
           font-size: 3rem;
           color: #1765ab; }
-        #ead-na-ufes #slider ul button.seta-prev, #ead-na-ufes #slider ul button.seta-next {
+        .ead-na-ufes #slider ul button.seta-prev, .ead-na-ufes #slider ul button.seta-next {
           height: 85px; }
-          #ead-na-ufes #slider ul button.seta-prev:before, #ead-na-ufes #slider ul button.seta-next:before {
+          .ead-na-ufes #slider ul button.seta-prev:before, .ead-na-ufes #slider ul button.seta-next:before {
             position: absolute;
             top: 50%;
             transform: translateY(-50%); }
-        #ead-na-ufes #slider ul button.seta-prev {
+        .ead-na-ufes #slider ul button.seta-prev {
           left: 1rem;
           display: none; }
-          #ead-na-ufes #slider ul button.seta-prev:before {
+          .ead-na-ufes #slider ul button.seta-prev:before {
             content: "\f104"; }
-        #ead-na-ufes #slider ul button.seta-next {
+        .ead-na-ufes #slider ul button.seta-next {
           right: 1rem; }
-          #ead-na-ufes #slider ul button.seta-next:before {
+          .ead-na-ufes #slider ul button.seta-next:before {
             content: "\f105"; }
-      #ead-na-ufes #slider ul li {
+      .ead-na-ufes #slider ul li {
         font-weight: 300;
         padding: 0 4rem;
         padding-top: 3rem;
         display: none;
         text-align: center; }
-        #ead-na-ufes #slider ul li.ativo {
+        .ead-na-ufes #slider ul li.ativo {
           display: block; }
-        #ead-na-ufes #slider ul li svg {
+        .ead-na-ufes #slider ul li svg {
           height: 7rem; }
-        #ead-na-ufes #slider ul li .grupo h2 {
+        .ead-na-ufes #slider ul li .grupo h2 {
           font-weight: 300;
           font-style: italic;
           color: #c75000;
           line-height: 1.3;
           margin-bottom: 1.5rem;
           margin-top: 1rem; }
-      #ead-na-ufes #slider ul .dots {
+      .ead-na-ufes #slider ul .dots {
         text-align: center;
         width: 100%;
         margin-bottom: 1rem;
         padding: 2rem 0 1rem; }
-        #ead-na-ufes #slider ul .dots .dot {
+        .ead-na-ufes #slider ul .dots .dot {
           position: relative;
           display: inline-block;
           margin: 0 5px;
           cursor: pointer;
           color: transparent;
           padding: 0; }
-          #ead-na-ufes #slider ul .dots .dot:before {
+          .ead-na-ufes #slider ul .dots .dot:before {
             font-family: "Font Awesome 5 Free";
             font-weight: 600;
             font-size: 0.8rem;
             content: "\f111";
             color: #1765ab;
             margin-left: 5px; }
-          #ead-na-ufes #slider ul .dots .dot.ativo:before {
+          .ead-na-ufes #slider ul .dots .dot.ativo:before {
             color: #c75000; }
-  #ead-na-ufes #agentes {
+  .ead-na-ufes #agentes {
     margin-bottom: 4rem; }
-    #ead-na-ufes #agentes li {
+    .ead-na-ufes #agentes li {
       font-weight: 300;
       max-width: 720px;
       margin: 0 auto; }
-      #ead-na-ufes #agentes li button {
+      .ead-na-ufes #agentes li button {
         background: none;
         border: none;
         padding: 0.5rem;
         margin-left: -0.5rem;
         cursor: pointer; }
-        #ead-na-ufes #agentes li button h3 {
+        .ead-na-ufes #agentes li button h3 {
           display: inline-block;
           margin: 0;
           padding: 0;
           border-bottom: 1px solid transparent; }
-        #ead-na-ufes #agentes li button:before {
+        .ead-na-ufes #agentes li button:before {
           content: "\f067";
           font-family: "Font Awesome 5 Free";
           font-size: 1rem;
@@ -2109,110 +2059,110 @@ footer {
           font-weight: 700;
           color: #f06c00;
           cursor: pointer; }
-        #ead-na-ufes #agentes li button.expandido-botao:before {
+        .ead-na-ufes #agentes li button.expandido-botao:before {
           content: "\f068"; }
-        #ead-na-ufes #agentes li button:hover:before {
+        .ead-na-ufes #agentes li button:hover:before {
           color: #c75000; }
-        #ead-na-ufes #agentes li button:hover > h3 {
+        .ead-na-ufes #agentes li button:hover > h3 {
           color: #c75000;
           border-bottom: 1px solid #c75000; }
-      #ead-na-ufes #agentes li div {
+      .ead-na-ufes #agentes li div {
         display: none;
         padding: 1rem 0; }
   @media (min-width: 992px) {
-    #ead-na-ufes {
+    .ead-na-ufes {
       /* #slider */ }
-      #ead-na-ufes #slider {
+      .ead-na-ufes #slider {
         height: 23rem;
         /* ul */ }
-        #ead-na-ufes #slider ul {
+        .ead-na-ufes #slider ul {
           padding: 0; }
-          #ead-na-ufes #slider ul button {
+          .ead-na-ufes #slider ul button {
             width: 3rem; }
-            #ead-na-ufes #slider ul button:before {
+            .ead-na-ufes #slider ul button:before {
               font-size: 5rem; }
-            #ead-na-ufes #slider ul button:hover:before {
+            .ead-na-ufes #slider ul button:hover:before {
               font-size: 5.5rem;
               color: #043166; }
-          #ead-na-ufes #slider ul li {
+          .ead-na-ufes #slider ul li {
             margin: 2rem 0;
             padding: 0 8rem;
             padding-top: 3rem;
             text-align: left; }
-            #ead-na-ufes #slider ul li.ativo {
+            .ead-na-ufes #slider ul li.ativo {
               display: flex; }
-            #ead-na-ufes #slider ul li svg {
+            .ead-na-ufes #slider ul li svg {
               margin-top: 1rem; }
-            #ead-na-ufes #slider ul li .grupo {
+            .ead-na-ufes #slider ul li .grupo {
               max-width: 600px;
               margin-left: 3rem; }
-          #ead-na-ufes #slider ul .dots {
+          .ead-na-ufes #slider ul .dots {
             position: absolute;
             bottom: 1rem; } }
 
-#faq {
+.faq {
   /* ul */ }
-  #faq ul {
+  .faq ul {
     /* li */ }
-    #faq ul li {
+    .faq ul li {
       margin: 1.5rem 0; }
-      #faq ul li button {
+      .faq ul li button {
         background: none;
         border: none;
         text-align: left; }
-        #faq ul li button:hover {
+        .faq ul li button:hover {
           cursor: pointer; }
-          #faq ul li button:hover > h2 {
+          .faq ul li button:hover > h2 {
             border-bottom: 2px solid #f06c00; }
-        #faq ul li button:before {
+        .faq ul li button:before {
           content: "\f067";
           font-family: "Font Awesome 5 Free";
           color: #f06c00;
           font-size: 1rem;
           padding-right: 0.6rem;
           font-weight: 700; }
-        #faq ul li button h2 {
+        .faq ul li button h2 {
           color: black;
           font-size: 1.2rem;
           padding: 0;
           margin: 0;
           font-weight: 400;
           display: inline; }
-        #faq ul li button.ativo:before {
+        .faq ul li button.ativo:before {
           content: "\f068"; }
-        #faq ul li button.ativo h2 {
+        .faq ul li button.ativo h2 {
           font-weight: 700; }
-      #faq ul li p {
+      .faq ul li p {
         display: none; }
 
-#page-polos {
+.page-polos {
   /* #mapaInterativo */
   /* media */ }
-  #page-polos #mapaInterativo {
+  .page-polos #mapaInterativo {
     margin: 5rem 0;
     position: relative;
     /* popoverMunicipios */
     /* #polos */ }
-    #page-polos #mapaInterativo .popoverMunicipios {
+    .page-polos #mapaInterativo .popoverMunicipios {
       width: 100%;
       display: inline-block;
       vertical-align: top;
       line-height: 1.5;
       font-weight: 300;
       margin-bottom: 2rem; }
-      #page-polos #mapaInterativo .popoverMunicipios h2 {
+      .page-polos #mapaInterativo .popoverMunicipios h2 {
         color: #f06c00;
         font-size: 1.5rem; }
-      #page-polos #mapaInterativo .popoverMunicipios i {
+      .page-polos #mapaInterativo .popoverMunicipios i {
         color: #1765ab; }
-      #page-polos #mapaInterativo .popoverMunicipios p {
+      .page-polos #mapaInterativo .popoverMunicipios p {
         font-size: 2rem;
         color: #1765ab;
         line-height: 1.3;
         margin-top: 1rem;
         position: relative;
         margin-bottom: 4rem; }
-        #page-polos #mapaInterativo .popoverMunicipios p:after {
+        .page-polos #mapaInterativo .popoverMunicipios p:after {
           content: "";
           position: absolute;
           height: 0;
@@ -2220,54 +2170,54 @@ footer {
           width: 100%;
           border-top: 2px solid #cfeaff;
           margin-top: 4rem; }
-    #page-polos #mapaInterativo #polos {
+    .page-polos #mapaInterativo #polos {
       /* li */ }
-      #page-polos #mapaInterativo #polos li {
+      .page-polos #mapaInterativo #polos li {
         padding: 0.5rem 0; }
-        #page-polos #mapaInterativo #polos li button.municipioTitulo {
+        .page-polos #mapaInterativo #polos li button.municipioTitulo {
           font-weight: 500;
           color: #1765ab;
           cursor: pointer;
           transition: font-size 0.2s;
           border: none;
           background: none; }
-          #page-polos #mapaInterativo #polos li button.municipioTitulo:hover {
+          .page-polos #mapaInterativo #polos li button.municipioTitulo:hover {
             border-bottom: solid 0.5px #1765ab; }
-        #page-polos #mapaInterativo #polos li .info-polo {
+        .page-polos #mapaInterativo #polos li .info-polo {
           display: none;
           line-height: 1.5;
           padding-top: 1rem;
           padding-left: 1rem;
           margin-bottom: 1.2rem; }
-          #page-polos #mapaInterativo #polos li .info-polo i {
+          .page-polos #mapaInterativo #polos li .info-polo i {
             color: #f06c00; }
-        #page-polos #mapaInterativo #polos li.expandido button.municipioTitulo {
+        .page-polos #mapaInterativo #polos li.expandido button.municipioTitulo {
           font-weight: 700;
           font-size: 1.5rem;
           color: #f06c00;
           margin-top: .8rem; }
-          #page-polos #mapaInterativo #polos li.expandido button.municipioTitulo:hover {
+          .page-polos #mapaInterativo #polos li.expandido button.municipioTitulo:hover {
             border: none; }
-        #page-polos #mapaInterativo #polos li.expandido .info-polo {
+        .page-polos #mapaInterativo #polos li.expandido .info-polo {
           display: block; }
-    #page-polos #mapaInterativo .mapaES {
+    .page-polos #mapaInterativo .mapaES {
       position: sticky;
       top: 3rem;
       width: 50%; }
   @media screen and (min-width: 992px) {
-    #page-polos {
+    .page-polos {
       /* #mapaInterativo */ }
-      #page-polos #mapaInterativo .popoverMunicipios {
+      .page-polos #mapaInterativo .popoverMunicipios {
         width: 45%; }
-        #page-polos #mapaInterativo .popoverMunicipios p:after {
+        .page-polos #mapaInterativo .popoverMunicipios p:after {
           width: 32rem; } }
   @media screen and (max-width: 991px) {
-    #page-polos #mapaInterativo .mapaES {
+    .page-polos #mapaInterativo .mapaES {
       display: none; } }
 
-#secretaria {
+.secretaria {
   /* media */ }
-  #secretaria .destaque {
+  .secretaria .destaque {
     position: relative;
     height: 65vh;
     max-height: 545px;
@@ -2277,13 +2227,13 @@ footer {
     background-size: cover;
     background-position: center;
     margin-top: 0; }
-    #secretaria .destaque:hover {
+    .secretaria .destaque:hover {
       background-image: linear-gradient(#d76100, transparent); }
-    #secretaria .destaque.destaque-imagem {
+    .secretaria .destaque.destaque-imagem {
       height: 35vh; }
-      #secretaria .destaque.destaque-imagem:hover {
+      .secretaria .destaque.destaque-imagem:hover {
         background-image: linear-gradient(#f06c00, transparent); }
-    #secretaria .destaque .titulo {
+    .secretaria .destaque .titulo {
       position: absolute;
       top: 50%;
       left: 50%;
@@ -2292,12 +2242,12 @@ footer {
       text-align: center;
       line-height: 3rem;
       color: white; }
-      #secretaria .destaque .titulo h1, #secretaria .destaque .titulo h2 {
+      .secretaria .destaque .titulo h1, .secretaria .destaque .titulo h2 {
         color: white; }
-      #secretaria .destaque .titulo .fas {
+      .secretaria .destaque .titulo .fas {
         margin: 0.5rem 0;
         font-size: 3.875rem; }
-    #secretaria .destaque video, #secretaria .destaque img {
+    .secretaria .destaque video, .secretaria .destaque img {
       position: absolute;
       top: 0;
       left: 0;
@@ -2306,29 +2256,29 @@ footer {
       max-width: 100%;
       min-height: 100%; }
     @media (max-width: 992px) {
-      #secretaria .destaque {
+      .secretaria .destaque {
         min-height: 35vh; }
-        #secretaria .destaque .titulo {
+        .secretaria .destaque .titulo {
           padding: 3rem 1rem; } }
-  #secretaria #missao-visao-valores {
+  .secretaria #missao-visao-valores {
     margin: 4rem 0;
     position: relative; }
-    #secretaria #missao-visao-valores li {
+    .secretaria #missao-visao-valores li {
       text-align: center;
       width: 240px;
       margin: 0 auto;
       padding: 0 1rem; }
-      #secretaria #missao-visao-valores li h2 {
+      .secretaria #missao-visao-valores li h2 {
         text-transform: lowercase;
         font-style: italic;
         font-size: 3rem;
         font-weight: 800;
         color: #f06c00; }
-      #secretaria #missao-visao-valores li p {
+      .secretaria #missao-visao-valores li p {
         color: #043166;
         font-weight: 700;
         line-height: 1.6; }
-  #secretaria #estrutura {
+  .secretaria #estrutura {
     /*    #planta-sead {
           margin: 6rem 0;
           margin-bottom: 1rem;
@@ -2383,29 +2333,29 @@ footer {
             }
           }
         }*/ }
-    #secretaria #estrutura h2 {
+    .secretaria #estrutura h2 {
       margin-top: 6rem; }
-    #secretaria #estrutura #dirigentes li {
+    .secretaria #estrutura #dirigentes li {
       display: block;
       width: 100%;
       margin: 1rem 0;
       margin-right: 0; }
   @media (min-width: 993px) {
-    #secretaria #missao-visao-valores {
+    .secretaria #missao-visao-valores {
       display: flex;
       flex-wrap: nowrap;
       justify-content: space-around;
       padding: 0 3rem; }
-      #secretaria #missao-visao-valores:before, #secretaria #missao-visao-valores:after {
+      .secretaria #missao-visao-valores:before, .secretaria #missao-visao-valores:after {
         position: absolute;
         padding-top: 4rem; }
-      #secretaria #missao-visao-valores:before {
+      .secretaria #missao-visao-valores:before {
         content: url(svg/aspas-abrir.svg);
         left: 0; }
-      #secretaria #missao-visao-valores:after {
+      .secretaria #missao-visao-valores:after {
         content: url(svg/aspas-fechar.svg);
         right: 0; }
-    #secretaria #estrutura {
+    .secretaria #estrutura {
       margin-top: 7rem;
       /*      #planta-sead {
               position: relative;
@@ -2437,12 +2387,64 @@ footer {
                 }
               }
             }*/ }
-      #secretaria #estrutura #dirigentes li {
+      .secretaria #estrutura #dirigentes li {
         display: inline-block;
         width: calc(50% - 2rem);
         margin-right: 1rem; } }
 
 /* #secretaria */
+.page-erro {
+  position: relative; }
+  .page-erro h1 {
+    margin-top: 2rem; }
+  .page-erro #fundo {
+    background-image: url("svg/404.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right bottom;
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.5; }
+  .page-erro p > a {
+    color: #c75000;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0; }
+    .page-erro p > a:hover {
+      border-bottom: solid 0.5px #c75000; }
+    .page-erro p > a i {
+      font-size: .9rem; }
+  .page-erro blockquote {
+    width: calc(100% - 4rem);
+    margin-right: 0 !important;
+    font-weight: 300;
+    color: #1765ab;
+    font-size: 1.8rem;
+    margin-left: 4rem !important;
+    margin-top: 6rem;
+    font-family: "Fira Sans", sans;
+    font-style: normal;
+    line-height: 1.2;
+    position: relative; }
+    .page-erro blockquote span {
+      font-size: 1rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      display: block;
+      padding-top: 1rem; }
+    .page-erro blockquote:before {
+      content: url("svg/aspas-abrir.svg");
+      position: absolute;
+      left: -4rem; }
+  @media (min-width: 992px) {
+    .page-erro blockquote {
+      width: 100%;
+      max-width: 500px; } }
+
+/* erro */
 .curso {
   padding-bottom: 0;
   /* #noticias */ }
@@ -2752,63 +2754,63 @@ footer {
     margin-right: 1rem;
     margin-bottom: 0; }
 
-#edital {
+.single-edital {
   line-height: 2;
   font-weight: 300;
   padding-bottom: 6rem !important;
   /* secao-edital */
   /* media */ }
-  #edital #informacoes {
+  .single-edital #informacoes {
     display: inline-block;
     width: 100%; }
-    #edital #informacoes > div {
+    .single-edital #informacoes > div {
       float: left; }
-    #edital #informacoes em {
+    .single-edital #informacoes em {
       color: #c75000;
       font-style: normal;
       font-weight: 700; }
-    #edital #informacoes div#descricao {
+    .single-edital #informacoes div#descricao {
       padding-top: 1.2rem; }
-      #edital #informacoes div#descricao p {
+      .single-edital #informacoes div#descricao p {
         display: inline; }
-  #edital .secao-edital {
+  .single-edital .secao-edital {
     border-top: solid 2px #cfeaff;
     margin-top: 4rem;
     /* &#anexos */ }
-    #edital .secao-edital h2 {
+    .single-edital .secao-edital h2 {
       font-size: 1.6rem;
       margin: .8rem 0 1rem; }
-    #edital .secao-edital#anexos ul li {
+    .single-edital .secao-edital#anexos ul li {
       color: gray;
       font-style: italic;
       padding-bottom: .5rem; }
-      #edital .secao-edital#anexos ul li a {
+      .single-edital .secao-edital#anexos ul li a {
         color: black; }
-        #edital .secao-edital#anexos ul li a:before {
+        .single-edital .secao-edital#anexos ul li a:before {
           content: "\f56d";
           font-family: "Font Awesome 5 Free";
           color: #f06c00;
           padding-right: 0.5rem;
           font-weight: 600;
           font-style: normal; }
-        #edital .secao-edital#anexos ul li a:hover {
+        .single-edital .secao-edital#anexos ul li a:hover {
           font-weight: 600;
           color: #c75000; }
-    #edital .secao-edital#inscricao p {
+    .single-edital .secao-edital#inscricao p {
       padding-bottom: .5rem;
       max-width: unset; }
   @media screen and (min-width: 992px) {
-    #edital #informacoes div {
+    .single-edital #informacoes div {
       padding-right: 2rem;
       width: calc(50% - 2rem);
       display: inline-block;
       vertical-align: top; }
-      #edital #informacoes div#descricao {
+      .single-edital #informacoes div#descricao {
         padding-top: 0; }
-        #edital #informacoes div#descricao p {
+        .single-edital #informacoes div#descricao p {
           display: inline; } }
 
-#noticia .destaque {
+.noticia .destaque {
   position: relative;
   height: 65vh;
   max-height: 545px;
@@ -2818,13 +2820,13 @@ footer {
   background-size: cover;
   background-position: center;
   margin-top: 0; }
-  #noticia .destaque:hover {
+  .noticia .destaque:hover {
     background-image: linear-gradient(#03254d, transparent); }
-  #noticia .destaque.destaque-imagem {
+  .noticia .destaque.destaque-imagem {
     height: 35vh; }
-    #noticia .destaque.destaque-imagem:hover {
+    .noticia .destaque.destaque-imagem:hover {
       background-image: linear-gradient(#043166, transparent); }
-  #noticia .destaque .titulo {
+  .noticia .destaque .titulo {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -2833,12 +2835,12 @@ footer {
     text-align: center;
     line-height: 3rem;
     color: white; }
-    #noticia .destaque .titulo h1, #noticia .destaque .titulo h2 {
+    .noticia .destaque .titulo h1, .noticia .destaque .titulo h2 {
       color: white; }
-    #noticia .destaque .titulo .fas {
+    .noticia .destaque .titulo .fas {
       margin: 0.5rem 0;
       font-size: 3.875rem; }
-  #noticia .destaque video, #noticia .destaque img {
+  .noticia .destaque video, .noticia .destaque img {
     position: absolute;
     top: 0;
     left: 0;
@@ -2847,37 +2849,37 @@ footer {
     max-width: 100%;
     min-height: 100%; }
   @media (max-width: 992px) {
-    #noticia .destaque {
+    .noticia .destaque {
       min-height: 35vh; }
-      #noticia .destaque .titulo {
+      .noticia .destaque .titulo {
         padding: 3rem 1rem; } }
   @media screen and (min-width: 992px) {
-    #noticia .destaque {
+    .noticia .destaque {
       height: 65vh !important; } }
-#noticia article {
+.noticia article {
   padding-bottom: 4rem; }
-  #noticia article h1 {
+  .noticia article h1 {
     font-size: 2.25rem;
     line-height: 1.2;
     font-weight: 300;
     color: #1765ab;
     margin-bottom: 0.8rem; }
-  #noticia article .post-date {
+  .noticia article .post-date {
     font-size: 0.9rem;
     font-weight: 300; }
-    #noticia article .post-date i {
+    .noticia article .post-date i {
       color: #f06c00;
       padding-right: 0.5rem; }
-  #noticia article .post-body {
+  .noticia article .post-body {
     font-family: "Merriweather", serif;
     line-height: 2;
     color: #333;
     margin-bottom: 3rem; }
-    #noticia article .post-body p,
-    #noticia article .post-body img,
-    #noticia article .post-body blockquote {
+    .noticia article .post-body p,
+    .noticia article .post-body img,
+    .noticia article .post-body blockquote {
       margin-top: 1.5rem; }
-    #noticia article .post-body blockquote {
+    .noticia article .post-body blockquote {
       color: #1765ab;
       font-weight: 700;
       font-style: italic;
@@ -2885,90 +2887,90 @@ footer {
       margin-right: 0;
       margin-left: auto;
       line-height: 1.8; }
-    #noticia article .post-body img {
+    .noticia article .post-body img {
       width: 100%;
       height: auto;
       margin-bottom: 1rem; }
-    #noticia article .post-body a {
+    .noticia article .post-body a {
       font-style: italic;
       color: #c75000; }
-      #noticia article .post-body a:hover {
+      .noticia article .post-body a:hover {
         color: #b24800;
         text-decoration: underline; }
-  #noticia article .post-autor {
+  .noticia article .post-autor {
     display: inline-flex; }
-    #noticia article .post-autor img {
+    .noticia article .post-autor img {
       width: 96px;
       height: 96px;
       max-width: 100%;
       border-radius: 50%;
       margin-right: 1rem; }
-    #noticia article .post-autor .autor-info {
+    .noticia article .post-autor .autor-info {
       font-weight: 300; }
-      #noticia article .post-autor .autor-info .autor-name {
+      .noticia article .post-autor .autor-info .autor-name {
         color: #1765ab;
         font-weight: 600;
         font-size: 1.5rem; }
-      #noticia article .post-autor .autor-info .autor-role {
+      .noticia article .post-autor .autor-info .autor-role {
         color: #c75000;
         text-transform: uppercase;
         margin-bottom: 1rem; }
-  #noticia article .links-compartilhamento {
+  .noticia article .links-compartilhamento {
     color: #c75000;
     font-weight: 300;
     border-top: solid 2px #c75000;
     margin-top: 5rem;
     line-height: 3rem; }
-    #noticia article .links-compartilhamento span {
+    .noticia article .links-compartilhamento span {
       font-weight: 600;
       display: none; }
-    #noticia article .links-compartilhamento a {
+    .noticia article .links-compartilhamento a {
       margin-top: -0.5rem;
       margin-left: 0.5rem;
       font-size: 1.5rem; }
 @media screen and (min-width: 992px) {
-  #noticia article h1 {
+  .noticia article h1 {
     font-size: 2.75rem;
     margin-top: 2rem; }
-  #noticia article .post-body {
+  .noticia article .post-body {
     max-width: 720px;
     margin: 0 auto 80px; }
-    #noticia article .post-body p,
-    #noticia article .post-body img,
-    #noticia article .post-body blockquote {
+    .noticia article .post-body p,
+    .noticia article .post-body img,
+    .noticia article .post-body blockquote {
       margin-top: 3rem; }
-  #noticia article .links-compartilhamento span {
+  .noticia article .links-compartilhamento span {
     display: inline-block; }
-  #noticia article .links-compartilhamento a {
+  .noticia article .links-compartilhamento a {
     float: right;
     margin-top: 0.5rem; } }
 
-#pagPesquisa {
+.pagPesquisa {
   /* #resultados */ }
-  #pagPesquisa h1 {
+  .pagPesquisa h1 {
     margin-bottom: 3rem; }
-    #pagPesquisa h1 span {
+    .pagPesquisa h1 span {
       font-weight: 400; }
-  #pagPesquisa #resultados {
+  .pagPesquisa #resultados {
     min-height: 15rem; }
-    #pagPesquisa #resultados li {
+    .pagPesquisa #resultados li {
       list-style: none;
       max-width: 720px;
       margin: 0 auto;
       margin-bottom: 3rem; }
-      #pagPesquisa #resultados li a {
+      .pagPesquisa #resultados li a {
         color: #c75000;
         font-weight: 500; }
-        #pagPesquisa #resultados li a:hover {
+        .pagPesquisa #resultados li a:hover {
           color: #b24800;
           border-bottom: solid 0.5ps #b24800; }
-      #pagPesquisa #resultados li span {
+      .pagPesquisa #resultados li span {
         font-weight: 300; }
-        #pagPesquisa #resultados li span strong {
+        .pagPesquisa #resultados li span strong {
           font-style: italic;
           color: #1765ab;
           text-transform: capitalize; }
-      #pagPesquisa #resultados li p {
+      .pagPesquisa #resultados li p {
         font-weight: 300;
         line-height: 1.6; }
 

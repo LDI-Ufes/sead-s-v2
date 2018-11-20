@@ -1,6 +1,6 @@
 <?php get_header('blog'); ?>
 
-<main id="page-blog">
+<main id="conteudoPrincipal" class="page-blog">
   <div class="container">
     <ul id="posts">
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>

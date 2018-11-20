@@ -1,6 +1,6 @@
 <?php get_header('blog'); ?>
 
-<main id="page-galeria" class="container page">
+<main id="conteudoPrincipal" class="container page page-galeria">
   <section class="breadcrumb">Você está em: <a href="/sitiosead/blog">Blog</a><i class="fas fa-greater-than"></i><span>Galeria de Imagens</span></section>
   <h1>Galeria de Imagens</h1>
 

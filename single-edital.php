@@ -2,7 +2,7 @@
  
 <?php while ( have_posts() ) : the_post(); ?>
  
-  <main id="edital" class='container page'>
+  <main id="conteudoPrincipal" class='container page single-edital'>
     <!--Inserir conteúdo-->
     <section class="breadcrumb">Você está em: <a href="/sitiosead/editais">Editais</a><i class="fas fa-greater-than"></i><span><?php the_title(); ?></span></section>
     <h1>Edital <?php the_title(); ?></h1>

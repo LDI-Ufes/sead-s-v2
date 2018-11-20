@@ -1,6 +1,6 @@
 <?php get_header('principal'); ?>
 
-<main id="informativo-invalido" class="container page">
+<main id="conteudoPrincipal" class="container page informativo-invalido">
 
   <h1>Oh, não!</h1>
 

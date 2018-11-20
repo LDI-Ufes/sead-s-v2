@@ -2,7 +2,7 @@
 
 <?php while ( have_posts() ) : the_post(); ?>
 
-  <main id="noticia">
+  <main id="conteudoPrincipal" class="noticia">
     <div class="destaque destaque-imagem">
       <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
     </div>

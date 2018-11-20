@@ -1,6 +1,6 @@
 <?php get_header('principal'); ?>
 
-<main class="page" id="erro">
+<main class="page page-erro" id="conteudoPrincipal">
   <div id="fundo"></div>
   <div class="container">
     <h1>Essa página não existe</h1>

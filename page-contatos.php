@@ -1,6 +1,6 @@
 <?php get_header('principal'); ?>
 
-<main class="page container" id="contatos">
+<main class="page container contatos" id="conteudoPrincipal">
 
     <section class="breadcrumb">Você está em: <strong>Ensino</strong><i class="fas fa-greater-than"></i><span>Contatos</span></section>
 
