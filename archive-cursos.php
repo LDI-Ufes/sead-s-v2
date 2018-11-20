@@ -15,17 +15,17 @@
     </ul>
     <div id="graduacao">
       <ul>
-        <li><a href="<?php echo site_url(); ?>/cursos/artes-visuais"><h3>Artes Visuais</h3><h4>Licenciatura</h4></a></li>
-        <li><h3>Biologia</h3><h4>Licenciatura</h4></li>
-        <li><h3>Filosofia</h3><h4>Licenciatura</h4></li>
-        <li><h3>Física</h3><h4>Licenciatura</h4></li>
-        <li><h3>História</h3><h4>Licenciatura</h4></li>
-        <li><h3>Letras Italiano</h3><h4>Licenciatura</h4></li>
+        <li><a href="<?php echo site_url(); ?>/cursos/artes-visuais"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/artes-visuais.jpg"><h3>Artes Visuais</h3><h4>Licenciatura</h4></a></li>
+        <li><img src="<?php echo get_template_directory_uri(); ?>/img/capas/biologia.jpg"><h3>Biologia</h3><h4>Licenciatura</h4></li>
+        <li><img src="<?php echo get_template_directory_uri(); ?>/img/capas/filosofia.jpg"><h3>Filosofia</h3><h4>Licenciatura</h4></li>
+        <li><img src="<?php echo get_template_directory_uri(); ?>/img/capas/fisica.jpg"><h3>Física</h3><h4>Licenciatura</h4></li>
+        <li><img src="<?php echo get_template_directory_uri(); ?>/img/capas/historia.jpg"><h3>História</h3><h4>Licenciatura</h4></li>
+        <li><img src="<?php echo get_template_directory_uri(); ?>/img/capas/letras-italiano.jpg"><h3>Letras Italiano</h3><h4>Licenciatura</h4></li>
         <li><h3>Pedagogia</h3><h4>Licenciatura</h4></li>
-        <li><h3>Química</h3><h4>Licenciatura</h4></li>
+        <li><img src="<?php echo get_template_directory_uri(); ?>/img/capas/quimica.jpg"><h3>Química</h3><h4>Licenciatura</h4></li>
         <li class="inativo"><h3>Administração</h3><h4>Licenciatura</h4><span>Não há mais informações sobre esse curso.</span></li>
-        <li class="inativo"><h3>Ciências Contábeis</h3><h4>Bacharelado</h4><span>Não há mais informações sobre esse curso.</span></li>
-        <li class="inativo"><h3>Educação Física</h3><h4>Licenciatura</h4><span>Não há mais informações sobre esse curso.</span></li>
+        <li class="inativo"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/ciencias-contabeis.jpg"><h3>Ciências Contábeis</h3><h4>Licenciatura</h4><span>Não há mais informações sobre esse curso.</span></li>
+        <li class="inativo"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/educacao-fisica.jpg"><h3>Educação Física</h3><h4>Licenciatura</h4><span>Não há mais informações sobre esse curso.</span></li>
         
         <li class="placeholder" aria-hidden="true"></li>
         <li class="placeholder" aria-hidden="true"></li>

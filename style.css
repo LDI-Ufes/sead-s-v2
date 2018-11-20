@@ -1740,8 +1740,7 @@ footer {
               display: none; } }
 
 .page-cursos span {
-  font-weight: 300;
-  /*max-width: 720px;*/ }
+  font-weight: 300; }
   .page-cursos span a {
     color: #c75000;
     font-weight: 500; }
@@ -1784,7 +1783,7 @@ footer {
   margin-right: -1rem; }
   .page-cursos #abas .tabPanel ul li {
     height: 7rem;
-    background-image: linear-gradient(transparent, #1765ab);
+    background-image: linear-gradient(transparent, #043166);
     color: white;
     vertical-align: baseline;
     padding: 1rem;
@@ -1792,9 +1791,16 @@ footer {
     margin-bottom: 2rem;
     position: relative;
     box-shadow: 0px -3px 0px #1765ab inset;
-    /*width: 210px;*/
     flex-basis: 250px;
     flex-grow: 1; }
+    .page-cursos #abas .tabPanel ul li img {
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      z-index: -1;
+      object-fit: cover; }
     .page-cursos #abas .tabPanel ul li a {
       width: 100%;
       height: 100%;
@@ -1873,7 +1879,8 @@ footer {
   height: 3rem;
   background-color: #1765ab;
   background-image: linear-gradient(#043166, transparent);
-  box-shadow: none; }
+  box-shadow: none;
+  position: relative; }
   .page-cursos #abas .tabPanel#aperfeicoamento ul li h3, .page-cursos #abas .tabPanel#especializacao ul li h3 {
     font-size: 1.1rem;
     font-weight: 400;
@@ -2601,7 +2608,8 @@ footer {
         font-weight: 400;
         display: inline-block;
         width: 49%;
-        min-width: 310px; }
+        min-width: 310px;
+        vertical-align: top; }
         .curso #conteudo div#professores .nome span {
           font-size: 0.9rem;
           font-style: italic;
