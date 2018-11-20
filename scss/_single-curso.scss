@@ -4,6 +4,12 @@
   .destaque {
     @include destaque($azulEscuro);
     border-bottom: solid 20px $laranjaRegular;
+
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
   }
 
   #info-curso {

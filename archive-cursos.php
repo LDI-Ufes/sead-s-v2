@@ -21,9 +21,9 @@
         <li><img src="<?php echo get_template_directory_uri(); ?>/img/capas/fisica.jpg"><h3>Física</h3><h4>Licenciatura</h4></li>
         <li><img src="<?php echo get_template_directory_uri(); ?>/img/capas/historia.jpg"><h3>História</h3><h4>Licenciatura</h4></li>
         <li><img src="<?php echo get_template_directory_uri(); ?>/img/capas/letras-italiano.jpg"><h3>Letras Italiano</h3><h4>Licenciatura</h4></li>
-        <li><h3>Pedagogia</h3><h4>Licenciatura</h4></li>
+        <li><img src="<?php echo get_template_directory_uri(); ?>/img/capas/pedagogia.jpg"><h3>Pedagogia</h3><h4>Licenciatura</h4></li>
         <li><img src="<?php echo get_template_directory_uri(); ?>/img/capas/quimica.jpg"><h3>Química</h3><h4>Licenciatura</h4></li>
-        <li class="inativo"><h3>Administração</h3><h4>Licenciatura</h4><span>Não há mais informações sobre esse curso.</span></li>
+        <li class="inativo"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/administracao.jpg"><h3>Administração</h3><h4>Licenciatura</h4><span>Não há mais informações sobre esse curso.</span></li>
         <li class="inativo"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/ciencias-contabeis.jpg"><h3>Ciências Contábeis</h3><h4>Licenciatura</h4><span>Não há mais informações sobre esse curso.</span></li>
         <li class="inativo"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/educacao-fisica.jpg"><h3>Educação Física</h3><h4>Licenciatura</h4><span>Não há mais informações sobre esse curso.</span></li>
         
