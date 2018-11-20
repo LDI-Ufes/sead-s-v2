@@ -1544,7 +1544,8 @@ footer {
           margin-bottom: 1rem;
           margin-right: 1rem;
           display: none;
-          cursor: zoom-in; }
+          cursor: zoom-in;
+          margin-left: 0; }
           .page-galeria #eventos li .imagens p a:nth-child(-n + 4) {
             display: inline-block; }
           .page-galeria #eventos li .imagens p a img {
@@ -1570,174 +1571,6 @@ footer {
         .page-galeria #eventos li .imagens p a {
           margin-right: 1.5rem;
           max-width: calc(25% - 1.5rem); } }
-
-.page {
-  line-height: 1.8rem;
-  padding-bottom: 4rem; }
-  .page p {
-    font-weight: 300; }
-    .page p a {
-      font-style: italic;
-      color: #1765ab;
-      margin-left: 0.5rem; }
-      .page p a:hover {
-        border-bottom: 0.5px solid #1765ab; }
-  .page blockquote {
-    color: #f06c00;
-    font-family: "Merriweather", serif;
-    font-weight: 700;
-    font-style: italic;
-    margin: 2rem 0;
-    font-size: 1.25rem; }
-  .page .breadcrumb {
-    font-size: 0.8rem;
-    margin: 1.5rem 0; }
-    .page .breadcrumb a {
-      color: #043166;
-      font-weight: 500; }
-      .page .breadcrumb a:hover {
-        text-decoration: underline;
-        font-weight: 700; }
-    .page .breadcrumb strong {
-      color: #043166;
-      font-weight: 500; }
-    .page .breadcrumb span {
-      color: #1765ab; }
-    .page .breadcrumb i {
-      color: #f06c00;
-      font-weight: 700;
-      font-size: 0.6rem;
-      padding: 0 0.3rem; }
-  .page h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #1765ab;
-    padding: 1rem 0 1rem;
-    line-height: 1.3;
-    margin: 0; }
-  .page h2 {
-    color: #1765ab;
-    font-size: 2rem;
-    margin-bottom: 3rem;
-    line-height: 1.2; }
-  .page h3 {
-    color: #f06c00;
-    margin-top: 3rem; }
-  .page #paginacao {
-    color: #c75000;
-    padding: 1rem 1rem 2rem;
-    text-align: center;
-    font-weight: 700; }
-    .page #paginacao a,
-    .page #paginacao span {
-      padding: 0 1rem; }
-    .page #paginacao a:hover {
-      border-bottom: solid 1px #b24800;
-      color: #b24800; }
-    .page #paginacao span {
-      color: #1765ab; }
-    .page #paginacao h2 {
-      display: none; }
-
-/* page */
-.informativo-confirmacao > * {
-  padding-left: 5rem;
-  padding-right: 3rem; }
-.informativo-confirmacao h1 {
-  padding-top: 5rem;
-  font-size: 5rem;
-  color: #c75000; }
-.informativo-confirmacao section {
-  margin-bottom: 6rem; }
-  .informativo-confirmacao section a {
-    display: inline-block;
-    margin-top: 1rem;
-    font-weight: 500;
-    color: #c75000; }
-    .informativo-confirmacao section a:hover {
-      border-bottom: solid 0.5px #c75000; }
-    .informativo-confirmacao section a i {
-      font-size: 0.9rem; }
-
-.informativo-invalido > * {
-  padding-left: 5rem;
-  padding-right: 3rem; }
-.informativo-invalido h1 {
-  padding-top: 5rem;
-  font-size: 5rem; }
-.informativo-invalido section {
-  margin-bottom: 6rem; }
-  .informativo-invalido section a {
-    display: inline-block;
-    margin-top: 1rem;
-    font-weight: 500;
-    color: #c75000; }
-    .informativo-invalido section a:hover {
-      border-bottom: solid 0.5px #c75000; }
-    .informativo-invalido section a i {
-      font-size: 0.9rem; }
-
-.contatos {
-  /* ul */
-  /* media */ }
-  .contatos .alerta {
-    font-weight: 300;
-    color: #f06c00;
-    font-size: 1.5rem;
-    line-height: 1.4;
-    margin: 2rem 0;
-    display: block;
-    max-width: 500px; }
-  .contatos h2 {
-    margin-top: 5rem; }
-  .contatos ul {
-    margin-bottom: 4rem; }
-    .contatos ul .titulos {
-      display: none; }
-    .contatos ul li {
-      border-top: solid 0.5px #cfeaff; }
-      .contatos ul li h3 {
-        font-size: 1.2rem;
-        margin: 1.5rem 0; }
-      .contatos ul li div {
-        padding-bottom: 1.5rem; }
-        .contatos ul li div span {
-          font-weight: 700;
-          color: gray;
-          display: block; }
-  @media (min-width: 992px) {
-    .contatos {
-      /* ul */ }
-      .contatos ul {
-        border-bottom: solid 0.5px #cfeaff; }
-        .contatos ul .titulos {
-          display: block; }
-          .contatos ul .titulos span {
-            width: 35%;
-            font-weight: 700;
-            color: #f06c00;
-            font-size: 1.2rem;
-            margin: 1.5rem 0;
-            display: inline-block; }
-            .contatos ul .titulos span:first-of-type {
-              width: 30%; }
-        .contatos ul li {
-          padding-top: 0.8rem; }
-          .contatos ul li h3 {
-            width: 30%;
-            font-weight: 400;
-            color: black;
-            font-size: 1rem;
-            display: inline-block;
-            margin: 0;
-            vertical-align: top; }
-          .contatos ul li div {
-            display: inline-block;
-            width: 35%;
-            padding-bottom: 0.8rem;
-            vertical-align: top; }
-            .contatos ul li div span {
-              display: none; } }
 
 .page-cursos span {
   font-weight: 300; }
@@ -1917,6 +1750,174 @@ footer {
           }
     
         }*/ } }
+
+.page {
+  line-height: 1.8rem;
+  padding-bottom: 4rem; }
+  .page p {
+    font-weight: 300; }
+    .page p a {
+      font-style: italic;
+      color: #1765ab;
+      margin-left: 0.5rem; }
+      .page p a:hover {
+        border-bottom: 0.5px solid #1765ab; }
+  .page blockquote {
+    color: #f06c00;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+    margin: 2rem 0;
+    font-size: 1.25rem; }
+  .page .breadcrumb {
+    font-size: 0.8rem;
+    margin: 1.5rem 0; }
+    .page .breadcrumb a {
+      color: #043166;
+      font-weight: 500; }
+      .page .breadcrumb a:hover {
+        text-decoration: underline;
+        font-weight: 700; }
+    .page .breadcrumb strong {
+      color: #043166;
+      font-weight: 500; }
+    .page .breadcrumb span {
+      color: #1765ab; }
+    .page .breadcrumb i {
+      color: #f06c00;
+      font-weight: 700;
+      font-size: 0.6rem;
+      padding: 0 0.3rem; }
+  .page h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1765ab;
+    padding: 1rem 0 1rem;
+    line-height: 1.3;
+    margin: 0; }
+  .page h2 {
+    color: #1765ab;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    line-height: 1.2; }
+  .page h3 {
+    color: #f06c00;
+    margin-top: 3rem; }
+  .page #paginacao {
+    color: #c75000;
+    padding: 1rem 1rem 2rem;
+    text-align: center;
+    font-weight: 700; }
+    .page #paginacao a,
+    .page #paginacao span {
+      padding: 0 1rem; }
+    .page #paginacao a:hover {
+      border-bottom: solid 1px #b24800;
+      color: #b24800; }
+    .page #paginacao span {
+      color: #1765ab; }
+    .page #paginacao h2 {
+      display: none; }
+
+/* page */
+.informativo-confirmacao > * {
+  padding-left: 5rem;
+  padding-right: 3rem; }
+.informativo-confirmacao h1 {
+  padding-top: 5rem;
+  font-size: 5rem;
+  color: #c75000; }
+.informativo-confirmacao section {
+  margin-bottom: 6rem; }
+  .informativo-confirmacao section a {
+    display: inline-block;
+    margin-top: 1rem;
+    font-weight: 500;
+    color: #c75000; }
+    .informativo-confirmacao section a:hover {
+      border-bottom: solid 0.5px #c75000; }
+    .informativo-confirmacao section a i {
+      font-size: 0.9rem; }
+
+.informativo-invalido > * {
+  padding-left: 5rem;
+  padding-right: 3rem; }
+.informativo-invalido h1 {
+  padding-top: 5rem;
+  font-size: 5rem; }
+.informativo-invalido section {
+  margin-bottom: 6rem; }
+  .informativo-invalido section a {
+    display: inline-block;
+    margin-top: 1rem;
+    font-weight: 500;
+    color: #c75000; }
+    .informativo-invalido section a:hover {
+      border-bottom: solid 0.5px #c75000; }
+    .informativo-invalido section a i {
+      font-size: 0.9rem; }
+
+.contatos {
+  /* ul */
+  /* media */ }
+  .contatos .alerta {
+    font-weight: 300;
+    color: #f06c00;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    margin: 2rem 0;
+    display: block;
+    max-width: 500px; }
+  .contatos h2 {
+    margin-top: 5rem; }
+  .contatos ul {
+    margin-bottom: 4rem; }
+    .contatos ul .titulos {
+      display: none; }
+    .contatos ul li {
+      border-top: solid 0.5px #cfeaff; }
+      .contatos ul li h3 {
+        font-size: 1.2rem;
+        margin: 1.5rem 0; }
+      .contatos ul li div {
+        padding-bottom: 1.5rem; }
+        .contatos ul li div span {
+          font-weight: 700;
+          color: gray;
+          display: block; }
+  @media (min-width: 992px) {
+    .contatos {
+      /* ul */ }
+      .contatos ul {
+        border-bottom: solid 0.5px #cfeaff; }
+        .contatos ul .titulos {
+          display: block; }
+          .contatos ul .titulos span {
+            width: 35%;
+            font-weight: 700;
+            color: #f06c00;
+            font-size: 1.2rem;
+            margin: 1.5rem 0;
+            display: inline-block; }
+            .contatos ul .titulos span:first-of-type {
+              width: 30%; }
+        .contatos ul li {
+          padding-top: 0.8rem; }
+          .contatos ul li h3 {
+            width: 30%;
+            font-weight: 400;
+            color: black;
+            font-size: 1rem;
+            display: inline-block;
+            margin: 0;
+            vertical-align: top; }
+          .contatos ul li div {
+            display: inline-block;
+            width: 35%;
+            padding-bottom: 0.8rem;
+            vertical-align: top; }
+            .contatos ul li div span {
+              display: none; } }
 
 .ead-na-ufes {
   /* #slider */
@@ -2185,7 +2186,7 @@ footer {
           font-weight: 500;
           color: #1765ab;
           cursor: pointer;
-          transition: font-size 0.2s;
+          transition: font-size 0.5s;
           border: none;
           background: none; }
           .page-polos #mapaInterativo #polos li button.municipioTitulo:hover {
