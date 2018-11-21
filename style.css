@@ -557,15 +557,16 @@ footer {
   /* media */
   /* media */ }
   .inicio #banner {
-    min-height: 20vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./img/destaque-4.png");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    text-align: center;
-    padding-bottom: 2rem; }
+    text-align: center; }
     .inicio #banner .container {
-      margin-top: 0; }
+      margin-top: 0;
+      padding: 5vh 0;
+      height: 100%;
+      margin-bottom: 0; }
       .inicio #banner .container h2 {
         margin: 0 auto;
         padding: 2rem 0;
@@ -580,6 +581,10 @@ footer {
           display: block;
           font-size: 2rem;
           line-height: 1.5; }
+      .inicio #banner .container a {
+        display: inline-block;
+        margin: 0;
+        margin-bottom: 2rem; }
   .inicio #ultimos-editais {
     background-image: url("./img/pattern.png"), linear-gradient(#edf9ff, #edf9ff);
     background-position: center;
@@ -864,20 +869,14 @@ footer {
     .inicio {
       margin: unset;
       max-width: unset;
-      /*PASSAR PRA GLOBAIS OU NAO*/
       /* #quer-ser */
       /* #noticias */
       /* #polos */ }
       .inicio #banner {
-        text-align: left;
-        padding-bottom: 0;
-        min-height: 40vh; }
-        .inicio #banner .container {
-          padding-bottom: 3rem; }
-          .inicio #banner .container h2 {
-            padding-top: 6rem;
-            padding-bottom: 1.5rem;
-            margin: 0; }
+        text-align: left; }
+        .inicio #banner .container h2 {
+          padding-bottom: 1.5rem;
+          margin: 0; }
       .inicio .container {
         max-width: 960px;
         margin: 3rem auto; }
@@ -1548,6 +1547,8 @@ footer {
           margin-left: 0; }
           .page-galeria #eventos li .imagens p a:nth-child(-n + 4) {
             display: inline-block; }
+          .page-galeria #eventos li .imagens p a:hover {
+            border: none; }
           .page-galeria #eventos li .imagens p a img {
             object-fit: cover;
             width: 100%;

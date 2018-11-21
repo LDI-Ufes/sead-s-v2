@@ -91,6 +91,10 @@
             &:nth-child(-n + 4) {
               display: inline-block;
             }
+            
+            &:hover{
+              border: none;
+            }
 
             img {
               object-fit: cover;

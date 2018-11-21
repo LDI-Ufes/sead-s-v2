@@ -2,17 +2,17 @@
   margin: 0;
 
   #banner {
-    min-height: 20vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-      url("./img/destaque-4.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./img/destaque-4.png");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     text-align: center;
-    padding-bottom: 2rem;
 
     .container {
       margin-top: 0;
+      padding: 5vh 0;
+      height: 100%;
+      margin-bottom: 0;
 
       h2 {
         margin: 0 auto;
@@ -34,6 +34,9 @@
 
       a {
         @extend %botao;
+        display: inline-block;
+        margin: 0;
+        margin-bottom: 2rem;
       }
     }
   }
@@ -352,21 +355,16 @@
 
     #banner {
       text-align: left;
-      padding-bottom: 0;
-      min-height: 40vh;
 
       .container {
-        padding-bottom: 3rem;
 
         h2 {
-          padding-top: 6rem;
           padding-bottom: 1.5rem;
           margin: 0;
         }
       }
     }
 
-    /*PASSAR PRA GLOBAIS OU NAO*/
     .container {
       max-width: 960px;
       margin: 3rem auto;
