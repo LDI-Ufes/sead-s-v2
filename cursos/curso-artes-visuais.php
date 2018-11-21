@@ -1,8 +1,6 @@
 <main class='page curso' id="conteudoPrincipal">
  
-  <section class="destaque destaque-imagem">
-    <img src="<?php echo get_template_directory_uri()?>/img/capas/artes-visuais.jpg" alt="">
-  </section>
+  <section class="destaque destaque-imagem" style="background-image: linear-gradient(#043166, transparent), url('<?php echo get_template_directory_uri()?>/img/capas/artes-visuais.jpg')"></section>
 
   <div class='container'>
     <section class='breadcrumb'>Você está em: <a href='<?php echo site_url(); ?>/cursos'>Cursos</a><i class='fas fa-greater-than'></i><span>Artes Visuais</span></section>

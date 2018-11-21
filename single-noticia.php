@@ -3,9 +3,7 @@
 <?php while ( have_posts() ) : the_post(); ?>
 
   <main id="conteudoPrincipal" class="noticia">
-    <div class="destaque destaque-imagem">
-      <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
-    </div>
+    <div class="destaque destaque-imagem" style="background-image: linear-gradient(#043166, transparent), url('<?php echo get_the_post_thumbnail_url(); ?>')"></div>
 
     <article class="container">
       <h1><?php the_title(); ?></h1>
