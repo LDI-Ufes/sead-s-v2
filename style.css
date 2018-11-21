@@ -1594,28 +1594,28 @@ footer {
   .page-cursos span i {
     color: #f06c00;
     margin-right: .3rem; }
-.page-cursos #abas .tabsList {
+.page-cursos #abas #itens-abas {
   display: flex;
   justify-content: flex-start;
   margin: 3rem 0;
   color: #1765ab;
   border-bottom: 1px #1765ab solid; }
-  .page-cursos #abas .tabsList li {
+  .page-cursos #abas #itens-abas li {
     margin-right: 1.5rem; }
-    .page-cursos #abas .tabsList li a:hover {
+    .page-cursos #abas #itens-abas li a:hover {
       color: #043166; }
-    .page-cursos #abas .tabsList li.current {
+    .page-cursos #abas #itens-abas li.current {
       color: #043166;
       font-weight: 700;
       border-bottom: 2px #043166 solid; }
-      .page-cursos #abas .tabsList li.current a:hover {
+      .page-cursos #abas #itens-abas li.current a:hover {
         cursor: default;
         color: inherit; }
-.page-cursos #abas .tabPanel ul {
+.page-cursos #abas div ul {
   display: flex;
   flex-wrap: wrap;
   margin-right: -1rem; }
-  .page-cursos #abas .tabPanel ul li {
+  .page-cursos #abas div ul li {
     height: 7rem;
     background-image: linear-gradient(transparent, #043166);
     color: white;
@@ -1626,8 +1626,9 @@ footer {
     position: relative;
     box-shadow: 0px -3px 0px #1765ab inset;
     flex-basis: 250px;
-    flex-grow: 1; }
-    .page-cursos #abas .tabPanel ul li img {
+    flex-grow: 1;
+    overflow: hidden; }
+    .page-cursos #abas div ul li img {
       width: 100%;
       position: absolute;
       top: 0;
@@ -1635,18 +1636,24 @@ footer {
       height: 100%;
       z-index: -1;
       object-fit: cover; }
-    .page-cursos #abas .tabPanel ul li a {
+    .page-cursos #abas div ul li a {
       width: 100%;
       height: 100%;
       position: absolute;
       top: 0;
       left: 0; }
-      .page-cursos #abas .tabPanel ul li a h3, .page-cursos #abas .tabPanel ul li a h4 {
+      .page-cursos #abas div ul li a h3, .page-cursos #abas div ul li a h4 {
         left: 1rem; }
-    .page-cursos #abas .tabPanel ul li h3, .page-cursos #abas .tabPanel ul li h4 {
+      .page-cursos #abas div ul li a.focus-visible {
+        position: unset;
+        background-image: linear-gradient(transparent, #021935); }
+        .page-cursos #abas div ul li a.focus-visible h3 {
+          text-decoration: underline #f06c00;
+          text-underline-position: under; }
+    .page-cursos #abas div ul li h3, .page-cursos #abas div ul li h4 {
       bottom: .8rem;
       position: absolute; }
-    .page-cursos #abas .tabPanel ul li h3 {
+    .page-cursos #abas div ul li h3 {
       color: white;
       margin: 0;
       padding: 0;
@@ -1654,24 +1661,24 @@ footer {
       font-weight: 600;
       line-height: 1.5rem;
       margin-bottom: 1.5rem; }
-    .page-cursos #abas .tabPanel ul li h4 {
+    .page-cursos #abas div ul li h4 {
       font-weight: 300;
       margin: 0; }
-    .page-cursos #abas .tabPanel ul li:hover {
-      background-image: linear-gradient(transparent, #114a7e); }
-      .page-cursos #abas .tabPanel ul li:hover h3 {
+    .page-cursos #abas div ul li:hover {
+      background-image: linear-gradient(transparent, #021935); }
+      .page-cursos #abas div ul li:hover h3 {
         text-decoration: underline #f06c00;
         text-underline-position: under; }
-    .page-cursos #abas .tabPanel ul li.inativo {
+    .page-cursos #abas div ul li.inativo {
       background-image: linear-gradient(transparent, #333333);
       cursor: default; }
-      .page-cursos #abas .tabPanel ul li.inativo span {
+      .page-cursos #abas div ul li.inativo span {
         display: none; }
-      .page-cursos #abas .tabPanel ul li.inativo:hover {
+      .page-cursos #abas div ul li.inativo:hover {
         background-image: linear-gradient(transparent, black); }
-        .page-cursos #abas .tabPanel ul li.inativo:hover h3 {
+        .page-cursos #abas div ul li.inativo:hover h3 {
           text-decoration: none; }
-        .page-cursos #abas .tabPanel ul li.inativo:hover span {
+        .page-cursos #abas div ul li.inativo:hover span {
           display: block;
           border-radius: 5px;
           position: absolute;
@@ -1682,7 +1689,7 @@ footer {
           border: #1765ab solid 1px;
           padding: 3px 10px;
           z-index: 1; }
-          .page-cursos #abas .tabPanel ul li.inativo:hover span:before {
+          .page-cursos #abas div ul li.inativo:hover span:before {
             content: '';
             width: 0px;
             height: 0px;
@@ -1692,7 +1699,7 @@ footer {
             position: absolute;
             top: 2.1rem;
             left: 2rem; }
-          .page-cursos #abas .tabPanel ul li.inativo:hover span:after {
+          .page-cursos #abas div ul li.inativo:hover span:after {
             content: '';
             width: 0px;
             height: 0px;
@@ -1702,40 +1709,40 @@ footer {
             position: absolute;
             top: 2.1rem;
             left: 2.1rem; }
-    .page-cursos #abas .tabPanel ul li.placeholder {
+    .page-cursos #abas div ul li.placeholder {
       background: none;
       height: 0;
       box-shadow: none;
       cursor: none; }
-      .page-cursos #abas .tabPanel ul li.placeholder:hover {
+      .page-cursos #abas div ul li.placeholder:hover {
         background: none; }
-.page-cursos #abas .tabPanel#aperfeicoamento ul li, .page-cursos #abas .tabPanel#especializacao ul li {
+.page-cursos #abas div#aperfeicoamento ul li, .page-cursos #abas div#especializacao ul li {
   height: 3rem;
   background-color: #1765ab;
   background-image: linear-gradient(#043166, transparent);
   box-shadow: none;
   position: relative; }
-  .page-cursos #abas .tabPanel#aperfeicoamento ul li h3, .page-cursos #abas .tabPanel#especializacao ul li h3 {
+  .page-cursos #abas div#aperfeicoamento ul li h3, .page-cursos #abas div#especializacao ul li h3 {
     font-size: 1.1rem;
     font-weight: 400;
     line-height: 1.5rem;
     margin-right: 1rem;
     top: 1rem; }
-  .page-cursos #abas .tabPanel#aperfeicoamento ul li:hover, .page-cursos #abas .tabPanel#especializacao ul li:hover {
+  .page-cursos #abas div#aperfeicoamento ul li:hover, .page-cursos #abas div#especializacao ul li:hover {
     background-image: linear-gradient(transparent, #114a7e); }
-  .page-cursos #abas .tabPanel#aperfeicoamento ul li.inativo, .page-cursos #abas .tabPanel#especializacao ul li.inativo {
+  .page-cursos #abas div#aperfeicoamento ul li.inativo, .page-cursos #abas div#especializacao ul li.inativo {
     background-color: gray;
     background-image: linear-gradient(#333333, transparent); }
-    .page-cursos #abas .tabPanel#aperfeicoamento ul li.inativo:hover, .page-cursos #abas .tabPanel#especializacao ul li.inativo:hover {
+    .page-cursos #abas div#aperfeicoamento ul li.inativo:hover, .page-cursos #abas div#especializacao ul li.inativo:hover {
       background-image: linear-gradient(black, transparent); }
-      .page-cursos #abas .tabPanel#aperfeicoamento ul li.inativo:hover span, .page-cursos #abas .tabPanel#especializacao ul li.inativo:hover span {
+      .page-cursos #abas div#aperfeicoamento ul li.inativo:hover span, .page-cursos #abas div#especializacao ul li.inativo:hover span {
         top: -2rem; }
-  .page-cursos #abas .tabPanel#aperfeicoamento ul li.placeholder, .page-cursos #abas .tabPanel#especializacao ul li.placeholder {
+  .page-cursos #abas div#aperfeicoamento ul li.placeholder, .page-cursos #abas div#especializacao ul li.placeholder {
     background: none;
     height: 0;
     box-shadow: none;
     cursor: none; }
-    .page-cursos #abas .tabPanel#aperfeicoamento ul li.placeholder:hover, .page-cursos #abas .tabPanel#especializacao ul li.placeholder:hover {
+    .page-cursos #abas div#aperfeicoamento ul li.placeholder:hover, .page-cursos #abas div#especializacao ul li.placeholder:hover {
       background: none; }
 @media (min-width: 992px) {
   .page-cursos {

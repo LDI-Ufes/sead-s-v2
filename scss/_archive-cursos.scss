@@ -32,7 +32,7 @@
   }
 
   #abas {
-    .tabsList {
+    #itens-abas {
       display: flex;
       justify-content: flex-start;
       margin: 3rem 0;
@@ -59,7 +59,7 @@
       }
     }
 
-    .tabPanel {
+    div {
       ul{
         display: flex;
         flex-wrap: wrap;
@@ -77,6 +77,7 @@
           box-shadow: 0px -3px 0px $azulRegular inset;
           flex-basis: 250px;
           flex-grow: 1;
+          overflow: hidden;
 
           img{
             width: 100%;
@@ -97,6 +98,16 @@
 
             h3, h4{
               left: 1rem;
+            }
+
+            &.focus-visible{ 
+              position: unset;
+              background-image: linear-gradient(transparent, darken($azulEscuro, 10));
+
+              h3{ 
+                text-decoration: underline $laranjaRegular;
+                text-underline-position: under;
+              }
             }
           }
 
@@ -121,7 +132,7 @@
           }
 
           &:hover{
-            background-image: linear-gradient(transparent, darken($azulRegular, 10));
+            background-image: linear-gradient(transparent, darken($azulEscuro, 10));
 
             h3{ 
               text-decoration: underline $laranjaRegular;

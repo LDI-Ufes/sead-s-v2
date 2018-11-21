@@ -8,7 +8,7 @@
   <span><i class="fas fa-exclamation-circle"></i>Para ver os cursos que estão com processo seletivo aberto, fique ligado em nossos <a href="<?php echo site_url(); ?>/editais" title="Ir para Editais">Editais <i class="fas fa-angle-double-right"></i></a> e participe de processos seletivos.</span>
 
   <div id="abas">
-    <ul>
+    <ul id="itens-abas">
       <li><a href="#graduacao">Graduação</a></li>
       <li><a href="#especializacao">Especialização</a></li>
       <li><a href="#aperfeicoamento">Aperfeiçoamento</a></li>
