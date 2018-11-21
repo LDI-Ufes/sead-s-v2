@@ -43,6 +43,10 @@
         $('li').not($(this).parent()).removeClass('expandido');
         $(this).parent().toggleClass('expandido');
         $('html, body').animate({ scrollTop: $(this).offset().top-280 }, 800);
+        $('.mapaES #comPolos path').removeClass('selecionado');
+        let parentID = '#' + $('.expandido').attr('id')
+        console.log(parentID)
+        $('.mapaES #comPolos path' + parentID).addClass('selecionado')
       });}
     );
   });
