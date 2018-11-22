@@ -2210,6 +2210,7 @@ footer {
           display: block; }
     .page-polos #mapaInterativo .mapaES {
       position: sticky;
+      position: -webkit-sticky;
       top: 3rem;
       width: 50%; }
   @media screen and (min-width: 992px) {
@@ -2744,6 +2745,7 @@ footer {
       border-top: solid 5px #043166; }
       .curso #conteudo #menu {
         position: sticky;
+        position: -webkit-sticky;
         display: inline-block;
         top: 0; }
         .curso #conteudo #menu #dropdown-menu {
