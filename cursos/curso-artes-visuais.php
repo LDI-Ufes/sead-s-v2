@@ -47,7 +47,7 @@
       <div id='matriz'>
         <h2 id='curriculo'>Duração do curso</h2>
         <p>Carga horária mínima de integralização curricular: 3280 horas<br>
-          Disciplinas: 1440 horas<br>
+          Disciplinas: 2520 horas<br>
           Estágio Curricular Supervisionado Obrigatório: 400 horas<br>
           Dimensões Pedagógicas: 600 horas<br>
           Trabalho de Conclusão de Curso: 160 horas<br>
@@ -93,7 +93,7 @@
               <div>Disciplina <span>Ementa</span></div>
 
               <li>Seminário III <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Seminario_III.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Pesquisa em educação das Artes Visuais <span>100h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Pesquisa_em_Ed._das_Artes_Visuais.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Pesquisa em educação das Artes Visuais <span>90h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Pesquisa_em_Ed._das_Artes_Visuais.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
               <li>Artes da Fibra <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Artes_de_Fibra.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
               <li>Antropologia Visual <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Antropologia_visual.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
               <li>Aspectos Legais do Ensino da Arte <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Aspectos_Legais.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
@@ -126,7 +126,7 @@
               <li>Filosofia da Arte <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Filosofia_da_Arte.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
               <li>Arte Contemporânea <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Arte_Contemporanea.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
               <li>Vídeo <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Video.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Estágio Supervisionado na Educação Infantil <span>105h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Estagio_Supervisionado_na_Educacao_Infantil.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Estágio Supervisionado na Educação Infantil <span>100h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Estagio_Supervisionado_na_Educacao_Infantil.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
               <li>Oficina de Arte e Educação II <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Oficina_de_artes_II.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
               <li>Seminário V <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
 
@@ -142,7 +142,7 @@
               <li>Processo de criação <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Processo_de_Criacao.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
               <li>Teorias da Linguagem Visual <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Teorias_da_Linguagem_Visual.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
               <li>Estágio Supervisionado no Ensino Fundamental <span>150h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Estagio_supervisionado_no_Ens._Fundamental.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Educação não Escolar em Artes Visuais I <span>150h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Educacao_nao_escolar_I.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Educação não Escolar em Artes Visuais I <span>105h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Educacao_nao_escolar_I.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
 
             </ul>
           </li>
@@ -166,9 +166,9 @@
             <ul>
               <div>Disciplina <span>Ementa</span></div>
 
-              <li>Educação não Escolar em Artes Visuais I <span>150h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Arte_na_Educacao_Nao_Escolar_II.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Educação não Escolar em Artes Visuais I <span>105h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Arte_na_Educacao_Nao_Escolar_II.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
               <li>Libras <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Libras.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Trabalho de Graduação II <span>120h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_TG_II.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Trabalho de Graduação II <span>100h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_TG_II.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
             </ul>
           </li>
         </ul>
@@ -180,26 +180,26 @@
         <p><strong>Coordenação:</strong> Andreia Chiari Lins</p>
         <p>Professora do Departamento de Desenho Industrial, para área de Tecnologias da Imagem, na Universidade Federal do Espírito Santo. Doutorada (2016) e Mestre em Educação pela Universidade Federal do Espírito Santo (2008). Especialista em Educação a Distância pela Universidade Católica de Brasília - DF (2006), Especialista em Administração de Empresas Privadas pelo Centro Universitário Vila Velha - ES (1997). Bacharel em Artes Plásticas pela Universidade Federal do Espírito Santo (1994).
 
-        <p><strong>Vice coordenação:</strong> </p>
+        <p><strong>Vice coordenação:</strong> Maria Auxiliadora de Carvalho Corassa</p>
 
         <p><strong>Colegiado do curso:</strong> 
-          <br>Elaine Karla de Almeida
-          <br>Julia Rocha Pinto
-          <br>Julio Francelino Ferreira Filho
-          <br>Livia Teixeira Lemos
-          <br>Maria Auxiliadora de Carvalho Corassa
-          <br>Maria Goretti Moro Gomes
-          <br>Orlando da Rosa Faria
-          <br>Rozania de Carvalho Menegussi
-          <br>Stela Maris Sanmartin
+          <br>Andreia Chiari Lins  
+          <br>Erick Orloski
+          <br>Fernanda Monteiro Barreto Camargo  
+          <br>Júlio Francelino Ferreira Filho 
+          <br>Marcela Belo 
+          <br>Maria Auxiliadora de Carvalho Corassa 
+          <br>Maria Goretti Moro Gomes  
+          <br>Orlando da Rosa Faria  
+          <br>Rozânia de Carvalho Menegussi  
         </p>
 
         <p><strong>Núcleo Docente Estruturante:</strong>
-          <br>Maria Auxiliadora de Carvalho Corassa
-          <br>Aparecido Jose Cirilo
+          <br>Andreia Chiari Lins 
+          <br>Aparecido José Cirilo
+          <br>Fernanda Monteiro Barreto Camargo  
+          <br>Maria Auxiliadora de Carvalho Corassa  
           <br>Stela Maris Sanmartin
-          <br>Julia Rocha Pinto
-          <br>Fabiola Veloso Menezes
         </p>
 
         <h2>Corpo docente</h2>
@@ -320,11 +320,11 @@
 
         <h3>2008/1</h3>
         <p><strong>Coordenador do Curso:</strong> Maria Gorete Dadalto Gonçalves</p>
-        <p><strong>Polos atendidos:</strong> Alegre, Afonso Claudio, Aracruz, Bom Jesus do Norte, Cachoeiro de Itapemirim, Colatina, Conceição da Barra, Domingos Martins, Ecoporanga, Itapemirim, Iúna, Linhares, Mantenópolis, Nova Venécia, Pinheiros, Piúma, Santa Leopoldina, Santa Teresa, São Mateus, Vargem Alta, Venda Nova do Imigrante, Vila Velha</p>
+        <p><strong>Polos atendidos:</strong> Alegre, Afonso Claudio, Aracruz, Bom Jesus do Norte, Cachoeiro de Itapemirim, Colatina, Conceição da Barra, Domingos Martins, Ecoporanga, Itapemirim, Iúna, Linhares, Mantenópolis, Nova Venécia, Pinheiros, Piúma, Santa Leopoldina, Santa Teresa, São Mateus, Vargem Alta, Venda Nova do Imigrante, Vila Velha.</p>
 
         <h3>2014/2 - 2019/1</h3>
         <p><strong>Coordenador do Curso:</strong> Andreia Chiari Lins</p>
-        <p><strong>Polos atendidos:</strong> </p>
+        <p><strong>Polos atendidos:</strong> Afonso Claudio, Aracruz, Cachoeiro de Itapemirim, Colatina, Domingos Martins, Itapemirim, Iúna, Linhares, Pinheiros, Piúma, Santa Teresa e Vargem Alta.</p>
         <p><strong>Seleção:</strong><a href="http://www.sead.ufes.br/conteudo/processo-seletivo-para-ingresso-em-cursos-de-graduação-na-modalidade-distância-0" target="_blank" title="Abrir processo seletivo em nova aba">Ver processo seletivo</a> (encerrado)</p>
       </div>
 
@@ -332,7 +332,7 @@
 
   </div>
 
-  <section id='faq-curso'>
+<!--  <section id='faq-curso'>
     <div class='container'>
       <h2>Dúvidas Frequentes</h1>
         <ul>
@@ -354,7 +354,7 @@
           </li>
         </ul>
     </div>
-  </section>
+  </section>-->
 
   <?php
   $ultimas_noticias = new WP_Query(array(
