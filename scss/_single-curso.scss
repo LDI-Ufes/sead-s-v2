@@ -373,6 +373,7 @@
 
       #menu {
         position: sticky;
+        position: -webkit-sticky;
         display: inline-block;
         top: 0;
 
