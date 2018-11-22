@@ -1,6 +1,6 @@
 .page-polos {
   #mapaInterativo {
-    margin: 5rem 0;
+    margin-top: 2rem;
     position: relative;
 
     .popoverMunicipios {
@@ -97,6 +97,7 @@
 
   @media screen and (min-width: 992px) {
     #mapaInterativo {
+      margin: 5rem 0;
       .popoverMunicipios {
         width: 45%;
 

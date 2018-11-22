@@ -153,15 +153,19 @@
               font-weight: $medium;
               border-bottom: solid 0.5px $azulClaro;
               padding: 0.5rem 0;
+              position: relative;
+              padding-right: 3rem;
 
               span {
                 font-weight: $light;
               }
 
               a{
-                float: right;
                 color: $laranjaRegular;
                 cursor: pointer;
+                position: absolute;
+                right: 0;
+                top: .5rem;
 
                 &:hover{ color: $laranjaMedio; }
               }
@@ -298,6 +302,7 @@
         position: relative;
         height: 10rem;
         margin-bottom: 1rem;
+        flex: 1 1 100%;
 
         &:after {
           content: "";
@@ -397,18 +402,18 @@
       padding-left: 1.5rem;
       width: 700px;
     }
-  }
 
-  #noticias {
-    div.flex {
-      flex-wrap: nowrap;
-      margin-right: -1rem;
-    }
+    #noticias {
+      div.flex {
+        flex-wrap: nowrap;
+        margin-right: -1rem;
+      }
 
-    .noticia {
-      flex: 1 1 0;
-      margin-right: 1rem;
-      margin-bottom: 0;
+      .noticia {
+        flex: 1 1 0;
+        margin-right: 1rem;
+        margin-bottom: 0;
+      }
     }
   }
 }

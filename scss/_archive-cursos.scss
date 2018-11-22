@@ -32,12 +32,34 @@
   }
 
   #abas {
+    position: relative;
+
+    #dropdown-menu {
+      display: block;
+      color: $azulEscuro;
+      padding: 0.5rem;
+      border: none;
+      width: 100%;
+      text-align: left;
+      background: none;
+      border-bottom: 1.5px solid $azulEscuro;
+      cursor: pointer;
+      margin: 2rem 0;
+
+      i {
+        float: right;
+      }
+    }
+
     #itens-abas {
-      display: flex;
-      justify-content: flex-start;
-      margin: 3rem 0;
+      display: none;
       color: $azulRegular;
       border-bottom: 1px $azulRegular solid;
+      position: absolute;
+      background-color: white;
+      z-index: 1;
+      top: 2.5rem;
+      padding: 1rem;
 
       li{
         margin-right: 1.5rem;
@@ -49,7 +71,6 @@
         &.current {
           color: $azulEscuro;
           font-weight: $bold;
-          border-bottom: 2px $azulEscuro solid;
 
           a:hover {
             cursor: default;
@@ -74,10 +95,9 @@
           margin-right: 1rem;
           margin-bottom: 2rem;
           position: relative;
-          box-shadow: 0px -3px 0px $azulRegular inset;
+          /*box-shadow: 0px -3px 0px $azulRegular inset;*/
           flex-basis: 250px;
           flex-grow: 1;
-          overflow: hidden;
 
           img{
             width: 100%;
@@ -96,7 +116,7 @@
             top: 0;
             left: 0;
 
-            h3, h4{
+            h3{
               left: 1rem;
             }
 
@@ -107,28 +127,30 @@
               h3{ 
                 text-decoration: underline $laranjaRegular;
                 text-underline-position: under;
+
+                span{ text-decoration: none; }
               }
+
             }
           }
 
-          h3, h4{
+          h3{
             bottom: .8rem;
             position: absolute;
-          }
-
-          h3{
             color: white;
             margin: 0;
             padding: 0;
-            font-size: 1.3rem;
+            font-size: 1.5rem;
             font-weight: 600;
             line-height: 1.5rem;
-            margin-bottom: 1.5rem;
-          }
+            margin-bottom: .5rem;
 
-          h4{ 
-            font-weight: $light;
-            margin: 0;
+            span{
+              font-weight: $light;
+              margin: 0;
+              display: block;
+              font-size: 1rem;
+            }
           }
 
           &:hover{
@@ -137,6 +159,8 @@
             h3{ 
               text-decoration: underline $laranjaRegular;
               text-underline-position: under;
+
+              span{ text-decoration: none; }
             }
           }
 
@@ -144,7 +168,7 @@
             background-image: linear-gradient(transparent, lighten(black, 20));
             cursor: default;
 
-            span{ 
+            span.aviso{ 
               display: none;
             }
 
@@ -152,7 +176,7 @@
               h3{ text-decoration: none; }
               background-image: linear-gradient(transparent, black);
 
-              span{ 
+              span.aviso{ 
                 display: block;
                 border-radius: 5px;
                 position: absolute;
@@ -196,6 +220,8 @@
             height: 0;
             box-shadow: none;
             cursor: none;
+            padding: 0 1rem;
+            margin-bottom: 0;
 
             &:hover{
               background: none;
@@ -230,7 +256,7 @@
               &:hover{ 
                 background-image: linear-gradient(black, transparent); 
 
-                span{ top: -2rem; }
+                span.aviso{ top: -2rem; }
               }
             }
 
@@ -252,17 +278,34 @@
 
 
   @media(min-width: 992px){
-    /*    #abas{
-    
-          .tabPanel{
-            ul{
-              li{
-                max-width: 28%;
-                flex: 1 0 28%;
-              }
-            }
+    #abas{
+
+      #dropdown-menu {
+        display: none;
+      }
+
+      #itens-abas {
+        display: flex;
+        justify-content: flex-start;
+        margin: 3rem 0;
+        color: $azulRegular;
+        border-bottom: 1px $azulRegular solid;
+        position: initial;
+        padding: 0;
+
+        li.current {
+          color: $azulEscuro;
+          font-weight: $bold;
+          border-bottom: 2px $azulEscuro solid;
+
+          a:hover {
+            cursor: default;
+            color: inherit;
           }
-    
-        }*/
+        }
+
+      }
+
+    }
   }
 }
