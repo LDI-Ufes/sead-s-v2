@@ -2,10 +2,10 @@
 
 <main id="conteudoPrincipal" class="page secretaria">
 
-  <a href="//www.youtube.com/watch?v=XSGBVzeBUbk" data-lity>
+  <a href="https://www.youtube.com/watch?v=w9viAYFGs4k" data-lity>
     <section class="destaque">
 
-      <video width="auto" height="100%" autoplay loop>
+      <video autoplay loop>
         <source src="<?php echo get_template_directory_uri(); ?>/video/secretaria.mp4" type="video/mp4">
       </video>
 

@@ -19,13 +19,13 @@
     <div id="graduacao">
       <ul>
         <li><a href="<?php echo site_url(); ?>/cursos/artes-visuais"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/artes-visuais.jpg"><h3><span>Licenciatura em</span>Artes Visuais</h3></a></li>
-        <li><img src="<?php echo get_template_directory_uri(); ?>/img/capas/biologia.jpg"><h3><span>Licenciatura em</span>Biologia</h3> </li>
-        <li><img src="<?php echo get_template_directory_uri(); ?>/img/capas/filosofia.jpg"><h3><span>Licenciatura em</span>Filosofia</h3> </li>
-        <li><img src="<?php echo get_template_directory_uri(); ?>/img/capas/fisica.jpg"><h3><span>Licenciatura em</span>Física</h3> </li>
-        <li><img src="<?php echo get_template_directory_uri(); ?>/img/capas/historia.jpg"><h3><span>Licenciatura em</span>História</h3> </li>
-        <li><img src="<?php echo get_template_directory_uri(); ?>/img/capas/letras-italiano.jpg"><h3><span>Licenciatura em</span>Letras Italiano</h3> </li>
-        <li><img src="<?php echo get_template_directory_uri(); ?>/img/capas/pedagogia.jpg"><h3><span>Licenciatura em</span>Pedagogia</h3> </li>
-        <li><img src="<?php echo get_template_directory_uri(); ?>/img/capas/quimica.jpg"><h3><span>Licenciatura em</span>Química</h3> </li>
+        <li><a href="<?php echo site_url(); ?>/cursos/biologia"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/biologia.jpg"><h3><span>Licenciatura em</span>Biologia</h3></a></li>
+        <li><a href="<?php echo site_url(); ?>/cursos/filosofia"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/filosofia.jpg"><h3><span>Licenciatura em</span>Filosofia</h3></a></li>
+        <li><a href="<?php echo site_url(); ?>/cursos/fisica"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/fisica.jpg"><h3><span>Licenciatura em</span>Física</h3></a></li>
+        <li><a href="<?php echo site_url(); ?>/cursos/historia"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/historia.jpg"><h3><span>Licenciatura em</span>História</h3></a></li>
+        <li><a href="<?php echo site_url(); ?>/cursos/letras-italiano"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/letras-italiano.jpg"><h3><span>Licenciatura em</span>Letras Italiano</h3></a></li>
+        <li><a href="<?php echo site_url(); ?>/cursos/pedagogia"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/pedagogia.jpg"><h3><span>Licenciatura em</span>Pedagogia</h3></a></li>
+        <li><a href="<?php echo site_url(); ?>/cursos/quimica"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/quimica.jpg"><h3><span>Licenciatura em</span>Química</h3></a></li>
         <li class="inativo"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/administracao.jpg"><h3><span>Bacharelado em</span>Administração</h3> <span class="aviso">Não há mais informações sobre esse curso.</span></li>
         <li class="inativo"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/ciencias-contabeis.jpg"><h3><span>Bacharelado em</span>Ciências Contábeis</h3> <span class="aviso">Não há mais informações sobre esse curso.</span></li>
         <li class="inativo"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/educacao-fisica.jpg"><h3><span>Licenciatura em</span>Educação Física</h3> <span class="aviso">Não há mais informações sobre esse curso.</span></li>

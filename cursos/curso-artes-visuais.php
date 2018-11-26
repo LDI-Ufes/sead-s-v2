@@ -17,7 +17,7 @@
         <p><strong>Conceito Geral: </strong>3</p>
       </div>
       <div id='situacao'>
-        <p><strong>Situação: </strong>Oferta 2014/2 em andamento, previsão de conclusão em 2019/2.
+        <p><strong>Situação: </strong>Oferta 2014/2 em andamento, previsão de conclusão em 2019/1.
           <br>Aprovado pelo CEPE em 23/07/2014 por meio da Resolução 33/2014.
           <br><strong>Sem previsão de nova reoferta.</strong>
         </p>
@@ -35,7 +35,7 @@
           <li><a href='#perfil-do-egresso'>Perfil do egresso</a></li>
           <li><a href='#ofertas-anteriores'>Ofertas anteriores</a></li>
           <!--<a href='<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Artes-Visuais_PPC.pdf' target='_blank'><i class='fas fa-external-link-alt'></i>PPC</a>-->
-          <a href='<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Artes-Visuais_Guia-do-aluno.pdf' target='_blank'><i class='fas fa-external-link-alt'></i>Guia do aluno</a>
+          <a title="Abrir Guia do Aluno" href='<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Artes-Visuais_Guia-do-aluno.pdf' target='_blank'><i class='fas fa-external-link-alt'></i>Guia do aluno</a>
 
           <span>Contato</span>
           artesvisuais.ead@gmail.com<br>
@@ -60,29 +60,29 @@
           <li class='semestre'>
             <button class='ativo'><h3>1° semestre</h3></button>
             <ul style='display: block;'>
-              <div>Disciplina <span>Ementa</span></div>
+              <div>Disciplina <span>Programa</span></div>
 
-              <li>As novas tecnologias e a formação do professor na modalidade semipresencial <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_As_novas_tecnologias_e_a_formacao_do_professor_na_modalidade_semipresencial.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Cor e Laboratório de Tintas e Materiais <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Cor_e_tintas.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Linguagem Gráfica <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Linguagem_grafica.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Oficina de Arte e Educação I <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Oficina_de_arte_e_educação_I.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Propostas Metodológicas do Ensino da Arte I <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_PMEA_I.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Seminário I <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Seminario_I.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>As novas tecnologias e a formação do professor na modalidade semipresencial <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/As-novas-tecnologias-e-a-formacao-do-professor-na-modalidade-semipresencial.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Cor e Laboratório de Tintas e Materiais <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Cor-e-Laboratorio-de-Tintas-e-Materiais.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Linguagem Gráfica <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Linguagem-Grafica.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Oficina de Arte e Educação I <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Oficina-de-Arte-e-Educacao-I.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Propostas Metodológicas do Ensino da Arte I <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Propostas-Metodologicas-do-Ensino-da-Arte-I.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Seminário I <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Seminario-I.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
             </ul>
           </li>
 
           <li class='semestre'>
             <button><h3>2° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Ementa</span></div>
+              <div>Disciplina <span>Programa</span></div>
 
-              <li>História da Arte I <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Historia_da_Arte_I.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Percepção e Composição <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Percepcao-e-composicao.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Propostas Metodológicas do Ensino da Arte II <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_PMEA_II.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Introdução às Linguagens Espaciais <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Linguagens_espaciais.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Desenho I <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Desenho_I.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Interações Culturais <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Interacoes_culturais.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Seminário II <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Seminário_II.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>História da Arte I <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Historia-da-Arte-I.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Percepção e Composição <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Percepcao-e-Composicao.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Propostas Metodológicas do Ensino da Arte II <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Propostas-Metodologicas-para-o-Ensino-da-Arte-II.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Introdução às Linguagens Espaciais <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Introducao-as-Linguagens-Espaciais.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Desenho I <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Desenho-I.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Interações Culturais <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Interacoes-Culturais.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Seminário II <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Seminario-II.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
 
             </ul>
           </li>
@@ -90,14 +90,14 @@
           <li class='semestre'>
             <button><h3>3° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Ementa</span></div>
+              <div>Disciplina <span>Programa</span></div>
 
-              <li>Seminário III <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Seminario_III.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Pesquisa em educação das Artes Visuais <span>90h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Pesquisa_em_Ed._das_Artes_Visuais.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Artes da Fibra <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Artes_de_Fibra.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Antropologia Visual <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Antropologia_visual.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Aspectos Legais do Ensino da Arte <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Aspectos_Legais.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>História da Arte II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
+              <li>Seminário III <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Seminario-III.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Pesquisa em educação das Artes Visuais <span>90h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Pesquisa-em-Educacao-das-Artes-Visuais.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Artes da Fibra <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Artes-da-Fibra.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Antropologia Visual <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Antropologia-Visual.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Aspectos Legais do Ensino da Arte <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Aspectos-Legais-do-Ensino-da-Arte.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>História da Arte II <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Historia-da-Arte-II.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
 
             </ul>
           </li>
@@ -105,15 +105,15 @@
           <li class='semestre'>
             <button><h3>4° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Ementa</span></div>
+              <div>Disciplina <span>Programa</span></div>
 
-              <li>Desenho II <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Desenho_II.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Didática do Ensino da Arte <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Didatica.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Sintaxe Visual  <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Sintaxe_Visual.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>História da Arte III <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Historia_da_Arte_III.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Fotografia <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Fotografia.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Cerâmica <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Ceramica.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Seminário IV <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Seminario_IV.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Desenho II <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Desenho-II.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Didática do Ensino da Arte <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Didatica-do-Ensino-da-Arte.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Sintaxe Visual  <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Sintaxe-Visual.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>História da Arte III <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Historia-da-Arte-III.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Fotografia <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Fotografia.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Cerâmica <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Ceramica.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Seminário IV <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Seminario-IV.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
 
             </ul>
           </li>
@@ -121,14 +121,14 @@
           <li class='semestre'>
             <button><h3>5° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Ementa</span></div>
+              <div>Disciplina <span>Programa</span></div>
 
-              <li>Filosofia da Arte <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Filosofia_da_Arte.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Arte Contemporânea <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Arte_Contemporanea.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Vídeo <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Video.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Estágio Supervisionado na Educação Infantil <span>100h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Estagio_Supervisionado_na_Educacao_Infantil.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Oficina de Arte e Educação II <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Oficina_de_artes_II.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Seminário V <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
+              <li>Filosofia da Arte <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Filosofia-da-Arte.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Arte Contemporânea <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Arte-Contemporanea.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Vídeo <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Video.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Estágio Supervisionado na Educação Infantil <span>100h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Estagio-Supervisionado-na-Educacao-Infantil.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Oficina de Arte e Educação II <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Oficina-de-Arte-e-Educacao-II.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Seminário V <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Seminario-V.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
 
             </ul>
           </li>
@@ -136,13 +136,13 @@
           <li class='semestre'>
             <button><h3>6° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Ementa</span></div>
+              <div>Disciplina <span>Programa</span></div>
 
-              <li>Pintura <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Pintura.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Processo de criação <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Processo_de_Criacao.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Teorias da Linguagem Visual <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Teorias_da_Linguagem_Visual.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Estágio Supervisionado no Ensino Fundamental <span>150h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Estagio_supervisionado_no_Ens._Fundamental.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Educação não Escolar em Artes Visuais I <span>105h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Educacao_nao_escolar_I.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Pintura <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Pintura.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Processo de criação <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Processo-de-Criacao.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Teorias da Linguagem Visual <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Teorias-da-Linguagem-Visual.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Estágio Supervisionado no Ensino Fundamental <span>150h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Estagio-Supervisionado-no-Ensino-Fundamental.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Educação não Escolar em Artes Visuais I <span>105h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Educacao-nao-escolar-em-Artes-Visuais-I.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
 
             </ul>
           </li>
@@ -150,13 +150,13 @@
           <li class='semestre'>
             <button><h3>7° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Ementa</span></div>
+              <div>Disciplina <span>Programa</span></div>
 
-              <li>Trabalho de Graduação I <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_TG_I.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Escultura <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Escultura.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Gravura <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Gravura.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Poéticas digitais <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Poeticas_Digitais.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Estágio Supervisionado no Ensino Médio <span>150h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Estagio_Supervisionado_no_Ensino_Medio.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>  
+              <li>Trabalho de Graduação I <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Trabalho-de-Graduacao-I.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Escultura <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Escultura.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Gravura <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Gravura.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Poéticas digitais <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Poeticas-Digitais.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Estágio Supervisionado no Ensino Médio <span>150h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Estagio-Supervisionado-no-Ensino-Medio.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>  
 
             </ul>
           </li>
@@ -164,11 +164,11 @@
           <li class='semestre'>
             <button><h3>8° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Ementa</span></div>
+              <div>Disciplina <span>Programa</span></div>
 
-              <li>Educação não Escolar em Artes Visuais I <span>105h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Arte_na_Educacao_Nao_Escolar_II.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Libras <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_Libras.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Trabalho de Graduação II <span>100h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Programa_TG_II.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Educação não Escolar em Artes Visuais II <span>105h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Educacao-nao-escolar-em-Artes-II.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Libras <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Libras.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Trabalho de Graduação II <span>100h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Trabalho-de-Graduacao-II.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
             </ul>
           </li>
         </ul>
@@ -204,22 +204,22 @@
 
         <h2>Corpo docente</h2>
 
-        <p class='nome'><a href="http://lattes.cnpq.br/7471423621490631" target="_blank">Adriana Rosely Magro</a>
+        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/7471423621490631" target="_blank">Adriana Rosely Magro</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a href="http://lattes.cnpq.br/5450445723454857" target="_blank">Aissa Afonso Guimarães</a>
+        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/5450445723454857" target="_blank">Aissa Afonso Guimarães</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a href="http://lattes.cnpq.br/8500994614485241" target="_blank">Andreia Chiari Lins</a>
+        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/8500994614485241" target="_blank">Andreia Chiari Lins</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a href="http://lattes.cnpq.br/2152811885251427" target="_blank">Angélica Vago</a>
+        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/2152811885251427" target="_blank">Angélica Vago</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a href="" target="_blank">Aparecido José Cirilo</a>
+        <p class='nome'><a title="Abrir na plataforma Lattes" href="" target="_blank">Aparecido José Cirilo</a>
           <span></span>
         </p>
-        <p class='nome'><a href="http://lattes.cnpq.br/4344109121068889" target="_blank">César Pereira Cola</a>
+        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/4344109121068889" target="_blank">César Pereira Cola</a>
           <span>Doutorado</span>
         </p>
         <p class='nome'>Ericler Oliveira Gutierrez Ouedraogo
@@ -228,19 +228,19 @@
         <p class='nome'>Fabiola Veloso Menezes
           <span></span>
         </p>
-        <p class='nome'><a href="http://lattes.cnpq.br/8230499627602455" target="_blank">Fernando Augusto dos Santos Neto</a>
+        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/8230499627602455" target="_blank">Fernando Augusto dos Santos Neto</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a href="http://lattes.cnpq.br/5302702058647922" target="_blank">Fernando Gómez Alvarez</a>
+        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/5302702058647922" target="_blank">Fernando Gómez Alvarez</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a href="http://lattes.cnpq.br/5152530982132224" target="_blank">Gaspar Leal Paz</a>
+        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/5152530982132224" target="_blank">Gaspar Leal Paz</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a href="http://lattes.cnpq.br/5263258908602198" target="_blank">Gerda Margit Schutz Foerste</a>
+        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/5263258908602198" target="_blank">Gerda Margit Schutz Foerste</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a href="http://lattes.cnpq.br/9563994096531487" target="_blank">João Wesley de Souza</a>
+        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/9563994096531487" target="_blank">João Wesley de Souza</a>
           <span>Doutorado</span>
         </p>
         <p class='nome'>José Otávio Lobo Name
@@ -252,49 +252,49 @@
         <p class='nome'>Juliana de Souza Silva Almonfrey
           <span></span>
         </p>
-        <p class='nome'><a href="http://lattes.cnpq.br/1595799399527303" target="_blank">Larissa Fabricio Zanin</a>
+        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/1595799399527303" target="_blank">Larissa Fabricio Zanin</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a href="http://lattes.cnpq.br/3501642639807824" target="_blank">Leticia Nassar Matos Mesquita</a>
+        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/3501642639807824" target="_blank">Leticia Nassar Matos Mesquita</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a href="http://lattes.cnpq.br/5766230898713582" target="_blank">Lincoln Guimarães Dias</a>
+        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/5766230898713582" target="_blank">Lincoln Guimarães Dias</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a href="http://lattes.cnpq.br/5659824152931044" target="_blank">Maira Pego de Aguiar</a>
+        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/5659824152931044" target="_blank">Maira Pego de Aguiar</a>
           <span>Doutorado</span>
         </p>
         <p class='nome'>Maria Aparecida Ramaldes
           <span></span>
         </p>
-        <p class='nome'><a href="http://lattes.cnpq.br/4349371263342966" target="_blank">Maria Auxiliadora de Carvalho Corassa</a>
+        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/4349371263342966" target="_blank">Maria Auxiliadora de Carvalho Corassa</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a href="http://lattes.cnpq.br/1501571974747341" target="_blank">Maria Gorete Dadalto Gonçalves</a>
+        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/1501571974747341" target="_blank">Maria Gorete Dadalto Gonçalves</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a href="http://lattes.cnpq.br/8089325619947496" target="_blank">Maria Regina Rodrigues</a>
+        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/8089325619947496" target="_blank">Maria Regina Rodrigues</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a href="http://lattes.cnpq.br/4414451806305375" target="_blank">Moema Lúcia Martins Rebouças</a>
+        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/4414451806305375" target="_blank">Moema Lúcia Martins Rebouças</a>
           <span>Doutorado</span>
         </p>
         <p class='nome'>Myriam Salomão
           <span></span>
         </p>
-        <p class='nome'><a href="http://lattes.cnpq.br/1991586309948453" target="_blank">Ricardo Maurício Gonzaga</a>
+        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/1991586309948453" target="_blank">Ricardo Maurício Gonzaga</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a href="http://lattes.cnpq.br/0741130770905561" target="_blank">Rodrigo Otávio da Silva Paiva</a>
+        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/0741130770905561" target="_blank">Rodrigo Otávio da Silva Paiva</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a href="http://lattes.cnpq.br/3169230790004855" target="_blank">Stela Maris Sanmartin</a>
+        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/3169230790004855" target="_blank">Stela Maris Sanmartin</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a href="http://lattes.cnpq.br/4202486740653920" target="_blank">Telma Elita Juliano Valente</a>
+        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/4202486740653920" target="_blank">Telma Elita Juliano Valente</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a href="http://lattes.cnpq.br/4619436077412697" target="_blank">Vera Lúcia de Oliveira Simões</a>
+        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/4619436077412697" target="_blank">Vera Lúcia de Oliveira Simões</a>
           <span>Doutorado</span>
         </p>
         <p class='nome'>Verônica Devens Costa

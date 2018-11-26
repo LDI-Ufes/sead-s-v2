@@ -12,8 +12,8 @@
 
   // menu mobile
   $('#dropdown-menu').click( () => {
-    $('#menu').find('ul').slideToggle(300)
-  })
+    $('#menu').find('ul').slideToggle(300);
+  });
 
   // If click outside dropdown-menu opened
   $(document).click(function() {
@@ -24,7 +24,7 @@
         $('#menu').find('ul').slideUp(300)
       }
     }
-  })
+  });
 
   // matriz - accordion
   $('#matriz .semestre button').click(function () {
