@@ -154,7 +154,7 @@
               border-bottom: solid 0.5px $azulClaro;
               padding: 0.5rem 0;
               position: relative;
-              padding-right: 3rem;
+              padding-right: 4rem;
 
               span {
                 font-weight: $light;
@@ -258,6 +258,7 @@
             margin: 0;
             font-weight: $regular;
             display: inline;
+            line-height: 1.6;
           }
 
           &.ativo {
