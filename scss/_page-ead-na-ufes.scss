@@ -22,7 +22,6 @@
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        width: 2rem;
         cursor: pointer;
 
         &:before {
@@ -39,6 +38,7 @@
             position: absolute;
             top: 50%;
             transform: translateY(-50%);
+            right: 0;
           }
         }
 
@@ -48,6 +48,7 @@
 
           &:before {
             content: "\f104";
+            left: -2rem;
           }
         }
 
@@ -118,8 +119,6 @@
   } /* #slider */
 
   #agentes {
-    margin-bottom: 4rem;
-
     li {
       font-weight: $light;
       max-width: 720px;
