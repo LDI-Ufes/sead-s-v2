@@ -69,8 +69,7 @@ function create_post_type()
       'menu_icon' => 'dashicons-images-alt',
       'supports' => array(
         'title',
-        'editor',
-        'excerpt'
+        'editor'
       ),
       'rewrite' => array(
         'slug' => 'galeria',
