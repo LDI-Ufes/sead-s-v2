@@ -2,10 +2,11 @@
 
 <?php while ( have_posts() ) : the_post(); ?>
 
-  <main id="conteudoPrincipal" class="noticia">
+  <main id="conteudoPrincipal" class="noticia page">
     <div class="destaque destaque-imagem" style="background-image: linear-gradient(#043166, transparent), url('<?php echo get_the_post_thumbnail_url(); ?>')"></div>
 
     <article class="container">
+      <section class='breadcrumb'>Você está em: <a href="/sitiosead/blog">Notícias</a><i class='fas fa-greater-than'></i><span><?php the_title(); ?></span></section>
       <h1><?php the_title(); ?></h1>
       <div class="post-date"><i class="fas fa-clock"></i><?php the_date('j \d\e F \d\e Y'); ?></div>
 
@@ -24,7 +25,7 @@
       </div>
 
       <div class="links-compartilhamento">
-        <span>Gostou do que leu?</span> Compartilhe essa notícia.
+        <span>Gostou do que leu?</span> Compartilhe essa notícia:
         <a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo get_permalink(); ?>" target="_blank"><i class="fab fa-facebook"></i></a>
         <a href="http://twitter.com/share?text=Ead na Ufes:&url=<?php echo get_permalink(); ?>" target="_blank"><i class="fab fa-twitter"></i></a>
         <a href="https://www.linkedin.com/shareArticle?mini=true&url=<?php echo get_permalink(); ?>" target="_blank"><i class="fab fa-linkedin"></i></a>
