@@ -9,13 +9,13 @@
 
   <div id="abas">
     <button id='dropdown-menu'>Graduação<i class='fas fa-angle-down'></i></button>
-    
+
     <ul id="itens-abas">
       <li><a href="#graduacao">Graduação</a></li>
       <li><a href="#especializacao">Especialização</a></li>
       <li><a href="#aperfeicoamento">Aperfeiçoamento</a></li>
     </ul>
-    
+
     <div id="graduacao">
       <ul>
         <li><a href="<?php echo site_url(); ?>/cursos/artes-visuais"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/artes-visuais.jpg"><h3><span>Licenciatura em</span>Artes Visuais</h3></a></li>
@@ -26,40 +26,40 @@
         <li><a href="<?php echo site_url(); ?>/cursos/letras-italiano"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/letras-italiano.jpg"><h3><span>Licenciatura em</span>Letras Italiano</h3></a></li>
         <li><a href="<?php echo site_url(); ?>/cursos/pedagogia"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/pedagogia.jpg"><h3><span>Licenciatura em</span>Pedagogia</h3></a></li>
         <li><a href="<?php echo site_url(); ?>/cursos/quimica"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/quimica.jpg"><h3><span>Licenciatura em</span>Química</h3></a></li>
-        <li class="inativo"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/administracao.jpg"><h3><span>Bacharelado em</span>Administração</h3> <span class="aviso">Não há mais informações sobre esse curso.</span></li>
-        <li class="inativo"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/ciencias-contabeis.jpg"><h3><span>Bacharelado em</span>Ciências Contábeis</h3> <span class="aviso">Não há mais informações sobre esse curso.</span></li>
-        <li class="inativo"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/educacao-fisica.jpg"><h3><span>Licenciatura em</span>Educação Física</h3> <span class="aviso">Não há mais informações sobre esse curso.</span></li>
-        
+        <li class="inativo"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/administracao.jpg"><h3><span>Bacharelado em</span>Administração</h3> <span class="aviso">Não há informações sobre o curso.</span></li>
+        <li class="inativo"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/ciencias-contabeis.jpg"><h3><span>Bacharelado em</span>Ciências Contábeis</h3> <span class="aviso">Não há informações sobre o curso.</span></li>
+        <li class="inativo"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/educacao-fisica.jpg"><h3><span>Licenciatura em</span>Educação Física</h3> <span class="aviso">Não há informações sobre o curso.</span></li>
+
         <li class="placeholder" aria-hidden="true"></li>
         <li class="placeholder" aria-hidden="true"></li>
       </ul>
     </div>
     <div id="especializacao">
       <ul>
-        <li tabindex="0" class="inativo"><h3>Educação do Campo</h3><span class="aviso">Não há mais informações sobre esse curso.</span></li>
-        <li class="inativo"><h3>Ensino da Matemática para o Ensino Médio</h3><span class="aviso">Não há mais informações sobre esse curso.</span></li>
-        <li class="inativo"><h3>Filosofia e Psicanálise</h3><span class="aviso">Não há mais informações sobre esse curso.</span></li>
-        <li class="inativo"><h3>Gestão de Agronegócios</h3><span class="aviso">Não há mais informações sobre esse curso.</span></li>
-        <li class="inativo"><h3>Gestão de Políticas Públicas em Gênero e Raça</h3><span class="aviso">Não há mais informações sobre esse curso.</span></li>
-        <li class="inativo"><h3>Gestão em Saúde</h3><span class="aviso">Não há mais informações sobre esse curso.</span></li>
-        <li class="inativo"><h3>Logística</h3><span class="aviso">Não há mais informações sobre esse curso.</span></li>
-        <li class="inativo"><h3>Mídias na Educação</h3><span class="aviso">Não há mais informações sobre esse curso.</span></li>
-        
+        <li tabindex="0" class="inativo"><h3>Educação do Campo</h3><span class="aviso">Não há informações sobre o curso.</span></li>
+        <li class="inativo"><h3>Ensino da Matemática para o Ensino Médio</h3><span class="aviso">Não há informações sobre o curso.</span></li>
+        <li class="inativo"><h3>Filosofia e Psicanálise</h3><span class="aviso">Não há informações sobre o curso.</span></li>
+        <li class="inativo"><h3>Gestão de Agronegócios</h3><span class="aviso">Não há informações sobre o curso.</span></li>
+        <li class="inativo"><h3>Gestão de Políticas Públicas em Gênero e Raça</h3><span class="aviso">Não há informações sobre o curso.</span></li>
+        <li class="inativo"><h3>Gestão em Saúde</h3><span class="aviso">Não há informações sobre o curso.</span></li>
+        <li class="inativo"><h3>Logística</h3><span class="aviso">Não há informações sobre o curso.</span></li>
+        <li class="inativo"><h3>Mídias na Educação</h3><span class="aviso">Não há informações sobre o curso.</span></li>
+
         <li class="placeholder" aria-hidden="true"></li>
         <li class="placeholder" aria-hidden="true"></li>
       </ul>
     </div>
     <div id="aperfeicoamento">
       <ul>
-        <li tabindex="0" class="inativo"><h3>Cultura e Histórias dos Povos Indígenas</h3><span class="aviso">Não há mais informações sobre esse curso.</span></li>
-        <li class="inativo"><h3>Dimensões da Humanização: Filosofia, Psicanálise e Medicina</h3><span class="aviso">Não há mais informações sobre esse curso.</span></li>
-        <li class="inativo"><h3>Educação Ambiental</h3><span class="aviso">Não há mais informações sobre esse curso.</span></li>
-        <li class="inativo"><h3>Educação em Direitos Humanos</h3><span class="aviso">Não há mais informações sobre esse curso.</span></li>
-        <li class="inativo"><h3>Educação para a Diversidade</h3><span class="aviso">Não há mais informações sobre esse curso.</span></li>
-        <li class="inativo"><h3>Educação para as relações Etnicorraciais</h3><span class="aviso">Não há mais informações sobre esse curso.</span></li>
-        <li class="inativo"><h3>Gênero e diversidade na Escola</h3><span class="aviso">Não há mais informações sobre esse curso.</span></li>
-        <li class="inativo"><h3>Lingua Francesa</h3><span class="aviso">Não há mais informações sobre esse curso.</span></li>
-        
+        <li tabindex="0" class="inativo"><h3>Cultura e Histórias dos Povos Indígenas</h3><span class="aviso">Não há informações sobre o curso.</span></li>
+        <li class="inativo"><h3>Dimensões da Humanização: Filosofia, Psicanálise e Medicina</h3><span class="aviso">Não há informações sobre o curso.</span></li>
+        <li class="inativo"><h3>Educação Ambiental</h3><span class="aviso">Não há informações sobre o curso.</span></li>
+        <li class="inativo"><h3>Educação em Direitos Humanos</h3><span class="aviso">Não há informações sobre o curso.</span></li>
+        <li class="inativo"><h3>Educação para a Diversidade</h3><span class="aviso">Não há informações sobre o curso.</span></li>
+        <li class="inativo"><h3>Educação para as relações Etnicorraciais</h3><span class="aviso">Não há informações sobre o curso.</span></li>
+        <li class="inativo"><h3>Gênero e diversidade na Escola</h3><span class="aviso">Não há informações sobre o curso.</span></li>
+        <li class="inativo"><h3>Lingua Francesa</h3><span class="aviso">Não há informações sobre o curso.</span></li>
+
         <li class="placeholder" aria-hidden="true"></li>
         <li class="placeholder" aria-hidden="true"></li>
       </ul>
@@ -71,7 +71,7 @@
 <?php get_footer(); ?>
 
 <script>
-  
+
   // menu mobile
   $('#dropdown-menu').click( () => {
     $('#itens-abas').slideToggle(300);
@@ -87,7 +87,7 @@
       }
     }
   });
-  
+
   // abas
 
   $(function () {
@@ -145,19 +145,19 @@
                         // Set focus to the paragraph in the newly revealed tab content
                         tabPanel.children("ul").find('li:first-of-type').focus();
                         tabPanel.children("ul").find('li:first-of-type a').focus();
-                        
+
                         // If max-width 991px
                         if ($(window).width() <= 991) {
                           // Slide up (close) menu panel
                           $('#itens-abas').slideUp(300)
                         }
-                        
+
                         // Change the menu collapsed title
                         let itemSelecionado = tab.attr('aria-selected', 'true').html()
                         $('#dropdown-menu').html(itemSelecionado + '<i class="fas fa-angle-down"></i>')
-                        
+
                       }
-                              
+
               );
             }
     );

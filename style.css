@@ -1584,17 +1584,17 @@ footer {
     .page-cursos span a i {
       color: #c75000;
       margin: 0;
-      font-size: .9rem; }
+      font-size: 0.9rem; }
   .page-cursos span.alerta {
     color: #f06c00;
     font-size: 1.5rem;
     line-height: 1.4;
-    margin: 1.5rem 0 .5rem;
+    margin: 1.5rem 0 0.5rem;
     display: block;
     max-width: unset; }
   .page-cursos span i {
     color: #f06c00;
-    margin-right: .3rem; }
+    margin-right: 0.3rem; }
 .page-cursos #abas {
   position: relative; }
   .page-cursos #abas #dropdown-menu {
@@ -1670,7 +1670,7 @@ footer {
             .page-cursos #abas div ul li a.focus-visible h3 span {
               text-decoration: none; }
       .page-cursos #abas div ul li h3 {
-        bottom: .8rem;
+        bottom: 0.8rem;
         position: absolute;
         color: white;
         margin: 0;
@@ -1678,7 +1678,7 @@ footer {
         font-size: 1.5rem;
         font-weight: 600;
         line-height: 1.5rem;
-        margin-bottom: .5rem; }
+        margin-bottom: 0.5rem; }
         .page-cursos #abas div ul li h3 span {
           font-weight: 300;
           margin: 0;
@@ -1705,31 +1705,30 @@ footer {
             border-radius: 5px;
             position: absolute;
             top: 2rem;
-            width: 315px;
             background-color: white;
             color: #1765ab;
             border: #1765ab solid 1px;
             padding: 3px 10px;
             z-index: 1; }
             .page-cursos #abas div ul li.inativo:hover span.aviso:before {
-              content: '';
+              content: "";
               width: 0px;
               height: 0px;
               border-left: 11px solid transparent;
               border-right: 11px solid transparent;
               border-top: 10.5px solid #1765ab;
               position: absolute;
-              top: 2.1rem;
-              left: 2rem; }
+              bottom: -0.66rem;
+              left: 1.96rem; }
             .page-cursos #abas div ul li.inativo:hover span.aviso:after {
-              content: '';
+              content: "";
               width: 0px;
               height: 0px;
               border-left: 9px solid transparent;
               border-right: 9px solid transparent;
               border-top: 9px solid white;
               position: absolute;
-              top: 2.1rem;
+              bottom: -0.57rem;
               left: 2.1rem; }
       .page-cursos #abas div ul li.placeholder {
         background: none;
@@ -1760,7 +1759,7 @@ footer {
       .page-cursos #abas div#aperfeicoamento ul li.inativo:hover, .page-cursos #abas div#especializacao ul li.inativo:hover {
         background-image: linear-gradient(black, transparent); }
         .page-cursos #abas div#aperfeicoamento ul li.inativo:hover span.aviso, .page-cursos #abas div#especializacao ul li.inativo:hover span.aviso {
-          top: -2rem; }
+          top: -1.85rem; }
     .page-cursos #abas div#aperfeicoamento ul li.placeholder, .page-cursos #abas div#especializacao ul li.placeholder {
       background: none;
       height: 0;
@@ -1992,8 +1991,7 @@ footer {
       position: absolute;
       top: -50%;
       left: 0;
-      z-index: -1;
-      width: 100%; }
+      z-index: -1; }
     @media (max-width: 992px) {
       .ead-na-ufes .destaque {
         min-height: 35vh; }
@@ -2296,8 +2294,7 @@ footer {
       position: absolute;
       top: -50%;
       left: 0;
-      z-index: -1;
-      width: 100%; }
+      z-index: -1; }
     @media (max-width: 992px) {
       .secretaria .destaque {
         min-height: 35vh; }
@@ -2526,8 +2523,7 @@ footer {
       position: absolute;
       top: -50%;
       left: 0;
-      z-index: -1;
-      width: 100%; }
+      z-index: -1; }
     @media (max-width: 992px) {
       .curso .destaque {
         min-height: 35vh; }
@@ -2896,8 +2892,7 @@ footer {
     position: absolute;
     top: -50%;
     left: 0;
-    z-index: -1;
-    width: 100%; }
+    z-index: -1; }
   @media (max-width: 992px) {
     .noticia .destaque {
       min-height: 35vh; }
