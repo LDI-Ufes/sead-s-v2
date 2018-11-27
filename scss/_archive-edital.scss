@@ -61,7 +61,7 @@
           position: absolute;
           color: lightgray;
         }
-        
+
         ul {
           display: none;
           padding: 5px 10px;
@@ -75,7 +75,7 @@
               text-underline-position: under;
             }
           }
-          
+
           input[type="checkbox"]:checked {
             + label {
               color: $azulRegular;
@@ -112,8 +112,7 @@
             font-weight: $regular;
             text-transform: uppercase;
             color: $azulRegular;
-            border-top: solid 0.5px $azulClaro;
-            
+
             &:hover{
               background-color: $azulRegular;
               color: white;
@@ -121,7 +120,7 @@
             }
           }
         }
-        
+
         &:hover{
           background-color: $azulExtraClaro;
         }
@@ -205,7 +204,7 @@
             background-color: $azulExtraClaro;
             border: solid 0.5px $azulRegular;
             border-top: none;
-            width: calc(100% - 1.2rem - .5px);
+            width: calc(100% - 1.2rem - 1px);
             margin-left: -.5px;
             padding-bottom: .5rem;
             z-index: 1;
@@ -288,5 +287,26 @@
         }
       }
     }
+  }
+
+  @media screen and (max-width: 992px) {
+
+    #filtros {
+
+      #seletores {
+
+        .seletor {
+
+          &#limpar{
+            button{
+              border-top: solid 0.5px $azulClaro;
+            }
+          }
+
+        }
+
+      }
+    }
+
   }
 }

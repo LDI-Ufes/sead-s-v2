@@ -1352,8 +1352,7 @@ footer {
         text-align: center;
         font-weight: 400;
         text-transform: uppercase;
-        color: #1765ab;
-        border-top: solid 0.5px #cfeaff; }
+        color: #1765ab; }
         .page-editais #filtros #seletores .seletor#limpar button:hover {
           background-color: #1765ab;
           color: white;
@@ -1410,7 +1409,7 @@ footer {
           background-color: #edf9ff;
           border: solid 0.5px #1765ab;
           border-top: none;
-          width: calc(100% - 1.2rem - .5px);
+          width: calc(100% - 1.2rem - 1px);
           margin-left: -.5px;
           padding-bottom: .5rem;
           z-index: 1; }
@@ -1461,6 +1460,9 @@ footer {
       font-weight: 300;
       color: black;
       font-style: normal; } }
+@media screen and (max-width: 992px) {
+  .page-editais #filtros #seletores .seletor#limpar button {
+    border-top: solid 0.5px #cfeaff; } }
 
 .page-galeria #filtros {
   padding: 1.5rem 0; }
