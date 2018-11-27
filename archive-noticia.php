@@ -49,7 +49,7 @@
             $eventos = new WP_Query( $args ); if ($eventos->have_posts()) : ?>
                 <?php while ($eventos->have_posts()) : $eventos->the_post(); ?>
                     <li>
-                        <h3><span><?php the_title(); ?></span><?php echo strip_tags(get_the_excerpt()); ?></h3>
+                        <h3><?php the_title(); ?></h3>
                         <?php the_content() ?>
                         <a class="ver-mais" href="/sitiosead/galeria#evento-<?php the_ID(); ?>" title="Ver mais fotos do evento na Galeria de Fotos"><span>Ver mais</span></a>
                     </li>

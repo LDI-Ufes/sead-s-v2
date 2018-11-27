@@ -243,22 +243,18 @@
         position: relative;
 
         h3 {
-          font-weight: $light;
           margin: 0;
+          font-weight: $bold;
 
-          span {
-            font-weight: $bold;
-            padding-right: 1rem;
-          }
         }
 
         p {
           display: flex;
           margin: 0;
           margin-bottom: 1rem;
-          margin-right: -1.5rem;
+          width: 100%;
 
-          a {
+            a {
             padding: 0;
             display: inline-flex;
             position: relative;
@@ -269,12 +265,12 @@
             height: 10rem;
             pointer-events: none;
 
-            &:nth-child(n + 3) {
-              display: none;
+            &:nth-child(2){
+              margin-right: 0;
             }
 
-            &:nth-child(4) {
-              margin-right: 0;
+            &:nth-child(n + 3) {
+              display: none;
             }
 
             img {
@@ -395,6 +391,14 @@
 
               &:nth-child(-n + 4) {
                 display: inline-flex;
+              }
+
+              &:nth-child(4) {
+                margin-right: 0;
+              }
+
+              &:nth-child(2) {
+                margin-right: 1.5rem;
               }
             }
           }
