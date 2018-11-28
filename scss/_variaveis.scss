@@ -15,20 +15,7 @@ $black: 900;
 $merriweather: "Merriweather", serif;
 $fira: "Fira Sans", sans;
 
-//
-// Cores antigas
-//
-
-/*
-$azul: #1661A6;
-$azulClaro: #5992DD;
-$azulEscuro: #043767;
-
-$laranja: #E37531;
-$laranjaClaro: #FDA65B;
-$laranjaEscuro: #9C4C22;*/
-
-// Cores Revisadas
+// Cores
 
 $azulExtraClaro: #edf9ff;
 $azulClaro: #cfeaff;
@@ -41,3 +28,6 @@ $laranjaClaro: #ffa161;
 $laranjaRegular: #f06c00;
 $laranjaMedio: #c75000;
 $laranjaEscuro: #b24800;
+
+$azulEscuroTransparencia: rgba(4, 49, 102, .3);
+$laranjaRegularTransparencia: rgba(240, 108, 0, .3);

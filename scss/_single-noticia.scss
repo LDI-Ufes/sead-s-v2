@@ -1,6 +1,6 @@
 .noticia {
   .destaque {
-    @include destaque($azulEscuro);
+    @include destaque($azulEscuro, $azulEscuroTransparencia);
 
     @media screen and (min-width: 992px) {
       height: 65vh !important;

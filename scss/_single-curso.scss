@@ -2,7 +2,7 @@
   padding-bottom: 0;
 
   .destaque {
-    @include destaque($azulEscuro);
+    @include destaque($azulEscuro, $azulEscuroTransparencia);
     border-bottom: solid 20px $laranjaRegular;
 
     img{

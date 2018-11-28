@@ -3,7 +3,7 @@
 <?php while ( have_posts() ) : the_post(); ?>
 
   <main id="conteudoPrincipal" class="noticia page">
-    <div class="destaque destaque-imagem" style="background-image: linear-gradient(#043166, transparent), url('<?php echo get_the_post_thumbnail_url(); ?>')"></div>
+    <div class="destaque destaque-imagem" style="background-image: linear-gradient(#043166, rgba(4, 49, 102, 0.3)), url('<?php echo get_the_post_thumbnail_url(); ?>')"></div>
 
     <article class="container">
       <section class='breadcrumb'>Você está em: <a href="/sitiosead/blog">Notícias</a><i class='fas fa-greater-than'></i><span><?php the_title(); ?></span></section>

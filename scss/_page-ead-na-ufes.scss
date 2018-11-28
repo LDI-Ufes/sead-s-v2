@@ -1,6 +1,6 @@
 .ead-na-ufes {
   .destaque {
-    @include destaque($azulEscuro);
+    @include destaque($azulEscuro, $azulEscuroTransparencia);
   }
 
   .breadcrumb {

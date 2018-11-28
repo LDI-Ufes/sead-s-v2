@@ -1,24 +1,24 @@
 // page-ead-na-ufes, page-secretaria, single-curso, single-noticia
-@mixin destaque($cor) {
+@mixin destaque($cor1, $cor2) {
   position: relative;
   height: 65vh;
   max-height: 545px;
   overflow: hidden;
-  background-image: linear-gradient($cor, transparent);
-  background-attachment: fixed;
+  background-image: linear-gradient($cor1, $cor2);
+  background-attachment: scroll, fixed;
   background-size: cover;
   background-position: center;
   margin-top: 0;
 
   &:hover {
-    background-image: linear-gradient(darken($cor, 5), transparent);
+    background-image: linear-gradient(darken($cor1, 5), $cor2);
   }
 
   &.destaque-imagem{
     height: 35vh;
 
     &:hover {
-      background-image: linear-gradient($cor, transparent);
+      background-image: linear-gradient($cor1, $cor2);
     }
   }
 

@@ -1,7 +1,7 @@
 <main class='page curso' id="conteudoPrincipal">
 
 
-  <section class="destaque destaque-imagem" style="background-image: linear-gradient(#043166, transparent), url('<?php echo get_template_directory_uri() ?>/img/capas/biologia.jpg')"></section>
+  <section class="destaque destaque-imagem" style="background-image: linear-gradient(#043166, rgba(4, 49, 102, 0.3)), url('<?php echo get_template_directory_uri() ?>/img/capas/biologia.jpg')"></section>
 
   <div class='container'>
     <section class='breadcrumb'>Você está em: <a href='<?php echo site_url(); ?>/cursos'>Cursos</a><i class='fas fa-greater-than'></i><span>Biologia</span></section>
