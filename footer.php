@@ -37,11 +37,11 @@
       <p class="enderecoLink">
         <span>
           <img src="<?php echo get_template_directory_uri()?>/svg/google-maps.svg" alt="">
-          <a href="https://goo.gl/maps/fLngzGoNbzq" title="Abrir endereço no Google Maps" target="_blank"><span>Abrir endereço no Google Maps</span></a>
+          <a href="https://goo.gl/maps/fLngzGoNbzq" title="Abrir endereço no Google Maps em nova aba" target="_blank"><span>Abrir endereço no Google Maps</span></a>
         </span>
         <span>
           <img src="<?php echo get_template_directory_uri()?>/svg/moovit.svg" alt="">
-          <a href="https://moovit.com/?to=Teatro%20Universitário&tll=-20.27756_-40.301771&metroId=4794&lang=pt-br" title="Abrir endereço no Moovit (rotas de ônibus)" target="_blank"><span>Abrir endereço no Moovit (rotas de ônibus)</span></a>
+          <a href="https://moovit.com/?to=Teatro%20Universitário&tll=-20.27756_-40.301771&metroId=4794&lang=pt-br" title="Ver rotas de ônibus no Moovit em nova aba" target="_blank"><span>Ver rotas de ônibus no Moovit</span></a>
         </span>
       </p>
       <div class="fb-page" data-href="https://www.facebook.com/sead.ufes" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/sead.ufes" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/sead.ufes">Secretaria de Ensino a Distância - SEAD UFES</a></blockquote></div>
@@ -50,17 +50,16 @@
     <section>
       <h4>Ambiente EaD Ufes</h4>
       <ul>
-        <li><a href="http://acervodigital.eadufes.org/" title="Ir para o Acervo Digital da Sead">Acervo Digital</a></li>
-        <li><a href="http://www.ead.ufes.br/" title="Ir para o AVA de Graduação">AVA Graduação</a></li>
-        <li><a href="http://www.especializacao.aperfeicoamento.ufes.br/" title="Ir para o AVA de Especialização e Aperfeiçoamento">AVA Especialização e Aperfeiçoamento</a></li>
-        <li><a href="http://selecao.neaad.ufes.br" title="Ir para o Sistema de Seleção da Sead">Sistema de Seleção</a></li>
-        <li><a href="http://videos.ufes.br/sead" title="Ir para Vídeos Ufes">Vídeos Ufes</a></li>
+        <li><a href="http://acervodigital.eadufes.org/" target="_blank" title="Abrir o Acervo Digital em nova aba">Acervo Digital</a></li>
+        <li><a href="http://www.ead.ufes.br/" target="_blank" title="Abrir o AVA de Graduação em nova aba">AVA Graduação</a></li>
+        <li><a href="http://www.especializacao.aperfeicoamento.ufes.br/" target="_blank" title="Abrir o AVA de Especialização e Aperfeiçoamento em nova aba">AVA Especialização e Aperfeiçoamento</a></li>
+        <li><a href="http://selecao.neaad.ufes.br" target="_blank" title="Abrir o Sistema de Seleção em nova aba">Sistema de Seleção</a></li>
+        <li><a href="http://videos.ufes.br/sead" target="_blank" title="Abrir o Canal em Vídeos Ufes em nova aba">Canal em Vídeos Ufes</a></li>
       </ul>
     </section>
   </div>
   <div class="creditos">
-    <p>2018 - Todos os direitos reservados. <span><a href="http://www.ufes.br/" target="_blank" title="Ir para o sítio da Ufes">Ufes</a> | Sead | <a href="https://ldi.eadufes.org/" target="_blank" title="Ir para o sítio do LDI">LDI</a> | Educação a Distância Ufes</span></p>
-    <span title="Sítio desenvolvido pelo Laboratório de Design Instrucional" class="creditosMarca"><?php include 'svg/ldi.svg'; ?></span>
+    <p>© 2019 Sead Ufes. Todos os direitos reservados <span>| <a href="https://ldi.eadufes.org/" target="_blank" title="Abrir sítio do LDI em nova aba">Desenvolvido por LDI</a></span></p>
   </div>
 </footer>
 

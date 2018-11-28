@@ -481,7 +481,7 @@ footer {
       footer .content section p {
         margin: 0; }
       footer .content section a {
-        border-bottom: solid .5px transparent; }
+        border-bottom: solid 0.5px transparent; }
         footer .content section a:hover {
           border-color: #f06c00; }
       footer .content section .subitens {
@@ -489,15 +489,15 @@ footer {
       footer .content section .enderecoLink {
         display: flex;
         flex-direction: column;
-        margin-top: .25em; }
+        margin-top: 0.25em; }
         footer .content section .enderecoLink > span {
           display: inline-flex; }
           footer .content section .enderecoLink > span:first-child {
-            margin-bottom: .25em; }
+            margin-bottom: 0.25em; }
           footer .content section .enderecoLink > span a {
             display: inline-flex; }
           footer .content section .enderecoLink > span img {
-            margin-right: .5em; }
+            margin-right: 0.5em; }
       footer .content section .fb_iframe_widget {
         margin-top: 1.5rem; }
   footer .creditos {
@@ -517,16 +517,10 @@ footer {
       line-height: 3rem;
       vertical-align: top;
       height: inherit; }
-      footer .creditos p a:hover {
-        text-decoration: underline; }
       footer .creditos p span {
         display: none; }
-    footer .creditos .creditosMarca {
-      display: inline-flex;
-      padding: 0 5px;
-      cursor: help; }
-      footer .creditos .creditosMarca svg path {
-        fill: white; }
+        footer .creditos p span a:hover {
+          text-decoration: underline; }
   @media screen and (min-width: 992px) {
     footer .content {
       max-width: 960px;
