@@ -14,8 +14,8 @@
         <li class='temSubmenu'>
           <span>AVA Moodle <i class='fas fa-chevron-down'></i></span>
           <ul class='menuSuspenso'>
-            <li><a href='http://www.ead.ufes.br' target='_blank' title='AVA Moodle de Graduação'>Graduação</a></li>
-            <li><a href='http://www.especializacao.aperfeicoamento.ufes.br' target='_blank' title='AVA Moodle de Especialização e Aperfeiçamento'>Especialização e Aperfeiçoamento</a></li>
+            <li><a href='http://www.ead.ufes.br' target='_blank' title='Abrir o AVA Moodle de Graduação em nova aba'>Graduação</a></li>
+            <li><a href='http://www.especializacao.aperfeicoamento.ufes.br' target='_blank' title='Abrir o AVA Moodle de Especialização e Aperfeiçamento em nova aba'>Especialização e Aperfeiçoamento</a></li>
           </ul>
         </li>
       </ul>

@@ -37,11 +37,11 @@
       <p class="enderecoLink">
         <span>
           <img src="<?php echo get_template_directory_uri()?>/svg/google-maps.svg" alt="">
-          <a href="https://goo.gl/maps/fLngzGoNbzq" title="Abrir endereço no Google Maps em nova aba" target="_blank"><span>Abrir endereço no Google Maps</span></a>
+          <a href="https://goo.gl/maps/fLngzGoNbzq" target="_blank" title="Abrir endereço no Google Maps em nova aba"><span>Abrir endereço no Google Maps</span></a>
         </span>
         <span>
           <img src="<?php echo get_template_directory_uri()?>/svg/moovit.svg" alt="">
-          <a href="https://moovit.com/?to=Teatro%20Universitário&tll=-20.27756_-40.301771&metroId=4794&lang=pt-br" title="Ver rotas de ônibus no Moovit em nova aba" target="_blank"><span>Ver rotas de ônibus no Moovit</span></a>
+          <a href="https://moovit.com/?to=Teatro%20Universitário&tll=-20.27756_-40.301771&metroId=4794&lang=pt-br" target="_blank" title="Ver rotas de ônibus no Moovit em nova aba"><span>Ver rotas de ônibus no Moovit</span></a>
         </span>
       </p>
       <div class="fb-page" data-href="https://www.facebook.com/sead.ufes" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/sead.ufes" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/sead.ufes">Secretaria de Ensino a Distância - SEAD UFES</a></blockquote></div>
@@ -59,7 +59,7 @@
     </section>
   </div>
   <div class="creditos">
-    <p>© 2019 Sead Ufes. Todos os direitos reservados <span>| <a href="https://ldi.eadufes.org/" target="_blank" title="Abrir sítio do LDI em nova aba">Desenvolvido por LDI</a></span></p>
+    <p>© 2019 Sead Ufes. Todos os direitos reservados <span>| <a href="https://ldi.eadufes.org/" target="_blank" title="Abrir o sítio do LDI em nova aba">Desenvolvido por LDI</a></span></p>
   </div>
 </footer>
 

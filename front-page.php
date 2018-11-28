@@ -1,16 +1,16 @@
 <?php get_header('principal'); ?>
 
 <main id="conteudoPrincipal" class="inicio">
-  
+
   <section id="banner">
     <div class="container">
       <h2>os materiais do EaD da Ufes estão disponíveis em nosso <span>Acervo Digital</span></h2>
-      <a href="https://acervodigital.eadufes.org" target="_blank">Conheça o Acervo Sead</a>
+      <a href="https://acervodigital.eadufes.org" target="_blank" title="Abrir o Acervo Digital em nova aba">Conheça o Acervo Sead</a>
     </div>
   </section>
-  
+
   <div class="container">
-    
+
     <section id="ead-na-ufes">
       <h2>Você conhece a EaD da Ufes?</h2>
       <p>Nós somos a Secretaria responsável por promover ações educativas e de formação da EaD na Ufes. Fique atento aos editais para mais informações de cada curso!</p>
@@ -69,16 +69,16 @@
     <section id="noticias">
       <?php $ultimas_noticias = new WP_Query(array('post_type' => 'noticia', 'posts_per_page' => 4));
         if ($ultimas_noticias->have_posts()) : while ($ultimas_noticias->have_posts()) : $ultimas_noticias->the_post();?>
-        
-          <a class="noticia" href="<?php the_permalink() ?>" title="Ir para notícia: <?php the_title(); ?>">    
+
+          <a class="noticia" href="<?php the_permalink() ?>" title="Ir para notícia: <?php the_title(); ?>">
             <?php the_post_thumbnail(); ?>
-            <h3><?php the_title(); ?></h3>          
+            <h3><?php the_title(); ?></h3>
           </a>
-      
+
         <?php endwhile; wp_reset_postdata(); else : ?>
-      
+
         <p>Sem notícias.</p>
-        
+
       <?php endif; ?>
 
       <div class="confira-mais">
@@ -86,7 +86,7 @@
         <a href="https://www.facebook.com/sead.ufes/" title="Ir para página da Sead no Facebook"><i class="fab fa-facebook-f"></i></a>
         <a href="/sitiosead/blog" title="Ir para a página Blog"><?php include 'svg/nossoBlog.svg' ?></a>
       </div>
-        
+
     </section>
   </div>
 

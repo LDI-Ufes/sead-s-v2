@@ -26,9 +26,9 @@
 
       <div class="links-compartilhamento">
         <span>Gostou do que leu?</span> Compartilhe essa notícia:
-        <a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo get_permalink(); ?>" target="_blank"><i class="fab fa-facebook"></i></a>
-        <a href="http://twitter.com/share?text=Ead na Ufes:&url=<?php echo get_permalink(); ?>" target="_blank"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.linkedin.com/shareArticle?mini=true&url=<?php echo get_permalink(); ?>" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo get_permalink(); ?>" target="_blank" title="Compartilhar no Facebook"><i class="fab fa-facebook"></i></a>
+        <a href="http://twitter.com/share?text=Ead na Ufes:&url=<?php echo get_permalink(); ?>" target="_blank" title="Compartilhar no Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=<?php echo get_permalink(); ?>" target="_blank" title="Compartilhar no LinkedIn"><i class="fab fa-linkedin"></i></a>
       </div>
 
     </article>

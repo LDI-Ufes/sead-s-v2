@@ -7,7 +7,7 @@
         <video autoplay loop>
           <source src='<?php echo get_template_directory_uri(); ?>/video/cursos/artes-visuais.mp4' type='video/mp4'>
         </video>
-  
+
         <div class='titulo container'>
           <i class='fas fa-play-circle'></i>
           <h2>Veja o que o coordenador<br>do curso tem a dizer!<br></h2>
@@ -18,7 +18,7 @@
   <!--Com imagem-->
 
   <section class="destaque destaque-imagem" style="background-image: linear-gradient(#043166, rgba(4, 49, 102, 0.3)), url('<?php echo get_template_directory_uri() ?>/img/capas/.jpg')"></section>
-  
+
   <div class='container'>
     <section class='breadcrumb'>Você está em: <a href='<?php echo site_url(); ?>/cursos'>Cursos</a><i class='fas fa-greater-than'></i><span>Biologia</span></section>
     <h1>Licenciatura EaD em Biologia </h1>
@@ -41,8 +41,8 @@
         </p>
       </div>
     </section>
-    
-    
+
+
     <section id='conteudo'>
 
       <aside id='menu'>
@@ -54,7 +54,7 @@
           <li><a href='#perfil-do-egresso'>Perfil do egresso</a></li>
           <li><a href='#ofertas-anteriores'>Ofertas anteriores</a></li>
           <!--<a href='<?php echo get_template_directory_uri(); ?>/arquivos/' target='_blank'><i class='fas fa-external-link-alt'></i>PPC</a>-->
-          <a title="Abrir Guia do Aluno" href='<?php echo get_template_directory_uri(); ?>/arquivos/' target='_blank'><i class='fas fa-external-link-alt'></i>Guia do aluno</a>
+          <a href='<?php echo get_template_directory_uri(); ?>/arquivos/' target='_blank' title="Abrir o Guia do Aluno em nova aba"><i class='fas fa-external-link-alt'></i>Guia do aluno</a>
 
           <span>Contato</span>
           artesvisuais.ead@gmail.com<br>
@@ -81,7 +81,7 @@
             <ul style='display: block;'>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Nome da disciplina <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Nome da disciplina <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir o documento em nova aba" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
 
             </ul>
           </li>
@@ -97,8 +97,8 @@
 
         <p><strong>Vice coordenação:</strong> Maria Auxiliadora de Carvalho Corassa</p>
 
-        <p><strong>Colegiado do curso:</strong> 
-          <br>Nome  
+        <p><strong>Colegiado do curso:</strong>
+          <br>Nome
 
         </p>
 
@@ -109,7 +109,7 @@
 
         <h2>Corpo docente</h2>
 
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="" target="_blank">Nome</a>
+        <p class='nome'><a title="Abrir na plataforma Lattes em nova aba" href="" target="_blank">Nome</a>
           <span>Doutorado</span>
         </p>
 
@@ -132,7 +132,7 @@
         <h3>2014/2 - 2019/1</h3>
         <p><strong>Coordenador do Curso:</strong> Nome</p>
         <p><strong>Polos atendidos:</strong> Afonso Claudio, Aracruz, Cachoeiro de Itapemirim, Colatina, Domingos Martins, Itapemirim, Iúna, Linhares, Pinheiros, Piúma, Santa Teresa e Vargem Alta.</p>
-        <p><strong>Seleção:</strong><a href="http://www.sead.ufes.br/conteudo/processo-seletivo-para-ingresso-em-cursos-de-graduação-na-modalidade-distância-0" target="_blank" title="Abrir processo seletivo em nova aba">Ver processo seletivo</a> (encerrado)</p>
+        <p><strong>Seleção:</strong><a href="http://www.sead.ufes.br/conteudo/processo-seletivo-para-ingresso-em-cursos-de-graduação-na-modalidade-distância-0" target="_blank" title="Abrir o processo seletivo em nova aba">Ver processo seletivo</a> (encerrado)</p>
       </div>
 
     </section>

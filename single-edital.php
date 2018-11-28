@@ -1,7 +1,7 @@
 <?php get_header('principal'); ?>
- 
+
 <?php while ( have_posts() ) : the_post(); ?>
- 
+
   <main id="conteudoPrincipal" class='container page single-edital'>
     <!--Inserir conteúdo-->
     <section class="breadcrumb">Você está em: <a href="/sitiosead/editais">Editais</a><i class="fas fa-greater-than"></i><span><?php the_title(); ?></span></section>
@@ -31,7 +31,7 @@
         <section id='inscricao' class='secao-edital'>
           <h2>Inscrição</h2>
           <p>Inscrições, retificações e resultados deste edital estão disponíveis no Sistema de Seleção.</p>
-          <a role='button' href=' " .$editalLink[0] . " ' target='_blank'>Acessar Sistema de Seleção</a>
+          <a role='button' href=' " .$editalLink[0] . " ' target='_blank' title='Abrir o Sistema de Seleção em nova aba'>Acessar Sistema de Seleção</a>
         </section>
       ";
     }
