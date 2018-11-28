@@ -76,7 +76,7 @@
         p {
           display: flex;
           flex-wrap: wrap;
-          max-width: unset;
+          max-width: inherit;
           margin: 0;
 
           a {

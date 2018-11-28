@@ -295,9 +295,9 @@
         &:after{ opacity: 1; }
 
         h3{ 
-          /*border-bottom: solid 2px $laranjaRegular;*/ 
-          text-decoration: underline #f06c00;
+          text-decoration: underline;
           text-underline-position: under;
+          text-decoration-color: $laranjaRegular;
         }
       }
 

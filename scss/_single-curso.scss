@@ -191,7 +191,7 @@
           }
 
           a {
-            color: unset;
+            color: black;
             margin: 0;
             font-style: normal;
 
@@ -355,7 +355,7 @@
     #objetivo {
       font-size: 1.5rem;
       line-height: 1.6;
-      max-width: unset;
+      max-width: inherit;
     }
 
     #info-curso {
@@ -390,7 +390,7 @@
         ul {
           display: block !important;
           background: none;
-          position: unset;
+          position: relative;
           padding: 0;
           width: 225px;
         }

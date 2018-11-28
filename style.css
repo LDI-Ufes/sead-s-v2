@@ -808,9 +808,9 @@ footer {
       .inicio #noticias .noticia:hover:after {
         opacity: 1; }
       .inicio #noticias .noticia:hover h3 {
-        /*border-bottom: solid 2px $laranjaRegular;*/
-        text-decoration: underline #f06c00;
-        text-underline-position: under; }
+        text-decoration: underline;
+        text-underline-position: under;
+        text-decoration-color: #f06c00; }
   .inicio #polos {
     color: #043166;
     background-color: #ffdcc5;
@@ -1121,7 +1121,7 @@ footer {
   padding-top: 2rem;
   padding-bottom: 5rem; }
   .page-blog #galeria .container {
-    width: unset;
+    width: inherit;
     padding: 0 1rem; }
   .page-blog #galeria h2 {
     background-color: #c75000;
@@ -1500,7 +1500,7 @@ footer {
       .page-galeria #eventos li .imagens p {
         display: flex;
         flex-wrap: wrap;
-        max-width: unset;
+        max-width: inherit;
         margin: 0; }
         .page-galeria #eventos li .imagens p a {
           height: 10rem;
@@ -1989,18 +1989,18 @@ footer {
           .ead-na-ufes #slider ul button.seta-prev:before, .ead-na-ufes #slider ul button.seta-next:before {
             position: absolute;
             top: 50%;
-            transform: translateY(-50%);
-            right: 0; }
+            transform: translateY(-50%); }
         .ead-na-ufes #slider ul button.seta-prev {
-          left: 1rem;
-          display: none; }
+          display: none;
+          left: 1rem; }
           .ead-na-ufes #slider ul button.seta-prev:before {
             content: "\f104";
-            left: -2rem; }
+            left: 0; }
         .ead-na-ufes #slider ul button.seta-next {
           right: 1rem; }
           .ead-na-ufes #slider ul button.seta-next:before {
-            content: "\f105"; }
+            content: "\f105";
+            right: 0; }
       .ead-na-ufes #slider ul li {
         font-weight: 300;
         padding: 0 4rem;
@@ -2618,7 +2618,7 @@ footer {
           line-height: 1.2;
           font-weight: 300; }
         .curso #conteudo div#professores .nome a {
-          color: unset;
+          color: black;
           margin: 0;
           font-style: normal; }
           .curso #conteudo div#professores .nome a:after {
@@ -2727,7 +2727,7 @@ footer {
     .curso #objetivo {
       font-size: 1.5rem;
       line-height: 1.6;
-      max-width: unset; }
+      max-width: inherit; }
     .curso #info-curso {
       background-color: #043166;
       color: white;
@@ -2750,7 +2750,7 @@ footer {
         .curso #conteudo #menu ul {
           display: block !important;
           background: none;
-          position: unset;
+          position: relative;
           padding: 0;
           width: 225px; }
     .curso div.tabPanel {
@@ -2995,7 +2995,8 @@ footer {
     cursor: pointer; }
   #formPesquisa .botaoSubmissao {
     padding: 10px 15px;
-    z-index: 7; }
+    z-index: 7;
+    top: 0; }
   #formPesquisa .botaoFalso {
     padding: 10px 14px; }
   #formPesquisa input {
