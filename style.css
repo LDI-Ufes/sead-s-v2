@@ -1298,12 +1298,8 @@ footer {
           font-weight: 400; }
         .page-editais #filtros #seletores .seletor ul label {
           margin-left: .3rem; }
-      .page-editais #filtros #seletores .seletor.expandido-mobile {
-        display: block; }
       .page-editais #filtros #seletores .seletor.expandido {
         background-color: #edf9ff; }
-        .page-editais #filtros #seletores .seletor.expandido ul {
-          display: block; }
         .page-editais #filtros #seletores .seletor.expandido button.exibe-filtros {
           color: #043166;
           font-weight: 400; }
@@ -1313,11 +1309,11 @@ footer {
         text-align: center;
         font-weight: 400;
         text-transform: uppercase;
-        color: #1765ab; }
+        color: #1765ab;
+        border-top: solid 0.5px #cfeaff; }
         .page-editais #filtros #seletores .seletor#limpar button:hover {
           background-color: #1765ab;
-          color: white;
-          border-top: solid 0.5px #1765ab; }
+          color: white; }
       .page-editais #filtros #seletores .seletor:hover {
         background-color: #edf9ff; }
 .page-editais #editais {
@@ -1374,6 +1370,8 @@ footer {
           margin-left: -.5px;
           padding-bottom: .5rem;
           z-index: 1; }
+        .page-editais #filtros #seletores .seletor#limpar button {
+          border-top: none; }
   .page-editais #editais .titulos {
     display: block; }
     .page-editais #editais .titulos span {
@@ -1421,9 +1419,6 @@ footer {
       font-weight: 300;
       color: black;
       font-style: normal; } }
-@media screen and (max-width: 992px) {
-  .page-editais #filtros #seletores .seletor#limpar button {
-    border-top: solid 0.5px #cfeaff; } }
 
 .page-galeria #filtros {
   padding: 1.5rem 0; }

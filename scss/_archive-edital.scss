@@ -85,16 +85,8 @@
           label{ margin-left: .3rem;}
         }
 
-        &.expandido-mobile {
-          display: block;
-        }
-
         &.expandido {
           background-color: $azulExtraClaro;
-
-          ul {
-            display: block;
-          }
 
           button.exibe-filtros {
             color: $azulEscuro;
@@ -112,11 +104,11 @@
             font-weight: $regular;
             text-transform: uppercase;
             color: $azulRegular;
+            border-top: solid 0.5px $azulClaro;
 
             &:hover{
               background-color: $azulRegular;
               color: white;
-              border-top: solid 0.5px $azulRegular;
             }
           }
         }
@@ -209,7 +201,12 @@
             padding-bottom: .5rem;
             z-index: 1;
           }
-
+          
+          &#limpar{
+            button{
+              border-top: none;
+            }
+          }
         }
       }
     }
@@ -287,26 +284,5 @@
         }
       }
     }
-  }
-
-  @media screen and (max-width: 992px) {
-
-    #filtros {
-
-      #seletores {
-
-        .seletor {
-
-          &#limpar{
-            button{
-              border-top: solid 0.5px $azulClaro;
-            }
-          }
-
-        }
-
-      }
-    }
-
   }
 }

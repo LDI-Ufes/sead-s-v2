@@ -127,12 +127,20 @@
 <script>
 
   $(".exibe-filtros").click(function () {
-    $(this).parent().toggleClass('expandido');
-    $(this).parent().siblings().removeClass('expandido');
+    $(this).siblings('ul').slideToggle();
+    $(this).parent().toggleClass('expandido').siblings().removeClass('expandido').find('ul').slideUp();
   });
 
+  // If click outside dropdown-menu opened
+  $(document).click(function() {
+    if (!$(event.target).closest('.exibe-filtros').length) {
+      $('.seletor').removeClass('expandido').find('ul').slideUp(300);
+    }
+  });
+
+
   $("#exibe-seletores").click(function () {
-    $(this).siblings().toggleClass('expandido-mobile');
+    $(this).siblings().slideToggle();
 
     if ($(this).text() === "Exibir filtros")
       $(this).text("Ocultar filtros");
