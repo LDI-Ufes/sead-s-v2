@@ -225,7 +225,7 @@
         <h3>2014/2 - 2019/1</h3>
         <p><strong>Coordenador do Curso:</strong> Iguatemi Santos Rangel</p>
         <p><strong>Polos atendidos:</strong></p>
-        <p><strong>Seleção:</strong><a href="http://www.sead.ufes.br/conteudo/processo-seletivo-para-ingresso-em-cursos-de-graduação-na-modalidade-distância-0" target="_blank" title="Abrir processo seletivo em nova aba">Ver processo seletivo</a> (encerrado)</p>
+        <p><strong>Seleção: </strong><a href="http://www.sead.ufes.br/conteudo/processo-seletivo-para-ingresso-em-cursos-de-graduação-na-modalidade-distância-0" target="_blank" title="Abrir processo seletivo em nova aba">Ver processo seletivo</a> (encerrado)</p>
       </div>
 
     </section>
@@ -245,8 +245,8 @@
     </div>
   </section>
 
-  <?php
-  $ultimas_noticias = new WP_Query(array(
+  <section id='noticias'>
+    <?php $ultimas_noticias = new WP_Query(array(
       'post_type' => 'noticia',
       'posts_per_page' => 3,
       'tax_query' => array(
@@ -256,11 +256,10 @@
               'terms' => 'Pedagogia',
           ),
       ),
-  ));
+    ));
 
-  if ($ultimas_noticias->have_posts()) :
-    ?>
-    <section id='noticias'>
+    if ($ultimas_noticias->have_posts()) : ?>
+      
       <div class='container'>
         <h2>Notícias do curso</h2>
         <div class='flex'>
@@ -271,15 +270,11 @@
               <h3><?php the_title(); ?></h3>
             </a>
 
-            <?php
-          endwhile;
-          wp_reset_postdata();
-        else :
-          ?>
+          <?php endwhile; wp_reset_postdata(); else : ?>
 
         </div>
       </div>
-    </section>
-  <?php endif; ?>
+    <?php endif; ?>
+  </section>
 
 </main>

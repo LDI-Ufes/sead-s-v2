@@ -291,22 +291,22 @@
     </div>
   </section>
 
-  <?php
-  $ultimas_noticias = new WP_Query(array(
-      'post_type' => 'noticia',
-      'posts_per_page' => 3,
-      'tax_query' => array(
-          array(
-              'taxonomy' => 'curso-noticia',
-              'field' => 'slug',
-              'terms' => 'Lestras Italiano',
-          ),
-      ),
-  ));
+  <section id='noticias'>
+    
+    <?php $ultimas_noticias = new WP_Query(array(
+        'post_type' => 'noticia',
+        'posts_per_page' => 3,
+        'tax_query' => array(
+            array(
+                'taxonomy' => 'curso-noticia',
+                'field' => 'slug',
+                'terms' => 'Lestras Italiano',
+            ),
+        ),
+    ));
 
-  if ($ultimas_noticias->have_posts()) :
-    ?>
-    <section id='noticias'>
+    if ($ultimas_noticias->have_posts()) : ?>
+      
       <div class='container'>
         <h2>Notícias do curso</h2>
         <div class='flex'>
@@ -317,15 +317,10 @@
               <h3><?php the_title(); ?></h3>
             </a>
 
-            <?php
-          endwhile;
-          wp_reset_postdata();
-        else :
-          ?>
-
+          <?php endwhile; wp_reset_postdata(); else : ?>
         </div>
       </div>
-    </section>
-  <?php endif; ?>
+    <?php endif; ?>
+  </section>
 
 </main>

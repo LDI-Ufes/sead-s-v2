@@ -107,31 +107,3 @@
 </main>
 
 <?php get_footer(); ?>
-
-<script>
-  
-//  // Planta da Sead
-//
-//  $("#abrir-modal").click(function () {
-//    $('#modal').css('display', 'block');
-//    $('#modal-img').focus();
-//  });
-//  
-//  $("#planta").click(function () {
-//    $('#modal').css('display', 'block');
-//    $('#modal-img').focus();
-//  });
-//  
-//  $('#close').click(function () {
-//    $('#modal').css('display', 'none');
-//    $('#abrir-modal').focus();
-//  });
-//  
-//  $('#modal').click(function () {
-//    if(!$(event.target).closest('#modal-content').length){
-//      $('#modal').css('display', 'none');
-//      $('#abrir-modal').focus();
-//    }
-//  });
-
-</script>
