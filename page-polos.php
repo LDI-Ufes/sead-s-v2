@@ -42,10 +42,11 @@
       $(".municipioTitulo").click( function(){
         $('li').not($(this).parent()).removeClass('expandido');
         $(this).parent().toggleClass('expandido');
+        $('#polos li .info-polo').hide(); // Edge
+        $('#polos li.expandido .info-polo').show(); // Edge
         $('html, body').animate({ scrollTop: $(this).offset().top-($(window).height() / 2 - 200) }, 800);
         $('.mapaES #comPolos path').removeClass('selecionado');
         let parentID = '#' + $('.expandido').attr('id');
-        console.log(parentID);
         $('.mapaES #comPolos path' + parentID).addClass('selecionado');
       });}
     );
@@ -55,6 +56,8 @@
     var idt = '#' + municipio;
     $('li').not( idt ).removeClass('expandido');
     $('li'+idt).toggleClass('expandido');
+    $('#polos li .info-polo').hide(); // Edge
+    $('#polos li.expandido .info-polo').show(); // Edge
     $('html, body').animate({ scrollTop: $("li"+idt).offset().top-($(window).height() / 2 - 200) }, 800);
     $('path').removeClass('selecionado');
     $('path' + idt).addClass('selecionado');
