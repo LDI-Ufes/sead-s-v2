@@ -73,7 +73,7 @@
 <script>
 
   // menu mobile
-  $('#dropdown-menu').click( () => {
+  $('#dropdown-menu').click( function(){
     $('#itens-abas').slideToggle(300);
   });
 
@@ -83,7 +83,7 @@
       // If max-width 991px
       if ($(window).width() <= 991) {
         // Slide up (close) menu panel
-        $('#itens-abas').slideUp(300)
+        $('#itens-abas').slideUp(300);
       }
     }
   });
@@ -101,7 +101,7 @@
 
     // Get the list of tab links
     var tabsList = tabs.find("ul:first").attr({
-      "class": "tabsList",
+      "class": "tabsList"
     });
 
     // For each item in the tabs list...
@@ -115,7 +115,7 @@
               // Assign tab id and aria-selected attribute to the tab control, but do not remove the href
               tab.attr({
                 "id": tabId,
-                "aria-selected": "false",
+                "aria-selected": "false"
               }).parent().attr("role", "presentation");
 
               // Assign aria attribute to the relevant tab panel
@@ -149,12 +149,12 @@
                         // If max-width 991px
                         if ($(window).width() <= 991) {
                           // Slide up (close) menu panel
-                          $('#itens-abas').slideUp(300)
+                          $('#itens-abas').slideUp(300);
                         }
 
                         // Change the menu collapsed title
-                        let itemSelecionado = tab.attr('aria-selected', 'true').html()
-                        $('#dropdown-menu').html(itemSelecionado + '<i class="fas fa-angle-down"></i>')
+                        let itemSelecionado = tab.attr('aria-selected', 'true').html();
+                        $('#dropdown-menu').html(itemSelecionado + '<i class="fas fa-angle-down"></i>');
 
                       }
 
@@ -169,7 +169,7 @@
               switch (e.which) {
                 case 37:
                 case 38:
-                  if (tab.parent().prev().length != 0) {
+                  if (tab.parent().prev().length !== 0) {
                     tab.parent().prev().find("> a").click();
                   } else {
                     $(tabsList).find("li:last > a").click();
@@ -177,7 +177,7 @@
                   break;
                 case 39:
                 case 40:
-                  if (tab.parent().next().length != 0) {
+                  if (tab.parent().next().length !== 0) {
                     tab.parent().next().find("> a").click();
                   } else {
                     $(tabsList).find("li:first > a").click();

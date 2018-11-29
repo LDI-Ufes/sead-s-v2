@@ -312,7 +312,7 @@
         margin: 3rem 0;
         color: $azulRegular;
         border-bottom: 1px $azulRegular solid;
-        position: initial;
+        position: static;
         padding: 0;
 
         li.current {
