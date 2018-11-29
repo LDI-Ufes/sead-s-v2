@@ -307,7 +307,7 @@
       }
 
       #itens-abas {
-        display: flex;
+        display: flex !important;
         justify-content: flex-start;
         margin: 3rem 0;
         color: $azulRegular;

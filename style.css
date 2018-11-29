@@ -473,7 +473,8 @@ footer {
       footer .content section .enderecoLink {
         display: flex;
         flex-direction: column;
-        margin-top: 0.25em; }
+        margin-top: 0.25em;
+        margin-bottom: 1.5rem; }
         footer .content section .enderecoLink > span {
           display: inline-flex; }
           footer .content section .enderecoLink > span:first-child {
@@ -482,8 +483,6 @@ footer {
             display: inline-flex; }
           footer .content section .enderecoLink > span img {
             margin-right: 0.5em; }
-      footer .content section .fb_iframe_widget {
-        margin-top: 1.5rem; }
   footer .creditos {
     display: inline-flex;
     justify-content: center;
@@ -1735,7 +1734,7 @@ footer {
   .page-cursos #abas #dropdown-menu {
     display: none; }
   .page-cursos #abas #itens-abas {
-    display: flex;
+    display: flex !important;
     justify-content: flex-start;
     margin: 3rem 0;
     color: #1765ab;
