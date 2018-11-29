@@ -65,6 +65,8 @@
           text-decoration: underline;
         }
       }
+      
+      p > a:hover { border: none; }
     }
 
     .post-autor {

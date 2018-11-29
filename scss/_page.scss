@@ -8,10 +8,10 @@
 
     a{
       font-style: italic;
-      color: #1765ab;
-      margin-left: 0.5rem;
+      color: $azulRegular;
+      cursor: pointer;
 
-      &:hover{ border-bottom: 0.5px solid #1765ab; }
+      &:hover{ border-bottom: 0.5px solid $azulRegular; }
     }
   }
 

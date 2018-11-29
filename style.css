@@ -1757,7 +1757,7 @@ footer {
     .page p a {
       font-style: italic;
       color: #1765ab;
-      margin-left: 0.5rem; }
+      cursor: pointer; }
       .page p a:hover {
         border-bottom: 0.5px solid #1765ab; }
   .page blockquote {
@@ -2905,6 +2905,8 @@ footer {
       .noticia article .post-body a:hover {
         color: #b24800;
         text-decoration: underline; }
+    .noticia article .post-body p > a:hover {
+      border: none; }
   .noticia article .post-autor {
     display: inline-flex; }
     .noticia article .post-autor img {

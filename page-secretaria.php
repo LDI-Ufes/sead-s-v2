@@ -82,7 +82,7 @@
             Coordenadora de Diagramação: Thaís Imbroisi<br>
             Coordenadora de Ilustração e Multimídia: Priscilla Garone<br>
             Coordenador de Web: Edson Rufino<br><br>
-            <strong>Mais informações:</strong><a href="https://ldi.eadufes.org" title="Ir para o sítio do LDI">Visite o sítio do LDI</a>
+            <strong>Mais informações: </strong><a href="https://ldi.eadufes.org" title="Ir para o sítio do LDI">Visite o sítio do LDI</a>
           </p>
         </li>
       </ul>
