@@ -99,6 +99,16 @@ section.caixa {
   }
 }
 
+.somente-leitura {
+  position: absolute;
+  left: -999rem;
+}
+
+a[target='_blank'] i.fa-external-link-alt {
+  font-size: 0.8em;
+}
+
+
 // Foco em navegação
 * {
   &:focus {

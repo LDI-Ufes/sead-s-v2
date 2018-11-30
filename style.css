@@ -90,6 +90,13 @@ section.caixa {
   .mapaES #comPolos a .geografia.selecionado {
     fill: #ffa161; }
 
+.somente-leitura {
+  position: absolute;
+  left: -999rem; }
+
+a[target='_blank'] i.fa-external-link-alt {
+  font-size: 0.8em; }
+
 *:focus {
   outline: none; }
 
