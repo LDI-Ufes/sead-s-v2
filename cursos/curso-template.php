@@ -81,7 +81,7 @@
             <ul style='display: block;'>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Nome da disciplina <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir o documento em nova aba" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Nome da disciplina <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir o documento em nova aba" target="_blank"><i class="far fa-file-pdf"></i></a></li>
 
             </ul>
           </li>

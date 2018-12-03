@@ -60,11 +60,11 @@
             <ul style='display: block;'>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Língua Italiana I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Fundamentos Históricos e Filosóficos da Educação <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Produção Recepção Oral/Italiano <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Sociologia da Educação <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Projeto Integrador I - Tecnologias Digitais da Informação e Comunicação  <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>  
+              <li>Língua Italiana I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Fundamentos Históricos e Filosóficos da Educação <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Produção Recepção Oral/Italiano <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Sociologia da Educação <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Projeto Integrador I - Tecnologias Digitais da Informação e Comunicação  <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>  
             </ul>
           </li>
           
@@ -73,12 +73,12 @@
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Língua Italiana II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Elaboração de Trabalhos Acadêmicos <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Política e Organização da Educação Básica - POEB <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Avaliação em Língua Estrangeira <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Produção e Recepção Escrita/Italiano  <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>  
-              <li>Projeto Integrador II - Educação Ambiental <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>  
+              <li>Língua Italiana II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Elaboração de Trabalhos Acadêmicos <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Política e Organização da Educação Básica - POEB <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Avaliação em Língua Estrangeira <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Produção e Recepção Escrita/Italiano  <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>  
+              <li>Projeto Integrador II - Educação Ambiental <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>  
             </ul>
           </li>
           
@@ -87,12 +87,12 @@
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Língua Italiana III <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Psicologia da Educação: Aprendizagem <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Literatura Brasileira I - Periodização <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Educação e Diversidade <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>História da Língua Italiana <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>  
-              <li>Tópicos de Cultura Italiana <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>  
+              <li>Língua Italiana III <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Psicologia da Educação: Aprendizagem <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Literatura Brasileira I - Periodização <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Educação e Diversidade <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>História da Língua Italiana <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>  
+              <li>Tópicos de Cultura Italiana <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>  
             </ul>
           </li>
           
@@ -101,12 +101,12 @@
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Língua Italiana IV <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Literatura Italiana I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Gestão da Educação Básica <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Tópicos de Estudos Clássicos <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Introdução à Linguística <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>  
-              <li>Projeto Integrador III - Educação Especial <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>  
+              <li>Língua Italiana IV <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Literatura Italiana I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Gestão da Educação Básica <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Tópicos de Estudos Clássicos <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Introdução à Linguística <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>  
+              <li>Projeto Integrador III - Educação Especial <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>  
             </ul>
           </li>
           
@@ -115,12 +115,12 @@
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Língua Italiana V <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Educação das Relações Étnico-Raciais <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Psicologia do Desenvolvimento <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Projeto Integrador IV - Atividades Culturais Italianas em Ambiente Educativos <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>  
-              <li>Projeto Integrador V - Gestão Educacional e Análise do Discurso <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Literatura Italiana II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>  
+              <li>Língua Italiana V <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Educação das Relações Étnico-Raciais <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Psicologia do Desenvolvimento <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Projeto Integrador IV - Atividades Culturais Italianas em Ambiente Educativos <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>  
+              <li>Projeto Integrador V - Gestão Educacional e Análise do Discurso <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Literatura Italiana II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>  
             </ul>
           </li>
           
@@ -129,13 +129,13 @@
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Didática da Língua Italiana III <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Literatura Italiana Infanto-Juvenil <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Currículo da Educação Básica <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Tópicos de Cultura Italiana II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>  
-              <li>Semântica <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Sociolinguística <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>  
-              <li>Literatura Brasileira II - Periodização <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>  
+              <li>Didática da Língua Italiana III <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Literatura Italiana Infanto-Juvenil <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Currículo da Educação Básica <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Tópicos de Cultura Italiana II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>  
+              <li>Semântica <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Sociolinguística <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>  
+              <li>Literatura Brasileira II - Periodização <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>  
             </ul>
           </li>
           
@@ -144,11 +144,11 @@
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Estágio Supervisionado em Língua Italiana I <span>210h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Análise Contrastiva entre o Português e o Italiano <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Recursos Didáticos para o Ensino de Língua Estrangeira <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>LIBRAS <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>  
-              <li>Projeto Integrador VI - Política Linguística <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
+              <li>Estágio Supervisionado em Língua Italiana I <span>210h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Análise Contrastiva entre o Português e o Italiano <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Recursos Didáticos para o Ensino de Língua Estrangeira <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>LIBRAS <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>  
+              <li>Projeto Integrador VI - Política Linguística <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
             </ul>
           </li>
           
@@ -157,11 +157,11 @@
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Estágio Supervisionado em Língua Italiana II <span>210h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Literatura Italiana III <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>TCC <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>LIBRAS <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>  
-              <li>Projeto Integrador VII - Direitos Humanos e Educação  <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
+              <li>Estágio Supervisionado em Língua Italiana II <span>210h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Literatura Italiana III <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>TCC <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>LIBRAS <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>  
+              <li>Projeto Integrador VII - Direitos Humanos e Educação  <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
             </ul>
           </li>
 

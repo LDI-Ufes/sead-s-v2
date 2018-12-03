@@ -62,12 +62,12 @@
             <ul style='display: block;'>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Fundamentos Estruturais e Pedagógicos da EAD <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Metodologia em EAD <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Introdução às Ciências Sociais <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Teoria e Metodologia da História I <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>História Antiga <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Fundamentos Hist. e Fil. da Educação <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
+              <li>Fundamentos Estruturais e Pedagógicos da EAD <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Metodologia em EAD <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Introdução às Ciências Sociais <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Teoria e Metodologia da História I <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>História Antiga <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Fundamentos Hist. e Fil. da Educação <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
             </ul>
           </li>
           
@@ -76,12 +76,12 @@
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Currículo e formação docente <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Política e Organização da Educação Básica <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Teoria e Metodologia da História II <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>História Medieval <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>História do Brasil Colonial <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>História da América Colonial <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
+              <li>Currículo e formação docente <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Política e Organização da Educação Básica <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Teoria e Metodologia da História II <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>História Medieval <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>História do Brasil Colonial <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>História da América Colonial <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
             </ul>
           </li>
           
@@ -90,12 +90,12 @@
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>História Moderna <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>História da América Contemporânea <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>História do Brasil Império <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>História do Espírito Santo <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Didática <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Teoria e Metodologia da História III <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
+              <li>História Moderna <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>História da América Contemporânea <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>História do Brasil Império <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>História do Espírito Santo <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Didática <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Teoria e Metodologia da História III <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
             </ul>
           </li>
           
@@ -104,11 +104,11 @@
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>História da História Ensinada <span>150h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>História Contemporânea <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>História do Brasil República <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>História da Ásia <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Tópicos Esp. em História Antiga <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
+              <li>História da História Ensinada <span>150h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>História Contemporânea <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>História do Brasil República <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>História da Ásia <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Tópicos Esp. em História Antiga <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
             </ul>
           </li>
           
@@ -117,10 +117,10 @@
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Estágio Supervisionado em História I <span>150h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Teoria e Prática do Ensino da História <span>150h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>História e Cultura Afro-Brasileira e Indígena <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Tópicos Esp. em História Medieval <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
+              <li>Estágio Supervisionado em História I <span>150h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Teoria e Prática do Ensino da História <span>150h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>História e Cultura Afro-Brasileira e Indígena <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Tópicos Esp. em História Medieval <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
             </ul>
           </li>
           
@@ -129,11 +129,11 @@
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Tópicos Esp. em História da América <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Educação e inclusão <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Estágio Supervisionado em História II <span>150h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Monografia I <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Tópicos Especiais em História Moderna <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
+              <li>Tópicos Esp. em História da América <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Educação e inclusão <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Estágio Supervisionado em História II <span>150h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Monografia I <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Tópicos Especiais em História Moderna <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
             </ul>
           </li>
           
@@ -142,11 +142,11 @@
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Estágio Supervisionado em História III <span>105h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Fundamentos da Língua Bras. de Sinais (LIBRAS) <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Monografia II <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Tópicos Especiais em História Contemporânea <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Tópicos Esp. em História do Brasil <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
+              <li>Estágio Supervisionado em História III <span>105h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Fundamentos da Língua Bras. de Sinais (LIBRAS) <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Monografia II <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Tópicos Especiais em História Contemporânea <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Tópicos Esp. em História do Brasil <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
             </ul>
           </li>
         </ul>

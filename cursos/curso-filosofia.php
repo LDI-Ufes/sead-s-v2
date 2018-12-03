@@ -60,11 +60,11 @@
             <ul style='display: block;'>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>EAD I e II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>História da Filosofia Antiga <span>90h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Ética I <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Metafísica I <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Teoria do Conhecimento <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
+              <li>EAD I e II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>História da Filosofia Antiga <span>90h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Ética I <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Metafísica I <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Teoria do Conhecimento <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
             </ul>
           </li>
           
@@ -73,10 +73,10 @@
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Filosofia Política I <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>História da Filosofia Medieval <span>90h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Lógica I <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Metafísica II <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
+              <li>Filosofia Política I <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>História da Filosofia Medieval <span>90h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Lógica I <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Metafísica II <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
             </ul>
           </li>
           
@@ -85,10 +85,10 @@
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Estética <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Filosofia Política II <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>História da Filosofia Moderna <span>90h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Lógica II <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
+              <li>Estética <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Filosofia Política II <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>História da Filosofia Moderna <span>90h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Lógica II <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
             </ul>
           </li>
           
@@ -97,10 +97,10 @@
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Ética II <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Filosofia da Ciência II <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Filosofia da Linguagem <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>História da Filosofia Contemporânea <span>90h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
+              <li>Ética II <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Filosofia da Ciência II <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Filosofia da Linguagem <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>História da Filosofia Contemporânea <span>90h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
             </ul>
           </li>
           
@@ -109,11 +109,11 @@
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Didática <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Laboratório de Ensino de Filosofia <span>105h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Psicologia da Educação <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Seminário de Pesquisa Filosófica <span>105h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Sociologia <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
+              <li>Didática <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Laboratório de Ensino de Filosofia <span>105h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Psicologia da Educação <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Seminário de Pesquisa Filosófica <span>105h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Sociologia <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
             </ul>
           </li>
           
@@ -122,10 +122,10 @@
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Antropologia Filosófica <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Ensino de Filosofia <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Ética III <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Política e Organização da Educação Básica <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
+              <li>Antropologia Filosófica <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Ensino de Filosofia <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Ética III <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Política e Organização da Educação Básica <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
             </ul>
           </li>
           
@@ -134,10 +134,10 @@
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Estágio Supervisionado de Ensino de Filosofia I <span>210h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Evolução do Pensamento Filosófico e Científico <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Filosofia e Educação <span>105h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Metafísica III <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
+              <li>Estágio Supervisionado de Ensino de Filosofia I <span>210h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Evolução do Pensamento Filosófico e Científico <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Filosofia e Educação <span>105h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Metafísica III <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
             </ul>
           </li>
           
@@ -146,11 +146,11 @@
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Estágio Supervisionado de Ensino de Filosofia II <span>210h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>História da Filosofia na América Latina <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>História da Filosofia no Brasil <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Libras <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Trabalho de Conclusão de Curso <span>210h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
+              <li>Estágio Supervisionado de Ensino de Filosofia II <span>210h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>História da Filosofia na América Latina <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>História da Filosofia no Brasil <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Libras <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Trabalho de Conclusão de Curso <span>210h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
             </ul>
           </li>
           

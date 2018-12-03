@@ -62,12 +62,12 @@
             <ul style='display: block;'>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Parte introdutória e fundamentos tecnológicos <span>20h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Capacitacao-dos-alunos-para-uso-do-AVA.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>EAD e EAD na UFES <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/EAD-e-EAD-na-UFES.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Tecnologia da Informação e do conhecimento <span>75h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Tecnologia-da-Informacao-e-do-conhecimento.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>História da Educação <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Historia-da-Educacao.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Filosofia da Educação <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Filosofia-da-Educacao.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Psicologia da Educação <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Psicologia-da-Educacao.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Parte introdutória e fundamentos tecnológicos <span>20h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Capacitacao-dos-alunos-para-uso-do-AVA.pdf" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a></li>
+              <li>EAD e EAD na UFES <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/EAD-e-EAD-na-UFES.pdf" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a></li>
+              <li>Tecnologia da Informação e do conhecimento <span>75h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Tecnologia-da-Informacao-e-do-conhecimento.pdf" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a></li>
+              <li>História da Educação <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Historia-da-Educacao.pdf" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a></li>
+              <li>Filosofia da Educação <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Filosofia-da-Educacao.pdf" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a></li>
+              <li>Psicologia da Educação <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Psicologia-da-Educacao.pdf" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a></li>
             </ul>
           </li>
           
@@ -76,12 +76,12 @@
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Introdução à Metodologia da Pesquisa Educacional <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Introducao-a-Metodologia-da-Pesquisa-Educacional.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Sociologia da Educação <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Sociologia-da-Educacao.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Pesquisa, extensão e prática pedagógica I <span>105h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Pesquisa-extensao-e-pratica-pedagogica-I.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Política e Organização da Educação Básica <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Politica-e-Organizacao-da-Educacao-Basica.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Didática <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Didatica.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Libras <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Libras.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Introdução à Metodologia da Pesquisa Educacional <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Introducao-a-Metodologia-da-Pesquisa-Educacional.pdf" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a></li>
+              <li>Sociologia da Educação <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Sociologia-da-Educacao.pdf" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a></li>
+              <li>Pesquisa, extensão e prática pedagógica I <span>105h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Pesquisa-extensao-e-pratica-pedagogica-I.pdf" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a></li>
+              <li>Política e Organização da Educação Básica <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Politica-e-Organizacao-da-Educacao-Basica.pdf" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a></li>
+              <li>Didática <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Didatica.pdf" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a></li>
+              <li>Libras <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Libras.pdf" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a></li>
             </ul>
           </li>
           
@@ -90,12 +90,12 @@
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Currículo e Formação Docente <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Curriculo-e-Formacao-Docente.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Infância e educação <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Infancia-e-educacao.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Pesquisa, extensão e prática pedagógica II <span>105h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Pesquisa-extensao-e-pratica-pedagogica-II.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Linguagem I <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Linguagem-I.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Linguagem II <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Linguagem-II.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Educação e Inclusão <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Educacao-e-inclusao.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Currículo e Formação Docente <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Curriculo-e-Formacao-Docente.pdf" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a></li>
+              <li>Infância e educação <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Infancia-e-educacao.pdf" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a></li>
+              <li>Pesquisa, extensão e prática pedagógica II <span>105h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Pesquisa-extensao-e-pratica-pedagogica-II.pdf" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a></li>
+              <li>Linguagem I <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Linguagem-I.pdf" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a></li>
+              <li>Linguagem II <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Linguagem-II.pdf" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a></li>
+              <li>Educação e Inclusão <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Educacao-e-inclusao.pdf" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a></li>
             </ul>
           </li>
           
@@ -104,11 +104,11 @@
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Linguagem III <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Linguagem-III.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Educação, corpo e movimento <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Educacao-corpo-e-movimento.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Pesquisa, extensão e prática pedagógica III <span>105h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Pesquisa-extensao-e-pratica-pedagogica-III.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Currículo na educação infantil <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Curriculo-da-educacao-infantil.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Gestão educacional <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Gestao-Educacional.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
+              <li>Linguagem III <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Linguagem-III.pdf" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a></li>
+              <li>Educação, corpo e movimento <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Educacao-corpo-e-movimento.pdf" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a></li>
+              <li>Pesquisa, extensão e prática pedagógica III <span>105h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Pesquisa-extensao-e-pratica-pedagogica-III.pdf" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a></li>
+              <li>Currículo na educação infantil <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Curriculo-da-educacao-infantil.pdf" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a></li>
+              <li>Gestão educacional <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Gestao-Educacional.pdf" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a></li>
             </ul>
           </li>
           
@@ -117,11 +117,11 @@
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Linguagem IV <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Linguagem-IV.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Estágio I (Educação infantil) <span>135h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Pesquisa, extensão e prática pedagógica IV <span>105h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>História I <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Historia-I.pdf" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a></li>
-              <li>Geografia I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
+              <li>Linguagem IV <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Linguagem-IV.pdf" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a></li>
+              <li>Estágio I (Educação infantil) <span>135h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Pesquisa, extensão e prática pedagógica IV <span>105h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>História I <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Historia-I.pdf" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a></li>
+              <li>Geografia I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
             </ul>
           </li>
           
@@ -130,12 +130,12 @@
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Estágio II (Gestão) <span>135h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Ciências I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Matemática I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>História II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Geografia II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Trabalho docente na educação infantil <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
+              <li>Estágio II (Gestão) <span>135h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Ciências I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Matemática I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>História II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Geografia II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Trabalho docente na educação infantil <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
             </ul>
           </li>
           
@@ -144,13 +144,13 @@
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Ciências II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>História III <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Geografia III <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Matemática II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Linguagem V <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Movimentos sociais e a educação de Jovens e adultos <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Trabalho de Conclusão de Curso I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
+              <li>Ciências II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>História III <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Geografia III <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Matemática II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Linguagem V <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Movimentos sociais e a educação de Jovens e adultos <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Trabalho de Conclusão de Curso I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
             </ul>
           </li>
           
@@ -159,10 +159,10 @@
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Trabalho de Conclusão de Curso II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Estágio III (Magistério Séries Iniciais) <span>135h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Matemática III <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Ciências III <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
+              <li>Trabalho de Conclusão de Curso II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Estágio III (Magistério Séries Iniciais) <span>135h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Matemática III <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Ciências III <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
             </ul>
           </li>
 

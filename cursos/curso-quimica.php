@@ -62,12 +62,12 @@
             <ul style='display: block;'>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Metodologia da Pesquisa em EAD <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Fundamentos Estruturais e Pedagógicos da EAD <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Geometria Analítica <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Química Geral Experimental I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Química Geral I <span>90h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Seminário I <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
+              <li>Metodologia da Pesquisa em EAD <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Fundamentos Estruturais e Pedagógicos da EAD <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Geometria Analítica <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Química Geral Experimental I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Química Geral I <span>90h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Seminário I <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
             </ul>
           </li>
           
@@ -76,11 +76,11 @@
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Cálculo I <span>90h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Química Geral Experimental II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Química Geral II <span>90h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Seminário II <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Sociologia Da Educação <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
+              <li>Cálculo I <span>90h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Química Geral Experimental II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Química Geral II <span>90h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Seminário II <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Sociologia Da Educação <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
             </ul>
           </li>
           
@@ -89,11 +89,11 @@
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Cálculo 2B <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Psicologia da Educação <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Química Orgânica Experimental I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Química Orgânica I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Seminário III <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
+              <li>Cálculo 2B <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Psicologia da Educação <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Química Orgânica Experimental I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Química Orgânica I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Seminário III <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
             </ul>
           </li>
           
@@ -102,13 +102,13 @@
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Física B1 <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Pesquisa e Prática Pedagógica no Ensino <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Política e Organização da Educação Básica <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Química Analítica I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Química Analítica Experimental I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Química Orgânica II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Seminário IV <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
+              <li>Física B1 <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Pesquisa e Prática Pedagógica no Ensino <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Política e Organização da Educação Básica <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Química Analítica I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Química Analítica Experimental I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Química Orgânica II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Seminário IV <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
             </ul>
           </li>
           
@@ -117,12 +117,12 @@
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Didática <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Física Experimental I <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Pesquisa e Prática Pedagógica no Ensino de Laboratório I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Química Inorgânica Experimental I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Química Inorgânica I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Seminário V <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
+              <li>Didática <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Física Experimental I <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Pesquisa e Prática Pedagógica no Ensino de Laboratório I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Química Inorgânica Experimental I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Química Inorgânica I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Seminário V <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
             </ul>
           </li>
           
@@ -131,14 +131,14 @@
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Estágio I <span>100h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Evolução da Química <span>15h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Física B3 <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Fundamentos da Língua Brasileira de Sinais <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Pesquisa e Prática Pedagógica no Ensino de Laboratório II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Química Analítica II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Química Analítica Experimental II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Seminário VI <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
+              <li>Estágio I <span>100h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Evolução da Química <span>15h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Física B3 <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Fundamentos da Língua Brasileira de Sinais <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Pesquisa e Prática Pedagógica no Ensino de Laboratório II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Química Analítica II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Química Analítica Experimental II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Seminário VI <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
             </ul>
           </li>  
           
@@ -147,13 +147,13 @@
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Currículo e Formação Docente <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Estágio II <span>100h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Pesquisa e Prática Pedagógica no Ensino de Laboratório III <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Química Aplicada <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Química Inorgânica Experimental II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Química Inorgânica II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Seminário VII <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
+              <li>Currículo e Formação Docente <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Estágio II <span>100h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Pesquisa e Prática Pedagógica no Ensino de Laboratório III <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Química Aplicada <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Química Inorgânica Experimental II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Química Inorgânica II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Seminário VII <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
             </ul>
           </li>   
           
@@ -162,12 +162,12 @@
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Bioquímica <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Estágio III <span>100h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Físico-química <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Físico-química Experimental <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Pesquisa e Prática Pedagógica no Ensino de Laboratório IV <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Seminário VIII <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
+              <li>Bioquímica <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Estágio III <span>100h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Físico-química <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Físico-química Experimental <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Pesquisa e Prática Pedagógica no Ensino de Laboratório IV <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Seminário VIII <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
             </ul>
           </li>
           
@@ -176,8 +176,8 @@
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Estágio IV <span>100h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
-              <li>Química Ambiental <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="fas fa-file-pdf"></i></a>--></li>
+              <li>Estágio IV <span>100h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Química Ambiental <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
             </ul>
           </li>
 
