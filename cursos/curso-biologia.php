@@ -17,7 +17,7 @@
         <p><strong>Modalidade: </strong>Semipresencial</p>
         <!--<p><strong>Conceito Geral: </strong>3</p>-->
       </div>
-      
+
       <div id='situacao'>
         <p><strong>Situação: </strong>Oferta 2014/2 em andamento, previsão de conclusão em 2019/1.
           <!--<br>Aprovado pelo CEPE em 23/07/2014 por meio da Resolução 33/2014.-->
@@ -36,7 +36,7 @@
           <li><a href='#corpo-docente'>Corpo docente</a></li>
           <li><a href='#perfil-do-egresso'>Perfil do egresso</a></li>
           <li><a href='#ofertas-anteriores'>Ofertas anteriores</a></li>
-          <a title="Abrir Guia do Aluno" href='<?php echo get_template_directory_uri(); ?>/arquivos/biologia/Guia-do-Estudante-Biologia.pdf' target='_blank'><i class='fas fa-external-link-alt'></i>Guia do aluno</a>
+          <a href='<?php echo get_template_directory_uri(); ?>/arquivos/biologia/Guia-do-Estudante-Biologia.pdf' target='_blank' title='Abrir o Guia do Aluno em nova aba'>Guia do aluno <i class='fas fa-external-link-alt'></i></a>
 
           <span>Contato</span>
           biologia.ead.ufes@gmail.com<br>
@@ -59,11 +59,11 @@
             <ul style='display: block;'>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Introdução à Informática <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Matemática Superior <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Química Geral <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Biologia Celular e Molecular <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Biologia de Microorganismos <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Introdução à Informática <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Introdução à Informática</span></a>--></li>
+              <li>Matemática Superior <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Matemática Superior</span></a>--></li>
+              <li>Química Geral <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Química Geral</span></a>--></li>
+              <li>Biologia Celular e Molecular <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Biologia Celular e Molecular</span></a>--></li>
+              <li>Biologia de Microorganismos <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Biologia de Microorganismos</span></a>--></li>
 
             </ul>
           </li>
@@ -73,25 +73,25 @@
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Botânica I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Classificação e Diversidade Biológica <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Educação a Distância <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Física aplicada à Biologia <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Seminário Temático Integrador: Prática de Ensino e Estágio Supervisionado I <span>120h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Zoologia de Invertebrados I <span>120h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Botânica I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Botânica I</span></a>--></li>
+              <li>Classificação e Diversidade Biológica <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Classificação e Diversidade Biológica</span></a>--></li>
+              <li>Educação a Distância <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Educação a Distância</span></a>--></li>
+              <li>Física aplicada à Biologia <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Física aplicada à Biologia</span></a>--></li>
+              <li>Seminário Temático Integrador: Prática de Ensino e Estágio Supervisionado I <span>120h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Seminário Temático Integrador: Prática de Ensino e Estágio Supervisionado I</span></a>--></li>
+              <li>Zoologia de Invertebrados I <span>120h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Zoologia de Invertebrados I</span></a>--></li>
             </ul>
           </li>
-          
+
           <li class='semestre'>
             <button><h3>3° semestre</h3></button>
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Botânica II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Educação Ambiental <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Histologia e Biologia do Desenvolvimento <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Processos Bioquímicos da Célula <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Zoologia de Invertebrados II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Botânica II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Botânica II</span></a>--></li>
+              <li>Educação Ambiental <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Educação Ambiental</span></a>--></li>
+              <li>Histologia e Biologia do Desenvolvimento <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Histologia e Biologia do Desenvolvimento</span></a>--></li>
+              <li>Processos Bioquímicos da Célula <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Processos Bioquímicos da Célula</span></a>--></li>
+              <li>Zoologia de Invertebrados II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Zoologia de Invertebrados II</span></a>--></li>
             </ul>
           </li>
 
@@ -100,72 +100,72 @@
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Anatomia Humana <span>45h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Botânica III <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Filosofia da Ciência <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Fundamentos Históricos e Filosóficos da Educação <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Genética Básica <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Política e Organização da Educação Básica <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Seminário Temático Integrador: Prática de Ensino e Estágio Supervisionado II <span>120h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Anatomia Humana <span>45h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Anatomia Humana</span></a>--></li>
+              <li>Botânica III <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Botânica III</span></a>--></li>
+              <li>Filosofia da Ciência <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Filosofia da Ciência</span></a>--></li>
+              <li>Fundamentos Históricos e Filosóficos da Educação <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Fundamentos Históricos e Filosóficos da Educação</span></a>--></li>
+              <li>Genética Básica <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Genética Básica</span></a>--></li>
+              <li>Política e Organização da Educação Básica <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Política e Organização da Educação Básica</span></a>--></li>
+              <li>Seminário Temático Integrador: Prática de Ensino e Estágio Supervisionado II <span>120h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Seminário Temático Integrador: Prática de Ensino e Estágio Supervisionado II</span></a>--></li>
             </ul>
           </li>
-          
+
           <li class='semestre'>
             <button><h3>5° semestre</h3></button>
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Botânica IV <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Dinâmica da Terra <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Fisiologia Humana <span>90h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Bioestatística <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Pesquisa e Prática Pedagógica <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Psicologia da Educação <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Botânica IV <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Botânica IV</span></a>--></li>
+              <li>Dinâmica da Terra <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Dinâmica da Terra</span></a>--></li>
+              <li>Fisiologia Humana <span>90h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Fisiologia Humana</span></a>--></li>
+              <li>Bioestatística <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Bioestatística</span></a>--></li>
+              <li>Pesquisa e Prática Pedagógica <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Pesquisa e Prática Pedagógica</span></a>--></li>
+              <li>Psicologia da Educação <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Psicologia da Educação</span></a>--></li>
             </ul>
           </li>
-          
+
           <li class='semestre'>
             <button><h3>6° semestre</h3></button>
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Didática <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Estágio Supervisionado I <span>200h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Evolução <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Química Orgânica <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Seminário Temático Integrador: Prática de Ensino e Estágio Supervisionado III <span>120h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Zoologia de Vertebrados <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Didática <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Didática</span></a>--></li>
+              <li>Estágio Supervisionado I <span>200h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Estágio Supervisionado I</span></a>--></li>
+              <li>Evolução <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Evolução</span></a>--></li>
+              <li>Química Orgânica <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Química Orgânica</span></a>--></li>
+              <li>Seminário Temático Integrador: Prática de Ensino e Estágio Supervisionado III <span>120h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Seminário Temático Integrador: Prática de Ensino e Estágio Supervisionado III</span></a>--></li>
+              <li>Zoologia de Vertebrados <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Zoologia de Vertebrados</span></a>--></li>
             </ul>
           </li>
-          
+
           <li class='semestre'>
             <button><h3>7° semestre</h3></button>
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Elementos de Ecologia e Conservação <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Estágio Supervisionado II <span>200h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Fisiologia Animal Comparada <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Tópicos Especiais no Ensino de Biologia <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Trabalho de Conclusão de Curso I <span>120h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Elementos de Ecologia e Conservação <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Elementos de Ecologia e Conservação</span></a>--></li>
+              <li>Estágio Supervisionado II <span>200h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Estágio Supervisionado II</span></a>--></li>
+              <li>Fisiologia Animal Comparada <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Fisiologia Animal Comparada</span></a>--></li>
+              <li>Tópicos Especiais no Ensino de Biologia <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Tópicos Especiais no Ensino de Biologia</span></a>--></li>
+              <li>Trabalho de Conclusão de Curso I <span>120h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Trabalho de Conclusão de Curso I</span></a>--></li>
             </ul>
           </li>
-          
+
           <li class='semestre'>
             <button><h3>8° semestre</h3></button>
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Biologia e Saúde <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Currículo e Formação Docente <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Filosofia da Educação <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Fundamentos de Língua Brasileira de Sinais (LIBRAS) <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Perspectivas em Educação Popular: Prática de Ensino <span>90h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Seminário Temático Integrador: Prática de Ensino e Estágio Supervisionado IV <span>120h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Trabalho de Conclusão de Curso II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Biologia e Saúde <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Biologia e Saúde</span></a>--></li>
+              <li>Currículo e Formação Docente <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Currículo e Formação Docente</span></a>--></li>
+              <li>Filosofia da Educação <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Filosofia da Educação</span></a>--></li>
+              <li>Fundamentos de Língua Brasileira de Sinais (LIBRAS) <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Fundamentos de Língua Brasileira de Sinais (LIBRAS)</span></a>--></li>
+              <li>Perspectivas em Educação Popular: Prática de Ensino <span>90h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Perspectivas em Educação Popular: Prática de Ensino</span></a>--></li>
+              <li>Seminário Temático Integrador: Prática de Ensino e Estágio Supervisionado IV <span>120h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Seminário Temático Integrador: Prática de Ensino e Estágio Supervisionado IV</span></a>--></li>
+              <li>Trabalho de Conclusão de Curso II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Trabalho de Conclusão de Curso II</span></a>--></li>
             </ul>
           </li>
-          
+
         </ul>
 
       </div>
@@ -177,8 +177,8 @@
 
         <p><strong>Vice coordenação:</strong> Valquiria Ferreira Dutra</p>
 
-<!--        <p><strong>Colegiado do curso:</strong> 
-          <br>Nome  
+<!--        <p><strong>Colegiado do curso:</strong>
+          <br>Nome
 
         </p>
 
@@ -189,105 +189,105 @@
 
         <h2>Corpo docente</h2>
 
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/2528679879816545" target="_blank">Carlos Augusto Cardoso Passos</a>
-          <span>Doutorado</span>
-        </p>       
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/7717139160457330" target="_blank">Daisa Teixeira</a>
+        <p class='nome'><a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/2528679879816545" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Carlos Augusto Cardoso Passos</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/6388152062755064" target="_blank">Fabiana Pinheiro Ramos</a>
+        <p class='nome'><a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/7717139160457330" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Daisa Teixeira</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/7724436321849622" target="_blank">Fernanda Simone Lopes de Paiva</a>
+        <p class='nome'><a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/6388152062755064" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Fabiana Pinheiro Ramos</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/4288236123208847" target="_blank">Francisco Cândido Cardoso Barreto</a>
+        <p class='nome'><a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/7724436321849622" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Fernanda Simone Lopes de Paiva</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/6088850997286228" target="_blank">Gilfredo Carrasco Maulina</a>
+        <p class='nome'><a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/4288236123208847" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Francisco Cândido Cardoso Barreto</a>
+          <span>Doutorado</span>
+        </p>
+        <p class='nome'><a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/6088850997286228" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Gilfredo Carrasco Maulina</a>
           <span>Doutorado</span>
         </p>
         <p class='nome'>José Eduardo Martins Cassiani
           <span>Mestrado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/1265145498501171" target="_blank">Josimar Ribeiro</a>
+        <p class='nome'><a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/1265145498501171" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Josimar Ribeiro</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/5546014514021118" target="_blank">Juliana Rosa do Pará Marques De Oliveira</a>
+        <p class='nome'><a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/5546014514021118" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Juliana Rosa do Pará Marques De Oliveira</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/4297153426007763" target="_blank">Keila Cardoso Teixeira</a>
+        <p class='nome'><a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/4297153426007763" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Keila Cardoso Teixeira</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/5073990176516263" target="_blank">Luciana Dias Thomaz</a>
+        <p class='nome'><a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/5073990176516263" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Luciana Dias Thomaz</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/0784346689554133" target="_blank">Luciana Matos de Abreu Stanzani</a>
+        <p class='nome'><a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/0784346689554133" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Luciana Matos de Abreu Stanzani</a>
           <span>Mestrado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/0690909917220112" target="_blank">Marcelo Martins Barreira</a>
+        <p class='nome'><a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/0690909917220112" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Marcelo Martins Barreira</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/4091820518209234" target="_blank">Marcio Germello de Almeida</a>
+        <p class='nome'><a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/4091820518209234" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Marcio Germello de Almeida</a>
           <span>Mestrado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/0010148251489155" target="_blank">Maria do Carmo Pimentel Batitucci</a>
+        <p class='nome'><a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/0010148251489155" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Maria do Carmo Pimentel Batitucci</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/9721382552736385" target="_blank">Maria Herminia Baião Passamai</a>
+        <p class='nome'><a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/9721382552736385" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Maria Herminia Baião Passamai</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/0786682219012611" target="_blank">Mari Inêz Tavares</a>
+        <p class='nome'><a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/0786682219012611" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Mari Inêz Tavares</a>
           <span>Mestrado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/7161650456080225" target="_blank">Mirian do Amaral Jonis Silva</a>
+        <p class='nome'><a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/7161650456080225" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Mirian do Amaral Jonis Silva</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/1326024270450510" target="_blank">Robson Loureiro</a>
+        <p class='nome'><a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/1326024270450510" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Robson Loureiro</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/8384285725383323" target="_blank">Rosannee Ramos</a>
+        <p class='nome'><a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/8384285725383323" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Rosannee Ramos</a>
           <span>Especialização</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/3539192483058949" target="_blank">Rosemeire dos Santos Brito</a>
+        <p class='nome'><a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/3539192483058949" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Rosemeire dos Santos Brito</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/0413143493263436" target="_blank">Ruy Rocha Gusman</a>
+        <p class='nome'><a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/0413143493263436" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Ruy Rocha Gusman</a>
           <span>Especialização</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/1956218219090768" target="_blank">Sarah Maria Vargas</a>
+        <p class='nome'><a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/1956218219090768" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Sarah Maria Vargas</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/8193067827325414" target="_blank">Selma Aparecida Hebling</a>
+        <p class='nome'><a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/8193067827325414" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Selma Aparecida Hebling</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/5829639085638451" target="_blank">Soler Gonzalez</a>
+        <p class='nome'><a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/5829639085638451" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Soler Gonzalez</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/7268228122543743" target="_blank">Sonia Alves Gouvêa</a>
+        <p class='nome'><a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/7268228122543743" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Sonia Alves Gouvêa</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/9562316044920852" target="_blank">Taissa Rodrigues Marques da Silva</a>
+        <p class='nome'><a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/9562316044920852" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Taissa Rodrigues Marques da Silva</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/2533393164526798" target="_blank">Tania Mara Guerra</a>
+        <p class='nome'><a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/2533393164526798" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Tania Mara Guerra</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/4392077368620764" target="_blank">Temístocles de Sousa Luz</a>
+        <p class='nome'><a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/4392077368620764" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Temístocles de Sousa Luz</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/0321902761650299" target="_blank">Tercio Girelli Kill</a>
+        <p class='nome'><a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/0321902761650299" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Tercio Girelli Kill</a>
           <span>Doutorado</span>
         </p>
         <p class='nome'>Valquiria Ferreira Dutra
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/9742402285970429" target="_blank">Warley de Souza Borges</a>
+        <p class='nome'><a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/9742402285970429" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Warley de Souza Borges</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/8973606745193293" target="_blank">Yuri Luiz Reis Leite</a>
+        <p class='nome'><a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/8973606745193293" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Yuri Luiz Reis Leite</a>
           <span>Doutorado</span>
-        </p>       
+        </p>
 
       </div>
 
@@ -333,7 +333,7 @@
     </div>
   </section>
 
- 
+
   <section id='noticias'>
     <?php $ultimas_noticias = new WP_Query(array(
         'post_type' => 'noticia',
@@ -348,7 +348,7 @@
     ));
 
     if ($ultimas_noticias->have_posts()) : ?>
-      
+
       <div class='container'>
           <h2>Notícias do curso</h2>
           <div class='flex'>

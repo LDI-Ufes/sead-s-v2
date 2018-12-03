@@ -36,7 +36,7 @@
           <li><a href='#corpo-docente'>Corpo docente</a></li>
           <li><a href='#perfil-do-egresso'>Perfil do egresso</a></li>
           <li><a href='#ofertas-anteriores'>Ofertas anteriores</a></li>
-          <a title="Abrir Guia do Aluno" href='<?php echo get_template_directory_uri(); ?>/arquivos/fisica/guia-do-estudante-Fisica.pdf' target='_blank'><i class='fas fa-external-link-alt'></i>Guia do aluno</a>
+          <a href='<?php echo get_template_directory_uri(); ?>/arquivos/fisica/guia-do-estudante-Fisica.pdf' target='_blank' title='Abrir o Guia do Aluno em nova aba'>Guia do aluno <i class='fas fa-external-link-alt'></i></a>
 
           <span>Contato</span>
           secretariafisicaead@gmail.com<br>
@@ -63,115 +63,115 @@
             <ul style='display: block;'>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Introdução à Probabilidade e Estatística <span>45h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Introdução à Metodologia Científica <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Introdução às Ciências Físicas I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Introdução à Informática Educativa no Ensino de Física <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Pré-Cálculo I <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Fundamentos Estruturais e Pedagógicos da EAD <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Metodologia da Pesquisa em EAD <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Introdução à Probabilidade e Estatística <span>45h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Introdução à Probabilidade e Estatística</span></a>--></li>
+              <li>Introdução à Metodologia Científica <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Introdução à Metodologia Científica</span></a>--></li>
+              <li>Introdução às Ciências Físicas I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Introdução às Ciências Físicas I</span></a>--></li>
+              <li>Introdução à Informática Educativa no Ensino de Física <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Introdução à Informática Educativa no Ensino de Física</span></a>--></li>
+              <li>Pré-Cálculo I <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Pré-Cálculo I</span></a>--></li>
+              <li>Fundamentos Estruturais e Pedagógicos da EAD <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Fundamentos Estruturais e Pedagógicos da EAD</span></a>--></li>
+              <li>Metodologia da Pesquisa em EAD <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Metodologia da Pesquisa em EAD</span></a>--></li>
             </ul>
           </li>
-          
+
           <li class='semestre'>
             <button><h3>2° semestre</h3></button>
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Filosofia da Ciência <span>45h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Introdução às Ciências Físicas II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Seminários Integrados de Pesquisa e Extensão I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Cálculo I <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Geometria Analítica <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Fundamentos Estruturais e Pedagógicos da EAD <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Fundamentos da Educação I - Psicologia da Educação <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Filosofia da Ciência <span>45h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Filosofia da Ciência</span></a>--></li>
+              <li>Introdução às Ciências Físicas II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Introdução às Ciências Físicas II</span></a>--></li>
+              <li>Seminários Integrados de Pesquisa e Extensão I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Seminários Integrados de Pesquisa e Extensão I</span></a>--></li>
+              <li>Cálculo I <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Cálculo I</span></a>--></li>
+              <li>Geometria Analítica <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Geometria Analítica</span></a>--></li>
+              <li>Fundamentos Estruturais e Pedagógicos da EAD <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Fundamentos Estruturais e Pedagógicos da EAD</span></a>--></li>
+              <li>Fundamentos da Educação I - Psicologia da Educação <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Fundamentos da Educação I - Psicologia da Educação</span></a>--></li>
             </ul>
           </li>
-          
+
           <li class='semestre'>
             <button><h3>3° semestre</h3></button>
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Física IA – Mecânica do Ponto Material <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Física IB – Sistemas de Partículas e Corpos Rígidos <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Fundamentos da Língua Brasileira de Sinais <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Cálculo II <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Física IA – Mecânica do Ponto Material <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Física IA – Mecânica do Ponto Material</span></a>--></li>
+              <li>Física IB – Sistemas de Partículas e Corpos Rígidos <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Física IB – Sistemas de Partículas e Corpos Rígidos</span></a>--></li>
+              <li>Fundamentos da Língua Brasileira de Sinais <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Fundamentos da Língua Brasileira de Sinais</span></a>--></li>
+              <li>Cálculo II <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Cálculo II</span></a>--></li>
             </ul>
           </li>
-          
+
           <li class='semestre'>
             <button><h3>4° semestre</h3></button>
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Fundamentos da Educação III - Introdução à Filosofia <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Física IIA – Fluidos e Física Térmica <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Física IIB – Oscilações e Ondas em meios Mecânicos <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Seminários Integrados de Pesquisa e Extensão II <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Cálculo III <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Informação, Ciência e Tecnologia no Ensino de Física <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>         
+              <li>Fundamentos da Educação III - Introdução à Filosofia <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Fundamentos da Educação III - Introdução à Filosofia</span></a>--></li>
+              <li>Física IIA – Fluidos e Física Térmica <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Física IIA – Fluidos e Física Térmica</span></a>--></li>
+              <li>Física IIB – Oscilações e Ondas em meios Mecânicos <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Física IIB – Oscilações e Ondas em meios Mecânicos</span></a>--></li>
+              <li>Seminários Integrados de Pesquisa e Extensão II <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Seminários Integrados de Pesquisa e Extensão II</span></a>--></li>
+              <li>Cálculo III <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Cálculo III</span></a>--></li>
+              <li>Informação, Ciência e Tecnologia no Ensino de Física <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Informação, Ciência e Tecnologia no Ensino de Física</span></a>--></li>
             </ul>
           </li>
-          
+
           <li class='semestre'>
             <button><h3>5° semestre</h3></button>
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Pesquisa e prática pedagógica <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Estágio Supervisionado I <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Física IIIA – Eletricidade <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Física IIIB – Magnetismo e Leis de Maxwell <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Pesquisa e prática pedagógica em laboratório no ensino de Física - I <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Química Geral <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>         
+              <li>Pesquisa e prática pedagógica <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Pesquisa e prática pedagógica</span></a>--></li>
+              <li>Estágio Supervisionado I <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Estágio Supervisionado I</span></a>--></li>
+              <li>Física IIIA – Eletricidade <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Física IIIA – Eletricidade</span></a>--></li>
+              <li>Física IIIB – Magnetismo e Leis de Maxwell <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Física IIIB – Magnetismo e Leis de Maxwell</span></a>--></li>
+              <li>Pesquisa e prática pedagógica em laboratório no ensino de Física - I <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Pesquisa e prática pedagógica em laboratório no ensino de Física - I</span></a>--></li>
+              <li>Química Geral <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Química Geral</span></a>--></li>
             </ul>
           </li>
-          
+
           <li class='semestre'>
             <button><h3>6° semestre</h3></button>
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Estágio Supervisionado II <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Física IVA – Ondas Eletromagnéticas e Óptica <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Física IVB – Introdução à Relatividade e à Mecânica Quântica <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Pesquisa e prática pedagógica em laboratório no ensino de Física -II <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Seminários Integrados de Pesquisa e Extensão III <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Termodinâmica <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>         
-              <li>Cálculo IV <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>         
+              <li>Estágio Supervisionado II <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Estágio Supervisionado II</span></a>--></li>
+              <li>Física IVA – Ondas Eletromagnéticas e Óptica <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Física IVA – Ondas Eletromagnéticas e Óptica</span></a>--></li>
+              <li>Física IVB – Introdução à Relatividade e à Mecânica Quântica <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Física IVB – Introdução à Relatividade e à Mecânica Quântica</span></a>--></li>
+              <li>Pesquisa e prática pedagógica em laboratório no ensino de Física -II <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Pesquisa e prática pedagógica em laboratório no ensino de Física -II</span></a>--></li>
+              <li>Seminários Integrados de Pesquisa e Extensão III <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Seminários Integrados de Pesquisa e Extensão III</span></a>--></li>
+              <li>Termodinâmica <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Termodinâmica</span></a>--></li>
+              <li>Cálculo IV <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Cálculo IV</span></a>--></li>
             </ul>
           </li>
-          
+
           <li class='semestre'>
             <button><h3>7° semestre</h3></button>
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Fundamentos da Educação IV - Política Educacional e Organização da Educação <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Estágio Supervisionado III <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Física Moderna <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>História da Física <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Mecânica Clássica <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Pesquisa e prática pedagógica em laboratório no ensino de Física - III <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>         
-              <li>Teoria Eletromagnética <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>         
+              <li>Fundamentos da Educação IV - Política Educacional e Organização da Educação <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Fundamentos da Educação IV - Política Educacional e Organização da Educação</span></a>--></li>
+              <li>Estágio Supervisionado III <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Estágio Supervisionado III</span></a>--></li>
+              <li>Física Moderna <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Física Moderna</span></a>--></li>
+              <li>História da Física <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina História da Física</span></a>--></li>
+              <li>Mecânica Clássica <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Mecânica Clássica</span></a>--></li>
+              <li>Pesquisa e prática pedagógica em laboratório no ensino de Física - III <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Pesquisa e prática pedagógica em laboratório no ensino de Física - III</span></a>--></li>
+              <li>Teoria Eletromagnética <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Teoria Eletromagnética</span></a>--></li>
             </ul>
           </li>
-          
+
           <li class='semestre'>
             <button><h3>8° semestre</h3></button>
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Fundamentos da Educação V - Sociologia da Educação <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Estágio Supervisionado IV <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Introdução a Astronomia <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Laboratório de Física Moderna <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Pesquisa e prática pedagógica em laboratório no ensino de Física - IV <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Trabalho de Conclusão de Curso<span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>         
+              <li>Fundamentos da Educação V - Sociologia da Educação <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Fundamentos da Educação V - Sociologia da Educação</span></a>--></li>
+              <li>Estágio Supervisionado IV <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Estágio Supervisionado IV</span></a>--></li>
+              <li>Introdução a Astronomia <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Introdução a Astronomia</span></a>--></li>
+              <li>Laboratório de Física Moderna <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Laboratório de Física Moderna</span></a>--></li>
+              <li>Pesquisa e prática pedagógica em laboratório no ensino de Física - IV <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Pesquisa e prática pedagógica em laboratório no ensino de Física - IV</span></a>--></li>
+              <li>Trabalho de Conclusão de Curso<span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Trabalho de Conclusão de Curso</span></a>--></li>
             </ul>
           </li>
-          
+
         </ul>
 
       </div>
@@ -183,8 +183,8 @@
 
         <p><strong>Vice coordenação:</strong> </p>
 
-<!--        <p><strong>Colegiado do curso:</strong> 
-          <br>Nome  
+<!--        <p><strong>Colegiado do curso:</strong>
+          <br>Nome
         </p>
 
         <p><strong>Núcleo Docente Estruturante:</strong>
@@ -193,31 +193,31 @@
 
         <h2>Corpo docente</h2>
 
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/1885284194756497" target="_blank">Alan Miguel Velasquez Toribio</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/1885284194756497" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Alan Miguel Velasquez Toribio</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/0524233651767274" target="_blank">Aldo Vignatti</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/0524233651767274" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Aldo Vignatti</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/2528679879816545" target="_blank">Carlos Augusto Cardoso Passos</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/2528679879816545" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Carlos Augusto Cardoso Passos</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/5465449494182034" target="_blank">Davi Cabral Rodrigues</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/5465449494182034" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Davi Cabral Rodrigues</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/8953964693512884" target="_blank">Denise Da Costa Assafrao De Lima</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/8953964693512884" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Denise Da Costa Assafrao De Lima</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/6143294915531803" target="_blank">Geide Rosa Coelho</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/6143294915531803" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Geide Rosa Coelho</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/3879935393431243" target="_blank">Humberto Belich Junior</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/3879935393431243" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Humberto Belich Junior</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/6774401855734421" target="_blank">José Alexandre Nogueira</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/6774401855734421" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> José Alexandre Nogueira</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/4654545596768741" target="_blank">Marco Antonio Dos Santos</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/4654545596768741" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Marco Antonio Dos Santos</a>
           <span>Doutorado</span>
         </p>
       </div>
@@ -285,7 +285,7 @@
     ));
 
     if ($ultimas_noticias->have_posts()) : ?>
-      
+
     <div class='container'>
         <h2>Notícias do curso</h2>
         <div class='flex'>
@@ -302,6 +302,6 @@
       </div>
     <?php endif; ?>
   </section>
- 
+
 
 </main>

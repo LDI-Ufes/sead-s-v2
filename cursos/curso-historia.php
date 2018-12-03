@@ -1,7 +1,7 @@
 <main class='page curso' id="conteudoPrincipal">
 
   <section class="destaque destaque-imagem" style="background-image: linear-gradient(#043166, rgba(4, 49, 102, 0.3)), url('<?php echo get_template_directory_uri() ?>/img/capas/historia.jpg')"></section>
-  
+
   <div class='container'>
     <section class='breadcrumb'>Você está em: <a href='<?php echo site_url(); ?>/cursos'>Cursos</a><i class='fas fa-greater-than'></i><span>História</span></section>
     <h1>Licenciatura EaD em História</h1>
@@ -24,8 +24,8 @@
         </p>
       </div>
     </section>
-    
-    
+
+
     <section id='conteudo'>
 
       <aside id='menu'>
@@ -62,91 +62,91 @@
             <ul style='display: block;'>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Fundamentos Estruturais e Pedagógicos da EAD <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Metodologia em EAD <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Introdução às Ciências Sociais <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Teoria e Metodologia da História I <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>História Antiga <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Fundamentos Hist. e Fil. da Educação <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Fundamentos Estruturais e Pedagógicos da EAD <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Fundamentos Estruturais e Pedagógicos da EAD</span></a>--></li>
+              <li>Metodologia em EAD <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Metodologia em EAD</span></a>--></li>
+              <li>Introdução às Ciências Sociais <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Introdução às Ciências Sociais</span></a>--></li>
+              <li>Teoria e Metodologia da História I <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Teoria e Metodologia da História I</span></a>--></li>
+              <li>História Antiga <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina História Antiga</span></a>--></li>
+              <li>Fundamentos Hist. e Fil. da Educação <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Fundamentos Hist. e Fil. da Educação</span></a>--></li>
             </ul>
           </li>
-          
+
           <li class='semestre'>
             <button><h3>2° semestre</h3></button>
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Currículo e formação docente <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Política e Organização da Educação Básica <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Teoria e Metodologia da História II <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>História Medieval <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>História do Brasil Colonial <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>História da América Colonial <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Currículo e formação docente <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Currículo e formação docente</span></a>--></li>
+              <li>Política e Organização da Educação Básica <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Política e Organização da Educação Básica</span></a>--></li>
+              <li>Teoria e Metodologia da História II <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Teoria e Metodologia da História II</span></a>--></li>
+              <li>História Medieval <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina História Medieval</span></a>--></li>
+              <li>História do Brasil Colonial <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina História do Brasil Colonial</span></a>--></li>
+              <li>História da América Colonial <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina História da América Colonial</span></a>--></li>
             </ul>
           </li>
-          
+
           <li class='semestre'>
             <button><h3>3° semestre</h3></button>
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>História Moderna <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>História da América Contemporânea <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>História do Brasil Império <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>História do Espírito Santo <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Didática <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Teoria e Metodologia da História III <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>História Moderna <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina História Moderna</span></a>--></li>
+              <li>História da América Contemporânea <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina História da América Contemporânea</span></a>--></li>
+              <li>História do Brasil Império <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina História do Brasil Império</span></a>--></li>
+              <li>História do Espírito Santo <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina História do Espírito Santo</span></a>--></li>
+              <li>Didática <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Didática</span></a>--></li>
+              <li>Teoria e Metodologia da História III <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Teoria e Metodologia da História III</span></a>--></li>
             </ul>
           </li>
-          
+
           <li class='semestre'>
             <button><h3>4° semestre</h3></button>
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>História da História Ensinada <span>150h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>História Contemporânea <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>História do Brasil República <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>História da Ásia <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Tópicos Esp. em História Antiga <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>História da História Ensinada <span>150h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina História da História Ensinada</span></a>--></li>
+              <li>História Contemporânea <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina História Contemporânea</span></a>--></li>
+              <li>História do Brasil República <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina História do Brasil República</span></a>--></li>
+              <li>História da Ásia <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina História da Ásia</span></a>--></li>
+              <li>Tópicos Esp. em História Antiga <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Tópicos Esp. em História Antiga</span></a>--></li>
             </ul>
           </li>
-          
+
           <li class='semestre'>
             <button><h3>5° semestre</h3></button>
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Estágio Supervisionado em História I <span>150h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Teoria e Prática do Ensino da História <span>150h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>História e Cultura Afro-Brasileira e Indígena <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Tópicos Esp. em História Medieval <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Estágio Supervisionado em História I <span>150h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Estágio Supervisionado em História I</span></a>--></li>
+              <li>Teoria e Prática do Ensino da História <span>150h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Teoria e Prática do Ensino da História</span></a>--></li>
+              <li>História e Cultura Afro-Brasileira e Indígena <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina História e Cultura Afro-Brasileira e Indígena</span></a>--></li>
+              <li>Tópicos Esp. em História Medieval <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Tópicos Esp. em História Medieval</span></a>--></li>
             </ul>
           </li>
-          
+
           <li class='semestre'>
             <button><h3>6° semestre</h3></button>
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Tópicos Esp. em História da América <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Educação e inclusão <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Estágio Supervisionado em História II <span>150h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Monografia I <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Tópicos Especiais em História Moderna <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Tópicos Esp. em História da América <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Tópicos Esp. em História da América</span></a>--></li>
+              <li>Educação e inclusão <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Educação e inclusão</span></a>--></li>
+              <li>Estágio Supervisionado em História II <span>150h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Estágio Supervisionado em História II</span></a>--></li>
+              <li>Monografia I <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Monografia I</span></a>--></li>
+              <li>Tópicos Especiais em História Moderna <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Tópicos Especiais em História Moderna</span></a>--></li>
             </ul>
           </li>
-          
+
           <li class='semestre'>
             <button><h3>7° semestre</h3></button>
             <ul>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Estágio Supervisionado em História III <span>105h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Fundamentos da Língua Bras. de Sinais (LIBRAS) <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Monografia II <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Tópicos Especiais em História Contemporânea <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
-              <li>Tópicos Esp. em História do Brasil <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir documento" target="_blank"><i class="far fa-file-pdf"></i></a>--></li>
+              <li>Estágio Supervisionado em História III <span>105h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Estágio Supervisionado em História III</span></a>--></li>
+              <li>Fundamentos da Língua Bras. de Sinais (LIBRAS) <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Fundamentos da Língua Bras. de Sinais (LIBRAS)</span></a>--></li>
+              <li>Monografia II <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Monografia II</span></a>--></li>
+              <li>Tópicos Especiais em História Contemporânea <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Tópicos Especiais em História Contemporânea</span></a>--></li>
+              <li>Tópicos Esp. em História do Brasil <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Tópicos Esp. em História do Brasil</span></a>--></li>
             </ul>
           </li>
         </ul>
@@ -157,11 +157,11 @@
         <h2 id='corpo-docente'>Administração acadêmica</h2>
         <p><strong>Coordenação:</strong> Geraldo Antônio Soares</p>
         <p>Possui graduação em Economia pela Universidade Federal de Viçosa (1982), mestrado em Economia pela Universidade Federal de Minas Gerais (1990) e doutorado em História e Civilizações - Ecole des Hautes Etudes en Sciences Sociales (1997). Atualmente é professor associado - Depto. de História da Universidade Federal do Espírito Santo. Tem experiência na área de História, com ênfase em História Moderna e Contemporânea e História do Brasil Império, atuando principalmente nos seguintes temas: história, cultura, cotidiano, vida privada, escravidão.</p>
-        
+
         <p><strong>Vice coordenação:</strong></p>
 <!--
-        <p><strong>Colegiado do curso:</strong> 
-          <br>Nome  
+        <p><strong>Colegiado do curso:</strong>
+          <br>Nome
 
         </p>
 
@@ -172,109 +172,109 @@
 
         <h2>Corpo docente</h2>
 
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/1013756650302841" target="_blank">Adriana Pereira Campos</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/1013756650302841" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Adriana Pereira Campos</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/7985936674676993" target="_blank">Alexsandro Rodrigues</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/7985936674676993" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Alexsandro Rodrigues</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/2814186365798017" target="_blank">André Ricardo Valle Vasco Pereira</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/2814186365798017" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> André Ricardo Valle Vasco Pereira</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/3568062062898469" target="_blank">Andressa Mafezoni Caetano</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/3568062062898469" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Andressa Mafezoni Caetano</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/2222929508102037" target="_blank">Antonio Carlos Amador Gil</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/2222929508102037" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Antonio Carlos Amador Gil</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/7517469160509619" target="_blank">Carlos Vinícius Costa de Mendonça</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/7517469160509619" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Carlos Vinícius Costa de Mendonça</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/7566489472975915" target="_blank">Claudia Pereira do Carmo Murta</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/7566489472975915" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Claudia Pereira do Carmo Murta</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/7717139160457330" target="_blank">Daisa Teixeira</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/7717139160457330" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Daisa Teixeira</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/1092652029646547" target="_blank">Ednalva Gutierrez Rodrigues</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/1092652029646547" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Ednalva Gutierrez Rodrigues</a>
           <span>Mestrado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/0593971079410326" target="_blank">Edson Maciel Júnior</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/0593971079410326" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Edson Maciel Júnior</a>
           <span>Mestrado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/8701901155542675" target="_blank">Emiliano Unzer Macedo</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/8701901155542675" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Emiliano Unzer Macedo</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/3902843175540175" target="_blank">Érica Cristhyane Morais da Silva</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/3902843175540175" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Érica Cristhyane Morais da Silva</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/0493463772500066" target="_blank">Fábio Muruci Dos Santos</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/0493463772500066" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Fábio Muruci Dos Santos</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/3273494708353783" target="_blank">Geraldo Antônio Soares</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/3273494708353783" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Geraldo Antônio Soares</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/0104906936908227" target="_blank">Gilvan Ventura da Silva</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/0104906936908227" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Gilvan Ventura da Silva</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/8940226139303378" target="_blank">Hiran Pinel</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/8940226139303378" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Hiran Pinel</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/5567740761514006" target="_blank">Jefferson Bruno Moreira Santana</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/5567740761514006" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Jefferson Bruno Moreira Santana</a>
           <span>Mestrado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/0226660237269654" target="_blank">Josemar Machado de Oliveira</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/0226660237269654" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Josemar Machado de Oliveira</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/3044243677860576" target="_blank">Juçara Luzia Leite</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/3044243677860576" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Juçara Luzia Leite</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/4740582014272318" target="_blank">Julio César Bentivoglio</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/4740582014272318" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Julio César Bentivoglio</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/8272747346381325" target="_blank">Leonor Franco de Araujo</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/8272747346381325" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Leonor Franco de Araujo</a>
           <span>Mestrado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/0121217094224348" target="_blank">Luiz Cláudio Moisés Ribeiro</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/0121217094224348" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Luiz Cláudio Moisés Ribeiro</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/5996402448515437" target="_blank">Luiz Noboru Muramatsu</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/5996402448515437" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Luiz Noboru Muramatsu</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/1531744628299485" target="_blank">Márcia Barros Ferreira Rodrigues</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/1531744628299485" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Márcia Barros Ferreira Rodrigues</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/0211151293910157" target="_blank">Maria Beatriz Nader</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/0211151293910157" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Maria Beatriz Nader</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/1125510334100789" target="_blank">Patricia Maria da Silva Merlo</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/1125510334100789" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Patricia Maria da Silva Merlo</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/8290558218053006" target="_blank">Reginaldo Celio Sobrinho</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/8290558218053006" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Reginaldo Celio Sobrinho</a>
           <span>Doutorado</span>
         </p>
         <p class='nome'>Rossana Gomes Britto
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/0611688078195189" target="_blank">Sandra Kretli da Silva</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/0611688078195189" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Sandra Kretli da Silva</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/9873497099288005" target="_blank">Sandro José da Silva</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/9873497099288005" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Sandro José da Silva</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/9537169486446367" target="_blank">Sebastião Pimentel Franco</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/9537169486446367" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Sebastião Pimentel Franco</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/3790540725589420" target="_blank">Sérgio Alberto Feldman</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/3790540725589420" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Sérgio Alberto Feldman</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/3617153004416898" target="_blank">Valter Pires Pereira</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/3617153004416898" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Valter Pires Pereira</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title="Abrir na plataforma Lattes" href="http://lattes.cnpq.br/0704616564315802" target="_blank">Vitor Gomes</a>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/0704616564315802" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Vitor Gomes</a>
           <span>Doutorado</span>
         </p>
-   
+
       </div>
 
       <div>
@@ -352,7 +352,7 @@
     ));
 
     if ($ultimas_noticias->have_posts()) : ?>
-      
+
       <div class='container'>
         <h2>Notícias do curso</h2>
         <div class='flex'>

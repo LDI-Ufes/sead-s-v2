@@ -53,8 +53,8 @@
           <li><a href='#corpo-docente'>Corpo docente</a></li>
           <li><a href='#perfil-do-egresso'>Perfil do egresso</a></li>
           <li><a href='#ofertas-anteriores'>Ofertas anteriores</a></li>
-          <!--<a href='<?php echo get_template_directory_uri(); ?>/arquivos/' target='_blank'><i class='fas fa-external-link-alt'></i>PPC</a>-->
-          <a href='<?php echo get_template_directory_uri(); ?>/arquivos/' target='_blank' title="Abrir o Guia do Aluno em nova aba"><i class='fas fa-external-link-alt'></i>Guia do aluno</a>
+          <!--<a href='<?php echo get_template_directory_uri(); ?>/arquivos/' target='_blank' title='Abrir PPC em nova aba'>PPC <i class='fas fa-external-link-alt'></i></a>-->
+          <a href='<?php echo get_template_directory_uri(); ?>/arquivos/' target='_blank' title='Abrir o Guia do Aluno em nova aba'>Guia do aluno <i class='fas fa-external-link-alt'></i></a>
 
           <span>Contato</span>
           artesvisuais.ead@gmail.com<br>
@@ -81,7 +81,7 @@
             <ul style='display: block;'>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>Nome da disciplina <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title="Abrir o documento em nova aba" target="_blank"><i class="far fa-file-pdf"></i></a></li>
+              <li>Nome da disciplina <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina (Nome da disciplina)</span></a></li>
 
             </ul>
           </li>
@@ -109,8 +109,9 @@
 
         <h2>Corpo docente</h2>
 
-        <p class='nome'><a title="Abrir na plataforma Lattes em nova aba" href="" target="_blank">Nome</a>
-          <span>Doutorado</span>
+        <p class='nome'>
+          <a title='Abrir perfil na plataforma Lattes em nova aba' href='' target='_blank'><span class='somente-leitura'>Perfil na plataforma Lattes de</span> (Nome do professor)</a>
+          <span>(Titulação do professor)</span>
         </p>
 
 
@@ -132,7 +133,7 @@
         <h3>2014/2 - 2019/1</h3>
         <p><strong>Coordenador do Curso:</strong> Nome</p>
         <p><strong>Polos atendidos:</strong> Afonso Claudio, Aracruz, Cachoeiro de Itapemirim, Colatina, Domingos Martins, Itapemirim, Iúna, Linhares, Pinheiros, Piúma, Santa Teresa e Vargem Alta.</p>
-        <p><strong>Seleção: </strong><a href="http://www.sead.ufes.br/conteudo/processo-seletivo-para-ingresso-em-cursos-de-graduação-na-modalidade-distância-0" target="_blank" title="Abrir o processo seletivo em nova aba">Ver processo seletivo</a> (encerrado)</p>
+        <p><strong>Seleção: </strong><a href="http://www.sead.ufes.br/conteudo/processo-seletivo-para-ingresso-em-cursos-de-graduação-na-modalidade-distância-0" target="_blank" title="Abrir processo seletivo em nova aba">Ver processo seletivo</a> (encerrado)</p>
       </div>
 
     </section>

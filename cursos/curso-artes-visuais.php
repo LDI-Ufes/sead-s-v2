@@ -34,7 +34,6 @@
           <li><a href='#corpo-docente'>Corpo docente</a></li>
           <li><a href='#perfil-do-egresso'>Perfil do egresso</a></li>
           <li><a href='#ofertas-anteriores'>Ofertas anteriores</a></li>
-          <!--<a href='<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Artes-Visuais_PPC.pdf' target='_blank' title='Abrir PPC em nova aba'>PPC <i class='fas fa-external-link-alt'></i></a>-->
           <a href='<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Artes-Visuais_Guia-do-aluno.pdf' target='_blank' title='Abrir o Guia do Aluno em nova aba'>Guia do aluno <i class='fas fa-external-link-alt'></i></a>
 
           <span>Contato</span>
@@ -62,7 +61,7 @@
             <ul style='display: block;'>
               <div>Disciplina <span>Programa</span></div>
 
-              <li>As novas tecnologias e a formação do professor na modalidade semipresencial <span>60h</span> <a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/As-novas-tecnologias-e-a-formacao-do-professor-na-modalidade-semipresencial.pdf" target="_blank" title="Abrir documento em nova aba"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina As novas tecnologias e a formação do professor na modalidade semipresencial</span></a></li>
+              <li>As novas tecnologias e a formação do professor na modalidade semipresencial <span>60h</span> <a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/As-novas-tecnologias-e-a-formacao-do-professor-na-modalidade-semipresencial.pdf" target="_blank" title='Abrir documento em nova aba'><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina As novas tecnologias e a formação do professor na modalidade semipresencial</span></a></li>
               <li>Cor e Laboratório de Tintas e Materiais <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Cor-e-Laboratorio-de-Tintas-e-Materiais.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Cor e Laboratório de Tintas e Materiais</span></a></li>
               <li>Linguagem Gráfica <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Linguagem-Grafica.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Linguagem Gráfica</span></a></li>
               <li>Oficina de Arte e Educação I <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Oficina-de-Arte-e-Educacao-I.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Oficina de Arte e Educação I</span></a></li>
