@@ -1,6 +1,6 @@
 <?php get_header('blog'); ?>
 
-<?php while ( have_posts() ) : the_post(); ?>
+<?php while (have_posts()) : the_post(); ?>
 
   <main id="conteudoPrincipal" class="noticia page">
     <div class="destaque destaque-imagem" style="background-image: linear-gradient(#043166, rgba(4, 49, 102, 0.3)), url('<?php echo get_the_post_thumbnail_url(); ?>')"></div>
@@ -26,9 +26,9 @@
 
       <div class="links-compartilhamento">
         <span>Gostou do que leu?</span> Compartilhe essa notícia:
-        <a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo get_permalink(); ?>" target="_blank" title="Compartilhar no Facebook"><i class="fab fa-facebook"></i></a>
-        <a href="http://twitter.com/share?text=Ead na Ufes:&url=<?php echo get_permalink(); ?>" target="_blank" title="Compartilhar no Twitter"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.linkedin.com/shareArticle?mini=true&url=<?php echo get_permalink(); ?>" target="_blank" title="Compartilhar no LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo get_permalink(); ?>" target="_blank" title="Compartilhar notícia no Facebook"><i class="fab fa-facebook"></i> <span class="somente-leitura">Compartilhar notícia no Facebook</span></a>
+        <a href="http://twitter.com/share?text=Ead na Ufes:&url=<?php echo get_permalink(); ?>" target="_blank" title="Compartilhar notícia no Twitter"><i class="fab fa-twitter"></i> <span class="somente-leitura">Compartilhar notícia no Twitter</span></a>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=<?php echo get_permalink(); ?>" target="_blank" title="Compartilhar notícia no LinkedIn"><i class="fab fa-linkedin"></i> <span class="somente-leitura">Compartilhar notícia no LinkedIn</span></a>
       </div>
 
     </article>
