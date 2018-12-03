@@ -20,10 +20,10 @@
               'taxonomy' => 'ano',
               'oderby' => 'name',
               'order' => 'DESC'
-                  ));
+          ));
 
           foreach ($anos as $ano) {
-              echo '<li>'
+            echo '<li>'
             . '<input class="filtro" type="checkbox" id="filter-' . $ano->name . '" data-type="ano" data-id="' . $ano->name . '" /><label for="filter-' . $ano->name . '">' . $ano->name . '</label></li>';
           }
           ?>
@@ -38,10 +38,10 @@
               'taxonomy' => 'atribuicao',
               'oderby' => 'name',
               'order' => 'ASC'
-                  ));
+          ));
 
           foreach ($atribuicoes as $atribuicao) {
-              echo '<li>'
+            echo '<li>'
             . '<input class="filtro" type="checkbox" id="filter-' . $atribuicao->name . '" data-type="atribuicao" data-id="' . $atribuicao->name . '" /><label for="filter-' . $atribuicao->name . '">' . $atribuicao->name . '</label></li>';
           }
           ?>
@@ -56,10 +56,10 @@
               'taxonomy' => 'tipo-de-curso',
               'oderby' => 'name',
               'order' => 'ASC'
-                  ));
+          ));
 
           foreach ($tipos as $tipo) {
-              echo '<li>'
+            echo '<li>'
             . '<input class="filtro" type="checkbox" id="filter-' . $tipo->name . '" data-type="formacao" data-id="' . $tipo->name . '" /><label for="filter-' . $tipo->name . '">' . $tipo->name . '</label></li>';
           }
           ?>
@@ -74,10 +74,10 @@
               'taxonomy' => 'curso',
               'oderby' => 'name',
               'order' => 'ASC'
-                  ));
+          ));
 
           foreach ($cursos as $curso) {
-              echo '<li>'
+            echo '<li>'
             . '<input class="filtro" type="checkbox" id="filter-' . $curso->name . '" data-type="curso" data-id="' . $curso->name . '" /><label for="filter-' . $curso->name . '">' . $curso->name . '</label></li>';
           }
           ?>
@@ -119,7 +119,7 @@
     <?php wp_reset_postdata(); ?>
   <?php else : ?>
     <p><?php esc_html_e('Não há editais cadastrados.'); ?></p>
-<?php endif; ?>
+  <?php endif; ?>
 </main>
 
 <?php get_footer(); ?>
@@ -132,7 +132,7 @@
   });
 
   // If click outside dropdown-menu opened
-  $(document).click(function() {
+  $(document).click(function () {
     if (!$(event.target).closest('.exibe-filtros').length) {
       $('.seletor').removeClass('expandido').find('ul').slideUp(300);
     }
@@ -150,33 +150,32 @@
 
   // Filtro
 
-  $(".filtro").on("click", () => atualizaSelecao());
+  $(".filtro").on("click", function () {
+    atualizaSelecao();
+  });
 
   $("#limpaFiltros").on("click", function () {
-    let $stats = $(".filtro:checked");
+    let stats = $(".filtro:checked");
 
-    for (item of $stats)
-      item.checked = false;
-    $("#editais li").show();
-
+    for (i = 0; i < stats.length; i++) {
+      stats[i].checked = false;
+      $("#editais li").show();
+    }
+    
     $("#aplicados > .excluir-filtro").remove();
     atualizaSelecao();
   });
 
 
-  const criaTag = (seletor, texto) => {
-    $("#aplicados").append(
-            $(`<div class="seletores excluir-filtro" data-seletor="${seletor}">
-        <a class="removeTag" href="#">${texto}<i class="fas fa-times"></i></a>
-      </div>`)
-            );
+  function criaTag(seletor, texto) {
+    $("#aplicados").append('<div class="seletores excluir-filtro" data-seletor="' + seletor + '"><a class="removeTag" href="#">' + texto + '<i class="fas fa-times"></i></a></div>');
 
     $(".removeTag").on("click", function () {
-      let $stats = $(".filtro:checked");
+      let stats = $(".filtro:checked");
 
-      for (item of $stats) {
-        if ($(item).data("id") === $(this.parentElement).data("seletor")) {
-          item.checked = false;
+      for (i = 0; i < stats.length; i++) {
+        if ($(stats[i]).data("id") === $(this.parentElement).data("seletor")) {
+          stats[i].checked = false;
           break;
         }
       }
@@ -184,21 +183,22 @@
       $(this.parentElement).remove();
       atualizaSelecao();
     });
-  };
+  }
+  ;
 
-  const zeraTags = () => {
+  function zeraTags() {
     $("#aplicados > div").remove();
-  };
+  }
+  ;
 
-
-  const atualizaSelecao = () => {
+  function atualizaSelecao() {
     let $stats = $(".filtro:checked");
     let $items = $("#editais li");
 
     zeraTags();
     $items.show();
 
-    if ($stats.length == 0)
+    if ($stats.length === 0)
       return;
 
     var $vstats = $.map($stats, function (o) {
@@ -215,6 +215,7 @@
 
       criaTag($(this).data("id"), this.parentElement.textContent);
     });
-  };
+  }
+  ;
 
 </script>
