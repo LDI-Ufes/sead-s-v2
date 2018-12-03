@@ -9,16 +9,16 @@
 
     <?php
     $terms = get_terms(array(
-        'taxonomy' => 'ano',
+        'taxonomy' => 'ano-evento',
         'oderby' => 'name',
         'order' => 'DESC'
             ));
 
-    $ano = isset($_GET['ano']) ? filter_var($_GET['ano'], FILTER_SANITIZE_URL) : '2018';
+    $ano = isset($_GET['ano-evento']) ? filter_var($_GET['ano-evento'], FILTER_SANITIZE_URL) : '2018';
 
     foreach ($terms as $term) {
         $ativo = ($ano == $term->name) ? ' class="active" ' : '';
-        echo '<a id="' . $term->name . '" href="/sitiosead/galeria/?ano=' . $term->name . '" ' . $ativo . ' >' . $term->name . '</a>';
+        echo '<a id="' . $term->name . '" href="/sitiosead/galeria/?ano-evento=' . $term->name . '" ' . $ativo . ' >' . $term->name . '</a>';
     }
     ?>
   </section>
@@ -29,7 +29,7 @@
       'post_type' => 'galeria',
       'tax_query' => array(
         array(
-          'taxonomy' => 'ano',
+          'taxonomy' => 'ano-evento',
           'field' => 'slug',
           'terms' => $ano
         )
