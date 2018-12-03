@@ -235,11 +235,12 @@ header {
       svg#nossoBlog,
       svg.seadUfes {
         margin: 10px 20px;
-        height: 50px;
+        height: 50px; 
       }
 
       svg#nossoBlog {
         order: 1;
+        width: 90px;
       }
 
       #enderecoPortal {
@@ -293,7 +294,7 @@ header {
         }
 
         svg.seadUfesExtenso {
-          width: auto;
+          width: 100px;
           height: 30px;
           padding: 10px 0;
         }
