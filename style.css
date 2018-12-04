@@ -1658,16 +1658,16 @@ footer {
           text-underline-position: under; }
           .page-cursos #abas div ul li:hover h3 span {
             text-decoration: none; }
-      .page-cursos #abas div ul li.inativo {
+      .page-cursos #abas div ul li.sem-pagina {
         background-image: linear-gradient(transparent, #333333);
         cursor: default; }
-        .page-cursos #abas div ul li.inativo span.aviso {
+        .page-cursos #abas div ul li.sem-pagina span.aviso {
           display: none; }
-        .page-cursos #abas div ul li.inativo:hover {
+        .page-cursos #abas div ul li.sem-pagina:hover {
           background-image: linear-gradient(transparent, black); }
-          .page-cursos #abas div ul li.inativo:hover h3 {
+          .page-cursos #abas div ul li.sem-pagina:hover h3 {
             text-decoration: none; }
-          .page-cursos #abas div ul li.inativo:hover span.aviso {
+          .page-cursos #abas div ul li.sem-pagina:hover span.aviso {
             display: block;
             border-radius: 5px;
             position: absolute;
@@ -1677,7 +1677,7 @@ footer {
             border: #1765ab solid 1px;
             padding: 3px 10px;
             z-index: 1; }
-            .page-cursos #abas div ul li.inativo:hover span.aviso:before {
+            .page-cursos #abas div ul li.sem-pagina:hover span.aviso:before {
               content: "";
               width: 0px;
               height: 0px;
@@ -1687,7 +1687,7 @@ footer {
               position: absolute;
               bottom: -0.66rem;
               left: 1.96rem; }
-            .page-cursos #abas div ul li.inativo:hover span.aviso:after {
+            .page-cursos #abas div ul li.sem-pagina:hover span.aviso:after {
               content: "";
               width: 0px;
               height: 0px;
@@ -1720,12 +1720,12 @@ footer {
       top: 1rem; }
     .page-cursos #abas div#aperfeicoamento ul li:hover, .page-cursos #abas div#especializacao ul li:hover {
       background-image: linear-gradient(transparent, #114a7e); }
-    .page-cursos #abas div#aperfeicoamento ul li.inativo, .page-cursos #abas div#especializacao ul li.inativo {
+    .page-cursos #abas div#aperfeicoamento ul li.sem-pagina, .page-cursos #abas div#especializacao ul li.sem-pagina {
       background-color: gray;
       background-image: linear-gradient(#333333, transparent); }
-      .page-cursos #abas div#aperfeicoamento ul li.inativo:hover, .page-cursos #abas div#especializacao ul li.inativo:hover {
+      .page-cursos #abas div#aperfeicoamento ul li.sem-pagina:hover, .page-cursos #abas div#especializacao ul li.sem-pagina:hover {
         background-image: linear-gradient(black, transparent); }
-        .page-cursos #abas div#aperfeicoamento ul li.inativo:hover span.aviso, .page-cursos #abas div#especializacao ul li.inativo:hover span.aviso {
+        .page-cursos #abas div#aperfeicoamento ul li.sem-pagina:hover span.aviso, .page-cursos #abas div#especializacao ul li.sem-pagina:hover span.aviso {
           top: -1.85rem; }
     .page-cursos #abas div#aperfeicoamento ul li.placeholder, .page-cursos #abas div#especializacao ul li.placeholder {
       background: none;

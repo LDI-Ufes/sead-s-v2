@@ -32,10 +32,10 @@
         <button id='dropdown-menu'>Menu<i class='fas fa-angle-down'></i></button>
 
         <ul>
-          <li><a href='#curriculo'>Currículo</a></li>
-          <li><a href='#corpo-docente'>Corpo docente</a></li>
-          <li><a href='#perfil-do-egresso'>Perfil do egresso</a></li>
-          <li><a href='#ofertas-anteriores'>Ofertas anteriores</a></li>
+          <li><a title="Mostrar currículo" href='#curriculo'>Currículo</a></li>
+          <li><a title="Mostrar corpo docente" href='#corpo-docente'>Corpo docente</a></li>
+          <li><a title="Mostrar perfil do egresso" href='#perfil-do-egresso'>Perfil do egresso</a></li>
+          <li><a title="Mostrar ofertas anteriores" href='#ofertas-anteriores'>Ofertas anteriores</a></li>
 
           <span>Contato</span>
           historia.ead.ufes@gmail.com<br>

@@ -54,7 +54,7 @@
           <li><a href='#perfil-do-egresso'>Perfil do egresso</a></li>
           <li><a href='#ofertas-anteriores'>Ofertas anteriores</a></li>
           <!--<a href='<?php echo get_template_directory_uri(); ?>/arquivos/' target='_blank' title='Abrir PPC em nova aba'>PPC <i class='fas fa-external-link-alt'></i></a>-->
-          <a href='<?php echo get_template_directory_uri(); ?>/arquivos/' target='_blank' title='Abrir o Guia do Aluno em nova aba'>Guia do aluno <i class='fas fa-external-link-alt'></i></a>
+          <a href='<?php echo get_template_directory_uri(); ?>/arquivos/' target='_blank' title='Abrir o Guia do Aluno em nova aba'>Guia do aluno <i class="fas fa-file-pdf"></i></a>
 
           <span>Contato</span>
           artesvisuais.ead@gmail.com<br>

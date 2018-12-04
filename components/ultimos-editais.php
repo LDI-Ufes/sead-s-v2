@@ -6,7 +6,7 @@
             
             if ( $ultimos_editais->have_posts() ) : while ( $ultimos_editais->have_posts() ) : $ultimos_editais->the_post(); ?>
                 <li>
-                    <h3><a href="<?php the_permalink() ?>" title="Abrir edital <?php the_title(); ?>">Edital <?php the_title(); ?></a></h3>
+                    <h3><a href="<?php the_permalink() ?>" title="Ir para o edital <?php the_title(); ?>">Edital <?php the_title(); ?></a></h3>
                     <p class="atribuicao"><?php echo strip_tags(get_the_term_list( $post->ID, 'atribuicao' )); ?></p>
                     <p><?php echo strip_tags(get_the_term_list( $post->ID, 'tipo-de-curso' )); ?> - <?php echo strip_tags(get_the_term_list( $post->ID, 'curso' )); ?></p>
                 </li>

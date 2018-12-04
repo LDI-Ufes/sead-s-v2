@@ -32,11 +32,11 @@
         <button id='dropdown-menu'>Menu<i class='fas fa-angle-down'></i></button>
 
         <ul>
-          <li><a href='#curriculo'>Currículo</a></li>
-          <li><a href='#corpo-docente'>Corpo docente</a></li>
-          <li><a href='#perfil-do-egresso'>Perfil do egresso</a></li>
-          <li><a href='#ofertas-anteriores'>Ofertas anteriores</a></li>
-          <a href='<?php echo get_template_directory_uri(); ?>/arquivos/quimica/Guia-do-estudante-Quimica.pdf' target='_blank' title='Abrir o Guia do Aluno em nova aba'>Guia do aluno <i class='fas fa-external-link-alt'></i></a>
+          <li><a title="Mostrar currículo" href='#curriculo'>Currículo</a></li>
+          <li><a title="Mostrar corpo docente" href='#corpo-docente'>Corpo docente</a></li>
+          <li><a title="Mostrar perfil do egresso" href='#perfil-do-egresso'>Perfil do egresso</a></li>
+          <li><a title="Mostrar ofertas anteriores" href='#ofertas-anteriores'>Ofertas anteriores</a></li>
+          <a href='<?php echo get_template_directory_uri(); ?>/arquivos/quimica/Guia-do-estudante-Quimica.pdf' target='_blank' title='Abrir o Guia do Aluno em nova aba'>Guia do aluno <i class="fas fa-file-pdf"></i></a>
 
           <span>Contato</span>
           quimica1.ead@gmail.com<br>

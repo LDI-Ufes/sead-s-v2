@@ -33,7 +33,7 @@
         <?php if ( dynamic_sidebar('cadastro_informativo') ) : else : endif; ?>
       </section>
 
-      <a class="social-media" href="https://www.facebook.com/sead.ufes/" title="Ir para página da Sead no Facebook"><span>Siga-nos também no facebook</span><i class="fab fa-facebook-f"></i></a>
+      <a class="social-media" href="https://www.facebook.com/sead.ufes/" title="Abrir a página da Sead no Facebook em nova aba"><span>Siga-nos também no facebook</span><i class="fab fa-facebook-f"></i></a>
     </aside>
   </div>
 
@@ -56,7 +56,7 @@
                 <?php endwhile; ?>
         <?php endif; ?>
       </ul>
-      <a role="button" href="/sitiosead/galeria" title="Ir para Galeria de Fotos">Confira os eventos antigos</a>
+      <a role="button" href="/sitiosead/galeria" title="Ir para a Galeria de Fotos">Confira os eventos antigos</a>
     </div>
   </section>
 </main>

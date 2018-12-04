@@ -174,7 +174,7 @@
             }
           }
 
-          &.inativo {
+          &.sem-pagina {
             background-image: linear-gradient(transparent, lighten(black, 20));
             cursor: default;
 
@@ -268,7 +268,7 @@
               );
             }
 
-            &.inativo {
+            &.sem-pagina {
               background-color: gray;
               background-image: linear-gradient(
                 lighten(black, 20),
