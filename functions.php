@@ -224,3 +224,49 @@ function widgets_novos_widgets_init() {
 	) );
 }
 add_action( 'widgets_init', 'widgets_novos_widgets_init' );
+
+
+// Ocultar campos desnecessários no cadastro de usuários
+
+function remove_personal_options(){
+    echo '<script type="text/javascript">jQuery(document).ready(function($) {
+  
+$(\'form#your-profile > h2:first\').hide(); // remove the "Personal Options" title
+  
+$(\'form#your-profile tr.user-rich-editing-wrap\').hide(); // remove the "Visual Editor" field
+  
+$(\'form#your-profile tr.user-admin-color-wrap\').hide(); // remove the "Admin Color Scheme" field
+  
+$(\'form#your-profile tr.user-comment-shortcuts-wrap\').hide(); // remove the "Keyboard Shortcuts" field
+  
+$(\'form#your-profile tr.user-admin-bar-front-wrap\').hide(); // remove the "Toolbar" field
+  
+$(\'form#your-profile tr.user-language-wrap\').hide(); // remove the "Language" field
+   
+$(\'table.form-table tr.user-display-name-wrap\').hide(); // remove the “Display name publicly as” field
+  
+$(\'table.form-table tr.user-url-wrap\').hide();// remove the "Website" field in the "Contact Info" section
+
+$(\'form#your-profile tr.user-profile-picture\').hide(); // remove the "Profile Picture" field
+
+$(\'table.form-table tr.user-url-wrap\').hide();// remove the "Site" field in the "Contact Info" section
+
+$(\'table.form-table tr.user-googleplus-wrap\').hide();// remove the "Google+" field in the "Contact Info" section
+
+$(\'table.form-table tr.user-facebook-wrap\').hide();// remove the "Facebook" field in the "Contact Info" section
+
+$(\'table.form-table tr.user-twitter-wrap\').hide();// remove the "Twiiter" field in the "Contact Info" section
+    
+$(\'table.form-table tr.user-aim-wrap\').hide();// remove the "AIM" field in the "Contact Info" section
+ 
+$(\'table.form-table tr.user-yim-wrap\').hide();// remove the "Yahoo IM" field in the "Contact Info" section
+ 
+$(\'table.form-table tr.user-jabber-wrap\').hide();// remove the "Jabber / Google Talk" field in the "Contact Info" section
+
+$(\'div.yoast-settings\').hide();// remove the "Jabber / Google Talk" field in the "Contact Info" section
+ 
+});</script>';
+  
+}
+  
+add_action('admin_head','remove_personal_options');
