@@ -10,6 +10,9 @@
   }(document, 'script', 'facebook-jssdk'));</script>
 
 <footer>
+  
+  <a title="Voltar ao topo" id="voltar-ao-topo" aria-hidden="true"><i class="fas fa-arrow-up"></i></a> 
+  
   <div class="content">
     <section>
       <h4>Mapa do sítio</h4>
@@ -77,6 +80,19 @@
 
 <?php wp_footer(); ?>
 <script src="<?php echo get_template_directory_uri(); ?>/js/globais.js"></script>
+
+<script>
+  // scroll top
+
+  $('#voltar-ao-topo').click(function () {
+    $('html, body').animate({scrollTop: 0}, 800);
+  });
+
+  $(window).scroll(function () {
+    $(window).scrollTop() > 20 ? $('#voltar-ao-topo').fadeIn(300) : $('#voltar-ao-topo').fadeOut(300);
+  });
+
+</script>
 
 </body>
 </html>

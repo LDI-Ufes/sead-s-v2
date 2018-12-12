@@ -455,6 +455,17 @@ footer {
   color: white;
   font-weight: 300;
   line-height: 1.7; }
+  footer #voltar-ao-topo {
+    display: none;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    padding: .3rem 0.8rem;
+    z-index: 1;
+    background-color: black;
+    opacity: .5;
+    color: white;
+    cursor: pointer; }
   footer .content {
     padding: 2rem 1rem; }
     footer .content section {
@@ -514,6 +525,9 @@ footer {
         footer .creditos p span a:hover {
           text-decoration: underline; }
   @media screen and (min-width: 992px) {
+    footer #voltar-ao-topo {
+      bottom: 1.5rem;
+      right: 1.5rem; }
     footer .content {
       max-width: 960px;
       margin: 0 auto;
