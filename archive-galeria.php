@@ -78,12 +78,17 @@
 
   for (i = 0; i < galeriasQuantidade; i++) {
 
-    let galeriaX = $('ul.imagens')[i]
-    let galeriaXQuantidade = $(galeriaX).find('img').length
+    let galeriaX = $('ul.imagens')[i];
+    let galeriaXQuantidade = $(galeriaX).find('img').length;
 
     if (galeriaXQuantidade >= 4) {
-      $(galeriaX).find('.abrirTodas').fadeIn(300).css('display', 'block')
+      $(galeriaX).find('.abrirTodas').fadeIn(300).css('display', 'block');
     }
   }
+  
+  // aplicando lightbox com o lity
+  $(document).ready(function(){
+    $('#eventos').find('a').attr('data-lity', '');
+  });
 
 </script>
