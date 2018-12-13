@@ -54,11 +54,11 @@
         <ul>
           <li>
             <div class="numero">1</div>
-            <a class="instrucao" href="/sitiosead/ead-na-ufes" title="Ir para a página Ensino: Como é a Ead na Ufes?">Veja como funciona a EaD da Ufes<i class="fas fa-angle-double-right"></i></a>
+            <a class="instrucao" href="<?php echo site_url(); ?>/ead-na-ufes" title="Ir para a página Ensino: Como é a Ead na Ufes?">Veja como funciona a EaD da Ufes<i class="fas fa-angle-double-right"></i></a>
           </li>
           <li>
             <div class="numero">2</div>
-            <a class="instrucao" href="/sitiosead/editais" title="Ir para a página de Editais">Fique de olho nos próximos editais<i class="fas fa-angle-double-right"></i></a>
+            <a class="instrucao" href="<?php echo site_url(); ?>/editais" title="Ir para a página de Editais">Fique de olho nos próximos editais<i class="fas fa-angle-double-right"></i></a>
           </li>
         </ul>
       </div>
