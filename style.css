@@ -21,7 +21,7 @@ button {
   font-size: inherit;
   font-weight: inherit; }
 
-.inicio #banner .container a, .inicio #polos a, .page-blog a[role="button"], .page-galeria #eventos li .imagens .abrirTodas, .single-edital .secao-edital#inscricao a[role="button"] {
+.inicio #banner .container a, .inicio #polos a, .page-blog a[role="button"], .page-galeria #eventos li .imagens .abrirTodas, .single-edital .secao-edital#inscricao a[role="button"], #selecao2019-1 #como-funciona button {
   background-color: #c75000;
   text-transform: uppercase;
   color: white;
@@ -30,7 +30,7 @@ button {
   margin: 1rem 0;
   font-weight: 500;
   cursor: pointer; }
-  .inicio #banner .container a:hover, .inicio #polos a:hover, .page-blog a[role="button"]:hover, .page-galeria #eventos li .imagens .abrirTodas:hover, .single-edital .secao-edital#inscricao a[role="button"]:hover {
+  .inicio #banner .container a:hover, .inicio #polos a:hover, .page-blog a[role="button"]:hover, .page-galeria #eventos li .imagens .abrirTodas:hover, .single-edital .secao-edital#inscricao a[role="button"]:hover, #selecao2019-1 #como-funciona button:hover {
     background-color: #b24800; }
 
 .page p, .page blockquote, .faq ul li, .secretaria #estrutura h3 {
@@ -2977,6 +2977,94 @@ footer {
     display: inline-block; }
   .noticia article .links-compartilhamento a {
     float: right; } }
+
+#selecao2019-1 header {
+  height: 45vh;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center; }
+  #selecao2019-1 header div {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    max-width: 300px;
+    margin: 0 auto; }
+    #selecao2019-1 header div .caixa {
+      position: absolute;
+      left: 0;
+      border-bottom: 5rem solid #1765ab;
+      border-left: 0 solid transparent;
+      border-right: 25px solid transparent;
+      width: 35%;
+      margin-top: -0.5rem; }
+#selecao2019-1 #como-funciona {
+  font-weight: 300; }
+  #selecao2019-1 #como-funciona .topico-ead {
+    margin: 1.5rem auto;
+    width: 160px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    line-height: 1.5rem; }
+    #selecao2019-1 #como-funciona .topico-ead:not(:first-child) {
+      padding-left: 1.2rem; }
+    #selecao2019-1 #como-funciona .topico-ead figure {
+      width: 100%;
+      margin: 0; }
+      #selecao2019-1 #como-funciona .topico-ead figure svg {
+        height: 72px;
+        width: auto; }
+      #selecao2019-1 #como-funciona .topico-ead figure figcaption {
+        color: #f06c00;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-top: .5rem; }
+  #selecao2019-1 #como-funciona p {
+    margin-left: 0 !important; }
+#selecao2019-1 #inscricao li {
+  color: #c75000;
+  font-size: 1rem;
+  display: inline-block;
+  max-width: 300px;
+  text-align: left;
+  padding: 0.5rem 0;
+  vertical-align: top; }
+  #selecao2019-1 #inscricao li:not(:first-child) {
+    margin-left: 1.5rem; }
+  #selecao2019-1 #inscricao li i {
+    padding-left: 0.5rem; }
+  #selecao2019-1 #inscricao li div {
+    display: inline-block;
+    height: 4rem; }
+  #selecao2019-1 #inscricao li .numero {
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    background-color: #c75000;
+    width: 3.5rem;
+    line-height: 1.7;
+    height: 3.5rem;
+    border-radius: 2rem;
+    text-align: center;
+    vertical-align: top; }
+  #selecao2019-1 #inscricao li .instrucao {
+    width: 150px;
+    vertical-align: sub;
+    margin-left: 0.5rem;
+    display: inline-block;
+    line-height: 1.5;
+    padding-top: .25rem;
+    text-transform: uppercase;
+    font-weight: 500; }
+    #selecao2019-1 #inscricao li .instrucao:hover span {
+      text-decoration: underline;
+      cursor: pointer; }
+    #selecao2019-1 #inscricao li .instrucao span {
+      color: #f06c00;
+      text-transform: none;
+      display: block;
+      font-size: 1rem;
+      font-weight: 400; }
 
 .pagPesquisa {
   /* #resultados */ }

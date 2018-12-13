@@ -1,0 +1,128 @@
+#selecao2019-1{
+
+  header{
+    height: 45vh;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+
+    div{
+      margin-bottom: 1rem;
+      padding: 1rem;
+      max-width: 300px;
+      margin: 0 auto;
+
+      .caixa{
+        position: absolute;
+        left: 0;
+        border-bottom: 5rem solid $azulRegular;
+        border-left: 0 solid transparent;
+        border-right: 25px solid transparent;
+        width: 35%;
+        margin-top: -0.5rem;
+      }
+    }
+  }
+
+  #como-funciona{
+    font-weight: $light;
+
+    .topico-ead {
+      margin: 1.5rem auto;
+      width: 160px;
+      display: inline-block;
+      vertical-align: top;
+      text-align: center;
+      line-height: 1.5rem;
+
+      &:not(:first-child){ padding-left: 1.2rem; }
+
+      figure {
+        width: 100%;
+        margin: 0;
+
+        svg {
+          height: 72px;
+          width: auto;
+        }
+
+        figcaption {
+          color: $laranjaRegular;
+          font-size: 18px;
+          text-transform: uppercase;
+          font-weight: $bold;
+          margin-top: .5rem;
+        }
+      }
+    }
+
+    p{ margin-left: 0 !important; }
+
+    button{ @extend %botao; }
+  }
+
+  #cursos{}
+
+  #inscricao{
+
+    li {
+      &:not(:first-child) { margin-left: 1.5rem; }
+
+      color: $laranjaMedio;
+      font-size: 1rem;
+      display: inline-block;
+      max-width: 300px;
+      text-align: left;
+      padding: 0.5rem 0;
+      vertical-align: top;
+
+      i {
+        padding-left: 0.5rem;
+      }
+
+      div {
+        display: inline-block;
+        height: 4rem;
+      }
+
+      .numero {
+        color: white;
+        font-size: 2rem;
+        font-weight: $bold;
+        background-color: $laranjaMedio;
+        width: 3.5rem;
+        line-height: 1.7;
+        height: 3.5rem;
+        border-radius: 2rem;
+        text-align: center;
+        vertical-align: top;
+      }
+
+      .instrucao {
+        width: 150px;
+        vertical-align: sub;
+        margin-left: 0.5rem;
+        display: inline-block;
+        line-height: 1.5;
+        padding-top: .25rem;
+        text-transform: uppercase;
+        font-weight: $medium;
+
+        &:hover {
+          span{
+            text-decoration: underline;
+            cursor: pointer;
+          }
+        }
+
+        span{ 
+          color: $laranjaRegular;
+          text-transform: none;
+          display: block;
+          font-size: 1rem;
+          font-weight: $regular;
+        }
+      }
+    }
+  }
+}
