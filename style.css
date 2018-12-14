@@ -2983,19 +2983,44 @@ footer {
   background-attachment: scroll;
   background-size: cover;
   background-position: center; }
-  #selecao2019-1 header div {
-    margin-bottom: 1rem;
-    padding: 1rem;
-    max-width: 300px;
-    margin: 0 auto; }
-    #selecao2019-1 header div .caixa {
-      position: absolute;
-      left: 0;
-      border-bottom: 5rem solid #1765ab;
-      border-left: 0 solid transparent;
-      border-right: 25px solid transparent;
-      width: 35%;
-      margin-top: -0.5rem; }
+  #selecao2019-1 header div.container {
+    width: 100%; }
+    #selecao2019-1 header div.container .caixa {
+      padding: 1rem;
+      margin: 0; }
+      #selecao2019-1 header div.container .caixa .box-marca {
+        position: absolute;
+        left: 0;
+        border-bottom: 5.5rem solid #1765ab;
+        border-left: 0 solid transparent;
+        border-right: 35px solid transparent;
+        width: 38%;
+        /*margin-top: -0.5rem;*/ }
+      #selecao2019-1 header div.container .caixa a.marca {
+        position: absolute;
+        z-index: 2;
+        margin-top: .7rem; }
+      #selecao2019-1 header div.container .caixa .box-nav {
+        position: absolute;
+        left: 0;
+        border-bottom: 2.5rem solid #043166;
+        border-left: 0 solid transparent;
+        border-right: 16px solid transparent;
+        width: calc(38% + 35px);
+        /*margin-top: -0.5rem;*/
+        top: 8.5rem; }
+      #selecao2019-1 header div.container .caixa a.nav {
+        text-transform: uppercase;
+        position: absolute;
+        z-index: 2;
+        margin-top: 6.2rem;
+        font-weight: 500;
+        margin-left: 2.6rem; }
+    #selecao2019-1 header div.container h1 {
+      max-width: 350px;
+      float: right; }
+#selecao2019-1 section {
+  margin-top: 4rem; }
 #selecao2019-1 #como-funciona {
   font-weight: 300; }
   #selecao2019-1 #como-funciona .topico-ead {
@@ -3021,6 +3046,14 @@ footer {
         margin-top: .5rem; }
   #selecao2019-1 #como-funciona p {
     margin-left: 0 !important; }
+#selecao2019-1 #cursos div {
+  display: inline-block;
+  width: 59%; }
+#selecao2019-1 #cursos svg {
+  /*float: right;*/
+  width: 40%;
+  height: auto;
+  display: inline-block; }
 #selecao2019-1 #inscricao li {
   color: #c75000;
   font-size: 1rem;

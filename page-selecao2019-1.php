@@ -18,19 +18,22 @@
   <body id="selecao2019-1">
     
     <header style="background-image: url('<?php echo get_template_directory_uri()?>/img/hotsite-capa.png')">
-      <div>
+      <div class="container">
         <section class="caixa">
+          <div class="box-marca"></div>
           <a class="marca" href="<?php echo site_url(); ?>" title="Ir para início do sítio">
             <?php include 'svg/sead-ufes-extenso.svg'; ?>
           </a>
-          <!--<a href="<?php echo site_url(); ?>" title="Ir para página inicial">Início</a>-->
+          <div class="box-nav"></div>
+          <a class="nav" href="<?php echo site_url(); ?>">Ir para o Portal Sead</a>
         </section>
-      </div>
+        <h1>Editais abertos: quer ser um aluno EaD da Ufes?</h1>
+      </div>     
+      
     </header>
 
     <main class="page container">
-      <!--<h1>Processo Seletivo para cursos de Graduação 2019/1</h1>-->
-
+      
       <section id="como-funciona">
         <h2>Como funciona a Educação a Distância da UFES?</h2>
         <div class="topico-ead">
@@ -56,14 +59,14 @@
         </div>
         <div class="topico-ead">
           <figure>
-            <?php include 'svg/polos-uab.svg' ?>
+            <?php include 'svg/encontros-presenciais.svg' ?>
             <figcaption>Encontros Presenciais</figcaption>
           </figure>
           <p>Os cursos são semi-presenciais, ocorrendo encontros semanais nos polos para realização de atividades.</p>
         </div>
         <div class="topico-ead">
           <figure>
-            <?php include 'svg/polos-uab.svg' ?>
+            <?php include 'svg/formacao.svg' ?>
             <figcaption>Formação</figcaption>
           </figure>
           <p>O diploma é emitido pela Ufes. A EaD consegue levar ensino de qualidade para o interior do Estado.</p>
@@ -75,6 +78,10 @@
 
       <section id="cursos">
         <h2>Conheça os cursos desta oferta</h2>
+        
+        <div></div>
+        
+        <?php include 'svg/mapaES.svg'; ?>
       </section>
 
       <section id="inscricao">

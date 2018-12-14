@@ -6,23 +6,59 @@
     background-size: cover;
     background-position: center;
 
-    div{
-      margin-bottom: 1rem;
-      padding: 1rem;
-      max-width: 300px;
-      margin: 0 auto;
-
+    div.container{
+      width: 100%;
+      
       .caixa{
-        position: absolute;
-        left: 0;
-        border-bottom: 5rem solid $azulRegular;
-        border-left: 0 solid transparent;
-        border-right: 25px solid transparent;
-        width: 35%;
-        margin-top: -0.5rem;
+        padding: 1rem;
+        margin: 0;
+
+        .box-marca{
+          position: absolute;
+          left: 0;
+          border-bottom: 5.5rem solid $azulRegular;
+          border-left: 0 solid transparent;
+          border-right: 35px solid transparent;
+          width: 38%;
+          /*margin-top: -0.5rem;*/
+        }
+        
+        a.marca{
+          position: absolute;
+          z-index: 2;
+          margin-top: .7rem;
+        }
+        
+        .box-nav{
+          position: absolute;
+          left: 0;
+          border-bottom: 2.5rem solid $azulEscuro;
+          border-left: 0 solid transparent;
+          border-right: 16px solid transparent;
+          width: calc(38% + 35px);
+          /*margin-top: -0.5rem;*/
+          top: 8.5rem;
+        }
+        
+        a.nav{
+          text-transform: uppercase;
+          position: absolute;
+          z-index: 2;
+          margin-top: 6.2rem;
+          font-weight: $medium;
+          margin-left: 2.6rem;
+          
+        }
+      }
+      
+      h1{
+        max-width: 350px;
+        float: right;
       }
     }
   }
+  
+  section{ margin-top: 4rem; }
 
   #como-funciona{
     font-weight: $light;
@@ -61,7 +97,21 @@
     button{ @extend %botao; }
   }
 
-  #cursos{}
+  #cursos{
+    
+    div{
+      display: inline-block;
+      width: 59%;
+    }
+    
+    svg{
+      /*float: right;*/
+      width: 40%;
+      height: auto;
+      display: inline-block;
+    }
+    
+  }
 
   #inscricao{
 
