@@ -21,7 +21,7 @@ button {
   font-size: inherit;
   font-weight: inherit; }
 
-.inicio #banner .container a, .inicio #polos a, .page-blog a[role="button"], .page-galeria #eventos li .imagens .abrirTodas, .single-edital .secao-edital#inscricao a[role="button"], #selecao2019-1 #como-funciona button {
+.inicio #banner .container a, .inicio #polos a, .page-blog a[role="button"], .page-galeria #eventos li .imagens .abrirTodas, .single-edital .secao-edital#inscricao a[role="button"], #selecao2019-1 #como-funciona button, #selecao2019-1 #conheca-os-cursos #lista-cursos #botoes-curso > button {
   background-color: #c75000;
   text-transform: uppercase;
   color: white;
@@ -30,7 +30,7 @@ button {
   margin: 1rem 0;
   font-weight: 500;
   cursor: pointer; }
-  .inicio #banner .container a:hover, .inicio #polos a:hover, .page-blog a[role="button"]:hover, .page-galeria #eventos li .imagens .abrirTodas:hover, .single-edital .secao-edital#inscricao a[role="button"]:hover, #selecao2019-1 #como-funciona button:hover {
+  .inicio #banner .container a:hover, .inicio #polos a:hover, .page-blog a[role="button"]:hover, .page-galeria #eventos li .imagens .abrirTodas:hover, .single-edital .secao-edital#inscricao a[role="button"]:hover, #selecao2019-1 #como-funciona button:hover, #selecao2019-1 #conheca-os-cursos #lista-cursos #botoes-curso > button:hover {
     background-color: #b24800; }
 
 .page p, .page blockquote, .faq ul li, .secretaria #estrutura h3 {
@@ -2979,50 +2979,67 @@ footer {
     float: right; } }
 
 #selecao2019-1 header {
-  height: 45vh;
-  background-attachment: scroll;
+  background-attachment: scroll, fixed;
   background-size: cover;
   background-position: center; }
-  #selecao2019-1 header div.container {
-    width: 100%; }
-    #selecao2019-1 header div.container .caixa {
-      padding: 1rem;
-      margin: 0; }
-      #selecao2019-1 header div.container .caixa .box-marca {
-        position: absolute;
-        left: 0;
-        border-bottom: 5.5rem solid #1765ab;
-        border-left: 0 solid transparent;
-        border-right: 35px solid transparent;
-        width: 38%;
-        /*margin-top: -0.5rem;*/ }
-      #selecao2019-1 header div.container .caixa a.marca {
-        position: absolute;
-        z-index: 2;
-        margin-top: .7rem; }
-      #selecao2019-1 header div.container .caixa .box-nav {
-        position: absolute;
-        left: 0;
-        border-bottom: 2.5rem solid #043166;
-        border-left: 0 solid transparent;
-        border-right: 16px solid transparent;
-        width: calc(38% + 35px);
-        /*margin-top: -0.5rem;*/
-        top: 8.5rem; }
-      #selecao2019-1 header div.container .caixa a.nav {
-        text-transform: uppercase;
-        position: absolute;
-        z-index: 2;
-        margin-top: 6.2rem;
-        font-weight: 500;
-        margin-left: 2.6rem; }
-    #selecao2019-1 header div.container h1 {
-      max-width: 350px;
-      float: right; }
+  #selecao2019-1 header div.container .caixa {
+    padding: 1rem;
+    margin: 0; }
+    #selecao2019-1 header div.container .caixa .box-marca {
+      position: absolute;
+      left: 0;
+      border-bottom: 5.5rem solid #1765ab;
+      border-left: 0 solid transparent;
+      border-right: 35px solid transparent;
+      width: 75%; }
+    #selecao2019-1 header div.container .caixa a.marca {
+      position: absolute;
+      z-index: 2;
+      margin-top: .7rem; }
+    #selecao2019-1 header div.container .caixa .box-nav {
+      position: absolute;
+      left: 0;
+      border-bottom: 2.5rem solid #043166;
+      border-left: 0 solid transparent;
+      border-right: 16px solid transparent;
+      width: calc(75% + 35px);
+      top: 8.5rem; }
+    #selecao2019-1 header div.container .caixa a.nav {
+      text-transform: uppercase;
+      position: absolute;
+      z-index: 2;
+      margin-top: 6.2rem;
+      font-weight: 500;
+      margin-left: 2.6rem; }
+  #selecao2019-1 header div.container h1 {
+    margin: 0 auto;
+    margin-top: 10rem;
+    width: calc(320px - 2rem); }
+    #selecao2019-1 header div.container h1 .editais {
+      font-weight: 700;
+      font-style: italic;
+      font-size: 2.5rem;
+      display: block; }
+    #selecao2019-1 header div.container h1 .aluno {
+      font-weight: 400;
+      text-align: right;
+      max-width: 130px;
+      font-size: 1.3rem;
+      display: inline-block; }
+    #selecao2019-1 header div.container h1 .ufes {
+      font-family: "Merriweather", serif;
+      font-style: italic;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 3rem;
+      display: inline-block; }
 #selecao2019-1 section {
   margin-top: 4rem; }
 #selecao2019-1 #como-funciona {
-  font-weight: 300; }
+  font-weight: 300;
+  text-align: center; }
+  #selecao2019-1 #como-funciona h2 {
+    text-align: left; }
   #selecao2019-1 #como-funciona .topico-ead {
     margin: 1.5rem auto;
     width: 160px;
@@ -3045,25 +3062,34 @@ footer {
         font-weight: 700;
         margin-top: .5rem; }
   #selecao2019-1 #como-funciona p {
-    margin-left: 0 !important; }
-#selecao2019-1 #cursos div {
-  display: inline-block;
-  width: 59%; }
-#selecao2019-1 #cursos svg {
-  /*float: right;*/
-  width: 40%;
-  height: auto;
-  display: inline-block; }
+    margin-left: 0 !important;
+    max-width: 100%; }
+#selecao2019-1 #conheca-os-cursos #lista-cursos {
+  vertical-align: top; }
+  #selecao2019-1 #conheca-os-cursos #lista-cursos #botoes-curso > button {
+    background-color: #043166;
+    margin: 0;
+    margin-bottom: 1rem;
+    margin-right: .5rem;
+    width: 150px;
+    padding: .6rem 1rem; }
+    #selecao2019-1 #conheca-os-cursos #lista-cursos #botoes-curso > button:hover {
+      background-color: #021935; }
+    #selecao2019-1 #conheca-os-cursos #lista-cursos #botoes-curso > button.selecionado {
+      background-color: #cfeaff;
+      color: #043166; }
+  #selecao2019-1 #conheca-os-cursos #lista-cursos #polos-do-curso {
+    margin-top: 1.5rem; }
+    #selecao2019-1 #conheca-os-cursos #lista-cursos #polos-do-curso ul {
+      display: none; }
+#selecao2019-1 #conheca-os-cursos svg {
+  display: none; }
 #selecao2019-1 #inscricao li {
   color: #c75000;
   font-size: 1rem;
-  display: inline-block;
-  max-width: 300px;
   text-align: left;
   padding: 0.5rem 0;
   vertical-align: top; }
-  #selecao2019-1 #inscricao li:not(:first-child) {
-    margin-left: 1.5rem; }
   #selecao2019-1 #inscricao li i {
     padding-left: 0.5rem; }
   #selecao2019-1 #inscricao li div {
@@ -3081,7 +3107,7 @@ footer {
     text-align: center;
     vertical-align: top; }
   #selecao2019-1 #inscricao li .instrucao {
-    width: 150px;
+    width: calc(100% - 5rem);
     vertical-align: sub;
     margin-left: 0.5rem;
     display: inline-block;
@@ -3098,6 +3124,46 @@ footer {
       display: block;
       font-size: 1rem;
       font-weight: 400; }
+@media (min-width: 992px) {
+  #selecao2019-1 header {
+    height: 45vh; }
+    #selecao2019-1 header div.container {
+      width: 100%; }
+      #selecao2019-1 header div.container .caixa .box-marca {
+        width: 38%; }
+      #selecao2019-1 header div.container .caixa .box-nav {
+        width: calc(38% + 35px); }
+      #selecao2019-1 header div.container h1 {
+        width: 350px;
+        float: right;
+        margin-top: 0; }
+        #selecao2019-1 header div.container h1 .editais {
+          font-size: 3rem; }
+        #selecao2019-1 header div.container h1 .aluno {
+          max-width: 170px;
+          font-size: 1.5rem; }
+        #selecao2019-1 header div.container h1 .ufes {
+          font-size: 3.5rem; }
+  #selecao2019-1 #como-funciona {
+    text-align: left; }
+    #selecao2019-1 #como-funciona p {
+      max-width: 720px; }
+  #selecao2019-1 #conheca-os-cursos #lista-cursos {
+    display: inline-block;
+    width: 59%; }
+  #selecao2019-1 #conheca-os-cursos svg {
+    width: 40%;
+    height: auto;
+    display: inline-block;
+    pointer-events: none;
+    margin-top: -6rem; }
+  #selecao2019-1 #inscricao li {
+    display: inline-block;
+    max-width: 300px; }
+    #selecao2019-1 #inscricao li:not(:first-child) {
+      margin-left: 1.5rem; }
+    #selecao2019-1 #inscricao li .instrucao {
+      width: 150px; } }
 
 .pagPesquisa {
   /* #resultados */ }

@@ -1,14 +1,11 @@
 #selecao2019-1{
 
   header{
-    height: 45vh;
-    background-attachment: scroll;
+    background-attachment: scroll, fixed;
     background-size: cover;
     background-position: center;
 
     div.container{
-      width: 100%;
-      
       .caixa{
         padding: 1rem;
         margin: 0;
@@ -19,27 +16,25 @@
           border-bottom: 5.5rem solid $azulRegular;
           border-left: 0 solid transparent;
           border-right: 35px solid transparent;
-          width: 38%;
-          /*margin-top: -0.5rem;*/
+          width: 75%;
         }
-        
+
         a.marca{
           position: absolute;
           z-index: 2;
           margin-top: .7rem;
         }
-        
+
         .box-nav{
           position: absolute;
           left: 0;
           border-bottom: 2.5rem solid $azulEscuro;
           border-left: 0 solid transparent;
           border-right: 16px solid transparent;
-          width: calc(38% + 35px);
-          /*margin-top: -0.5rem;*/
+          width: calc(75% + 35px);
           top: 8.5rem;
         }
-        
+
         a.nav{
           text-transform: uppercase;
           position: absolute;
@@ -47,21 +42,46 @@
           margin-top: 6.2rem;
           font-weight: $medium;
           margin-left: 2.6rem;
-          
         }
       }
-      
+
       h1{
-        max-width: 350px;
-        float: right;
+        margin: 0 auto;
+        margin-top: 10rem;
+        width: calc(320px - 2rem);
+
+        .editais{
+          font-weight: $bold;
+          font-style: italic;
+          font-size: 2.5rem;
+          display: block;
+        }
+        .aluno{
+          font-weight: $regular;
+          text-align: right;
+          max-width: 130px;
+          font-size: 1.3rem;
+          display: inline-block;
+        }
+        .ufes{
+          font-family: $merriweather;
+          font-style: italic;
+          font-weight: $bold;
+          text-transform: uppercase;
+          font-size: 3rem;
+          display: inline-block;
+        }
       }
     }
   }
-  
+
   section{ margin-top: 4rem; }
 
   #como-funciona{
     font-weight: $light;
+    text-align: center;
+
+    h2{ text-align: left; }
 
     .topico-ead {
       margin: 1.5rem auto;
@@ -92,36 +112,55 @@
       }
     }
 
-    p{ margin-left: 0 !important; }
+    p{ 
+      margin-left: 0 !important;
+      max-width: 100%;
+    }
 
     button{ @extend %botao; }
   }
 
-  #cursos{
-    
-    div{
-      display: inline-block;
-      width: 59%;
+  #conheca-os-cursos{
+
+    #lista-cursos{
+      vertical-align: top;
+
+      #botoes-curso> button{
+        @extend %botao;
+        background-color: $azulEscuro;
+        margin: 0;
+        margin-bottom: 1rem;
+        margin-right: .5rem;
+        width: 150px;
+        padding: .6rem 1rem;
+
+        &:hover{
+          background-color: darken($azulEscuro, 10);
+        }
+
+        &.selecionado{
+          background-color: $azulClaro;
+          color: $azulEscuro;
+        }
+      }
+
+      #polos-do-curso{
+        margin-top: 1.5rem; 
+
+        ul{ display: none; }
+      }
     }
-    
+
     svg{
-      /*float: right;*/
-      width: 40%;
-      height: auto;
-      display: inline-block;
+      display: none;
     }
-    
   }
 
   #inscricao{
 
     li {
-      &:not(:first-child) { margin-left: 1.5rem; }
-
       color: $laranjaMedio;
       font-size: 1rem;
-      display: inline-block;
-      max-width: 300px;
       text-align: left;
       padding: 0.5rem 0;
       vertical-align: top;
@@ -149,7 +188,7 @@
       }
 
       .instrucao {
-        width: 150px;
+        width: calc(100% - 5rem);
         vertical-align: sub;
         margin-left: 0.5rem;
         display: inline-block;
@@ -171,6 +210,79 @@
           display: block;
           font-size: 1rem;
           font-weight: $regular;
+        }
+      }
+    }
+  }
+
+  @media(min-width: 992px){
+
+    header{
+      height: 45vh;
+
+      div.container{
+        width: 100%;
+
+        .caixa{
+          .box-marca{
+            width: 38%;
+          }
+
+          .box-nav{
+            width: calc(38% + 35px);
+          }
+        }
+        h1{
+          width: 350px;
+          float: right;
+          margin-top: 0;
+
+          .editais{
+            font-size: 3rem;
+          }
+          .aluno{
+            max-width: 170px;
+            font-size: 1.5rem;
+          }
+          .ufes{
+            font-size: 3.5rem;
+
+          }
+        }
+
+      }
+    }
+
+    #como-funciona{
+      text-align: left;
+
+      p{ max-width: 720px; }
+    }
+
+    #conheca-os-cursos{
+
+      #lista-cursos{
+        display: inline-block;
+        width: 59%;
+      }
+
+      svg{
+        width: 40%;
+        height: auto;
+        display: inline-block;
+        pointer-events: none;
+        margin-top: -6rem;
+      }
+    }
+
+    #inscricao{
+      li{
+        &:not(:first-child) { margin-left: 1.5rem; }
+        display: inline-block;
+        max-width: 300px;
+
+        .instrucao{
+          width: 150px;
         }
       }
     }

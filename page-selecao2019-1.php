@@ -9,7 +9,8 @@
     <link rel="icon" type="image/png" href="https://cdn.eadufes.org/icone/sead.png">
     <link rel="icon" type="image/svg+xml" href="https://cdn.eadufes.org/icone/sead.svg">
 
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,300i,400,500,500i,600,700,700i" rel="stylesheet"> <!-- Conferir necessidade de variações -->
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700,700i" rel="stylesheet"> <!-- Conferir necessidade de variações -->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:700i" rel="stylesheet"> <!-- Conferir necessidade de variações -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style.css">
@@ -17,7 +18,7 @@
 
   <body id="selecao2019-1">
     
-    <header style="background-image: url('<?php echo get_template_directory_uri()?>/img/hotsite-capa.png')">
+    <header style="background-image: linear-gradient(transparent, rgba(4, 49, 102, 0.6)), url('<?php echo get_template_directory_uri()?>/img/hotsite-capa.png')">
       <div class="container">
         <section class="caixa">
           <div class="box-marca"></div>
@@ -27,7 +28,7 @@
           <div class="box-nav"></div>
           <a class="nav" href="<?php echo site_url(); ?>">Ir para o Portal Sead</a>
         </section>
-        <h1>Editais abertos: quer ser um aluno EaD da Ufes?</h1>
+        <h1><span class="editais">Editais abertos:</span> <span class="aluno">quer ser um aluno EaD da</span> <span class="ufes">Ufes?</span></h1>
       </div>     
       
     </header>
@@ -76,10 +77,28 @@
         <button>Saiba mais sobre EaD na Ufes</button>
       </section>
 
-      <section id="cursos">
+      <section id="conheca-os-cursos">
         <h2>Conheça os cursos desta oferta</h2>
         
-        <div></div>
+        <div id="lista-cursos">
+          <div id="botoes-curso">
+            <button onclick="mostraPolos('artes-visuais')">Artes Visuais</button>
+            <button onclick="mostraPolos('biologia')">Biologia</button>
+          </div>
+          <div id="polos-do-curso">
+            <ul id="polos-artes-visuais">
+              <strong>Disponível nos polos:</strong>
+              <li>Afonso Cláudio</li>
+              <li>Ecoporanga</li>
+              <li>Itapemirim</li>
+            </ul>
+            <ul id="polos-biologia">
+              <strong>Disponível nos polos:</strong>
+              <li>Ecoporanga</li>
+              <li>Itapemirim</li>
+            </ul>
+          </div>
+        </div>
         
         <?php include 'svg/mapaES.svg'; ?>
       </section>
@@ -119,14 +138,10 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/menu.js"></script>
-
     <script src="https://unpkg.com/focus-visible@latest/dist/focus-visible.min.js"></script>
-
     <script src="<?php echo get_template_directory_uri(); ?>/js/globais.js"></script>
-
     <script>
-      // scroll top
-
+      // scroll to top
       $('#voltar-ao-topo').click(function () {
         $('html, body').animate({scrollTop: 0}, 800);
       });
@@ -134,6 +149,16 @@
       $(window).scroll(function () {
         $(window).scrollTop() > 20 ? $('#voltar-ao-topo').fadeIn(300) : $('#voltar-ao-topo').fadeOut(300);
       });
+      
+      // Mostra polos por curso
+      function mostraPolos(curso){
+        let c = '#polos-' + curso;
+        let e = event.target;
+        $('#polos-do-curso ul').hide();
+        $( c ).show();
+        $('#botoes-curso button').removeClass('selecionado');
+        $( e ).addClass('selecionado');
+      }
 
     </script>
 
