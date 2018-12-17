@@ -21,7 +21,7 @@ button {
   font-size: inherit;
   font-weight: inherit; }
 
-.inicio #banner .container a, .inicio #polos a, .page-blog a[role="button"], .page-galeria #eventos li .imagens .abrirTodas, .single-edital .secao-edital#inscricao a[role="button"], #selecao2019-1 #como-funciona button, #selecao2019-1 #conheca-os-cursos #lista-cursos #botoes-curso > button {
+.inicio #banner .container a, .inicio #polos a, .page-blog a[role="button"], .page-galeria #eventos li .imagens .abrirTodas, .single-edital .secao-edital#inscricao a[role="button"], #selecao2019-1 #como-funciona button, #selecao2019-1 #conheca-os-cursos #lista-cursos #botoes-curso > button, #selecao2019-1 #conheca-os-cursos #lista-cursos #polos-do-curso ul a {
   background-color: #c75000;
   text-transform: uppercase;
   color: white;
@@ -30,7 +30,7 @@ button {
   margin: 1rem 0;
   font-weight: 500;
   cursor: pointer; }
-  .inicio #banner .container a:hover, .inicio #polos a:hover, .page-blog a[role="button"]:hover, .page-galeria #eventos li .imagens .abrirTodas:hover, .single-edital .secao-edital#inscricao a[role="button"]:hover, #selecao2019-1 #como-funciona button:hover, #selecao2019-1 #conheca-os-cursos #lista-cursos #botoes-curso > button:hover {
+  .inicio #banner .container a:hover, .inicio #polos a:hover, .page-blog a[role="button"]:hover, .page-galeria #eventos li .imagens .abrirTodas:hover, .single-edital .secao-edital#inscricao a[role="button"]:hover, #selecao2019-1 #como-funciona button:hover, #selecao2019-1 #conheca-os-cursos #lista-cursos #botoes-curso > button:hover, #selecao2019-1 #conheca-os-cursos #lista-cursos #polos-do-curso ul a:hover {
     background-color: #b24800; }
 
 .page p, .page blockquote, .faq ul li, .secretaria #estrutura h3 {
@@ -3082,6 +3082,8 @@ footer {
     margin-top: 1.5rem; }
     #selecao2019-1 #conheca-os-cursos #lista-cursos #polos-do-curso ul {
       display: none; }
+      #selecao2019-1 #conheca-os-cursos #lista-cursos #polos-do-curso ul li:last-of-type {
+        margin-bottom: 3rem; }
 #selecao2019-1 #conheca-os-cursos svg {
   display: none; }
 #selecao2019-1 #inscricao li {

@@ -147,7 +147,13 @@
       #polos-do-curso{
         margin-top: 1.5rem; 
 
-        ul{ display: none; }
+        ul{ 
+          display: none;
+          
+          li:last-of-type{ margin-bottom: 3rem; }
+          
+          a{ @extend %botao; }
+        }
       }
     }
 

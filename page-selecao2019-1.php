@@ -91,11 +91,13 @@
               <li>Afonso Cláudio</li>
               <li>Ecoporanga</li>
               <li>Itapemirim</li>
+              <a target="_blank" href="<?php echo site_url(); ?>/cursos/artes-visuais" title="Abrir página do curso Artes Visuais">Saiba mais sobre Artes Visuais</a>
             </ul>
             <ul id="polos-biologia">
               <strong>Disponível nos polos:</strong>
               <li>Ecoporanga</li>
               <li>Itapemirim</li>
+              <a target="_blank" href="<?php echo site_url(); ?>/cursos/biologia" title="Abrir página do curso Biologia">Saiba mais sobre Biologia</a>
             </ul>
           </div>
         </div>
@@ -108,15 +110,15 @@
         <ul>
           <li>
             <div class="numero">1</div>
-            <a class="instrucao" href="/sitiosead/cursos" title="Ir para a página de Cursos">Informe-se sobre o curso que deseja fazer<span>Ver Cursos</span></a>
+            <a class="instrucao" href="<?php echo site_url(); ?>/cursos" title="Ir para a página de Cursos">Informe-se sobre o curso que deseja fazer<span>Ver Cursos</span></a>
           </li>
           <li>
             <div class="numero">2</div>
-            <a class="instrucao" href="/sitiosead/polos" title="Ir para a página de Polos">Verifique se o curso é ofertado em um polo próximo a você<span>Ver Polos</span></a>
+            <a class="instrucao" href="<?php echo site_url(); ?>/polos" title="Ir para a página de Polos">Verifique se o curso é ofertado em um polo próximo a você<span>Ver Polos</span></a>
           </li>
           <li>
             <div class="numero">3</div>
-            <a class="instrucao" href="/sitiosead/editais" title="Ir para a página de Editais">Leia com atenção o edital do processo seletivo<span>Ver Editais</span></a>
+            <a class="instrucao" href="<?php echo site_url(); ?>/editais" title="Ir para a página de Editais">Leia com atenção o edital do processo seletivo<span>Ver Editais</span></a>
           </li>
           <li>
             <div class="numero">4</div>
