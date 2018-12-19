@@ -74,7 +74,7 @@
       }
     }
   }
-
+  
   section{ margin-top: 4rem; }
 
   #como-funciona{
@@ -159,6 +159,8 @@
 
     svg{
       display: none;
+      
+      path.aceso{ fill: $laranjaClaro; }
     }
   }
 

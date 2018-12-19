@@ -3086,6 +3086,8 @@ footer {
         margin-bottom: 3rem; }
 #selecao2019-1 #conheca-os-cursos svg {
   display: none; }
+  #selecao2019-1 #conheca-os-cursos svg path.aceso {
+    fill: #ffa161; }
 #selecao2019-1 #inscricao li {
   color: #c75000;
   font-size: 1rem;

@@ -17,8 +17,8 @@
   </head>
 
   <body id="selecao2019-1">
-    
-    <header style="background-image: linear-gradient(transparent, rgba(4, 49, 102, 0.6)), url('<?php echo get_template_directory_uri()?>/img/hotsite-capa.png')">
+
+    <header style="background-image: linear-gradient(transparent, rgba(4, 49, 102, 0.6)), url('<?php echo get_template_directory_uri() ?>/img/hotsite-capa.png')">
       <div class="container">
         <section class="caixa">
           <div class="box-marca"></div>
@@ -30,11 +30,11 @@
         </section>
         <h1><span class="editais">Editais abertos:</span> <span class="aluno">quer ser um aluno EaD da</span> <span class="ufes">Ufes?</span></h1>
       </div>     
-      
+
     </header>
 
     <main class="page container">
-      
+
       <section id="como-funciona">
         <h2>Como funciona a Educação a Distância da UFES?</h2>
         <div class="topico-ead">
@@ -79,29 +79,27 @@
 
       <section id="conheca-os-cursos">
         <h2>Conheça os cursos desta oferta</h2>
-        
+
         <div id="lista-cursos">
           <div id="botoes-curso">
-            <button onclick="mostraPolos('artes-visuais')">Artes Visuais</button>
-            <button onclick="mostraPolos('biologia')">Biologia</button>
           </div>
           <div id="polos-do-curso">
-            <ul id="polos-artes-visuais">
-              <strong>Disponível nos polos:</strong>
-              <li>Afonso Cláudio</li>
-              <li>Ecoporanga</li>
-              <li>Itapemirim</li>
-              <a target="_blank" href="<?php echo site_url(); ?>/cursos/artes-visuais" title="Abrir página do curso Artes Visuais">Saiba mais sobre Artes Visuais</a>
-            </ul>
-            <ul id="polos-biologia">
-              <strong>Disponível nos polos:</strong>
-              <li>Ecoporanga</li>
-              <li>Itapemirim</li>
-              <a target="_blank" href="<?php echo site_url(); ?>/cursos/biologia" title="Abrir página do curso Biologia">Saiba mais sobre Biologia</a>
-            </ul>
+            <!--            <ul id="polos-artes-visuais">
+                          <strong>Disponível nos polos:</strong>
+                          <li>Afonso Cláudio</li>
+                          <li>Ecoporanga</li>
+                          <li>Itapemirim</li>
+                          <a target="_blank" href="<?php echo site_url(); ?>/cursos/artes-visuais" title="Abrir página do curso Artes Visuais">Saiba mais sobre Artes Visuais</a>
+                        </ul>
+                        <ul id="polos-biologia">
+                          <strong>Disponível nos polos:</strong>
+                          <li>Ecoporanga</li>
+                          <li>Itapemirim</li>
+                          <a target="_blank" href="<?php echo site_url(); ?>/cursos/biologia" title="Abrir página do curso Biologia">Saiba mais sobre Biologia</a>
+                        </ul>-->
           </div>
         </div>
-        
+
         <?php include 'svg/mapaES.svg'; ?>
       </section>
 
@@ -143,6 +141,46 @@
     <script src="https://unpkg.com/focus-visible@latest/dist/focus-visible.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/globais.js"></script>
     <script>
+      $(function () {
+        let cursos = [];
+
+        $.getJSON('/sitiosead/wp-content/themes/sead-v2/js/polos-por-curso.json', function (data) {
+          $.each(data.cursos, function (i, curso) {
+            let botao = "<button onclick=\"mostraPolos('" + curso.id + "')\">" + curso.nome + "</button>";
+            let ul = '<ul id="polos-' + curso.id + '">' +
+                    '<strong>Disponível nos polos:</strong><br>' +
+                    '<a target="_blank" href="<?php echo site_url(); ?>/cursos/' + curso.id + '" title="Abrir página do curso ' + curso.nome + '">Saiba mais sobre ' + curso.nome + '</a>' +
+                    '</ul>';
+            $(botao).appendTo("#botoes-curso");
+            $(ul).appendTo("#polos-do-curso");
+
+            let link = '#polos-' + curso.id + ' a';
+
+            $.each(curso.polos, function (j, polo) {
+              let li = '<li>' + polo.nome + '</li>';
+              $(li).insertBefore(link);
+
+              let geo = '#' + polo.id;
+              let geoCurso = 'polos-' + curso.id ;
+              $(geo).addClass(geoCurso);             
+            });
+          });
+        });
+      });
+
+      // Mostra polos por curso
+      function mostraPolos(curso) {
+        let c = '#polos-' + curso;
+        let p = '.polos-' + curso;
+        let e = event.target;
+        $('#polos-do-curso ul').hide();
+        $(c).show();
+        $('#botoes-curso button').removeClass('selecionado');
+        $(e).addClass('selecionado');
+        $('.geografia').removeClass('aceso');
+        $(p).addClass('aceso');
+      }
+
       // scroll to top
       $('#voltar-ao-topo').click(function () {
         $('html, body').animate({scrollTop: 0}, 800);
@@ -151,16 +189,6 @@
       $(window).scroll(function () {
         $(window).scrollTop() > 20 ? $('#voltar-ao-topo').fadeIn(300) : $('#voltar-ao-topo').fadeOut(300);
       });
-      
-      // Mostra polos por curso
-      function mostraPolos(curso){
-        let c = '#polos-' + curso;
-        let e = event.target;
-        $('#polos-do-curso ul').hide();
-        $( c ).show();
-        $('#botoes-curso button').removeClass('selecionado');
-        $( e ).addClass('selecionado');
-      }
 
     </script>
 

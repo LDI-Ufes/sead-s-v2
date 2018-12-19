@@ -1,0 +1,46 @@
+{
+  "cursos": [
+    {
+      "id": "biologia",
+      "nome": "Biologia",
+      "polos": [ 
+        {
+          "id": "Aracruz",
+          "nome": "Aracruz"
+        },
+        {
+          "id": "Vitoria",
+          "nome": "Vitória"
+        }
+      ]
+    },
+    {
+      "id": "filosofia",
+      "nome": "Filosofia",
+      "polos": [ 
+        {
+          "id": "Aracruz",
+          "nome": "Aracruz"
+        },
+        {
+          "id": "BomJesusdoNorte",
+          "nome": "Bom Jesus do Norte"
+        }
+      ]
+    },
+    {
+      "id": "artes-visuais",
+      "nome": "Artes Visuais",
+      "polos": [ 
+        {
+          "id": "VendaNovadoImigrante",
+          "nome": "Venda Nova do Imigrante"
+        },
+        {
+          "id": "VilaVelha",
+          "nome": "Vila Velha"
+        }
+      ]
+    }
+  ]
+}
