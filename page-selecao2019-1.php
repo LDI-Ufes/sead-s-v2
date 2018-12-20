@@ -81,22 +81,11 @@
         <h2>Conheça os cursos desta oferta</h2>
 
         <div id="lista-cursos">
+          
           <div id="botoes-curso">
           </div>
+          
           <div id="polos-do-curso">
-            <!--            <ul id="polos-artes-visuais">
-                          <strong>Disponível nos polos:</strong>
-                          <li>Afonso Cláudio</li>
-                          <li>Ecoporanga</li>
-                          <li>Itapemirim</li>
-                          <a target="_blank" href="<?php echo site_url(); ?>/cursos/artes-visuais" title="Abrir página do curso Artes Visuais">Saiba mais sobre Artes Visuais</a>
-                        </ul>
-                        <ul id="polos-biologia">
-                          <strong>Disponível nos polos:</strong>
-                          <li>Ecoporanga</li>
-                          <li>Itapemirim</li>
-                          <a target="_blank" href="<?php echo site_url(); ?>/cursos/biologia" title="Abrir página do curso Biologia">Saiba mais sobre Biologia</a>
-                        </ul>-->
           </div>
         </div>
 
