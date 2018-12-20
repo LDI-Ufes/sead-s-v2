@@ -144,7 +144,7 @@
       $(function () {
         let cursos = [];
 
-        $.getJSON('/sitiosead/wp-content/themes/sead-v2/js/polos-por-curso.json', function (data) {
+        $.getJSON('/sitiosead/wp-content/themes/sead-v2/js/oferta2019.json', function (data) {
           $.each(data.cursos, function (i, curso) {
             let botao = "<button onclick=\"mostraPolos('" + curso.id + "')\">" + curso.nome + "</button>";
             let ul = '<ul id="polos-' + curso.id + '">' +
