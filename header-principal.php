@@ -29,7 +29,7 @@
           <a class="marca" href="<?php echo site_url(); ?>" title="Ir para início do sítio">
              <?php include 'svg/sead-ufes-extenso.svg'; ?>
           </a>
-          <span class="btoMenu">Menu</span>
+          <span class="btoMenu">Menu <i class='fas fa-chevron-down'></i></span>
           <nav id="menuPrincipal" class="menu" role="navigation">
             <ul class="menuLista">
               <li><a href="<?php echo site_url(); ?>" title="Ir para página inicial">Início</a></li>

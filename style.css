@@ -192,6 +192,26 @@ header {
       justify-content: flex-end;
       align-items: center;
       color: white; }
+      header #barraAuxiliar .caixa #ufes {
+        flex-grow: 10; }
+        header #barraAuxiliar .caixa #ufes a:hover span {
+          border-bottom-width: 2px;
+          border-bottom-style: solid;
+          border-bottom-color: #f06c00; }
+        header #barraAuxiliar .caixa #ufes img {
+          height: 18px;
+          margin-left: 8px;
+          vertical-align: middle; }
+        header #barraAuxiliar .caixa #ufes span {
+          margin-left: 5px;
+          padding: 0.3em; }
+        @media screen and (max-width: 992px) {
+          header #barraAuxiliar .caixa #ufes {
+            position: absolute;
+            left: 0;
+            top: 2.7rem; }
+            header #barraAuxiliar .caixa #ufes span {
+              display: none; } }
     header #barraAuxiliar .btoMenu {
       padding: 10px;
       width: 100vw;
@@ -302,17 +322,22 @@ header {
         color: white; }
       header .topo .caixa svg.seadUfesExtenso,
       header .topo .caixa .btoMenu {
-        margin: 10px 20px;
+        margin: 10px;
         z-index: 1; }
       header .topo .caixa svg.seadUfesExtenso {
-        width: 100px;
-        height: 30px;
-        padding: 10px 0; }
+        width: auto;
+        height: 40px;
+        padding: 5px 0; }
+        header .topo .caixa svg.seadUfesExtenso .assinatura {
+          display: none; }
       header .topo .caixa .btoMenu {
         padding: 10px;
-        background-color: #043166;
         line-height: 30px;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        font-weight: 500;
+        margin: 10px 0; }
+        header .topo .caixa .btoMenu i {
+          font-size: .9rem; }
     header .btoMenu {
       cursor: pointer; } }
 
