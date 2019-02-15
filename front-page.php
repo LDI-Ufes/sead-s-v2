@@ -84,7 +84,7 @@
       <div class="confira-mais">
         <h2>Confira mais do que acontece nos polos:</h2>
         <a href="https://www.facebook.com/sead.ufes/" target="_blank" title="Abrir página da Sead no Facebook em nova aba"><span class="somente-leitura">Página da Sead no Facebook</span><i class="fab fa-facebook-f"></i></a>
-        <a href="/sitiosead/blog" title="Ir para a página de notícias"><span class="somente-leitura">Página de notícias</span><?php include 'svg/nossoBlog.svg' ?></a>
+        <a href="<?php echo site_url(); ?>/blog" title="Ir para a página de notícias"><span class="somente-leitura">Página de notícias</span><?php include 'svg/nossoBlog.svg' ?></a>
       </div>
 
     </section>
@@ -95,7 +95,7 @@
       <?php include 'svg/mapaInicio.svg' ?>
       <h2>A EaD está presente em todo o estado!</h2>
       <p>Atualmente a Ufes oferta cursos EaD em 27 Polos Municipais de Apoio Presencial – UAB.</p>
-      <a href="/sitiosead/polos" title="Ir para a página de Polos">Conheça nossos polos!</a>
+      <a href="<?php echo site_url(); ?>/polos" title="Ir para a página de Polos">Conheça nossos polos!</a>
     </div>
   </section>
 </main>

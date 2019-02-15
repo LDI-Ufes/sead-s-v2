@@ -51,12 +51,12 @@
                     <li>
                         <h3><?php the_title(); ?></h3>
                         <?php the_content() ?>
-                        <a class="ver-mais" href="/sitiosead/galeria#evento-<?php the_ID(); ?>" title="Ver mais fotos do evento na Galeria de Fotos"><span>Ver mais</span></a>
+                        <a class="ver-mais" href="<?php echo site_url(); ?>/galeria#evento-<?php the_ID(); ?>" title="Ver mais fotos do evento na Galeria de Fotos"><span>Ver mais</span></a>
                     </li>
                 <?php endwhile; ?>
         <?php endif; ?>
       </ul>
-      <a role="button" href="/sitiosead/galeria" title="Ir para a Galeria de Fotos">Confira os eventos antigos</a>
+      <a role="button" href="<?php echo site_url(); ?>/galeria" title="Ir para a Galeria de Fotos">Confira os eventos antigos</a>
     </div>
   </section>
 </main>
