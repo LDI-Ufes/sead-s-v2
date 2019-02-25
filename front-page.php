@@ -77,7 +77,7 @@
 
         <?php endwhile; wp_reset_postdata(); else : ?>
 
-        <p>Sem notícias.</p>
+        <!--<p>Sem notícias.</p>-->
 
       <?php endif; ?>
 

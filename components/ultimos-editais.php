@@ -12,7 +12,7 @@
                 </li>
         <?php endwhile; wp_reset_postdata(); ?>
         <?php else : ?>
-            <p><?php esc_html_e( 'Sem notícias.' ); ?></p>
+            <p><?php esc_html_e( 'Não há editais cadastrados.' ); ?></p>
         <?php endif; ?>
     </ul>
 </section>
