@@ -227,7 +227,8 @@ header {
     justify-content: flex-end; }
   header #topoBlog #enderecoBlog {
     max-height: 100%;
-    z-index: 1; }
+    z-index: 1;
+    margin-right: -5rem; }
     header #topoBlog #enderecoBlog:focus {
       outline: none; }
   header #topoBlog #nossoBlog {
@@ -298,7 +299,7 @@ header {
       height: 50px; }
     header #topoBlog svg#nossoBlog {
       order: 1;
-      width: 90px; }
+      width: 60px; }
     header #topoBlog #enderecoPortal {
       position: absolute;
       left: -9999px; }
@@ -327,7 +328,9 @@ header {
       header .topo .caixa svg.seadUfesExtenso {
         width: auto;
         height: 40px;
-        padding: 5px 0; }
+        padding: 5px 0;
+        margin-right: -5rem !important;
+        margin-left: 10px !important; }
         header .topo .caixa svg.seadUfesExtenso .assinatura {
           display: none; }
       header .topo .caixa .btoMenu {
@@ -3315,7 +3318,3 @@ footer {
 @media screen and (max-width: 576px) {
   .formPesquisaAtivo .marca svg {
     margin: 10px 0 10px 20px !important; } }
-@media screen and (max-width: 359px) {
-  .formPesquisaAtivo .marca {
-    position: absolute;
-    left: -9999px; } }

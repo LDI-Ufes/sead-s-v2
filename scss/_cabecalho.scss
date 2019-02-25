@@ -139,6 +139,7 @@ header {
     #enderecoBlog {
       max-height: 100%;
       z-index: 1;
+      margin-right: -5rem;
 
       &:focus {
         outline: none;
@@ -272,7 +273,7 @@ header {
 
       svg#nossoBlog {
         order: 1;
-        width: 90px;
+        width: 60px;
       }
 
       #enderecoPortal {
@@ -329,6 +330,8 @@ header {
           width: auto;
           height: 40px;
           padding: 5px 0;
+          margin-right: -5rem !important;
+          margin-left: 10px !important;
           
           .assinatura{ display: none; }
         }
