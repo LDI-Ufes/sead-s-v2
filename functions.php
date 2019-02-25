@@ -242,9 +242,7 @@ $(\'form#your-profile tr.user-comment-shortcuts-wrap\').hide(); // remove the "K
 $(\'form#your-profile tr.user-admin-bar-front-wrap\').hide(); // remove the "Toolbar" field
   
 $(\'form#your-profile tr.user-language-wrap\').hide(); // remove the "Language" field
-   
-$(\'table.form-table tr.user-display-name-wrap\').hide(); // remove the “Display name publicly as” field
-  
+    
 $(\'table.form-table tr.user-url-wrap\').hide();// remove the "Website" field in the "Contact Info" section
 
 $(\'form#your-profile tr.user-profile-picture\').hide(); // remove the "Profile Picture" field
