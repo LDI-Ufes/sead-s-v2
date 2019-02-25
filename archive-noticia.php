@@ -30,7 +30,7 @@
       <section id="informativo">
         <h2><span>Informativos</span></h2>
         <label>Receba as notícias mais importantes, cadastre seu e-mail:</label><br>
-        <?//php if ( dynamic_sidebar('cadastro_informativo') ) : else : endif; ?>
+        <?php if ( dynamic_sidebar('cadastro_informativo') ) : else : endif; ?>
       </section>
 
       <a class="social-media" href="https://www.facebook.com/sead.ufes/" title="Abrir a página da Sead no Facebook em nova aba"><span>Siga-nos também no facebook</span><i class="fab fa-facebook-f"></i></a>
