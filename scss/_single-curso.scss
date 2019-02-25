@@ -57,6 +57,7 @@
         position: absolute;
         background-color: aliceblue;
         padding: 1rem;
+        box-shadow: 2px 2px 10px rgba(0,0,0,.2);
 
         a {
           display: block;
@@ -398,6 +399,7 @@
           position: relative;
           padding: 0;
           width: 225px;
+          box-shadow: none;
         }
       }
     }

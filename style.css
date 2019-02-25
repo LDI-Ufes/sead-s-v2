@@ -2574,7 +2574,8 @@ footer {
         display: none;
         position: absolute;
         background-color: aliceblue;
-        padding: 1rem; }
+        padding: 1rem;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); }
         .curso #conteudo #menu ul a {
           display: block;
           margin: 0.2rem;
@@ -2800,7 +2801,8 @@ footer {
           background: none;
           position: relative;
           padding: 0;
-          width: 225px; }
+          width: 225px;
+          box-shadow: none; }
     .curso div.tabPanel {
       display: inline-block;
       vertical-align: top;
