@@ -14,10 +14,18 @@
             <p><?php echo wp_trim_words( strip_shortcodes( get_the_content() ), 40, ' [...]'); ?></p>
           </li>
       <?php endwhile; ?>
-        <div id="postsNav">
+<!--        <div id="postsNav">;
           <div class="nav-right"><?php next_posts_link('Notícias antigas  >'); ?></div>
           <div class="nav-left"><?php previous_posts_link('<  Notícias recentes'); ?></div>
-        </div>
+        </div>-->
+      <div id="paginacao">  
+        <?php
+        the_posts_pagination(array(
+            'prev_text' => __('< Anterior', 'textdomain'),
+            'next_text' => __('Próxima >', 'textdomain')
+        ));
+        ?>
+      </div>
         <?php wp_reset_postdata(); ?>
       <?php else : ?>
         <p><?php esc_html_e('Nenhuma notícia cadastrada'); ?></p>

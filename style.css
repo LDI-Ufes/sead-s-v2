@@ -1026,7 +1026,7 @@ footer {
   padding: 0;
   padding-top: 3rem; }
 .page-blog #posts .blog-post {
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
   list-style-type: none;
   font-weight: 600; }
   .page-blog #posts .blog-post a .blog-post-header {
@@ -1079,16 +1079,21 @@ footer {
     font-weight: 400;
     line-height: 1.5;
     margin: 1rem 1.5rem; }
-.page-blog #posts #postsNav {
+.page-blog #posts #paginacao {
   color: #c75000;
-  padding: 0 1rem 6rem; }
-  .page-blog #posts #postsNav a:hover {
+  padding: 1rem 1rem 2rem;
+  text-align: center;
+  font-weight: 700; }
+  .page-blog #posts #paginacao a,
+  .page-blog #posts #paginacao span {
+    padding: 0 .5rem; }
+  .page-blog #posts #paginacao a:hover {
     border-bottom: solid 1px #b24800;
     color: #b24800; }
-  .page-blog #posts #postsNav .nav-right {
-    float: right; }
-  .page-blog #posts #postsNav .nav-left {
-    float: left; }
+  .page-blog #posts #paginacao span {
+    color: #1765ab; }
+  .page-blog #posts #paginacao h2 {
+    display: none; }
 .page-blog #informativo {
   margin-top: 2rem;
   padding: 1.5rem; }

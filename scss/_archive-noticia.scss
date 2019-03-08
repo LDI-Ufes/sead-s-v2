@@ -9,7 +9,7 @@
 
   #posts {
     .blog-post {
-      margin-bottom: 5rem;
+      margin-bottom: 4rem;
       list-style-type: none;
       font-weight: $semi-bold;
 
@@ -86,21 +86,28 @@
       }
     }
 
-    #postsNav {
+    #paginacao {
       color: $laranjaMedio;
-      padding: 0 1rem 6rem;
+      padding: 1rem 1rem 2rem;
+      text-align: center;
+      font-weight: $bold;
+
+      a,
+      span {
+        padding: 0 .5rem;
+      }
 
       a:hover {
         border-bottom: solid 1px $laranjaEscuro;
         color: $laranjaEscuro;
       }
 
-      .nav-right {
-        float: right;
+      span {
+        color: $azulRegular;
       }
 
-      .nav-left {
-        float: left;
+      h2 {
+        display: none;
       }
     }
   }
@@ -254,7 +261,7 @@
           margin-bottom: 1rem;
           width: 100%;
 
-            a {
+          a {
             padding: 0;
             display: inline-flex;
             position: relative;
