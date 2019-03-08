@@ -2980,8 +2980,9 @@ footer {
         list-style-type: disc; }
     .noticia article .post-body pre {
       font-family: "Fira Sans", sans;
-      text-align: right;
-      margin-top: 2rem; }
+      margin-top: 2rem;
+      white-space: normal;
+      font-weight: 300; }
     .noticia article .post-body img {
       width: 100%;
       height: auto;
@@ -2995,6 +2996,12 @@ footer {
           .noticia article .post-body .gallery dl dt img {
             margin: 0rem;
             border: none !important; }
+        .noticia article .post-body .gallery dl .gallery-caption {
+          margin-left: 0;
+          font-size: .8rem;
+          font-family: "Fira Sans", sans;
+          line-height: 1.6;
+          margin-bottom: 1rem; }
     .noticia article .post-body a {
       font-style: italic;
       color: #c75000; }
@@ -3033,14 +3040,6 @@ footer {
     .noticia article .links-compartilhamento a {
       margin-left: 0.5rem;
       font-size: 1.5rem; }
-.noticia .lity-container {
-  width: 60%;
-  max-width: unset; }
-  .noticia .lity-container img {
-    height: 100%;
-    margin-left: 50%;
-    margin-right: -50%;
-    transform: translateX(-50%); }
 @media screen and (min-width: 992px) {
   .noticia article h1 {
     font-size: 2.75rem;
