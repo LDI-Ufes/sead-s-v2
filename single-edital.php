@@ -36,6 +36,20 @@
       ";
     }
     ?>
+    
+    <?php
+    $editalForm = get_post_custom_values('edital-form');
+
+    if ($editalForm != "") {
+      echo "
+        <section id='inscricao' class='secao-edital'>
+          <h2>Inscrição</h2>
+          <p>As inscrições podem ser realizadas pelo seguinte formulário:</p>
+          <a role='button' href=' " .$editalForm[0] . " ' target='_blank' title='Abrir o formulário de inscrição em nova aba'>Formulário de Inscrição</a>
+        </section>
+      ";
+    }
+    ?>
 
   </main>
 

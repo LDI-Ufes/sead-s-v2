@@ -166,18 +166,6 @@
     }
   }
   
-  .lity-container{
-    width: 60%;
-    max-width: unset;
-    
-    img{
-      height: 100%;
-      margin-left: 50%;
-      margin-right: -50%;
-      transform: translateX(-50%);
-    }
-  }
-
   @media screen and (min-width: 992px) {
     article {
       h1 {
