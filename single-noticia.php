@@ -37,3 +37,10 @@
 <?php endwhile; ?>
 
 <?php get_footer(); ?>
+
+<script>
+  // aplicando lightbox com o lity
+  $(document).ready(function(){
+    $('.gallery').find('a').attr('data-lity', '');
+  });
+</script>

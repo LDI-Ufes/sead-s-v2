@@ -2945,7 +2945,22 @@ footer {
     .noticia article .post-body p,
     .noticia article .post-body img,
     .noticia article .post-body blockquote {
-      margin-top: 1.5rem; }
+      margin: 1.5rem 0; }
+    .noticia article .post-body h1 {
+      color: #1765ab;
+      font-size: 2rem;
+      padding: 1.5rem 0 0;
+      line-height: 1.2;
+      margin: 0; }
+    .noticia article .post-body h2 {
+      color: #f06c00;
+      font-size: 1.2rem;
+      padding: 1.5rem 0 0;
+      margin: 0; }
+    .noticia article .post-body h3 {
+      color: #1765ab;
+      padding: 1.5rem 0 0;
+      margin: 0; }
     .noticia article .post-body blockquote {
       color: #1765ab;
       font-weight: 700;
@@ -2954,10 +2969,27 @@ footer {
       margin-right: 0;
       margin-left: auto;
       line-height: 1.8; }
+    .noticia article .post-body ul {
+      padding-left: 40px; }
+      .noticia article .post-body ul li {
+        list-style-type: disc; }
+    .noticia article .post-body pre {
+      font-family: "Fira Sans", sans;
+      text-align: right;
+      margin-top: 2rem; }
     .noticia article .post-body img {
       width: 100%;
       height: auto;
       margin-bottom: 1rem; }
+    .noticia article .post-body .gallery {
+      margin: 1.5rem 0 3rem  !important; }
+      .noticia article .post-body .gallery dl {
+        margin: 0; }
+        .noticia article .post-body .gallery dl dt {
+          padding: .3rem; }
+          .noticia article .post-body .gallery dl dt img {
+            margin: 0rem;
+            border: none !important; }
     .noticia article .post-body a {
       font-style: italic;
       color: #c75000; }
@@ -2996,6 +3028,14 @@ footer {
     .noticia article .links-compartilhamento a {
       margin-left: 0.5rem;
       font-size: 1.5rem; }
+.noticia .lity-container {
+  width: 60%;
+  max-width: unset; }
+  .noticia .lity-container img {
+    height: 100%;
+    margin-left: 50%;
+    margin-right: -50%;
+    transform: translateX(-50%); }
 @media screen and (min-width: 992px) {
   .noticia article h1 {
     font-size: 2.75rem;
@@ -3006,7 +3046,7 @@ footer {
     .noticia article .post-body p,
     .noticia article .post-body img,
     .noticia article .post-body blockquote {
-      margin-top: 3rem; }
+      margin: 2rem 0; }
   .noticia article .links-compartilhamento span {
     display: inline-block; }
   .noticia article .links-compartilhamento a {

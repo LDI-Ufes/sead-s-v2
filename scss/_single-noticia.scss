@@ -37,7 +37,28 @@
       p,
       img,
       blockquote {
-        margin-top: 1.5rem;
+        margin: 1.5rem 0;
+      }
+      
+      h1{
+        color: $azulRegular;
+        font-size: 2rem;
+        padding: 1.5rem 0 0;
+        line-height: 1.2;
+        margin: 0;
+      }
+      
+      h2{
+        color: $laranjaRegular;
+        font-size: 1.2rem;
+        padding: 1.5rem 0 0;
+        margin: 0;
+      }
+      
+      h3{
+        color: $azulRegular;
+        padding: 1.5rem 0 0;
+        margin: 0;
       }
 
       blockquote {
@@ -49,11 +70,40 @@
         margin-left: auto;
         line-height: 1.8;
       }
+      
+      ul{
+        padding-left: 40px;
+        
+        li{ list-style-type: disc; }
+      }
+      
+      pre{ 
+        font-family: $fira;
+        text-align: right;
+        margin-top: 2rem;
+      }
 
       img {
         width: 100%;
         height: auto;
         margin-bottom: 1rem;
+      }
+      
+      .gallery{
+        margin: 1.5rem 0 3rem  !important;
+        
+        dl{
+          margin: 0;
+          
+          dt{
+            padding: .3rem;
+
+            img{
+              margin: 0rem;
+              border: none !important;
+            }
+          }
+        }
       }
 
       a {
@@ -115,6 +165,18 @@
       }
     }
   }
+  
+  .lity-container{
+    width: 60%;
+    max-width: unset;
+    
+    img{
+      height: 100%;
+      margin-left: 50%;
+      margin-right: -50%;
+      transform: translateX(-50%);
+    }
+  }
 
   @media screen and (min-width: 992px) {
     article {
@@ -130,7 +192,7 @@
         p,
         img,
         blockquote {
-          margin-top: 3rem;
+          margin: 2rem 0;
         }
       }
 
