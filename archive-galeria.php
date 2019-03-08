@@ -14,11 +14,11 @@
         'order' => 'DESC'
             ));
 
-    $ano = isset($_GET['ano-evento']) ? filter_var($_GET['ano-evento'], FILTER_SANITIZE_URL) : '2018';
+    $ano = isset($_GET['ano-evento']) ? filter_var($_GET['ano-evento'], FILTER_SANITIZE_URL) : '2019';
 
     foreach ($terms as $term) {
         $ativo = ($ano == $term->name) ? ' class="active" ' : '';
-        echo '<a id="' . $term->name . '" href="<?php echo site_url(); ?>/galeria/?ano-evento=' . $term->name . '" ' . $ativo . ' >' . $term->name . '</a>';
+        echo '<a id="' . $term->name . '" href="/galeria/?ano-evento=' . $term->name . '" ' . $ativo . ' >' . $term->name . '</a>';
     }
     ?>
   </section>
