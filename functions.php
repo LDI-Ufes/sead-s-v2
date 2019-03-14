@@ -195,7 +195,7 @@ add_action('pre_get_posts', 'paginate_post_type_noticia', 1, 1);
 function paginate_post_type_noticia($query)
 {
     if (! is_admin() && is_post_type_archive('noticia') && $query->is_main_query()) {
-        $query->set('posts_per_page', 4);
+        $query->set('posts_per_page', 6);
     }
 }
 
@@ -204,7 +204,7 @@ add_action('pre_get_posts', 'paginate_search', 1, 1);
 function paginate_search($query)
 {
     if ($query->is_search()) {
-        $query->set('posts_per_page', 4);
+        $query->set('posts_per_page', 6);
     }
 }
 
