@@ -300,7 +300,7 @@
             array(
                 'taxonomy' => 'curso-noticia',
                 'field' => 'slug',
-                'terms' => 'Lestras Italiano',
+                'terms' => 'Letras Italiano',
             ),
         ),
     ));

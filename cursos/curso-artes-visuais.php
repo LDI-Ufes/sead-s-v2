@@ -355,7 +355,6 @@
         <h3>2014/2 - 2019/1</h3>
         <p><strong>Coordenador do Curso:</strong> Andreia Chiari Lins</p>
         <p><strong>Polos atendidos:</strong> Afonso Claudio, Aracruz, Cachoeiro de Itapemirim, Colatina, Domingos Martins, Itapemirim, Iúna, Linhares, Pinheiros, Piúma, Santa Teresa e Vargem Alta.</p>
-        <p><strong>Seleção: </strong><a href="http://www.sead.ufes.br/conteudo/processo-seletivo-para-ingresso-em-cursos-de-graduação-na-modalidade-distância-0" target="_blank" title="Abrir processo seletivo em nova aba">Ver processo seletivo</a> (encerrado)</p>
       </div>
 
     </section>
