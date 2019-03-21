@@ -31,9 +31,10 @@
       $.each(data.polo, function (i, municipio) {
         var lItem = '<li id="'+ municipio.id +'">' + '<button class="municipioTitulo">' + municipio.nome + '</button>' +
                       '<div class="info-polo">' +
-                        '<i class="fa fa-user"></i> <b>Coordenador</b><br>' + municipio.coord + '<br><br>' +
+                        '<i class="fa fa-user" style="margin-right:5px;"></i> <b>Coordenador</b><br>' + municipio.coord + '<br><br>' +
                         '<i class="fa fa-envelope" style="margin-right:5px;"></i> <b>E-mail(s)</b> <br>' + municipio.email + '<br><br>' +
-                        '<i class="fa fa-phone" style="margin-right:5px;"></i> <b>Telefone(s)</b> <br>' + municipio.telefone +
+                        '<i class="fa fa-phone" style="margin-right:5px;"></i> <b>Telefone(s)</b> <br>' + municipio.telefone + '<br><br>' +
+                        '<i class="fas fa-map-marker-alt" style="margin-right:5px;"></i> <b>Endereço</b> <br>' + municipio.endereco +
                       '</div>' +
                     '</li>';
         $(lItem).appendTo("#polos");

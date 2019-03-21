@@ -2271,7 +2271,9 @@ footer {
         .page-polos #mapaInterativo .popoverMunicipios {
           width: 45%; }
           .page-polos #mapaInterativo .popoverMunicipios p:after {
-            width: 32rem; } }
+            width: 32rem; }
+        .page-polos #mapaInterativo #polos li .info-polo {
+          max-width: 300px; } }
   @media screen and (max-width: 991px) {
     .page-polos #mapaInterativo .mapaES {
       display: none; } }
