@@ -42,9 +42,8 @@
       <h2>Relação de Dirigentes</h2>
       <ul id="dirigentes">
         <li><strong>Secretária de Ensino a Distância e Coordenadora UAB/ES</strong><br>Maria José Campos Rodrigues</li>
-        <li><strong>Diretor Financeiro</strong><br>Mauro Pantoja Ferreira</li>
+        <li><strong>Coordenação Financeira</strong><br>Mauro Pantoja Ferreira</li>
         <li><strong>Diretor Acadêmico e Coordenador Adjunto UAB/ES</strong><br>Júlio Francelino Ferreira Filho</li>
-        <li><strong>Diretor de Tecnologia da Informação e Comunicação</strong><br>Luiz Otavio Bastos Rebello</li>
       </ul>
 
       <h2>Infraestrutura</h2>
@@ -70,7 +69,8 @@
             <strong>Equipe</strong><br>
             Leonardo José Gomes Kolaga<br>
             Magno Wesley Buscaroli<br>
-            Raysa Calegari Aguiar
+            Raysa Calegari Aguiar<br>
+            Enyo Soares Pereira
           </p>
         </li>
         <li>
@@ -82,7 +82,7 @@
             Coordenadora de Diagramação: Thaís Imbroisi<br>
             Coordenadora de Ilustração e Multimídia: Priscilla Garone<br>
             Coordenador de Web: Edson Rufino<br><br>
-            <strong>Mais informações: </strong><a href="https://ldi.eadufes.org" title="Ir para o sítio do LDI">Visite o sítio do LDI</a>
+            <strong>Mais informações: </strong><a href="https://ldi.eadufes.org" title="Ir para o sítio do LDI" target="_blank">Visite o sítio do LDI</a>
           </p>
         </li>
       </ul>

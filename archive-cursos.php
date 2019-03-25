@@ -4,7 +4,7 @@
   <section class="breadcrumb">Você está em: <span>Cursos</span></section>
   <h1>Cursos</h1>
 
-  <span class="alerta">Os cursos EaD da Ufes são por turma única e não possuem oferta regular.</span>
+  <span class="alerta">Os cursos EaD da Ufes não possuem oferta regular.</span>
   <span><i class="fas fa-exclamation-circle"></i>Para ver os cursos que estão com processo seletivo aberto, fique ligado em nossos <a href="<?php echo site_url(); ?>/editais" title="Ir para Editais">Editais <i class="fas fa-angle-double-right"></i></a> e participe de processos seletivos.</span>
 
   <div id="abas">
