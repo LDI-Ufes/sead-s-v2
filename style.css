@@ -191,7 +191,8 @@ header {
       display: inline-flex;
       justify-content: flex-end;
       align-items: center;
-      color: white; }
+      color: white;
+      position: relative; }
       header #barraAuxiliar .caixa #ufes {
         flex-grow: 10; }
         header #barraAuxiliar .caixa #ufes a:hover span {
@@ -208,8 +209,7 @@ header {
         @media screen and (max-width: 992px) {
           header #barraAuxiliar .caixa #ufes {
             position: absolute;
-            left: 0;
-            top: 2.7rem; }
+            left: 0; }
             header #barraAuxiliar .caixa #ufes span {
               display: none; } }
     header #barraAuxiliar .btoMenu {

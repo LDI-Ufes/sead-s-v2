@@ -81,6 +81,7 @@ header {
       justify-content: flex-end;
       align-items: center;
       color: white;
+      position: relative;
 
       #ufes{ 
         flex-grow: 10;
@@ -106,7 +107,6 @@ header {
         @media screen and (max-width: 992px) {
           position: absolute;
           left: 0;
-          top: 2.7rem;
 
           span{ display: none;}
         }
