@@ -65,7 +65,8 @@
         padding-top: 0.8rem;
 
         h3 {
-          width: 30%;
+          width: calc(30% - .5rem);
+          padding-right: .5rem;
           font-weight: $regular;
           color: black;
           font-size: 1rem;
