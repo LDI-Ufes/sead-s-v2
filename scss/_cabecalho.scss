@@ -84,7 +84,7 @@ header {
       position: relative;
 
       #ufes{ 
-        flex-grow: 10;
+        flex-grow: 10; 
 
         a:hover{
           span{
@@ -107,6 +107,7 @@ header {
         @media screen and (max-width: 992px) {
           position: absolute;
           left: 0;
+          top: .6rem;
 
           span{ display: none;}
         }
@@ -135,30 +136,6 @@ header {
     justify-content: flex-end;
   }
 
-  #topoBlog {
-    #enderecoBlog {
-      max-height: 100%;
-      z-index: 1;
-      margin-right: -5rem;
-
-      &:focus {
-        outline: none;
-      }
-    }
-
-    #nossoBlog {
-      width: auto;
-    }
-
-    form {
-      margin: 0;
-    }
-
-    #enderecoPortal {
-      margin-left: 1.5rem;
-    }
-  }
-
   .topo {
     order: 3;
 
@@ -170,10 +147,6 @@ header {
       display: inline-flex;
       flex-direction: column;
       justify-content: center;
-
-      &#enderecoBlog {
-        flex-direction: row;
-      }
     }
   }
 
@@ -209,32 +182,6 @@ header {
       }
     }
 
-    #topoBlog {
-      svg#nossoBlog {
-        width: 260px;
-        transition: margin-top 0.5s;
-        padding: 0;
-        margin-top: 40px;
-      }
-
-      #menuPrincipal {
-        flex-grow: 10;
-        display: flex;
-        justify-content: flex-end;
-
-        > ul > li {
-          height: calc(100px - 2.4rem);
-        }
-      }
-
-      &.formPesquisaAtivo {
-        form {
-          flex-grow: 10;
-          margin-right: 20px;
-        }
-      }
-    }
-
     .topo {
       display: inline-flex;
       position: relative;
@@ -261,52 +208,6 @@ header {
 
       .btoMenu {
         order: 3;
-      }
-    }
-
-    #topoBlog {
-      svg#nossoBlog,
-      svg.seadUfes {
-        margin: 10px 20px;
-        height: 50px; 
-      }
-
-      svg#nossoBlog {
-        order: 1;
-        width: 60px;
-      }
-
-      #enderecoPortal {
-        position: absolute;
-        left: -9999px;
-      }
-
-      .btoMenu {
-        order: 3;
-      }
-
-      .menu {
-        order: 4;
-
-        .menuAberto {
-          > .temSubmenu {
-            > span i.fas {
-              display: none;
-            }
-
-            > ul.menuSuspenso {
-              position: relative;
-              transform: translateX(0);
-              z-index: 0;
-
-              > .temSubmenu {
-                > .menuSuspenso {
-                  margin: 0 0 10px 0;
-                }
-              }
-            }
-          }
-        }
       }
     }
 

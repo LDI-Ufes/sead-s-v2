@@ -1,4 +1,4 @@
-<?php get_header('blog'); ?>
+<?php get_header('principal'); ?>
 
 <main id="conteudoPrincipal" class="page-blog">
   <div class="container">

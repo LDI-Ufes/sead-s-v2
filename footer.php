@@ -28,14 +28,19 @@
         <li><a href="<?php echo site_url(); ?>/editais" title="Ir para Editais">Editais</a></li>
         <li><a href="<?php echo site_url(); ?>/cursos" title="Ir para Cursos">Cursos</a></li>
         <li><a href="<?php echo site_url(); ?>/polos" title="Ir para Polos">Polos</a></li>
-        <li><a href="<?php echo site_url(); ?>/blog" title="Ir para Notícias">Notícias</a></li>
+        <li>Notícias
+          <ul class="subitens">
+            <li><a href="<?php echo site_url(); ?>/noticias" title="Ir para Notícias">Últimas notícias</a></li>
+            <li><a href="<?php echo site_url(); ?>/fotos" title="Ir para Galeria de fotos">Galeria de fotos</a></li>
+          </ul>
+        </li>
       </ul>
     </section>
 
     <section>
       <h4>Fale conosco</h4>
       <p>Telefone: (27) 4009-2208</p>
-      <p>E-mail: <a href="mailto: diretoria.sead@institucional.ufes.br">diretoria.sead@institucional.ufes.br</a></p>
+      <p>E-mail: <a href="mailto: diretoria.sead@institucional.ufes.br">diretoria.sead@ufes.br</a></p>
       <p style="margin-top: .5rem;">Av. Fernando Ferrari, 514, Vitória - ES <br> Térreo do Teatro Universitário - Ufes Campus Goiabeiras</p>
       <p class="enderecoLink">
         <span>

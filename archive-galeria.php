@@ -1,8 +1,8 @@
-<?php get_header('blog'); ?>
+<?php get_header('principal'); ?>
 
 <main id="conteudoPrincipal" class="container page page-galeria">
-  <section class="breadcrumb">Você está em: <a href="<?php echo site_url(); ?>/blog">Blog</a><i class="fas fa-greater-than"></i><span>Galeria de Imagens</span></section>
-  <h1>Galeria de Imagens</h1>
+  <section class="breadcrumb">Você está em: <a href="<?php echo site_url(); ?>/noticias">Notícias</a><i class="fas fa-greater-than"></i><span>Galeria de Fotos</span></section>
+  <h1>Galeria de Fotos</h1>
 
   <section id="filtros">
     <span>Navegue por ano: </span>
@@ -18,7 +18,7 @@
 
     foreach ($terms as $term) {
         $ativo = ($ano == $term->name) ? ' class="active" ' : '';
-        echo '<a id="' . $term->name . '" href="/galeria/?ano-evento=' . $term->name . '" ' . $ativo . ' >' . $term->name . '</a>';
+        echo '<a id="' . $term->name . '" href="/fotos/?ano-evento=' . $term->name . '" ' . $ativo . ' >' . $term->name . '</a>';
     }
     ?>
   </section>

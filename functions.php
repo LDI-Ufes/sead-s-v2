@@ -52,7 +52,7 @@ function create_post_type()
         'thumbnail'
       ),
       'rewrite' => array(
-        'slug' => 'blog',
+        'slug' => 'noticias',
       )
     )
   );
@@ -72,7 +72,7 @@ function create_post_type()
         'editor'
       ),
       'rewrite' => array(
-        'slug' => 'galeria',
+        'slug' => 'fotos',
       )
     )
   );

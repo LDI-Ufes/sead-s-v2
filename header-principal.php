@@ -44,7 +44,13 @@
               <li><a href="<?php echo site_url(); ?>/editais" title="Ir para Editais">Editais</a></li>
               <li><a href="<?php echo site_url(); ?>/cursos" title="Ir para Cursos">Cursos</a></li>
               <li><a href="<?php echo site_url(); ?>/polos" title="Ir para Polos">Polos</a></li>
-              <li><a href="<?php echo site_url(); ?>/blog" title="Ir para Notícias">Notícias</a></li>
+              <li class="temSubmenu">
+                <span>Notícias <i class="fas fa-chevron-down"></i></span>
+                <ul class="menuSuspenso">
+                  <li><a href="<?php echo site_url(); ?>/noticias" title="Ir para Notícias">Últimas notícias</a></li>
+                  <li><a href="<?php echo site_url(); ?>/fotos" title="Ir para Galeria de fotos">Galeria de fotos</a></li>
+                </ul>
+              </li>
             </ul>
           </nav>
           <?php get_search_form() ?>
