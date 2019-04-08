@@ -19,9 +19,9 @@
 
       <div id='situacao'>
         <p>
-          <strong>Situação: </strong>Oferta 2014/2 em andamento, previsão de conclusão em 2019/1.
-          <!--<br>Aprovado pelo CEPE em 23/07/2014 por meio da Resolução 33/2014.-->
-          <br><strong>Previsão de reoferta em 2019.</strong>
+          <strong>Situação: </strong>
+          <br>Oferta 2014/2 em andamento, previsão de conclusão em 2019/1.
+          <br><strong>Sem previsão de nova reoferta.</strong>
         </p>
       </div>
     </section>

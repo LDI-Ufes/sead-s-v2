@@ -2524,6 +2524,13 @@ footer {
     .curso #info-curso p {
       max-width: unset;
       margin: 0; }
+    .curso #info-curso div#situacao {
+      color: #ffa161; }
+      .curso #info-curso div#situacao p:before {
+        content: '\f06a';
+        font-weight: 700;
+        font-family: "Font Awesome 5 Free";
+        margin-right: .5rem; }
   .curso #conteudo {
     border: none;
     position: relative; }
