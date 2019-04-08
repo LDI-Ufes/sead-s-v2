@@ -12,7 +12,7 @@
     <p><strong>Secretaria do curso</strong><br>Para assuntos relacionados à processos, tais como matrículas, termos de estágio, solicitação de histórico escolar, trancamento de curso, etc.</p>
     <p><strong>Professor e tutores de disciplina</strong><br>Para assuntos relacionados ao conteúdo, prazos e ao modo de avaliação de disciplinas específicas, contate o professor. Para as atividades presencias, contate o tutor presencial; já para as provas, atividades e o lançamento dessas notas na plataforma, contate o tutor a distância. O contato com professores e tutores se dá através do AVA-Moodle.</p>
     
-    <span class="alerta">Caso sua demanda não esteja entre as opções acima, ligue para a Secretaria Geral da SEAD, através do número <strong style="white-space: nowrap;">(27) 4009-2999</strong></span>
+    <span class="alerta">Caso sua demanda não esteja entre as opções acima, ligue para a Secretaria Geral da SEAD, através do número <strong style="white-space: nowrap;">(27) 4009-2208</strong></span>
     
     <h2>Graduação</h2>
     
