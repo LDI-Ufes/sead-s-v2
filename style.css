@@ -728,8 +728,11 @@ footer {
     margin-bottom: 3rem;
     /* blocos */ }
     .inicio #noticias h2 {
-      color: #1765ab;
-      padding: 1rem; }
+      color: #043166;
+      padding: 1rem;
+      margin-bottom: 0;
+      font-style: italic;
+      font-size: 2.5rem; }
     .inicio #noticias #blocos {
       display: flex;
       flex-wrap: wrap;

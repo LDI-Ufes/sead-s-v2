@@ -2,13 +2,6 @@
 
 <main id="conteudoPrincipal" class="inicio">
 
-  <section id="banner">
-    <div class="container">
-      <h2>os materiais do EaD da Ufes estão disponíveis em nosso <span>Acervo Digital</span></h2>
-      <a href="https://acervodigital.eadufes.org" target="_blank" title="Abrir o Acervo Digital em nova aba">Conheça o Acervo Sead</a>
-    </div>
-  </section>
-
   <div class="container">
 
     <section id="ead-na-ufes">
@@ -67,24 +60,27 @@
 
   <div class="container">
     <section id="noticias">
-      <?php $ultimas_noticias = new WP_Query(array('post_type' => 'noticia', 'posts_per_page' => 4));
-        if ($ultimas_noticias->have_posts()) : while ($ultimas_noticias->have_posts()) : $ultimas_noticias->the_post();?>
+      <h2>Notícias</h2>
+      <div id="blocos">
+        <?php $ultimas_noticias = new WP_Query(array('post_type' => 'noticia', 'posts_per_page' => 4));
+          if ($ultimas_noticias->have_posts()) : while ($ultimas_noticias->have_posts()) : $ultimas_noticias->the_post();?>
 
-          <a class="noticia" href="<?php the_permalink() ?>" title="Ir para notícia: <?php the_title(); ?>">
-            <?php the_post_thumbnail(); ?>
-            <h3><?php the_title(); ?></h3>
-          </a>
+            <a class="noticia" href="<?php the_permalink() ?>" title="Ir para notícia: <?php the_title(); ?>">
+              <?php the_post_thumbnail(); ?>
+              <h3><?php the_title(); ?></h3>
+            </a>
 
-        <?php endwhile; wp_reset_postdata(); else : ?>
+          <?php endwhile; wp_reset_postdata(); else : ?>
 
-        <!--<p>Sem notícias.</p>-->
+          <!--<p>Sem notícias.</p>-->
 
-      <?php endif; ?>
+        <?php endif; ?>
 
-      <div class="confira-mais">
-        <h2>Confira mais do que acontece nos polos:</h2>
-        <a href="https://www.facebook.com/sead.ufes/" target="_blank" title="Abrir página da Sead no Facebook em nova aba"><span class="somente-leitura">Página da Sead no Facebook</span><i class="fab fa-facebook-f"></i></a>
-        <a href="<?php echo site_url(); ?>/blog" title="Ir para a página de notícias"><span class="somente-leitura">Página de notícias</span><?php include 'svg/nossoBlog.svg' ?></a>
+        <div class="confira-mais">
+          <span>Confira mais do que acontece nos polos:</span>
+          <a href="https://www.facebook.com/sead.ufes/" target="_blank" title="Abrir página da Sead no Facebook em nova aba"><span class="somente-leitura">Página da Sead no Facebook</span><i class="fab fa-facebook-f"></i></a>
+          <a href="<?php echo site_url(); ?>/blog" title="Ir para a página de notícias"><span class="somente-leitura">Página de notícias</span><?php include 'svg/nossoBlog.svg' ?></a>
+        </div>
       </div>
 
     </section>
