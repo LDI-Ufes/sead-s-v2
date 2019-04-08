@@ -41,9 +41,10 @@
     <section id="estrutura">
       <h2>Relação de Dirigentes</h2>
       <ul id="dirigentes">
-        <li><strong>Secretária de Ensino a Distância e Coordenadora UAB/ES</strong><br>Maria José Campos Rodrigues</li>
+        <li><strong>Secretária de Ensino a Distância e Coordenadora UAB/UFES</strong><br>Maria José Campos Rodrigues</li>
         <li><strong>Coordenação Financeira</strong><br>Mauro Pantoja Ferreira</li>
-        <li><strong>Diretor Acadêmico e Coordenador Adjunto UAB/ES</strong><br>Júlio Francelino Ferreira Filho</li>
+        <li><strong>Diretor Acadêmico e Coordenador Adjunto UAB/UFES</strong><br>Júlio Francelino Ferreira Filho</li>
+        <li><strong>Diretor de Tecnologia da Informação e Comunicação</strong><br>Luiz Otávio Bastos Rebello</li>
       </ul>
 
       <h2>Infraestrutura</h2>
@@ -51,26 +52,24 @@
         <li>
           <h3>Coordenação de Tecnologia de Informação</h3>
           <p>A Coordenação de TI provê soluções de Tecnologia da Informação (TI) para o alcance dos objetivos da Sead/Ufes. É composta por uma equipe de técnicos e analistas que desempenham tarefas de Desenvolvimento e administração de serviços e sistemas para apoio à EaD e demais atividades-meio; Gerenciamento de infraestrutura física e virtual e Atendimento interno.</p>
-          <p>
-            <strong>Coordenação</strong><br>
+          <p>O Setor de Webconferência é responsável pelo suporte e atribuições relacionadas à elaboração de webaulas (gravação, edição e guarda de conteúdo intelectual criado na Sead/Ufes), transmissão em tempo real com interação entre interlocutores, tanto para aulas on-line, quanto defesas de bancas de programas da Ufes e de outras IES nacionais e estrangeiras de Mestrado, Doutorado, e, também, de eventos como conferências, palestras, seminários e simpósios, entre outros.</p>
+          <p><strong>Coordenação</strong><br>
             Fernando Lyrio Annecchini<br>
-            <strong>Equipe</strong><br>
+          </p>
+          <p>
+            <strong>Equipe de suporte</strong><br>
             Eduardo França<br>
             Marco Aurélio Cardoso<br>
             Paulo de Lacerda<br>
             Ramony Ramos<br>
             Wagner Perin
           </p>
-        </li>
-        <li>
-          <h3>Webconferência</h3>
-          <p>O Setor de Webconferência é responsável pelo suporte e atribuições relacionadas à elaboração de webaulas (gravação, edição e guarda de conteúdo intelectual criado na Sead/Ufes), transmissão em tempo real com interação entre interlocutores, tanto para aulas on-line, quanto defesas de bancas de programas da Ufes e de outras IES nacionais e estrangeiras de Mestrado, Doutorado, e, também, de eventos como conferências, palestras, seminários e simpósios, entre outros.</p>
           <p>
-            <strong>Equipe</strong><br>
+            <strong>Equipe de Webconferências</strong><br>
+            Enyo Soares Pereira<br>
             Leonardo José Gomes Kolaga<br>
             Magno Wesley Buscaroli<br>
-            Raysa Calegari Aguiar<br>
-            Enyo Soares Pereira
+            Raysa Calegari Aguiar
           </p>
         </li>
         <li>
@@ -85,23 +84,14 @@
             <strong>Mais informações: </strong><a href="https://ldi.eadufes.org" title="Ir para o sítio do LDI" target="_blank">Visite o sítio do LDI</a>
           </p>
         </li>
+        <li>
+          <h3>Secretaria acadêmica</h3>
+          <p>A referida assessoria tem estrutura organizacional de sistema único e funciona com padronização de racionalização de seus serviços. É direcionada pelo princípio da relação colaborativa e da impessoalidade no relacionamento institucional e tem em vista regularizar, desenvolver a consolidar as ações e os resultados no âmbito dos três eixos acadêmicos: ensino, extensão e pesquisa.</p>
+          <p>
+            <strong>Mais informações: </strong><a href="<?php echo site_url(); ?>/contatos" title="Ir para Contatos" target="_blank">Contatos das secretarias de curso</a>
+          </p>
       </ul>
       
-<!--      Planta da Sead
-      
-      <div id="planta-sead">
-        <span>Quer conhecer melhor nossa estrutura?</span>
-        <button id="abrir-modal">Abrir mapa detalhado</button>
-        <img id="planta" src="<?php echo get_template_directory_uri(); ?>/img/planta-sead.png">
-
-        <div id="modal">
-          <div id="modal-content" role="dialog" aria-modal="true">
-            <img id="modal-img" src="<?php echo get_template_directory_uri(); ?>/img/planta-detalhada.png" title="Planta da Sead" tabindex='1'>
-            <button id="close">&times;</button>
-          </div>
-        </div>
-      </div>-->
-
     </section> <!-- estrutura -->
   </div> <!-- container -->
 </main>
