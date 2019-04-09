@@ -6,27 +6,27 @@
 
     <section id="ead-na-ufes">
       <h2>Você conhece a EaD da Ufes?</h2>
-      <p>Nós somos a Secretaria responsável por promover ações educativas e de formação da EaD na Ufes. Fique atento aos editais para mais informações de cada curso!</p>
+      <p>Nós somos a Secretaria responsável por promover ações educativas e de formação da EaD na Ufes. Fique atento aos editais para mais informações sobre cada curso!</p>
       <div class="topico-ead">
         <figure>
           <?php include 'svg/ingresso.svg' ?>
           <figcaption>Ingresso</figcaption>
         </figure>
-        <p>O ingresso na EaD da Ufes ocorre por processos seletivos ou editais.</p>
+        <p>O ingresso nos cursos ofertados na modalidade EaD pela Ufes ocorre por processos seletivos ou editais.</p>
       </div>
       <div class="topico-ead">
         <figure>
           <?php include 'svg/ava.svg' ?>
           <figcaption>AVA</figcaption>
         </figure>
-        <p>Ambiente Virtual de Aprendizagem onde acontece a interação e distribuição do conteúdo das disciplinas.</p>
+        <p>Ambiente Virtual de Aprendizagem no qual acontece a interação e a distribuição do conteúdo das disciplinas.</p>
       </div>
       <div class="topico-ead">
         <figure>
           <?php include 'svg/polos-uab.svg' ?>
           <figcaption>Polos UAB</figcaption>
         </figure>
-        <p>Os encontros semanais acontecem nos diversos polos municipais do Estado.</p>
+        <p>Os encontros semanais acontecem nos 27 Polos Municipais de Apoio Presencial da UAB no estado.</p>
       </div>
     </section>
 

@@ -15,12 +15,11 @@
         <p><strong>Formação: </strong>Licenciatura</p>
         <p><strong>Duração: </strong>4 anos (8 semestres)</p>
         <p><strong>Modalidade: </strong>Semipresencial</p>
-        <!--<p><strong>Conceito Geral: </strong>3</p>-->
       </div>
 
       <div id='situacao'>
         <p><strong>Situação: </strong>
-          <br>Oferta 2014/2 em andamento, previsão de conclusão em 2019/1.
+          <br>Oferta 2014/2 em fase de conclusão.
           <br><strong>Sem previsão de nova reoferta.</strong>
         </p>
       </div>
@@ -47,9 +46,7 @@
 
       <div id='matriz'>
         <h2 id='curriculo'>Duração do curso</h2>
-        <p>Carga horária total de integralização curricular: 3505 horas<br>
-          Estágio Curricular Supervisionado Obrigatório: 210 horas
-        </p>
+        <p>Carga horária total de integralização curricular: 3505 horas</p>
 
         <h2>Matriz Curricular</h2>
 
@@ -173,19 +170,10 @@
       <div id='professores'>
         <h2 id='corpo-docente'>Administração acadêmica</h2>
         <p><strong>Coordenação:</strong> Luciana Dias Thomaz</p>
-        <p>Possui graduação em Ciências Biológicas pela Universidade Federal do Espírito Santo (1987), Mestrado e Doutorado em Ciências Biológicas (Biologia Vegetal) pela Universidade Estadual Paulista (UNESP - 1991 e1996). Possui Pós-Doutorado em Desenvolvimento Rural Sustentável pela Universidade Federal do Paraná (2006). Atualmente é professora Titular da Universidade Federal do Espírito Santo e Curadora do Herbário VIES. Tem experiência na área de Botânica, com ênfase em Florística e Estrutura de Mata Atlântica, atuando principalmente nos seguintes tema</p>
+        <p>Possui graduação em Ciências Biológicas pela Universidade Federal do Espírito Santo (1987), Mestrado e Doutorado em Ciências Biológicas (Biologia Vegetal) pela Universidade Estadual Paulista (UNESP - 1991 e1996). Possui Pós-Doutorado em Desenvolvimento Rural Sustentável pela Universidade Federal do Paraná (2006). Atualmente é professora Titular da Universidade Federal do Espírito Santo e Curadora do Herbário VIES. Tem experiência na área de Botânica, com ênfase em Florística e Estrutura de Mata Atlântica.</p>
 
         <p><strong>Vice coordenação:</strong> Valquiria Ferreira Dutra</p>
 
-<!--        <p><strong>Colegiado do curso:</strong>
-          <br>Nome
-
-        </p>
-
-        <p><strong>Núcleo Docente Estruturante:</strong>
-          <br>Nome
-
-        </p>-->
 
         <h2>Corpo docente</h2>
 
@@ -296,7 +284,7 @@
 
         <p>O currículo do curso de Licenciatura em Ciências Biológicas, na modalidade EAD, está elaborado de maneira que o egresso desenvolva as seguintes competências e habilidades:</p>
         <p>- formar professores de Biologia e de Ciências para o Ensino Fundamental e Médio com visão holística das Ciências Biológicas, familiarizados com o desenvolvimento das ideias e com a metodologia científica, em seus múltiplos aspectos teóricos e práticos;</p>
-        <p>- formar profissionais de Biologia (Licenciado) capazes de debater ideias com a comunidade científica e com a população em geral.</p>
+        <p>- formar profissionais de Biologia (licenciados) capazes de debater ideias com a comunidade científica e com a população em geral.</p>
         <p>- formar biólogos especializados para o exercício do magistério nos níveis fundamental e médio em instituições públicas e privadas e das atividades de pesquisa, nas áreas de saúde, meio ambiente e biotecnologia;</p>
         <p>- garantir a interação entre ensino, pesquisa e extensão para situações socioeconômicas diversas existentes no Espírito Santo.</p>
         <p>- capacitar professores para um ensino de Ciências Biológicas de forma integrada e voltada para a formação de cidadãos com a verdadeira compreensão de história da vida;</p>
@@ -310,9 +298,9 @@
       <div>
         <h2 id='ofertas-anteriores'>Ofertas anteriores</h2>
 
-        <h3>2014/2 - 2019/1</h3>
+        <h3>2014/2</h3>
         <p><strong>Coordenador do Curso:</strong> Luciana Dias Thomaz</p>
-        <p><strong>Polos atendidos:</strong> ? </p>
+        <p><strong>Polos atendidos:</strong> Ecoporanga, Itapemirim, Iúna, Mimoso Do Sul, Pinheiros, Vargem Alta.</p>
       </div>
 
     </section>

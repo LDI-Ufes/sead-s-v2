@@ -7,16 +7,16 @@
       "secr_email": "artesvisuais.ead@gmail.com",
       "secr_telefone": "(27) 4009-2091",
       "coord": "Erick Orloski",
-      "coord_telefone": "(27) 4009-2070"
+      "coord_telefone": ""
     },
     {
       "id": "Biologia",
       "curso": "Biologia",
       "secr": "Jaqueline Ferreira Almeida",
       "secr_email": "biologia.ead.ufes@gmail.com",
-      "secr_telefone": "(27) 4009-2064",
+      "secr_telefone": "(27) 4009-2091",
       "coord": "Luciana Dias Thomaz",
-      "coord_telefone": "(27) 4009-2091"
+      "coord_telefone": ""
     },
     {
       "id": "Filosofia",
@@ -25,7 +25,7 @@
       "secr_email": "licfilosofia.ead@gmail.com",
       "secr_telefone": "(27) 4009-2094",
       "coord": "Claudia Pereira do Carmo Murta",
-      "coord_telefone": "(27) 4009-2063"
+      "coord_telefone": ""
     },
     {
       "id": "Fisica",
@@ -34,16 +34,16 @@
       "secr_email": "secretariafisicaead@gmail.com",
       "secr_telefone": "(27) 4009-5304",
       "coord": "Valério Marra",
-      "coord_telefone": "(27) 4009-5304"
+      "coord_telefone": ""
     },
     {
       "id": "Historia",
       "curso": "História",
       "secr": "Sônia Maria Calisto",
       "secr_email": "historia.ead.ufes@gmail.com",
-      "secr_telefone": "(27) 4009-2228",
+      "secr_telefone": "(27) 4009-2091",
       "coord": "Geraldo Antônio Soares",
-      "coord_telefone": "(27) 4009-2096"
+      "coord_telefone": ""
     },
     {
       "id": "Pedagogia",
@@ -52,7 +52,7 @@
       "secr_email": "eadedpedufes@gmail.com",
       "secr_telefone": "(27) 4009-2091",
       "coord": "Iguatemi Santos Rangel",
-      "coord_telefone": "(27) 4009-2091"
+      "coord_telefone": ""
     },
     {
       "id": "Quimica",
@@ -61,16 +61,16 @@
       "secr_email": "quimica1.ead@gmail.com",
       "secr_telefone": "(27) 4009-2064",
       "coord": "Pedro Mitsuo Takahashi",
-      "coord_telefone": "(27) 4009-7946"
+      "coord_telefone": ""
     },
     {
       "id": "LetrasItaliano",
       "curso": "Letras Italiano",
       "secr": "Bruna Rodrigues Tabachi",
       "secr_email": "letrasitalianoufes@gmail.com",
-      "secr_telefone": "(27) 4009-2094 | (27) 4009-2063",
+      "secr_telefone": "(27) 4009-2063",
       "coord": "Mariza Silva de Moraes",
-      "coord_telefone": "(27) 4009-2094 | (27) 4009-2063"
+      "coord_telefone": ""
     }
    ],
    
@@ -82,16 +82,16 @@
       "secr_email": "coormatematicanapratica@gmail.com",
       "secr_telefone": "(27) 4009-2064",
       "coord": "Jaqueline Magalhães Brum",
-      "coord_telefone": "(27) 4009-2096"
+      "coord_telefone": ""
     },
     {
       "id": "GestaoEmSaude",
       "curso": "Gestão em Saúde",
       "secr": "Lidia Fuligno Pantoja",
       "secr_email": "gestaosaudeead@gmail.com",
-      "secr_telefone": "(27) 4009-2064",
+      "secr_telefone": "(27) 4009-2096",
       "coord": "Leila Massaroni",
-      "coord_telefone": "(27) 4009-2096"
+      "coord_telefone": ""
     }
    ]
 }

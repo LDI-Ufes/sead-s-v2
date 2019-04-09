@@ -18,7 +18,7 @@
       </div>
       <div id='situacao'>
         <p><strong>Situação: </strong>
-          <br>Oferta 2014/2 em andamento, previsão de conclusão em 2019/1.
+          <br>Oferta 2014/2 em fase de conclusão.
           <br>Aprovado pelo CEPE em 23/07/2014 por meio da Resolução 33/2014.
           <br><strong>Sem previsão de nova reoferta.</strong>
         </p>
@@ -46,13 +46,7 @@
 
       <div id='matriz'>
         <h2 id='curriculo'>Duração do curso</h2>
-        <p>Carga horária mínima de integralização curricular: 3280 horas<br>
-          Disciplinas: 2520 horas<br>
-          Estágio Curricular Supervisionado Obrigatório: 400 horas<br>
-          Dimensões Pedagógicas: 600 horas<br>
-          Trabalho de Conclusão de Curso: 160 horas<br>
-          Práticas como Componente Curricular: 480 horas<br>
-          Atividades Complementares: 200 horas</p>
+        <p>Carga horária mínima de integralização curricular: 3280 horas</p>
 
         <h2>Matriz Curricular</h2>
 
@@ -177,8 +171,7 @@
 
       <div id='professores'>
         <h2 id='corpo-docente'>Administração acadêmica</h2>
-        <p><strong>Coordenação:</strong> Andreia Chiari Lins</p>
-        <p>Professora do Departamento de Desenho Industrial, para área de Tecnologias da Imagem, na Universidade Federal do Espírito Santo. Doutorada (2016) e Mestre em Educação pela Universidade Federal do Espírito Santo (2008). Especialista em Educação a Distância pela Universidade Católica de Brasília - DF (2006), Especialista em Administração de Empresas Privadas pelo Centro Universitário Vila Velha - ES (1997). Bacharel em Artes Plásticas pela Universidade Federal do Espírito Santo (1994).
+        <p><strong>Coordenação:</strong> Erick Orloski</p>
 
         <p><strong>Vice coordenação:</strong> Maria Auxiliadora de Carvalho Corassa</p>
 
@@ -337,8 +330,8 @@
 
       <div>
         <h2 id='perfil-do-egresso'>Perfil do egresso</h2>
-        <p>O Curso de Licenciatura em Artes Visuais propõe um programa de forma a qualificar os seus graduados para o exercício da atividade docente em nível da Educação Infantil, Ensino Fundamental e Médio, assim como para a Pós-graduação, ou para oportunidades de trabalho fora do ambiente acadêmico. Dentro dessas perspectivas, o programa de Licenciatura em Artes visa oferecer aos licenciandos uma formação que priorize a carreira acadêmica, o que necessita, além de uma sólida base de conteúdos do ensino da Arte, de uma formação que contemple áreas de aplicação e sua interação com as práticas culturais.</p>
-        <p>O Curso de Artes Visuais - Licenciatura deve garantir que seus egressos tenham: uma sólida formação de conteúdos de Arte e de seu ensino; uma formação que lhes prepare para enfrentar os desafios das rápidas transformações sociais, ambientais e tecnológicas da sociedade, do mercado de trabalho e das condições de exercício profissional. </p>
+        <p>O Curso de Licenciatura em Artes Visuais se propõe um programa de forma a qualificar os seus graduados para o exercício da atividade docente em nível da Educação Infantil, Ensino Fundamental e Médio, assim como para a Pós-graduação, ou para oportunidades de trabalho fora do ambiente acadêmico. Dentro dessas perspectivas, o programa de Licenciatura em Artes visa a oferecer aos licenciandos uma formação que priorize a carreira acadêmica, o que necessita, além de uma sólida base de conteúdos do ensino da Arte, de uma formação que contemple áreas de aplicação e sua interação com as práticas culturais.</p>
+        <p>O curso  deve garantir que seus egressos tenham: uma sólida formação de conteúdos de Arte e de seu ensino; uma formação que lhes prepare para enfrentar os desafios das rápidas transformações sociais, ambientais e tecnológicas da sociedade, do mercado de trabalho e das condições de exercício profissional. </p>
         <p>Por outro lado, deseja-se as seguintes características para o Licenciado em Artes Visuais: </p>
         <p> - visão de seu papel social de educador e capacidade de se inserir em diversas realidades com sensibilidade para interpretar as ações dos educandos;</p>
         <p> - visão da contribuição que a aprendizagem das artes visuais pode oferecer à formação dos indivíduos para o exercício de sua cidadania, respeitando a diversidade social e cultural;</p>
@@ -349,43 +342,18 @@
       <div>
         <h2 id='ofertas-anteriores'>Ofertas anteriores</h2>
 
-        <h3>2008/1</h3>
+        <h3>2008/2</h3>
         <p><strong>Coordenador do Curso:</strong> Maria Gorete Dadalto Gonçalves</p>
-        <p><strong>Polos atendidos:</strong> Alegre, Afonso Claudio, Aracruz, Bom Jesus do Norte, Cachoeiro de Itapemirim, Colatina, Conceição da Barra, Domingos Martins, Ecoporanga, Itapemirim, Iúna, Linhares, Mantenópolis, Nova Venécia, Pinheiros, Piúma, Santa Leopoldina, Santa Teresa, São Mateus, Vargem Alta, Venda Nova do Imigrante, Vila Velha.</p>
+        <p><strong>Polos atendidos:</strong> Alegre, Afonso Cláudio, Aracruz, Bom Jesus do Norte, Cachoeiro de Itapemirim, Colatina, Conceição da Barra, Domingos Martins, Ecoporanga, Itapemirim, Iúna, Linhares, Mantenópolis, Nova Venécia, Pinheiros, Piúma, Santa Leopoldina, Santa Teresa, São Mateus, Vargem Alta, Venda Nova do Imigrante, Vila Velha.</p>
 
-        <h3>2014/2 - 2019/1</h3>
-        <p><strong>Coordenador do Curso:</strong> Andreia Chiari Lins</p>
-        <p><strong>Polos atendidos:</strong> Afonso Claudio, Aracruz, Cachoeiro de Itapemirim, Colatina, Domingos Martins, Itapemirim, Iúna, Linhares, Pinheiros, Piúma, Santa Teresa e Vargem Alta.</p>
+        <h3>2014/2</h3>
+        <p><strong>Coordenador do Curso:</strong> Andreia Chiari Lins / Erick Orloski</p>
+        <p><strong>Polos atendidos:</strong> Afonso Cláudio, Aracruz, Cachoeiro de Itapemirim, Colatina, Domingos Martins, Itapemirim, Iúna, Linhares, Pinheiros, Piúma, Santa Teresa e Vargem Alta.</p>
       </div>
 
     </section>
 
   </div>
-
-<!--  <section id='faq-curso'>
-    <div class='container'>
-      <h2>Dúvidas Frequentes</h1>
-        <ul>
-          <li>
-            <button><h3>O diploma/certificado EAD é válido?</h3></button>
-            <p>Todo o material didático é disponibilizado on-line, por meio de recursos multimídia, podcasts, vídeos, videoaulas, animações, objetos de aprendizagem e-books, webconferências, no Ambiente Virtual de Aprendizagem. Caso prefira, é possível realizar a impressão.</p>
-          </li>
-          <li>
-            <button><h3>Como funcionam as aulas e os materiais didáticos? </h3></button>
-            <p>Todo o material didático é disponibilizado on-line, por meio de recursos multimídia, podcasts, vídeos, videoaulas, animações, objetos de aprendizagem e-books, webconferências, no Ambiente Virtual de Aprendizagem. Caso prefira, é possível realizar a impressão.</p>
-          </li>
-          <li>
-            <button><h3>Posso fazer mais de um curso ao mesmo tempo? </h3></button>
-            <p>Todo o material didático é disponibilizado on-line, por meio de recursos multimídia, podcasts, vídeos, videoaulas, animações, objetos de aprendizagem e-books, webconferências, no Ambiente Virtual de Aprendizagem. Caso prefira, é possível realizar a impressão.</p>
-          </li>
-          <li>
-            <button><h3>Onde posso entrar em contato para tirar outras dúvidas? </h3></button>
-            <p>Todo o material didático é disponibilizado on-line, por meio de recursos multimídia, podcasts, vídeos, videoaulas, animações, objetos de aprendizagem e-books, webconferências, no Ambiente Virtual de Aprendizagem. Caso prefira, é possível realizar a impressão.</p>
-          </li>
-        </ul>
-    </div>
-  </section>-->
-
 
   <section id='noticias'>
     <?php $ultimas_noticias = new WP_Query(array(
