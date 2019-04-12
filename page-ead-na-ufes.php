@@ -2,7 +2,7 @@
 
 <main id='conteudoPrincipal' class='page ead-na-ufes'>
 
-  <a href='//https://youtu.be/yZI7tWp8Un4' data-lity>
+  <a href='https://youtu.be/PeL1ShDmh1g' data-lity>
     <section class='destaque'>
       <video autoplay loop>
         <source src='<?php echo get_template_directory_uri(); ?>/video/ead-na-ufes.mp4' type='video/mp4'>

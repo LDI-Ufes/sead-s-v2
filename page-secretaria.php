@@ -2,7 +2,7 @@
 
 <main id="conteudoPrincipal" class="page secretaria">
 
-  <a href="https://www.youtube.com/watch?v=w9viAYFGs4k" data-lity>
+  <a href="https://youtu.be/1UuVPHYTzJQ" data-lity>
     <section class="destaque">
 
       <video autoplay loop>
