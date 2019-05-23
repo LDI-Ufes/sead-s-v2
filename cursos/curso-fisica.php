@@ -19,8 +19,8 @@
 
       <div id='situacao'>
         <p><strong>Situação: </strong>
-          <br>Oferta 2014/2 concluída em 2018/2.
-          <br><strong>Sem previsão de nova reoferta.</strong>
+          <br>Oferta 2014/2 em fase de conclusão.
+          <br><strong>Sem previsão de reoferta.</strong>
         </p>
       </div>
     </section>
@@ -35,7 +35,7 @@
           <li><a title="Mostrar currículo" href='#curriculo'>Currículo</a></li>
           <li><a title="Mostrar corpo docente" href='#corpo-docente'>Corpo docente</a></li>
           <li><a title="Mostrar perfil do egresso" href='#perfil-do-egresso'>Perfil do egresso</a></li>
-          <li><a title="Mostrar ofertas anteriores" href='#ofertas-anteriores'>Ofertas anteriores</a></li>
+          <li><a title="Mostrar ofertas do curso" href='#ofertas-anteriores'>Ofertas</a></li>
           <a href='<?php echo get_template_directory_uri(); ?>/arquivos/fisica/guia-do-estudante-Fisica.pdf' target='_blank' title='Abrir o Guia do Aluno em nova aba'>Guia do aluno <i class="fas fa-file-pdf"></i></a>
 
           <span>Contato</span>
@@ -47,13 +47,7 @@
 
       <div id='matriz'>
         <h2 id='curriculo'>Duração do curso</h2>
-        <p>Carga horária total de integralização curricular: 3335 horas<br>
-          Disciplinas: 1590<br>
-          Conteúdos educacionais e pedagógicos: 675h<br>
-          Estágio Curricular Supervisionado Obrigatório: 405h<br>
-          Atividades Teórico-Práticas: 200h<br>
-          Trabalho de Conclusão de Curso: 60h<br>
-          Práticas como Componente Curricular: 405h</p>
+        <p>Carga horária total de integralização curricular: 3335 horas</p>
 
         <h2>Matriz Curricular</h2>
 
@@ -61,7 +55,7 @@
           <li class='semestre'>
             <button class='ativo'><h3>1° semestre</h3></button>
             <ul style='display: block;'>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>Introdução à Probabilidade e Estatística <span>45h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Introdução à Probabilidade e Estatística</span></a>--></li>
               <li>Introdução à Metodologia Científica <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Introdução à Metodologia Científica</span></a>--></li>
@@ -76,7 +70,7 @@
           <li class='semestre'>
             <button><h3>2° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>Filosofia da Ciência <span>45h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Filosofia da Ciência</span></a>--></li>
               <li>Introdução às Ciências Físicas II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Introdução às Ciências Físicas II</span></a>--></li>
@@ -91,7 +85,7 @@
           <li class='semestre'>
             <button><h3>3° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>Física IA – Mecânica do Ponto Material <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Física IA – Mecânica do Ponto Material</span></a>--></li>
               <li>Física IB – Sistemas de Partículas e Corpos Rígidos <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Física IB – Sistemas de Partículas e Corpos Rígidos</span></a>--></li>
@@ -103,7 +97,7 @@
           <li class='semestre'>
             <button><h3>4° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>Fundamentos da Educação III - Introdução à Filosofia <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Fundamentos da Educação III - Introdução à Filosofia</span></a>--></li>
               <li>Física IIA – Fluidos e Física Térmica <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Física IIA – Fluidos e Física Térmica</span></a>--></li>
@@ -117,7 +111,7 @@
           <li class='semestre'>
             <button><h3>5° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>Pesquisa e prática pedagógica <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Pesquisa e prática pedagógica</span></a>--></li>
               <li>Estágio Supervisionado I <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Estágio Supervisionado I</span></a>--></li>
@@ -131,7 +125,7 @@
           <li class='semestre'>
             <button><h3>6° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>Estágio Supervisionado II <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Estágio Supervisionado II</span></a>--></li>
               <li>Física IVA – Ondas Eletromagnéticas e Óptica <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Física IVA – Ondas Eletromagnéticas e Óptica</span></a>--></li>
@@ -146,7 +140,7 @@
           <li class='semestre'>
             <button><h3>7° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>Fundamentos da Educação IV - Política Educacional e Organização da Educação <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Fundamentos da Educação IV - Política Educacional e Organização da Educação</span></a>--></li>
               <li>Estágio Supervisionado III <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Estágio Supervisionado III</span></a>--></li>
@@ -161,7 +155,7 @@
           <li class='semestre'>
             <button><h3>8° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>Fundamentos da Educação V - Sociologia da Educação <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Fundamentos da Educação V - Sociologia da Educação</span></a>--></li>
               <li>Estágio Supervisionado IV <span></span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Estágio Supervisionado IV</span></a>--></li>
@@ -178,18 +172,10 @@
 
       <div id='professores'>
         <h2 id='corpo-docente'>Administração acadêmica</h2>
-        <p><strong>Coordenação:</strong> </p>
-        <!--<p>Professora do Departamento de Desenho Industrial, para área de Tecnologias da Imagem, na Universidade Federal do Espírito Santo. Doutorada (2016) e Mestre em Educação pela Universidade Federal do Espírito Santo (2008). Especialista em Educação a Distância pela Universidade Católica de Brasília - DF (2006), Especialista em Administração de Empresas Privadas pelo Centro Universitário Vila Velha - ES (1997). Bacharel em Artes Plásticas pela Universidade Federal do Espírito Santo (1994).-->
+        <p><strong>Coordenação:</strong> Valério Marra</p>
 
-        <p><strong>Vice coordenação:</strong> </p>
+        <p><strong>Vice coordenação:</strong> José Alexandre Nogueira</p>
 
-<!--        <p><strong>Colegiado do curso:</strong>
-          <br>Nome
-        </p>
-
-        <p><strong>Núcleo Docente Estruturante:</strong>
-          <br>Nome
-        </p>-->
 
         <h2>Corpo docente</h2>
 
@@ -224,8 +210,8 @@
 
       <div>
         <h2 id='perfil-do-egresso'>Perfil do egresso</h2>
-        <p>O licenciado em física na modalidade a semipresencial da UFES deverá ter sólidos conhecimentos de física e matemática e também uma consciência ambiental e étnico racial adquirida nas disciplinas do curso que permitirão desenvolver um trabalho de qualidade, sendo deverá estar capacitado para: </p>
-        <p>1 - Ministrar aulas teóricas e experimentais de física básica para o Ensino Médio e/ou Superior. </p>
+        <p>O licenciado em Física na modalidade semipresencial da UFES deverá ter sólidos conhecimentos de Física e Matemática e também uma consciência ambiental e étnicorracial adquirida nas disciplinas do curso que permitirão desenvolver um trabalho de qualidade, devendo estar capacitado para: </p>
+        <p>1 - Ministrar aulas teóricas e experimentais de Física Básica para o Ensino Médio e/ou Superior. </p>
         <p>2 - Usar a capacidade de análises para desenvolver pesquisas em ensino de Física visando à melhoria da qualidade das aulas. </p>
         <p>3 - Capacidades de desenvolver projetos experimentais de pesquisa e extensão voltados para ensino de ciências físicas. </p>
         <p>4 - Realizar a aprendizagem continuada, fazendo da sua prática profissional fonte de produção de conhecimento; </p>
@@ -235,40 +221,27 @@
         <p>8 - Ter a capacidade de disseminar e utilizar os conhecimentos físicos adquiridos no dia-a-dia da vida da comunidade; </p>
         <p>9 - Refletir de forma crítica a sua prática em sala de aula, identificando problemas de ensino e aprendizagem; </p>
         <p>10 - Ter uma visão crítica com relação ao papel social da Ciência e à sua natureza epistemológica, compreendendo o processo histórico-social de sua construção; </p>
-        <p>11 - Saber trabalhar em equipe e ter uma compreensão das diversas etapas que compõem uma pesquisa educacional; </p>
+        <p>11 - Trabalhar em equipe e ter compreensão das diversas etapas que compõem uma pesquisa educacional; </p>
         <p>12 - Enfatizar a formação cultural e humanística, com ênfase nos valores éticos gerais e profissionais e nas questões étnico-raciais. </p>
         <p>13 - Incentivar a apresentação e publicação dos resultados científicos nas distintas formas de expressão. </p>
         <p>14 - Discutir aspectos relacionados à sustentabilidade e a educação ambiental no contexto dos conteúdos de algumas disciplinas do curso.</p>
       </div>
 
       <div>
-        <h2 id='ofertas-anteriores'>Ofertas anteriores</h2>
+        <h2 id='ofertas-anteriores'>Ofertas do curso</h2>
 
         <h3>2008/1</h3>
         <p><strong>Coordenador do Curso:</strong> Marcos Tadeu D'Azeredo Orlando</p>
         <p><strong>Polos atendidos:</strong> Afonso Cláudio, Aracruz, Bom Jesus do Norte, Conceição da Barra, Domingos Martins, Ecoporanga, Itapemirim, Iúna, Mantenópolis, Mimoso do Sul, Pinheiros, Piúma, Santa Leopoldina.</p>
 
-        <h3>2014/2 - 2019/1</h3>
-        <p><strong>Coordenador do Curso:</strong> </p>
-        <p><strong>Polos atendidos:</strong></p>
+        <h3>2014/2</h3>
+        <p><strong>Coordenador do Curso:</strong> Valério Marra</p>
+        <p><strong>Polos atendidos:</strong> Aracruz, Cachoeiro de Itapemirim, Colatina, Linhares, Piúma, Santa Teresa e Venda Nova do Imigrante.</p>
       </div>
 
     </section>
 
   </div>
-
-  <section id='faq-curso'>
-    <div class='container'>
-      <h2>Dúvidas Frequentes</h1>
-        <ul>
-          <li>
-            <button><h3>O diploma/certificado EAD é válido?</h3></button>
-            <p>Todo o material didático é disponibilizado on-line, por meio de recursos multimídia, podcasts, vídeos, videoaulas, animações, objetos de aprendizagem e-books, webconferências, no Ambiente Virtual de Aprendizagem. Caso prefira, é possível realizar a impressão.</p>
-          </li>
-
-        </ul>
-    </div>
-  </section>
 
   <section id='noticias'>
     <?php $ultimas_noticias = new WP_Query(array(

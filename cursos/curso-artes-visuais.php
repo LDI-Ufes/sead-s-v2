@@ -34,7 +34,7 @@
           <li><a title="Mostrar currículo" href='#curriculo'>Currículo</a></li>
           <li><a title="Mostrar corpo docente" href='#corpo-docente'>Corpo docente</a></li>
           <li><a title="Mostrar perfil do egresso" href='#perfil-do-egresso'>Perfil do egresso</a></li>
-          <li><a title="Mostrar ofertas anteriores" href='#ofertas-anteriores'>Ofertas anteriores</a></li>
+          <li><a title="Mostrar ofertas do curso" href='#ofertas-anteriores'>Ofertas</a></li>
           <a href='<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Artes-Visuais_Guia-do-aluno.pdf' target='_blank' title='Abrir o Guia do Aluno em nova aba'>Guia do aluno <i class="fas fa-file-pdf"></i></a>
 
           <span>Contato</span>
@@ -120,7 +120,7 @@
               <li>Filosofia da Arte <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Filosofia-da-Arte.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Filosofia da Arte</span></a></li>
               <li>Arte Contemporânea <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Arte-Contemporanea.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Arte Contemporânea</span></a></li>
               <li>Vídeo <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Video.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Vídeo</span></a></li>
-              <li>Estágio Supervisionado na Educação Infantil <span>100h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Estagio-Supervisionado-na-Educacao-Infantil.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Estágio Supervisionado na Educação Infantil</span></a></li>
+              <li>Estágio Supervisionado na Educação Infantil <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Estagio-Supervisionado-na-Educacao-Infantil.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Estágio Supervisionado na Educação Infantil</span></a></li>
               <li>Oficina de Arte e Educação II <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Oficina-de-Arte-e-Educacao-II.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Oficina de Arte e Educação II</span></a></li>
               <li>Seminário V <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/Seminario-V.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Seminário V</span></a></li>
 
@@ -340,14 +340,14 @@
       </div>
 
       <div>
-        <h2 id='ofertas-anteriores'>Ofertas anteriores</h2>
+        <h2 id='ofertas-anteriores'>Ofertas do curso</h2>
 
-        <h3>2008/2</h3>
+        <h3>2008</h3>
         <p><strong>Coordenador do Curso:</strong> Maria Gorete Dadalto Gonçalves</p>
-        <p><strong>Polos atendidos:</strong> Alegre, Afonso Cláudio, Aracruz, Bom Jesus do Norte, Cachoeiro de Itapemirim, Colatina, Conceição da Barra, Domingos Martins, Ecoporanga, Itapemirim, Iúna, Linhares, Mantenópolis, Nova Venécia, Pinheiros, Piúma, Santa Leopoldina, Santa Teresa, São Mateus, Vargem Alta, Venda Nova do Imigrante, Vila Velha.</p>
+        <p><strong>Polos atendidos:</strong> Afonso Cláudio, Alegre, Aracruz, Bom Jesus do Norte, Cachoeiro de Itapemirim, Colatina, Conceição da Barra, Domingos Martins, Ecoporanga, Itapemirim, Iúna, Linhares, Mantenópolis, Nova Venécia, Pinheiros, Piúma, Santa Leopoldina, Santa Teresa, São Mateus, Vargem Alta, Venda Nova do Imigrante, Vila Velha.</p>
 
-        <h3>2014/2</h3>
-        <p><strong>Coordenador do Curso:</strong> Andreia Chiari Lins / Erick Orloski</p>
+        <h3>2014</h3>
+        <p><strong>Coordenador do Curso:</strong>  Maria Gorete Dadalto Gonçalves / Andreia Chiari Lins / Erick Orloski</p>
         <p><strong>Polos atendidos:</strong> Afonso Cláudio, Aracruz, Cachoeiro de Itapemirim, Colatina, Domingos Martins, Itapemirim, Iúna, Linhares, Pinheiros, Piúma, Santa Teresa e Vargem Alta.</p>
       </div>
 

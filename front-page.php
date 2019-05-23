@@ -79,7 +79,7 @@
         <div class="confira-mais">
           <span>Confira mais do que acontece nos polos:</span>
           <a href="https://www.facebook.com/sead.ufes/" target="_blank" title="Abrir página da Sead no Facebook em nova aba"><span class="somente-leitura">Página da Sead no Facebook</span><i class="fab fa-facebook-f"></i></a>
-          <a href="<?php echo site_url(); ?>/blog" title="Ir para a página de notícias"><span class="somente-leitura">Página de notícias</span><?php include 'svg/nossoBlog.svg' ?></a>
+          <a href="<?php echo site_url(); ?>/noticias" title="Ir para a página de notícias"><span class="somente-leitura">Página de notícias</span><?php include 'svg/nossoBlog.svg' ?></a>
         </div>
       </div>
 

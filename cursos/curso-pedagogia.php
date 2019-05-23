@@ -14,14 +14,13 @@
         <p><strong>Formação: </strong>Licenciatura</p>
         <p><strong>Duração: </strong>4 anos (8 semestres)</p>
         <p><strong>Modalidade: </strong>Semipresencial</p>
-        <!--<p><strong>Conceito Geral: </strong>3</p>-->
       </div>
 
       <div id='situacao'>
         <p>
           <strong>Situação: </strong>
-          <br>Oferta 2014/2 em andamento, previsão de conclusão em 2019/1.
-          <br><strong>Sem previsão de nova reoferta.</strong>
+          <br>Oferta 2014/2 em fase de conclusão.
+          <br><strong>Sem previsão de reoferta.</strong>
         </p>
       </div>
     </section>
@@ -36,7 +35,7 @@
           <li><a title="Mostrar currículo" href='#curriculo'>Currículo</a></li>
           <li><a title="Mostrar corpo docente" href='#corpo-docente'>Corpo docente</a></li>
           <li><a title="Mostrar perfil do egresso" href='#perfil-do-egresso'>Perfil do egresso</a></li>
-          <li><a title="Mostrar ofertas anteriores" href='#ofertas-anteriores'>Ofertas anteriores</a></li>
+          <li><a title="Mostrar ofertas do curso" href='#ofertas-anteriores'>Ofertas</a></li>
           <a href='<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Guia-do-estudante-Pedagogia.pdf' target='_blank' title='Abrir o Guia do Aluno em nova aba'>Guia do aluno <i class="fas fa-file-pdf"></i></a>
 
           <span>Contato</span>
@@ -48,11 +47,7 @@
 
       <div id='matriz'>
         <h2 id='curriculo'>Duração do curso</h2>
-        <p>Carga horária total de integralização curricular: 3230h<br>
-        Estágio Curricular Supervisionado Obrigatório: 270h<br>
-        Atividades Acadêmicos-Científicos Culturais: 315h<br>
-        Atividades complementares: 200h<br>
-        Trabalho de Conclusão de Curso: 120h</p>
+        <p>Carga horária total de integralização curricular: 3230h</p>
 
         <h2>Matriz Curricular</h2>
 
@@ -174,25 +169,6 @@
         <p><strong>Coordenação:</strong> Iguatemi Santos Rangel</p>
         <p>Possui graduação em Educação Física pela Universidade Federal do Espírito Santo (1995), mestrado e doutorado em Educação pela Universidade Federal do Espírito Santo (2003-2009) . Atuou como professor da educação básica nas redes estadual e municipal de educação nas áreas de ensino de educação física e educação infantil. Trabalhou como gerente de formação de professores da Secretaria Estadual de Educação. Atualmente é professor adjunto I da Universidade Federal do Espírito Santo, atuando no Departamento de Linguagens, Cultura e Educação com disciplinas de fundamentos da educação e estágio supervisionado para os cursos de licenciatura. Atuou como tutor do grupo PET Licenciaturas, é Coordenador do Núcleo de Pesquisa e Extensão em Currículos, Culturas e Cotidianos. Tem experiência na área de Educação, com ênfase em Educação Infantil e processos de formação continuada de professores da educação básica. Os temas de interesses e aprofundamento de estudos e pesquisas são: Educação Infantil, ensino de educação física escolar, formação continuada de professores e currículo.</p>
 
-        <p><strong>Vice coordenação:</strong> </p>
-
-<!--        <p><strong>Colegiado do curso:</strong>
-          <br>Nome
-        </p>
-
-        <p><strong>Núcleo Docente Estruturante:</strong>
-          <br>Nome
-        </p>-->
-
-        <h2>Corpo docente</h2>
-
-        <!--
-          <p class='nome'>
-            <a title='Abrir perfil na plataforma Lattes em nova aba' href='' target='_blank'><span class='somente-leitura'>Perfil na plataforma Lattes de</span> (Nome do professor)</a>
-            <span>(Titulação do professor)</span>
-          </p>
-        -->
-
       </div>
 
       <div>
@@ -208,7 +184,7 @@
         <br>b) entender a formação profissional como um processo contínuo de auto-aperfeiçoamento e de domínio teórico investigativo do campo da educação;
         <br>c) compreender as diversas abordagens do conhecimento pedagógico assim como os conteúdos específicos dos currículos dos diferentes níveis de ensino e suas respectivas metodologias;
         <br>d) Zelar pela aprendizagem de todos os alunos;
-        <br>e) participar no planejamento, na implementação e avaliação de projetos educativos escolares e não escolares de modo que a diversidade e as múltiplas relações das esferas do social (cultural, ética, estética, científica e tecnológica) sejam contempladas;
+        <br>e) participar no planejamento, na implementação e na avaliação de projetos educativos escolares e não escolares de modo que a diversidade e as múltiplas relações das esferas do social (cultural, ética, estética, científica e tecnológica) sejam contempladas;
         <br>f) planejar e desenvolver situações pedagógicas concretas, para situações educativas escolares e não- escolares, integrando diferentes conhecimentos e tecnologias de informação e comunicação;
         <br>g) articular,   mediante   práticas   participativas,   recursos   humanos,   metodológicos,   técnicos   e operativos, inclusive em equipes interdisciplinares e multi-profissionais;
         <br>h) colaborar com as atividades de articulação da escola com as famílias e a comunidade;
@@ -217,33 +193,21 @@
       </div>
 
       <div>
-        <h2 id='ofertas-anteriores'>Ofertas anteriores</h2>
+        <h2 id='ofertas-anteriores'>Ofertas do curso</h2>
 
-        <h3>2011 - 2008</h3>
-        <p><strong>Coordenador do Curso:</strong></p>
-        <p><strong>Polos atendidos:</strong> </p>
+        <h3>2001 - 2008</h3>
+        <p><strong>Coordenação de Curso: </strong>Júlio Francelino Ferreira Filho</p>
+        <p><strong>Cre@ads atendidos: </strong>Alegre, Barra de São Francisco, Cachoeiro de Itapemirim, Colatina, Guaçuí, Linhares, Montanha, Nova Venécia, Santa Teresa, São Mateus, Venda Nova do Imigrante, Vila Velha e Vitória.</p>
 
-        <h3>2014/2 - 2019/1</h3>
-        <p><strong>Coordenador do Curso:</strong> Iguatemi Santos Rangel</p>
-        <p><strong>Polos atendidos:</strong></p>
+
+        <h3>2014/2</h3>
+        <p><strong>Coordenação de Curso:</strong> Iguatemi Santos Rangel</p>
+        <p><strong>Polos atendidos: </strong>Afonso Cláudio, Aracruz, Baixo Guandu, Cachoeiro de Itapemirim, Castelo, Colatina, Domingos Martins, Ecoporanga, Itapemirim, Iúna, Linhares, Mantenópolis, Mimoso do Sul, Montanha, Pinheiros, Piúma, Santa Leopoldina, Santa Teresa, Vargem Alta e Venda Nova do Imigrante.</p>
       </div>
 
     </section>
 
   </div>
-
-  <section id='faq-curso'>
-    <div class='container'>
-      <h2>Dúvidas Frequentes</h1>
-        <ul>
-          <li>
-            <button><h3>O diploma/certificado EAD é válido?</h3></button>
-            <p>Todo o material didático é disponibilizado on-line, por meio de recursos multimídia, podcasts, vídeos, videoaulas, animações, objetos de aprendizagem e-books, webconferências, no Ambiente Virtual de Aprendizagem. Caso prefira, é possível realizar a impressão.</p>
-          </li>
-
-        </ul>
-    </div>
-  </section>
 
   <section id='noticias'>
     <?php $ultimas_noticias = new WP_Query(array(

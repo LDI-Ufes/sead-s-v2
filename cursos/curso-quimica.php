@@ -14,13 +14,12 @@
         <p><strong>Formação: </strong>Licenciatura</p>
         <p><strong>Duração: </strong>4 anos (8 semestres)</p>
         <p><strong>Modalidade: </strong>Semipresencial</p>
-        <!--<p><strong>Conceito Geral: </strong>3</p>-->
       </div>
 
       <div id='situacao'>
         <p><strong>Situação: </strong>
-          <br>Oferta 2014/2 em andamento, previsão de conclusão em 2019/1.
-          <br><strong>Sem previsão de nova reoferta.</strong>
+          <br>Oferta 2014/2 em fase de conclusão.
+          <br><strong>Sem previsão de reoferta.</strong>
         </p>
       </div>
     </section>
@@ -35,7 +34,7 @@
           <li><a title="Mostrar currículo" href='#curriculo'>Currículo</a></li>
           <li><a title="Mostrar corpo docente" href='#corpo-docente'>Corpo docente</a></li>
           <li><a title="Mostrar perfil do egresso" href='#perfil-do-egresso'>Perfil do egresso</a></li>
-          <li><a title="Mostrar ofertas anteriores" href='#ofertas-anteriores'>Ofertas anteriores</a></li>
+          <li><a title="Mostrar ofertas do curso" href='#ofertas-anteriores'>Ofertas</a></li>
           <a href='<?php echo get_template_directory_uri(); ?>/arquivos/quimica/Guia-do-estudante-Quimica.pdf' target='_blank' title='Abrir o Guia do Aluno em nova aba'>Guia do aluno <i class="fas fa-file-pdf"></i></a>
 
           <span>Contato</span>
@@ -47,12 +46,7 @@
 
       <div id='matriz'>
         <h2 id='curriculo'>Duração do curso</h2>
-        <p>Carga horária total de integralização curricular: 3235 horas<br>
-        Disciplinas: 2455 horas<br>
-        Estágio Curricular Supervisionado Obrigatório: 400 horas<br>
-        Atividades Acadêmicos-Científicos Culturais: 200 horas<br>
-        Trabalho de Conclusão de Curso: 180 horas
-        </p>
+        <p>Carga horária total de integralização curricular: 3235 horas</p>
 
         <h2>Matriz Curricular</h2>
 
@@ -60,7 +54,7 @@
           <li class='semestre'>
             <button class='ativo'><h3>1° semestre</h3></button>
             <ul style='display: block;'>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>Metodologia da Pesquisa em EAD <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Metodologia da Pesquisa em EAD</span></a>--></li>
               <li>Fundamentos Estruturais e Pedagógicos da EAD <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Fundamentos Estruturais e Pedagógicos da EAD</span></a>--></li>
@@ -74,7 +68,7 @@
           <li class='semestre'>
             <button><h3>2° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>Cálculo I <span>90h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Cálculo I</span></a>--></li>
               <li>Química Geral Experimental II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Química Geral Experimental II</span></a>--></li>
@@ -87,7 +81,7 @@
           <li class='semestre'>
             <button><h3>3° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>Cálculo 2B <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Cálculo 2B</span></a>--></li>
               <li>Psicologia da Educação <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Psicologia da Educação</span></a>--></li>
@@ -100,7 +94,7 @@
           <li class='semestre'>
             <button><h3>4° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>Física B1 <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Física B1</span></a>--></li>
               <li>Pesquisa e Prática Pedagógica no Ensino <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Pesquisa e Prática Pedagógica no Ensino</span></a>--></li>
@@ -115,7 +109,7 @@
           <li class='semestre'>
             <button><h3>5° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>Didática <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Didática</span></a>--></li>
               <li>Física Experimental I <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Física Experimental I</span></a>--></li>
@@ -129,7 +123,7 @@
           <li class='semestre'>
             <button><h3>6° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>Estágio I <span>100h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Estágio I</span></a>--></li>
               <li>Evolução da Química <span>15h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Evolução da Química</span></a>--></li>
@@ -145,7 +139,7 @@
           <li class='semestre'>
             <button><h3>7° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>Currículo e Formação Docente <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Currículo e Formação Docente</span></a>--></li>
               <li>Estágio II <span>100h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Estágio II</span></a>--></li>
@@ -160,7 +154,7 @@
           <li class='semestre'>
             <button><h3>8° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>Bioquímica <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Bioquímica</span></a>--></li>
               <li>Estágio III <span>100h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Estágio III</span></a>--></li>
@@ -174,7 +168,7 @@
           <li class='semestre'>
             <button><h3>9° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>Estágio IV <span>100h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Estágio IV</span></a>--></li>
               <li>Química Ambiental <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Química Ambiental</span></a>--></li>
@@ -189,19 +183,19 @@
         <p><strong>Coordenação:</strong> Pedro Mitsuo Takahashi</p>
         <p>Possui graduação em Bacharelado Em Química Com Atribuições Tecnológica pela Universidade Estadual Paulista Júlio de Mesquita Filho - UNESP (2001), Mestrado em Química pela Universidade Estadual Paulista Júlio de Mesquita Filho - UNESP (2003), Doutorado em Química pela Universidade Estadual Paulista Júlio de Mesquita Filho - UNESP (2007) e Pós-Doutorado em Química pela Univerdade Federal do ABC - UFABC (2010). Atualmente é professor adjunto da Universidade Federal do Espírito Santo e Coordenador do curso de Licenciatura em Química EaD. Tem experiência na área de Química Inorgânica, com ênfase na Química de Compostos de Coordenação e Sistemas Supramoleculares, atuando principalmente nos seguintes temas: Compostos de Coordenação, Compostos Pirazólicos, Compostos Peptídicos, Sistemas Supramoleculares e Análise Térmica. </p>
 
-        <p><strong>Vice coordenação:</strong> </p>
+        <p><strong>Vice coordenação: </strong>Warley de Souza Borges</p>
 
         <p><strong>Colegiado do curso:</strong>
           <br>Rafael de Queiroz Ferreira
-          <br>Warley de Souza Borges (Lattes)
-          <br>Pedro Mitsuo Takahashi (Lattes)
+          <br>Warley de Souza Borges
+          <br>Pedro Mitsuo Takahashi
           <br>Paulo Rogerio Garcez de Moura
         </p>
 
         <p><strong>Núcleo Docente Estruturante:</strong>
           <br>Rafael de Queiroz Ferreira
-          <br>Warley de Souza Borges (Lattes)
-          <br>Pedro Mitsuo Takahashi (Lattes)
+          <br>Warley de Souza Borges
+          <br>Pedro Mitsuo Takahashi
           <br>Paulo Rogerio Garcez de Moura
         </p>
 
@@ -284,39 +278,26 @@
         <br>• conhecer teorias psicopedagógicas que fundamentam o processo de ensino-aprendizagem, bem como os princípios de planejamento educacional;
         <br>• conhecer os fundamentos, a natureza e as principais pesquisas de ensino de Química;
         <br>• conhecer e vivenciar projetos e propostas curriculares de ensino de Química;
-        <br>• ter atitude favorável à incorporação, em sua prática, dos resultados da pesquisa educacional em ensino de Química, visando solucionar os problemas relacionados ao ensino-aprendizagem.
+        <br>• ter atitude favorável à incorporação, em sua prática, dos resultados da pesquisa educacional em ensino de Química, visando a solucionar os problemas relacionados ao ensino-aprendizagem.
         </p>
 
       </div>
 
       <div>
-        <h2 id='ofertas-anteriores'>Ofertas anteriores</h2>
+        <h2 id='ofertas-anteriores'>Ofertas do curso</h2>
 
         <h3>2008/1</h3>
         <p><strong>Coordenador do Curso:</strong> Josimar Ribeiro</p>
         <p><strong>Polos atendidos:</strong> Aracruz, Ecoporanga, Itapemirim, Iúna, Pinheiros, Vila Velha.</p>
 
-        <h3>2014/2 - 2019/1</h3>
+        <h3>2014/2</h3>
         <p><strong>Coordenador do Curso:</strong> Pedro Mitsuo Takahashi</p>
-        <p><strong>Polos atendidos:</strong> </p>
+        <p><strong>Polos atendidos:</strong> Aracruz, Itapemirim e Iúna.</p>
       </div>
 
     </section>
 
   </div>
-
-  <section id='faq-curso'>
-    <div class='container'>
-      <h2>Dúvidas Frequentes</h1>
-        <ul>
-          <li>
-            <button><h3>O diploma/certificado EAD é válido?</h3></button>
-            <p>Todo o material didático é disponibilizado on-line, por meio de recursos multimídia, podcasts, vídeos, videoaulas, animações, objetos de aprendizagem e-books, webconferências, no Ambiente Virtual de Aprendizagem. Caso prefira, é possível realizar a impressão.</p>
-          </li>
-
-        </ul>
-    </div>
-  </section>
 
   <section id='noticias'>
     <?php $ultimas_noticias = new WP_Query(array(
