@@ -29,22 +29,28 @@
           <a class="marca" href="<?php echo site_url(); ?>" title="Ir para início do sítio">
              <?php include 'svg/sead-ufes-extenso.svg'; ?>
           </a>
-          <span class="btoMenu">Menu</span>
+          <span class="btoMenu">Menu <i class='fas fa-chevron-down'></i></span>
           <nav id="menuPrincipal" class="menu" role="navigation">
             <ul class="menuLista">
               <li><a href="<?php echo site_url(); ?>" title="Ir para página inicial">Início</a></li>
               <li class="temSubmenu">
                 <span>Ensino <i class="fas fa-chevron-down"></i></span>
                 <ul class="menuSuspenso">
-                  <li><a href="/sitiosead/ead-na-ufes" title="Ir para Ensino - Como é a Ead na Ufes?">Como é a EaD na Ufes?</a></li>
-                  <li><a href="/sitiosead/secretaria" title="Ir para Ensino - A Secretaria">A Secretaria</a></li>
-                  <li><a href="/sitiosead/contatos" title="Ir para Ensino - Contatos">Contatos</a></li>
+                  <li><a href="<?php echo site_url(); ?>/ead-na-ufes" title="Ir para Ensino - Como é a Ead na Ufes?">Como é a EaD na Ufes?</a></li>
+                  <li><a href="<?php echo site_url(); ?>/secretaria" title="Ir para Ensino - A Secretaria">A Secretaria</a></li>
+                  <li><a href="<?php echo site_url(); ?>/contatos" title="Ir para Ensino - Contatos">Contatos</a></li>
                 </ul>
               </li>
               <li><a href="<?php echo site_url(); ?>/editais" title="Ir para Editais">Editais</a></li>
               <li><a href="<?php echo site_url(); ?>/cursos" title="Ir para Cursos">Cursos</a></li>
               <li><a href="<?php echo site_url(); ?>/polos" title="Ir para Polos">Polos</a></li>
-              <li><a href="<?php echo site_url(); ?>/blog" title="Ir para Notícias">Notícias</a></li>
+              <li class="temSubmenu">
+                <span>Notícias <i class="fas fa-chevron-down"></i></span>
+                <ul class="menuSuspenso">
+                  <li><a href="<?php echo site_url(); ?>/noticias" title="Ir para Notícias">Últimas notícias</a></li>
+                  <li><a href="<?php echo site_url(); ?>/fotos" title="Ir para Galeria de fotos">Galeria de fotos</a></li>
+                </ul>
+              </li>
             </ul>
           </nav>
           <?php get_search_form() ?>

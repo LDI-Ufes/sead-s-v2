@@ -6,7 +6,7 @@
     <section class='breadcrumb'>Você está em: <a href='<?php echo site_url(); ?>/cursos'>Cursos</a><i class='fas fa-greater-than'></i><span>Filosofia</span></section>
     <h1>Licenciatura EaD em Filosofia</h1>
 
-    <p id='objetivo'>A perspectiva central é o desenvolvimento, de um lado, de habilidades para produzir e lidar com o conhecimento, de maneira radical, crítica, criativa e pluralista, pressupondo procedimentos de pesquisa, numa atitude de investigação contínua no tratamento do conhecimento; de outro lado, o desenvolvimento das competências e habilidades necessárias à atuação profissional em filosofia. A articulação teoria-prática, além de ser incentivada no interior de cada disciplina, está muito bem organizada ao longo de todo o desenvolvimento curricular. </p>
+    <p id='objetivo'>A perspectiva central é o desenvolvimento, de um lado, de habilidades para produzir e lidar com o conhecimento, de maneira radical, crítica, criativa e pluralista, pressupondo procedimentos de pesquisa, numa atitude de investigação contínua no tratamento do conhecimento; do outro lado, o desenvolvimento das competências e das habilidades necessárias à atuação profissional em filosofia. A articulação teoria-prática, além de ser incentivada no interior de cada disciplina, está muito bem organizada ao longo de todo o desenvolvimento curricular. </p>
 
     <section id='info-curso'>
       <div>
@@ -18,7 +18,8 @@
       </div>
 
       <div id='situacao'>
-        <p><strong>Situação: </strong>Oferta 2014/2 em andamento, previsão de conclusão em 2019/1.
+        <p><strong>Situação: </strong>
+          <br>Oferta 2014/2 em fase de conclusão.
           <br>Aprovado pelo CEPE por meio da Resolução 35/2012.
           <br><strong>Sem previsão de reoferta.</strong>
         </p>
@@ -35,7 +36,7 @@
           <li><a title="Mostrar currículo" href='#curriculo'>Currículo</a></li>
           <li><a title="Mostrar corpo docente" href='#corpo-docente'>Corpo docente</a></li>
           <li><a title="Mostrar perfil do egresso" href='#perfil-do-egresso'>Perfil do egresso</a></li>
-          <li><a title="Mostrar ofertas anteriores" href='#ofertas-anteriores'>Ofertas anteriores</a></li>
+          <li><a title="Mostrar ofertas do curso" href='#ofertas-anteriores'>Ofertas</a></li>
           <a href='<?php echo get_template_directory_uri(); ?>/arquivos/filosofia/Filosofia_Guia-do-Estudante.pdf' target='_blank' title='Abrir o Guia do Aluno em nova aba'>Guia do aluno <i class="fas fa-file-pdf"></i></a>
 
           <span>Contato</span>
@@ -47,10 +48,7 @@
 
       <div id='matriz'>
         <h2 id='curriculo'>Duração do curso</h2>
-        <p>Carga horária total de integralização curricular: 3350h</br>
-        Estágio Curricular Supervisionado Obrigatório: 420h</br>
-        Trabalho de Conclusão de Curso: 210h</br>
-        Atividades complementares: 200h</p>
+        <p>Carga horária total de integralização curricular: 3350h</p>
 
         <h2>Matriz Curricular</h2>
 
@@ -58,7 +56,7 @@
           <li class='semestre'>
             <button class='ativo'><h3>1° semestre</h3></button>
             <ul style='display: block;'>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>EAD I e II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina EAD I e II</span></a>--></li>
               <li>História da Filosofia Antiga <span>90h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina História da Filosofia Antiga</span></a>--></li>
@@ -71,7 +69,7 @@
           <li class='semestre'>
             <button><h3>2° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>Filosofia Política I <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Filosofia Política I</span></a>--></li>
               <li>História da Filosofia Medieval <span>90h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina História da Filosofia Medieval</span></a>--></li>
@@ -83,7 +81,7 @@
           <li class='semestre'>
             <button><h3>3° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>Estética <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Estética</span></a>--></li>
               <li>Filosofia Política II <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Filosofia Política II</span></a>--></li>
@@ -95,7 +93,7 @@
           <li class='semestre'>
             <button><h3>4° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>Ética II <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Ética II</span></a>--></li>
               <li>Filosofia da Ciência II <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Filosofia da Ciência II</span></a>--></li>
@@ -107,7 +105,7 @@
           <li class='semestre'>
             <button><h3>5° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>Didática <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Didática</span></a>--></li>
               <li>Laboratório de Ensino de Filosofia <span>105h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Laboratório de Ensino de Filosofia</span></a>--></li>
@@ -120,7 +118,7 @@
           <li class='semestre'>
             <button><h3>6° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>Antropologia Filosófica <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Antropologia Filosófica</span></a>--></li>
               <li>Ensino de Filosofia <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Ensino de Filosofia</span></a>--></li>
@@ -132,7 +130,7 @@
           <li class='semestre'>
             <button><h3>7° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>Estágio Supervisionado de Ensino de Filosofia I <span>210h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Estágio Supervisionado de Ensino de Filosofia I</span></a>--></li>
               <li>Evolução do Pensamento Filosófico e Científico <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Evolução do Pensamento Filosófico e Científico</span></a>--></li>
@@ -144,7 +142,7 @@
           <li class='semestre'>
             <button><h3>8° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>Estágio Supervisionado de Ensino de Filosofia II <span>210h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Estágio Supervisionado de Ensino de Filosofia II</span></a>--></li>
               <li>História da Filosofia na América Latina <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina História da Filosofia na América Latina</span></a>--></li>
@@ -161,17 +159,7 @@
       <div id='professores'>
         <h2 id='corpo-docente'>Administração acadêmica</h2>
         <p><strong>Coordenação:</strong> Claudia Pereira do Carmo Murta</p>
-        <p>Graduação em Psicologia pela Universidade Federal do Espírito Santo (1989), mestrado em Filosofia pela Universidade Federal de Minas Gerais (1992), mestrado em Lieux et Transformations de la Philosophie  Université de Paris VIII (1993), e doutorado em Lieux et Transformations de la Philosophie  Université de Paris VIII (1997); e como formação complementar, especialização em Educação a Distância UFES/UFMT (2001) e pós-doutorado em Filosofia na UFSCar (2011) e na École Normale Supérieure de Lyon (2012). Atualmente é Professora Titular do Departamento de Filosofia da Universidade Federal do Espírito Santo (Graduação e Mestrado). Coordenadora do Curso de Graduação em Filosofia (Licenciatura) na modalidade EAD oferecido pelo MEC/PARFOR/CAPES/UAB/UFES. Coordenadora do Grupo de Pesquisa e Extensão PARTHOS financiado pelo CNPq/FAPES. Tem experiência na área de Filosofia, com ênfase em Filosofia e Psicanálise, atuando principalmente nos seguintes temas: filosofia e psicanálise, amor, corpo, gestação, parto, nascimento, psicanálise e educação a distância.</p>
-
-        <p><strong>Vice coordenação:</strong> </p>
-
-<!--    <p><strong>Colegiado do curso:</strong>
-          <br>Nome
-        </p>
-
-        <p><strong>Núcleo Docente Estruturante:</strong>
-          <br>Nome
-        </p>-->
+        <p>Graduação em Psicologia pela Universidade Federal do Espírito Santo (1989), mestrado em Filosofia pela Universidade Federal de Minas Gerais (1992), mestrado em Lieux et Transformations de la Philosophie  Université de Paris VIII (1993), e doutorado em Lieux et Transformations de la Philosophie  Université de Paris VIII (1997). Como formação complementar, especialização em Educação a Distância UFES/UFMT (2001) e pós-doutorado em Filosofia na UFSCar (2011) e na École Normale Supérieure de Lyon (2012). Atualmente é Professora Titular do Departamento de Filosofia da Universidade Federal do Espírito Santo (Graduação e Mestrado) e Coordenadora do Curso de Licenciatura em Filosofia na modalidade EAD oferecido pela UAB/CAPES/UFES. Coordenadora do Grupo de Pesquisa e Extensão PARTHOS financiado pelo CNPq/FAPES. Tem experiência na área de Filosofia, com ênfase em Filosofia e Psicanálise, atuando principalmente nos seguintes temas: filosofia e psicanálise, amor, corpo, gestação, parto, nascimento, psicanálise e educação a distância.</p>
 
         <h2>Corpo docente</h2>
 
@@ -278,7 +266,7 @@
 
       <div>
         <h2 id='perfil-do-egresso'>Perfil do egresso</h2>
-        <p>Espera-se que o formando tenha uma formação sólida na História da Filosofia que o capacite para a compreensão e a transmissão dos principais temas, problemas e sistemas filosóficos, assim como para a análise e reflexão crítica da realidade social em que se insere. Espera-se, com isso, que o futuro profissional tenha um conhecimento aprofundado da filosofia e seja competente no exercício das suas atividades. O licenciado deverá estar habilitado a enfrentar com sucesso os desafios e as dificuldades inerentes à tarefa de despertar os jovens para a reflexão filosófica, bem como a transmitir aos alunos do ensino fundamental e Médio o legado da tradição e o gosto pelo pensamento inovador, crítico e independente. Os egressos podem contribuir profissionalmente também em outras áreas, no debate interdisciplinar, nas assessorias culturais etc.
+        <p>Espera-se que o formando tenha uma formação sólida na História da Filosofia que o capacite para a compreensão e a transmissão dos principais temas, problemas e sistemas filosóficos, assim como para a análise e reflexão crítica da realidade social em que se insere. Espera-se, com isso, que o futuro profissional tenha um conhecimento aprofundado da filosofia e seja competente no exercício das suas atividades. O licenciado deverá estar habilitado a enfrentar com sucesso os desafios e as dificuldades inerentes à tarefa de despertar os jovens para a reflexão filosófica, bem como a transmitir aos alunos do Ensino Fundamental e Médio o legado da tradição e o gosto pelo pensamento inovador, crítico e independente. Os egressos podem contribuir profissionalmente também em outras áreas, no debate interdisciplinar, nas assessorias culturais etc.
 
         <p><strong>Competências e Habilidades:</strong></p>
         <p>– habilidade de formular problemas de um modo especificamente filosófico e de formular e propor soluções nos diversos campos do conhecimento; </p>
@@ -297,30 +285,16 @@
       </div>
 
       <div>
-        <h2 id='ofertas-anteriores'>Ofertas anteriores</h2>
+        <h2 id='ofertas-anteriores'>Ofertas do curso</h2>
 
-        <h3>2014/2 - 2019/1</h3>
+        <h3>2014/2</h3>
         <p><strong>Coordenador do Curso:</strong> Claudia Pereira do Carmo Murta</p>
-        <p><strong>Polos atendidos:</strong> </p>
-        <p><strong>Seleção: </strong><a href="http://www.sead.ufes.br/conteudo/processo-seletivo-para-ingresso-em-cursos-de-graduação-na-modalidade-distância-0" target="_blank" title="Abrir processo seletivo em nova aba">Ver processo seletivo</a> (encerrado)</p>
+        <p><strong>Polos atendidos: </strong>Afonso Cláudio, Aracruz, Baixo Guandu, Cachoeiro de Itapemirim, Castelo, Domingos Martins, Itapemirim, Mantenópolis, Mimoso do Sul, Montanha, Pinheiros, Santa Teresa e Venda Nova do Imigrante.</p>
       </div>
 
     </section>
 
   </div>
-
-  <section id='faq-curso'>
-    <div class='container'>
-      <h2>Dúvidas Frequentes</h1>
-        <ul>
-          <li>
-            <button><h3>O diploma/certificado EAD é válido?</h3></button>
-            <p>Todo o material didático é disponibilizado on-line, por meio de recursos multimídia, podcasts, vídeos, videoaulas, animações, objetos de aprendizagem e-books, webconferências, no Ambiente Virtual de Aprendizagem. Caso prefira, é possível realizar a impressão.</p>
-          </li>
-
-        </ul>
-    </div>
-  </section>
 
   <section id='noticias'>
     <?php $ultimas_noticias = new WP_Query(array(

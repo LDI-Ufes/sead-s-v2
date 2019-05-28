@@ -98,7 +98,7 @@
 
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
         <li class="edital edital-item" data-curso="<?php echo strip_tags(get_the_term_list($post->ID, 'curso')); ?>" data-atribuicao="<?php echo strip_tags(get_the_term_list($post->ID, 'atribuicao')); ?>" data-formacao="<?php echo strip_tags(get_the_term_list($post->ID, 'tipo-de-curso')); ?>" data-ano="<?php echo strip_tags(get_the_term_list($post->ID, 'ano')); ?>">
-          <h3><a href="Ir para edital <?php the_permalink() ?>"><span>Edital </span><?php the_title(); ?></a></h3>
+          <h3><a href="<?php the_permalink() ?>" title="Ir para edital"><span>Edital </span><?php the_title(); ?></a></h3>
           <p class="atribuicao"><?php echo strip_tags(get_the_term_list($post->ID, 'atribuicao')); ?></p>
           <p class="tipo-de-curso"><?php echo strip_tags(get_the_term_list($post->ID, 'tipo-de-curso')); ?></p>
           <p class="curso"><?php echo strip_tags(get_the_term_list($post->ID, 'curso')); ?></p>
@@ -118,7 +118,7 @@
 
     <?php wp_reset_postdata(); ?>
   <?php else : ?>
-    <p><?php esc_html_e('Não há editais cadastrados.'); ?></p>
+    <p style="max-width: unset;"><?php esc_html_e('Não há editais cadastrados.'); ?></p>
   <?php endif; ?>
 </main>
 

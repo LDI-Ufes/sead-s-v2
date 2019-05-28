@@ -1,8 +1,8 @@
-<?php get_header('blog'); ?>
+<?php get_header('principal'); ?>
 
 <main id="conteudoPrincipal" class="container page page-galeria">
-  <section class="breadcrumb">Você está em: <a href="/sitiosead/blog">Blog</a><i class="fas fa-greater-than"></i><span>Galeria de Imagens</span></section>
-  <h1>Galeria de Imagens</h1>
+  <section class="breadcrumb">Você está em: <a href="<?php echo site_url(); ?>/noticias">Notícias</a><i class="fas fa-greater-than"></i><span>Galeria de Fotos</span></section>
+  <h1>Galeria de Fotos</h1>
 
   <section id="filtros">
     <span>Navegue por ano: </span>
@@ -14,11 +14,11 @@
         'order' => 'DESC'
             ));
 
-    $ano = isset($_GET['ano-evento']) ? filter_var($_GET['ano-evento'], FILTER_SANITIZE_URL) : '2018';
+    $ano = isset($_GET['ano-evento']) ? filter_var($_GET['ano-evento'], FILTER_SANITIZE_URL) : '2019';
 
     foreach ($terms as $term) {
         $ativo = ($ano == $term->name) ? ' class="active" ' : '';
-        echo '<a id="' . $term->name . '" href="/sitiosead/galeria/?ano-evento=' . $term->name . '" ' . $ativo . ' >' . $term->name . '</a>';
+        echo '<a id="' . $term->name . '" href="/fotos/?ano-evento=' . $term->name . '" ' . $ativo . ' >' . $term->name . '</a>';
     }
     ?>
   </section>
@@ -78,12 +78,17 @@
 
   for (i = 0; i < galeriasQuantidade; i++) {
 
-    let galeriaX = $('ul.imagens')[i]
-    let galeriaXQuantidade = $(galeriaX).find('img').length
+    let galeriaX = $('ul.imagens')[i];
+    let galeriaXQuantidade = $(galeriaX).find('img').length;
 
     if (galeriaXQuantidade >= 4) {
-      $(galeriaX).find('.abrirTodas').fadeIn(300).css('display', 'block')
+      $(galeriaX).find('.abrirTodas').fadeIn(300).css('display', 'block');
     }
   }
+  
+  // aplicando lightbox com o lity
+  $(document).ready(function(){
+    $('#eventos').find('a').attr('data-lity', '');
+  });
 
 </script>

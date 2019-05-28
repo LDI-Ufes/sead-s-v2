@@ -1,4 +1,4 @@
-<?php get_header('blog'); ?>
+<?php get_header('principal'); ?>
 
 <?php while (have_posts()) : the_post(); ?>
 
@@ -6,7 +6,7 @@
     <div class="destaque destaque-imagem" style="background-image: linear-gradient(#043166, rgba(4, 49, 102, 0.3)), url('<?php echo get_the_post_thumbnail_url(); ?>')"></div>
 
     <article class="container">
-      <section class='breadcrumb'>Você está em: <a href="/sitiosead/blog">Notícias</a><i class='fas fa-greater-than'></i><span><?php the_title(); ?></span></section>
+      <section class='breadcrumb'>Você está em: <a href="<?php echo site_url(); ?>/noticias">Notícias</a><i class='fas fa-greater-than'></i><span><?php the_title(); ?></span></section>
       <h1><?php the_title(); ?></h1>
       <div class="post-date"><i class="fas fa-clock"></i><?php the_date('j \d\e F \d\e Y'); ?></div>
 
@@ -37,3 +37,10 @@
 <?php endwhile; ?>
 
 <?php get_footer(); ?>
+
+<script>
+  // aplicando lightbox com o lity
+  $(document).ready(function(){
+    $('.gallery').find('a').attr('data-lity', '');
+  });
+</script>

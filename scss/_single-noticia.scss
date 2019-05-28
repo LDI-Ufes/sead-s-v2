@@ -8,8 +8,6 @@
   }
 
   article {
-    padding-bottom: 4rem;
-
     h1 {
       font-size: 2.25rem;
       line-height: 1.2;
@@ -32,12 +30,37 @@
       font-family: $merriweather;
       line-height: 2;
       color: #333;
-      margin-bottom: 3rem;
+      margin-top: 2rem;
+      margin-bottom: 4rem;
 
       p,
       img,
       blockquote {
-        margin-top: 1.5rem;
+        margin: 0 0 2rem;
+      }
+
+      h2{
+        color: $azulRegular;
+        font-size: 1.5rem;
+        padding: 1.5rem 0 0;
+        margin: 0;
+        margin-bottom: 1.5rem;
+        line-height: 1.6;
+      }
+
+      h3{
+        color: $laranjaRegular;
+        font-size: 1.2rem;
+        padding: 1.5rem 0 0;
+        margin: 0;
+        margin-bottom: 1.5rem;
+      }
+
+      h4{
+        color: $azulRegular;
+        padding: 1.5rem 0 0;
+        margin: 0;
+        margin-bottom: 1rem;
       }
 
       blockquote {
@@ -50,10 +73,49 @@
         line-height: 1.8;
       }
 
+      ul{
+        padding-left: 40px;
+
+        li{ list-style-type: disc; }
+      }
+
+      pre{ 
+        font-family: "Fira Sans", sans;
+        margin-top: 2rem;
+        white-space: normal;
+        font-weight: 300;
+      }
+
+
       img {
         width: 100%;
         height: auto;
         margin-bottom: 1rem;
+      }
+
+      .gallery{
+        margin: 1.5rem 0 0  !important;
+
+        dl{
+          margin: 0;
+
+          dt{
+            padding: .3rem;
+
+            img{
+              margin: 0rem;
+              border: none !important;
+            }
+          }
+          
+          .gallery-caption{
+            margin-left: 0;
+            font-size: .8rem;
+            font-family: $fira;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+          }
+        }
       }
 
       a {
@@ -65,7 +127,7 @@
           text-decoration: underline;
         }
       }
-      
+
       p > a:hover { border: none; }
     }
 
@@ -101,7 +163,7 @@
       color: $laranjaMedio;
       font-weight: $light;
       border-top: solid 2px $laranjaMedio;
-      margin-top: 5rem;
+      margin-top: 3rem;
       line-height: 3rem;
 
       span {
@@ -125,12 +187,10 @@
 
       .post-body {
         max-width: 720px;
-        margin: 0 auto 80px;
-
-        p,
-        img,
-        blockquote {
-          margin-top: 3rem;
+        margin: 2rem auto 4rem;
+       
+        .gallery{
+          margin-bottom: 1rem  !important;
         }
       }
 

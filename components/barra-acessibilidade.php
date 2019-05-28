@@ -4,10 +4,22 @@
 </div>
 
 <div id='barraAuxiliar'>
+  
+<!--  <section id="ufes">
+    <a href="http://www.ufes.br" target="_blank" title="Abrir Portal Ufes em nova aba"><img src="<?php echo get_template_directory_uri(); ?>/svg/marca-ufes.svg"><span> Universidade Federal do Espírito Santo</span></a>
+  </section>-->
+  
   <section class='caixa'>
+    <section id="ufes">
+    <a href="http://www.ufes.br" target="_blank" title="Abrir Portal Ufes em nova aba"><img src="<?php echo get_template_directory_uri(); ?>/svg/marca-ufes.svg"><span>Universidade Federal do Espírito Santo</span></a>
+  </section>
+    
     <span class='btoMenu'>Endereços úteis <i class='fas fa-chevron-down'></i></span>
     <nav class='menu'>
       <ul id='ligacoesExternas' class='menuLista'>
+        <li>
+          <a href='http://www.ufes.br' target="_blank" title="Abrir Portal Ufes em nova aba">Portal Ufes <i class="fas fa-external-link-alt" style="font-size: 0.8em; vertical-align: middle;"></i></a>
+        </li>
         <li>
           <a href='<?php echo site_url(); ?>/faq'>Dúvidas frequentes</a>
         </li>

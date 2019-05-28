@@ -35,7 +35,8 @@
       </div>
 
       <div id='situacao'>
-        <p><strong>Situação: </strong>Oferta 2014/2 em andamento, previsão de conclusão em 2019/1.
+        <p><strong>Situação: </strong>
+          <br>Oferta 2014/2 em andamento, previsão de conclusão em 2019/1.
           <!--<br>Aprovado pelo CEPE em 23/07/2014 por meio da Resolução 33/2014.-->
           <br><strong>Previsão de reoferta em 2019.</strong>
         </p>
@@ -92,10 +93,10 @@
 
       <div id='professores'>
         <h2 id='corpo-docente'>Administração acadêmica</h2>
-        <p><strong>Coordenação:</strong> Andreia Chiari Lins</p>
+        <p><strong>Coordenação: </strong>Andreia Chiari Lins</p>
         <p>Professora do Departamento de Desenho Industrial, para área de Tecnologias da Imagem, na Universidade Federal do Espírito Santo. Doutorada (2016) e Mestre em Educação pela Universidade Federal do Espírito Santo (2008). Especialista em Educação a Distância pela Universidade Católica de Brasília - DF (2006), Especialista em Administração de Empresas Privadas pelo Centro Universitário Vila Velha - ES (1997). Bacharel em Artes Plásticas pela Universidade Federal do Espírito Santo (1994).
 
-        <p><strong>Vice coordenação:</strong> Maria Auxiliadora de Carvalho Corassa</p>
+        <p><strong>Vice coordenação: </strong>Maria Auxiliadora de Carvalho Corassa</p>
 
         <p><strong>Colegiado do curso:</strong>
           <br>Nome
@@ -110,7 +111,7 @@
         <h2>Corpo docente</h2>
 
         <p class='nome'>
-          <a title='Abrir perfil na plataforma Lattes em nova aba' href='' target='_blank'><span class='somente-leitura'>Perfil na plataforma Lattes de</span> (Nome do professor)</a>
+          <a title='Abrir perfil na plataforma Lattes em nova aba' href='' target='_blank'><span class='somente-leitura'>Perfil na plataforma Lattes de </span>(Nome do professor)</a>
           <span>(Titulação do professor)</span>
         </p>
 
@@ -127,13 +128,9 @@
         <h2 id='ofertas-anteriores'>Ofertas anteriores</h2>
 
         <h3>2008/1</h3>
-        <p><strong>Coordenador do Curso:</strong> Nome</p>
-        <p><strong>Polos atendidos:</strong> Alegre, Afonso Claudio, Aracruz, Bom Jesus do Norte, Cachoeiro de Itapemirim, Colatina, Conceição da Barra, Domingos Martins, Ecoporanga, Itapemirim, Iúna, Linhares, Mantenópolis, Nova Venécia, Pinheiros, Piúma, Santa Leopoldina, Santa Teresa, São Mateus, Vargem Alta, Venda Nova do Imigrante, Vila Velha.</p>
+        <p><strong>Coordenação de Curso: </strong>Nome</p>
+        <p><strong>Polos atendidos: </strong>Alegre, Afonso Claudio, Aracruz, Bom Jesus do Norte, Cachoeiro de Itapemirim, Colatina, Conceição da Barra, Domingos Martins, Ecoporanga, Itapemirim, Iúna, Linhares, Mantenópolis, Nova Venécia, Pinheiros, Piúma, Santa Leopoldina, Santa Teresa, São Mateus, Vargem Alta, Venda Nova do Imigrante, Vila Velha.</p>
 
-        <h3>2014/2 - 2019/1</h3>
-        <p><strong>Coordenador do Curso:</strong> Nome</p>
-        <p><strong>Polos atendidos:</strong> Afonso Claudio, Aracruz, Cachoeiro de Itapemirim, Colatina, Domingos Martins, Itapemirim, Iúna, Linhares, Pinheiros, Piúma, Santa Teresa e Vargem Alta.</p>
-        <p><strong>Seleção: </strong><a href="http://www.sead.ufes.br/conteudo/processo-seletivo-para-ingresso-em-cursos-de-graduação-na-modalidade-distância-0" target="_blank" title="Abrir processo seletivo em nova aba">Ver processo seletivo</a> (encerrado)</p>
       </div>
 
     </section>

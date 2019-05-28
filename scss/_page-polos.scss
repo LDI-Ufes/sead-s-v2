@@ -105,6 +105,13 @@
           width: 32rem;
         }
       }
+      #polos{
+        li{
+          .info-polo{
+            max-width: 300px;
+          }
+        }
+      }
     } /* #mapaInterativo */
   } /* media */
 

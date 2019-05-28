@@ -4,7 +4,7 @@
 
   <main id="conteudoPrincipal" class='container page single-edital'>
     <!--Inserir conteúdo-->
-    <section class="breadcrumb">Você está em: <a href="/sitiosead/editais">Editais</a><i class="fas fa-greater-than"></i><span><?php the_title(); ?></span></section>
+    <section class="breadcrumb">Você está em: <a href="<?php echo site_url(); ?>/editais">Editais</a><i class="fas fa-greater-than"></i><span><?php the_title(); ?></span></section>
     <h1>Edital <?php the_title(); ?></h1>
 
     <section id="informacoes">
@@ -32,6 +32,20 @@
           <h2>Inscrição</h2>
           <p>Inscrições, retificações e resultados deste edital estão disponíveis no Sistema de Seleção.</p>
           <a role='button' href=' " .$editalLink[0] . " ' target='_blank' title='Abrir o Sistema de Seleção em nova aba'>Acessar Sistema de Seleção</a>
+        </section>
+      ";
+    }
+    ?>
+    
+    <?php
+    $editalForm = get_post_custom_values('edital-form');
+
+    if ($editalForm != "") {
+      echo "
+        <section id='inscricao' class='secao-edital'>
+          <h2>Inscrição</h2>
+          <p>As inscrições podem ser realizadas pelo seguinte formulário:</p>
+          <a role='button' href=' " .$editalForm[0] . " ' target='_blank' title='Abrir o formulário de inscrição em nova aba'>Formulário de Inscrição</a>
         </section>
       ";
     }

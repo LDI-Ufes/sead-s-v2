@@ -52,7 +52,7 @@ function create_post_type()
         'thumbnail'
       ),
       'rewrite' => array(
-        'slug' => 'blog',
+        'slug' => 'noticias',
       )
     )
   );
@@ -72,7 +72,7 @@ function create_post_type()
         'editor'
       ),
       'rewrite' => array(
-        'slug' => 'galeria',
+        'slug' => 'fotos',
       )
     )
   );
@@ -195,7 +195,7 @@ add_action('pre_get_posts', 'paginate_post_type_noticia', 1, 1);
 function paginate_post_type_noticia($query)
 {
     if (! is_admin() && is_post_type_archive('noticia') && $query->is_main_query()) {
-        $query->set('posts_per_page', 4);
+        $query->set('posts_per_page', 6);
     }
 }
 
@@ -204,7 +204,7 @@ add_action('pre_get_posts', 'paginate_search', 1, 1);
 function paginate_search($query)
 {
     if ($query->is_search()) {
-        $query->set('posts_per_page', 4);
+        $query->set('posts_per_page', 6);
     }
 }
 
@@ -242,9 +242,7 @@ $(\'form#your-profile tr.user-comment-shortcuts-wrap\').hide(); // remove the "K
 $(\'form#your-profile tr.user-admin-bar-front-wrap\').hide(); // remove the "Toolbar" field
   
 $(\'form#your-profile tr.user-language-wrap\').hide(); // remove the "Language" field
-   
-$(\'table.form-table tr.user-display-name-wrap\').hide(); // remove the “Display name publicly as” field
-  
+    
 $(\'table.form-table tr.user-url-wrap\').hide();// remove the "Website" field in the "Contact Info" section
 
 $(\'form#your-profile tr.user-profile-picture\').hide(); // remove the "Profile Picture" field
@@ -270,3 +268,17 @@ $(\'div.yoast-settings\').hide();// remove the "Jabber / Google Talk" field in t
 }
   
 add_action('admin_head','remove_personal_options');
+
+
+function remove_menu_items() {
+  $remove_menu_items = array(__('Comments'),__('Posts'));
+  global $menu;
+  end ($menu);
+  while (prev($menu)){
+    $item = explode(' ',$menu[key($menu)][0]);
+    if(in_array($item[0] != NULL?$item[0]:"" , $remove_menu_items)){
+    unset($menu[key($menu)]);}
+  }
+}
+
+add_action('admin_menu', 'remove_menu_items');

@@ -14,13 +14,12 @@
         <p><strong>Formação: </strong>Licenciatura</p>
         <p><strong>Duração: </strong>3,5 anos (7 semestres)</p>
         <p><strong>Modalidade: </strong>Semipresencial</p>
-        <!--<p><strong>Conceito Geral: </strong>3</p>-->
       </div>
 
       <div id='situacao'>
-        <p><strong>Situação: </strong>Oferta 2014/2 em andamento, previsão de conclusão em 2019/1.
-          <!--<br>Aprovado pelo CEPE em 23/07/2014 por meio da Resolução 33/2014.-->
-          <br><strong>Previsão de reoferta em 2019.</strong>
+        <p><strong>Situação: </strong>
+          <br>Oferta 2014/2 em fase de conclusão.
+          <br><strong>Sem previsão de reoferta.</strong>
         </p>
       </div>
     </section>
@@ -35,7 +34,7 @@
           <li><a title="Mostrar currículo" href='#curriculo'>Currículo</a></li>
           <li><a title="Mostrar corpo docente" href='#corpo-docente'>Corpo docente</a></li>
           <li><a title="Mostrar perfil do egresso" href='#perfil-do-egresso'>Perfil do egresso</a></li>
-          <li><a title="Mostrar ofertas anteriores" href='#ofertas-anteriores'>Ofertas anteriores</a></li>
+          <li><a title="Mostrar ofertas do curso" href='#ofertas-anteriores'>Ofertas</a></li>
 
           <span>Contato</span>
           historia.ead.ufes@gmail.com<br>
@@ -46,13 +45,7 @@
 
       <div id='matriz'>
         <h2 id='curriculo'>Duração do curso</h2>
-        <p>Carga horária total de integralização curricular: 3035h<br>
-        Conteúdos de natureza científico-cultural: 2025h<br>
-        Estágio Curricular Supervisionado Obrigatório: 405h<br>
-        Práticas como Componente Curricular: 405h<br>
-        Atividades complementares: 200h<br>
-        20% de carga horária total: 607h<br>
-        Disciplinas pedagógicas: 675h</p>
+        <p>Carga horária total de integralização curricular: 3035h</p>
 
         <h2>Matriz Curricular</h2>
 
@@ -60,7 +53,7 @@
           <li class='semestre'>
             <button class='ativo'><h3>1° semestre</h3></button>
             <ul style='display: block;'>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>Fundamentos Estruturais e Pedagógicos da EAD <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Fundamentos Estruturais e Pedagógicos da EAD</span></a>--></li>
               <li>Metodologia em EAD <span>30h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Metodologia em EAD</span></a>--></li>
@@ -74,7 +67,7 @@
           <li class='semestre'>
             <button><h3>2° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>Currículo e formação docente <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Currículo e formação docente</span></a>--></li>
               <li>Política e Organização da Educação Básica <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Política e Organização da Educação Básica</span></a>--></li>
@@ -88,7 +81,7 @@
           <li class='semestre'>
             <button><h3>3° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>História Moderna <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina História Moderna</span></a>--></li>
               <li>História da América Contemporânea <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina História da América Contemporânea</span></a>--></li>
@@ -102,7 +95,7 @@
           <li class='semestre'>
             <button><h3>4° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>História da História Ensinada <span>150h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina História da História Ensinada</span></a>--></li>
               <li>História Contemporânea <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina História Contemporânea</span></a>--></li>
@@ -115,7 +108,7 @@
           <li class='semestre'>
             <button><h3>5° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>Estágio Supervisionado em História I <span>150h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Estágio Supervisionado em História I</span></a>--></li>
               <li>Teoria e Prática do Ensino da História <span>150h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Teoria e Prática do Ensino da História</span></a>--></li>
@@ -127,7 +120,7 @@
           <li class='semestre'>
             <button><h3>6° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>Tópicos Esp. em História da América <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Tópicos Esp. em História da América</span></a>--></li>
               <li>Educação e inclusão <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Educação e inclusão</span></a>--></li>
@@ -140,7 +133,7 @@
           <li class='semestre'>
             <button><h3>7° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>Estágio Supervisionado em História III <span>105h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Estágio Supervisionado em História III</span></a>--></li>
               <li>Fundamentos da Língua Bras. de Sinais (LIBRAS) <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Fundamentos da Língua Bras. de Sinais (LIBRAS)</span></a>--></li>
@@ -156,20 +149,7 @@
       <div id='professores'>
         <h2 id='corpo-docente'>Administração acadêmica</h2>
         <p><strong>Coordenação:</strong> Geraldo Antônio Soares</p>
-        <p>Possui graduação em Economia pela Universidade Federal de Viçosa (1982), mestrado em Economia pela Universidade Federal de Minas Gerais (1990) e doutorado em História e Civilizações - Ecole des Hautes Etudes en Sciences Sociales (1997). Atualmente é professor associado - Depto. de História da Universidade Federal do Espírito Santo. Tem experiência na área de História, com ênfase em História Moderna e Contemporânea e História do Brasil Império, atuando principalmente nos seguintes temas: história, cultura, cotidiano, vida privada, escravidão.</p>
-
-        <p><strong>Vice coordenação:</strong></p>
-<!--
-        <p><strong>Colegiado do curso:</strong>
-          <br>Nome
-
-        </p>
-
-        <p><strong>Núcleo Docente Estruturante:</strong>
-          <br>Nome
-
-        </p>-->
-
+        <p>Possui graduação em Economia pela Universidade Federal de Viçosa (1982), mestrado em Economia pela Universidade Federal de Minas Gerais (1990) e doutorado em História e Civilizações - Ecole des Hautes Etudes en Sciences Sociales (1997). Atualmente é professor associado - Departamento de História da Universidade Federal do Espírito Santo. Tem experiência na área de História, com ênfase em História Moderna e Contemporânea e História do Brasil Império, atuando principalmente nos temas: história, cultura, cotidiano, vida privada, escravidão.</p>
         <h2>Corpo docente</h2>
 
         <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/1013756650302841" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Adriana Pereira Campos</a>
@@ -297,7 +277,7 @@
         <p>-problematizar, nas múltiplas dimensões das experiências dos sujeitos históricos, a constituição de diferentes relações de tempo e espaço; </p>
         <p>-conhecer as informações básicas referentes às diferentes épocas históricas nas várias tradições civilizatórias assim como sua interrelação; </p>
         <p>-transitar pelas fronteiras entre a História e outras áreas do conhecimento; </p>
-        <p>-desenvolver a pesquisa, a produção do conhecimento e sua difusão não só no âmbito acadêmico, mas também em instituições de ensino, museus,  em órgãos de preservação de documentos e no -desenvolvimento de políticas e projetos de gestão do patrimônio cultural;</p>
+        <p>-desenvolver a pesquisa, a produção do conhecimento e sua difusão não só no âmbito acadêmico, mas também em instituições de ensino, museus, em órgãos de preservação de documentos e no desenvolvimento de políticas e projetos de gestão do patrimônio cultural;</p>
         <p>-manejar e refletir com autonomia sobre os usos das novas tecnologias de informação e comunicação nos processos de ensino-aprendizagem.</p>
 
         <br><p>O perfil de profissional egresso compreende igualmente a formação de competências e habilidades específicas para o exercício da profissão. Já no que diz respeito ao licenciado em História, as habilidades específicas que se esperam do profissional são as seguintes: </p>
@@ -306,37 +286,23 @@
         <p>-domínio das diferentes técnicas e métodos de avaliação de conhecimento;</p>
         <p>-capacidade de efetuar a transposição didática, realizando assim a adaptação da densidade dos conteúdos aprendidos na Universidade ao nível de desenvolvimento cognitivo do aluno, numa dinâmica que vai do mais complexo ao menos complexo;</p>
         <p>-capacidade de reconhecer e valorizar os conhecimentos prévios do aluno no processo de transmissão/construção do saber histórico escolar;</p>
-        <p>-capacidade de lidar com o livro didático, de confrontá-lo e ao mesmo tempo valorizar as suas potencialidades;</p>
+        <p>-capacidade de lidar com o livro didático, de confrontá-lo e, ao mesmo tempo, valorizar as suas potencialidades;</p>
         <p>-capacidade de inovar pedagogicamente, tanto no que diz respeito aos recursos/estratégias de ensino, quanto na proposição de avaliações/atividades criativas que despertem no aluno o interesse pelo aprendizado da disciplina;</p>
         <p>-capacidade de interagir com os novos recursos digitais e virtuais que cada vez mais se apresentam no universo escolar e formativo.</p>
 
       </div>
 
       <div>
-        <h2 id='ofertas-anteriores'>Ofertas anteriores</h2>
+        <h2 id='ofertas-anteriores'>Ofertas do curso</h2>
 
-        <h3>2014/2 - 2019/1</h3>
+        <h3>2014/2</h3>
         <p><strong>Coordenador do Curso:</strong> Geraldo Antônio Soares</p>
-        <p><strong>Polos atendidos:</strong> </p>
-        <p><strong>Seleção: </strong><a href="http://www.sead.ufes.br/conteudo/processo-seletivo-para-ingresso-em-cursos-de-graduação-na-modalidade-distância-0" target="_blank" title="Abrir processo seletivo em nova aba">Ver processo seletivo</a> (encerrado)</p>
+        <p><strong>Polos atendidos:</strong> Afonso Cláudio, Aracruz, Cachoeiro de Itapemirim, Castelo, Ecoporanga, Itapemirim, Iúna, Linhares, Montanha, Pinheiros, Piúma e Santa Teresa.</p>
       </div>
 
     </section>
 
   </div>
-
-  <section id='faq-curso'>
-    <div class='container'>
-      <h2>Dúvidas Frequentes</h1>
-        <ul>
-          <li>
-            <button><h3>O diploma/certificado EAD é válido?</h3></button>
-            <p>Todo o material didático é disponibilizado on-line, por meio de recursos multimídia, podcasts, vídeos, videoaulas, animações, objetos de aprendizagem e-books, webconferências, no Ambiente Virtual de Aprendizagem. Caso prefira, é possível realizar a impressão.</p>
-          </li>
-
-        </ul>
-    </div>
-  </section>
 
   <section id='noticias'>
     <?php $ultimas_noticias = new WP_Query(array(
@@ -346,7 +312,7 @@
             array(
                 'taxonomy' => 'curso-noticia',
                 'field' => 'slug',
-                'terms' => 'Artes Visuais',
+                'terms' => 'História',
             ),
         ),
     ));

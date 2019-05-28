@@ -14,12 +14,12 @@
         <p><strong>Formação: </strong>Licenciatura</p>
         <p><strong>Duração: </strong>4 anos (8 semestres)</p>
         <p><strong>Modalidade: </strong>Semipresencial</p>
-        <!--<p><strong>Conceito Geral: </strong>3</p>-->
       </div>
 
       <div id='situacao'>
-        <p><strong>Situação: </strong>Oferta 2018/1 em andamento, previsão de conclusão em 2021/2.
-          <br>Aprovado pelo CEPE por meio da Resolução 44/2011.
+        <p><strong>Situação: </strong>
+          <br>Oferta 2018 em andamento, com previsão de conclusão em 2021.
+          <br>Aprovado pelo CEPE por meio da Resolução  67/2017.
           <br><strong>Sem previsão de reoferta.</strong>
         </p>
       </div>
@@ -35,21 +35,18 @@
           <li><a title="Mostrar currículo" href='#curriculo'>Currículo</a></li>
           <li><a title="Mostrar corpo docente" href='#corpo-docente'>Corpo docente</a></li>
           <li><a title="Mostrar perfil do egresso" href='#perfil-do-egresso'>Perfil do egresso</a></li>
+          <li><a title="Mostrar ofertas do curso" href='#ofertas-anteriores'>Ofertas</a></li>
 
           <span>Contato</span>
-          (27) 4009-2094
+          Bruna Tabachi<br/>
+          (27) 4009-2063
         </ul>
 
       </aside>
 
       <div id='matriz'>
         <h2 id='curriculo'>Duração do curso</h2>
-        <p>Carga horária total de integralização curricular: 3.200h<br>
-        Disciplinas: 2.100h<br>
-        Estágio Curricular Supervisionado Obrigatório: 420h<br>
-        Atividades Acadêmicos-Científicos Culturais: 200h<br>
-        Trabalho de Conclusão de Curso: 60h<br>
-        Práticas como Componente Curricular: 420h</p>
+        <p>Carga horária total de integralização curricular: 3.200h</p>
 
 
         <h2>Matriz Curricular</h2>
@@ -58,7 +55,7 @@
           <li class='semestre'>
             <button class='ativo'><h3>1° semestre</h3></button>
             <ul style='display: block;'>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>Língua Italiana I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Língua Italiana I</span></a>--></li>
               <li>Fundamentos Históricos e Filosóficos da Educação <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Fundamentos Históricos e Filosóficos da Educação</span></a>--></li>
@@ -71,12 +68,12 @@
           <li class='semestre'>
             <button><h3>2° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>Língua Italiana II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Língua Italiana II</span></a>--></li>
               <li>Elaboração de Trabalhos Acadêmicos <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Elaboração de Trabalhos Acadêmicos</span></a>--></li>
               <li>Política e Organização da Educação Básica - POEB <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Política e Organização da Educação Básica - POEB</span></a>--></li>
-              <li>Avaliação em Língua Estrangeira <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Avaliação em Língua Estrangeira</span></a>--></li>
+              <li>História da Língua Italiana <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina História da Língua Italiana</span></a>--></li>
               <li>Produção e Recepção Escrita/Italiano <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Produção e Recepção Escrita/Italiano</span></a>--></li>
               <li>Projeto Integrador II - Educação Ambiental <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Projeto Integrador II - Educação Ambiental</span></a>--></li>
             </ul>
@@ -85,26 +82,26 @@
           <li class='semestre'>
             <button><h3>3° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>Língua Italiana III <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Língua Italiana III</span></a>--></li>
               <li>Psicologia da Educação: Aprendizagem <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Psicologia da Educação: Aprendizagem</span></a>--></li>
               <li>Literatura Brasileira I - Periodização <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Literatura Brasileira I - Periodização</span></a>--></li>
               <li>Educação e Diversidade <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Educação e Diversidade</span></a>--></li>
-              <li>História da Língua Italiana <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina História da Língua Italiana</span></a>--></li>
-              <li>Tópicos de Cultura Italiana <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Tópicos de Cultura Italiana</span></a>--></li>
+              <li>Tópicos de Estudos Clássicos <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Tópicos de Estudos Clássicos</span></a>--></li>
+              <li>Tópicos de Cultura Italiana I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Tópicos de Cultura Italiana I</span></a>--></li>
             </ul>
           </li>
 
           <li class='semestre'>
             <button><h3>4° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>Língua Italiana IV <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Língua Italiana IV</span></a>--></li>
               <li>Literatura Italiana I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Literatura Italiana I</span></a>--></li>
               <li>Gestão da Educação Básica <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Gestão da Educação Básica</span></a>--></li>
-              <li>Tópicos de Estudos Clássicos <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Tópicos de Estudos Clássicos</span></a>--></li>
+              <li>Avaliação em Língua Estrangeira <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Avaliação em Língua Estrangeira</span></a>--></li>
               <li>Introdução à Linguística <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Introdução à Linguística</span></a>--></li>
               <li>Projeto Integrador III - Educação Especial <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Projeto Integrador III - Educação Especial</span></a>--></li>
             </ul>
@@ -113,7 +110,7 @@
           <li class='semestre'>
             <button><h3>5° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>Língua Italiana V <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Língua Italiana V</span></a>--></li>
               <li>Educação das Relações Étnico-Raciais <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Educação das Relações Étnico-Raciais</span></a>--></li>
@@ -127,9 +124,9 @@
           <li class='semestre'>
             <button><h3>6° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
-              <li>Didática da Língua Italiana III <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Didática da Língua Italiana III</span></a>--></li>
+              <li>Didática da Língua Italiana <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Didática da Língua Italiana</span></a>--></li>
               <li>Literatura Italiana Infanto-Juvenil <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Literatura Italiana Infanto-Juvenil</span></a>--></li>
               <li>Currículo da Educação Básica <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Currículo da Educação Básica</span></a>--></li>
               <li>Tópicos de Cultura Italiana II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Tópicos de Cultura Italiana II</span></a>--></li>
@@ -142,7 +139,7 @@
           <li class='semestre'>
             <button><h3>7° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>Estágio Supervisionado em Língua Italiana I <span>210h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Estágio Supervisionado em Língua Italiana I</span></a>--></li>
               <li>Análise Contrastiva entre o Português e o Italiano <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Análise Contrastiva entre o Português e o Italiano</span></a>--></li>
@@ -155,7 +152,7 @@
           <li class='semestre'>
             <button><h3>8° semestre</h3></button>
             <ul>
-              <div>Disciplina <span>Programa</span></div>
+              <!--<div>Disciplina <span>Programa</span></div>-->
 
               <li>Estágio Supervisionado em Língua Italiana II <span>210h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Estágio Supervisionado em Língua Italiana II</span></a>--></li>
               <li>Literatura Italiana III <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Literatura Italiana III</span></a>--></li>
@@ -172,64 +169,52 @@
       <div id='professores'>
         <h2 id='corpo-docente'>Administração acadêmica</h2>
         <p><strong>Coordenação:</strong> Mariza Silva de Moraes</p>
-        <p>Graduada em Letras Português-Italiano pela UERJ (1988). Pela UFRJ: especialização (1992) em Língua e Literatura Italiana, mestrado (1994) em Língua e Literatura Italiana e doutorado (1999) em Letras Neolatinas (com ênfase na Língua e na Literatura Italiana). Em 2010, completou uma especialização na Formação de Mediadores (Plataforma Moodle) pela UFES, na modalidade a distância. Pós-doutorado (2014) pela UFC na área da Educação a Distância (EaD). Integrou a diretoria da Associação Brasileira de Hipertexto e Tecnologias Educacionais.- ABTHE, no biênio 2012/2013. Participa do Núcleo de Estudos e Pesquisa de Hipertexto e Tecnologias Educacionais - NEPEHTE da UFES (CNPq). Coordenou cursos presenciais. Cooperou na implementação de currículos dos cursos de Libras e da Licenciatura Intercultural Indígena. Na atualidade, leciona o idioma e literatura italiana na UFES. Participa de representações junto a órgãos colegiados da Instituição.Coordena a Licenciatura Letras-Italiano EaD, em parceria com a CAPES/UAB.</p>
+        <p>Graduada em Letras Português-Italiano pela UERJ (1988). Especialização em Língua e Literatura Italiana (1992), mestrado em Língua e Literatura Italiana (1994) e doutorado em Letras Neolatinas com ênfase na Língua e na Literatura Italiana (1999) pela UFRJ. Em 2010, completou uma especialização na Formação de Mediadores (Plataforma Moodle) pela UFES, na modalidade a distância. Pós-doutorado pela UFC na área da Educação a Distância (2014). Integrou a diretoria da Associação Brasileira de Hipertexto e Tecnologias Educacionais.- ABTHE, no biênio 2012/2013. Participa do Núcleo de Estudos e Pesquisa de Hipertexto e Tecnologias Educacionais - NEPEHTE da UFES (CNPq). Coordenou cursos presenciais. Cooperou na implementação de currículos dos cursos de Libras e da Licenciatura Intercultural Indígena. Na atualidade, leciona o idioma e a literatura italiana na UFES. Participa de representações junto a órgãos colegiados da Instituição. Coordena a Licenciatura Letras-Italiano EaD, em parceria com a CAPES/UAB.</p>
+        
+        <p><strong>Designer Instrucional: </strong> Otávio Lube dos Santos</p>
 
-        <p><strong>Vice coordenação:</strong> </p>
-
-<!--        <p><strong>Colegiado do curso:</strong>
-          <br>Nome
-        </p>
-
-        <p><strong>Núcleo Docente Estruturante:</strong>
-          <br>Nome
-        </p>-->
 
         <h2>Corpo docente</h2>
 
-        <p class='nome'>Celiane Tainá Belon</p>
-        <p class='nome'>Cleuzeni Felberg Betini Taquini </p>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/6954814492049911" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Edna da Silva Polese</a>
+          <span>Doutorado</span>
+        </p>
         <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/7388566141261259" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Edson Rufino de Souza</a>
           <span>Doutorado</span>
         </p>
+        <p class='nome'>Érica Aparecida Salatini Maffia</p>
         <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/6749345243234671" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Fernanda Silva Veloso</a>
           <span>Doutorado</span>
         </p>
         <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/9246869415381080" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Herberth Gomes Ferreira</a>
           <span>Mestrado</span>
         </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/2645748795248726" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Jessica Santos Prasser Croce</a>
-          <span>Especialização</span>
-        </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/3902435726377844" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Karine Marielly Rocha da Cunha</a>
+        
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/7858518863941371" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> João Assis Rodrigues</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/0049700800288323" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Kátia Regina Giesen</a>
-          <span>Doutorado</span>
-        </p>
+        
         <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/1222376244857241" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Leni Ribeiro Leite</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/9263211915419492" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Luana Araujo Neto</a>
-          <span>Especialização</span>
-        </p>
+        
         <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/7056390235667320" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Luana Santos Lemos</a>
           <span>Mestrado</span>
         </p>
         <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/5073990176516263" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Luciana Dias Thomaz</a>
           <span>Doutorado</span>
         </p>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/4882978450027561" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Ludimila Caliman Campos</a>
+          <span>Doutorado</span>
+        </p>
         <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/5033885517258020" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Luzimara de Souza Cordeiro</a>
           <span>Mestrado</span>
-        </p>
-        <p class='nome'>Maiara Ferreira de Oliveira</p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/5040697509222915" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Marcia Cristina de Aguiar</a>
-          <span>Especialização</span>
         </p>
         <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/3443269939361169" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Mariza Silva de Moraes</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/4387500211819209" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Paulo Renato Oliveira Silva</a>
-          <span>Graduação</span>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/2414179194113087" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Nilma Moreira da Penha</a>
+          <span>Mestrado</span>
         </p>
         <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/6167625366359201" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Rafael Ferreira da Silva</a>
           <span>Doutorado</span>
@@ -238,58 +223,74 @@
         <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/8290558218053006" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Reginaldo Celio Sobrinho</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/0044667677415564" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Roberta Decarli Bof</a>
-          <span>Mestrado</span>
-        </p>
+        
         <p class='nome'>Sandra Maria Vicentin de Oliveira </p>
         <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/3043880926873607" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Santinho Ferreira de Souza</a>
           <span>Doutorado</span>
         </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/4765309057605595" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Savio Bernardo Scussulin Vieira Guimaraes</a>
-          <span>Especialização</span>
-        </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/3105140715123207" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Sueli Gomes da Silva Oliveira</a>
-          <span>Especialização</span>
-        </p>
-        <p class='nome'>Verônica Belfi Roncetti Paulino</p>
         <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/0616774249777386" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Vitor da Cunha Gomes</a>
           <span>Mestrado</span>
         </p>
         <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/3076974343173490" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Wagner de Andrade Perin</a>
           <span>Mestrado</span>
         </p>
+        
+        <h2>Tutores</h2>
+        <p class='nome'>Celiane Tainá Belon</p>
+        <p class='nome'>Cleuzeni Felberg Betini Taquini </p>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/2645748795248726" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Jessica Santos Prasser Croce</a>
+          <span>Especialização</span>
+        </p>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/0049700800288323" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Kátia Regina Giesen</a>
+          <span>Doutorado</span>
+        </p>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/9263211915419492" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Luana Araujo Neto</a>
+          <span>Especialização</span>
+        </p>
+        <p class='nome'>Maiara Ferreira de Oliveira</p>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/5040697509222915" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Marcia Cristina de Aguiar</a>
+          <span>Especialização</span>
+        </p>
+        <p class='nome'>Marcos Antônio Borges</p>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/0044667677415564" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Roberta Decarli Bof</a>
+          <span>Mestrado</span>
+        </p>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/4765309057605595" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Savio Bernardo Scussulin Vieira Guimaraes</a>
+          <span>Especialização</span>
+        </p>
+        
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/3105140715123207" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Sueli Gomes da Silva Oliveira</a>
+          <span>Especialização</span>
+        </p>
+        <p class='nome'>Verônica Belfi Roncetti Paulino</p>
       </div>
 
       <div>
         <h2 id='perfil-do-egresso'>Perfil do egresso</h2>
-        <p>Qualificamos o perfil (ideal) dos egressos do curso de Italiano em EaD pelas competências a serem exercidas em seu ofício de docente, que assim se estruturam:</p>
-        <p>I - o reconhecimento da Escola como uma instituição que além de promover a educação formal, promova a cidadania; </p>
+        <p>Qualificamos o perfil dos egressos do curso de Licenciatura em Letras Italiano EaD pelas competências a serem exercidas em seu ofício de docente, que assim se estruturam:</p>
+        <p>I - o reconhecimento da Escola como uma instituição que, além de promover a educação formal, promova a cidadania; </p>
         <p>II – a renovação contínua de seu ofício por meio da pesquisa, da participação de eventos intra e interinstitucional; </p>
         <p>III - a atuação profissional na instituição de ensino deve abranger a participação na gestão da Escola ou similar, com especial atenção ao projeto pedagógico; </p>
-        <p>IV - a partir do pressuposto que a interdisciplinaridade esteve presente no projeto pedagógico, o egresso terá feito o empoderamento para desenvolver o seu oficio em diferentes espaços educativos públicos e/ou privados; </p>
-        <p>VII - a partir do pressuposto que a interdisciplinaridade esteve presente no projeto pedagógico, o egresso será capaz de desenvolver relações interpessoais que valorizem o trabalho coletivo, intercultural seja no âmbito do processo de ensino-aprendizagem, seja na esfera da gestão escolar; VIII - por conta da inserção do curso na modalidade EaD prevemos que o licenciado saiba manejar os recursos da TDICs na edificação de atividades cooperativas na sala de aula e/ou na organização acadêmica; </p>
-        <p>IX – que o egresso, como professor, tenha na leitura um hábito para promoção da discussão de referenciais teóricos contemporâneos educacionais à sua área de formação, como também estar atualizado sobre novas propostas didático – pedagógicas emanadas dos órgãos gestores da educação no Brasil; </p>
-        <p>X- que o egresso, a partir da experiência da leitura e da pesquisa, aliada ao uso das TDICs, estruture material didático dinâmico, inovador e que introduza práticas avaliativas pautadas pelas teorias do ensino de língua; </p>
-        <p>XI – devido ao recurso sistemático da produção de portfólios durante a graduação, o egresso ao final do curso terá alimentado este memorial e terá construído um consubstanciado currículo de formação.</p>
+        <p>IV - a partir do pressuposto de que a interdisciplinaridade esteve presente no projeto pedagógico, o egresso terá feito o empoderamento para desenvolver o seu oficio em diferentes espaços educativos públicos e/ou privados; </p>
+        <p>V - a partir do pressuposto de que a interdisciplinaridade esteve presente no projeto pedagógico, o egresso será capaz de desenvolver relações interpessoais que valorizem o trabalho coletivo e intercultural, seja no âmbito do processo de ensino-aprendizagem, seja na esfera da gestão escolar; </p>
+        <p>VI - por conta da inserção do curso na modalidade EaD, prevemos que o licenciado saiba manejar os recursos da TDICs na edificação de atividades cooperativas na sala de aula e/ou na organização acadêmica; </p>
+        <p>VII – que o egresso, como professor, tenha na leitura um hábito para promoção da discussão de referenciais teóricos contemporâneos educacionais à sua área de formação, como também estar atualizado sobre novas propostas didático – pedagógicas emanadas dos órgãos gestores da educação no Brasil; </p>
+        <p>VIII- que o egresso, a partir da experiência da leitura e da pesquisa, aliada ao uso das TDICs, estruture material didático dinâmico, inovador e que introduza práticas avaliativas pautadas pelas teorias do ensino de língua; </p>
+        <p>IX – devido ao recurso sistemático da produção de portfólios durante a graduação, o egresso, ao final do curso, terá alimentado este memorial e terá construído um consubstanciado currículo de formação.</p>
 
       </div>
+      
+      <div>
+        <h2 id='ofertas-anteriores'>Ofertas do curso</h2>
 
+        <h3>2018/1</h3>
+        <p><strong>Coordenador do Curso:</strong> Mariza Silva de Moraes</p>
+        <p><strong>Polos atendidos:</strong> Afonso Cláudio, Alegre, Colatina, Domingos Martins, Iúna, Santa Teresa, Vargem Alta e Venda Nova do Imigrante.</p>
+      </div>
+      
     </section>
 
   </div>
-
-  <section id='faq-curso'>
-    <div class='container'>
-      <h2>Dúvidas Frequentes</h1>
-        <ul>
-          <li>
-            <button><h3>O diploma/certificado EAD é válido?</h3></button>
-            <p>Todo o material didático é disponibilizado on-line, por meio de recursos multimídia, podcasts, vídeos, videoaulas, animações, objetos de aprendizagem e-books, webconferências, no Ambiente Virtual de Aprendizagem. Caso prefira, é possível realizar a impressão.</p>
-          </li>
-
-        </ul>
-    </div>
-  </section>
 
   <section id='noticias'>
 
@@ -300,7 +301,7 @@
             array(
                 'taxonomy' => 'curso-noticia',
                 'field' => 'slug',
-                'terms' => 'Lestras Italiano',
+                'terms' => 'Letras Italiano',
             ),
         ),
     ));

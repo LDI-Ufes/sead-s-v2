@@ -10,6 +10,9 @@
   }(document, 'script', 'facebook-jssdk'));</script>
 
 <footer>
+  
+  <a title="Voltar ao topo" id="voltar-ao-topo" aria-hidden="true"><i class="fas fa-arrow-up"></i></a> 
+  
   <div class="content">
     <section>
       <h4>Mapa do sítio</h4>
@@ -17,22 +20,27 @@
         <li><a href="<?php echo site_url(); ?>" title="Ir para página inicial">Início</a></li>
         <li>Ensino
           <ul class="subitens">
-            <li><a href="/sitiosead/ead-na-ufes" title="Ir para Ensino - Como é a EaD na Ufes?">Como é a EaD na Ufes?</a></li>
-            <li><a href="/sitiosead/secretaria" title="Ir para Ensino - A Secretaria">A Secretaria</a></li>
-            <li><a href="/sitiosead/contatos" title="Ir para Ensino - Contatos">Contatos</a></li>
+            <li><a href="<?php echo site_url(); ?>/ead-na-ufes" title="Ir para Ensino - Como é a EaD na Ufes?">Como é a EaD na Ufes?</a></li>
+            <li><a href="<?php echo site_url(); ?>/secretaria" title="Ir para Ensino - A Secretaria">A Secretaria</a></li>
+            <li><a href="<?php echo site_url(); ?>/contatos" title="Ir para Ensino - Contatos">Contatos</a></li>
           </ul>
         </li>
         <li><a href="<?php echo site_url(); ?>/editais" title="Ir para Editais">Editais</a></li>
         <li><a href="<?php echo site_url(); ?>/cursos" title="Ir para Cursos">Cursos</a></li>
         <li><a href="<?php echo site_url(); ?>/polos" title="Ir para Polos">Polos</a></li>
-        <li><a href="<?php echo site_url(); ?>/blog" title="Ir para Notícias">Notícias</a></li>
+        <li>Notícias
+          <ul class="subitens">
+            <li><a href="<?php echo site_url(); ?>/noticias" title="Ir para Notícias">Últimas notícias</a></li>
+            <li><a href="<?php echo site_url(); ?>/fotos" title="Ir para Galeria de fotos">Galeria de fotos</a></li>
+          </ul>
+        </li>
       </ul>
     </section>
 
     <section>
       <h4>Fale conosco</h4>
       <p>Telefone: (27) 4009-2208</p>
-      <p>E-mail: <a href="mailto: diretoria.sead@institucional.ufes.br">diretoria.sead@institucional.ufes.br</a></p>
+      <p>E-mail: <a href="mailto: diretoria.sead@institucional.ufes.br">diretoria.sead@ufes.br</a></p>
       <p style="margin-top: .5rem;">Av. Fernando Ferrari, 514, Vitória - ES <br> Térreo do Teatro Universitário - Ufes Campus Goiabeiras</p>
       <p class="enderecoLink">
         <span>
@@ -77,6 +85,19 @@
 
 <?php wp_footer(); ?>
 <script src="<?php echo get_template_directory_uri(); ?>/js/globais.js"></script>
+
+<script>
+  // scroll top
+
+  $('#voltar-ao-topo').click(function () {
+    $('html, body').animate({scrollTop: 0}, 800);
+  });
+
+  $(window).scroll(function () {
+    $(window).scrollTop() > 20 ? $('#voltar-ao-topo').fadeIn(300) : $('#voltar-ao-topo').fadeOut(300);
+  });
+
+</script>
 
 </body>
 </html>

@@ -2,7 +2,7 @@
 
 <main id='conteudoPrincipal' class='page ead-na-ufes'>
 
-  <a href='//www.youtube.com/watch?v=XSGBVzeBUbk' data-lity>
+  <a href='https://youtu.be/PeL1ShDmh1g' data-lity>
     <section class='destaque'>
       <video autoplay loop>
         <source src='<?php echo get_template_directory_uri(); ?>/video/ead-na-ufes.mp4' type='video/mp4'>
@@ -21,7 +21,7 @@
     <div>
       <p>A Secretaria de Ensino a Distância – Sead é a instância responsável por promover ações educativas e de formação na modalidade a distância da Ufes, nas quais a mediação didático-pedagógica dos processos de ensino e de aprendizagem ocorre por meio da utilização das tecnologias da informação e da comunicação, nos ambientes virtuais de aprendizagens – AVA, e, presencialmente, nos Polos de Apoio Presencial da Universidade Aberta do Brasil – UAB e em outros espaços educativos.</p>
       <p>O processo de construção das políticas públicas de Educação a Distância no Brasil iniciou-se a partir da definição de diretrizes e bases da educação nacional, em que o poder público passou a exercer um papel de incentivador do desenvolvimento da modalidade EaD, constituindo-se de um instrumento eficaz de democratização do acesso ao ensino superior e uma opção de qualificação profissional.</p>
-      <p>Hoje, por meio da política de educação a distância assumida pela Administração Central da Ufes, o programa de Interiorização leva conhecimento a todas as regiões do estado. A parceria com os Municípios e Governos de Estado é importante para o desenvolvimento das atividades administrativas e didático pedagógicas do ensino a distância, por meio dos Polos UAB que os alunos recebem orientação diretamente com os tutores presenciais e onde acontecem as práticas e avaliações acadêmicas. Os polos interligam diversos municípios capixabas, os quais se apresentam como parceiros institucionais na oferta de ensino, pesquisa, formação e demais ações direcionadas ao conhecimento.</p>
+      <p>Hoje, por meio da política de educação a distância assumida pela Administração Central da Ufes, o programa de Interiorização leva conhecimento a todas as regiões do estado. A parceria com os Municípios é importante para o desenvolvimento das atividades administrativas e didático pedagógicas do ensino a distância, afinal é por meio dos Polos UAB que os alunos recebem orientação diretamente com os tutores presenciais e onde acontecem as práticas e as avaliações acadêmicas. Os polos interligam diversos municípios capixabas, os quais se apresentam como parceiros institucionais na oferta de ensino, pesquisa, formação e demais ações direcionadas ao conhecimento.</p>
       <blockquote>A metodologia está centrada na relação dialógica entre os professores especialistas, tutores e alunos, materializando-se nos encontros presenciais e semipresenciais que apoiam os estudos realizados ao longo do curso, seja por meio de materiais didáticos ou nos ambientes virtuais.</blockquote>
     </div>
   </div> <!-- container -->
@@ -29,9 +29,9 @@
   <section id='slider'>
     <ul class='container'>
       <button class='seta-prev'>Anterior</button>
-      <li class='item ativo'><?php include 'svg/como-encontros-pres.svg' ?><div class='grupo'><h2 tabindex='0'>Encontros presenciais</h2>O encontro presencial semanal obrigatório se dará com pequenos grupos de alunos e o tutor presencial nas salas e laboratórios em cada Polo UAB integrado ao curso.</div></li>
+      <li class='item ativo'><?php include 'svg/como-encontros-pres.svg' ?><div class='grupo'><h2 tabindex='0'>Encontros presenciais</h2>O encontro presencial semanal obrigatório dar-se-á com pequenos grupos de alunos e o tutor presencial, nas salas e nos laboratórios de cada Polo UAB integrado ao curso.</div></li>
       <li class='item'><?php include 'svg/como-momentos-semi.svg' ?><div class='grupo'><h2 tabindex='0'>Momentos semipresenciais</h2>Os encontros semipresenciais entre alunos, tutores e professores especialistas ocorrerão no AVA e nas webconferências conforme planejamento do curso ou necessidade para esclarecimentos e aprofundamento de conteúdos.</div></li>
-      <li class='item'><?php include 'svg/como-ava.svg' ?><div class='grupo'><h2 tabindex='0'>Ambiente Virtual de Aprendizagem</h2>A Plataforma Moodle trata-se de um sistema de gerenciamento de grupos de estudo, para dar suporte aos cursos oferecidos na modalidade a distância da Ufes, acompanhamento e ajuda ao aluno, executada no AVA e acessível via interface WEB.</div></li>
+      <li class='item'><?php include 'svg/como-ava.svg' ?><div class='grupo'><h2 tabindex='0'>Ambiente Virtual de Aprendizagem</h2>A Plataforma Moodle trata-se de um sistema de gerenciamento de grupos de estudo, para dar suporte aos cursos oferecidos na modalidade a distância pela Ufes, acompanhamento e ajuda ao aluno, executada no AVA e acessível via interface WEB.</div></li>
       <button class='seta-next'>Próximo</button>
       <div class='dots'>
         <ul aria-hidden='true'>

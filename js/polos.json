@@ -5,189 +5,216 @@
       "nome": "Afonso Cláudio",
       "coord": "Balbino Vargas Guisso",
       "email": "vargasbal@yahoo.com.br<br>polouab@hotmail.com",
-      "telefone": "(27) 3735-2075<br>(27) 3735-4043"
+      "telefone": "(27) 3735-2075<br>(27) 3735-4043",
+      "endereco": "Alameda Nossa Senhora de Lourdes, 111, Custódio Leite Ribeiro, Afonso Cláudio - ES"
     },
     {
       "id": "Alegre",
       "nome": "Alegre",
       "coord": "Maria Aparecida Coelho Gonçalves",
       "email": "aparecidacoelho1@hotmail.com<br>polouabalegre@gmail.com",
-      "telefone": "(28) 3552-8989"
+      "telefone": "(28) 3552-8989",
+      "endereco": "Centro de Ciências Agrárias, Alto Universitário, S/N, 29500-000, Alegre - ES"
     },
     {
       "id": "Aracruz",
       "nome": "Aracruz",
       "coord": "Maria Goretti Moro Gomes",
       "email": "coordenacaouab.acz@gmail.com<br>uab.aracruz@gmail.com",
-      "telefone": "(27) 3270-7470"
+      "telefone": "(27) 3270-7470",
+      "endereco": "Rua General Aristides Guaraná, 23 - 29190-050, Centro - Aracruz - ES"
     },
     {
       "id": "BaixoGuandu",
       "nome": "Baixo Guandu",
       "coord": "Luciano Rocha Miranda",
       "email": "polouabbaixoguandu@gmail.com<br>lucianorochamiranda@yahoo.com.br",
-      "telefone": "(27) 3732-2047"
+      "telefone": "(27) 3732-2047",
+      "endereco": "Avenida 10 de Abril, Nº 219, 1º Andar, Centro - Baixo Guandu - CEP 29730-000"
     },
     {
       "id": "BomJesusdoNorte",
       "nome": "Bom Jesus do Norte",
       "coord": "Márcia Elaine Lazzarini Mozela Gonçalves",
       "email": "uab.bjn@gmail.com",
-      "telefone": "(28) 3562-2544<br>(28) 3562-1166"
+      "telefone": "(28) 3562-2544<br>(28) 3562-1166",
+      "endereco": "Av. Governador Francisco Lacerda de Aguiar, S/Nº, Centro, Bom Jesus do Norte - ES - CEP 29460-000"
     },
     {
       "id": "CachoeirodeItapemirim",
       "nome": "Cachoeiro de Itapemirim",
       "coord": "Joelma Cellin",
       "email": "jcellin@yahoo.com.br",
-      "telefone": "(28) 3521-3938"
+      "telefone": "(28) 3521-3938",
+      "endereco": "Rodovia Engenheiro Fabiano Vivacqua, s/n, Cidade Universitária - CEP 29313-230 - Cachoeiro de Itapemirim - ES"
     },
     {
       "id": "Castelo",
       "nome": "Castelo",
       "coord": "Paulo Roberto Bellotti Vargas",
       "email": "bellottivargas@bol.com.br<br>vargaspolocastelo@gmail.com<br>polouabcastelo@gmail.com",
-      "telefone": "(28) 3310-6909"
+      "telefone": "(28) 3310-6909",
+      "endereco": "Escola Municipal de Educação Infantil e Ensino Fundamental Madalena Pisa, Praça Mário Lima, Nº 43, Bairro Vila Isabel, Castelo-ES, CEP 29360-000"
     },
     {
       "id": "Colatina",
       "nome": "Colatina",
       "coord": "Ivan Prates",
       "email": "sec.uabcolatina@gmail.com<br>naviprates@yahoo.com.br",
-      "telefone": "(27) 3177-7070"
+      "telefone": "(27) 3177-7070",
+      "endereco": "EMEF Adwalter Ribeiro Soares, Rua Sérgio Bernardina, S/N, Santa Terezinha, Colatina - ES, CEP 29702-600"
     },
     {
       "id": "ConceicaodaBarra",
       "nome": "Conceição da Barra",
       "coord": "Marlene Souza de Oliveira",
       "email": "marlenprof@hotmail.com<br>marlene.marlensoft@gmail.com<br>cemead.cb@gmail.com",
-      "telefone": "(27) 3762-3785"
+      "telefone": "(27) 3762-3785",
+      "endereco": "Rua 17 de Abril, Vila dos Pescadores, Margem do Rio Cricare, Conceição da Barra - ES, CEP 29960-000"
     },
     {
       "id": "DomingosMartins",
       "nome": "Domingos Martins",
       "coord": "Eliana de Deus Sobrinho",
       "email": "uab.dmartins.ufes@hotmail.com<br>elianasobrinho.numeros@hotmail.com",
-      "telefone": "(27) 3268-3181"
+      "telefone": "(27) 3268-3181",
+      "endereco": "Travessa Augusto Schwambach, 87, Centro, Domingos Martins-ES, CEP 29260-000"
     },
     {
       "id": "Ecoporanga",
       "nome": "Ecoporanga",
       "coord": "Vanete Gregório Batista Souza",
       "email": "vanetegregorio13@hotmail.com<br>ecoporangapolouab@gmail.com",
-      "telefone": "(27) 3755-1328<br>3755-1671"
+      "telefone": "(27) 3755-1328<br>3755-1671",
+      "endereco": "Rua Americo Ribeiro de Souza, Nº 73, Centro - Antigo Lions, Ecoporanga-ES, CEP 29850-000"
     },
     {
       "id": "Itapemirim",
       "nome": "Itapemirim",
       "coord": "Cleidson Frisso Braz",
       "email": "cleidsonfrisso@hotmail.com",
-      "telefone": "(28) 3529-6064"
+      "telefone": "(28) 3529-6064",
+      "endereco": "Av. Cristiano Dias Lopes Filho, s/nº, Centro, Itapemirim-ES, CEP 29330-000"
     },
     {
       "id": "Iuna",
       "nome": "Iúna",
       "coord": "Dorotéia Cunha Figueiredo Gomes",
       "email": "doroteiagomes9@gmail.com<br>polouabiuna@gmail.com<br>uab@iuna.es.gov.br",
-      "telefone": "(28) 3545-3346"
+      "telefone": "(28) 3545-3346",
+      "endereco": "Av. Deputado João Rios, 221, 2º andar, Bairro Quilombo, Iúna - ES, CEP 29390-000"
     },
     {
       "id": "Linhares",
       "nome": "Linhares",
       "coord": "Deziere Aparecida de Azevedo Siqueira",
       "email": "uab2linhares@gmail.com<br>deziere.az@gmail.com",
-      "telefone": "(27) 3373-7900<br>(27) 3373-7924"
+      "telefone": "(27) 3373-7900<br>(27) 3373-7924",
+      "endereco": "Av. Presidente Costa e Silva, 155, Novo Horizonte, Linhares - ES, CEP 29902-120"
     },
     {
       "id": "Mantenopolis",
       "nome": "Mantenópolis",
       "coord": "Lucas Rodrigues dos Reis",
       "email": "lucasdoreis@gmail.com<br>mpolodemantenopolis@yahoo.com.br",
-      "telefone": "(27) 3758-2268<br>(27) 3758-1129"
+      "telefone": "(27) 3758-2268<br>(27) 3758-1129",
+      "endereco": "Rua Tiradentes, s/nº, Centro, Em cima da Rodoviária, Mantenópolis - ES, CEP 29770-000"
     },
     {
       "id": "MimosodoSul",
       "nome": "Mimoso do Sul",
       "coord": "Claudionice Sarte Barros",
       "email": "uab.polomimosodosul@gmail.com<br>claudionice.sarte@gmail.com",
-      "telefone": ""
+      "telefone": "",
+      "endereco": "Rua Projetada, s/nº, Chácara do Chafariz, Pombal, Mimoso do Sul - ES, CEP 29400-000"
     },
     {
       "id": "Montanha",
       "nome": "Montanha",
       "coord": "Urbênia Silva de Oliveira",
       "email": "polouab@montanha.es.gov.br",
-      "telefone": "(27) 3754-2179"
+      "telefone": "(27) 3754-2179",
+      "endereco": "Av. Getúlio Vargas, 436 - Centro - Montanha-ES - CEP: 29890-000"
     },
     {
       "id": "NovaVenecia",
       "nome": "Nova Venécia",
       "coord": "Rômulo Delboni dos Santos",
       "email": "romulodelboni@hotmail.com<br>nveneciauab@gmail.com",
-      "telefone": "(27) 3752-9028"
+      "telefone": "(27) 3752-9028",
+      "endereco": "Rua 7 de setembro, nº 420, Bairro Rúbia, Nova Venécia, ES- 29830-000"
     },
     {
       "id": "Pinheiros",
       "nome": "Pinheiros",
       "coord": "Wanésia Gláucia Fabris Fávaro",
       "email": "uabpinheiros@gmail.com<br>wanesiaglaucia@hotmail.com",
-      "telefone": "(27) 3765-1692"
+      "telefone": "(27) 3765-1692",
+      "endereco": "Rua General Rondon, s/nº, Centro, Bairro Nova Canaã, Pinheiros - ES, CEP 29980-000"
     },
     {
       "id": "Piuma",
       "nome": "Piúma",
       "coord": "Castorina do Nascimento Calenzani",
       "email": "castoriades@hotmail.com<br>polouabpiuma@gmail.com<br>castoriades@gmail.com",
-      "telefone": "(28) 3520-4160"
+      "telefone": "(28) 3520-4160",
+      "endereco": "Rua Jair Novaes, Nº 56, Centro, Piúma - ES, CEP 29285-000"
     },
     {
       "id": "SantaLeopoldina",
       "nome": "Santa Leopoldina",
       "coord": "Rosilene Sian",
       "email": "polouabsl@gmail.com<br>uab@santaleopoldina.es.gov.br<br>rosilenessian@hotmail.com",
-      "telefone": "(27) 3266-1206"
+      "telefone": "(27) 3266-1206",
+      "endereco": "Rua Carlos Alberto do Nascimento, s/nº, Bairro Moxafongo, Santa Leopoldina - ES, CEP 29640-000"
     },
     {
       "id": "SantaTeresa",
       "nome": "Santa Teresa",
       "coord": "Ozirlei Teresa Marcilino",
       "email": "santateresa.uab@gmail.com<br>otmarcilino@yahoo.com.br<br>ozirlei@hotmail.com",
-      "telefone": "(27) 3259-3613"
+      "telefone": "(27) 3259-3613",
+      "endereco": "Av. Jerônimo Vervloet, 145, Centro, Santa Teresa - ES, CEP 29650-000"
     },
     {
       "id": "SaoMateus",
       "nome": "São Mateus",
       "coord": "Nóslen Motta de Andrade",
       "email": "polouabsm.cursos@gmail.com<br>noslenmotta@hotmail.com",
-      "telefone": "(27) 3763-1082"
+      "telefone": "(27) 3763-1082",
+      "endereco": "Rua Duque de Caxias, nº 194-A, Bairro: Carapina, CEP: 29.933-030, São Mateus/ES"
     },
     {
       "id": "VargemAlta",
       "nome": "Vargem Alta",
       "coord": "Fabio Scaramussa",
       "email": "f.scaramussa@yahoo.com.br<br>fascaramussa@gmail.com<br>uabvargemaltaes@gmail.com",
-      "telefone": "(28) 3528-1277"
+      "telefone": "(28) 3528-1277",
+      "endereco": "Rua Pedro Israel David, 500, Centro, Vargem Alta - ES, CEP 29295-000"
     },
     {
       "id": "VendaNovadoImigrante",
       "nome": "Venda Nova do Imigrante",
       "coord": "Silvia Aparecida de Carvalho Scussulin",
       "email": "silviascussulin@gmail.com<br>polouab2vni@hotmail.com",
-      "telefone": "(28) 3546-1369"
+      "telefone": "(28) 3546-1369",
+      "endereco": "Av. Evandi Américo Comarella, 385, 3º Piso, Andar da Prefeitura Municipal VNI, Centro, Venda Nova do Imigrante - ES, CEP 29375-000"
     },
     {
       "id": "VilaVelha",
       "nome": "Vila Velha",
       "coord": "Andréia Toniato da Silva",
       "email": "andreatoniato@edu.vilavelha.es.gov.br",
-      "telefone": ""
+      "telefone": "(27) 3388-4042<br>(27) 3388-4342",
+      "endereco": "Rua Antônio Ataíde, 246, Centro, Prainha, Vila Velha - ES, CEP 29100-290"
     },
     {
       "id": "Vitoria",
       "nome": "Vitória",
       "coord": "Rosane Maria Muñoz",
       "email": "coordenacao.polouabvitoria@gmail.com<br>uab.polovitoria@gmail.com<br>munoz.rosane@gmail.com",
-      "telefone": "(27) 3332-4413"
+      "telefone": "(27) 3332-4413",
+      "endereco": "Rua Coronel José Martins de Figueiredo, 45, Tabuazeiro, Vitória, ES - CEP: 29043-405"
     }
    ]
 }

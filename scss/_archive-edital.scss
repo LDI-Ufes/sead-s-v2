@@ -189,6 +189,8 @@
 
           &#cursos{
             width: calc(30% - 1rem);
+            
+            ul{ width: calc(100% - 1.2rem - 1px); }
           }
 
           ul{
@@ -196,7 +198,7 @@
             background-color: $azulExtraClaro;
             border: solid 0.5px $azulRegular;
             border-top: none;
-            width: calc(100% - 1.2rem - 1px);
+            width: calc(100% - 1.2rem);
             margin-left: -.5px;
             padding-bottom: .5rem;
             z-index: 1;

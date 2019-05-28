@@ -6,6 +6,19 @@ footer {
   font-weight: $light;
   line-height: 1.7;
 
+  #voltar-ao-topo{
+    display: none;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    padding: .3rem 0.8rem;
+    z-index: 1;
+    background-color: black;
+    opacity: .5;
+    color: white;
+    cursor: pointer;
+  }
+
   .content {
     padding: 2rem 1rem;
 
@@ -99,10 +112,16 @@ footer {
   }
 
   @media screen and (min-width: 992px) {
+    
+    #voltar-ao-topo{
+      bottom: 1.5rem;
+      right: 1.5rem;
+    }
+    
     .content {
       max-width: 960px;
       margin: 0 auto;
-      padding: 2rem 0;
+      padding: 2rem 0 3rem;
 
       section {
         width: calc(50% - 0.7rem);

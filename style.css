@@ -21,7 +21,7 @@ button {
   font-size: inherit;
   font-weight: inherit; }
 
-.inicio #banner .container a, .inicio #polos a, .page-blog a[role="button"], .page-galeria #eventos li .imagens .abrirTodas, .single-edital .secao-edital#inscricao a[role="button"] {
+.inicio #banner .container a, .inicio #polos a, .page-blog a[role="button"], .page-galeria #eventos li .imagens .abrirTodas, .single-edital .secao-edital#inscricao a[role="button"], #selecao2019-1 #como-funciona button, #selecao2019-1 #conheca-os-cursos #lista-cursos #botoes-curso > button, #selecao2019-1 #conheca-os-cursos #lista-cursos #polos-do-curso ul a {
   background-color: #c75000;
   text-transform: uppercase;
   color: white;
@@ -30,7 +30,7 @@ button {
   margin: 1rem 0;
   font-weight: 500;
   cursor: pointer; }
-  .inicio #banner .container a:hover, .inicio #polos a:hover, .page-blog a[role="button"]:hover, .page-galeria #eventos li .imagens .abrirTodas:hover, .single-edital .secao-edital#inscricao a[role="button"]:hover {
+  .inicio #banner .container a:hover, .inicio #polos a:hover, .page-blog a[role="button"]:hover, .page-galeria #eventos li .imagens .abrirTodas:hover, .single-edital .secao-edital#inscricao a[role="button"]:hover, #selecao2019-1 #como-funciona button:hover, #selecao2019-1 #conheca-os-cursos #lista-cursos #botoes-curso > button:hover, #selecao2019-1 #conheca-os-cursos #lista-cursos #polos-do-curso ul a:hover {
     background-color: #b24800; }
 
 .page p, .page blockquote, .faq ul li, .secretaria #estrutura h3 {
@@ -191,7 +191,28 @@ header {
       display: inline-flex;
       justify-content: flex-end;
       align-items: center;
-      color: white; }
+      color: white;
+      position: relative; }
+      header #barraAuxiliar .caixa #ufes {
+        flex-grow: 10; }
+        header #barraAuxiliar .caixa #ufes a:hover span {
+          border-bottom-width: 2px;
+          border-bottom-style: solid;
+          border-bottom-color: #f06c00; }
+        header #barraAuxiliar .caixa #ufes img {
+          height: 18px;
+          margin-left: 8px;
+          vertical-align: middle; }
+        header #barraAuxiliar .caixa #ufes span {
+          margin-left: 5px;
+          padding: 0.3em; }
+        @media screen and (max-width: 992px) {
+          header #barraAuxiliar .caixa #ufes {
+            position: absolute;
+            left: 0;
+            top: .6rem; }
+            header #barraAuxiliar .caixa #ufes span {
+              display: none; } }
     header #barraAuxiliar .btoMenu {
       padding: 10px;
       width: 100vw;
@@ -205,17 +226,6 @@ header {
     flex-grow: 10;
     display: flex;
     justify-content: flex-end; }
-  header #topoBlog #enderecoBlog {
-    max-height: 100%;
-    z-index: 1; }
-    header #topoBlog #enderecoBlog:focus {
-      outline: none; }
-  header #topoBlog #nossoBlog {
-    width: auto; }
-  header #topoBlog form {
-    margin: 0; }
-  header #topoBlog #enderecoPortal {
-    margin-left: 1.5rem; }
   header .topo {
     order: 3; }
     header .topo .caixa {
@@ -224,8 +234,6 @@ header {
       display: inline-flex;
       flex-direction: column;
       justify-content: center; }
-      header .topo .marca#enderecoBlog {
-        flex-direction: row; }
   @media screen and (min-width: 993px) {
     header #barraAuxiliar .btoMenu,
     header .topo .btoMenu {
@@ -242,20 +250,6 @@ header {
         height: calc(100px - 2.4rem); }
         header #topoPrincipal #menuPrincipal > ul > li#espaco {
           width: 13rem; }
-    header #topoBlog svg#nossoBlog {
-      width: 260px;
-      transition: margin-top 0.5s;
-      padding: 0;
-      margin-top: 40px; }
-    header #topoBlog #menuPrincipal {
-      flex-grow: 10;
-      display: flex;
-      justify-content: flex-end; }
-      header #topoBlog #menuPrincipal > ul > li {
-        height: calc(100px - 2.4rem); }
-    header #topoBlog.formPesquisaAtivo form {
-      flex-grow: 10;
-      margin-right: 20px; }
     header .topo {
       display: inline-flex;
       position: relative;
@@ -272,28 +266,6 @@ header {
       order: 2; }
     header #topoPrincipal .btoMenu {
       order: 3; }
-    header #topoBlog svg#nossoBlog,
-    header #topoBlog svg.seadUfes {
-      margin: 10px 20px;
-      height: 50px; }
-    header #topoBlog svg#nossoBlog {
-      order: 1;
-      width: 90px; }
-    header #topoBlog #enderecoPortal {
-      position: absolute;
-      left: -9999px; }
-    header #topoBlog .btoMenu {
-      order: 3; }
-    header #topoBlog .menu {
-      order: 4; }
-      header #topoBlog .menu .menuAberto > .temSubmenu > span i.fas {
-        display: none; }
-      header #topoBlog .menu .menuAberto > .temSubmenu > ul.menuSuspenso {
-        position: relative;
-        transform: translateX(0);
-        z-index: 0; }
-        header #topoBlog .menu .menuAberto > .temSubmenu > ul.menuSuspenso > .temSubmenu > .menuSuspenso {
-          margin: 0 0 10px 0; }
     header .topo {
       background-color: #1765ab;
       color: white; }
@@ -302,17 +274,24 @@ header {
         color: white; }
       header .topo .caixa svg.seadUfesExtenso,
       header .topo .caixa .btoMenu {
-        margin: 10px 20px;
+        margin: 10px;
         z-index: 1; }
       header .topo .caixa svg.seadUfesExtenso {
-        width: 100px;
-        height: 30px;
-        padding: 10px 0; }
+        width: auto;
+        height: 40px;
+        padding: 5px 0;
+        margin-right: -5rem !important;
+        margin-left: 10px !important; }
+        header .topo .caixa svg.seadUfesExtenso .assinatura {
+          display: none; }
       header .topo .caixa .btoMenu {
         padding: 10px;
-        background-color: #043166;
         line-height: 30px;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        font-weight: 500;
+        margin: 10px 0; }
+        header .topo .caixa .btoMenu i {
+          font-size: .9rem; }
     header .btoMenu {
       cursor: pointer; } }
 
@@ -455,6 +434,17 @@ footer {
   color: white;
   font-weight: 300;
   line-height: 1.7; }
+  footer #voltar-ao-topo {
+    display: none;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    padding: .3rem 0.8rem;
+    z-index: 1;
+    background-color: black;
+    opacity: .5;
+    color: white;
+    cursor: pointer; }
   footer .content {
     padding: 2rem 1rem; }
     footer .content section {
@@ -514,10 +504,13 @@ footer {
         footer .creditos p span a:hover {
           text-decoration: underline; }
   @media screen and (min-width: 992px) {
+    footer #voltar-ao-topo {
+      bottom: 1.5rem;
+      right: 1.5rem; }
     footer .content {
       max-width: 960px;
       margin: 0 auto;
-      padding: 2rem 0; }
+      padding: 2rem 0 3rem; }
       footer .content section {
         width: calc(50% - 0.7rem);
         vertical-align: top; }
@@ -733,92 +726,99 @@ footer {
               cursor: pointer; }
   .inicio #noticias {
     margin-bottom: 3rem;
-    display: flex;
-    flex-wrap: wrap;
-    /* confira-mais */
-    /* noticia */ }
-    .inicio #noticias .confira-mais {
-      display: inline-block;
-      flex-grow: 1;
-      width: 100%;
-      border-top: solid 3px #f06c00;
-      position: relative;
-      margin-bottom: 2rem;
-      height: 300px;
+    /* blocos */ }
+    .inicio #noticias h2 {
+      color: #043166;
+      padding: 1rem;
+      margin-bottom: 0;
+      font-style: italic;
+      font-size: 2.5rem; }
+    .inicio #noticias #blocos {
       display: flex;
-      align-items: flex-end;
       flex-wrap: wrap;
-      padding: 0 1rem; }
-      .inicio #noticias .confira-mais h2 {
-        color: #f06c00;
-        font-weight: 300;
-        font-size: 2.3rem;
-        margin: 0.5rem 0;
-        line-height: 2.8rem; }
-      .inicio #noticias .confira-mais a {
-        width: calc(50% - 0.5rem);
-        background-image: linear-gradient(#043166, #1765ab);
+      /* noticia */ }
+      .inicio #noticias #blocos .confira-mais {
         display: inline-block;
-        color: white;
-        height: 50%;
-        border: none;
-        font-size: 4rem;
-        text-align: center; }
-        .inicio #noticias .confira-mais a:last-child {
-          margin-left: 1rem; }
-        .inicio #noticias .confira-mais a:hover {
-          background-image: linear-gradient(#043166, #0074cf); }
-        .inicio #noticias .confira-mais a svg {
-          max-width: 5rem;
-          height: 100%;
-          margin: 0 auto; }
-          .inicio #noticias .confira-mais a svg path {
-            fill: white; }
-        .inicio #noticias .confira-mais a i {
-          vertical-align: text-bottom;
-          line-height: 1rem; }
-    .inicio #noticias .noticia {
-      display: inline-block;
-      flex-grow: 1;
-      width: 100%;
-      border-top: solid 3px #f06c00;
-      position: relative;
-      margin-bottom: 2rem;
-      height: 300px; }
-      .inicio #noticias .noticia:after {
-        content: "";
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        height: 100%;
-        opacity: .9;
-        background-image: linear-gradient(transparent, #043166); }
-      .inicio #noticias .noticia img {
+        flex-grow: 1;
         width: 100%;
-        object-fit: cover;
+        border-top: solid 3px #f06c00;
+        position: relative;
+        margin-bottom: 2rem;
         height: 300px;
-        margin-bottom: -0.3rem; }
-      .inicio #noticias .noticia h3 {
-        color: white;
-        position: absolute;
-        bottom: 0;
-        z-index: 1;
-        padding: 0;
-        max-width: calc(100% - 2rem);
-        font-weight: normal;
-        font-size: 1.2rem;
-        line-height: 1.4;
-        margin-left: 1rem; }
-      .inicio #noticias .noticia:nth-of-type(n + 3) {
-        display: none; }
-      .inicio #noticias .noticia:hover:after {
-        opacity: 1; }
-      .inicio #noticias .noticia:hover h3 {
-        text-decoration: underline;
-        text-underline-position: under;
-        text-decoration-color: #f06c00; }
+        display: flex;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        padding: 0 1rem; }
+        .inicio #noticias #blocos .confira-mais span {
+          color: #f06c00;
+          font-weight: 300;
+          font-size: 2.3rem;
+          margin: 0.5rem 0;
+          line-height: 2.8rem; }
+        .inicio #noticias #blocos .confira-mais a {
+          width: calc(50% - 0.5rem);
+          background-image: linear-gradient(#043166, #1765ab);
+          display: inline-block;
+          color: white;
+          height: 50%;
+          border: none;
+          font-size: 4rem;
+          text-align: center; }
+          .inicio #noticias #blocos .confira-mais a:last-child {
+            margin-left: 1rem; }
+          .inicio #noticias #blocos .confira-mais a:hover {
+            background-image: linear-gradient(#043166, #0074cf); }
+          .inicio #noticias #blocos .confira-mais a svg {
+            max-width: 5rem;
+            height: 100%;
+            margin: 0 auto; }
+            .inicio #noticias #blocos .confira-mais a svg path {
+              fill: white; }
+          .inicio #noticias #blocos .confira-mais a i {
+            vertical-align: text-bottom;
+            line-height: 1rem; }
+      .inicio #noticias #blocos .noticia {
+        display: inline-block;
+        flex-grow: 1;
+        width: 100%;
+        border-top: solid 3px #f06c00;
+        position: relative;
+        margin-bottom: 2rem;
+        height: 300px; }
+        .inicio #noticias #blocos .noticia:after {
+          content: "";
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          height: 100%;
+          opacity: .9;
+          background-image: linear-gradient(transparent, #043166); }
+        .inicio #noticias #blocos .noticia img {
+          width: 100%;
+          object-fit: cover;
+          height: 300px;
+          margin-bottom: -0.3rem; }
+        .inicio #noticias #blocos .noticia h3 {
+          color: white;
+          position: absolute;
+          bottom: 0;
+          z-index: 1;
+          padding: 0;
+          max-width: calc(100% - 2rem);
+          font-weight: normal;
+          font-size: 1.2rem;
+          line-height: 1.4;
+          margin-left: 1rem; }
+        .inicio #noticias #blocos .noticia:nth-of-type(n + 3) {
+          display: none; }
+        .inicio #noticias #blocos .noticia:hover:after {
+          opacity: 1; }
+        .inicio #noticias #blocos .noticia:hover h3 {
+          text-decoration: underline;
+          text-underline-position: under;
+          text-decoration-color: #f06c00; }
   .inicio #polos {
     color: #043166;
     background-color: #ffdcc5;
@@ -893,17 +893,19 @@ footer {
       .inicio #noticias {
         margin: 7rem 0;
         margin-right: -1rem; }
-        .inicio #noticias .confira-mais {
+        .inicio #noticias h2 {
+          padding: 1rem 0 1.5rem; }
+        .inicio #noticias #blocos .confira-mais {
           margin-right: 1rem;
           padding: 0;
           width: 300px; }
-        .inicio #noticias .noticia {
+        .inicio #noticias #blocos .noticia {
           margin-right: 1rem;
           width: 300px; }
-          .inicio #noticias .noticia:first-child {
+          .inicio #noticias #blocos .noticia:first-child {
             flex-grow: 2;
             width: calc(600px + 0.5rem); }
-          .inicio #noticias .noticia:nth-of-type(n) {
+          .inicio #noticias #blocos .noticia:nth-of-type(n) {
             display: block; }
       .inicio #polos {
         padding: 1rem;
@@ -984,7 +986,7 @@ footer {
   padding: 0;
   padding-top: 3rem; }
 .page-blog #posts .blog-post {
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
   list-style-type: none;
   font-weight: 600; }
   .page-blog #posts .blog-post a .blog-post-header {
@@ -1037,16 +1039,21 @@ footer {
     font-weight: 400;
     line-height: 1.5;
     margin: 1rem 1.5rem; }
-.page-blog #posts #postsNav {
+.page-blog #posts #paginacao {
   color: #c75000;
-  padding: 0 1rem 6rem; }
-  .page-blog #posts #postsNav a:hover {
+  padding: 1rem 1rem 2rem;
+  text-align: center;
+  font-weight: 700; }
+  .page-blog #posts #paginacao a,
+  .page-blog #posts #paginacao span {
+    padding: 0 .5rem; }
+  .page-blog #posts #paginacao a:hover {
     border-bottom: solid 1px #b24800;
     color: #b24800; }
-  .page-blog #posts #postsNav .nav-right {
-    float: right; }
-  .page-blog #posts #postsNav .nav-left {
-    float: left; }
+  .page-blog #posts #paginacao span {
+    color: #1765ab; }
+  .page-blog #posts #paginacao h2 {
+    display: none; }
 .page-blog #informativo {
   margin-top: 2rem;
   padding: 1.5rem; }
@@ -1200,7 +1207,7 @@ footer {
     color: white; }
 @media screen and (min-width: 992px) {
   .page-blog .container {
-    padding-top: 10rem; }
+    padding-top: 5rem; }
   .page-blog #posts {
     width: 560px;
     display: inline-block; }
@@ -1370,12 +1377,14 @@ footer {
           width: calc(27.5% - 1rem); }
         .page-editais #filtros #seletores .seletor#cursos {
           width: calc(30% - 1rem); }
+          .page-editais #filtros #seletores .seletor#cursos ul {
+            width: calc(100% - 1.2rem - 1px); }
         .page-editais #filtros #seletores .seletor ul {
           position: absolute;
           background-color: #edf9ff;
           border: solid 0.5px #1765ab;
           border-top: none;
-          width: calc(100% - 1.2rem - 1px);
+          width: calc(100% - 1.2rem);
           margin-left: -.5px;
           padding-bottom: .5rem;
           z-index: 1; }
@@ -1527,7 +1536,7 @@ footer {
         margin-right: 1.5rem; }
 @media screen and (min-width: 992px) {
   .page-galeria {
-    padding-top: 8rem; }
+    /*padding-top: 8rem;*/ }
     .page-galeria #filtros span {
       display: inline-block;
       padding-bottom: 0;
@@ -1584,8 +1593,9 @@ footer {
     position: absolute;
     background-color: white;
     z-index: 1;
-    top: 2.5rem;
-    padding: 1rem; }
+    top: 2.3rem;
+    padding: 1rem;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); }
     .page-cursos #abas #itens-abas li {
       margin-right: 1.5rem; }
       .page-cursos #abas #itens-abas li a:hover {
@@ -1744,7 +1754,8 @@ footer {
     color: #1765ab;
     border-bottom: 1px #1765ab solid;
     position: static;
-    padding: 0; }
+    padding: 0;
+    box-shadow: none; }
     .page-cursos #abas #itens-abas li.current {
       color: #043166;
       font-weight: 700;
@@ -1906,7 +1917,8 @@ footer {
         .contatos ul li {
           padding-top: 0.8rem; }
           .contatos ul li h3 {
-            width: 30%;
+            width: calc(30% - .5rem);
+            padding-right: .5rem;
             font-weight: 400;
             color: black;
             font-size: 1rem;
@@ -2220,7 +2232,9 @@ footer {
         .page-polos #mapaInterativo .popoverMunicipios {
           width: 45%; }
           .page-polos #mapaInterativo .popoverMunicipios p:after {
-            width: 32rem; } }
+            width: 32rem; }
+        .page-polos #mapaInterativo #polos li .info-polo {
+          max-width: 300px; } }
   @media screen and (max-width: 991px) {
     .page-polos #mapaInterativo .mapaES {
       display: none; } }
@@ -2510,6 +2524,13 @@ footer {
     .curso #info-curso p {
       max-width: unset;
       margin: 0; }
+    .curso #info-curso div#situacao {
+      color: #ffa161; }
+      .curso #info-curso div#situacao p:before {
+        content: '\f06a';
+        font-weight: 700;
+        font-family: "Font Awesome 5 Free";
+        margin-right: .5rem; }
   .curso #conteudo {
     border: none;
     position: relative; }
@@ -2535,7 +2556,8 @@ footer {
         display: none;
         position: absolute;
         background-color: aliceblue;
-        padding: 1rem; }
+        padding: 1rem;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); }
         .curso #conteudo #menu ul a {
           display: block;
           margin: 0.2rem;
@@ -2761,7 +2783,8 @@ footer {
           background: none;
           position: relative;
           padding: 0;
-          width: 225px; }
+          width: 225px;
+          box-shadow: none; }
     .curso div.tabPanel {
       display: inline-block;
       vertical-align: top;
@@ -2875,94 +2898,324 @@ footer {
   @media screen and (min-width: 992px) {
     .noticia .destaque {
       height: 65vh !important; } }
-.noticia article {
-  padding-bottom: 4rem; }
-  .noticia article h1 {
-    font-size: 2.25rem;
-    line-height: 1.2;
-    font-weight: 300;
+.noticia article h1 {
+  font-size: 2.25rem;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #1765ab;
+  margin-bottom: 0.8rem; }
+.noticia article .post-date {
+  font-size: 0.9rem;
+  font-weight: 300; }
+  .noticia article .post-date i {
+    color: #f06c00;
+    padding-right: 0.5rem; }
+.noticia article .post-body {
+  font-family: "Merriweather", serif;
+  line-height: 2;
+  color: #333;
+  margin-top: 2rem;
+  margin-bottom: 4rem; }
+  .noticia article .post-body p,
+  .noticia article .post-body img,
+  .noticia article .post-body blockquote {
+    margin: 0 0 2rem; }
+  .noticia article .post-body h2 {
     color: #1765ab;
-    margin-bottom: 0.8rem; }
-  .noticia article .post-date {
-    font-size: 0.9rem;
+    font-size: 1.5rem;
+    padding: 1.5rem 0 0;
+    margin: 0;
+    margin-bottom: 1.5rem;
+    line-height: 1.6; }
+  .noticia article .post-body h3 {
+    color: #f06c00;
+    font-size: 1.2rem;
+    padding: 1.5rem 0 0;
+    margin: 0;
+    margin-bottom: 1.5rem; }
+  .noticia article .post-body h4 {
+    color: #1765ab;
+    padding: 1.5rem 0 0;
+    margin: 0;
+    margin-bottom: 1rem; }
+  .noticia article .post-body blockquote {
+    color: #1765ab;
+    font-weight: 700;
+    font-style: italic;
+    width: 85%;
+    margin-right: 0;
+    margin-left: auto;
+    line-height: 1.8; }
+  .noticia article .post-body ul {
+    padding-left: 40px; }
+    .noticia article .post-body ul li {
+      list-style-type: disc; }
+  .noticia article .post-body pre {
+    font-family: "Fira Sans", sans;
+    margin-top: 2rem;
+    white-space: normal;
     font-weight: 300; }
-    .noticia article .post-date i {
-      color: #f06c00;
-      padding-right: 0.5rem; }
-  .noticia article .post-body {
-    font-family: "Merriweather", serif;
-    line-height: 2;
-    color: #333;
-    margin-bottom: 3rem; }
-    .noticia article .post-body p,
-    .noticia article .post-body img,
-    .noticia article .post-body blockquote {
-      margin-top: 1.5rem; }
-    .noticia article .post-body blockquote {
-      color: #1765ab;
-      font-weight: 700;
-      font-style: italic;
-      width: 85%;
-      margin-right: 0;
-      margin-left: auto;
-      line-height: 1.8; }
-    .noticia article .post-body img {
-      width: 100%;
-      height: auto;
-      margin-bottom: 1rem; }
-    .noticia article .post-body a {
-      font-style: italic;
-      color: #c75000; }
-      .noticia article .post-body a:hover {
-        color: #b24800;
-        text-decoration: underline; }
-    .noticia article .post-body p > a:hover {
-      border: none; }
-  .noticia article .post-autor {
-    display: inline-flex; }
-    .noticia article .post-autor img {
-      width: 96px;
-      height: 96px;
-      max-width: 100%;
-      border-radius: 50%;
-      margin-right: 1rem; }
-    .noticia article .post-autor .autor-info {
-      font-weight: 300; }
-      .noticia article .post-autor .autor-info .autor-name {
-        color: #1765ab;
-        font-weight: 600;
-        font-size: 1.5rem; }
-      .noticia article .post-autor .autor-info .autor-role {
-        color: #c75000;
-        text-transform: uppercase;
+  .noticia article .post-body img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem; }
+  .noticia article .post-body .gallery {
+    margin: 1.5rem 0 0  !important; }
+    .noticia article .post-body .gallery dl {
+      margin: 0; }
+      .noticia article .post-body .gallery dl dt {
+        padding: .3rem; }
+        .noticia article .post-body .gallery dl dt img {
+          margin: 0rem;
+          border: none !important; }
+      .noticia article .post-body .gallery dl .gallery-caption {
+        margin-left: 0;
+        font-size: .8rem;
+        font-family: "Fira Sans", sans;
+        line-height: 1.6;
         margin-bottom: 1rem; }
-  .noticia article .links-compartilhamento {
-    color: #c75000;
-    font-weight: 300;
-    border-top: solid 2px #c75000;
-    margin-top: 5rem;
-    line-height: 3rem; }
-    .noticia article .links-compartilhamento span {
+  .noticia article .post-body a {
+    font-style: italic;
+    color: #c75000; }
+    .noticia article .post-body a:hover {
+      color: #b24800;
+      text-decoration: underline; }
+  .noticia article .post-body p > a:hover {
+    border: none; }
+.noticia article .post-autor {
+  display: inline-flex; }
+  .noticia article .post-autor img {
+    width: 96px;
+    height: 96px;
+    max-width: 100%;
+    border-radius: 50%;
+    margin-right: 1rem; }
+  .noticia article .post-autor .autor-info {
+    font-weight: 300; }
+    .noticia article .post-autor .autor-info .autor-name {
+      color: #1765ab;
       font-weight: 600;
-      display: none; }
-    .noticia article .links-compartilhamento a {
-      margin-left: 0.5rem;
       font-size: 1.5rem; }
+    .noticia article .post-autor .autor-info .autor-role {
+      color: #c75000;
+      text-transform: uppercase;
+      margin-bottom: 1rem; }
+.noticia article .links-compartilhamento {
+  color: #c75000;
+  font-weight: 300;
+  border-top: solid 2px #c75000;
+  margin-top: 3rem;
+  line-height: 3rem; }
+  .noticia article .links-compartilhamento span {
+    font-weight: 600;
+    display: none; }
+  .noticia article .links-compartilhamento a {
+    margin-left: 0.5rem;
+    font-size: 1.5rem; }
 @media screen and (min-width: 992px) {
   .noticia article h1 {
     font-size: 2.75rem;
     margin-top: 2rem; }
   .noticia article .post-body {
     max-width: 720px;
-    margin: 0 auto 80px; }
-    .noticia article .post-body p,
-    .noticia article .post-body img,
-    .noticia article .post-body blockquote {
-      margin-top: 3rem; }
+    margin: 2rem auto 4rem; }
+    .noticia article .post-body .gallery {
+      margin-bottom: 1rem  !important; }
   .noticia article .links-compartilhamento span {
     display: inline-block; }
   .noticia article .links-compartilhamento a {
     float: right; } }
+
+#selecao2019-1 header {
+  background-attachment: scroll, fixed;
+  background-size: cover;
+  background-position: center; }
+  #selecao2019-1 header div.container .caixa {
+    padding: 1rem;
+    margin: 0; }
+    #selecao2019-1 header div.container .caixa .box-marca {
+      position: absolute;
+      left: 0;
+      border-bottom: 5.5rem solid #1765ab;
+      border-left: 0 solid transparent;
+      border-right: 35px solid transparent;
+      width: 75%; }
+    #selecao2019-1 header div.container .caixa a.marca {
+      position: absolute;
+      z-index: 2;
+      margin-top: .7rem; }
+    #selecao2019-1 header div.container .caixa .box-nav {
+      position: absolute;
+      left: 0;
+      border-bottom: 2.5rem solid #043166;
+      border-left: 0 solid transparent;
+      border-right: 16px solid transparent;
+      width: calc(75% + 35px);
+      top: 8.5rem; }
+    #selecao2019-1 header div.container .caixa a.nav {
+      text-transform: uppercase;
+      position: absolute;
+      z-index: 2;
+      margin-top: 6.2rem;
+      font-weight: 500;
+      margin-left: 2.6rem; }
+  #selecao2019-1 header div.container h1 {
+    margin: 0 auto;
+    margin-top: 10rem;
+    width: calc(320px - 2rem); }
+    #selecao2019-1 header div.container h1 .editais {
+      font-weight: 700;
+      font-style: italic;
+      font-size: 2.5rem;
+      display: block; }
+    #selecao2019-1 header div.container h1 .aluno {
+      font-weight: 400;
+      text-align: right;
+      max-width: 130px;
+      font-size: 1.3rem;
+      display: inline-block; }
+    #selecao2019-1 header div.container h1 .ufes {
+      font-family: "Merriweather", serif;
+      font-style: italic;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 3rem;
+      display: inline-block; }
+#selecao2019-1 section {
+  margin-top: 4rem; }
+#selecao2019-1 #como-funciona {
+  font-weight: 300;
+  text-align: center; }
+  #selecao2019-1 #como-funciona h2 {
+    text-align: left; }
+  #selecao2019-1 #como-funciona .topico-ead {
+    margin: 1.5rem auto;
+    width: 160px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    line-height: 1.5rem; }
+    #selecao2019-1 #como-funciona .topico-ead:not(:first-child) {
+      padding-left: 1.2rem; }
+    #selecao2019-1 #como-funciona .topico-ead figure {
+      width: 100%;
+      margin: 0; }
+      #selecao2019-1 #como-funciona .topico-ead figure svg {
+        height: 72px;
+        width: auto; }
+      #selecao2019-1 #como-funciona .topico-ead figure figcaption {
+        color: #f06c00;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-top: .5rem; }
+  #selecao2019-1 #como-funciona p {
+    margin-left: 0 !important;
+    max-width: 100%; }
+#selecao2019-1 #conheca-os-cursos #lista-cursos {
+  vertical-align: top; }
+  #selecao2019-1 #conheca-os-cursos #lista-cursos #botoes-curso > button {
+    background-color: #043166;
+    margin: 0;
+    margin-bottom: 1rem;
+    margin-right: .5rem;
+    width: 150px;
+    padding: .6rem 1rem; }
+    #selecao2019-1 #conheca-os-cursos #lista-cursos #botoes-curso > button:hover {
+      background-color: #021935; }
+    #selecao2019-1 #conheca-os-cursos #lista-cursos #botoes-curso > button.selecionado {
+      background-color: #cfeaff;
+      color: #043166; }
+  #selecao2019-1 #conheca-os-cursos #lista-cursos #polos-do-curso {
+    margin-top: 1.5rem; }
+    #selecao2019-1 #conheca-os-cursos #lista-cursos #polos-do-curso ul {
+      display: none; }
+      #selecao2019-1 #conheca-os-cursos #lista-cursos #polos-do-curso ul li:last-of-type {
+        margin-bottom: 3rem; }
+#selecao2019-1 #conheca-os-cursos svg {
+  display: none; }
+  #selecao2019-1 #conheca-os-cursos svg path.aceso {
+    fill: #ffa161; }
+#selecao2019-1 #inscricao li {
+  color: #c75000;
+  font-size: 1rem;
+  text-align: left;
+  padding: 0.5rem 0;
+  vertical-align: top; }
+  #selecao2019-1 #inscricao li i {
+    padding-left: 0.5rem; }
+  #selecao2019-1 #inscricao li div {
+    display: inline-block;
+    height: 4rem; }
+  #selecao2019-1 #inscricao li .numero {
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    background-color: #c75000;
+    width: 3.5rem;
+    line-height: 1.7;
+    height: 3.5rem;
+    border-radius: 2rem;
+    text-align: center;
+    vertical-align: top; }
+  #selecao2019-1 #inscricao li .instrucao {
+    width: calc(100% - 5rem);
+    vertical-align: sub;
+    margin-left: 0.5rem;
+    display: inline-block;
+    line-height: 1.5;
+    padding-top: .25rem;
+    text-transform: uppercase;
+    font-weight: 500; }
+    #selecao2019-1 #inscricao li .instrucao:hover span {
+      text-decoration: underline;
+      cursor: pointer; }
+    #selecao2019-1 #inscricao li .instrucao span {
+      color: #f06c00;
+      text-transform: none;
+      display: block;
+      font-size: 1rem;
+      font-weight: 400; }
+@media (min-width: 992px) {
+  #selecao2019-1 header {
+    height: 45vh; }
+    #selecao2019-1 header div.container {
+      width: 100%; }
+      #selecao2019-1 header div.container .caixa .box-marca {
+        width: 38%; }
+      #selecao2019-1 header div.container .caixa .box-nav {
+        width: calc(38% + 35px); }
+      #selecao2019-1 header div.container h1 {
+        width: 350px;
+        float: right;
+        margin-top: 0; }
+        #selecao2019-1 header div.container h1 .editais {
+          font-size: 3rem; }
+        #selecao2019-1 header div.container h1 .aluno {
+          max-width: 170px;
+          font-size: 1.5rem; }
+        #selecao2019-1 header div.container h1 .ufes {
+          font-size: 3.5rem; }
+  #selecao2019-1 #como-funciona {
+    text-align: left; }
+    #selecao2019-1 #como-funciona p {
+      max-width: 720px; }
+  #selecao2019-1 #conheca-os-cursos #lista-cursos {
+    display: inline-block;
+    width: 59%; }
+  #selecao2019-1 #conheca-os-cursos svg {
+    width: 40%;
+    height: auto;
+    display: inline-block;
+    pointer-events: none;
+    margin-top: -6rem; }
+  #selecao2019-1 #inscricao li {
+    display: inline-block;
+    max-width: 300px; }
+    #selecao2019-1 #inscricao li:not(:first-child) {
+      margin-left: 1.5rem; }
+    #selecao2019-1 #inscricao li .instrucao {
+      width: 150px; } }
 
 .pagPesquisa {
   /* #resultados */ }
@@ -3079,7 +3332,3 @@ footer {
 @media screen and (max-width: 576px) {
   .formPesquisaAtivo .marca svg {
     margin: 10px 0 10px 20px !important; } }
-@media screen and (max-width: 359px) {
-  .formPesquisaAtivo .marca {
-    position: absolute;
-    left: -9999px; } }
