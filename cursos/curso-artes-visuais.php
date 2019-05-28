@@ -19,7 +19,7 @@
       <div id='situacao'>
         <p><strong>Situação: </strong>
           <br>Oferta 2014/2 em fase de conclusão.
-          <br>Aprovado pelo CEPE em 23/07/2014 por meio da Resolução 33/2014.
+          <br>Aprovado pelo CEPE em 23/07/2014 por meio da Resolução n° 32/2014.
           <br><strong>Sem previsão de nova reoferta.</strong>
         </p>
       </div>
@@ -39,7 +39,8 @@
 
           <span>Contato</span>
           artesvisuais.ead@gmail.com<br>
-          (27) 4009-2091
+          (27) 4009-2091<br>
+          (27) 4009-2213
         </ul>
 
       </aside>
@@ -173,25 +174,23 @@
         <h2 id='corpo-docente'>Administração acadêmica</h2>
         <p><strong>Coordenação:</strong> Erick Orloski</p>
 
-        <p><strong>Vice coordenação:</strong> Maria Auxiliadora de Carvalho Corassa</p>
+        <p><strong>Vice coordenação:</strong> Andreia Chiari Lins</p>
 
         <p><strong>Colegiado do curso:</strong>
           <br>Andreia Chiari Lins
+          <br>Ariane De Nadai 
+          <br>Dulcemar da Penha Pereira Uliana 
           <br>Erick Orloski
           <br>Fernanda Monteiro Barreto Camargo
           <br>Júlio Francelino Ferreira Filho
-          <br>Marcela Belo
-          <br>Maria Auxiliadora de Carvalho Corassa
           <br>Maria Goretti Moro Gomes
           <br>Orlando da Rosa Faria
-          <br>Rozânia de Carvalho Menegussi
         </p>
 
         <p><strong>Núcleo Docente Estruturante:</strong>
           <br>Andreia Chiari Lins
-          <br>Aparecido José Cirilo
+          <br>Erick Orloski
           <br>Fernanda Monteiro Barreto Camargo
-          <br>Maria Auxiliadora de Carvalho Corassa
           <br>Stela Maris Sanmartin
         </p>
 
@@ -206,13 +205,14 @@
           <span>Doutorado</span>
         </p>
         <p class='nome'>
-          <a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/8500994614485241" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Andreia Chiari Lins</a>
+          <a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/2093865480708815" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Alexandre Emerick Neves</a>
           <span>Doutorado</span>
         </p>
         <p class='nome'>
-          <a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/2152811885251427" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Angélica Vago</a>
+          <a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/8500994614485241" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Andreia Chiari Lins</a>
           <span>Doutorado</span>
         </p>
+        
         <p class='nome'>
           <a title="Abrir perfil na plataforma Lattes em nova aba" href="" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Aparecido José Cirilo</a>
           <span></span>
@@ -222,12 +222,20 @@
           <span>Doutorado</span>
         </p>
         <p class='nome'>
+          <a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/5756326758544618" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Erick Orloski</a>
+          <span>Doutorado</span>
+        </p>
+        <p class='nome'>
           Ericler Oliveira Gutierrez Ouedraogo
           <span></span>
         </p>
         <p class='nome'>
           Fabiola Veloso Menezes
           <span></span>
+        </p>
+        <p class='nome'>
+          <a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/3626587521917442" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Fernanda Monteiro Barreto Camargo</a>
+          <span>Doutorado</span>
         </p>
         <p class='nome'>
           <a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/8230499627602455" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Fernando Augusto dos Santos Neto</a>
@@ -275,6 +283,14 @@
         </p>
         <p class='nome'>
           <a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/5659824152931044" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Maira Pego de Aguiar</a>
+          <span>Doutorado</span>
+        </p>
+        <p class='nome'>
+          <a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/9509542300688827" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Marcos Paulo Martins de Freitas</a>
+          <span>Doutorado</span>
+        </p>
+        <p class='nome'>
+          <a title="Abrir perfil na plataforma Lattes em nova aba" href="http://lattes.cnpq.br/2152811885251427" target="_blank"><span class="somente-leitura">Perfil na plataforma Lattes de</span> Maria Angélica Vago Soares</a>
           <span>Doutorado</span>
         </p>
         <p class='nome'>
