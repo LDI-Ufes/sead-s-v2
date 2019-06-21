@@ -181,14 +181,14 @@ function create_noticia_tax()
     );
 }
 
-add_action('pre_get_posts', 'paginate_post_type_edital', 1, 1);
-
-function paginate_post_type_edital($query)
-{
-    if (! is_admin() && is_post_type_archive('edital') && $query->is_main_query()) {
-        $query->set('posts_per_page', 8);
-    }
-}
+//add_action('pre_get_posts', 'paginate_post_type_edital', 1, 1);
+//
+//function paginate_post_type_edital($query)
+//{
+//    if (! is_admin() && is_post_type_archive('edital') && $query->is_main_query()) {
+//        $query->set('posts_per_page', 8);
+//    }
+//}
 
 add_action('pre_get_posts', 'paginate_post_type_noticia', 1, 1);
 

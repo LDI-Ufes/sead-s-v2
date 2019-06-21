@@ -17,8 +17,7 @@
 
       <div id='situacao'>
         <p><strong>Situação: </strong>
-          Oferta 2018 em andamento.
-          <br><strong>Sem previsão de reoferta.</strong>
+          <strong>Seleção em andamento.</strong>
         </p>
       </div>
     </section>

@@ -4,7 +4,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no">
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-82472266-16"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
 
+	  gtag('config', 'UA-82472266-16');
+	</script>
+	  
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="https://cdn.eadufes.org/icone/sead.png">
     <link rel="icon" type="image/svg+xml" href="https://cdn.eadufes.org/icone/sead.svg">

@@ -1,4 +1,4 @@
-<?php get_header('principal'); ?>
+﻿<?php get_header('principal'); ?>
 
 <main id="conteudoPrincipal" class='container page page-polos'>
   <section class="breadcrumb">Você está em: <span>Polos</span></section>
@@ -27,7 +27,7 @@
   $(function () {
     var polos = [];
 
-    $.getJSON('/sitiosead/wp-content/themes/sead-v2/js/polos.json', function (data) {
+    $.getJSON('/wp-content/themes/sead-v2/js/polos.json', function (data) {
       $.each(data.polo, function (i, municipio) {
         var lItem = '<li id="'+ municipio.id +'">' + '<button class="municipioTitulo">' + municipio.nome + '</button>' +
                       '<div class="info-polo">' +

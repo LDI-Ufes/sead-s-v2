@@ -1,14 +1,14 @@
-<main class='page curso' id="conteudoPrincipal">
+﻿<main class='page curso' id="conteudoPrincipal">
 
   <div class='container'>
     <section class='breadcrumb'>Você está em: <a href='<?php echo site_url(); ?>/cursos'>Cursos</a><i class='fas fa-greater-than'></i><span>Gestão de Políticas Públicas em Gênero e Raça</span></section>
-    <h1>Aperfeiçoamento em Gestão de Políticas Públicas em Gênero e Raça EaD</h1>
+    <h1>Especialização em Gestão de Políticas Públicas em Gênero e Raça EaD</h1>
 
     <p id='objetivo'>Formar profissionais aptos a atuar no processo de elaboração, aplicação, monitoramento e avaliação de projetos e ações, de forma a assegurar a transversalidade e a intersetorialidade de gênero e raça/etnia nas políticas públicas.</p>
 
     <section id='info-curso'>
       <div>
-        <p><strong>Nível: </strong>Aperfeiçoamento</p>
+        <p><strong>Nível: </strong>Especialização</p>
         <p><strong>Duração: </strong>10 meses</p>
         <p><strong>Modalidade: </strong>Semipresencial</p>
       </div>

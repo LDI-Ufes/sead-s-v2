@@ -107,14 +107,14 @@
 
     </ul>
 
-    <div id="paginacao">
+<!--    <div id="paginacao">
       <?php
       the_posts_pagination(array(
           'prev_text' => __('<', 'textdomain'),
           'next_text' => __('>', 'textdomain')
       ));
       ?>
-    </div>
+    </div>-->
 
     <?php wp_reset_postdata(); ?>
   <?php else : ?>
