@@ -6,7 +6,7 @@
     <section class='breadcrumb'>Você está em: <a href='<?php echo site_url(); ?>/cursos'>Cursos</a><i class='fas fa-greater-than'></i><span>Gestão em Saúde</span></section>
     <h1>Especialização em Gestão em Saúde EaD</h1>
 
-    <p id='objetivo'>O Curso tem por objetivo a qualificação de pessoal de nível superior, visando ao exercício de atividades gerenciais a quem exerce funções em órgãos públicos ou do terceiro setor ou a quem tem aspiração ao exercício de função pública.</p>
+    <p id='objetivo'>Contribuir para a qualificação de profissionais de nível superior na gestão de serviços públicos de saúde.</p>
 
     <section id='info-curso'>
       <div>
