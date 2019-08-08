@@ -69,7 +69,8 @@
             Enyo Soares Pereira<br>
             Leonardo José Gomes Kolaga<br>
             Magno Wesley Buscaroli<br>
-            Raysa Calegari Aguiar
+            Raysa Calegari Aguiar<br><br>
+            <strong>Mais informações: </strong><a href="https://calendar.google.com/calendar/embed?src=webconf.ufes%40gmail.com&ctz=America/Sao_Paulo"" title="Ir para agenda de Webconferências" target="_blank">Veja a agenda de Webconferências</a>
           </p>
         </li>
         <li>
