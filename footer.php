@@ -63,6 +63,7 @@
         <li><a href="http://www.especializacao.aperfeicoamento.ufes.br/" target="_blank" title="Abrir o AVA de Especialização e Aperfeiçoamento em nova aba">AVA Especialização e Aperfeiçoamento</a></li>
         <li><a href="http://selecao.neaad.ufes.br" target="_blank" title="Abrir o Sistema de Seleção em nova aba">Sistema de Seleção</a></li>
         <li><a href="http://videos.ufes.br/sead" target="_blank" title="Abrir o Canal em Vídeos Ufes em nova aba">Canal em Vídeos Ufes</a></li>
+        <li><a href="https://calendar.google.com/calendar/embed?src=webconf.ufes%40gmail.com&ctz=America/Sao_Paulo" target="_blank" title="Abrir agenda de Webconferências da Sead em nova aba">Agenda de Webonferências</a></li>
       </ul>
     </section>
   </div>
