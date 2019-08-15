@@ -173,9 +173,30 @@
         
         <p><strong>Designer Instrucional: </strong> Otávio Lube dos Santos</p>
 
+        <p><strong>Colegiado do curso:</strong>
+          <br>Mariza Silva de Moraes
+          <br>Leni Ribeiro Leite
+          <br>Luis Fernando Bulhões Figueira
+          <br>Julio Francelino Ferreira Filho
+          <br>Maria Aparecida Souza Coelho
+          <br>Bruna Frizzera
+          <br>Sueli Gomes
+        </p>
+
+        <p><strong>Núcleo Docente Estruturante:</strong>
+          <br>Orlando Lopes Albertino
+          <br>Leila Tesch
+          <br>Fernanda Muller
+          <br>Eduardo Augusto Moscon Oliveira
+          <br>Mariza Silva de Moraes
+        </p>
+
 
         <h2>Corpo docente</h2>
 
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/9217767617403655" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Alexandro Braga Vieira</a>
+          <span>Doutorado</span>
+        </p>
         <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/6954814492049911" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Edna da Silva Polese</a>
           <span>Doutorado</span>
         </p>
@@ -200,10 +221,16 @@
         <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/5073990176516263" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Luciana Dias Thomaz</a>
           <span>Doutorado</span>
         </p>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/5498101714248941" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Luciana Lanhi Balthazar</a>
+          <span>Doutorado</span>
+        </p>
         <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/4882978450027561" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Ludimila Caliman Campos</a>
           <span>Doutorado</span>
         </p>
         <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/3443269939361169" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Mariza Silva de Moraes</a>
+          <span>Doutorado</span>
+        </p>
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/6910760911003070" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Mônica Lopes Smiderle De Oliveira</a>
           <span>Doutorado</span>
         </p>
         <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/2414179194113087" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Nilma Moreira da Penha</a>
@@ -216,7 +243,9 @@
         <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/8290558218053006" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Reginaldo Celio Sobrinho</a>
           <span>Doutorado</span>
         </p>
-        
+        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/3539192483058949" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Rosemeire dos Santos Brito</a>
+          <span>Doutorado</span>
+        </p>        
         <p class='nome'>Sandra Maria Vicentin de Oliveira <span>Graduação</span></p>
         <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/3043880926873607" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Santinho Ferreira de Souza</a>
           <span>Doutorado</span>
@@ -226,8 +255,9 @@
         </p>
         
         <h2>Tutores</h2>
-        <p class='nome'>Celiane Tainá Belon</p>
-        <p class='nome'>Cleuzeni Felberg Betini Taquini </p>
+        <p class='nome'>Celiane Tainá Belon <span>Especialização</span></p>
+        <p class='nome'>Cleuzeni Felberg Betini Taquini <span>Especialização</span></p>
+        <p class='nome'>Gisele Santos de Nadai <span>Mestrado</span></p>
         <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/2645748795248726" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Jessica Santos Prasser Croce</a>
           <span>Especialização</span>
         </p>
@@ -243,12 +273,11 @@
         <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/5033885517258020" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Luzimara de Souza Cordeiro</a>
           <span>Mestrado</span>
         </p>
-        <p class='nome'>Maiara Ferreira de Oliveira</p>
+        <p class='nome'>Maiara Oliveira Nascimento <span>Especialização</span></p>
         <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/5040697509222915" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Marcia Cristina de Aguiar</a>
           <span>Especialização</span>
         </p>
-        <p class='nome'>Marcos Antônio Borges</p>
-        <p class='nome'>Regina Aparecida Hohmam Dutra </p>
+        <p class='nome'>Marcos Antônio Borges <span>Especialização</span></p>
         <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/0044667677415564" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Roberta Decarli Bof</a>
           <span>Mestrado</span>
         </p>
@@ -259,7 +288,7 @@
         <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/3105140715123207" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Sueli Gomes da Silva Oliveira</a>
           <span>Especialização</span>
         </p>
-        <p class='nome'>Verônica Belfi Roncetti Paulino</p>
+        <p class='nome'>Verônica Belfi Roncetti Paulino <span>Mestrado</span></p>
       </div>
 
       <div>
