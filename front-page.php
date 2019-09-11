@@ -2,11 +2,18 @@
 
 <main id="conteudoPrincipal" class="inicio">
 
+  <section id="banner" class="destaque">
+    <div class="container">
+      <h2>os materiais do EaD da Ufes estão disponíveis em nosso <span>Acervo Digital</span></h2>
+      <a href="https://acervodigital.eadufes.org" target="_blank">Conheça o Acervo Sead</a>
+    </div>
+  </section>
+
   <div class="container">
 
     <section id="ead-na-ufes">
       <h2>Você conhece a EaD da Ufes?</h2>
-      <p>Nós somos a Secretaria responsável por promover ações educativas e de formação da EaD na Ufes. Fique atento aos editais para mais informações sobre cada curso!</p>
+      <p>Nós somos a Superintendência responsável por promover ações educativas e de formação da EaD na Ufes. Fique atento aos editais para mais informações sobre cada curso!</p>
       <div class="topico-ead">
         <figure>
           <?php include 'svg/ingresso.svg' ?>
