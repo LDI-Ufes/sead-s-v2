@@ -94,6 +94,13 @@
             <strong>Mais informações: </strong><a href="<?php echo site_url(); ?>/contatos" title="Ir para Contatos" target="_blank">Contatos das secretarias de curso</a>
           </p>
       </ul>
+
+      <h2>Transparência</h2>
+      <p>O Relatório de Gestão tem por objetivo permitir que os cidadãos compreendam o que faz a Superintendência de Educação a Distância - SEAD da Universidade Federal do Espírito Santo - UFES e apresentar à sociedade, inclusive aos órgãos de controle, os resultados e entregas referentes ao ano de 2018. As informações aqui contidas foram apreciadas pelo Fórum Colegiado dos Coordenadores de Cursos EaD, órgão colegiado de governança desta Superintendência.</p>
+
+      <p>
+		<strong>Acesse: </strong><a href="<?php echo get_template_directory_uri(); ?>/arquivos/relatorio-gestao-2018" title="Abrir o relatório de gestão 2018" target="_blank">Relatório de Gestão 2018</a>
+      </p>
       
     </section> <!-- estrutura -->
   </div> <!-- container -->
