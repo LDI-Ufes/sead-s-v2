@@ -16,8 +16,8 @@
 	</script>
 	  
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="https://cdn.eadufes.org/icone/sead.png">
-    <link rel="icon" type="image/svg+xml" href="https://cdn.eadufes.org/icone/sead.svg">
+    <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/favicon/sead.png">
+    <link rel="icon" type="image/svg+xml" href="<?php echo get_template_directory_uri(); ?>/favicon/sead.svg">
 
     <!-- Contexto do órgão no Portal de Serviços -->
     <meta property="creator.productor" content="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/425">

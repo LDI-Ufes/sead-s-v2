@@ -6,8 +6,8 @@
     <meta name="format-detection" content="telephone=no">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="https://cdn.eadufes.org/icone/sead.png">
-    <link rel="icon" type="image/svg+xml" href="https://cdn.eadufes.org/icone/sead.svg">
+    <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/favicon/sead.png">
+    <link rel="icon" type="image/svg+xml" href="<?php echo get_template_directory_uri(); ?>/favicon/sead.svg">
 
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700,700i" rel="stylesheet"> <!-- Conferir necessidade de variações -->
     <link href="https://fonts.googleapis.com/css?family=Merriweather:700i" rel="stylesheet"> <!-- Conferir necessidade de variações -->
