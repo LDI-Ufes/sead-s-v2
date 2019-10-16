@@ -4,8 +4,8 @@
 
   <section id="banner" class="destaque">
     <div class="container">
-      <h2>os materiais do EaD da Ufes estão disponíveis em nosso <span>Acervo Digital</span></h2>
-      <a href="https://acervodigital.eadufes.org" target="_blank">Conheça o Acervo Sead</a>
+      <h2><span class="estilo1">Vagas abertas</span> <span class="estilo2">Ciência é <b>10</b>!</span>especialização em Ensino de Ciências</h2>
+      <a href="http://selecao.neaad.ufes.br/edital.php?idCurso=21&idTipoCargo=&nrEdital=&anoEdital=" target="_blank" title="Ir para Sistema de Seleção">Inscreva-se nos editais</a>
     </div>
   </section>
 
