@@ -17,7 +17,7 @@
 
       <div id='situacao'>
         <p><strong>Situação: </strong>
-          <strong>Seleção em andamento.</strong>
+           em andamento.
         </p>
       </div>
     </section>

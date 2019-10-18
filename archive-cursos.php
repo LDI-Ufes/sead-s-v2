@@ -36,7 +36,8 @@
     
     <div id="especializacao">
       <ul>
-        <li tabindex="0"><a title="Ir para a página do curso" href="<?php echo site_url(); ?>/cursos/educacao-em-direitos-humanos"><h3>Educação em Direitos Humanos</h3></a></li>
+        <li tabindex="0"><a title="Ir para a página do curso" href="<?php echo site_url(); ?>/cursos/ciencia-e-10"><h3>Ciência é 10!</h3></a></li>
+        <li><a title="Ir para a página do curso" href="<?php echo site_url(); ?>/cursos/educacao-em-direitos-humanos"><h3>Educação em Direitos Humanos</h3></a></li>
         <li><a title="Ir para a página do curso" href="<?php echo site_url(); ?>/cursos/ensino-de-matematica-para-o-ensino-medio"><h3>Ensino da Matemática para o Ensino Médio</h3></a></li>
         <li><a title="Ir para a página do curso" href="<?php echo site_url(); ?>/cursos/epidemiologia"><h3>Epidemiologia</h3></a></li>
         <li><a title="Ir para a página do curso" href="<?php echo site_url(); ?>/cursos/filosofia-e-psicanalise"><h3>Filosofia e Psicanálise</h3></a></li>
