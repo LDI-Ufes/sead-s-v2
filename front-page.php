@@ -2,13 +2,6 @@
 
 <main id="conteudoPrincipal" class="inicio">
 
-  <section id="banner" class="destaque">
-    <div class="container">
-      <h2><span class="estilo1">Vagas abertas</span> <span class="estilo2">Ciência é <b>10</b>!</span>especialização em Ensino de Ciências</h2>
-      <a href="http://selecao.neaad.ufes.br/edital.php?idCurso=21&idTipoCargo=&nrEdital=&anoEdital=" target="_blank" title="Ir para Sistema de Seleção">Inscreva-se nos editais</a>
-    </div>
-  </section>
-
   <div class="container">
 
     <section id="ead-na-ufes">

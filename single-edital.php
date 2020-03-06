@@ -51,6 +51,26 @@
     }
     ?>
 
+    <?php
+    $editalFormInfo = get_post_custom_values('edital-form-info');
+
+    if ($editalFormInfo != "") {
+      echo "
+        <section id='inscricao' class='secao-edital'>
+          <h2>Inscrição</h2>
+          <p> A partir da 2ª prorrogação do Edital nº 002/2020 - para Professores Bolsistas CAPES UAB para o Curso de Especialização em Gestão em Saúde as inscrições serão realizadas pelo formulário contido no link abaixo. <br><br>
+ 
+Informamos aos interessados que se pode optar por se inscrever em mais de uma disciplina, bastando marcar sua opção no formulário. Não é preciso enviar uma documentação para cada disciplina. <br><br>
+ 
+Aos candidatos já inscritos em disciplinas e que tenham interesse em concorrer à vaga de outra, basta preencher o formulário, não sendo necessário o envio de nova documentação.</p>
+          <a role='button' href=' " .$editalFormInfo[0] . " ' target='_blank' title='Abrir o formulário de inscrição em nova aba'>Formulário de Inscrição</a>
+        </section>
+      ";
+    }
+    ?>
+
+
+
   </main>
 
 <?php endwhile; ?>

@@ -76,12 +76,12 @@
    
    "contatoEspecializacao": [
     {
-      "id": "MatematicaNoEnsinoMedio",
-      "curso": "Ensino de Matemática no Ensino Médio",
-      "secr": "Pedro Henrique de Araujo Passamani",
-      "secr_email": "coormatematicanapratica@gmail.com",
-      "secr_telefone": "(27) 4009-2064",
-      "coord": "Jaqueline Magalhães Brum",
+      "id": "Ciencia10",
+      "curso": "Ciência é 10!",
+      "secr": "Jaqueline Ferreira Almeida",
+      "secr_email": "ead.ensinodeciencias@ufes.br ",
+      "secr_telefone": "(27) 4009-2091 ",
+      "coord": "",
       "coord_telefone": ""
     },
     {

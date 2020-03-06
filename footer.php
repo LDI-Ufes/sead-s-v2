@@ -58,7 +58,7 @@
     <section>
       <h4>Ambiente EaD Ufes</h4>
       <ul>
-        <li><a href="http://acervodigital.eadufes.org/" target="_blank" title="Abrir o Acervo Digital em nova aba">Acervo Digital</a></li>
+        <li><a href="http://acervo.sead.ufes.br/" target="_blank" title="Abrir o Acervo Digital em nova aba">Acervo Digital</a></li>
         <li><a href="http://www.ead.ufes.br/" target="_blank" title="Abrir o AVA de Graduação em nova aba">AVA Graduação</a></li>
         <li><a href="http://www.especializacao.aperfeicoamento.ufes.br/" target="_blank" title="Abrir o AVA de Especialização e Aperfeiçoamento em nova aba">AVA Especialização e Aperfeiçoamento</a></li>
         <li><a href="http://selecao.neaad.ufes.br" target="_blank" title="Abrir o Sistema de Seleção em nova aba">Sistema de Seleção</a></li>
@@ -68,7 +68,7 @@
     </section>
   </div>
   <div class="creditos">
-    <p>© 2019 Sead Ufes. Todos os direitos reservados <span>| <a href="https://ldi.eadufes.org/" target="_blank" title="Abrir o sítio do LDI em nova aba">Desenvolvido por LDI</a></span></p>
+    <p>© 2019 Sead Ufes. Todos os direitos reservados <span>| <a href="http://ldi.ufes.br/" target="_blank" title="Abrir o sítio do LDI em nova aba">Desenvolvido por LDI</a></span></p>
   </div>
 </footer>
 

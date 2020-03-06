@@ -444,19 +444,19 @@ header .topo .marca {
     text-decoration: none;
     color: white;
   }
-  header .topo .caixa svg.seadUfesExtenso,
+  header .topo .caixa svg,
   header .topo .caixa .btoMenu {
     margin: 10px;
     z-index: 1;
   }
-  header .topo .caixa svg.seadUfesExtenso {
+  header .topo .caixa svg {
     width: auto;
     height: 40px;
     padding: 5px 0;
     margin-right: -5rem !important;
     margin-left: 10px !important;
   }
-  header .topo .caixa svg.seadUfesExtenso .assinatura {
+  header .topo .caixa svg .assinatura {
     display: none;
   }
   header .topo .caixa .btoMenu {
@@ -894,6 +894,23 @@ footer .creditos p span a:hover {
   display: inline-block;
   margin: 0;
   margin-bottom: 2rem;
+}
+
+.inicio #banner.apenas-imagem {
+  height: 250px;
+  background-image: url("img/banner.png?x=1");
+}
+
+.inicio #banner.apenas-imagem h2 {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+@media screen and (min-width: 992px) {
+  .inicio #banner.apenas-imagem {
+    height: 350px;
+  }
 }
 
 @media screen and (min-width: 992px) {

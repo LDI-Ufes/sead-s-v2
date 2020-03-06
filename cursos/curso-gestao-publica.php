@@ -87,14 +87,7 @@
         <h2>Corpo docente</h2>
 
         <p class='nome'>
-          <a title='Abrir perfil na plataforma Lattes em nova aba' href='http://lattes.cnpq.br/8272405462162388' target='_blank'><span class='somente-leitura'>Perfil na plataforma Lattes de </span>Adriana Fiorotti</a>
-          <span>Doutorado</span>
-        </p>
-        <p class='nome'>
-          Gelson Siva Junquilho
-        </p>
-        <p class='nome'>
-          <a title='Abrir perfil na plataforma Lattes em nova aba' href='http://lattes.cnpq.br/3331091276265413' target='_blank'><span class='somente-leitura'>Perfil na plataforma Lattes de </span>Glícia Vieira dos Santos</a>
+          <a title='Abrir perfil na plataforma Lattes em nova aba' href='http://lattes.cnpq.br/8272405462162388' target='_blank'><span class='somente-leitura'>Perfil na plataforma Lattes de </span>Adriana Fiorotti Campos</a>
           <span>Doutorado</span>
         </p>
         <p class='nome'>
@@ -102,42 +95,55 @@
           <span>Doutorado</span>
         </p>
         <p class='nome'>
-          Anderson Sonsine Pelissari
-        </p>
-        <p class='nome'>
-          <a title='Abrir perfil na plataforma Lattes em nova aba' href='http://lattes.cnpq.br/1918347901202858' target='_blank'><span class='somente-leitura'>Perfil na plataforma Lattes de </span>Susane Petinelli Souza </a>
-          <span>Doutorado</span>
-        </p>
-        <p class='nome'>
-          <a title='Abrir perfil na plataforma Lattes em nova aba' href='http://lattes.cnpq.br/5674113274785826' target='_blank'><span class='somente-leitura'>Perfil na plataforma Lattes de </span>Lucilaine Maria Pascuci </a>
-          <span>Doutorado</span>
-        </p>
-        <p class='nome'>
-          <a title='Abrir perfil na plataforma Lattes em nova aba' href='http://lattes.cnpq.br/8188708807795008' target='_blank'><span class='somente-leitura'>Perfil na plataforma Lattes de </span>Letícia Fantinel</a>
-          <span>Doutorado</span>
-        </p>
-        <p class='nome'>
-          <a title='Abrir perfil na plataforma Lattes em nova aba' href='http://lattes.cnpq.br/7808207241810280' target='_blank'><span class='somente-leitura'>Perfil na plataforma Lattes de </span>Rubens de Araújo Amaro</a>
-          <span>Doutorado</span>
-        </p>
-        <p class='nome'>
-          Alexandre Wernesbach Neves
+          Denise Maria Rocha Lemos
+          <span>Mestrado</span>
         </p>
         <p class='nome'>
           <a title='Abrir perfil na plataforma Lattes em nova aba' href='http://lattes.cnpq.br/8236063570229386' target='_blank'><span class='somente-leitura'>Perfil na plataforma Lattes de </span>Duarte de Souza Rosa Filho</a>
           <span>Doutorado</span>
         </p>
         <p class='nome'>
-          <a title='Abrir perfil na plataforma Lattes em nova aba' href='http://lattes.cnpq.br/7267023450920621' target='_blank'><span class='somente-leitura'>Perfil na plataforma Lattes de </span>Helio Zanquetto Filho</a>
+          Gelson Siva Junquilho
           <span>Doutorado</span>
         </p>
         <p class='nome'>
-          Janyluce  Rezende Gama
-        </p>
-        <p class='nome'>
-          <a title='Abrir perfil na plataforma Lattes em nova aba' href='http://lattes.cnpq.br/2578930962539204' target='_blank'><span class='somente-leitura'>Perfil na plataforma Lattes de </span>Marilene Olivier Ferreira de Oliveira </a>
+          <a title='Abrir perfil na plataforma Lattes em nova aba' href='http://lattes.cnpq.br/3331091276265413' target='_blank'><span class='somente-leitura'>Perfil na plataforma Lattes de </span>Glícia Vieira dos Santos</a>
           <span>Doutorado</span>
         </p>
+        <p class='nome'>
+          <a title='Abrir perfil na plataforma Lattes em nova aba' href='http://lattes.cnpq.br/8879398103246967' target='_blank'><span class='somente-leitura'>Perfil na plataforma Lattes de </span>Janyluce Rezende Gama</a>
+          <span>Doutorado</span>
+        </p>
+        <p class='nome'>
+          <a title='Abrir perfil na plataforma Lattes em nova aba' href='http://lattes.cnpq.br/7470771002125919' target='_blank'><span class='somente-leitura'>Perfil na plataforma Lattes de </span>Julia Bellia Margoto</a>
+          <span>Doutorado</span>
+        </p>
+        <p class='nome'>
+          <a title='Abrir perfil na plataforma Lattes em nova aba' href='http://lattes.cnpq.br/8188708807795008' target='_blank'><span class='somente-leitura'>Perfil na plataforma Lattes de </span>Letícia Dias Fantinel</a>
+          <span>Doutorado</span>
+        </p>
+        <p class='nome'>
+          <a title='Abrir perfil na plataforma Lattes em nova aba' href='http://lattes.cnpq.br/2461902946855298' target='_blank'><span class='somente-leitura'>Perfil na plataforma Lattes de </span>Marta Zorzal e Silva</a>
+          <span>Doutorado</span>
+        </p>
+        <p class='nome'>
+          <a title='Abrir perfil na plataforma Lattes em nova aba' href='http://lattes.cnpq.br/5840211354831676' target='_blank'><span class='somente-leitura'>Perfil na plataforma Lattes de </span>Robson Zuccolotto</a>
+          <span>Doutorado</span>
+        </p>
+        <p class='nome'>
+          <a title='Abrir perfil na plataforma Lattes em nova aba' href='http://lattes.cnpq.br/7706827408886021' target='_blank'><span class='somente-leitura'>Perfil na plataforma Lattes de </span>Rodrigo Alvarenga Rosa</a>
+          <span>Doutorado</span>
+        </p>
+        <p class='nome'>
+          <a title='Abrir perfil na plataforma Lattes em nova aba' href='http://lattes.cnpq.br/1918347901202858' target='_blank'><span class='somente-leitura'>Perfil na plataforma Lattes de </span>Susane Petinelli Souza </a>
+          <span>Doutorado</span>
+        </p>
+        <p class='nome'>
+          <a title='Abrir perfil na plataforma Lattes em nova aba' href='http://lattes.cnpq.br/0535178144031059' target='_blank'><span class='somente-leitura'>Perfil na plataforma Lattes de </span>Taciana de Lemos Dias</a>
+          <span>Doutorado</span>
+        </p>
+
+
       </div>
 
 <!--      <div>

@@ -55,6 +55,21 @@
     }
   }
 
+  &.apenas-imagem{
+    height: 250px;
+    background-image: url("img/banner.png?x=1");
+
+    h2{
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+    }
+
+    @media screen and (min-width: 992px) {
+      height: 350px;
+    }
+  }
+
   @media screen and (min-width: 992px) {
 
     .container {
