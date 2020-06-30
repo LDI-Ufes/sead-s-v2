@@ -85,31 +85,6 @@
         margin: 1rem 1.5rem;
       }
     }
-
-    #paginacao {
-      color: $laranjaMedio;
-      padding: 1rem 1rem 2rem;
-      text-align: center;
-      font-weight: $bold;
-
-      a,
-      span {
-        padding: 0 .5rem;
-      }
-
-      a:hover {
-        border-bottom: solid 1px $laranjaEscuro;
-        color: $laranjaEscuro;
-      }
-
-      span {
-        color: $azulRegular;
-      }
-
-      h2 {
-        display: none;
-      }
-    }
   }
 
   #informativo {

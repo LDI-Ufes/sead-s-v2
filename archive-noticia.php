@@ -14,7 +14,7 @@
             <p><?php echo wp_trim_words( strip_shortcodes( get_the_content() ), 40, ' [...]'); ?></p>
           </li>
       <?php endwhile; ?>
-      <div id="paginacao">  
+      <div class="paginacao">  
         <?php
         the_posts_pagination(array(
             'prev_text' => __('< Anterior', 'textdomain'),

@@ -13,7 +13,7 @@
   
   <a title="Voltar ao topo" id="voltar-ao-topo" aria-hidden="true"><i class="fas fa-arrow-up"></i></a> 
   
-  <div class="content">
+  <div class="container">
     <section>
       <h4>Mapa do sítio</h4>
       <ul>

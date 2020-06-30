@@ -107,7 +107,7 @@
 
     </ul>
 
-<!--    <div id="paginacao">
+<!--    <div class="paginacao">
       <?php
       the_posts_pagination(array(
           'prev_text' => __('<', 'textdomain'),

@@ -19,8 +19,8 @@ footer {
     cursor: pointer;
   }
 
-  .content {
-    padding: 2rem 1rem;
+  .container {
+    // padding: 2rem 1rem;
 
     section {
       display: inline-block;
@@ -118,10 +118,10 @@ footer {
       right: 1.5rem;
     }
     
-    .content {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 2rem 0 3rem;
+    .container {
+      // max-width: 960px;
+      // margin: 0 auto;
+      // padding: 2rem 0 3rem;
 
       section {
         width: calc(50% - 0.7rem);

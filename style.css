@@ -7,6 +7,55 @@ Author URI: https://ldi.eadufes.org/
 Description: Tema desenvolvido para o sítio da Secretaria de Ensino a Distância da Universidade Federal do Espírito Santo.
 Version: 2.0
 */
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  src: url("fonts/fa-solid-900.woff2") format("woff2"), url("fonts/fa-solid-900.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url("fonts/firasans-regular-webfont.woff2") format("woff2"), url("fonts/firasans-regular-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url("fonts/firasans-semibold-webfont.woff2") format("woff2"), url("fonts/firasans-semibold-webfont.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url("fonts/firasans-semibolditalic-webfont.woff2") format("woff2"), url("fonts/firasans-semibolditalic-webfont.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url("fonts/firasans-bold-webfont.woff2") format("woff2"), url("fonts/firasans-bold-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url("fonts/firasans-light-webfont.woff2") format("woff2"), url("fonts/firasans-light-webfont.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url("fonts/firasans-medium-webfont.woff2") format("woff2"), url("fonts/firasans-medium-webfont.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -76,16 +125,88 @@ body main h1:first-of-type {
   padding: 1rem 0;
 }
 
-section.caixa {
-  margin: 0 auto;
-  width: 960px;
-}
-
 .container {
-  padding: 2rem 1rem;
+  width: calc(100% - 3rem);
+  padding: 0;
+  margin: 0 auto;
+  max-width: 1140px;
 }
 
-.container h1 {
+@media screen and (min-width: 760px) {
+  .container {
+    width: calc(100% - 4rem);
+  }
+}
+
+.breadcrumb {
+  background: none;
+  padding: 0;
+  font-size: 0.8rem;
+  margin: 3rem 0 1.5rem;
+}
+
+.breadcrumb a {
+  color: #053C7B;
+  font-weight: 500;
+}
+
+.breadcrumb a:hover {
+  border-bottom-color: #053C7B;
+}
+
+.breadcrumb i {
+  color: #f06c00;
+  font-size: 0.6rem;
+  padding: 0.3rem 0.3rem 0;
+}
+
+.breadcrumb span:first-of-type {
+  margin-right: 0.3rem;
+  width: 100%;
+}
+
+@media screen and (min-width: 400px) {
+  .breadcrumb span:first-of-type {
+    display: inline-block;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+
+.breadcrumb span:last-of-type {
+  color: #1765ab;
+}
+
+.paginacao {
+  color: #c75000;
+  padding: 1rem 1rem 2rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.paginacao a,
+.paginacao span {
+  padding: .1rem .5rem;
+  margin: 0 .2rem;
+}
+
+.paginacao a:hover {
+  border-bottom: solid 1px #b24800;
+  color: #b24800;
+}
+
+.paginacao .current {
+  color: #1765ab;
+  background-color: #CFEAFF;
+  border-radius: 2px;
+}
+
+.paginacao h2 {
+  display: none;
+}
+
+h1 {
   padding: 0;
 }
 
@@ -174,11 +295,9 @@ a[target='_blank'] i.fa-external-link-alt {
   outline-offset: 5px;
 }
 
-@media screen and (min-width: 992px) {
-  .container {
-    max-width: 960px;
-    margin: 0 auto;
-  }
+section.caixa {
+  margin: 0 auto;
+  width: 1140px;
 }
 
 header {
@@ -371,7 +490,7 @@ header .topo .marca {
           justify-content: center;
 }
 
-@media screen and (min-width: 993px) {
+@media screen and (min-width: 865px) {
   header #barraAuxiliar .btoMenu,
   header .topo .btoMenu {
     display: none;
@@ -420,7 +539,7 @@ header .topo .marca {
   }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 864px) {
   header #topoPrincipal #menuPrincipal {
     -webkit-box-ordinal-group: 5;
         -ms-flex-order: 4;
@@ -680,6 +799,206 @@ nav.menu .menuLista li.temSubmenu a:hover {
   }
 }
 
+.barra-ufes {
+  background: #053C7B;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  z-index: 2;
+}
+
+.barra-ufes .container {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.barra-ufes .nav-menu {
+  width: 100%;
+}
+
+.barra-ufes .nav-menu a:hover {
+  border-bottom: 1px solid #f06c00;
+}
+
+.barra-ufes .nav-logo {
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-size: 14px;
+}
+
+.barra-ufes .nav-logo span {
+  display: none;
+}
+
+.barra-ufes .nav-logo > img {
+  height: 18px;
+  margin-right: 6px;
+}
+
+.barra-ufes .nav-logo:hover > span {
+  border-bottom: 1px solid #f06c00;
+  margin-bottom: -1px;
+}
+
+.barra-ufes .btn-menu {
+  padding: 10px 0;
+  margin-right: 20px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  background: none;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.barra-ufes .menu-lista {
+  padding: 12px 0;
+  -webkit-box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.16);
+  list-style: none;
+  margin: 0;
+  width: 100%;
+  display: none;
+  text-align: right;
+}
+
+.barra-ufes .menu-lista.menu-aberto {
+  display: block;
+}
+
+.barra-ufes .menu-lista > li {
+  color: #fff;
+  display: block;
+  position: relative;
+  padding: 6px 20px;
+  text-decoration: none;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.barra-ufes .menu-lista > li a,
+.barra-ufes .menu-lista > li span {
+  color: white;
+  padding: 0.15em;
+  cursor: pointer;
+}
+
+.barra-ufes .menu-lista li .dropdown {
+  margin-top: 0.4rem;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  text-align: right;
+  display: none;
+}
+
+.barra-ufes .menu-lista li .dropdown li {
+  line-height: 1.5em;
+  text-transform: none;
+  padding: 0.4rem 0;
+}
+
+.barra-ufes .menu-lista li.submenu-ativo > ul {
+  display: block;
+}
+
+@media only screen and (min-width: 864px) {
+  .barra-ufes .nav-logo span {
+    display: block;
+  }
+  .barra-ufes .btn-menu {
+    display: none;
+  }
+  .barra-ufes .nav-menu {
+    width: auto;
+  }
+  .barra-ufes .menu-lista {
+    padding: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    margin: 0;
+    margin-right: 32px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .barra-ufes .menu-lista.menu-aberto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .barra-ufes .menu-lista > li {
+    padding: 0.6rem 0rem 0.6rem 0.6rem;
+  }
+  .barra-ufes .menu-lista li .dropdown {
+    background: #053C7B;
+    position: absolute;
+    width: 240px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    right: 9999px;
+    display: block;
+    text-align: right;
+    padding: 4px 12px;
+  }
+  .barra-ufes .menu-lista li .dropdown li {
+    line-height: 1.5em;
+    text-transform: none;
+  }
+  .barra-ufes .menu-lista li:hover > ul,
+  .barra-ufes .menu-lista li.menu-ativo > ul,
+  .barra-ufes .menu-lista li .dropdown:hover {
+    right: 0;
+  }
+}
+
+@media only screen and (max-width: 864px) {
+  .menu-lista li.submenu-ativo > ul {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1140px) {
+  .barra-ufes .nav-logo {
+    margin-left: 20px;
+  }
+  .barra-ufes .menu-lista {
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .barra-ufes .nav-logo {
+    margin-left: 0px;
+  }
+  .barra-ufes .menu-lista {
+    margin-right: 0px;
+  }
+}
+
 footer {
   background-color: #043166;
   color: white;
@@ -700,21 +1019,17 @@ footer #voltar-ao-topo {
   cursor: pointer;
 }
 
-footer .content {
-  padding: 2rem 1rem;
-}
-
-footer .content section {
+footer .container section {
   display: inline-block;
   width: 100%;
 }
 
-footer .content section h4 {
+footer .container section h4 {
   font-size: 1.2rem;
   font-weight: 600;
 }
 
-footer .content section h4:after {
+footer .container section h4:after {
   content: "";
   display: block;
   height: 2px;
@@ -723,23 +1038,23 @@ footer .content section h4:after {
   margin-top: 0.4rem;
 }
 
-footer .content section p {
+footer .container section p {
   margin: 0;
 }
 
-footer .content section a {
+footer .container section a {
   border-bottom: solid 0.5px transparent;
 }
 
-footer .content section a:hover {
+footer .container section a:hover {
   border-color: #f06c00;
 }
 
-footer .content section .subitens {
+footer .container section .subitens {
   margin-left: 1rem;
 }
 
-footer .content section .enderecoLink {
+footer .container section .enderecoLink {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -751,23 +1066,23 @@ footer .content section .enderecoLink {
   margin-bottom: 1.5rem;
 }
 
-footer .content section .enderecoLink > span {
+footer .container section .enderecoLink > span {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
 }
 
-footer .content section .enderecoLink > span:first-child {
+footer .container section .enderecoLink > span:first-child {
   margin-bottom: 0.25em;
 }
 
-footer .content section .enderecoLink > span a {
+footer .container section .enderecoLink > span a {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
 }
 
-footer .content section .enderecoLink > span img {
+footer .container section .enderecoLink > span img {
   margin-right: 0.5em;
   height: 1.5rem;
 }
@@ -812,16 +1127,11 @@ footer .creditos p span a:hover {
     bottom: 1.5rem;
     right: 1.5rem;
   }
-  footer .content {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 2rem 0 3rem;
-  }
-  footer .content section {
+  footer .container section {
     width: calc(50% - 0.7rem);
     vertical-align: top;
   }
-  footer .content section:nth-child(even) {
+  footer .container section:nth-child(even) {
     float: right;
   }
   footer .creditos p span {
@@ -1369,10 +1679,6 @@ footer .creditos p span a:hover {
     /* #noticias */
     /* #polos */
   }
-  .inicio .container {
-    max-width: 960px;
-    margin: 3rem auto;
-  }
   .inicio aside {
     padding-top: 3rem;
     float: right;
@@ -1632,31 +1938,6 @@ footer .creditos p span a:hover {
   font-weight: 400;
   line-height: 1.5;
   margin: 1rem 1.5rem;
-}
-
-.page-blog #posts #paginacao {
-  color: #c75000;
-  padding: 1rem 1rem 2rem;
-  text-align: center;
-  font-weight: 700;
-}
-
-.page-blog #posts #paginacao a,
-.page-blog #posts #paginacao span {
-  padding: 0 .5rem;
-}
-
-.page-blog #posts #paginacao a:hover {
-  border-bottom: solid 1px #b24800;
-  color: #b24800;
-}
-
-.page-blog #posts #paginacao span {
-  color: #1765ab;
-}
-
-.page-blog #posts #paginacao h2 {
-  display: none;
 }
 
 .page-blog #informativo {
