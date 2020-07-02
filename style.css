@@ -23,6 +23,13 @@ Version: 2.0
 
 @font-face {
   font-family: 'Fira Sans';
+  src: url("fonts/firasans-italic-webfont.woff2") format("woff2"), url("fonts/firasans-italic-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
   src: url("fonts/firasans-semibold-webfont.woff2") format("woff2"), url("fonts/firasans-semibold-webfont.woff") format("woff");
   font-weight: 600;
   font-style: normal;
@@ -88,7 +95,7 @@ button {
   background-color: #b24800;
 }
 
-.page p, .page blockquote, .faq ul li, .secretaria #estrutura h3 {
+.page blockquote, .faq ul li, .secretaria #estrutura h3 {
   max-width: 720px;
   margin-right: auto !important;
   margin-left: auto !important;
@@ -1286,8 +1293,8 @@ footer .creditos p span a:hover {
 }
 
 .inicio #ultimos-editais ul li h3 {
-  color: black;
-  border-bottom: solid 1px #f06c00;
+  color: #c75000;
+  border-bottom: solid 1px #c75000;
   font-size: 1.13rem;
   font-weight: 400;
   display: inline-block;
@@ -1807,8 +1814,8 @@ footer .creditos p span a:hover {
 }
 
 .page-blog #ultimos-editais ul li h3 {
-  color: black;
-  border-bottom: solid 1px #f06c00;
+  color: #c75000;
+  border-bottom: solid 1px #c75000;
   font-size: 1.13rem;
   font-weight: 400;
   display: inline-block;
@@ -1923,19 +1930,19 @@ footer .creditos p span a:hover {
 }
 
 .page-blog #posts .blog-post h3 {
-  color: #043166;
+  color: #c75000;
   font-weight: 600;
   font-size: 1.3rem;
   margin: 1.5rem;
 }
 
 .page-blog #posts .blog-post h3 a:hover {
-  border-bottom: solid 0.5px #f06c00;
+  border-bottom: solid 0.5px #c75000;
 }
 
 .page-blog #posts .blog-post p {
-  font-family: "Merriweather", serif;
-  font-weight: 400;
+  font-family: "Fira Sans", sans;
+  font-weight: 300;
   line-height: 1.5;
   margin: 1rem 1.5rem;
 }
@@ -1974,7 +1981,7 @@ footer .creditos p span a:hover {
 .page-blog #informativo label {
   font-size: 1.6rem;
   font-weight: 300;
-  color: #f06c00;
+  color: #1765ab;
 }
 
 .page-blog #informativo form#sendgrid_mc_email_form {
@@ -2165,7 +2172,7 @@ footer .creditos p span a:hover {
     padding-top: 5rem;
   }
   .page-blog #posts {
-    width: 560px;
+    width: 654px;
     display: inline-block;
   }
   .page-blog #posts .blog-post a .blog-post-header {
@@ -2190,9 +2197,9 @@ footer .creditos p span a:hover {
   }
   .page-blog aside {
     display: inline-block;
-    width: 320px;
+    width: 360px;
     vertical-align: top;
-    margin-left: 75px;
+    margin-left: 120px;
   }
   .page-blog #informativo {
     padding: 0;
@@ -2669,338 +2676,216 @@ footer .creditos p span a:hover {
   }
 }
 
-.page-cursos span {
-  font-weight: 300;
+.alerta {
+  color: #1765ab;
+  font-size: 20px;
+  line-height: 1.4;
+  margin: 1.5rem 0 1rem;
+  display: block;
+  max-width: unset;
+  font-weight: 400;
+  font-style: italic;
 }
 
-.page-cursos span a {
+.alerta i {
+  margin-right: 0.3rem;
+}
+
+#abas {
+  position: relative;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+#abas #dropdown-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+  font-size: 16px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  border-bottom: 2px solid #c75000;
+  background: white;
+  color: #c75000;
+  font-weight: bold;
+}
+
+#abas #itens-abas {
+  display: none;
+  padding: 10px 16px;
+  margin-bottom: 12px;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+#abas #itens-abas li {
+  margin: 12px 0;
+}
+
+#abas #itens-abas li a {
   color: #c75000;
   font-weight: 500;
 }
 
-.page-cursos span a:hover {
-  border-bottom: 0.5px solid #c75000;
-}
-
-.page-cursos span a i {
-  color: #c75000;
-  margin: 0;
-  font-size: 0.9rem;
-}
-
-.page-cursos span.alerta {
-  color: #f06c00;
-  font-size: 1.5rem;
-  line-height: 1.4;
-  margin: 1.5rem 0 0.5rem;
-  display: block;
-  max-width: unset;
-}
-
-.page-cursos span i {
-  color: #f06c00;
-  margin-right: 0.3rem;
-}
-
-.page-cursos #abas {
-  position: relative;
-}
-
-.page-cursos #abas #dropdown-menu {
-  display: block;
-  color: #043166;
-  padding: 0.5rem;
-  border: none;
-  width: 100%;
-  text-align: left;
-  background: none;
-  border-bottom: 1.5px solid #043166;
-  cursor: pointer;
-  margin: 2rem 0;
-}
-
-.page-cursos #abas #dropdown-menu i {
-  float: right;
-}
-
-.page-cursos #abas #itens-abas {
-  display: none;
+#abas #itens-abas li.current a {
   color: #1765ab;
-  border-bottom: 1px #1765ab solid;
-  position: absolute;
-  background-color: white;
-  z-index: 1;
-  top: 2.3rem;
-  padding: 1rem;
-  -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
-          box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  pointer-events: none;
 }
 
-.page-cursos #abas #itens-abas li {
-  margin-right: 1.5rem;
-}
-
-.page-cursos #abas #itens-abas li a:hover {
-  color: #043166;
-}
-
-.page-cursos #abas #itens-abas li.current {
-  color: #043166;
-  font-weight: 700;
-}
-
-.page-cursos #abas #itens-abas li.current a:hover {
-  cursor: default;
-  color: inherit;
-}
-
-.page-cursos #abas div ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin-right: -1rem;
-}
-
-.page-cursos #abas div ul li {
-  height: 7rem;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#043166));
-  background-image: linear-gradient(transparent, #043166);
-  color: white;
-  vertical-align: baseline;
-  padding: 1rem;
-  margin-right: 1rem;
-  margin-bottom: 2rem;
-  position: relative;
-  /*box-shadow: 0px -3px 0px $azulRegular inset;*/
-  -ms-flex-preferred-size: 250px;
-      flex-basis: 250px;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-}
-
-.page-cursos #abas div ul li img {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  z-index: -1;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.page-cursos #abas div ul li a {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.page-cursos #abas div ul li a h3 {
-  left: 1rem;
-}
-
-.page-cursos #abas div ul li a.focus-visible {
-  position: unset;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#021935));
-  background-image: linear-gradient(transparent, #021935);
-}
-
-.page-cursos #abas div ul li a.focus-visible h3 {
-  -webkit-text-decoration: underline #f06c00;
-          text-decoration: underline #f06c00;
-  text-underline-position: under;
-}
-
-.page-cursos #abas div ul li a.focus-visible h3 span {
-  text-decoration: none;
-}
-
-.page-cursos #abas div ul li h3 {
-  bottom: 0.8rem;
-  position: absolute;
-  color: white;
-  margin: 0;
-  padding: 0;
-  font-size: 1.5rem;
-  font-weight: 600;
-  line-height: 1.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.page-cursos #abas div ul li h3 span {
-  font-weight: 300;
-  margin: 0;
-  display: block;
-  font-size: 1rem;
-}
-
-.page-cursos #abas div ul li:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#021935));
-  background-image: linear-gradient(transparent, #021935);
-}
-
-.page-cursos #abas div ul li:hover h3 {
-  -webkit-text-decoration: underline #f06c00;
-          text-decoration: underline #f06c00;
-  text-underline-position: under;
-}
-
-.page-cursos #abas div ul li:hover h3 span {
-  text-decoration: none;
-}
-
-.page-cursos #abas div ul li.sem-pagina {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#333333));
-  background-image: linear-gradient(transparent, #333333);
-  cursor: default;
-}
-
-.page-cursos #abas div ul li.sem-pagina span.aviso {
-  display: none;
-}
-
-.page-cursos #abas div ul li.sem-pagina:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(black));
-  background-image: linear-gradient(transparent, black);
-}
-
-.page-cursos #abas div ul li.sem-pagina:hover h3 {
-  text-decoration: none;
-}
-
-.page-cursos #abas div ul li.sem-pagina:hover span.aviso {
-  display: block;
-  border-radius: 5px;
-  position: absolute;
-  top: 2rem;
-  background-color: white;
-  color: #1765ab;
-  border: #1765ab solid 1px;
-  padding: 3px 10px;
-  z-index: 1;
-}
-
-.page-cursos #abas div ul li.sem-pagina:hover span.aviso:before {
-  content: "";
-  width: 0px;
-  height: 0px;
-  border-left: 11px solid transparent;
-  border-right: 11px solid transparent;
-  border-top: 10.5px solid #1765ab;
-  position: absolute;
-  bottom: -0.66rem;
-  left: 1.96rem;
-}
-
-.page-cursos #abas div ul li.sem-pagina:hover span.aviso:after {
-  content: "";
-  width: 0px;
-  height: 0px;
-  border-left: 9px solid transparent;
-  border-right: 9px solid transparent;
-  border-top: 9px solid white;
-  position: absolute;
-  bottom: -0.57rem;
-  left: 2.1rem;
-}
-
-.page-cursos #abas div ul li.placeholder {
-  background: none;
-  height: 0;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  cursor: none;
-  padding: 0 1rem;
-  margin-bottom: 0;
-}
-
-.page-cursos #abas div ul li.placeholder:hover {
-  background: none;
-}
-
-.page-cursos #abas div#aperfeicoamento ul li, .page-cursos #abas div#especializacao ul li {
-  height: 3rem;
-  background-color: #1765ab;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#043166), to(transparent));
-  background-image: linear-gradient(#043166, transparent);
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  position: relative;
-}
-
-.page-cursos #abas div#aperfeicoamento ul li h3, .page-cursos #abas div#especializacao ul li h3 {
-  font-size: 1.1rem;
-  font-weight: 400;
-  line-height: 1.5rem;
-  margin-right: 1rem;
-  top: 1rem;
-}
-
-.page-cursos #abas div#aperfeicoamento ul li:hover, .page-cursos #abas div#especializacao ul li:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#114a7e));
-  background-image: linear-gradient(transparent, #114a7e);
-}
-
-.page-cursos #abas div#aperfeicoamento ul li.sem-pagina, .page-cursos #abas div#especializacao ul li.sem-pagina {
-  background-color: gray;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#333333), to(transparent));
-  background-image: linear-gradient(#333333, transparent);
-}
-
-.page-cursos #abas div#aperfeicoamento ul li.sem-pagina:hover, .page-cursos #abas div#especializacao ul li.sem-pagina:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(transparent));
-  background-image: linear-gradient(black, transparent);
-}
-
-.page-cursos #abas div#aperfeicoamento ul li.sem-pagina:hover span.aviso, .page-cursos #abas div#especializacao ul li.sem-pagina:hover span.aviso {
-  top: -1.85rem;
-}
-
-.page-cursos #abas div#aperfeicoamento ul li.placeholder, .page-cursos #abas div#especializacao ul li.placeholder {
-  background: none;
-  height: 0;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  cursor: none;
-}
-
-.page-cursos #abas div#aperfeicoamento ul li.placeholder:hover, .page-cursos #abas div#especializacao ul li.placeholder:hover {
-  background: none;
-}
-
-@media (min-width: 992px) {
-  .page-cursos #abas #dropdown-menu {
+@media (min-width: 760px) {
+  #abas {
+    margin-top: 3.5rem;
+  }
+  #abas #dropdown-menu {
     display: none;
   }
-  .page-cursos #abas #itens-abas {
+  #abas #itens-abas {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    margin: 3rem 0;
-    color: #1765ab;
-    border-bottom: 1px #1765ab solid;
-    position: static;
+    border-bottom: 3px solid rgba(199, 80, 0, 0.2);
+    width: 100%;
+    position: relative;
+    margin-bottom: 32px;
     padding: 0;
+    background: white;
     -webkit-box-shadow: none;
             box-shadow: none;
   }
-  .page-cursos #abas #itens-abas li.current {
-    color: #043166;
-    font-weight: 700;
-    border-bottom: 2px #043166 solid;
+  #abas #itens-abas li {
+    display: inline-block;
+    margin: 0;
+    margin-bottom: -3px;
+    width: 180px;
+    text-align: center;
   }
-  .page-cursos #abas #itens-abas li.current a:hover {
-    cursor: default;
-    color: inherit;
+  #abas #itens-abas li.current a {
+    border-bottom: 3px solid #1765ab;
   }
+  #abas #itens-abas li.current a:hover {
+    border-color: transparent;
+  }
+  #abas #itens-abas li a {
+    display: block;
+    color: #c75000;
+    font-weight: 500;
+    padding: 10px 18px;
+    cursor: pointer;
+  }
+  #abas #itens-abas li a:hover {
+    border-bottom: 3px solid #c75000;
+  }
+}
+
+ul.lista-cursos {
+  margin-top: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+ul.lista-cursos li {
+  position: relative;
+  display: block;
+  margin-bottom: 1.2rem;
+  width: 100%;
+}
+
+@media only screen and (min-width: 562px) {
+  ul.lista-cursos li {
+    width: calc(50% - 12px);
+  }
+}
+
+@media only screen and (min-width: 864px) {
+  ul.lista-cursos li {
+    width: calc(33% - 12px);
+  }
+}
+
+@media only screen and (min-width: 1140px) {
+  ul.lista-cursos li {
+    width: calc(25% - 12px);
+  }
+}
+
+ul.lista-cursos li .card-curso {
+  display: block;
+  position: relative;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.05);
+          box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+ul.lista-cursos li .card-curso .card-capa {
+  display: block;
+  overflow: hidden;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  height: 120px;
+  background-color: #edf9ff;
+}
+
+ul.lista-cursos li .card-curso .card-capa > img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  width: 100%;
+}
+
+ul.lista-cursos li .card-curso .titulo {
+  display: block;
+  font-size: 18px;
+  color: #1765ab;
+  font-weight: 500;
+  line-height: 22.5px;
+  padding: 12px 18px;
+  height: calc(70px - 24px);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid transparent;
+  background-color: white;
+  margin: 0;
+}
+
+ul.lista-cursos li .card-curso .titulo .nivel {
+  display: block;
+  margin-top: 4px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
+  line-height: 1em;
+  font-weight: 400;
+}
+
+ul.lista-cursos li .card-curso:hover {
+  -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+ul.lista-cursos li .card-curso:hover .card-capa > img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
 }
 
 .page {
@@ -3010,16 +2895,17 @@ footer .creditos p span a:hover {
 
 .page p {
   font-weight: 300;
+  max-width: 720px;
 }
 
 .page p a {
   font-style: italic;
-  color: #1765ab;
-  cursor: pointer;
+  color: #c75000;
+  font-weight: 600;
 }
 
 .page p a:hover {
-  border-bottom: 0.5px solid #1765ab;
+  border-bottom: 1px solid #c75000;
 }
 
 .page blockquote {
@@ -3029,37 +2915,6 @@ footer .creditos p span a:hover {
   font-style: italic;
   margin: 2rem 0;
   font-size: 1.25rem;
-}
-
-.page .breadcrumb {
-  font-size: 0.8rem;
-  margin: 1.5rem 0;
-}
-
-.page .breadcrumb a {
-  color: #043166;
-  font-weight: 500;
-}
-
-.page .breadcrumb a:hover {
-  text-decoration: underline;
-  font-weight: 700;
-}
-
-.page .breadcrumb strong {
-  color: #043166;
-  font-weight: 500;
-}
-
-.page .breadcrumb span {
-  color: #1765ab;
-}
-
-.page .breadcrumb i {
-  color: #f06c00;
-  font-weight: 700;
-  font-size: 0.6rem;
-  padding: 0 0.3rem;
 }
 
 .page h1 {

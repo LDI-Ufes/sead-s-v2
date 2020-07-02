@@ -2,17 +2,17 @@
   line-height: 1.8rem;
   padding-bottom: 4rem;
 
-  p {
-    font-weight: $light;
-    @extend %largura-texto;
-
-    a{
-      font-style: italic;
-      color: $azulRegular;
-      cursor: pointer;
-
-      &:hover{ border-bottom: 0.5px solid $azulRegular; }
-    }
+  p { 
+    font-weight: $light; 
+    max-width: 720px;
+  
+    a{ 
+      font-style: italic; 
+      color: $laranja-medio; 
+      font-weight: $semi-bold; 
+    
+      &:hover{ border-bottom: 1px solid $laranja-medio; } 
+    } 
   }
 
   blockquote {
@@ -23,37 +23,6 @@
     margin: 2rem 0;
     font-size: 1.25rem;
     @extend %largura-texto;
-  }
-
-  .breadcrumb {
-    font-size: 0.8rem;
-    margin: 1.5rem 0;
-
-    a{
-      color: $azulEscuro;
-      font-weight: $medium;
-
-      &:hover {
-        text-decoration: underline;
-        font-weight: $bold;
-      }
-    }
-
-    strong{
-      color: $azulEscuro;
-      font-weight: $medium;
-    }
-
-    span {
-      color: $azulRegular;
-    }
-
-    i {
-      color: $laranjaRegular;
-      font-weight: $bold;
-      font-size: 0.6rem;
-      padding: 0 0.3rem;
-    }
   }
 
   h1 {
