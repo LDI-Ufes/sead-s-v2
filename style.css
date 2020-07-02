@@ -106,30 +106,35 @@ html {
 }
 
 body {
-  margin: 0;
-  min-width: 320px;
   overflow-x: hidden;
+  margin: 0;
   font-family: "Fira Sans", sans-serif;
   font-size: 1rem;
 }
 
-body.contraste * {
-  background-color: black !important;
-  color: white;
+*:focus {
+  outline: none;
 }
 
-body.contraste * a {
-  color: yellow;
+.focus-visible {
+  -webkit-box-shadow: 0 0 0 2px #ff822e;
+          box-shadow: 0 0 0 2px #ff822e;
 }
 
-body main {
-  display: block;
-  min-height: 40rem;
+.somente-leitura {
+  position: absolute;
+  left: -999rem;
 }
 
-body main h1:first-of-type {
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
   margin: 0;
-  padding: 1rem 0;
+  padding: 0;
+  list-style: none;
 }
 
 .container {
@@ -213,17 +218,6 @@ body main h1:first-of-type {
   display: none;
 }
 
-h1 {
-  padding: 0;
-}
-
-/*h1 {
-  font-size: 2.5rem;
-  font-weight: $bold;
-  color: $azulRegular;
-  padding: 2rem 0 1rem;
-  line-height: 1.3;
-}*/
 .mapaES text {
   font-weight: 700;
   font-family: inherit;
@@ -250,56 +244,8 @@ h1 {
   fill: #ffa161;
 }
 
-.somente-leitura {
-  position: absolute;
-  left: -999rem;
-}
-
 a[target='_blank'] i.fa-external-link-alt {
   font-size: 0.8em;
-}
-
-*:focus {
-  outline: none;
-}
-
-.focus-visible, .focus-visible.marca svg, .focus-visible.botaoSubmissao i.fas {
-  outline: 2px solid #f06c00;
-}
-
-#lista-barra-brasil .link-barra.focus-visible {
-  outline-offset: -5px;
-}
-
-#brasil-vlibras .logo-vlibras.focus-visible {
-  outline-offset: -1px;
-}
-
-#ligacoesExternas > li a.focus-visible {
-  outline-offset: 2px;
-}
-
-.focus-visible {
-  z-index: 7;
-  outline-offset: 3px;
-}
-
-.focus-visible.marca {
-  outline: none;
-}
-
-.focus-visible.marca svg {
-  outline-offset: 10px;
-}
-
-.focus-visible.botaoSubmissao {
-  outline: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
-
-.focus-visible.botaoSubmissao i.fas {
-  outline-offset: 5px;
 }
 
 section.caixa {
@@ -2889,8 +2835,15 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
 }
 
 .page {
-  line-height: 1.8rem;
   padding-bottom: 4rem;
+  line-height: 1.75;
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 864px) {
+  .page {
+    font-size: 20px;
+  }
 }
 
 .page p {
@@ -2921,21 +2874,65 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
   font-size: 2.5rem;
   font-weight: 700;
   color: #1765ab;
-  padding: 1rem 0 1rem;
-  line-height: 1.3;
-  margin: 0;
+  line-height: 1.4;
+}
+
+@media screen and (min-width: 864px) {
+  .page h1 {
+    font-size: 3rem;
+  }
 }
 
 .page h2 {
   color: #1765ab;
   font-size: 2rem;
-  margin-bottom: 3rem;
-  line-height: 1.2;
+  line-height: 1.4;
+  margin-top: 4.5rem;
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 864px) {
+  .page h2 {
+    font-size: 2.5rem;
+  }
 }
 
 .page h3 {
   color: #f06c00;
-  margin-top: 3rem;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 864px) {
+  .page h3 {
+    font-size: 1.5rem;
+  }
+}
+
+.page .secao-destacada {
+  background-color: #FFF5EE;
+  margin: 8rem 0 5rem;
+  position: relative;
+}
+
+.page .secao-destacada .container {
+  top: -2.4rem;
+  position: relative;
+}
+
+@media screen and (min-width: 864px) {
+  .page .secao-destacada .container {
+    top: -3rem;
+  }
+}
+
+.page .secao-destacada .titulo-destacado {
+  font-style: italic;
+  color: #f06c00;
+  margin-top: 0;
+  line-height: 1.8;
 }
 
 .page #paginacao {
@@ -2947,7 +2944,7 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
 
 .page #paginacao a,
 .page #paginacao span {
-  padding: 0 .5rem;
+  padding: 0 0.5rem;
 }
 
 .page #paginacao a:hover {
@@ -3965,123 +3962,154 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
      object-fit: cover;
 }
 
+@media (min-width: 864px) {
+  .curso .colunas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .curso .colunas .coluna1 {
+    max-width: 752px;
+    width: 66%;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .curso .colunas .coluna2 {
+    max-width: 267px;
+    width: 30%;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+}
+
 .curso #info-curso {
-  background-color: #043166;
-  color: white;
-  padding: 1.5rem;
-  margin: 2rem 0;
+  background-color: #edf9ff;
+  color: #053C7B;
+  padding: 4rem 0 3rem;
+  font-size: 1rem;
+  margin-bottom: 4rem;
+  margin-top: -3rem;
+}
+
+.curso #info-curso h1 {
+  color: #f06c00;
+  margin: 2rem 0 1rem;
+  font-weight: 600;
+}
+
+@media (min-width: 864px) {
+  .curso #info-curso h1 {
+    font-size: 4rem;
+  }
 }
 
 .curso #info-curso p {
-  max-width: unset;
-  margin: 0;
+  margin: 1rem 0;
 }
 
-.curso #info-curso div#situacao {
-  color: #ffa161;
+.curso #info-curso .objetivo {
+  font-size: 20px;
+  margin-bottom: 1.5rem;
 }
 
-.curso #info-curso div#situacao p:before {
-  content: '\f06a';
+@media (min-width: 864px) {
+  .curso #info-curso .objetivo {
+    font-size: 26px;
+    margin-top: 0.7rem;
+  }
+}
+
+.curso #info-curso .situacao {
+  color: #c75000;
+}
+
+.curso #info-curso .situacao:before {
+  content: "\f06a";
   font-weight: 700;
   font-family: "Font Awesome 5 Free";
-  margin-right: .5rem;
+  margin-right: 0.5rem;
 }
 
-.curso #conteudo {
-  border: none;
-  position: relative;
+.curso #conteudo-curso {
+  margin-bottom: 6rem;
 }
 
-.curso #conteudo #menu {
-  position: relative;
-  display: block;
-  padding: 1rem 0.2rem;
-  color: #043166;
-  font-weight: 300;
+.curso #conteudo-curso h2:first-of-type {
+  margin-top: 0;
 }
 
-.curso #conteudo #menu #dropdown-menu {
-  display: block;
-  color: #043166;
-  padding: 0.5rem;
-  border: none;
-  width: 100%;
-  text-align: left;
-  background: none;
-  border-bottom: 1.5px solid #043166;
-  cursor: pointer;
+.curso #conteudo-curso aside {
+  font-size: 1rem;
 }
 
-.curso #conteudo #menu #dropdown-menu i {
-  float: right;
+.curso #conteudo-curso aside h4 {
+  border-bottom: solid 5px #f06c00;
+  color: #1765ab;
+  margin-bottom: 1.5rem;
+  font-size: 18px;
 }
 
-.curso #conteudo #menu ul {
+.curso #conteudo-curso aside .menu {
   display: none;
-  position: absolute;
-  background-color: aliceblue;
-  padding: 1rem;
-  -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
-          box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
-.curso #conteudo #menu ul a {
+.curso #conteudo-curso aside .contato-curso {
+  color: #1765ab;
+}
+
+.curso #conteudo-curso aside .contato-curso strong {
+  font-weight: 500;
+}
+
+.curso #conteudo-curso aside .contato-curso span {
   display: block;
-  margin: 0.2rem;
-  cursor: pointer;
 }
 
-.curso #conteudo #menu ul a i {
-  font-size: 0.8rem;
-  margin-right: 0.3rem;
+.curso #conteudo-curso aside .contato-curso span i {
+  padding-right: 0.2rem;
 }
 
-.curso #conteudo #menu ul a:hover {
-  text-decoration: underline;
+@media (min-width: 864px) {
+  .curso #conteudo-curso aside h4 {
+    font-size: 22px;
+  }
+  .curso #conteudo-curso aside .menu {
+    display: block;
+  }
+  .curso #conteudo-curso aside .menu a {
+    color: #c75000;
+    font-weight: 300;
+    line-height: 2;
+  }
 }
 
-.curso #conteudo #menu ul li.current {
-  font-weight: 700;
-  font-style: italic;
+.curso #conteudo-curso strong {
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.8);
 }
 
-.curso #conteudo #menu ul span {
-  margin: 1.5rem 0;
-  display: block;
-  color: #043166;
-  font-weight: 700;
-  border-bottom: solid 1px #f06c00;
-  margin-bottom: 0.5rem;
-}
-
-.curso #conteudo div {
-  max-width: 720px;
-  margin: 0 auto;
-  padding-bottom: 5rem;
-}
-
-.curso #conteudo div h2 {
-  font-weight: 300;
-  margin: 2.5rem 0 2rem;
-  line-height: 1.3;
-}
-
-.curso #conteudo div#matriz .semestre button {
+.curso #conteudo-curso .matriz .semestre button {
   background: none;
   border: none;
   text-align: left;
-  padding: 0.7rem 0;
+  padding: 0 0 1rem;
   margin-top: 0.5rem;
   cursor: pointer;
 }
 
-.curso #conteudo div#matriz .semestre button h3 {
+.curso #conteudo-curso .matriz .semestre button h3 {
+  font-size: 20px;
   margin: 0;
-  display: block;
 }
 
-.curso #conteudo div#matriz .semestre button h3:before {
+.curso #conteudo-curso .matriz .semestre button h3:before {
   content: "\f067";
   font-family: "Font Awesome 5 Free";
   color: #f06c00;
@@ -4090,60 +4118,199 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
   font-weight: 700;
 }
 
-.curso #conteudo div#matriz .semestre button.ativo h3:before {
+.curso #conteudo-curso .matriz .semestre button.ativo h3:before {
   content: "\f068";
 }
 
-.curso #conteudo div#matriz .semestre ul {
+.curso #conteudo-curso .matriz .semestre ul {
   display: none;
+  margin-bottom: 2rem;
 }
 
-.curso #conteudo div#matriz .semestre ul div {
-  border-bottom: solid 1px #f06c00;
-  border-top: solid 1px #f06c00;
-  color: #f06c00;
+.curso #conteudo-curso .matriz .semestre ul .rotulos-matriz,
+.curso #conteudo-curso .matriz .semestre ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+}
+
+.curso #conteudo-curso .matriz .semestre ul .rotulos-matriz div,
+.curso #conteudo-curso .matriz .semestre ul li div {
+  padding: 0 0.5rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+  min-width: 60px;
+}
+
+.curso #conteudo-curso .matriz .semestre ul .rotulos-matriz div:first-of-type,
+.curso #conteudo-curso .matriz .semestre ul li div:first-of-type {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  text-align: left;
+}
+
+.curso #conteudo-curso .matriz .semestre ul .rotulos-matriz div:last-of-type,
+.curso #conteudo-curso .matriz .semestre ul li div:last-of-type {
+  min-width: 32px;
+}
+
+@media (min-width: 864px) {
+  .curso #conteudo-curso .matriz .semestre ul .rotulos-matriz div:last-of-type,
+  .curso #conteudo-curso .matriz .semestre ul li div:last-of-type {
+    min-width: 100px;
+  }
+}
+
+.curso #conteudo-curso .matriz .semestre ul .rotulos-matriz {
+  border-bottom: solid 2px #1765ab;
+  border-top: solid 2px #1765ab;
+  color: #1765ab;
   padding: 0;
   font-weight: 700;
   font-size: 0.9rem;
   padding: 0.2rem 0;
 }
 
-.curso #conteudo div#matriz .semestre ul div span {
-  float: right;
+.curso #conteudo-curso .matriz .semestre ul .rotulos-matriz div {
+  padding-top: 0.15rem;
 }
 
-.curso #conteudo div#matriz .semestre ul li {
+.curso #conteudo-curso .matriz .semestre ul .rotulos-matriz .desktop {
+  display: none;
+}
+
+@media (min-width: 864px) {
+  .curso #conteudo-curso .matriz .semestre ul .rotulos-matriz .mobile {
+    display: none;
+  }
+  .curso #conteudo-curso .matriz .semestre ul .rotulos-matriz .desktop {
+    display: block;
+  }
+}
+
+.curso #conteudo-curso .matriz .semestre ul li {
+  font-size: 1rem;
   color: #1765ab;
-  font-weight: 500;
-  border-bottom: solid 0.5px #cfeaff;
-  padding: 0.5rem 0;
+  border-bottom: solid 0.5px #CFEAFF;
+  padding: 0.75rem 0;
   position: relative;
-  padding-right: 4rem;
-  line-height: 2.5;
+  line-height: 1.3;
 }
 
-.curso #conteudo div#matriz .semestre ul li span {
+.curso #conteudo-curso .matriz .semestre ul li span {
   font-weight: 300;
 }
 
-.curso #conteudo div#matriz .semestre ul li a {
+.curso #conteudo-curso .matriz .semestre ul li a {
   color: #f06c00;
   cursor: pointer;
-  position: absolute;
-  right: 0;
-  top: .5rem;
 }
 
-.curso #conteudo div#matriz .semestre ul li a:hover {
+.curso #conteudo-curso .matriz .semestre ul li a:hover {
   color: #c75000;
 }
 
-.curso #conteudo div#matriz .semestre ul li a i {
-  font-size: 1.5rem;
-  line-height: 1.7;
+.curso #conteudo-curso .matriz .semestre ul li a i {
+  padding-right: 0.3rem;
+  display: inline;
 }
 
-.curso #conteudo div#professores .nome {
+@media (min-width: 864px) {
+  .curso #conteudo-curso .administrativo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 3rem;
+  }
+  .curso #conteudo-curso .administrativo p {
+    width: calc(50% - 0.5rem);
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+  }
+  .curso #conteudo-curso .administrativo p:nth-of-type(odd) {
+    margin-right: 1rem;
+  }
+}
+
+@media (min-width: 864px) {
+  .curso #conteudo-curso .docentes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .curso #conteudo-curso .docentes .professor {
+    width: calc(50% - 0.5rem);
+  }
+  .curso #conteudo-curso .docentes .professor:nth-of-type(odd) {
+    margin-right: 1rem;
+  }
+}
+
+.curso #conteudo-curso .docentes .professor {
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.8);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1.2rem;
+}
+
+.curso #conteudo-curso .docentes .professor .perfil-docente {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin-right: 1rem;
+  background: url("img/user-professor.png") -1px -1px;
+  background-size: cover;
+  overflow: hidden;
+  padding: 0;
+}
+
+.curso #conteudo-curso .docentes .professor .perfil-docente img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.curso #conteudo-curso .docentes .professor div {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 0.25rem;
+}
+
+.curso #conteudo-curso .docentes .professor span {
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.curso #conteudo-curso .docentes .professor a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.curso #conteudo-curso .docentes .professor a span {
+  color: #c75000;
+}
+
+.curso #conteudo-curso .docentes .professor a:hover span {
+  text-decoration: underline;
+}
+
+.curso #conteudo-curso#professores .nome {
   font-weight: 400;
   display: inline-block;
   width: 49%;
@@ -4151,7 +4318,7 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
   vertical-align: top;
 }
 
-.curso #conteudo div#professores .nome span {
+.curso #conteudo-curso#professores .nome span {
   font-size: 0.9rem;
   font-style: italic;
   display: block;
@@ -4159,32 +4326,27 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
   font-weight: 300;
 }
 
-.curso #conteudo div#professores .nome a {
+.curso #conteudo-curso#professores .nome a {
   color: black;
   margin: 0;
   font-style: normal;
 }
 
-.curso #conteudo div#professores .nome a:after {
+.curso #conteudo-curso#professores .nome a:after {
   content: url("svg/lattes.svg");
   margin-left: 0.3rem;
 }
 
-.curso #conteudo div#professores .nome a:hover {
+.curso #conteudo-curso#professores .nome a:hover {
   border-bottom: 0.5px solid #c75000;
 }
 
 .curso #faq-curso {
-  background-color: #edf9ff;
-  padding: 1rem 0;
+  margin-bottom: 0;
 }
 
-.curso #faq-curso h2 {
-  color: #043166;
-  font-style: italic;
-  font-weight: 300;
-  font-weight: 500;
-  margin: 0 0 2rem;
+.curso #faq-curso ul {
+  padding-bottom: 2rem;
 }
 
 .curso #faq-curso ul li {
@@ -4197,7 +4359,7 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
   background: none;
   border: none;
   text-align: left;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 2.5rem;
   width: 100%;
 }
 
@@ -4206,7 +4368,7 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
 }
 
 .curso #faq-curso ul li button:hover > h3 {
-  border-bottom: 2px solid #043166;
+  border-bottom: 1px solid #1765ab;
 }
 
 .curso #faq-curso ul li button:before {
@@ -4214,8 +4376,10 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
   font-family: "Font Awesome 5 Free";
   color: #1765ab;
   font-size: 1rem;
-  padding-right: 0.6rem;
+  padding: 0.4rem 1rem 0 0;
+  margin-left: -1.5rem;
   font-weight: 700;
+  position: absolute;
 }
 
 .curso #faq-curso ul li button h3 {
@@ -4233,29 +4397,23 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
 }
 
 .curso #faq-curso ul li button.ativo h3 {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .curso #faq-curso ul li p {
   display: none;
   max-width: inherit;
-  padding: 1rem 1.5rem;
+  padding: 0.5rem 2.5rem 1.5rem;
   margin: 0;
 }
 
 .curso #noticias {
-  background-color: #cfeaff;
+  background-color: #FFB481;
+  margin: 0;
   /* noticia */
 }
 
-.curso #noticias h2 {
-  color: #043166;
-  font-weight: 700;
-  font-size: 1.6rem;
-  margin: 0 0 2rem;
-}
-
-.curso #noticias div.flex {
+.curso #noticias .cards-noticias-curso {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4266,8 +4424,22 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
           justify-content: space-between;
 }
 
-.curso #noticias div.flex .noticia {
-  border-top: solid 3px #f06c00;
+@media (min-width: 760px) {
+  .curso #noticias .cards-noticias-curso {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    margin-right: -1rem;
+  }
+  .curso #noticias .cards-noticias-curso .noticia {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 0px;
+            flex: 1 1 0;
+    margin-right: 1rem;
+    margin-bottom: 0;
+  }
+}
+
+.curso #noticias .cards-noticias-curso .noticia {
   position: relative;
   height: 10rem;
   margin-bottom: 1rem;
@@ -4276,7 +4448,13 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
           flex: 1 1 100%;
 }
 
-.curso #noticias div.flex .noticia:after {
+@media (min-width: 760px) {
+  .curso #noticias .cards-noticias-curso .noticia {
+    margin-bottom: 0;
+  }
+}
+
+.curso #noticias .cards-noticias-curso .noticia:after {
   content: "";
   position: absolute;
   top: 0;
@@ -4287,17 +4465,19 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
   opacity: 0.9;
   background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#043166));
   background-image: linear-gradient(transparent, #043166);
+  border-radius: 2px;
 }
 
-.curso #noticias div.flex .noticia img {
+.curso #noticias .cards-noticias-curso .noticia img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   height: 10rem;
   margin-bottom: -0.3rem;
+  border-radius: 2px;
 }
 
-.curso #noticias div.flex .noticia h3 {
+.curso #noticias .cards-noticias-curso .noticia h3 {
   color: white;
   position: absolute;
   bottom: 0;
@@ -4305,79 +4485,25 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
   padding: 0;
   max-width: calc(100% - 2rem);
   font-weight: normal;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.4;
   margin-left: 1rem;
 }
 
-.curso #noticias div.flex .noticia:hover:after {
+@media (min-width: 864px) {
+  .curso #noticias .cards-noticias-curso .noticia h3 {
+    font-size: 1.2rem;
+  }
+}
+
+.curso #noticias .cards-noticias-curso .noticia:hover:after {
   opacity: 1;
 }
 
-.curso #noticias div.flex .noticia:hover h3 {
+.curso #noticias .cards-noticias-curso .noticia:hover h3 {
   -webkit-text-decoration: underline #f06c00;
           text-decoration: underline #f06c00;
   text-underline-position: under;
-}
-
-@media (min-width: 992px) {
-  .curso #objetivo {
-    font-size: 1.5rem;
-    line-height: 1.6;
-    max-width: inherit;
-  }
-  .curso #info-curso {
-    background-color: #043166;
-    color: white;
-    padding: 1.5rem;
-  }
-  .curso #info-curso div {
-    width: 40%;
-    display: inline-block;
-  }
-  .curso #info-curso div#situacao {
-    width: 60%;
-    float: right;
-  }
-  .curso #conteudo {
-    border-top: solid 5px #043166;
-  }
-  .curso #conteudo #menu {
-    position: sticky;
-    position: -webkit-sticky;
-    display: inline-block;
-    top: 0;
-  }
-  .curso #conteudo #menu #dropdown-menu {
-    display: none;
-  }
-  .curso #conteudo #menu ul {
-    display: block !important;
-    background: none;
-    position: relative;
-    padding: 0;
-    width: 225px;
-    -webkit-box-shadow: none;
-            box-shadow: none;
-  }
-  .curso div.tabPanel {
-    display: inline-block;
-    vertical-align: top;
-    padding-left: 1.5rem;
-    width: 700px;
-  }
-  .curso #noticias div.flex {
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    margin-right: -1rem;
-  }
-  .curso #noticias .noticia {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 0px;
-            flex: 1 1 0;
-    margin-right: 1rem;
-    margin-bottom: 0;
-  }
 }
 
 .single-edital {

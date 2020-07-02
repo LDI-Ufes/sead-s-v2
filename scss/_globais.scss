@@ -1,35 +1,37 @@
-html {
-  font-size: 16px;
-}
-
-body {
-  margin: 0;
-  min-width: 320px;
-  overflow-x: hidden;
-  font-family: "Fira Sans", sans-serif;
-  font-size: 1rem;
-
-  &.contraste {
-    * {
-      background-color: black !important;
-      color: white;
-
-      a {
-        color: yellow;
-      }
-    }
-  }
-
-  main {
-    display: block;
-    min-height: 40rem;
-
-    h1:first-of-type {
-      margin: 0;
-      padding: 1rem 0;
-    }
-  }
-}
+html { 
+	font-size: 16px; 
+} 
+ 
+body { 
+	  overflow-x: hidden; 
+    margin: 0; 
+    font-family: $sans; 
+    font-size: 1rem; 
+} 
+  
+*:focus { 
+	outline: none; 
+} 
+ 
+.focus-visible { 
+	box-shadow: 0 0 0 2px lighten($laranja-medio, 20%); 
+} 
+ 
+.somente-leitura { 
+	position: absolute; 
+	left: -999rem; 
+} 
+ 
+a { 
+    text-decoration: none; 
+    color: inherit; 
+} 
+ 
+ul { 
+    margin: 0; 
+    padding: 0; 
+    list-style: none; 
+} 
 
 .container { 
   width: calc(100% - 3rem); 
@@ -107,19 +109,6 @@ body {
   } 
 } 
 
-
-h1 {
-  padding: 0;
-}
-
-/*h1 {
-  font-size: 2.5rem;
-  font-weight: $bold;
-  color: $azulRegular;
-  padding: 2rem 0 1rem;
-  line-height: 1.3;
-}*/
-
 .mapaES {
   text {
     font-weight: $bold;
@@ -167,61 +156,47 @@ h1 {
   }
 }
 
-.somente-leitura {
-  position: absolute;
-  left: -999rem;
-}
-
 a[target='_blank'] i.fa-external-link-alt {
   font-size: 0.8em;
 }
 
 
 // Foco em navegação
-* {
-  &:focus {
-    outline: none;
-  }
-}
+// * {
+//   &:focus {
+//     outline: none;
+//   }
+// }
 
-%borda-foco {
-  outline: 2px solid $laranjaRegular;
-}
+// %borda-foco {
+//   outline: 2px solid $laranjaRegular;
+// }
 
-#lista-barra-brasil .link-barra.focus-visible {outline-offset: -5px}
-#brasil-vlibras .logo-vlibras.focus-visible {outline-offset: -1px}
-#ligacoesExternas > li a.focus-visible {outline-offset: 2px}
+// #lista-barra-brasil .link-barra.focus-visible {outline-offset: -5px}
+// #brasil-vlibras .logo-vlibras.focus-visible {outline-offset: -1px}
+// #ligacoesExternas > li a.focus-visible {outline-offset: 2px}
 
-.focus-visible {
-  z-index: 7;
-  outline-offset: 3px;
-  @extend %borda-foco;
+// .focus-visible {
+//   z-index: 7;
+//   outline-offset: 3px;
+//   @extend %borda-foco;
 
-  &.marca {
-    outline: none;
+//   &.marca {
+//     outline: none;
 
-    svg {
-      @extend %borda-foco;
-      outline-offset: 10px;
-    }
-  }
+//     svg {
+//       @extend %borda-foco;
+//       outline-offset: 10px;
+//     }
+//   }
 
-  &.botaoSubmissao {
-    outline: none;
-    box-shadow: none;
+//   &.botaoSubmissao {
+//     outline: none;
+//     box-shadow: none;
 
-    i.fas {
-      @extend %borda-foco;
-      outline-offset: 5px;
-    }
-  }
-}
-
-// Fim de Foco em navegação
-
-// @media screen and (min-width: 992px) {
-//   .container {
-//     max-width: 1140px;
-//     margin: 0 auto;
+//     i.fas {
+//       @extend %borda-foco;
+//       outline-offset: 5px;
+//     }
 //   }
 // }

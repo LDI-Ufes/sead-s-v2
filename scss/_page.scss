@@ -1,18 +1,25 @@
 .page {
-  line-height: 1.8rem;
   padding-bottom: 4rem;
+  line-height: 1.75;
+  font-size: 1rem;
 
-  p { 
-    font-weight: $light; 
+  @media screen and (min-width: 864px) {
+    font-size: 20px;
+  }
+
+  p {
+    font-weight: $light;
     max-width: 720px;
-  
-    a{ 
-      font-style: italic; 
-      color: $laranja-medio; 
-      font-weight: $semi-bold; 
-    
-      &:hover{ border-bottom: 1px solid $laranja-medio; } 
-    } 
+
+    a {
+      font-style: italic;
+      color: $laranja-medio;
+      font-weight: $semi-bold;
+
+      &:hover {
+        border-bottom: 1px solid $laranja-medio;
+      }
+    }
   }
 
   blockquote {
@@ -28,22 +35,58 @@
   h1 {
     font-size: 2.5rem;
     font-weight: $bold;
-    color: $azulRegular;
-    padding: 1rem 0 1rem;
-    line-height: 1.3;
-    margin: 0;
+    color: $azul-principal;
+    line-height: 1.4;
+
+    @media screen and (min-width: 864px) {
+      font-size: 3rem;
+    }
   }
 
   h2 {
-    color: $azulRegular;
+    color: $azul-principal;
     font-size: 2rem;
-    margin-bottom: 3rem;
-    line-height: 1.2;
+    line-height: 1.4;
+    margin-top: 4.5rem;
+    margin-bottom: 1.5rem;
+
+    @media screen and (min-width: 864px) {
+      font-size: 2.5rem;
+    }
   }
 
   h3 {
-    color: $laranjaRegular;
-    margin-top: 3rem;
+    color: $laranja-principal;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+    @media screen and (min-width: 864px) {
+      font-size: 1.5rem;
+    }
+  }
+
+  .secao-destacada {
+    background-color: $laranja-extra-claro;
+    margin: 8rem 0 5rem;
+    position: relative;
+
+    .container {
+      top: -2.4rem;
+      position: relative;
+
+      @media screen and (min-width: 864px) {
+        top: -3rem;
+      }
+    }
+
+    .titulo-destacado {
+      font-style: italic;
+      color: $laranja-principal;
+      margin-top: 0;
+      line-height: 1.8;
+    }
   }
 
   #paginacao {
@@ -54,7 +97,7 @@
 
     a,
     span {
-      padding: 0 .5rem;
+      padding: 0 0.5rem;
     }
 
     a:hover {

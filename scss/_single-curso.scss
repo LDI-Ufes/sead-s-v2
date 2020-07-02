@@ -5,222 +5,378 @@
     @include destaque($azulEscuro, $azulEscuroTransparencia);
     border-bottom: solid 20px $laranjaRegular;
 
-    img{
+    img {
       width: 100%;
       height: 100%;
       object-fit: cover;
     }
   }
 
-  #info-curso {
-    background-color: $azulEscuro;
-    color: white;
-    padding: 1.5rem;
-    margin: 2rem 0;
+  .colunas {
+    @media (min-width: 864px) {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: nowrap;
 
-    p {
-      max-width: unset;
-      margin: 0;
-    }
-    
-    div#situacao{
-      color: $laranjaClaro;
-      
-      p:before{
-        content: '\f06a';
-        font-weight: $bold;
-        font-family: "Font Awesome 5 Free";
-        margin-right: .5rem;
+      .coluna1 {
+        max-width: 752px;
+        width: 66%;
+        order: 1;
+      }
+
+      .coluna2 {
+        max-width: 267px;
+        width: 30%;
+        order: 2;
       }
     }
   }
 
-  #conteudo {
-    border: none;
-    position: relative;
+  #info-curso {
+    background-color: $azul-extra-claro;
+    color: $azul-medio;
+    padding: 4rem 0 3rem;
+    font-size: 1rem;
+    margin-bottom: 4rem;
+    margin-top: -3rem;
 
-    #menu {
-      position: relative;
-      display: block;
+    h1 {
+      color: $laranja-principal;
+      margin: 2rem 0 1rem;
+      font-weight: 600;
 
-      padding: 1rem 0.2rem;
-      color: $azulEscuro;
-      font-weight: $light;
-
-      #dropdown-menu {
-        display: block;
-        color: $azulEscuro;
-        padding: 0.5rem;
-        border: none;
-        width: 100%;
-        text-align: left;
-        background: none;
-        border-bottom: 1.5px solid $azulEscuro;
-        cursor: pointer;
-
-        i {
-          float: right;
-        }
+      @media (min-width: 864px) {
+        font-size: 4rem;
       }
 
-      ul {
+      // span{
+      //   color: $azul-medio;
+      //   display: block;
+      //   font-weight: $light;
+      //   font-size: 1rem;
+      //   margin-bottom: .2rem;
+      // }
+    }
+
+    p {
+      margin: 1rem 0;
+    }
+
+    .objetivo {
+      font-size: 20px;
+      margin-bottom: 1.5rem;
+
+      @media (min-width: 864px) {
+        font-size: 26px;
+        margin-top: 0.7rem;
+      }
+    }
+
+    .situacao {
+      color: $laranja-medio;
+
+      &:before {
+        content: "\f06a";
+        font-weight: $bold;
+        font-family: "Font Awesome 5 Free";
+        margin-right: 0.5rem;
+      }
+    }
+  }
+
+  #conteudo-curso {
+    margin-bottom: 6rem;
+
+    h2:first-of-type {
+      margin-top: 0;
+    }
+
+    aside {
+      font-size: 1rem;
+
+      h4 {
+        border-bottom: solid 5px $laranja-principal;
+        color: $azul-principal;
+        margin-bottom: 1.5rem;
+        font-size: 18px;
+      }
+
+      .menu {
         display: none;
-        position: absolute;
-        background-color: aliceblue;
-        padding: 1rem;
-        box-shadow: 2px 2px 10px rgba(0,0,0,.2);
+      }
 
-        a {
-          display: block;
-          margin: 0.2rem;
-          cursor: pointer;
+      .contato-curso {
+        color: $azul-principal;
 
-          i {
-            font-size: 0.8rem;
-            margin-right: 0.3rem;
-          }
-
-          &:hover {
-            text-decoration: underline;
-          }
-        }
-
-        li.current {
-          font-weight: $bold;
-          font-style: italic;
+        strong {
+          font-weight: $medium;
         }
 
         span {
-          margin: 1.5rem 0;
           display: block;
-          color: $azulEscuro;
-          font-weight: $bold;
-          border-bottom: solid 1px $laranjaRegular;
-          margin-bottom: 0.5rem;
+
+          i {
+            padding-right: 0.2rem;
+          }
+        }
+      }
+
+      @media (min-width: 864px) {
+        h4 {
+          font-size: 22px;
+        }
+
+        .menu {
+          display: block;
+
+          a {
+            color: $laranja-medio;
+            font-weight: $light;
+            line-height: 2;
+          }
         }
       }
     }
 
-    div {
-      max-width: 720px;
-      margin: 0 auto;
-      padding-bottom: 5rem;
+    strong {
+      font-weight: $medium;
+      color: rgba(black, 0.8);
+    }
 
-      h2 {
-        font-weight: $light;
-        margin: 2.5rem 0 2rem;
-        line-height: 1.3;
-      }
+    .matriz {
+      .semestre {
+        button {
+          background: none;
+          border: none;
+          text-align: left;
+          padding: 0 0 1rem;
+          margin-top: 0.5rem;
+          cursor: pointer;
 
-      &#matriz {
-        .semestre {
-          button {
-            background: none;
-            border: none;
-            text-align: left;
-            padding: 0.7rem 0;
-            margin-top: 0.5rem;
-            cursor: pointer;
+          h3 {
+            font-size: 20px;
+            margin: 0;
 
-            h3 {
-              margin: 0;
-              display: block;
-
-              &:before {
-                content: "\f067";
-                font-family: "Font Awesome 5 Free";
-                color: $laranjaRegular;
-                font-size: 0.8rem;
-                padding-right: 0.6rem;
-                font-weight: $bold;
-              }
+            &:before {
+              content: "\f067";
+              font-family: "Font Awesome 5 Free";
+              color: $laranja-principal;
+              font-size: 0.8rem;
+              padding-right: 0.6rem;
+              font-weight: $bold;
             }
+          }
 
-            &.ativo {
-              h3:before {
-                content: "\f068";
+          &.ativo {
+            h3:before {
+              content: "\f068";
+            }
+          }
+        }
+
+        ul {
+          display: none;
+          margin-bottom: 2rem;
+
+          .rotulos-matriz,
+          li {
+            display: flex;
+            justify-content: stretch;
+
+            div {
+              padding: 0 0.5rem;
+              align-self: center;
+              text-align: center;
+              min-width: 60px;
+
+              &:first-of-type {
+                flex-grow: 1;
+                text-align: left;
+              }
+
+              &:last-of-type {
+                min-width: 32px;
+
+                @media (min-width: 864px) {
+                  min-width: 100px;
+                }
               }
             }
           }
 
-          ul {
-            display: none;
+          .rotulos-matriz {
+            border-bottom: solid 2px $azul-principal;
+            border-top: solid 2px $azul-principal;
+            color: $azul-principal;
+            padding: 0;
+            font-weight: $bold;
+            font-size: 0.9rem;
+            padding: 0.2rem 0;
 
             div {
-              border-bottom: solid 1px $laranjaRegular;
-              border-top: solid 1px $laranjaRegular;
-              color: $laranjaRegular;
-              padding: 0;
-              font-weight: $bold;
-              font-size: 0.9rem;
-              padding: 0.2rem 0;
-
-              span {
-                float: right;
-              }
+              padding-top: 0.15rem;
             }
 
-            li {
-              color: $azulRegular;
-              font-weight: $medium;
-              border-bottom: solid 0.5px $azulClaro;
-              padding: 0.5rem 0;
-              position: relative;
-              padding-right: 4rem;
-              line-height: 2.5;
+            .desktop {
+              display: none;
+            }
 
-              span {
-                font-weight: $light;
+            @media (min-width: 864px) {
+              .mobile {
+                display: none;
+              }
+              .desktop {
+                display: block;
+              }
+            }
+          }
+
+          li {
+            font-size: 1rem;
+            color: $azul-principal;
+            // font-weight: $medium;
+            border-bottom: solid 0.5px $azul-claro;
+            padding: 0.75rem 0;
+            position: relative;
+            // padding-right: 4rem;
+            line-height: 1.3;
+
+            span {
+              font-weight: $light;
+            }
+
+            a {
+              color: $laranja-principal;
+              cursor: pointer;
+              // position: absolute;
+              // right: 0;
+              // top: .5rem;
+
+              &:hover {
+                color: $laranja-medio;
               }
 
-              a{
-                color: $laranjaRegular;
-                cursor: pointer;
-                position: absolute;
-                right: 0;
-                top: .5rem;
-
-                &:hover{ color: $laranjaMedio; }
-                
-                i{ 
-                  font-size: 1.5rem;
-                  line-height: 1.7;
-                }
+              i {
+                padding-right: 0.3rem;
+                display: inline;
+                // font-size: 1.5rem;
+                // line-height: 1.7;
               }
             }
           }
         }
       }
+    }
 
-      &#professores {
-        .nome {
-          font-weight: $regular;
+    .administrativo {
+      @media (min-width: 864px) {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 3rem;
+
+        p {
+          width: calc(50% - 0.5rem);
+          margin-top: 0;
+          margin-bottom: 1.5rem;
+
+          &:nth-of-type(odd) {
+            margin-right: 1rem;
+          }
+        }
+      }
+    }
+
+    .docentes {
+      @media (min-width: 864px) {
+        display: flex;
+        flex-wrap: wrap;
+
+        .professor {
+          width: calc(50% - 0.5rem);
+
+          &:nth-of-type(odd) {
+            margin-right: 1rem;
+          }
+        }
+      }
+
+      .professor {
+        font-size: 1rem;
+        color: rgba(black, 0.8);
+        display: flex;
+        margin-bottom: 1.2rem;
+
+        .perfil-docente {
+          width: 3rem;
+          height: 3rem;
+          border-radius: 50%;
+          margin-right: 1rem;
+          background: url("img/user-professor.png") -1px -1px;
+          background-size: cover;
+          overflow: hidden;
+          padding: 0;
+
+          img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+          }
+        }
+
+        div {
           display: inline-block;
-          width: 49%;
-          min-width: 310px;
           vertical-align: top;
+          padding-top: 0.25rem;
+        }
 
+        span {
+          display: block;
+          font-size: 18px;
+          font-weight: $medium;
+          line-height: 1.2;
+        }
+
+        a {
+          display: flex;
           span {
-            font-size: 0.9rem;
-            font-style: italic;
-            display: block;
-            line-height: 1.2;
-            font-weight: $light;
+            color: $laranja-medio;
           }
 
-          a {
-            color: black;
-            margin: 0;
-            font-style: normal;
+          &:hover span {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
 
-            &:after {
-              content: url("svg/lattes.svg");
-              margin-left: 0.3rem;
-            }
+    &#professores {
+      .nome {
+        font-weight: $regular;
+        display: inline-block;
+        width: 49%;
+        min-width: 310px;
+        vertical-align: top;
 
-            &:hover {
-              border-bottom: 0.5px solid $laranjaMedio;
-            }
+        span {
+          font-size: 0.9rem;
+          font-style: italic;
+          display: block;
+          line-height: 1.2;
+          font-weight: $light;
+        }
+
+        a {
+          color: black;
+          margin: 0;
+          font-style: normal;
+
+          &:after {
+            content: url("svg/lattes.svg");
+            margin-left: 0.3rem;
+          }
+
+          &:hover {
+            border-bottom: 0.5px solid $laranja-medio;
           }
         }
       }
@@ -228,18 +384,10 @@
   }
 
   #faq-curso {
-    background-color: $azulExtraClaro;
-    padding: 1rem 0;
-
-    h2 {
-      color: $azulEscuro;
-      font-style: italic;
-      font-weight: $light;
-      font-weight: $medium;
-      margin: 0 0 2rem;
-    }
+    margin-bottom: 0;
 
     ul {
+      padding-bottom: 2rem;
       li {
         max-width: unset;
         margin: 0.5rem 0;
@@ -249,24 +397,26 @@
           background: none;
           border: none;
           text-align: left;
-          padding: 0.5rem 1rem;
+          padding: 0.5rem 2.5rem;
           width: 100%;
 
           &:hover {
             cursor: pointer;
 
             > h3 {
-              border-bottom: 2px solid $azulEscuro;
+              border-bottom: 1px solid $azul-principal;
             }
           }
 
           &:before {
             content: "\f067";
             font-family: "Font Awesome 5 Free";
-            color: $azulRegular;
+            color: $azul-principal;
             font-size: 1rem;
-            padding-right: 0.6rem;
+            padding: 0.4rem 1rem 0 0;
+            margin-left: -1.5rem;
             font-weight: $bold;
+            position: absolute;
           }
 
           h3 {
@@ -285,7 +435,7 @@
             }
 
             h3 {
-              font-weight: $bold;
+              font-weight: $semi-bold;
             }
           }
         }
@@ -293,7 +443,7 @@
         p {
           display: none;
           max-width: inherit;
-          padding: 1rem 1.5rem;
+          padding: 0.5rem 2.5rem 1.5rem;
           margin: 0;
         }
       }
@@ -301,26 +451,34 @@
   }
 
   #noticias {
-    background-color: $azulClaro;
+    background-color: $laranja-claro;
+    margin: 0;
 
-    h2 {
-      color: $azulEscuro;
-      font-weight: $bold;
-      font-size: 1.6rem;
-      margin: 0 0 2rem;
-    }
-
-    div.flex {
+    .cards-noticias-curso {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
 
+      @media (min-width: 760px) {
+        flex-wrap: nowrap;
+        margin-right: -1rem;
+
+        .noticia {
+          flex: 1 1 0;
+          margin-right: 1rem;
+          margin-bottom: 0;
+        }
+      }
+
       .noticia {
-        border-top: solid 3px $laranjaRegular;
         position: relative;
         height: 10rem;
         margin-bottom: 1rem;
         flex: 1 1 100%;
+
+        @media (min-width: 760px) {
+          margin-bottom: 0;
+        }
 
         &:after {
           content: "";
@@ -331,7 +489,8 @@
           left: 0;
           height: 100%;
           opacity: 0.9;
-          background-image: linear-gradient(transparent, $azulEscuro);
+          background-image: linear-gradient(transparent, $azul-escuro);
+          border-radius: 2px;
         }
 
         img {
@@ -339,6 +498,7 @@
           object-fit: cover;
           height: 10rem;
           margin-bottom: -0.3rem;
+          border-radius: 2px;
         }
 
         h3 {
@@ -349,9 +509,13 @@
           padding: 0;
           max-width: calc(100% - 2rem);
           font-weight: normal;
-          font-size: 1.2rem;
+          font-size: 1rem;
           line-height: 1.4;
           margin-left: 1rem;
+
+          @media (min-width: 864px) {
+            font-size: 1.2rem;
+          }
         }
 
         &:hover {
@@ -367,72 +531,4 @@
       }
     } /* noticia */
   } /* #noticias */
-
-  @media (min-width: 992px) {
-    #objetivo {
-      font-size: 1.5rem;
-      line-height: 1.6;
-      max-width: inherit;
-    }
-
-    #info-curso {
-      background-color: $azulEscuro;
-      color: white;
-      padding: 1.5rem;
-
-      div {
-        width: 40%;
-        display: inline-block;
-
-        &#situacao {
-          width: 60%;
-          float: right;
-        }
-      }
-    }
-
-    #conteudo {
-      border-top: solid 5px $azulEscuro;
-
-      #menu {
-        position: sticky;
-        position: -webkit-sticky;
-        display: inline-block;
-        top: 0;
-
-        #dropdown-menu {
-          display: none;
-        }
-
-        ul {
-          display: block !important;
-          background: none;
-          position: relative;
-          padding: 0;
-          width: 225px;
-          box-shadow: none;
-        }
-      }
-    }
-
-    div.tabPanel {
-      display: inline-block;
-      vertical-align: top;
-      padding-left: 1.5rem;
-      width: 700px;
-    }
-
-    #noticias {
-      div.flex {
-        flex-wrap: nowrap;
-        margin-right: -1rem;
-      }
-
-      .noticia {
-        flex: 1 1 0;
-        margin-right: 1rem;
-        margin-bottom: 0;
-      }
-    }
-  }
 }
