@@ -68,19 +68,19 @@
       }
 
       h3 {
-        color: $azulEscuro;
+        color: $laranjaMedio;
         font-weight: $semi-bold;
         font-size: 1.3rem;
         margin: 1.5rem;
 
         a:hover {
-          border-bottom: solid 0.5px $laranjaRegular;
+          border-bottom: solid 0.5px $laranjaMedio;
         }
       }
 
       p {
-        font-family: $merriweather;
-        font-weight: $regular;
+        font-family: $fira;
+        font-weight: $light;
         line-height: 1.5;
         margin: 1rem 1.5rem;
       }
@@ -120,7 +120,7 @@
     label {
       font-size: 1.6rem;
       font-weight: $light;
-      color: $laranjaRegular;
+      color: $azulRegular;
     }
 
     // SendGrid Widget
