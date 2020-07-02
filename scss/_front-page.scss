@@ -13,7 +13,7 @@
     text-align: center;
     line-height: 1.5rem;
     padding: 2rem 1rem;
-    max-width: 560px;
+    max-width: 654px;
     margin: 0 auto;
 
     h2 {
@@ -24,7 +24,7 @@
 
     .topico-ead {
       margin: 2rem auto 0;
-      width: 160px;
+      width: 190px;
       display: inline-block;
       vertical-align: top;
 
@@ -277,18 +277,18 @@
   } /* #noticias */
 
   #polos {
-    color: $azulEscuro;
-    background-color: $laranjaExtraClaro;
-    padding: 2.5rem 1rem;
+    background-color: #FFF5EE;
+    padding: 4rem 1rem;
     text-align: center;
 
     h2 {
-      color: $laranjaMedio;
+      color: $laranjaRegular;
       font-size: 2rem;
       margin-top: 0;
     }
 
     p {
+      color: black;
       padding: 0;
       padding-bottom: 1.5rem;
     }
@@ -413,7 +413,6 @@
     } /* #noticias */
 
     #polos {
-      padding: 1rem;
       text-align: left;
 
       .mapaES {
