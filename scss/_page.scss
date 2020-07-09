@@ -14,10 +14,13 @@
     a {
       font-style: italic;
       color: $laranja-medio;
-      font-weight: $semi-bold;
 
       &:hover {
         border-bottom: 1px solid $laranja-medio;
+      }
+
+      &.bold{
+        font-weight: $semi-bold;
       }
     }
   }
@@ -29,7 +32,7 @@
     font-style: italic;
     margin: 2rem 0;
     font-size: 1.25rem;
-    @extend %largura-texto;
+    // @extend %largura-texto;
   }
 
   h1 {

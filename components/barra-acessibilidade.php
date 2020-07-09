@@ -7,7 +7,7 @@
    
   <section class='caixa'> 
     <section id="ufes"> 
-    <a href="http://www.ufes.br" target="_blank" title="Abrir Portal Ufes em nova aba"><img src="<?php echo get_template_directory_uri(); ?>/svg/marca-ufes.svg"><span>Universidade Federal do Espírito Santo</span></a> 
+    <a href="http://www.ufes.br" target="_blank" title="Abrir Portal Ufes em nova aba"><img alt="" src="<?php echo get_template_directory_uri(); ?>/svg/marca-ufes.svg"><span>Universidade Federal do Espírito Santo</span></a> 
   </section> 
      
     <span class='btoMenu'>Endereços úteis <i class='fas fa-chevron-down'></i></span> 
@@ -30,5 +30,3 @@
     </nav> 
   </section> 
 </div> 
-
-

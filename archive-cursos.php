@@ -5,7 +5,7 @@
   <h1>Cursos</h1>
 
   <p>    
-    Para ver os cursos que estão com processo seletivo aberto, fique ligado em nossos <a href="<?php echo site_url(); ?>/editais" title="Ir para Editais">Editais <i class="fas fa-angle-double-right"></i></a> e participe de processos seletivos.
+    Para ver os cursos que estão com processo seletivo aberto, fique ligado em nossos <a href="<?php echo site_url(); ?>/editais" title="Ir para Editais" class="bold">Editais <i class="fas fa-angle-double-right"></i></a> e participe de processos seletivos.
 
     <span class="alerta"><i class="fas fa-exclamation-circle"></i>Os cursos EaD da Ufes não possuem oferta regular.</span>
   </p> 

@@ -40,7 +40,7 @@
           <span class="btoMenu">Menu <i class='fas fa-chevron-down'></i></span> 
           <nav id="menuPrincipal" class="menu" role="navigation"> 
             <ul class="menuLista"> 
-              <li><a href="<?php echo site_url(); ?>" title="Ir para página inicial">Início</a></li> 
+              <!-- <li><a href="<?php echo site_url(); ?>" title="Ir para página inicial">Início</a></li>  -->
               <li class="temSubmenu"> 
                 <span>Ensino <i class="fas fa-chevron-down"></i></span> 
                 <ul class="menuSuspenso"> 
