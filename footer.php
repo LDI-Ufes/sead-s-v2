@@ -64,6 +64,7 @@
         <li><a href="http://selecao.neaad.ufes.br" target="_blank" title="Abrir o Sistema de Seleção em nova aba">Sistema de Seleção</a></li>
         <li><a href="http://videos.ufes.br/sead" target="_blank" title="Abrir o Canal em Vídeos Ufes em nova aba">Canal em Vídeos Ufes</a></li>
         <li><a href="https://calendar.google.com/calendar/embed?src=webconf.ufes%40gmail.com&ctz=America/Sao_Paulo" target="_blank" title="Abrir agenda de Webconferências da Sead em nova aba">Agenda de Webonferências</a></li>
+        <li><a href="https://calendar.google.com/calendar/embed?src=seadufes2020@gmail.com&ctz=America/Sao_Paulo&pli=1" target="_blank" title="Abrir agenda de Webconferências da Sead em nova aba">Agenda pública da SEAD</a></li>
       </ul>
     </section>
   </div>

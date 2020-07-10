@@ -99,7 +99,14 @@
       <p>O Relatório de Gestão tem por objetivo permitir que os cidadãos compreendam o que faz a Superintendência de Educação a Distância - SEAD da Universidade Federal do Espírito Santo - UFES e apresentar à sociedade, inclusive aos órgãos de controle, os resultados e entregas referentes ao ano de 2018. As informações aqui contidas foram apreciadas pelo Fórum Colegiado dos Coordenadores de Cursos EaD, órgão colegiado de governança desta Superintendência.</p>
 
       <p>
-		<strong>Acesse: </strong><a href="<?php echo get_template_directory_uri(); ?>/arquivos/relatorio-gestao-2018.pdf" title="Abrir o relatório de gestão 2018" target="_blank">Relatório de Gestão 2018</a>
+		    <strong>Acesse: </strong><a href="<?php echo get_template_directory_uri(); ?>/arquivos/relatorio-gestao-2018.pdf" title="Abrir o relatório de gestão 2018" target="_blank">Relatório de Gestão 2018</a>
+        <br/><br/>
+      </p>
+
+      <p>Atendendo ao Sistema de Transparência Ativa, de que tratam a Lei nº 12.527/2011 (Lei de Acesso à Informação - LAI) e suas regulamentações, disponibilizamos abaixo link para acesso à agenda da Superintendência de Educação a Distância da UFES.</p>
+
+      <p>
+		    <strong>Acesse: </strong><a href="https://calendar.google.com/calendar/embed?src=seadufes2020@gmail.com&ctz=America/Sao_Paulo&pli=1" title="Abrir a agenda da SEAD no Google Agenda" target="_blank">Agenda Pública da SEAD</a>
       </p>
       
     </section> <!-- estrutura -->
