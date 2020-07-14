@@ -42,11 +42,19 @@
     <section id="estrutura">
       <h2>Relação de Dirigentes</h2>
       <ul id="dirigentes">
-        <li style="vertical-align: top;"><strong>Superintendente de Educação a Distância e <br>Coordenadora UAB/UFES</strong><br>Maria José Campos Rodrigues</li>
+        <li style="vertical-align: top;"><strong>Superintendente de Educação a Distância e <br>Coordenadora UAB/UFES</strong><br>Maria Auxiliadora de Carvalho Corassa</li>
         <li><strong>Coordenação Financeira</strong><br>Mauro Pantoja Ferreira</li>
-        <li><strong>Diretor Acadêmico e Coordenador Adjunto UAB/UFES</strong><br>Júlio Francelino Ferreira Filho</li>
+        <li><strong>Diretora Acadêmica e Coordenadora Adjunta UAB/UFES</strong><br>Andreia Chiari Lins</li>
         <li><strong>Diretor de Tecnologia da Informação e Comunicação</strong><br>Luiz Otávio Bastos Rebello</li>
       </ul>
+
+      <h2>Agenda Pública</h2>
+
+      <p>Atendendo ao Sistema de Transparência Ativa, de que tratam a Lei nº 12.527/2011 (Lei de Acesso à Informação - LAI) e suas regulamentações, disponibilizamos abaixo link para acesso à agenda da Superintendência de Educação a Distância da UFES.</p>
+
+      <p>
+        <strong>Acesse: </strong><a href="https://calendar.google.com/calendar/embed?src=seadufes2020@gmail.com&ctz=America/Sao_Paulo&pli=1" title="Abrir a agenda da SEAD no Google Agenda" target="_blank">Agenda Pública da SEAD</a>
+      </p>
 
       <h2>Infraestrutura</h2>
       <ul id="infraestrutura">
@@ -100,13 +108,6 @@
 
       <p>
 		    <strong>Acesse: </strong><a href="<?php echo get_template_directory_uri(); ?>/arquivos/relatorio-gestao-2018.pdf" title="Abrir o relatório de gestão 2018" target="_blank">Relatório de Gestão 2018</a>
-        <br/><br/>
-      </p>
-
-      <p>Atendendo ao Sistema de Transparência Ativa, de que tratam a Lei nº 12.527/2011 (Lei de Acesso à Informação - LAI) e suas regulamentações, disponibilizamos abaixo link para acesso à agenda da Superintendência de Educação a Distância da UFES.</p>
-
-      <p>
-		    <strong>Acesse: </strong><a href="https://calendar.google.com/calendar/embed?src=seadufes2020@gmail.com&ctz=America/Sao_Paulo&pli=1" title="Abrir a agenda da SEAD no Google Agenda" target="_blank">Agenda Pública da SEAD</a>
       </p>
       
     </section> <!-- estrutura -->
