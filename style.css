@@ -3126,77 +3126,73 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
   display: none;
 }
 
-.page-polos {
-  /* #mapaInterativo */
-  /* media */
+.page-polos .container-mapa {
+  display: none;
 }
 
-.page-polos #mapaInterativo {
-  margin-top: 2rem;
-  position: relative;
-  /* popoverMunicipios */
-  /* #polos */
+@media (min-width: 760px) {
+  .page-polos .container-mapa {
+    display: inline-block;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 3rem;
+    width: 50%;
+    margin-top: 4rem;
+  }
 }
 
-.page-polos #mapaInterativo .popoverMunicipios {
-  width: 100%;
-  display: inline-block;
-  vertical-align: top;
-  line-height: 1.5;
+.page-polos #mapaES-polos a:hover .geografia {
+  fill: #ffa568;
+}
+
+.page-polos #mapaES-polos a .selecionado {
+  fill: #CFEAFF;
+}
+
+@media (max-width: 1024px) {
+  .page-polos #mapaES-polos {
+    width: 100%;
+  }
+}
+
+.page-polos .container-lista {
+  margin-bottom: 5rem;
+}
+
+@media (min-width: 760px) {
+  .page-polos .container-lista {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+  }
+}
+
+.page-polos .container-lista h2 {
   font-weight: 300;
-  margin-bottom: 2rem;
-}
-
-.page-polos #mapaInterativo .popoverMunicipios h2 {
-  color: #f06c00;
-  font-size: 1.5rem;
-}
-
-.page-polos #mapaInterativo .popoverMunicipios i {
-  color: #1765ab;
-}
-
-.page-polos #mapaInterativo .popoverMunicipios p {
+  line-height: 1.4;
   font-size: 2rem;
-  color: #1765ab;
-  line-height: 1.3;
-  margin-top: 1rem;
-  position: relative;
-  margin-bottom: 4rem;
+  border-bottom: 1px solid #CFEAFF;
 }
 
-.page-polos #mapaInterativo .popoverMunicipios p:after {
-  content: "";
-  position: absolute;
-  height: 0;
-  left: 0;
-  width: 100%;
-  border-top: 2px solid #cfeaff;
-  margin-top: 4rem;
-}
-
-.page-polos #mapaInterativo #polos {
-  /* li */
-}
-
-.page-polos #mapaInterativo #polos li {
+.page-polos #lista-polos li {
   padding: 0.5rem 0;
 }
 
-.page-polos #mapaInterativo #polos li button.municipioTitulo {
+.page-polos #lista-polos li .polo-titulo {
   font-weight: 500;
-  color: #1765ab;
+  color: #c75000;
   cursor: pointer;
   transition: font-size 0.5s;
   border: none;
   background: none;
+  font-size: 1.1rem;
 }
 
-.page-polos #mapaInterativo #polos li button.municipioTitulo:hover {
-  border-bottom: solid 0.5px #1765ab;
+.page-polos #lista-polos li .polo-titulo:hover {
+  border-bottom: solid 0.5px #c75000;
 }
 
-.page-polos #mapaInterativo #polos li .info-polo {
+.page-polos #lista-polos li .polo-info {
   display: none;
   line-height: 1.5;
   padding-top: 1rem;
@@ -3204,54 +3200,23 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
   margin-bottom: 1.2rem;
 }
 
-.page-polos #mapaInterativo #polos li .info-polo i {
-  color: #f06c00;
+.page-polos #lista-polos li .polo-info i {
+  color: #1765ab;
 }
 
-.page-polos #mapaInterativo #polos li.expandido button.municipioTitulo {
+.page-polos #lista-polos li.expandido .polo-titulo {
   font-weight: 700;
   font-size: 1.5rem;
-  color: #f06c00;
-  margin-top: .8rem;
+  color: #1765ab;
+  margin-top: 0.8rem;
 }
 
-.page-polos #mapaInterativo #polos li.expandido button.municipioTitulo:hover {
+.page-polos #lista-polos li.expandido .polo-titulo:hover {
   border: none;
 }
 
-.page-polos #mapaInterativo #polos li.expandido .info-polo {
+.page-polos #lista-polos li.expandido .polo-info {
   display: block;
-}
-
-.page-polos #mapaInterativo .mapaES {
-  position: sticky;
-  position: -webkit-sticky;
-  top: 3rem;
-  width: 50%;
-}
-
-@media screen and (min-width: 992px) {
-  .page-polos {
-    /* #mapaInterativo */
-  }
-  .page-polos #mapaInterativo {
-    margin: 5rem 0;
-  }
-  .page-polos #mapaInterativo .popoverMunicipios {
-    width: 45%;
-  }
-  .page-polos #mapaInterativo .popoverMunicipios p:after {
-    width: 32rem;
-  }
-  .page-polos #mapaInterativo #polos li .info-polo {
-    max-width: 300px;
-  }
-}
-
-@media screen and (max-width: 991px) {
-  .page-polos #mapaInterativo .mapaES {
-    display: none;
-  }
 }
 
 .secretaria .destaque {
