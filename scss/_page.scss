@@ -26,13 +26,12 @@
   }
 
   blockquote {
-    color: $laranjaRegular;
+    color: $azul-principal;
     font-family: $merriweather;
     font-weight: $bold;
     font-style: italic;
     margin: 2rem 0;
     font-size: 1.25rem;
-    // @extend %largura-texto;
   }
 
   h1 {
