@@ -2828,93 +2828,70 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
   font-size: 0.9rem;
 }
 
-.contatos {
-  /* ul */
-  /* media */
-}
-
-.contatos .alerta {
-  font-weight: 300;
-  color: #f06c00;
-  font-size: 1.5rem;
-  line-height: 1.4;
-  margin: 2rem 0;
-  display: block;
-  max-width: 500px;
-}
-
-.contatos h2 {
-  margin-top: 5rem;
-}
-
-.contatos ul {
+.page-contatos .lista-contatos {
   margin-bottom: 4rem;
 }
 
-.contatos ul .titulos {
+.page-contatos .lista-contatos .titulos {
   display: none;
 }
 
-.contatos ul li {
-  border-top: solid 0.5px #cfeaff;
+.page-contatos .lista-contatos li {
+  border-top: solid 0.5px #CFEAFF;
 }
 
-.contatos ul li h3 {
+.page-contatos .lista-contatos li h3 {
   font-size: 1.2rem;
   margin: 1.5rem 0;
 }
 
-.contatos ul li div {
+.page-contatos .lista-contatos li div {
   padding-bottom: 1.5rem;
 }
 
-.contatos ul li div span {
+.page-contatos .lista-contatos li div span {
   font-weight: 700;
   color: gray;
   display: block;
 }
 
-@media (min-width: 992px) {
-  .contatos {
-    /* ul */
+@media (min-width: 864px) {
+  .page-contatos .lista-contatos {
+    border-bottom: solid 0.5px #CFEAFF;
   }
-  .contatos ul {
-    border-bottom: solid 0.5px #cfeaff;
-  }
-  .contatos ul .titulos {
+  .page-contatos .lista-contatos .titulos {
     display: block;
   }
-  .contatos ul .titulos span {
-    width: 35%;
+  .page-contatos .lista-contatos .titulos span {
+    width: 39%;
     font-weight: 700;
-    color: #f06c00;
+    color: #1765ab;
     font-size: 1.2rem;
-    margin: 1.5rem 0;
+    margin: 0.5rem 0;
     display: inline-block;
   }
-  .contatos ul .titulos span:first-of-type {
-    width: 30%;
+  .page-contatos .lista-contatos .titulos span:first-of-type {
+    width: 22%;
   }
-  .contatos ul li {
+  .page-contatos .lista-contatos li {
     padding-top: 0.8rem;
+    font-size: 1rem;
   }
-  .contatos ul li h3 {
-    width: calc(30% - .5rem);
-    padding-right: .5rem;
-    font-weight: 400;
-    color: black;
+  .page-contatos .lista-contatos li h3 {
+    width: calc(22% - 0.5rem);
+    padding-right: 0.5rem;
     font-size: 1rem;
     display: inline-block;
     margin: 0;
     vertical-align: top;
   }
-  .contatos ul li div {
+  .page-contatos .lista-contatos li div {
     display: inline-block;
-    width: 35%;
+    width: 39%;
     padding-bottom: 0.8rem;
     vertical-align: top;
   }
-  .contatos ul li div span {
+  .page-contatos .lista-contatos li div span {
     display: none;
   }
 }
