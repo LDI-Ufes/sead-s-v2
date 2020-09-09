@@ -2,6 +2,13 @@
 
 <main id="conteudoPrincipal" class="inicio">
 
+<section id="banner" class="destaque">
+    <div class="container">
+      <h2><span>Portal de Tecnologias Educacionais da Ufes</span> indicações para professores, estudantes e mediadores</h2>
+      <a href="http://edutics.ufes.br/" target="_blank">Acesse o EduTics</a>
+    </div>
+  </section>
+
   <div class="container">
 
     <section id="ead-na-ufes">

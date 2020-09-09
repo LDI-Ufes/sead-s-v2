@@ -1,6 +1,7 @@
 #banner {
-  background-image: linear-gradient(rgba(0, 28, 61, 0.3), rgba(0, 28, 61, 0.1)), url("img/banner.png?x=0");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("img/banner.jpg");
   background-size: cover;
+  // background-attachment: fixed;
   background-position: center;
   text-align: center;
 
@@ -9,41 +10,24 @@
     padding: 5vh 0;
     height: 100%;
     margin-bottom: 0;
-    text-align: center;
 
     h2 {
       margin: 0 auto;
       padding: 2rem 0;
       color: white;
-      max-width: 320px;
+      max-width: 350px;
       font-weight: $light;
-      font-size: 1.1rem;
-      text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+      font-style: italic;
+      line-height: 1.4;
 
-      .estilo1 {
-        font-family: $merriweather;
-        display: block;
-        text-transform: lowercase;
-        font-size: 1.5rem;
-        font-weight: $regular;
-        text-align: left;
-        padding-left: .9rem;
-        line-height: .8;
-      }
-
-      
-      .estilo2 {
+      span {
         font-family: $merriweather;
         font-weight: $bold;
-        font-style: italic;
+        font-style: normal;
         display: block;
-        font-size: 2.7rem;
-        line-height: 1.1;
-        text-transform: uppercase;
-
-        b{
-          font-size: 3.5rem;
-        }
+        font-size: 2rem;
+        line-height: 1.3;
+        padding-bottom: .3rem;
       }
     }
 
@@ -55,44 +39,20 @@
     }
   }
 
-  &.apenas-imagem{
-    height: 250px;
-    background-image: url("img/banner.png?x=1");
-
-    h2{
-      position: absolute;
-      top: -9999px;
-      left: -9999px;
-    }
-
-    @media screen and (min-width: 992px) {
-      height: 350px;
-    }
-  }
 
   @media screen and (min-width: 992px) {
 
-    .container {
+    background-image: url("img/banner.jpg");
 
-      h2 {
-        max-width: 400px;
-        padding-bottom: 1.5rem;
-        margin: 0 auto;
-        font-size: 1.42rem;
+    // text-align: left;
 
-        .estilo1{
-          font-size: 2rem;
-        }
+      .container {
 
-        .estilo2{
-          font-size: 3.5rem;
-
-          b{
-            font-size: 4.5rem;
-          }
+        h2 {
+          padding-bottom: 1.5rem;
+          // margin: 0;
         }
       }
-    }
 
   }
 }

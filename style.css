@@ -166,8 +166,7 @@ a[target='_blank'] i.fa-external-link-alt {
 
 .focus-visible.botaoSubmissao {
   outline: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 .focus-visible.botaoSubmissao i.fas {
@@ -182,13 +181,8 @@ a[target='_blank'] i.fa-external-link-alt {
 }
 
 header {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
+  flex-flow: column;
   width: 100%;
   font-size: 1rem;
   color: white;
@@ -204,7 +198,6 @@ header .atalhos-navegacao .atalho-navegacao {
   left: 0;
   width: 100%;
   height: 100%;
-  -webkit-transform: translate(-100%);
   transform: translate(-100%);
   text-align: center;
   z-index: 200;
@@ -221,7 +214,6 @@ header .atalhos-navegacao .atalho-navegacao:before {
 }
 
 header .atalhos-navegacao .atalho-navegacao:focus {
-  -webkit-transform: translate(0);
   transform: translate(0);
 }
 
@@ -244,51 +236,34 @@ header .atalhos-navegacao .atalho-navegacao > span {
 
 header #barraAuxiliar .caixa,
 header .topo .caixa {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   max-width: 100%;
 }
 
 header #barra-brasil {
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
+  order: 1;
 }
 
 header #barraAuxiliar {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
   background-color: #043166;
   font-weight: 300;
   font-size: 0.875rem;
-  -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
+  order: 2;
   z-index: 2;
 }
 
 header #barraAuxiliar .caixa {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: flex-end;
+  align-items: center;
   color: white;
   position: relative;
 }
 
 header #barraAuxiliar .caixa #ufes {
-  -webkit-box-flex: 10;
-      -ms-flex-positive: 10;
-          flex-grow: 10;
+  flex-grow: 10;
 }
 
 header #barraAuxiliar .caixa #ufes a:hover span {
@@ -335,40 +310,23 @@ header #barraAuxiliar .btoMenu i.fas.expandido:before {
 }
 
 header form {
-  -webkit-box-flex: 10;
-      -ms-flex-positive: 10;
-          flex-grow: 10;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  flex-grow: 10;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 header .topo {
-  -webkit-box-ordinal-group: 4;
-      -ms-flex-order: 3;
-          order: 3;
+  order: 3;
 }
 
 header .topo .caixa {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 header .topo .marca {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 @media screen and (min-width: 993px) {
@@ -377,23 +335,15 @@ header .topo .marca {
     display: none;
   }
   header form {
-    -webkit-box-flex: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
+    flex-grow: 0;
   }
   header form .botaoFalso {
     padding: 10px 25px;
   }
   header #topoPrincipal #menuPrincipal {
-    -webkit-box-flex: 10;
-        -ms-flex-positive: 10;
-            flex-grow: 10;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    flex-grow: 10;
     display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    justify-content: flex-end;
   }
   header #topoPrincipal #menuPrincipal > ul > li {
     height: calc(100px - 2.4rem);
@@ -402,8 +352,6 @@ header .topo .marca {
     width: 13rem;
   }
   header .topo {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex;
     position: relative;
     height: 100px;
@@ -411,30 +359,20 @@ header .topo .marca {
     background-color: #1765ab;
   }
   header .topo .caixa {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
   }
 }
 
 @media screen and (max-width: 992px) {
   header #topoPrincipal #menuPrincipal {
-    -webkit-box-ordinal-group: 5;
-        -ms-flex-order: 4;
-            order: 4;
+    order: 4;
   }
   header #topoPrincipal #formPesquisa {
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
+    order: 2;
   }
   header #topoPrincipal .btoMenu {
-    -webkit-box-ordinal-group: 4;
-        -ms-flex-order: 3;
-            order: 3;
+    order: 3;
   }
   header .topo {
     background-color: #1765ab;
@@ -536,9 +474,7 @@ nav.menu .menuLista li.temSubmenu a:hover {
     right: 0;
   }
   #barraAuxiliar ul.menuLista > li.temSubmenu:hover > ul.menuSuspenso > li, #barraAuxiliar ul.menuLista > li.temSubmenu.menuSuspensoAtivo > ul.menuSuspenso > li {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    justify-content: flex-end;
   }
   .topo ul.menuLista > li {
     padding: 1.2rem 0.3rem;
@@ -554,12 +490,8 @@ nav.menu .menuLista li.temSubmenu a:hover {
     left: 0;
   }
   nav.menu {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
   }
   nav.menu#menuPrincipal .temSubmenu .menuSuspenso .temSubmenu span i.fas:before {
     content: "\f054";
@@ -575,24 +507,15 @@ nav.menu .menuLista li.temSubmenu a:hover {
     top: 0;
     left: 100%;
     padding: 0.5em 0;
-    -webkit-box-shadow: inset 4px 0px 4px rgba(0, 0, 0, 0.25);
-            box-shadow: inset 4px 0px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 4px 0px 4px rgba(0, 0, 0, 0.25);
   }
   nav.menu > ul > li {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
   }
   nav.menu > ul > li ul li {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     width: 100%;
   }
   nav.menu ul.menuLista > li {
@@ -605,14 +528,10 @@ nav.menu .menuLista li.temSubmenu a:hover {
   nav.menu .temSubmenu .menuSuspenso {
     position: absolute;
     top: 100%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
+    flex-flow: column;
     background-color: #043166;
     padding: 1em 0 0.75em 0;
-    -webkit-box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-            box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     white-space: normal;
   }
   nav.menu .temSubmenu .menuSuspenso li {
@@ -628,8 +547,7 @@ nav.menu .menuLista li.temSubmenu a:hover {
   nav.menu {
     width: 100vw;
     padding: 0 20px;
-    -webkit-box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.25);
-            box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.25);
     text-align: right;
   }
   nav.menu ul {
@@ -637,15 +555,13 @@ nav.menu .menuLista li.temSubmenu a:hover {
     top: 0;
     left: 0;
     width: 100%;
-    -webkit-transform: translateY(-100vh);
-            transform: translateY(-100vh);
+    transform: translateY(-100vh);
     z-index: -1;
   }
   nav.menu ul.menuAberto {
     position: relative;
     padding: 20px 0;
-    -webkit-transform: translateY(0) !important;
-            transform: translateY(0) !important;
+    transform: translateY(0) !important;
     z-index: 0;
   }
   nav.menu li {
@@ -660,8 +576,7 @@ nav.menu .menuLista li.temSubmenu a:hover {
     top: 0;
     left: 0;
     width: 100%;
-    -webkit-transform: translateX(-100%);
-            transform: translateX(-100%);
+    transform: translateX(-100%);
     z-index: -1;
   }
   nav.menu .temSubmenu .menuSuspenso .temSubmenu .menuSuspenso {
@@ -674,8 +589,7 @@ nav.menu .menuLista li.temSubmenu a:hover {
     position: relative;
     left: 0;
     z-index: 100;
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
     z-index: 0;
   }
 }
@@ -740,20 +654,13 @@ footer .content section .subitens {
 }
 
 footer .content section .enderecoLink {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   margin-top: 0.25em;
   margin-bottom: 1.5rem;
 }
 
 footer .content section .enderecoLink > span {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
 }
 
@@ -762,8 +669,6 @@ footer .content section .enderecoLink > span:first-child {
 }
 
 footer .content section .enderecoLink > span a {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
 }
 
@@ -773,15 +678,9 @@ footer .content section .enderecoLink > span img {
 }
 
 footer .creditos {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   cursor: default;
   width: 100%;
   height: 3rem;
@@ -840,8 +739,7 @@ footer .creditos p span a:hover {
 }
 
 .inicio #banner {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 28, 61, 0.3)), to(rgba(0, 28, 61, 0.1))), url("img/banner.png?x=0");
-  background-image: linear-gradient(rgba(0, 28, 61, 0.3), rgba(0, 28, 61, 0.1)), url("img/banner.png?x=0");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("img/banner.jpg");
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -852,42 +750,26 @@ footer .creditos p span a:hover {
   padding: 5vh 0;
   height: 100%;
   margin-bottom: 0;
-  text-align: center;
 }
 
 .inicio #banner .container h2 {
   margin: 0 auto;
   padding: 2rem 0;
   color: white;
-  max-width: 320px;
+  max-width: 350px;
   font-weight: 300;
-  font-size: 1.1rem;
-  text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  font-style: italic;
+  line-height: 1.4;
 }
 
-.inicio #banner .container h2 .estilo1 {
-  font-family: "Merriweather", serif;
-  display: block;
-  text-transform: lowercase;
-  font-size: 1.5rem;
-  font-weight: 400;
-  text-align: left;
-  padding-left: .9rem;
-  line-height: .8;
-}
-
-.inicio #banner .container h2 .estilo2 {
+.inicio #banner .container h2 span {
   font-family: "Merriweather", serif;
   font-weight: 700;
-  font-style: italic;
+  font-style: normal;
   display: block;
-  font-size: 2.7rem;
-  line-height: 1.1;
-  text-transform: uppercase;
-}
-
-.inicio #banner .container h2 .estilo2 b {
-  font-size: 3.5rem;
+  font-size: 2rem;
+  line-height: 1.3;
+  padding-bottom: .3rem;
 }
 
 .inicio #banner .container a {
@@ -896,43 +778,16 @@ footer .creditos p span a:hover {
   margin-bottom: 2rem;
 }
 
-.inicio #banner.apenas-imagem {
-  height: 250px;
-  background-image: url("img/banner.png?x=1");
-}
-
-.inicio #banner.apenas-imagem h2 {
-  position: absolute;
-  top: -9999px;
-  left: -9999px;
-}
-
 @media screen and (min-width: 992px) {
-  .inicio #banner.apenas-imagem {
-    height: 350px;
+  .inicio #banner {
+    background-image: url("img/banner.jpg");
   }
-}
-
-@media screen and (min-width: 992px) {
   .inicio #banner .container h2 {
-    max-width: 400px;
     padding-bottom: 1.5rem;
-    margin: 0 auto;
-    font-size: 1.42rem;
-  }
-  .inicio #banner .container h2 .estilo1 {
-    font-size: 2rem;
-  }
-  .inicio #banner .container h2 .estilo2 {
-    font-size: 3.5rem;
-  }
-  .inicio #banner .container h2 .estilo2 b {
-    font-size: 4.5rem;
   }
 }
 
 .inicio #ultimos-editais {
-  background-image: url("./img/pattern.png"), -webkit-gradient(linear, left top, left bottom, from(#edf9ff), to(#edf9ff));
   background-image: url("./img/pattern.png"), linear-gradient(#edf9ff, #edf9ff);
   background-position: center;
   padding: 1.5rem;
@@ -1189,32 +1044,22 @@ footer .creditos p span a:hover {
 }
 
 .inicio #noticias #blocos {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   /* noticia */
 }
 
 .inicio #noticias #blocos .confira-mais {
   display: inline-block;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  flex-grow: 1;
   width: 100%;
   border-top: solid 3px #f06c00;
   position: relative;
   margin-bottom: 2rem;
   height: 300px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  align-items: flex-end;
+  flex-wrap: wrap;
   padding: 0 1rem;
 }
 
@@ -1228,7 +1073,6 @@ footer .creditos p span a:hover {
 
 .inicio #noticias #blocos .confira-mais a {
   width: calc(50% - 0.5rem);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#043166), to(#1765ab));
   background-image: linear-gradient(#043166, #1765ab);
   display: inline-block;
   color: white;
@@ -1243,7 +1087,6 @@ footer .creditos p span a:hover {
 }
 
 .inicio #noticias #blocos .confira-mais a:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#043166), to(#0074cf));
   background-image: linear-gradient(#043166, #0074cf);
 }
 
@@ -1264,9 +1107,7 @@ footer .creditos p span a:hover {
 
 .inicio #noticias #blocos .noticia {
   display: inline-block;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  flex-grow: 1;
   width: 100%;
   border-top: solid 3px #f06c00;
   position: relative;
@@ -1283,14 +1124,12 @@ footer .creditos p span a:hover {
   left: 0;
   height: 100%;
   opacity: .9;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#043166));
   background-image: linear-gradient(transparent, #043166);
 }
 
 .inicio #noticias #blocos .noticia img {
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   height: 300px;
   margin-bottom: -0.3rem;
 }
@@ -1319,8 +1158,7 @@ footer .creditos p span a:hover {
 .inicio #noticias #blocos .noticia:hover h3 {
   text-decoration: underline;
   text-underline-position: under;
-  -webkit-text-decoration-color: #f06c00;
-          text-decoration-color: #f06c00;
+  text-decoration-color: #f06c00;
 }
 
 .inicio #polos {
@@ -1388,12 +1226,8 @@ footer .creditos p span a:hover {
     margin: 1.5rem auto;
   }
   .inicio #quer-ser .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
   }
   .inicio #quer-ser .container #quer-ser-titulo {
     max-width: 300px;
@@ -1435,9 +1269,7 @@ footer .creditos p span a:hover {
     width: 300px;
   }
   .inicio #noticias #blocos .noticia:first-child {
-    -webkit-box-flex: 2;
-        -ms-flex-positive: 2;
-            flex-grow: 2;
+    flex-grow: 2;
     width: calc(600px + 0.5rem);
   }
   .inicio #noticias #blocos .noticia:nth-of-type(n) {
@@ -1457,7 +1289,6 @@ footer .creditos p span a:hover {
 }
 
 .page-blog #ultimos-editais {
-  background-image: url("./img/pattern.png"), -webkit-gradient(linear, left top, left bottom, from(#edf9ff), to(#edf9ff));
   background-image: url("./img/pattern.png"), linear-gradient(#edf9ff, #edf9ff);
   background-position: center;
   padding: 1.5rem;
@@ -1587,8 +1418,7 @@ footer .creditos p span a:hover {
   height: 30vw;
   min-height: 100px;
   max-height: 250px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .page-blog #posts .blog-post a .blog-post-header:before {
@@ -1599,7 +1429,6 @@ footer .creditos p span a:hover {
   top: 0;
   width: 100%;
   opacity: 0.6;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#043166));
   background-image: linear-gradient(transparent, #043166);
 }
 
@@ -1697,8 +1526,6 @@ footer .creditos p span a:hover {
 }
 
 .page-blog #informativo form#sendgrid_mc_email_form {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
   margin-top: 1rem;
   width: 100%;
@@ -1804,8 +1631,6 @@ footer .creditos p span a:hover {
 }
 
 .page-blog #galeria ul li p {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin: 0;
   margin-bottom: 1rem;
@@ -1814,13 +1639,9 @@ footer .creditos p span a:hover {
 
 .page-blog #galeria ul li p a {
   padding: 0;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
   position: relative;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  flex-grow: 1;
   margin: 1.5rem;
   margin-left: 0;
   width: calc(50% - 1.5rem);
@@ -1837,8 +1658,7 @@ footer .creditos p span a:hover {
 }
 
 .page-blog #galeria ul li p a img {
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100%;
   height: 100%;
 }
@@ -1932,8 +1752,6 @@ footer .creditos p span a:hover {
     width: calc(25% - 1.5rem);
   }
   .page-blog #galeria ul li p a:nth-child(-n + 4) {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex;
   }
   .page-blog #galeria ul li p a:nth-child(4) {
@@ -2080,13 +1898,8 @@ footer .creditos p span a:hover {
 }
 
 .page-editais #editais li {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   border-top: 1px solid #cfeaff;
   position: relative;
   margin-bottom: 1.2rem;
@@ -2120,8 +1933,6 @@ footer .creditos p span a:hover {
   }
   .page-editais #filtros #seletores {
     border: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .page-editais #filtros #seletores .seletor {
@@ -2181,10 +1992,7 @@ footer .creditos p span a:hover {
     width: 35%;
   }
   .page-editais #editais li {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
     margin-bottom: 0;
   }
   .page-editais #editais li p,
@@ -2238,16 +2046,14 @@ footer .creditos p span a:hover {
   background-color: white;
   color: #9c4c22;
   border: none;
-  -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
   padding: 0.4rem 0.8rem;
   margin-right: 0.6rem;
   font-weight: 700;
 }
 
 .page-galeria #filtros a:hover {
-  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   padding: 0.5rem 0.9rem;
 }
 
@@ -2323,24 +2129,18 @@ footer .creditos p span a:hover {
 }
 
 .page-galeria #eventos li .imagens p {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   max-width: inherit;
   margin: 0;
 }
 
 .page-galeria #eventos li .imagens p a {
   height: 10rem;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  flex-grow: 1;
   margin-bottom: 1rem;
   margin-right: 1rem;
   display: none;
-  cursor: -webkit-zoom-in;
   cursor: zoom-in;
   margin-left: 0;
 }
@@ -2354,8 +2154,7 @@ footer .creditos p span a:hover {
 }
 
 .page-galeria #eventos li .imagens p a img {
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100%;
   height: 100%;
 }
@@ -2451,8 +2250,7 @@ footer .creditos p span a:hover {
   z-index: 1;
   top: 2.3rem;
   padding: 1rem;
-  -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
-          box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 .page-cursos #abas #itens-abas li {
@@ -2474,17 +2272,13 @@ footer .creditos p span a:hover {
 }
 
 .page-cursos #abas div ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   margin-right: -1rem;
 }
 
 .page-cursos #abas div ul li {
   height: 7rem;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#043166));
   background-image: linear-gradient(transparent, #043166);
   color: white;
   vertical-align: baseline;
@@ -2493,11 +2287,8 @@ footer .creditos p span a:hover {
   margin-bottom: 2rem;
   position: relative;
   /*box-shadow: 0px -3px 0px $azulRegular inset;*/
-  -ms-flex-preferred-size: 250px;
-      flex-basis: 250px;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  flex-basis: 250px;
+  flex-grow: 1;
 }
 
 .page-cursos #abas div ul li img {
@@ -2507,8 +2298,7 @@ footer .creditos p span a:hover {
   left: 0;
   height: 100%;
   z-index: -1;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .page-cursos #abas div ul li a {
@@ -2525,13 +2315,11 @@ footer .creditos p span a:hover {
 
 .page-cursos #abas div ul li a.focus-visible {
   position: unset;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#021935));
   background-image: linear-gradient(transparent, #021935);
 }
 
 .page-cursos #abas div ul li a.focus-visible h3 {
-  -webkit-text-decoration: underline #f06c00;
-          text-decoration: underline #f06c00;
+  text-decoration: underline #f06c00;
   text-underline-position: under;
 }
 
@@ -2559,13 +2347,11 @@ footer .creditos p span a:hover {
 }
 
 .page-cursos #abas div ul li:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#021935));
   background-image: linear-gradient(transparent, #021935);
 }
 
 .page-cursos #abas div ul li:hover h3 {
-  -webkit-text-decoration: underline #f06c00;
-          text-decoration: underline #f06c00;
+  text-decoration: underline #f06c00;
   text-underline-position: under;
 }
 
@@ -2574,7 +2360,6 @@ footer .creditos p span a:hover {
 }
 
 .page-cursos #abas div ul li.sem-pagina {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#333333));
   background-image: linear-gradient(transparent, #333333);
   cursor: default;
 }
@@ -2584,7 +2369,6 @@ footer .creditos p span a:hover {
 }
 
 .page-cursos #abas div ul li.sem-pagina:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(black));
   background-image: linear-gradient(transparent, black);
 }
 
@@ -2631,8 +2415,7 @@ footer .creditos p span a:hover {
 .page-cursos #abas div ul li.placeholder {
   background: none;
   height: 0;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   cursor: none;
   padding: 0 1rem;
   margin-bottom: 0;
@@ -2645,10 +2428,8 @@ footer .creditos p span a:hover {
 .page-cursos #abas div#aperfeicoamento ul li, .page-cursos #abas div#especializacao ul li {
   height: 3rem;
   background-color: #1765ab;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#043166), to(transparent));
   background-image: linear-gradient(#043166, transparent);
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   position: relative;
 }
 
@@ -2661,18 +2442,15 @@ footer .creditos p span a:hover {
 }
 
 .page-cursos #abas div#aperfeicoamento ul li:hover, .page-cursos #abas div#especializacao ul li:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#114a7e));
   background-image: linear-gradient(transparent, #114a7e);
 }
 
 .page-cursos #abas div#aperfeicoamento ul li.sem-pagina, .page-cursos #abas div#especializacao ul li.sem-pagina {
   background-color: gray;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#333333), to(transparent));
   background-image: linear-gradient(#333333, transparent);
 }
 
 .page-cursos #abas div#aperfeicoamento ul li.sem-pagina:hover, .page-cursos #abas div#especializacao ul li.sem-pagina:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(transparent));
   background-image: linear-gradient(black, transparent);
 }
 
@@ -2683,8 +2461,7 @@ footer .creditos p span a:hover {
 .page-cursos #abas div#aperfeicoamento ul li.placeholder, .page-cursos #abas div#especializacao ul li.placeholder {
   background: none;
   height: 0;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   cursor: none;
 }
 
@@ -2697,19 +2474,14 @@ footer .creditos p span a:hover {
     display: none;
   }
   .page-cursos #abas #itens-abas {
-    display: -webkit-box !important;
-    display: -ms-flexbox !important;
     display: flex !important;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    justify-content: flex-start;
     margin: 3rem 0;
     color: #1765ab;
     border-bottom: 1px #1765ab solid;
     position: static;
     padding: 0;
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
   }
   .page-cursos #abas #itens-abas li.current {
     color: #043166;
@@ -2988,7 +2760,6 @@ footer .creditos p span a:hover {
   height: 65vh;
   max-height: 545px;
   overflow: hidden;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#043166), to(rgba(4, 49, 102, 0.3)));
   background-image: linear-gradient(#043166, rgba(4, 49, 102, 0.3));
   background-attachment: scroll, fixed;
   background-size: cover;
@@ -2997,7 +2768,6 @@ footer .creditos p span a:hover {
 }
 
 .ead-na-ufes .destaque:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#03254d), to(rgba(4, 49, 102, 0.3)));
   background-image: linear-gradient(#03254d, rgba(4, 49, 102, 0.3));
 }
 
@@ -3006,7 +2776,6 @@ footer .creditos p span a:hover {
 }
 
 .ead-na-ufes .destaque.destaque-imagem:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#043166), to(rgba(4, 49, 102, 0.3)));
   background-image: linear-gradient(#043166, rgba(4, 49, 102, 0.3));
 }
 
@@ -3014,8 +2783,7 @@ footer .creditos p span a:hover {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   padding: 6rem 1rem;
   text-align: center;
   line-height: 3rem;
@@ -3072,8 +2840,7 @@ footer .creditos p span a:hover {
   background: none;
   position: absolute;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   cursor: pointer;
 }
 
@@ -3091,8 +2858,7 @@ footer .creditos p span a:hover {
 .ead-na-ufes #slider ul button.seta-prev:before, .ead-na-ufes #slider ul button.seta-next:before {
   position: absolute;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .ead-na-ufes #slider ul button.seta-prev {
@@ -3244,8 +3010,6 @@ footer .creditos p span a:hover {
     text-align: left;
   }
   .ead-na-ufes #slider ul li.ativo {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .ead-na-ufes #slider ul li svg {
@@ -3379,7 +3143,6 @@ footer .creditos p span a:hover {
   font-weight: 500;
   color: #1765ab;
   cursor: pointer;
-  -webkit-transition: font-size 0.5s;
   transition: font-size 0.5s;
   border: none;
   background: none;
@@ -3456,7 +3219,6 @@ footer .creditos p span a:hover {
   height: 65vh;
   max-height: 545px;
   overflow: hidden;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f06c00), to(rgba(240, 108, 0, 0.3)));
   background-image: linear-gradient(#f06c00, rgba(240, 108, 0, 0.3));
   background-attachment: scroll, fixed;
   background-size: cover;
@@ -3465,7 +3227,6 @@ footer .creditos p span a:hover {
 }
 
 .secretaria .destaque:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#d76100), to(rgba(240, 108, 0, 0.3)));
   background-image: linear-gradient(#d76100, rgba(240, 108, 0, 0.3));
 }
 
@@ -3474,7 +3235,6 @@ footer .creditos p span a:hover {
 }
 
 .secretaria .destaque.destaque-imagem:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f06c00), to(rgba(240, 108, 0, 0.3)));
   background-image: linear-gradient(#f06c00, rgba(240, 108, 0, 0.3));
 }
 
@@ -3482,8 +3242,7 @@ footer .creditos p span a:hover {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   padding: 6rem 1rem;
   text-align: center;
   line-height: 3rem;
@@ -3615,13 +3374,9 @@ footer .creditos p span a:hover {
 
 @media (min-width: 993px) {
   .secretaria #missao-visao-valores {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    flex-wrap: nowrap;
+    justify-content: space-around;
     padding: 0 3rem;
   }
   .secretaria #missao-visao-valores:before, .secretaria #missao-visao-valores:after {
@@ -3759,7 +3514,6 @@ footer .creditos p span a:hover {
   height: 65vh;
   max-height: 545px;
   overflow: hidden;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#043166), to(rgba(4, 49, 102, 0.3)));
   background-image: linear-gradient(#043166, rgba(4, 49, 102, 0.3));
   background-attachment: scroll, fixed;
   background-size: cover;
@@ -3769,7 +3523,6 @@ footer .creditos p span a:hover {
 }
 
 .curso .destaque:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#03254d), to(rgba(4, 49, 102, 0.3)));
   background-image: linear-gradient(#03254d, rgba(4, 49, 102, 0.3));
 }
 
@@ -3778,7 +3531,6 @@ footer .creditos p span a:hover {
 }
 
 .curso .destaque.destaque-imagem:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#043166), to(rgba(4, 49, 102, 0.3)));
   background-image: linear-gradient(#043166, rgba(4, 49, 102, 0.3));
 }
 
@@ -3786,8 +3538,7 @@ footer .creditos p span a:hover {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   padding: 6rem 1rem;
   text-align: center;
   line-height: 3rem;
@@ -3825,8 +3576,7 @@ footer .creditos p span a:hover {
 .curso .destaque img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .curso #info-curso {
@@ -3886,8 +3636,7 @@ footer .creditos p span a:hover {
   position: absolute;
   background-color: aliceblue;
   padding: 1rem;
-  -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
-          box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 .curso #conteudo #menu ul a {
@@ -4120,14 +3869,9 @@ footer .creditos p span a:hover {
 }
 
 .curso #noticias div.flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .curso #noticias div.flex .noticia {
@@ -4135,9 +3879,7 @@ footer .creditos p span a:hover {
   position: relative;
   height: 10rem;
   margin-bottom: 1rem;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 100%;
-          flex: 1 1 100%;
+  flex: 1 1 100%;
 }
 
 .curso #noticias div.flex .noticia:after {
@@ -4149,14 +3891,12 @@ footer .creditos p span a:hover {
   left: 0;
   height: 100%;
   opacity: 0.9;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#043166));
   background-image: linear-gradient(transparent, #043166);
 }
 
 .curso #noticias div.flex .noticia img {
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   height: 10rem;
   margin-bottom: -0.3rem;
 }
@@ -4179,8 +3919,7 @@ footer .creditos p span a:hover {
 }
 
 .curso #noticias div.flex .noticia:hover h3 {
-  -webkit-text-decoration: underline #f06c00;
-          text-decoration: underline #f06c00;
+  text-decoration: underline #f06c00;
   text-underline-position: under;
 }
 
@@ -4221,8 +3960,7 @@ footer .creditos p span a:hover {
     position: relative;
     padding: 0;
     width: 225px;
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
   }
   .curso div.tabPanel {
     display: inline-block;
@@ -4231,14 +3969,11 @@ footer .creditos p span a:hover {
     width: 700px;
   }
   .curso #noticias div.flex {
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
     margin-right: -1rem;
   }
   .curso #noticias .noticia {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 0px;
-            flex: 1 1 0;
+    flex: 1 1 0;
     margin-right: 1rem;
     margin-bottom: 0;
   }
@@ -4335,7 +4070,6 @@ footer .creditos p span a:hover {
   height: 65vh;
   max-height: 545px;
   overflow: hidden;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#043166), to(rgba(4, 49, 102, 0.3)));
   background-image: linear-gradient(#043166, rgba(4, 49, 102, 0.3));
   background-attachment: scroll, fixed;
   background-size: cover;
@@ -4344,7 +4078,6 @@ footer .creditos p span a:hover {
 }
 
 .noticia .destaque:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#03254d), to(rgba(4, 49, 102, 0.3)));
   background-image: linear-gradient(#03254d, rgba(4, 49, 102, 0.3));
 }
 
@@ -4353,7 +4086,6 @@ footer .creditos p span a:hover {
 }
 
 .noticia .destaque.destaque-imagem:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#043166), to(rgba(4, 49, 102, 0.3)));
   background-image: linear-gradient(#043166, rgba(4, 49, 102, 0.3));
 }
 
@@ -4361,8 +4093,7 @@ footer .creditos p span a:hover {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   padding: 6rem 1rem;
   text-align: center;
   line-height: 3rem;
@@ -4530,8 +4261,6 @@ footer .creditos p span a:hover {
 }
 
 .noticia article .post-autor {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
 }
 
@@ -4923,14 +4652,9 @@ footer .creditos p span a:hover {
 }
 
 #formPesquisa {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-item-align: center;
-      align-self: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-self: center;
+  align-items: center;
   border-radius: 25px;
 }
 
@@ -4996,21 +4720,6 @@ footer .creditos p span a:hover {
 
 .formPesquisaAtivo #formPesquisa input {
   background-color: #114a7e !important;
-}
-
-.formPesquisaAtivo #formPesquisa input::-webkit-input-placeholder {
-  font-style: italic;
-  color: white;
-}
-
-.formPesquisaAtivo #formPesquisa input:-ms-input-placeholder {
-  font-style: italic;
-  color: white;
-}
-
-.formPesquisaAtivo #formPesquisa input::-ms-input-placeholder {
-  font-style: italic;
-  color: white;
 }
 
 .formPesquisaAtivo #formPesquisa input::placeholder {
