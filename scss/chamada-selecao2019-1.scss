@@ -13,7 +13,7 @@
         .box-marca{
           position: absolute;
           left: 0;
-          border-bottom: 5.5rem solid $azulRegular;
+          border-bottom: 5.5rem solid $azul-principal;
           border-left: 0 solid transparent;
           border-right: 35px solid transparent;
           width: 75%;
@@ -28,7 +28,7 @@
         .box-nav{
           position: absolute;
           left: 0;
-          border-bottom: 2.5rem solid $azulEscuro;
+          border-bottom: 2.5rem solid $azul-escuro;
           border-left: 0 solid transparent;
           border-right: 16px solid transparent;
           width: calc(75% + 35px);
@@ -64,7 +64,7 @@
           display: inline-block;
         }
         .ufes{
-          font-family: $merriweather;
+          font-family: $serif;
           font-style: italic;
           font-weight: $bold;
           text-transform: uppercase;
@@ -103,7 +103,7 @@
         }
 
         figcaption {
-          color: $laranjaRegular;
+          color: $laranja-principal;
           font-size: 18px;
           text-transform: uppercase;
           font-weight: $bold;
@@ -127,7 +127,7 @@
 
       #botoes-curso> button{
         @extend %botao;
-        background-color: $azulEscuro;
+        background-color: $azul-escuro;
         margin: 0;
         margin-bottom: 1rem;
         margin-right: .5rem;
@@ -135,12 +135,12 @@
         padding: .6rem 1rem;
 
         &:hover{
-          background-color: darken($azulEscuro, 10);
+          background-color: darken($azul-escuro, 10);
         }
 
         &.selecionado{
-          background-color: $azulClaro;
-          color: $azulEscuro;
+          background-color: $azul-claro;
+          color: $azul-escuro;
         }
       }
 
@@ -160,14 +160,14 @@
     svg{
       display: none;
       
-      path.aceso{ fill: $laranjaClaro; }
+      path.aceso{ fill: $laranja-claro; }
     }
   }
 
   #inscricao{
 
     li {
-      color: $laranjaMedio;
+      color: $laranja-medio;
       font-size: 1rem;
       text-align: left;
       padding: 0.5rem 0;
@@ -186,7 +186,7 @@
         color: white;
         font-size: 2rem;
         font-weight: $bold;
-        background-color: $laranjaMedio;
+        background-color: $laranja-medio;
         width: 3.5rem;
         line-height: 1.7;
         height: 3.5rem;
@@ -213,7 +213,7 @@
         }
 
         span{ 
-          color: $laranjaRegular;
+          color: $laranja-principal;
           text-transform: none;
           display: block;
           font-size: 1rem;

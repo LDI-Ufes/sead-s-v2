@@ -17,12 +17,12 @@
       margin-bottom: 3rem;
 
       a {
-        color: $laranjaMedio;
+        color: $laranja-medio;
         font-weight: $medium;
 
         &:hover {
-          color: $laranjaEscuro;
-          border-bottom: solid 0.5ps $laranjaEscuro;
+          color: $laranja-escuro;
+          border-bottom: solid 0.5ps $laranja-escuro;
         }
       }
 
@@ -31,7 +31,7 @@
 
         strong {
           font-style: italic;
-          color: $azulRegular;
+          color: $azul-principal;
           text-transform: capitalize;
         }
       }

@@ -1,6 +1,6 @@
 .noticia {
   .destaque {
-    @include destaque($azulEscuro, $azulEscuroTransparencia);
+    @include destaque($azul-escuro, $azul-escuro-transparencia);
 
     @media screen and (min-width: 992px) {
       height: 65vh !important;
@@ -12,7 +12,7 @@
       font-size: 2.25rem;
       line-height: 1.2;
       font-weight: $light;
-      color: $azulRegular;
+      color: $azul-principal;
       margin-bottom: 0.8rem;
     }
 
@@ -21,13 +21,13 @@
       font-weight: $light;
 
       i {
-        color: $laranjaRegular;
+        color: $laranja-principal;
         padding-right: 0.5rem;
       }
     }
 
     .post-body {
-      font-family: $merriweather;
+      font-family: $serif;
       line-height: 2;
       color: #333;
       margin-top: 2rem;
@@ -40,7 +40,7 @@
       }
 
       h2{
-        color: $azulRegular;
+        color: $azul-principal;
         font-size: 1.5rem;
         padding: 1.5rem 0 0;
         margin: 0;
@@ -49,7 +49,7 @@
       }
 
       h3{
-        color: $laranjaRegular;
+        color: $laranja-principal;
         font-size: 1.2rem;
         padding: 1.5rem 0 0;
         margin: 0;
@@ -57,14 +57,14 @@
       }
 
       h4{
-        color: $azulRegular;
+        color: $azul-principal;
         padding: 1.5rem 0 0;
         margin: 0;
         margin-bottom: 1rem;
       }
 
       blockquote {
-        color: $azulRegular;
+        color: $azul-principal;
         font-weight: $bold;
         font-style: italic;
         width: 85%;
@@ -111,7 +111,7 @@
           .gallery-caption{
             margin-left: 0;
             font-size: .8rem;
-            font-family: $fira;
+            font-family: $sans;
             line-height: 1.6;
             margin-bottom: 1rem;
           }
@@ -120,10 +120,10 @@
 
       a {
         font-style: italic;
-        color: $laranjaMedio;
+        color: $laranja-medio;
 
         &:hover {
-          color: $laranjaEscuro;
+          color: $laranja-escuro;
           text-decoration: underline;
         }
       }
@@ -146,13 +146,13 @@
         font-weight: $light;
 
         .autor-name {
-          color: $azulRegular;
+          color: $azul-principal;
           font-weight: $semi-bold;
           font-size: 1.5rem;
         }
 
         .autor-role {
-          color: $laranjaMedio;
+          color: $laranja-medio;
           text-transform: uppercase;
           margin-bottom: 1rem;
         }
@@ -160,9 +160,9 @@
     }
 
     .links-compartilhamento {
-      color: $laranjaMedio;
+      color: $laranja-medio;
       font-weight: $light;
-      border-top: solid 2px $laranjaMedio;
+      border-top: solid 2px $laranja-medio;
       margin-top: 3rem;
       line-height: 3rem;
 

@@ -27,7 +27,7 @@
 
   blockquote {
     color: $azul-principal;
-    font-family: $merriweather;
+    font-family: $serif;
     font-weight: $bold;
     font-style: italic;
     margin: 2rem 0;
@@ -92,7 +92,7 @@
   }
 
   #paginacao {
-    color: $laranjaMedio;
+    color: $laranja-medio;
     padding: 1rem 1rem 2rem;
     text-align: center;
     font-weight: $bold;
@@ -103,12 +103,12 @@
     }
 
     a:hover {
-      border-bottom: solid 1px $laranjaEscuro;
-      color: $laranjaEscuro;
+      border-bottom: solid 1px $laranja-escuro;
+      color: $laranja-escuro;
     }
 
     span {
-      color: $azulRegular;
+      color: $azul-principal;
     }
 
     h2 {

@@ -21,7 +21,7 @@
           max-height: 250px;
 
           span {
-            background-color: $azulEscuro;
+            background-color: $azul-escuro;
             color: white;
             text-transform: uppercase;
             position: absolute;
@@ -47,7 +47,7 @@
             top: 0;
             width: 100%;
             opacity: 0.6;
-            background-image: linear-gradient(transparent, $azulEscuro);
+            background-image: linear-gradient(transparent, $azul-escuro);
           }
 
           .post-date {
@@ -68,18 +68,18 @@
       }
 
       h3 {
-        color: $laranjaMedio;
+        color: $laranja-medio;
         font-weight: $semi-bold;
         font-size: 1.3rem;
         margin: 1.5rem;
 
         a:hover {
-          border-bottom: solid 0.5px $laranjaMedio;
+          border-bottom: solid 0.5px $laranja-medio;
         }
       }
 
       p {
-        font-family: $fira;
+        font-family: $sans;
         font-weight: $light;
         line-height: 1.5;
         margin: 1rem 1.5rem;
@@ -93,7 +93,7 @@
 
     h2 {
       position: relative;
-      color: $laranjaRegular;
+      color: $laranja-principal;
       text-transform: uppercase;
 
       span {
@@ -107,7 +107,7 @@
         display: block;
         vertical-align: middle;
         height: 2px;
-        background-color: $laranjaRegular;
+        background-color: $laranja-principal;
         width: 100%;
         margin-right: -100%;
         position: absolute;
@@ -120,7 +120,7 @@
     label {
       font-size: 1.6rem;
       font-weight: $light;
-      color: $azulRegular;
+      color: $azul-principal;
     }
 
     // SendGrid Widget
@@ -132,7 +132,7 @@
 
       input {
         font-family: "Fira Sans", sans-serif !important;
-        border: solid 1px $azulEscuro;
+        border: solid 1px $azul-escuro;
       }
 
       .sendgrid_mc_fields {
@@ -147,14 +147,14 @@
           width: calc(100% - .5rem - 2px);
           height: 1.5rem;
           padding-left: .5rem;
-          background-color: $azulExtraClaro;
+          background-color: $azul-extra-claro;
         }
       }
 
       .sendgrid_mc_button {
         margin: 0 !important;
         height: 100%;
-        background-color: $azulEscuro;
+        background-color: $azul-escuro;
         text-transform: uppercase;
         font-size: 0.8rem;
         color: white;
@@ -163,7 +163,7 @@
   }
 
   .social-media {
-    background: linear-gradient(45deg, $azulEscuro, $azulRegular);
+    background: linear-gradient(45deg, $azul-escuro, $azul-principal);
     border: none;
     color: white;
     width: calc(100% - 3rem);
@@ -190,12 +190,12 @@
     }
 
     &:hover {
-      background: linear-gradient(45deg, $azulEscuro, darken($azulClaro, 50%));
+      background: linear-gradient(45deg, $azul-escuro, darken($azul-claro, 50%));
     }
   }
 
   #galeria {
-    background-color: $laranjaExtraClaro;
+    background-color: $laranja-extra-claro;
     margin-top: 5rem;
     padding-top: 2rem;
     padding-bottom: 5rem;
@@ -206,7 +206,7 @@
     }
 
     h2 {
-      background-color: $laranjaMedio;
+      background-color: $laranja-medio;
       color: white;
       text-transform: uppercase;
       position: absolute;
@@ -218,7 +218,7 @@
     ul {
       li {
         font-weight: $light;
-        color: $laranjaEscuro;
+        color: $laranja-escuro;
         font-size: 1.2rem;
         padding-top: 1rem;
         width: 100%;
@@ -293,12 +293,12 @@
   a[role="button"] {
     @extend %botao;
     background-color: white;
-    color: $laranjaMedio;
+    color: $laranja-medio;
     float: right;
     margin: 0;
 
     &:hover {
-      background-color: $laranjaMedio;
+      background-color: $laranja-medio;
       color: white;
     }
   }

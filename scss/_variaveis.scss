@@ -1,18 +1,18 @@
-// Cores
-$azulExtraClaro: #edf9ff;
-$azulClaro: #cfeaff;
-$azulRegular: #1765ab;
-$azulMedio: #05427b;
-$azulEscuro: #043166;
+// // Cores
+// $azulExtraClaro: #edf9ff;
+// $azulClaro: #cfeaff;
+// $azulRegular: #1765ab;
+// $azulMedio: #05427b;
+// $azulEscuro: #043166;
 
-$laranjaExtraClaro: #ffdcc5;
-$laranjaClaro: #ffa161;
-$laranjaRegular: #f06c00;
-$laranjaMedio: #c75000;
-$laranjaEscuro: #b24800;
+// $laranjaExtraClaro: #ffdcc5;
+// $laranjaClaro: #ffa161;
+// $laranjaRegular: #f06c00;
+// $laranjaMedio: #c75000;
+// $laranjaEscuro: #b24800;
 
-$azulEscuroTransparencia: rgba(4, 49, 102, .3);
-$laranjaRegularTransparencia: rgba(240, 108, 0, .3);
+// $azulEscuroTransparencia: rgba(4, 49, 102, .3);
+// $laranjaRegularTransparencia: rgba(15, 9, 4, 0.3);
 
 
 //Nomenclatura atualizada
@@ -30,3 +30,6 @@ $laranja-escuro: #b24800;
  
 $degrade-azul: rgba( $azul-medio, .3 ); 
 $degrade-laranja: rgba( $laranja-principal, .3 );
+
+$azul-escuro-transparencia: rgba(4, 49, 102, .3);
+$laranja-principal-transparencia: rgba(240, 108, 0, .3);

@@ -1,7 +1,7 @@
 @import 'variaveis';
 
 #ultimos-editais{
-  background-image: url('./img/pattern.png'),linear-gradient($azulExtraClaro,$azulExtraClaro);
+  background-image: url('./img/pattern.png'),linear-gradient($azul-extra-claro,$azul-extra-claro);
   background-position: center;
   padding: 1.5rem;  
 
@@ -13,14 +13,14 @@
     width: 300px;
 
     span{
-      color: $laranjaMedio;
+      color: $laranja-medio;
       font-size: 8rem;
       display: inline-block;
       font-weight: $black;
     }
 
     h2{
-      color: $azulRegular;
+      color: $azul-principal;
       font-size: 2rem;
       display: inline-block;
       line-height: 1;
@@ -41,8 +41,8 @@
       vertical-align: top;
 
       h3{
-        color: $laranjaMedio;
-        border-bottom: solid 1px $laranjaMedio;
+        color: $laranja-medio;
+        border-bottom: solid 1px $laranja-medio;
         font-size: 1.13rem;
         font-weight: $regular;
         display: inline-block;

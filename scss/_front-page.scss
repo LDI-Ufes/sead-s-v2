@@ -74,7 +74,7 @@
         .box-titulo {
           position: absolute;
           left: 0;
-          border-bottom: 5rem solid $laranjaEscuro;
+          border-bottom: 5rem solid $laranja-escuro;
           border-left: 0 solid transparent;
           border-right: 25px solid transparent;
           width: 80%;
@@ -92,7 +92,7 @@
         .box-titulo {
           position: absolute;
           right: 0;
-          border-top: 10rem solid $laranjaRegular;
+          border-top: 10rem solid $laranja-principal;
           border-left: 40px solid transparent;
           border-right: 0 solid transparent;
           width: 85%;
@@ -121,7 +121,7 @@
           }
 
           .numero {
-            color: $laranjaMedio;
+            color: $laranja-medio;
             font-size: 2.8rem;
             font-weight: $bold;
             background-color: white;
@@ -153,7 +153,7 @@
     margin-bottom: 3rem;
     
     h2{
-      color: $azulEscuro;
+      color: $azul-escuro;
       padding: 1rem;
       margin-bottom: 0;
       font-style: italic;
@@ -168,7 +168,7 @@
         display: inline-block;
         flex-grow: 1;
         width: 100%;
-        border-top: solid 3px $laranjaRegular;
+        border-top: solid 3px $laranja-principal;
         position: relative;
         margin-bottom: 2rem;
         height: 300px;
@@ -178,7 +178,7 @@
         padding: 0 1rem;
 
         span {
-          color: $laranjaRegular;
+          color: $laranja-principal;
           font-weight: $light;
           font-size: 2.3rem;
           margin: 0.5rem 0;
@@ -187,7 +187,7 @@
 
         a {
           width: calc(50% - 0.5rem);
-          background-image: linear-gradient($azulEscuro, $azulRegular);
+          background-image: linear-gradient($azul-escuro, $azul-principal);
           display: inline-block;
           color: white;
           height: 50%;
@@ -199,7 +199,7 @@
             margin-left: 1rem;
           }
 
-          &:hover { background-image: linear-gradient($azulEscuro, darken($azulClaro, 50%) );}
+          &:hover { background-image: linear-gradient($azul-escuro, darken($azul-claro, 50%) );}
 
           svg {
             max-width: 5rem;
@@ -222,7 +222,7 @@
         display: inline-block;
         flex-grow: 1;
         width: 100%;
-        border-top: solid 3px $laranjaRegular;
+        border-top: solid 3px $laranja-principal;
         position: relative;
         margin-bottom: 2rem;
         height: 300px;
@@ -236,7 +236,7 @@
           left: 0;
           height: 100%;
           opacity: .9;
-          background-image: linear-gradient(transparent, $azulEscuro);
+          background-image: linear-gradient(transparent, $azul-escuro);
         }
 
         img {
@@ -268,7 +268,7 @@
           h3{ 
             text-decoration: underline;
             text-underline-position: under;
-            text-decoration-color: $laranjaRegular;
+            text-decoration-color: $laranja-principal;
           }
         }
 
@@ -282,7 +282,7 @@
     text-align: center;
 
     h2 {
-      color: $laranjaRegular;
+      color: $laranja-principal;
       font-size: 2rem;
       margin-top: 0;
     }
@@ -313,7 +313,7 @@
           max-width: 600px;
 
           .box-titulo {
-            border-top: 5rem solid $laranjaRegular;
+            border-top: 5rem solid $laranja-principal;
             border-left: 25px solid transparent;
           }
         }

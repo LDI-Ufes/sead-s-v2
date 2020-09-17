@@ -1,6 +1,6 @@
 .ead-na-ufes {
   .destaque {
-    @include destaque($azulEscuro, $azulEscuroTransparencia);
+    @include destaque($azul-escuro, $azul-escuro-transparencia);
   }
 
   .secao-destacada-azul {

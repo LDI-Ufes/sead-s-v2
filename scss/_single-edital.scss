@@ -12,7 +12,7 @@
     }
 
     em {
-      color: $laranjaMedio;
+      color: $laranja-medio;
       font-style: normal;
       font-weight: $bold;
     }
@@ -27,7 +27,7 @@
   }
 
   .secao-edital {
-    border-top: solid 2px $azulClaro;
+    border-top: solid 2px $azul-claro;
     margin-top: 4rem;
 
     h2 {
@@ -48,7 +48,7 @@
             &:before {
               content: "\f56d";
               font-family: "Font Awesome 5 Free";
-              color: $laranjaRegular;
+              color: $laranja-principal;
               padding-right: 0.5rem;
               font-weight: 600;
               /*font-style: normal;*/
@@ -56,7 +56,7 @@
 
             &:hover {
               font-weight: $regular;
-              color: $laranjaMedio;
+              color: $laranja-medio;
             }
           }
         }
