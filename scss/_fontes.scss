@@ -75,11 +75,17 @@ $regular: 400;
 $medium: 500; 
 $semi-bold: 600; 
 $bold: 700; 
+$extra-bold: 800;
 $black: 900; 
  
 //Fontes 
 $sans: "Fira Sans", sans-serif; 
 $serif: "Merriweather", serif; 
+
+//Old - substituir e excluir
+$merriweather: "Merriweather", serif;
+$fira: "Fira Sans", sans;
+
 
 //Placeholder FontAwesome 
 %fontAwesome{ 
