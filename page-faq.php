@@ -1,4 +1,4 @@
-<?php get_header('principal'); ?>
+<?php get_header(); ?>
 
 <main class="page container faq" id="conteudoPrincipal">
   <section class="breadcrumb">Você está em: <span>Dúvidas Frequentes</span></section>

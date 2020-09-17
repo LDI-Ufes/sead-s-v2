@@ -1,4 +1,4 @@
-<?php get_header('principal'); ?> 
+<?php get_header(); ?> 
  
 <main class="container page page-contatos" id="conteudoPrincipal"> 
  

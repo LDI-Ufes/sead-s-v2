@@ -1,4 +1,4 @@
-<?php get_header('principal'); ?>
+<?php get_header(); ?>
 
 <main id="conteudoPrincipal" class="container page page-galeria">
   <section class="breadcrumb">Você está em: <a href="<?php echo site_url(); ?>/noticias">Notícias</a><i class="fas fa-greater-than"></i><span>Galeria de Fotos</span></section>

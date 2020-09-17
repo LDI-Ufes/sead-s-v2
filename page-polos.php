@@ -1,4 +1,4 @@
-﻿<?php get_header('principal'); ?> 
+﻿<?php get_header(); ?> 
  
 <main id="conteudoPrincipal" class='container page page-polos'> 
   <div class="breadcrumb"> 

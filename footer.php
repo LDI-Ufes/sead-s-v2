@@ -72,7 +72,9 @@
 
 </footer>
 
-<script defer="defer" src="//barra.brasil.gov.br/barra.js"></script>
+<!-- Barra Brasil -->
+<script defer="defer" src="//barra.brasil.gov.br/barra_2.0.js" type="text/javascript"></script>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/menu.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/pesquisa.js"></script>
