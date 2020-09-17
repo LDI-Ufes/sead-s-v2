@@ -47,7 +47,7 @@
     <div class="container">
       <div id="quer-ser-titulo">
         <div class="box-titulo"></div>
-        <h2>Quer ser aluno?<br>Quer ser um tutor?</h2>
+        <h2>Quer ser estudante?<br>Quer ser um tutor?</h2>
       </div>
       <div id="quer-ser-itens">
         <div class="box-titulo"></div>

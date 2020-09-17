@@ -40,7 +40,7 @@
 
           <span>Contato</span>
           secretariafisicaead@gmail.com<br>
-          (27) 4009-5304
+          (27) 4009-2091
         </ul>
 
       </aside>
