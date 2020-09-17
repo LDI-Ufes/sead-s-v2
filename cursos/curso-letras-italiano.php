@@ -38,8 +38,9 @@
           <li><a title="Mostrar ofertas do curso" href='#ofertas-anteriores'>Ofertas</a></li>
 
           <span>Contato</span>
-          Bruna Tabachi<br/>
-          (27) 4009-2063
+          Karoliny Tosta<br/>
+          (27) 4009-2063<br/>
+          letrasitalianoufes@gmail.com
         </ul>
 
       </aside>
@@ -124,15 +125,21 @@
           <li class='semestre'>
             <button><h3>6° semestre</h3></button>
             <ul>
-              <div>Disciplina <!--<span>Programa</span>--></div>
+              <div>Disciplina <span>Programa</span></div>
 
-              <li>Didática da Língua Italiana <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/letras-italiano/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Didática da Língua Italiana</span></a>--></li>
-              <li>Literatura Italiana Infanto-Juvenil <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/letras-italiano/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Literatura Italiana Infanto-Juvenil</span></a>--></li>
-              <li>Currículo da Educação Básica <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/letras-italiano/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Currículo da Educação Básica</span></a>--></li>
-              <li>Tópicos de Cultura Italiana II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/letras-italiano/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Tópicos de Cultura Italiana II</span></a>--></li>
-              <li>Semântica <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/letras-italiano/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Semântica</span></a>--></li>
-              <li>Sociolinguística <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/letras-italiano/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Sociolinguística</span></a>--></li>
-              <li>Literatura Brasileira II - Periodização <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/letras-italiano/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Literatura Brasileira II - Periodização</span></a>--></li>
+              <li>Didática da Língua Italiana <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/letras-italiano/Programa_Didatica-da-Lingua-Italiana.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Didática da Língua Italiana</span></a></li>
+
+              <li>Literatura Italiana Infanto-Juvenil <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/letras-italiano/Programa_Literatura-Infanto-Juvenil-Italiana.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Literatura Italiana Infanto-Juvenil</span></a></li>
+
+              <li>Currículo da Educação Básica <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/letras-italiano/Programa_Curriculo-da-Educacao-Basica.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Currículo da Educação Básica</span></a></li>
+
+              <li>Tópicos de Cultura Italiana II <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/letras-italiano/Programa_Topicos-de-Cultura-Italiana2.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Tópicos de Cultura Italiana II</span></a></li>
+
+              <li>Semântica <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/letras-italiano/Programa_Semantica.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Semântica</span></a></li>
+
+              <li>Sociolinguística <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/letras-italiano/Programa_Sociolinguistica.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Sociolinguística</span></a></li>
+
+              <li>Literatura Brasileira II - Periodização <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/letras-italiano/Programa_Literatura-Brasileira2.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Literatura Brasileira II - Periodização</span></a></li>
             </ul>
           </li>
 
