@@ -134,14 +134,30 @@ $('.seta-prev').click(function(){
   $('.item:nth-of-type(1).ativo').siblings('.seta-prev').css('display', 'none').siblings('.seta-next').css('display', 'block');
 }); -->
 
-<script src="<?php echo get_template_directory_uri(); ?>/js/slick.min.js"></script> 
+<script src="<?php echo get_template_directory_uri(); ?>/js/slick.js"></script> 
  
 <script> 
  
 // $(document).ready(function(){ 
-  $('.slider').slick({ 
-    dots: true 
-  }); 
+  $('.slider').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: true,
+  dots: true,
+  responsive: [
+    {
+      // As definições seguem até à largura (width) especificada
+      // em breakpoint, após isso segue as definições fora do objeto
+      // 'responsive'
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+      },
+    }
+  ]
+});
 // )}; 
 
 // Acordeão 
