@@ -83,7 +83,7 @@
         </li> 
         <li> 
           <a class="card-curso sem-pagina" title="Ir para a página do curso" href="<?php echo site_url(); ?>/cursos/educacao-fisica"> 
-            <div class="card-capa"><img src="img/<?php echo get_template_directory_uri(); ?>/img/capas/educacao-fisica.jpg"></div> 
+            <div class="card-capa"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/educacao-fisica.jpg"></div> 
             <h3 class="titulo">Educação Física<span class="nivel">Licenciatura</span></h3> 
           </a> 
         </li> 
@@ -103,61 +103,61 @@
         </li> 
         <li> 
           <a class="card-curso" title="Ir para a página do curso" href="<?php echo site_url(); ?>/cursos/educacao-em-direitos-humanos"> 
-            <div class="card-capa"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/educacao-em-direitos-humanos"></div> 
+            <div class="card-capa"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/educacao-em-direitos-humanos.jpg"></div> 
             <h3 class="titulo">Educação em Direitos Humanos</h3> 
           </a> 
         </li> 
         <li> 
           <a class="card-curso" title="Ir para a página do curso" href="<?php echo site_url(); ?>/cursos/ensino-de-matematica-para-o-ensino-medio"> 
-            <div class="card-capa"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/ensino-de-matematica-para-o-ensino-medio"></div> 
+            <div class="card-capa"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/ensino-de-matematica-para-o-ensino-medio.jpg"></div> 
             <h3 class="titulo">Ensino da Matemática para o Ensino Médio</h3> 
           </a> 
         </li> 
         <li> 
           <a class="card-curso" title="Ir para a página do curso" href="<?php echo site_url(); ?>/cursos/epidemiologia"> 
-            <div class="card-capa"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/epidemiologia"></div> 
+            <div class="card-capa"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/epidemiologia.jpg"></div> 
             <h3 class="titulo">Epidemiologia</h3> 
           </a> 
         </li> 
         <li> 
           <a class="card-curso" title="Ir para a página do curso" href="<?php echo site_url(); ?>/cursos/filosofia-e-psicanalise"> 
-            <div class="card-capa"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/filosofia-e-psicanalise"></div> 
+            <div class="card-capa"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/filosofia-e-psicanalise.jpg"></div> 
             <h3 class="titulo">Filosofia e Psicanálise</h3> 
           </a> 
         </li> 
         <li> 
           <a class="card-curso" title="Ir para a página do curso" href="<?php echo site_url(); ?>/cursos/gestao-de-agronegocios"> 
-            <div class="card-capa"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/gestao-de-agronegocios"></div> 
+            <div class="card-capa"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/gestao-de-agronegocios.jpg"></div> 
             <h3 class="titulo">Gestão de Agronegócios</h3> 
           </a> 
         </li> 
         <li> 
           <a class="card-curso" title="Ir para a página do curso" href="<?php echo site_url(); ?>/cursos/gestao-de-politicas-publicas-em-genero-e-raca"> 
-            <div class="card-capa"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/gestao-de-politicas-publicas-em-genero-e-raca"></div> 
+            <div class="card-capa"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/gestao-de-politicas-publicas-em-genero-e-raca.jpg"></div> 
             <h3 class="titulo">Gestão de Políticas Públicas em Gênero e Raça</h3> 
           </a> 
         </li> 
         <li> 
           <a class="card-curso" title="Ir para a página do curso" href="<?php echo site_url(); ?>/cursos/gestao-em-saude"> 
-            <div class="card-capa"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/gestao-em-saude"></div> 
+            <div class="card-capa"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/gestao-em-saude.jpg"></div> 
             <h3 class="titulo">Gestão em Saúde</h3> 
           </a> 
         </li> 
         <li> 
           <a class="card-curso" title="Ir para a página do curso" href="<?php echo site_url(); ?>/cursos/gestao-publica"> 
-            <div class="card-capa"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/gestao-publica"></div> 
+            <div class="card-capa"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/gestao-publica.jpg"></div> 
             <h3 class="titulo">Gestão Pública</h3> 
           </a> 
         </li> 
         <li> 
           <a class="card-curso" title="Ir para a página do curso" href="<?php echo site_url(); ?>/cursos/logistica"> 
-            <div class="card-capa"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/logistica"></div> 
+            <div class="card-capa"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/logistica.jpg"></div> 
             <h3 class="titulo">Logística</h3> 
           </a> 
         </li> 
         <li> 
           <a class="card-curso" title="Ir para a página do curso" href="<?php echo site_url(); ?>/cursos/oratoria"> 
-            <div class="card-capa"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/oratoria"></div> 
+            <div class="card-capa"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/oratoria.jpg"></div> 
             <h3 class="titulo">Oratória, Transversalidade e Didática da Fala</h3> 
           </a> 
         </li> 
@@ -172,43 +172,43 @@
       <ul class="lista-cursos"> 
         <li> 
           <a class="card-curso" title="Ir para a página do curso" href="<?php echo site_url(); ?>/cursos/educacao-ambiental"> 
-            <div class="card-capa"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/educacao-ambiental"></div> 
+            <div class="card-capa"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/educacao-ambiental.jpg"></div> 
             <h3 class="titulo">Educação Ambiental</h3> 
           </a> 
         </li> 
         <li> 
           <a class="card-curso" title="Ir para a página do curso" href="<?php echo site_url(); ?>/cursos/educacao-do-campo"> 
-            <div class="card-capa"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/educacao-do-campo"></div> 
+            <div class="card-capa"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/educacao-do-campo.jpg"></div> 
             <h3 class="titulo">Educação do Campo</h3> 
           </a> 
         </li> 
         <li> 
           <a class="card-curso" title="Ir para a página do curso" href="<?php echo site_url(); ?>/cursos/educacao-para-a-diversidade-e-cidadania"> 
-            <div class="card-capa"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/educacao-para-a-diversidade-e-cidadania"></div> 
+            <div class="card-capa"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/educacao-para-a-diversidade-e-cidadania.jpg"></div> 
             <h3 class="titulo">Educação para a Diversidade e Cidadania</h3> 
           </a> 
         </li> 
         <li> 
           <a class="card-curso" title="Ir para a página do curso" href="<?php echo site_url(); ?>/cursos/educacao-para-as-relacoes-etnicorraciais"> 
-            <div class="card-capa"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/educacao-para-as-relacoes-etnicorraciais"></div> 
+            <div class="card-capa"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/educacao-para-as-relacoes-etnicorraciais.jpg"></div> 
             <h3 class="titulo">Educação para as Relações Etnicorraciais</h3> 
           </a> 
         </li> 
         <li> 
           <a class="card-curso" title="Ir para a página do curso" href="<?php echo site_url(); ?>/cursos/genero-e-diversidade-na-escola"> 
-            <div class="card-capa"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/genero-e-diversidade-na-escola"></div> 
+            <div class="card-capa"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/genero-e-diversidade-na-escola.jpg"></div> 
             <h3 class="titulo">Gênero e Diversidade na Escola</h3> 
           </a> 
         </li> 
         <li> 
           <a class="card-curso sem-pagina" title="Ir para a página do curso" href="<?php echo site_url(); ?>/cursos/povos-indigenas"> 
-            <div class="card-capa"><img src="img/<?php echo get_template_directory_uri(); ?>/img/capas/povos-indigenas.jpg"></div> 
+            <div class="card-capa"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/povos-indigenas.jpg"></div> 
             <h3 class="titulo">Cultura e Histórias dos Povos Indígenas</h3> 
           </a> 
         </li> 
         <li> 
           <a class="card-curso sem-pagina" title="Ir para a página do curso" href="<?php echo site_url(); ?>/cursos/dimensoes-da-humanizacao"> 
-            <div class="card-capa"><img src="img/<?php echo get_template_directory_uri(); ?>/img/capas/dimensoes-da-humanizacao.jpg"></div> 
+            <div class="card-capa"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/dimensoes-da-humanizacao.jpg"></div> 
             <h3 class="titulo">Dimensões da Humanização</h3> 
           </a> 
         </li> 
