@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-@import 'variaveis';
 // Default Variables
 
 // Slick icon entity codes outputs the following
@@ -77,12 +76,13 @@ $slick-opacity-not-active: 0.25 !default;
     padding: 0;
     border: none;
     outline: none;
-    &:hover, &:focus {
+    &:hover{
         outline: none;
         background: transparent;
         color: transparent;
         &:before {
-            opacity: $slick-opacity-on-hover;
+            border-color:#c75000; 
+            transition: .5s border-color;
         }
     }
     &.slick-disabled:before {
@@ -99,7 +99,7 @@ $slick-opacity-not-active: 0.25 !default;
         -moz-osx-font-smoothing: grayscale; 
         padding: 20px 24px; 
         border: 1px solid rgba(0,0,0,.16); 
-        color: #1765AB; 
+        color: #c75000; 
         border-radius: 100%; 
         display: block; 
     }
@@ -124,7 +124,7 @@ $slick-opacity-not-active: 0.25 !default;
     }
 
     @media (min-width: 864px) {
-        left: -50px;
+        left: -120px;
     }
 }
 
@@ -142,7 +142,7 @@ $slick-opacity-not-active: 0.25 !default;
     }
 
     @media (min-width: 864px) {
-        right: -50px;
+        right: -120px;
     }
 }
 
@@ -192,13 +192,14 @@ $slick-opacity-not-active: 0.25 !default;
                 height: 16px; 
                 width: 16px; 
                 content: ''; 
-                background: $azul-principal; 
+                background: #1765ab; 
                 vertical-align: center; 
                 border-radius: 100%; 
                 opacity: .3;
             }
         }
         &.slick-active button:before {
+            background: #c75000; 
             opacity: 1;
         }
     }
