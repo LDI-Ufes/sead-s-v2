@@ -17,167 +17,228 @@
 
   <!--Com imagem-->
 
-  <section class="destaque destaque-imagem" style="background-image: linear-gradient(#043166, rgba(4, 49, 102, 0.3)), url('<?php echo get_template_directory_uri() ?>/img/capas/.jpg')"></section>
+ 
+  <section class="destaque destaque-imagem" style="background-image: linear-gradient(#043166, rgba(4, 49, 102, 0.3)), url('<?php echo get_template_directory_uri()?>/img/capas/nome.jpg')"></section>
 
-  <div class='container'>
-    <section class='breadcrumb'>Você está em: <a href='<?php echo site_url(); ?>/cursos'>Cursos</a><i class='fas fa-greater-than'></i><span>Biologia</span></section>
-    <h1>Licenciatura EaD em Biologia </h1>
+  <section id='info-curso'> 
+    <div class="container"> 
+      <div class='breadcrumb'>Você está em: <a href='<?php echo site_url(); ?>/cursos'>Cursos</a><i class='fas fa-greater-than'></i><span>Nome</span></div> 
+ 
+      <h1>Nome</h1> 
+ 
+      <div class="colunas"> 
+ 
+        <p class='coluna1 objetivo'></p> 
+ 
+        <div class="coluna2"> 
+          <p> 
+            <strong>Nível: </strong>Graduação<br/> 
+            <strong>Formação: </strong>Licenciatura<br/> 
+            <strong>Duração: </strong>4 anos (8 semestres)<br/> 
+            <strong>Modalidade: </strong>Semipresencial<br/> 
+            <!-- <strong>Conceito Geral: </strong>3  -->
+          </p> 
+          <p class="situacao"><strong>Situação: </strong> 
+            <br>Oferta 2014/2 em fase de conclusão. 
+            <br>Aprovado pelo CEPE em 23/07/2014 por meio da Resolução n° 32/2014. 
+            <br><strong>Sem previsão de nova reoferta.</strong> 
+          </p> 
+        </div> 
+      </div> 
+    </div> 
+  </section> 
+ 
+    <section id='conteudo-curso' class='container colunas'> 
+ 
+      <aside class="coluna2"> 
+        <!-- <button id='dropdown-menu'>Menu<i class='fas fa-angle-down'></i></button> --> 
+         
+        <div class='menu'> 
+          <h4>Navegue</h4> 
+ 
+          <ul> 
+            <li><a title="Mostrar perfil do egresso" href='#perfil-do-egresso'>Perfil do egresso</a></li> 
+            <li><a title="Mostrar currículo" href='#curriculo'>Grade curricular</a></li> 
+            <li><a title="Mostrar corpo docente" href='#corpo-docente'>Corpo docente</a></li> 
+            <li><a title="Mostrar ofertas do curso" href='#ofertas-anteriores'>Ofertas</a></li> 
+          </ul> 
+        </div> 
+ 
+        <h4>Contato</h4> 
+ 
+        <p class="contato-curso"> 
+          <strong>Fulano de Tal</strong><br/> 
+          <mail>artesvisuais.ead@gmail.com</mail> 
+          <span><i class="fas fa-phone"></i>(27) 4009-2091</span> 
+        </p> 
+ 
+      </aside> 
+ 
+      <div class="coluna1"> 
+ 
+        <h2 id='perfil-do-egresso'>Perfil do egresso</h2> 
+         
+ 
+        <h2 id='curriculo'>Grade curricular</h2> 
+        <p>Carga horária mínima de integralização curricular: 3280 horas</p> 
+ 
+        <ul class="matriz"> 
 
-    <p id='objetivo'></p>
+          <li class='semestre'> 
+            <button class='ativo'><h3>1° semestre</h3></button> 
+            <ul style='display: block;'> 
+ 
+              <div class="rotulos-matriz"> 
+                <div>Disciplina</div> 
+                <div>Ementa</div> 
+                <div> 
+                  <span class="desktop">Carga horária</span> 
+                  <span class="mobile">C. hr.</span> 
+                </div> 
+              </div> 
+ 
+              <li> 
+                <div>Nome</div> 
+                <div> 
+                  <a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/nome.pdf" target="_blank" title='Abrir documento em nova aba'> 
+                    <i class="far fa-file-pdf"></i>PDF 
+                    <span class="somente-leitura">Programa da disciplina Nome</span> 
+                </a> 
+                </div> 
+                <div>60h</div> 
+              </li> 
 
-    <section id='info-curso'>
-      <div>
-        <p><strong>Nível: </strong>Graduação</p>
-        <p><strong>Formação: </strong>Licenciatura</p>
-        <p><strong>Duração: </strong>4 anos (8 semestres)</p>
-        <p><strong>Modalidade: </strong>Semipresencial</p>
-        <!--<p><strong>Conceito Geral: </strong>3</p>-->
-      </div>
+            </ul> 
+          </li> <!-- 1o semestre --> 
 
-      <div id='situacao'>
-        <p><strong>Situação: </strong>
-          <br>Oferta 2014/2 em andamento, previsão de conclusão em 2019/1.
-          <!--<br>Aprovado pelo CEPE em 23/07/2014 por meio da Resolução 33/2014.-->
-          <br><strong>Previsão de reoferta em 2019.</strong>
-        </p>
-      </div>
-    </section>
+          <li class='semestre'> 
+            <button><h3>2° semestre</h3></button> 
+            <ul> 
+ 
+              <div class="rotulos-matriz"> 
+                <div>Disciplina</div> 
+                <div>Ementa</div> 
+                <div> 
+                  <span class="desktop">Carga horária</span> 
+                  <span class="mobile">C. hr.</span> 
+                </div> 
+              </div> 
+ 
+              <li> 
+                <div>Nome</div> 
+                <div> 
+                  <a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/nome.pdf" target="_blank" title='Abrir documento em nova aba'> 
+                    <i class="far fa-file-pdf"></i>PDF 
+                    <span class="somente-leitura">Programa da disciplina Nome</span> 
+                </a> 
+                </div> 
+                <div>60h</div> 
+              </li> 
+                     
+            </ul> 
+          </li> <!-- 2o semestre --> 
 
+        </ul> 
+ 
+ 
+        <h2 id='corpo-docente'>Corpo docente</h2> 
+ 
+        <div class="administrativo"> 
+          <p><strong>Coordenação</strong><br/></p> 
+ 
+          <p><strong>Vice coordenação</strong><br/></p> 
+ 
+          <p><strong>Colegiado do curso</strong> 
+            <br>Andreia Chiari Lins 
+            <br>Ariane De Nadai
+          </p> 
+ 
+          <p><strong>Núcleo Docente Estruturante</strong> 
+            <br>Andreia Chiari Lins 
+            <br>Erick Orloski 
+          </p> 
+        </div> 
+ 
+        <ul class="docentes"> 
+          <li class="professor"> 
+            <a href="" target="_blank" title="Abrir perfil na plataforma Lattes em nova aba"> 
+              <div class="perfil-docente">
+              </div> 
+              <div> 
+                <span>Nome</span> 
+                Doutorado 
+              </div> 
+            </a> 
+          </li> 
+ 
+          <li class="professor"> 
+            <a title="Abrir perfil na plataforma Lattes em nova aba" href="" target="_blank"> 
+              <div class="perfil-docente"> 
+                <img src=""/> 
+              </div> 
+              <div> 
+                <span>Nome</span> 
+                Doutorado 
+              </div> 
+            </a> 
+          </li> 
+ 
+        </ul> 
+ 
+        <h2 id='ofertas-anteriores'>Ofertas do curso</h2> 
+ 
+        <h3>2008</h3> 
+        <p><strong>Coordenação do Curso</strong><br/></p> 
+        <p><strong>Polos atendidos</strong><br/></p> 
 
-    <section id='conteudo'>
+ 
+    </section> 
+ 
+  </div> 
+ 
+  <section id='faq-curso' class="secao-destacada"> 
+    <div class='container'> 
+      <h2 class="titulo-destacado">Perguntas frequentes</h2> 
+        <ul> 
+          <li> 
+            <button><h3>O diploma/certificado EAD é válido?</h3></button> 
+            <p>Todo o material didático é disponibilizado on-line, por meio de recursos multimídia, podcasts, vídeos, videoaulas, animações, objetos de aprendizagem e-books, webconferências, no Ambiente Virtual de Aprendizagem. Caso prefira, é possível realizar a impressão.</p> 
+          </li> 
+        </ul> 
+    </div> 
+  </section> 
 
-      <aside id='menu'>
-        <button id='dropdown-menu'>Menu<i class='fas fa-angle-down'></i></button>
-
-        <ul>
-          <li><a href='#curriculo'>Currículo</a></li>
-          <li><a href='#corpo-docente'>Corpo docente</a></li>
-          <li><a href='#perfil-do-egresso'>Perfil do egresso</a></li>
-          <li><a href='#ofertas-anteriores'>Ofertas anteriores</a></li>
-          <!--<a href='<?php echo get_template_directory_uri(); ?>/arquivos/' target='_blank' title='Abrir PPC em nova aba'>PPC <i class='fas fa-external-link-alt'></i></a>-->
-          <a href='<?php echo get_template_directory_uri(); ?>/arquivos/' target='_blank' title='Abrir o Guia do Aluno em nova aba'>Guia do aluno <i class="fas fa-file-pdf"></i></a>
-
-          <span>Contato</span>
-          artesvisuais.ead@gmail.com<br>
-          (27) 4009-2091
-        </ul>
-
-      </aside>
-
-      <div id='matriz'>
-        <h2 id='curriculo'>Duração do curso</h2>
-        <p>Carga horária mínima de integralização curricular: 3280 horas<br>
-          Disciplinas: 2520 horas<br>
-          Estágio Curricular Supervisionado Obrigatório: 400 horas<br>
-          Dimensões Pedagógicas: 600 horas<br>
-          Trabalho de Conclusão de Curso: 160 horas<br>
-          Práticas como Componente Curricular: 480 horas<br>
-          Atividades Complementares: 200 horas</p>
-
-        <h2>Matriz Curricular</h2>
-
-        <ul>
-          <li class='semestre'>
-            <button class='ativo'><h3>1° semestre</h3></button>
-            <ul style='display: block;'>
-              <div>Disciplina <span>Programa</span></div>
-
-              <li>Nome da disciplina <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina (Nome da disciplina)</span></a></li>
-
-            </ul>
-          </li>
-
-        </ul>
-
-      </div>
-
-      <div id='professores'>
-        <h2 id='corpo-docente'>Administração acadêmica</h2>
-        <p><strong>Coordenação: </strong>Andreia Chiari Lins</p>
-        <p>Professora do Departamento de Desenho Industrial, para área de Tecnologias da Imagem, na Universidade Federal do Espírito Santo. Doutorada (2016) e Mestre em Educação pela Universidade Federal do Espírito Santo (2008). Especialista em Educação a Distância pela Universidade Católica de Brasília - DF (2006), Especialista em Administração de Empresas Privadas pelo Centro Universitário Vila Velha - ES (1997). Bacharel em Artes Plásticas pela Universidade Federal do Espírito Santo (1994).
-
-        <p><strong>Vice coordenação: </strong>Maria Auxiliadora de Carvalho Corassa</p>
-
-        <p><strong>Colegiado do curso:</strong>
-          <br>Nome
-
-        </p>
-
-        <p><strong>Núcleo Docente Estruturante:</strong>
-          <br>Nome
-
-        </p>
-
-        <h2>Corpo docente</h2>
-
-        <p class='nome'>
-          <a title='Abrir perfil na plataforma Lattes em nova aba' href='' target='_blank'><span class='somente-leitura'>Perfil na plataforma Lattes de </span>(Nome do professor)</a>
-          <span>(Titulação do professor)</span>
-        </p>
-
-
-      </div>
-
-      <div>
-        <h2 id='perfil-do-egresso'>Perfil do egresso</h2>
-        <p>O Curso ... </p>
-
-      </div>
-
-      <div>
-        <h2 id='ofertas-anteriores'>Ofertas anteriores</h2>
-
-        <h3>2008/1</h3>
-        <p><strong>Coordenação de Curso: </strong>Nome</p>
-        <p><strong>Polos atendidos: </strong>Alegre, Afonso Claudio, Aracruz, Bom Jesus do Norte, Cachoeiro de Itapemirim, Colatina, Conceição da Barra, Domingos Martins, Ecoporanga, Itapemirim, Iúna, Linhares, Mantenópolis, Nova Venécia, Pinheiros, Piúma, Santa Leopoldina, Santa Teresa, São Mateus, Vargem Alta, Venda Nova do Imigrante, Vila Velha.</p>
-
-      </div>
-
-    </section>
-
-  </div>
-
-  <section id='faq-curso'>
-    <div class='container'>
-      <h2>Dúvidas Frequentes</h1>
-        <ul>
-          <li>
-            <button><h3>O diploma/certificado EAD é válido?</h3></button>
-            <p>Todo o material didático é disponibilizado on-line, por meio de recursos multimídia, podcasts, vídeos, videoaulas, animações, objetos de aprendizagem e-books, webconferências, no Ambiente Virtual de Aprendizagem. Caso prefira, é possível realizar a impressão.</p>
-          </li>
-
-        </ul>
-    </div>
-  </section>
-
-  <section id='noticias'>
-    <?php $ultimas_noticias = new WP_Query(array(
-      'post_type' => 'noticia',
-      'posts_per_page' => 3,
-      'tax_query' => array(
-          array(
-              'taxonomy' => 'curso-noticia',
-              'field' => 'slug',
-              'terms' => 'Artes Visuais',
-          ),
-      ),
-    ));
-
-    if ($ultimas_noticias->have_posts()) : ?>
-      <div class='container'>
-        <h2>Notícias do curso</h2>
-        <div class='flex'>
-
-          <?php while ($ultimas_noticias->have_posts()) : $ultimas_noticias->the_post(); ?>
-            <a class='noticia' href='<?php the_permalink() ?>' title='Ir para notícia: <?php the_title(); ?>'>
-              <?php the_post_thumbnail(); ?>
-              <h3><?php the_title(); ?></h3>
-            </a>
-
-          <?php endwhile; wp_reset_postdata(); else : ?>
-        </div>
-      </div>
-    <?php endif; ?>
-  </section>
+  <section id='noticias' class="secao-destacada"> 
+    <?php $ultimas_noticias = new WP_Query(array( 
+      'post_type' => 'noticia', 
+      'posts_per_page' => 3, 
+      'tax_query' => array( 
+          array( 
+              'taxonomy' => 'curso-noticia', 
+              'field' => 'slug', 
+              'terms' => 'Nome', 
+            ), 
+        ), 
+    )); 
+ 
+    if ($ultimas_noticias->have_posts()) : ?> 
+ 
+      <div class='container'> 
+        <h2 class="titulo-destacado">Notícias do curso</h2> 
+        <div class='cards-noticias-curso'> 
+ 
+          <?php while ($ultimas_noticias->have_posts()) : $ultimas_noticias->the_post(); ?> 
+            <a class='noticia' href='<?php the_permalink() ?>' title='Ir para notícia: <?php the_title(); ?>'> 
+              <?php the_post_thumbnail(); ?> 
+              <h3><?php the_title(); ?></h3> 
+            </a> 
+ 
+          <?php endwhile; wp_reset_postdata(); else : ?> 
+ 
+        </div> 
+      </div> 
+ 
+    <?php endif; ?> 
+  </section> 
 
 </main>
