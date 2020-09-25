@@ -18,6 +18,17 @@
       </div>
     </section>
 
+    <?php
+    $editalInfo = get_post_custom_values('info');
+
+    if ($editalInfo != "") {
+      echo "
+        <section id='inscricao' class='secao-edital'>" .$editalInfo[0] . "
+        </section>
+      ";
+    }
+    ?>
+
     <section id="anexos" class="secao-edital">
       <h2>Anexos</h2>
       <?php the_content(); ?>
@@ -68,8 +79,6 @@ Aos candidatos já inscritos em disciplinas e que tenham interesse em concorrer 
       ";
     }
     ?>
-
-
 
   </main>
 
