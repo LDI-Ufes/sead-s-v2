@@ -36,9 +36,10 @@
         line-height: 2.2;
       }
 
-      &.acordeao-expandido:before {
-        content: "\f068";
-      }
+    }
+
+    .acordeao-item.expandido button:before {
+      content: "\f068";
     }
 
     div,
@@ -52,7 +53,9 @@
 
   .slider {
     padding: 3rem 0;
+
     .slick-slide {
+      display: block;
       font-weight: $light;
       padding: 0 1.5rem;
       padding-top: 3rem;
@@ -74,25 +77,37 @@
 
       @media (min-width: 864px) {
         margin: 2rem 0;
-        padding: 0 6rem;
+        padding: 0rem;
         padding-top: 3rem;
         text-align: left;
         display: flex;
         justify-content: center;
 
+        .slide{
+          width: 720px !important;
+          display: flex !important;
+          flex-flow: row;
+          justify-content: space-between;
+        }
+
+
+
         svg {
           margin-top: 1rem;
           flex-grow: 1;
-          height: auto;
-          max-height: 6rem;
-          max-width: 6rem;
+          max-width: 120px;
+          // max-height: 6rem;
+          // max-width: 6rem;
         }
 
         .grupo {
-          max-width: 600px;
+          width: 100%;
+          max-width: 540px;
         }
       }
     }
+
+
   }
 
 }

@@ -45,21 +45,21 @@
 
   <section class="secao-destacada secao-destacada-azul"> 
     <div class='container container-texto slider'> 
-        <div> 
+        <div class="slide"> 
           <?php include 'svg/como-encontros-pres.svg' ?> 
           <div class='grupo'> 
             <h2 tabindex='0'>Encontros presenciais</h2> 
             O encontro presencial semanal obrigatório dar-se-á com pequenos grupos de alunos e o tutor presencial, nas salas e nos laboratórios de cada Polo UAB integrado ao curso. 
           </div> 
         </div> 
-        <div> 
+        <div class="slide"> 
           <?php include 'svg/como-momentos-semi.svg' ?> 
           <div class='grupo'> 
             <h2 tabindex='0'>Momentos semipresenciais</h2> 
             Os encontros semipresenciais entre alunos, tutores e professores especialistas ocorrerão no AVA e nas webconferências conforme planejamento do curso ou necessidade para esclarecimentos e aprofundamento de conteúdos. 
           </div> 
         </div> 
-        <div> 
+        <div class="slide"> 
           <?php include 'svg/como-ava.svg' ?> 
           <div class='grupo'> 
             <h2 tabindex='0'>Ambiente Virtual de Aprendizagem</h2> 
@@ -144,6 +144,7 @@ $('.seta-prev').click(function(){
   slidesToScroll: 1,
   arrows: true,
   dots: true,
+  infinite: true,
   responsive: [
     {
       // As definições seguem até à largura (width) especificada
