@@ -28,11 +28,16 @@
   });
 
   // matriz - accordion 
-  $('.matriz .semestre button').click(function () { 
+  $('#matriz .semestre button').click(function () { 
     $(this).toggleClass('ativo'); 
     $(this).siblings().slideToggle(); 
-    $('.matriz .semestre button').not($(this)).removeClass('ativo').siblings().slideUp(); 
+    $('#matriz .semestre button').not($(this)).removeClass('ativo').siblings().slideUp(); 
   }); 
+
+  $(document).ready(function (){
+    $('#matriz .semestre button').first().addClass('ativo');
+    $('#matriz .semestre ul').first().css('display', 'block');
+  });
 
   // faq - accordion
   $('#faq-curso button').click(function () {

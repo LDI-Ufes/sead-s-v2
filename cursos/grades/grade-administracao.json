@@ -1,0 +1,170 @@
+{
+    "1°_Semestre": [
+        {
+            "nome": "Educação a Distância",
+            "ch": 60
+        },
+        {
+            "nome": "Administração (Introdução e teorias)",
+            "ch": 120
+        },
+        {
+            "nome": "Ciência Política",
+            "ch": 60
+        },
+        {
+            "nome": "Seminário Temático Presencial I: Sociologia",
+            "ch": 90
+        }
+    ],
+    "2°_Semestre": [
+        {
+            "nome": "Organização Sistemas e Métodos",
+            "ch": 60
+        },
+        {
+            "nome": "Processo Decisório",
+            "ch": 60
+        },
+        {
+            "nome": "Matemática",
+            "ch": 120
+        },
+        {
+            "nome": "Seminário Temático Presencial II: Filosofia",
+            "ch": 90
+        }
+    ],
+    "3°_Semestre": [
+        {
+            "nome": "Direito Administrativo",
+            "ch": 60
+        },
+        {
+            "nome": "Contabilidade (Geral e Gerencial)",
+            "ch": 120
+        },
+        {
+            "nome": "Economia (Introdução)",
+            "ch": 60
+        },
+        {
+            "nome": "Seminário Temático Presencial III: Psicologia",
+            "ch": 90
+        }
+    ],
+    "4°_Semestre": [
+        {
+            "nome": "Estatística Aplicada à Administração",
+            "ch": 60
+        },
+        {
+            "nome": "Sistemas de Informação",
+            "ch": 60
+        },
+        {
+            "nome": "Matemática Financeira",
+            "ch": 60
+        },
+        {
+            "nome": "Administração Pública",
+            "ch": 60
+        },
+        {
+            "nome": "Seminário Temático Presencial IV: Antropologia",
+            "ch": 90
+        }
+    ],
+    "5°_Semestre": [
+        {
+            "nome": "Economia (Micro e Macroeconomia)",
+            "ch": 90
+        },
+        {
+            "nome": "Planejamento (Teoria e Modelos)",
+            "ch": 60
+        },
+        {
+            "nome": "Administração Financeira e Orçamentária",
+            "ch": 120
+        },
+        {
+            "nome": "Seminário Temático Presencial V: Responsabilidade Social Corporativa e 3° Setor",
+            "ch": 90
+        }
+    ],
+    "6°_Semestre": [
+        {
+            "nome": "Gestão de Pessoas",
+            "ch": 120
+        },
+        {
+            "nome": "Marketing",
+            "ch": 120
+        },
+        {
+            "nome": "Seminário Temático Presencial VI: Gestão ambiental e Sustentabilidade",
+            "ch": 90
+        }
+    ],
+    "7°_Semestre": [
+        {
+            "nome": "Pesquisa Operacional",
+            "ch": 60
+        },
+        {
+            "nome": "Direito (Tributário e Comercial)",
+            "ch": 120
+        },
+        {
+            "nome": "Seminário Temático Presencial VII: Comércio exterior",
+            "ch": 90
+        }
+    ],
+    "8°_Semestre": [
+        {
+            "nome": "Operações Logísticas",
+            "ch": 120
+        },
+        {
+            "nome": "Finanças Públicas",
+            "ch": 60
+        },
+        {
+            "nome": "Seminário Temático Presencial VIII: Tecnologia e Inovação",
+            "ch": 90
+        }
+    ],
+    "9°_Semestre": [
+        {
+            "nome": "Empreendedorismo",
+            "ch": 60
+        },
+        {
+            "nome": "Teoria dos Jogos",
+            "ch": 60
+        },
+        {
+            "nome": "Elaboração e Administração de Projetos",
+            "ch": 60
+        },
+        {
+            "nome": "Seminário Temático Presencial IX: Tópicos emergentes",
+            "ch": 90
+        }
+    ],
+    "Disciplinas_Complementares": [
+        {
+            "nome": "Informática Básica",
+            "ch": 60
+        },
+        {
+            "nome": "Metodologia da Pesquisa",
+            "ch": 60
+        },
+        {
+            "nome": "TCC",
+            "ch": 60
+        }
+    ]
+}

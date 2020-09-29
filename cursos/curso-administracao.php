@@ -20,7 +20,7 @@
             <strong>Modalidade: </strong>Semipresencial<br/> 
           </p> 
           <p class="situacao"><strong>Situação: </strong> 
-            <br><strong>Sem previsão de nova reoferta.</strong> 
+            <br><strong>Sem previsão de nova oferta.</strong> 
           </p> 
         </div> 
       </div> 
@@ -43,13 +43,13 @@
           </ul> 
         </div> 
  
-        <h4>Contato</h4> 
+        <!-- <h4>Contato</h4>  -->
  
-        <p class="contato-curso"> 
+        <!-- <p class="contato-curso"> 
           <strong>Fulano de Tal</strong><br/> 
           <mail>email</mail> 
           <span><i class="fas fa-phone"></i>(27) 4009-2091</span> 
-        </p> 
+        </p>  -->
  
       </aside> 
  
@@ -61,330 +61,71 @@
         <p>Como profissionais com responsabilidades sociais e competência técnica, pretende-se que os egressos do Curso possuam conhecimentos que os habilitem ao exercício de suas atividades com consciência de sua atuação política como mediadores dos conflitos sociais contemporâneos. </p>
         <p>Além disso, pretende-se que eles consigam desenvolver habilidades como comunicação interpessoal e expressão adequada em documentos técnicos e científicos; de intervenção criativa nas questões organizacionais apresentadas; de compreensão do todo organizacional e sua relação com o meio ambiente; de desenvolvimento de estratégias adequadas de atuação; de estabelecimento de alternativas segundo prioridades diferenciadas; de conhecimento e adoção de modelos inovadores de gestão; e outras habilidades que os capacitem ao exercício profissional com competência, responsabilidade social e consciência crítica, aliadas à compreensão da necessidade de seu contínuo aperfeiçoamento profissional e intelectual.</p>
 
-        <p>A. Internalização de valores de responsabilidade social, justiça e ética profissional.O Departamento está fortalecendo linhas de pesquisa que chamam os alunos à internalização desses valores por meio da elaboração de Trabalhos de Conclusão de Curso que contemplem temas a eles pertinentes. Assim, além da abordagem em sala de aula, os TCC’s revelam a estratégia adotada por meio do número de alunos que manifestaram interesse em desenvolver suas pesquisas dentro dessa temática, incluindo a responsabilidade social.</p> 
+        <ol type="A">
 
-        <p>B. Sólida formação humanística e visão global que o habilite a compreender o meio social, político, econômico e cultural em que está inserido e a tomar decisões em um mundo diversificado e interdependente.</p>
+        <li>Internalização de valores de responsabilidade social, justiça e ética profissional.O Departamento está fortalecendo linhas de pesquisa que chamam os alunos à internalização desses valores por meio da elaboração de Trabalhos de Conclusão de Curso que contemplem temas a eles pertinentes. Assim, além da abordagem em sala de aula, os TCC’s revelam a estratégia adotada por meio do número de alunos que manifestaram interesse em desenvolver suas pesquisas dentro dessa temática, incluindo a responsabilidade social.</li> 
 
-        <p>C. Sólida formação técnica e científica para atuar na administração das organizações, além de desenvolver atividades específicas da prática profissional.</p>
+        <li>Sólida formação humanística e visão global que o habilite a compreender o meio social, político, econômico e cultural em que está inserido e a tomar decisões em um mundo diversificado e interdependente.</li>
 
-        <p>D. Competência para empreender, analisando criticamente as organizações, antecipando e promovendo suas transformações.</p>
+        <li>Sólida formação técnica e científica para atuar na administração das organizações, além de desenvolver atividades específicas da prática profissional.</li>
 
-        <p>E. A capacidade de atuar de forma interdisciplinar pode ser vista por meio da própria estrutura do curso, que procura focar o conteúdo do ementário não só na sua finalidade precípua, como também relacionando-o às disciplinas já cursadas mesmo que não seja em nível de pré-requisito, mas de complementação e interdisciplinaridade.</p>  
+        <li>Competência para empreender, analisando criticamente as organizações, antecipando e promovendo suas transformações.</li>
 
-        <p>F. A capacidade de compreensão da necessidade do contínuo aperfeiçoamento profissional e do desenvolvimento da autoconfiança são desafios presentes em todas as disciplinas. Todos os professores procuram, na medida do possível, implementar um processo de avaliação que contemple apresentações de pesquisas realizadas em ambientes organizacionais diversos, de modo geral, onde os alunos já trabalham ou estagiam, a fim de propiciar a oportunidade de desenvolver a confiança sobre o domínio de determinado tema e das relações de trabalho com o grupo, com a classe e com o professor.</p>
+        <li>A capacidade de atuar de forma interdisciplinar pode ser vista por meio da própria estrutura do curso, que procura focar o conteúdo do ementário não só na sua finalidade precípua, como também relacionando-o às disciplinas já cursadas mesmo que não seja em nível de pré-requisito, mas de complementação e interdisciplinaridade.</li>  
+
+        <li>A capacidade de compreensão da necessidade do contínuo aperfeiçoamento profissional e do desenvolvimento da autoconfiança são desafios presentes em todas as disciplinas. Todos os professores procuram, na medida do possível, implementar um processo de avaliação que contemple apresentações de pesquisas realizadas em ambientes organizacionais diversos, de modo geral, onde os alunos já trabalham ou estagiam, a fim de propiciar a oportunidade de desenvolver a confiança sobre o domínio de determinado tema e das relações de trabalho com o grupo, com a classe e com o professor.</li>
          
+        </ol>
  
         <h2 id='curriculo'>Grade curricular</h2> 
         <p>Carga horária mínima de integralização curricular: 3280 horas</p> 
  
-        <ul class="matriz"> 
+        <ul id="matriz"> 
 
-          <li class='semestre'> 
-            <button class='ativo'><h3>1° semestre</h3></button> 
-            <ul style='display: block;'> 
- 
-              <div class="rotulos-matriz"> 
-                <div>Disciplina</div> 
-                <div> 
-                  <span class="desktop">Carga horária</span> 
-                  <span class="mobile">C. hr.</span> 
-                </div> 
-              </div> 
- 
-              <li> 
-                <div>Educação a Distância</div> 
-                <div>60h</div> 
-              </li> 
-              <li> 
-                <div>Administração (Introdução e teorias)</div> 
-                <div>120h</div> 
-              </li> 
-              <li> 
-                <div>Ciência Política</div> 
-                <div>60h</div> 
-              </li> 
-              <li> 
-                <div>Seminário Temático Presencial I: Sociologia</div> 
-                <div>90h</div> 
-              </li> 
+          <!-- Importando json -->
+          <?php $json = file_get_contents('grades/grade-administracao.json', true); $grade = json_decode($json); ?>
 
-            </ul> 
-          </li> <!-- 1o semestre --> 
+            <!-- Loop pelos módulos -->
+            <?php foreach($grade as $modulo => $disciplinas) { ?>
+            
+            <li class='semestre'> 
+              <button><h3><?php $modulo = str_replace('_', ' ', $modulo); echo $modulo; ?></h3></button> 
+              <ul> 
 
-          <li class='semestre'> 
-            <button><h3>2° semestre</h3></button> 
-            <ul> 
- 
-              <div class="rotulos-matriz"> 
-                <div>Disciplina</div> 
-                <div> 
-                  <span class="desktop">Carga horária</span> 
-                  <span class="mobile">C. hr.</span> 
-                </div> 
-              </div> 
- 
-              <li> 
-                <div>Organização Sistemas e Métodos</div> 
-                <div>60h</div> 
-              </li> 
-              <li> 
-                <div>Processo Decisório</div> 
-                <div>60h</div> 
-              </li> 
-              <li> 
-                <div>Matemática</div> 
-                <div>120h</div> 
-              </li> 
-              <li> 
-                <div>Seminário Temático Presencial II: Filosofia</div> 
-                <div>90h</div> 
-              </li> 
-                     
-            </ul> 
-          </li> <!-- 2o semestre --> 
+                <div class="rotulos-matriz"> 
+                  <div>Disciplina</div> 
+                  <!-- <div>Ementa</div>  -->
+                  <div> 
+                    <span class="desktop">Carga horária</span> 
+                    <span class="mobile">C. hr.</span> 
+                  </div> 
+                </div>
 
-          <li class='semestre'> 
-            <button><h3>3° semestre</h3></button> 
-            <ul> 
- 
-              <div class="rotulos-matriz"> 
-                <div>Disciplina</div> 
-                <div> 
-                  <span class="desktop">Carga horária</span> 
-                  <span class="mobile">C. hr.</span> 
-                </div> 
-              </div> 
- 
-              <li> 
-                <div>Direito Administrativo</div> 
-                <div>60h</div> 
-              </li> 
-              <li> 
-                <div>Contabilidade (Geral e Gerencial)</div> 
-                <div>120h</div> 
-              </li> 
-              <li> 
-                <div>Economia (Introdução)</div> 
-                <div>60h</div> 
-              </li> 
-              <li> 
-                <div>Seminário Temático Presencial III: Psicologia</div> 
-                <div>90h</div> 
-              </li> 
-                     
-            </ul> 
-          </li> <!-- 3o semestre --> 
+                <!-- Loop pelas disciplinas -->
+                <?php foreach ( $disciplinas as $d ){ ?>
 
-          <li class='semestre'> 
-            <button><h3>4° semestre</h3></button> 
-            <ul> 
- 
-              <div class="rotulos-matriz"> 
-                <div>Disciplina</div> 
-                <div> 
-                  <span class="desktop">Carga horária</span> 
-                  <span class="mobile">C. hr.</span> 
-                </div> 
-              </div> 
- 
-              <li> 
-                <div>Estatística Aplicada à Administração</div> 
-                <div>60h</div> 
-              </li> 
-              <li> 
-                <div>Sistemas de Informação</div> 
-                <div>60h</div> 
-              </li> 
-              <li> 
-                <div>Matemática Financeira</div> 
-                <div>60h</div> 
-              </li> 
-              <li> 
-                <div>Administração Pública</div> 
-                <div>60h</div> 
-              </li> 
-              <li> 
-                <div>Seminário Temático Presencial IV: Antropologia</div> 
-                <div>90h</div> 
-              </li> 
-                     
-            </ul> 
-          </li> <!-- 4o semestre --> 
-          
-          <li class='semestre'> 
-            <button><h3>5° semestre</h3></button> 
-            <ul> 
- 
-              <div class="rotulos-matriz"> 
-                <div>Disciplina</div> 
-                <div> 
-                  <span class="desktop">Carga horária</span> 
-                  <span class="mobile">C. hr.</span> 
-                </div> 
-              </div> 
- 
-              <li> 
-                <div>Economia (Micro e Macroeconomia)</div> 
-                <div>90h</div> 
-              </li> 
-              <li> 
-                <div>Planejamento (Teoria e Modelos)</div> 
-                <div>60h</div> 
-              </li> 
-              <li> 
-                <div>Administração Financeira e Orçamentária</div> 
-                <div>120h</div> 
-              </li> 
-              <li> 
-                <div>Seminário Temático Presencial V: Responsabilidade Social Corporativa e 3° Setor</div> 
-                <div>90h</div> 
-              </li> 
-                     
-            </ul> 
-          </li> <!-- 5o semestre --> 
+                  <li> 
+                    <div><?php echo $d->nome; ?></div> 
 
-          <li class='semestre'> 
-            <button><h3>6° semestre</h3></button> 
-            <ul> 
- 
-              <div class="rotulos-matriz"> 
-                <div>Disciplina</div> 
-                <div> 
-                  <span class="desktop">Carga horária</span> 
-                  <span class="mobile">C. hr.</span> 
-                </div> 
-              </div> 
- 
-              <li> 
-                <div>Gestão de Pessoas</div> 
-                <div>120h</div> 
-              </li> 
-              <li> 
-                <div>Marketing</div> 
-                <div>120h</div> 
-              </li> 
-              <li> 
-                <div>Seminário Temático Presencial VI: Gestão ambiental e Sustentabilidade</div> 
-                <div>90h</div> 
-              </li> 
-                     
-            </ul> 
-          </li> <!-- 6o semestre --> 
+                    <?php if ( isset( $d->arquivo ) ){ ?>
 
-          <li class='semestre'> 
-            <button><h3>7° semestre</h3></button> 
-            <ul> 
- 
-              <div class="rotulos-matriz"> 
-                <div>Disciplina</div> 
-                <div> 
-                  <span class="desktop">Carga horária</span> 
-                  <span class="mobile">C. hr.</span> 
-                </div> 
-              </div> 
- 
-              <li> 
-                <div>Pesquisa Operacional</div> 
-                <div>120h</div> 
-              </li> 
-              <li> 
-                <div>Direito (Tributário e Comercial)</div> 
-                <div>120h</div> 
-              </li> 
-              <li> 
-                <div>Seminário Temático Presencial VII: Comércio exterior</div> 
-                <div>90h</div> 
-              </li> 
-                     
-            </ul> 
-          </li> <!-- 7o semestre --> 
+                      <div> 
+                        <a href="/arquivos/administracao/<?php echo $d->arquivo; ?>" target="_blank" title='Abrir documento em nova aba'> 
+                          <i class="far fa-file-pdf"></i>PDF 
+                          <span class="somente-leitura">Programa da disciplina <?php echo $d->nome; ?></span> 
+                      </a> 
+                      </div> 
+                    <?php } ?>
 
-          <li class='semestre'> 
-            <button><h3>8° semestre</h3></button> 
-            <ul> 
- 
-              <div class="rotulos-matriz"> 
-                <div>Disciplina</div> 
-                <div> 
-                  <span class="desktop">Carga horária</span> 
-                  <span class="mobile">C. hr.</span> 
-                </div> 
-              </div> 
- 
-              <li> 
-                <div>Operações Logísticas</div> 
-                <div>120h</div> 
-              </li> 
-              <li> 
-                <div>Finanças Públicas</div> 
-                <div>60h</div> 
-              </li> 
-              <li> 
-                <div>Seminário Temático Presencial VIII: Tecnologia e Inovação</div> 
-                <div>90h</div> 
-              </li> 
-                     
-            </ul> 
-          </li> <!-- 8o semestre --> 
+                    <div><?php echo $d->ch; ?>h</div> 
+                  </li> 
 
-          <li class='semestre'> 
-            <button><h3>9° semestre</h3></button> 
-            <ul> 
- 
-              <div class="rotulos-matriz"> 
-                <div>Disciplina</div> 
-                <div> 
-                  <span class="desktop">Carga horária</span> 
-                  <span class="mobile">C. hr.</span> 
-                </div> 
-              </div> 
- 
-              <li> 
-                <div>Empreendedorismo</div> 
-                <div>60h</div> 
-              </li> 
-              <li> 
-                <div>Teoria dos Jogos</div> 
-                <div>60h</div> 
-              </li> 
-              <li> 
-                <div>Elaboração e Administração de Projetos</div> 
-                <div>60h</div> 
-              </li> 
-              <li> 
-                <div>Seminário Temático Presencial IX: Tópicos emergentes</div> 
-                <div>90h</div> 
-              </li> 
-                     
-            </ul> 
-          </li> <!-- 9o semestre --> 
+                <?php } ?> <!-- Fim do Loop pelas disciplinas -->
 
-          <li class='semestre'> 
-            <button><h3>Disciplinas Complementares</h3></button> 
-            <ul> 
- 
-              <div class="rotulos-matriz"> 
-                <div>Disciplina</div> 
-                <div> 
-                  <span class="desktop">Carga horária</span> 
-                  <span class="mobile">C. hr.</span> 
-                </div> 
-              </div> 
- 
-              <li> 
-                <div>Informática Básica</div> 
-                <div>60h</div> 
-              </li> 
-              <li> 
-                <div>Metodologia da Pesquisa</div> 
-                <div>60h</div> 
-              </li> 
-              <li> 
-                <div>TCC</div> 
-                <div>60h</div> 
-              </li> 
-            </ul> 
-          </li> <!-- Disciplinas Complementares --> 
+              </ul> 
+            </li>
+
+            <?php } ?> <!-- Fim do Loop pelos módulos -->
 
         </ul> 
  
