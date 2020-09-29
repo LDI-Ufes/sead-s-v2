@@ -100,10 +100,6 @@
         }
 
         li {
-          &:first-child {
-            margin-right: 1.5rem;
-          }
-
           color: white;
           font-size: 1.2rem;
           display: inline-block;
@@ -315,6 +311,12 @@
           .box-titulo {
             border-top: 5rem solid $laranja-principal;
             border-left: 25px solid transparent;
+          }
+
+          li{
+            &:first-child {
+              margin-right: 1.5rem;
+            }
           }
         }
       }

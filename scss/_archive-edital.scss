@@ -198,10 +198,12 @@
             background-color: $azul-extra-claro;
             border: solid 0.5px $azul-principal;
             border-top: none;
-            width: calc(100% - 1.2rem);
+            width: calc(100% - 1.2rem - 1px);
             margin-left: -.5px;
             padding-bottom: .5rem;
             z-index: 1;
+
+            li{ font-size: 1rem;}
           }
           
           &#limpar{
