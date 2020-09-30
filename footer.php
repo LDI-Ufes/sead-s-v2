@@ -40,7 +40,7 @@
     <section>
       <h4>Fale conosco</h4>
       <p>Telefone: (27) 4009-2208</p>
-      <p>E-mail: <a href="mailto: diretoria.sead@institucional.ufes.br">diretoria.sead@ufes.br</a></p>
+      <p>E-mail: <a href="mailto: informacao.sead@ufes.br">informacao.sead@ufes.br</a></p>
       <p style="margin-top: .5rem;">Av. Fernando Ferrari, 514, Vitória - ES <br> Térreo do Teatro Universitário - Ufes Campus Goiabeiras</p>
       <p class="enderecoLink">
         <span>
