@@ -36,7 +36,7 @@
       <?php include 'components/barra-brasil.php' ?> 
  
       <div id="topoPrincipal" class="topo"> 
-        <section class="caixa"> 
+        <section class="container"> 
           <a class="marca" href="<?php echo site_url(); ?>" title="Ir para início do sítio"> 
              <?php include 'svg/sead-ufes-extenso.svg'; ?> 
           </a> 

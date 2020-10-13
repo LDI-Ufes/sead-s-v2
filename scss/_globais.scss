@@ -34,14 +34,19 @@ ul {
 } 
 
 .container { 
-  width: calc(100% - 3rem); 
-  padding: 0; 
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 0.625rem; 
   margin: 0 auto; 
   max-width: 1140px;  
- 
-  @media screen and (min-width: 760px) { 
-    width: calc(100% - 4rem); 
-  } 
+
+  @media (min-width: 768px) {
+    padding: 0 2rem;
+  }
+
+  @media (min-width: 1180px) {
+    padding: 0 1.25rem;
+  }
 } 
 
 .container-texto{
