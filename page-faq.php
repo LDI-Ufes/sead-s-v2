@@ -32,9 +32,9 @@
 
 <script>
   $('button').click(function () {
-    $(this).toggleClass('ativo');
+    $(this).parent().toggleClass('ativo');
     $(this).siblings().slideToggle();
-    $('button').not($(this)).removeClass('ativo').siblings().slideUp();
+    $('button').not($(this)).siblings().slideUp().parent().removeClass('ativo');
   });
 
 </script>
