@@ -5,7 +5,7 @@
 
 <div id='barraAuxiliar'> 
    
-  <section class='caixa'> 
+  <section class='container'> 
     <section id="ufes"> 
     <a href="http://www.ufes.br" target="_blank" title="Abrir Portal Ufes em nova aba"><img alt="" src="<?php echo get_template_directory_uri(); ?>/svg/marca-ufes.svg"><span>Universidade Federal do Espírito Santo</span></a> 
   </section> 
