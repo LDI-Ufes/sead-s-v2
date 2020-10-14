@@ -1,0 +1,243 @@
+{
+    "1°_Semestre": [
+        {
+            "nome": "As novas tecnologias e a formação do professor na modalidade semipresencial ",
+            "arquivo": "As-novas-tecnologias-e-a-formacao-do-professor-na-modalidade-semipresencial.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Cor e Laboratório de Tintas e Materiais",
+            "arquivo": "Cor-e-Laboratorio-de-Tintas-e-Materiais.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Linguagem Gráfica",
+            "arquivo": "Linguagem-Grafica.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Oficina de Arte e Educação I",
+            "arquivo": "Oficina-de-Arte-e-Educacao-I.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Propostas Metodológicas do Ensino da Arte I",
+            "arquivo": "Propostas-Metodologicas-do-Ensino-da-Arte-I.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Seminário I",
+            "arquivo": "Seminario-I.pdf",
+            "ch": 60
+        }
+    ],
+    "2°_Semestre": [
+        {
+            "nome": "História da Arte I",
+            "arquivo": "Historia-da-Arte-I.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Percepção e Composição",
+            "arquivo": "Percepcao-e-Composicao.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Propostas Metodológicas do Ensino da Arte II",
+            "arquivo": "Propostas-Metodologicas-para-o-Ensino-da-Arte-II.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Introdução às Linguagens Espaciais",
+            "arquivo": "Introducao-as-Linguagens-Espaciais.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Desenho I",
+            "arquivo": "Desenho-I.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Interações Culturais",
+            "arquivo": "Interacoes-Culturais.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Seminário II",
+            "arquivo": "Seminario-II.pdf",
+            "ch": 60
+        }
+    ],
+    "3°_Semestre": [
+        {
+            "nome": "Seminário III",
+            "arquivo": "Seminario-III.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Pesquisa em educação das Artes Visuais",
+            "arquivo": "Pesquisa-em-Educacao-das-Artes-Visuais.pdf",
+            "ch": 90
+        },
+        {
+            "nome": "Artes da Fibra",
+            "arquivo": "Artes-da-Fibra.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Antropologia Visual",
+            "arquivo": "Antropologia-Visual.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Aspectos Legais do Ensino da Arte",
+            "arquivo": "Aspectos-Legais-do-Ensino-da-Arte.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "História da Arte II",
+            "arquivo": "Historia-da-Arte-II.pdf",
+            "ch": 60
+        }
+    ],
+    "4°_Semestre": [
+        {
+            "nome": "Desenho II",
+            "arquivo": "Desenho-II.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Didática do Ensino da Arte",
+            "arquivo": "Didatica-do-Ensino-da-Arte.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Sintaxe Visual",
+            "arquivo": "Sintaxe-Visual.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "História da Arte III",
+            "arquivo": "Historia-da-Arte-III.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Fotografia",
+            "arquivo": "Fotografia.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Cerâmica",
+            "arquivo": "Ceramica.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Seminário IV",
+            "arquivo": "Seminario-IV.pdf",
+            "ch": 60
+        }
+    ],
+    "5°_Semestre": [
+        {
+            "nome": "Filosofia da Arte",
+            "arquivo": "Filosofia-da-Arte.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Arte Contemporânea",
+            "arquivo": "Arte-Contemporanea.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Vídeo",
+            "arquivo": "Video.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Estágio Supervisionado na Educação Infantil",
+            "arquivo": "Estagio-Supervisionado-na-Educacao-Infantil.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Oficina de Arte e Educação II",
+            "arquivo": "Oficina-de-Arte-e-Educacao-II.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Seminário V",
+            "arquivo": "Seminario-V.pdf",
+            "ch": 60
+        }
+    ],
+    "6°_Semestre": [
+        {
+            "nome": "Pintura",
+            "arquivo": "Pintura.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Processo de criação",
+            "arquivo": "Processo-de-Criacao.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Teorias da Linguagem Visual",
+            "arquivo": "Teorias-da-Linguagem-Visual.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Estágio Supervisionado no Ensino Fundamental",
+            "arquivo": "Estagio-Supervisionado-no-Ensino-Fundamental.pdf",
+            "ch": 150
+        },
+        {
+            "nome": "Educação não Escolar em Artes Visuais I",
+            "arquivo": "Educacao-nao-escolar-em-Artes-Visuais-I.pdf",
+            "ch": 105
+        }
+    ],
+    "7°_Semestre": [
+        {
+            "nome": "Trabalho de Graduação I",
+            "arquivo": "Trabalho-de-Graduacao-I.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Escultura",
+            "arquivo": "Escultura.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Gravura",
+            "arquivo": "Gravura.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Poéticas digitais",
+            "arquivo": "Poeticas-Digitais.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Estágio Supervisionado no Ensino Médio",
+            "arquivo": "Estagio-Supervisionado-no-Ensino-Medio.pdf",
+            "ch": 150
+        }
+    ],
+    "8°_Semestre": [
+        {
+            "nome": "Educação não Escolar em Artes Visuais II",
+            "arquivo": "Educacao-nao-escolar-em-Artes-II.pdf",
+            "ch": 105
+        },
+        {
+            "nome": "Libras",
+            "arquivo": "Libras.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Trabalho de Graduação II",
+            "arquivo": "Trabalho-de-Graduacao-II.pdf",
+            "ch": 100
+        }
+    ]
+}
