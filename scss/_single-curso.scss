@@ -51,14 +51,6 @@
       @media (min-width: 864px) {
         font-size: 4rem;
       }
-
-      // span{
-      //   color: $azul-medio;
-      //   display: block;
-      //   font-weight: $light;
-      //   font-size: 1rem;
-      //   margin-bottom: .2rem;
-      // }
     }
 
     p {
@@ -147,13 +139,17 @@
       color: rgba(black, 0.8);
     }
 
-      ul.lista-conteudo{
+      .lista-conteudo{
+        padding: 0;
+
         li{
+          list-style-position: inside;
           font-weight: $light;
-          list-style: disc inside;
           margin-bottom: 1rem;
         }
       }
+
+      ul.lista-conteudo li{ list-style-type: circle; }
 
     #matriz {
       .semestre {
@@ -309,7 +305,6 @@
       .professor {
         font-size: 1rem;
         color: rgba(black, 0.8);
-        display: flex;
         margin-bottom: 1.2rem;
 
         span {

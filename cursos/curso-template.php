@@ -51,7 +51,6 @@
     <section id='conteudo-curso' class='container colunas'> 
  
       <aside class="coluna2"> 
-        <!-- <button id='dropdown-menu'>Menu<i class='fas fa-angle-down'></i></button> --> 
          
         <div class='menu'> 
           <h4>Navegue</h4> 
@@ -82,61 +81,51 @@
         <h2 id='curriculo'>Grade curricular</h2> 
         <p>Carga horária mínima de integralização curricular: 3280 horas</p> 
  
-        <ul class="matriz"> 
+        <ul id="matriz"> 
+          <!-- Importando json -->
+          <?php $json = file_get_contents('grades/grade-artes-visuais.json', true); $grade = json_decode($json); ?>
 
-          <li class='semestre'> 
-            <button class='ativo'><h3>1° semestre</h3></button> 
-            <ul style='display: block;'> 
- 
-              <div class="rotulos-matriz"> 
-                <div>Disciplina</div> 
-                <div>Ementa</div> 
-                <div> 
-                  <span class="desktop">Carga horária</span> 
-                  <span class="mobile">C. hr.</span> 
-                </div> 
-              </div> 
- 
-              <li> 
-                <div>Nome</div> 
-                <div> 
-                  <a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/nome.pdf" target="_blank" title='Abrir documento em nova aba'> 
-                    <i class="far fa-file-pdf"></i>PDF 
-                    <span class="somente-leitura">Programa da disciplina Nome</span> 
-                </a> 
-                </div> 
-                <div>60h</div> 
-              </li> 
+            <!-- Loop pelos módulos -->
+            <?php foreach($grade as $modulo => $disciplinas) { ?>
+            
+            <li class='semestre'> 
+              <button><h3><?php $modulo = str_replace('_', ' ', $modulo); echo $modulo; ?></h3></button> 
+              <ul> 
 
-            </ul> 
-          </li> <!-- 1o semestre --> 
+                <div class="rotulos-matriz"> 
+                  <div>Disciplina</div> 
+                  <div>Ementa</div> 
+                  <div> 
+                    <span class="desktop">Carga horária</span> 
+                    <span class="mobile">C. hr.</span> 
+                  </div> 
+                </div>
 
-          <li class='semestre'> 
-            <button><h3>2° semestre</h3></button> 
-            <ul> 
- 
-              <div class="rotulos-matriz"> 
-                <div>Disciplina</div> 
-                <div>Ementa</div> 
-                <div> 
-                  <span class="desktop">Carga horária</span> 
-                  <span class="mobile">C. hr.</span> 
-                </div> 
-              </div> 
- 
-              <li> 
-                <div>Nome</div> 
-                <div> 
-                  <a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes-visuais/nome.pdf" target="_blank" title='Abrir documento em nova aba'> 
-                    <i class="far fa-file-pdf"></i>PDF 
-                    <span class="somente-leitura">Programa da disciplina Nome</span> 
-                </a> 
-                </div> 
-                <div>60h</div> 
-              </li> 
-                     
-            </ul> 
-          </li> <!-- 2o semestre --> 
+                <!-- Loop pelas disciplinas -->
+                <?php foreach ( $disciplinas as $d ){ ?>
+
+                  <li> 
+                    <div><?php echo $d->nome; ?></div> 
+
+                    <?php if ( isset( $d->arquivo ) ){ ?>
+
+                      <div> 
+                        <a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes/<?php echo $d->arquivo; ?>" target="_blank" title='Abrir documento em nova aba'> 
+                          <i class="far fa-file-pdf"></i>PDF 
+                          <span class="somente-leitura">Programa da disciplina <?php echo $d->nome; ?></span> 
+                      </a> 
+                      </div> 
+                    <?php } ?>
+
+                    <div><?php echo $d->ch; ?>h</div> 
+                  </li> 
+
+                <?php } ?> <!-- Fim do Loop pelas disciplinas -->
+
+              </ul> 
+            </li>
+
+            <?php } ?> <!-- Fim do Loop pelos módulos -->
 
         </ul> 
  
@@ -160,29 +149,13 @@
         </div> 
  
         <ul class="docentes"> 
+
           <li class="professor"> 
             <a href="" target="_blank" title="Abrir perfil na plataforma Lattes em nova aba"> 
-              <div class="perfil-docente">
-              </div> 
-              <div> 
-                <span>Nome</span> 
-                Doutorado 
-              </div> 
+              <span>Nome</span> 
+              Doutorado 
             </a> 
           </li> 
- 
-          <li class="professor"> 
-            <a title="Abrir perfil na plataforma Lattes em nova aba" href="" target="_blank"> 
-              <div class="perfil-docente"> 
-                <img src=""/> 
-              </div> 
-              <div> 
-                <span>Nome</span> 
-                Doutorado 
-              </div> 
-            </a> 
-          </li> 
- 
         </ul> 
  
         <h2 id='ofertas-anteriores'>Ofertas do curso</h2> 

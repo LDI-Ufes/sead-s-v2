@@ -34,6 +34,12 @@
           </a> 
         </li> 
         <li> 
+          <a class="card-curso" title="Ir para a página do curso" href="<?php echo site_url(); ?>/cursos/biblioteconomia"> 
+            <div class="card-capa"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/biblioteconomia.jpg"></div> 
+            <h3 class="titulo">Biblioteconomia<span class="nivel">Licenciatura</span></h3> 
+          </a> 
+        </li> 
+        <li> 
           <a class="card-curso" title="Ir para a página do curso" href="<?php echo site_url(); ?>/cursos/ciencias-biologicas"> 
             <div class="card-capa"><img src="<?php echo get_template_directory_uri(); ?>/img/capas/biologia.jpg"></div> 
             <h3 class="titulo">Ciências Biológicas<span class="nivel">Licenciatura</span></h3> 

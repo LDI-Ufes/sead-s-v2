@@ -110,7 +110,7 @@
                     <?php if ( isset( $d->arquivo ) ){ ?>
 
                       <div> 
-                        <a href="/arquivos/administracao/<?php echo $d->arquivo; ?>" target="_blank" title='Abrir documento em nova aba'> 
+                        <a href="<?php echo get_template_directory_uri(); ?>/arquivos/administracao/<?php echo $d->arquivo; ?>" target="_blank" title='Abrir documento em nova aba'> 
                           <i class="far fa-file-pdf"></i>PDF 
                           <span class="somente-leitura">Programa da disciplina <?php echo $d->nome; ?></span> 
                       </a> 

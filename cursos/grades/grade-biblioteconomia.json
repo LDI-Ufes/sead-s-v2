@@ -1,0 +1,250 @@
+{
+    "1°_Semestre": [
+        {
+            "nome": "Biblioteconomia e Interdisciplinaridade",
+            "ch": 30
+        },
+        {
+            "nome": "Biblioteconomia e Sociedade",
+            "ch": 60
+        },
+        {
+            "nome": "Introdução à Educação a Distância",
+            "ch": 30
+        },
+        {
+            "nome": "Introdução à Filosofia",
+            "ch": 30
+        },
+        {
+            "nome": "Introdução às Tecnologias de Informação e Comunicação",
+            "ch": 60
+        },
+        {
+            "nome": "Língua Portuguesa",
+            "ch": 30
+        },
+        {
+            "nome": "Sociologia Geral",
+            "ch": 30
+        },
+        {
+            "nome": "Optativa (a)",
+            "ch": 30
+        }
+    ],
+    "2°_Semestre": [
+        {
+            "nome": "Ambientes, Serviços e Sistemas Informacionais",
+            "ch": 60
+        },
+        {
+            "nome": "Fontes de Informação I",
+            "ch": 60
+        },
+        {
+            "nome": "Informação, Comunicação e Documento",
+            "ch": 60
+        },
+        {
+            "nome": "Inglês Instrumental",
+            "ch": 30
+        },
+        {
+            "nome": "Instrumentos de Representação Descritiva da Informação",
+            "ch": 60
+        },
+        {
+            "nome": "Organização do Conhecimento e da Informação",
+            "ch": 30
+        },
+        {
+            "nome": "Optativa (b)",
+            "ch": 30
+        }
+    ],
+    "3°_Semestre": [
+        {
+            "nome": "Análise da Informação",
+            "ch": 30
+        },
+        {
+            "nome": "Bases Teóricas da Administração de Ambientes de Informação",
+            "ch": 30
+        },
+        {
+            "nome": "Editoração Eletrônica",
+            "ch": 60
+        },
+        {
+            "nome": "Fontes de Informação II",
+            "ch": 60
+        },
+        {
+            "nome": "Instrumentos de Representação Temática da Informação I",
+            "ch": 60
+        },
+        {
+            "nome": "Normalização Documental",
+            "ch": 60
+        },
+        {
+            "nome": "Optativa (c)",
+            "ch": 30
+        }
+    ],
+    "4°_Semestre": [
+        {
+            "nome": "Dinâmica Organizacional",
+            "ch": 30
+        },
+        {
+            "nome": "Estatística",
+            "ch": 45
+        },
+        {
+            "nome": "Instrumentos de Representação Temática da Informação II",
+            "ch": 60
+        },
+        {
+            "nome": "Formação e Desenvolvimento de Coleções",
+            "ch": 60
+        },
+        {
+            "nome": "Organização, Sistemas e Métodos Aplicados a Ambientes de Informação",
+            "ch": 60
+        },
+        {
+            "nome": "Processos e Produtos de Representação Descritiva da Informação",
+            "ch": 60
+        },
+        {
+            "nome": "Optativa (d)",
+            "ch": 30
+        }
+    ],
+    "5°_Semestre": [
+        {
+            "nome": "Educação de Usuários",
+            "ch": 60
+        },
+        {
+            "nome": "Metodologia da Pesquisa Científica I",
+            "ch": 60
+        },
+        {
+            "nome": "Planejamento de Ambientes de Informação",
+            "ch": 60
+        },
+        {
+            "nome": "Processos e Produtos de Representação Temática da Informação",
+            "ch": 60
+        },
+        {
+            "nome": "Serviço de Referência e Informação",
+            "ch": 60
+        },
+        {
+            "nome": "Optativa (e)",
+            "ch": 30
+        },
+        {
+            "nome": "Estágio Supervisionado I",
+            "ch": 60
+        }
+    ],
+    "6°_Semestre": [
+        {
+            "nome": "Informatização de Ambientes de Informação",
+            "ch": 45
+        },
+        {
+            "nome": "Marketing em Ambientes de Informação",
+            "ch": 30
+        },
+        {
+            "nome": "Metodologia da Pesquisa Científica II",
+            "ch": 60
+        },
+        {
+            "nome": "Políticas de Informação",
+            "ch": 30
+        },
+        {
+            "nome": "Políticas de Organização e Representação da Informação",
+            "ch": 30
+        },
+        {
+            "nome": "Recuperação da Informação",
+            "ch": 30
+        },
+        {
+            "nome": "Redes de Computadores",
+            "ch": 45
+        },
+        {
+            "nome": "Optativa (f)",
+            "ch": 30
+        },
+        {
+            "nome": "Estágio Supervisionado II",
+            "ch": 60
+        }
+    ],
+    "7°_Semestre": [
+        {
+            "nome": "Bibliotecas Digitais",
+            "ch": 60
+        },
+        {
+            "nome": "Leitura e Ação Cultural",
+            "ch": 60
+        },
+        {
+            "nome": "Métodos Quantitativos, Qualitativos e Mistos de Pesquisa",
+            "ch": 60
+        },
+        {
+            "nome": "Trabalho de Conclusão de Curso (TCC) I",
+            "ch": 60
+        },
+        {
+            "nome": "Seminário Temático I",
+            "ch": 60
+        },
+        {
+            "nome": "Estágio Supervisionado III",
+            "ch": 60
+        }
+    ],
+    "8°_Semestre": [
+        {
+            "nome": "Bibliotecário: formação e campo de atuação profissional",
+            "ch": 60
+        },
+        {
+            "nome": "Gestão da Informação e do Conhecimento",
+            "ch": 45
+        },
+        {
+            "nome": "Planejamento e Elaboração de Bases de Dados",
+            "ch": 30
+        },
+        {
+            "nome": "Serviços de Informação em Rede",
+            "ch": 45
+        },
+        {
+            "nome": "Trabalho de Conclusão de Curso (TCC) II",
+            "ch": 60
+        },
+        {
+            "nome": "Seminário Temático II",
+            "ch": 60
+        },
+        {
+            "nome": "Estágio Supervisionado IV",
+            "ch": 60
+        }
+    ]
+}

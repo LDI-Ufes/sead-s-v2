@@ -31,8 +31,6 @@
     <section id='conteudo-curso' class='container colunas'> 
  
       <aside class="coluna2"> 
-        <!-- <button id='dropdown-menu'>Menu<i class='fas fa-angle-down'></i></button> --> 
-         
         <div class='menu'> 
           <h4>Navegue</h4> 
  
@@ -98,7 +96,7 @@
                     <?php if ( isset( $d->arquivo ) ){ ?>
 
                       <div> 
-                        <a href="/arquivos/artes/<?php echo $d->arquivo; ?>" target="_blank" title='Abrir documento em nova aba'> 
+                        <a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes/<?php echo $d->arquivo; ?>" target="_blank" title='Abrir documento em nova aba'> 
                           <i class="far fa-file-pdf"></i>PDF 
                           <span class="somente-leitura">Programa da disciplina <?php echo $d->nome; ?></span> 
                       </a> 
@@ -386,31 +384,6 @@
     </section> 
  
   </div> 
-<!--  
-  <section id='faq-curso' class="secao-destacada"> 
-    <div class='container'> 
-      <h2 class="titulo-destacado">Perguntas frequentes</h2> 
-        <ul> 
-          <li> 
-            <button><h3>O diploma/certificado EAD é válido?</h3></button> 
-            <p>Todo o material didático é disponibilizado on-line, por meio de recursos multimídia, podcasts, vídeos, videoaulas, animações, objetos de aprendizagem e-books, webconferências, no Ambiente Virtual de Aprendizagem. Caso prefira, é possível realizar a impressão.</p> 
-          </li> 
-          <li> 
-            <button><h3>O diploma/certificado EAD é válido?</h3></button> 
-            <p>Todo o material didático é disponibilizado on-line, por meio de recursos multimídia, podcasts, vídeos, videoaulas, animações, objetos de aprendizagem e-books, webconferências, no Ambiente Virtual de Aprendizagem. Caso prefira, é possível realizar a impressão.</p> 
-          </li> 
-          <li> 
-            <button><h3>O diploma/certificado EAD é válido?</h3></button> 
-            <p>Todo o material didático é disponibilizado on-line, por meio de recursos multimídia, podcasts, vídeos, videoaulas, animações, objetos de aprendizagem e-books, webconferências, no Ambiente Virtual de Aprendizagem. Caso prefira, é possível realizar a impressão.</p> 
-          </li> 
-          <li> 
-            <button><h3>O diploma/certificado EAD é válido?</h3></button> 
-            <p>Todo o material didático é disponibilizado on-line, por meio de recursos multimídia, podcasts, vídeos, videoaulas, animações, objetos de aprendizagem e-books, webconferências, no Ambiente Virtual de Aprendizagem. Caso prefira, é possível realizar a impressão.</p> 
-          </li> 
- 
-        </ul> 
-    </div> 
-  </section>  -->
 
   <section id='noticias' class="secao-destacada"> 
     <?php $ultimas_noticias = new WP_Query(array( 

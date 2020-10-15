@@ -10,17 +10,18 @@
  
       <div class="colunas"> 
  
-        <p class='coluna1 objetivo'>O público-alvo do curso Especialização em Ensino de Ciências - Ciência é 10! são professores graduados que estão atuando no sistema público de ensino e ministrando aulas de Ciências no Ensino Fundamental dos anos finais (Fundamental II).</p> 
+      <p class='coluna1 objetivo'>O público-alvo do curso Especialização em Ensino de Ciências - Ciência é 10! são professores graduados que estão atuando no sistema público de ensino e ministrando aulas de Ciências no Ensino Fundamental dos anos finais (Fundamental II).</p>  
  
         <div class="coluna2"> 
           <p> 
-            <strong>Nível: </strong>Especialização<br/> 
+          <strong>Nível: </strong>Especialização<br/> 
             <strong>Duração: </strong>18 meses<br/> 
             <strong>Modalidade: </strong>Semipresencial<br/> 
           </p> 
           <p class="situacao"><strong>Situação: </strong> 
-            <br>Oferta em andamento. 
-            <br><strong>Sem previsão de reoferta.</strong> 
+            <br>Oferta 2014/2 em fase de conclusão. 
+            <br>Aprovado pelo CEPE em 23/07/2014 por meio da Resolução n° 32/2014. 
+            <br><strong>Sem previsão de nova reoferta.</strong> 
           </p> 
         </div> 
       </div> 
@@ -30,9 +31,8 @@
     <section id='conteudo-curso' class='container colunas'> 
  
       <aside class="coluna2"> 
-        <!-- <button id='dropdown-menu'>Menu<i class='fas fa-angle-down'></i></button> --> 
          
-        <!-- <div class='menu'> 
+        <div class='menu'> 
           <h4>Navegue</h4> 
  
           <ul> 
@@ -41,12 +41,12 @@
             <li><a title="Mostrar corpo docente" href='#corpo-docente'>Corpo docente</a></li> 
             <li><a title="Mostrar ofertas do curso" href='#ofertas-anteriores'>Ofertas</a></li> 
           </ul> 
-        </div>  -->
+        </div> 
  
         <h4>Contato</h4> 
  
         <p class="contato-curso"> 
-          <strong>Jaqueline Ferreira Almeida</strong><br/> 
+        <strong>Jaqueline Ferreira Almeida</strong><br/> 
           <mail>ead.ensinodeciencias@ufes.br</mail> 
           <span><i class="fas fa-phone"></i>(27) 4009-2091</span> 
         </p> 
@@ -59,92 +59,59 @@
          
  
         <h2 id='curriculo'>Grade curricular</h2> 
-        <p>
-          Carga horária total: 480h<br>
+        <p>Carga horária total: 480h<br>
           Módulo 1: 150h<br>
           Módulo 2: 240h<br>
-          Módulo 3: 90h
-        </p> 
+          Módulo 3: 90h</p> 
  
-        <ul class="matriz"> 
+        <ul id="matriz"> 
+          <!-- Importando json -->
+          <?php $json = file_get_contents('grades/grade-ciencia-e-10.json', true); $grade = json_decode($json); ?>
 
-          <li class='semestre'> 
-            <button class='ativo'><h3>Módulo 1 - Para perguntar e experimentar, é só começar!</h3></button> 
-            <ul style='display: block;'> 
- 
-              <div class="rotulos-matriz"> 
-                <div>Disciplina</div> 
-                <div> 
-                  <span class="desktop">Carga horária</span> 
-                  <span class="mobile">C. hr.</span> 
-                </div> 
-              </div> 
- 
-              <li> 
-                <div>Uma introdução</div> 
-                <div>30h</div> 
-              </li> 
-              <li> 
-                <div>Começando a experimentar e a pensar no TCC</div> 
-                <div>60h</div> 
-              </li>
-              <li> 
-                <div>Hora de perguntar e propor</div> 
-                <div>30h</div> 
-              </li>
-              <li> 
-                <div>Na sala de aula</div> 
-                <div>30h</div> 
-              </li>
+            <!-- Loop pelos módulos -->
+            <?php foreach($grade as $modulo => $disciplinas) { ?>
+            
+            <li class='semestre'> 
+              <button><h3><?php $modulo = str_replace('_', ' ', $modulo); echo $modulo; ?></h3></button> 
+              <ul> 
 
-            </ul> 
-          </li> <!-- 1o semestre --> 
+                <div class="rotulos-matriz"> 
+                  <div>Disciplina</div> 
+                  <!-- <div>Ementa</div>  -->
+                  <div> 
+                    <span class="desktop">Carga horária</span> 
+                    <span class="mobile">C. hr.</span> 
+                  </div> 
+                </div>
 
-          <li class='semestre'> 
-            <button><h3>Módulo 2 - Para perguntar e responder, melhor saber!</h3></button> 
-            <ul> 
- 
-              <div class="rotulos-matriz"> 
-                <div>Disciplina</div> 
-                <div> 
-                  <span class="desktop">Carga horária</span> 
-                  <span class="mobile">C. hr.</span> 
-                </div> 
-              </div> 
- 
-              <li> 
-                <div>TCC2: Fundamentos do projeto de investigação</div> 
-                <div>120h</div> 
-              </li> 
-              <li> 
-                <div>Investigação para o Ensino de Ciências</div> 
-                <div>120h</div> 
-              </li> 
-                     
-            </ul> 
-          </li> <!-- 2o semestre --> 
+                <!-- Loop pelas disciplinas -->
+                <?php foreach ( $disciplinas as $d ){ ?>
 
-          <li class='semestre'> 
-            <button><h3>Módulo 3 - Se é para experimentar, vamos fazer!</h3></button> 
-            <ul> 
- 
-              <div class="rotulos-matriz"> 
-                <div>Disciplina</div> 
-                <div> 
-                  <span class="desktop">Carga horária</span> 
-                  <span class="mobile">C. hr.</span> 
-                </div> 
-              </div> 
- 
-              <li> 
-                <div>TCC3: Projeto de investigação em sala de aula</div> 
-                <div>90h</div> 
-              </li>                      
-            </ul> 
-          </li> <!-- 3o semestre --> 
+                  <li> 
+                    <div><?php echo $d->nome; ?></div> 
+
+                    <?php if ( isset( $d->arquivo ) ){ ?>
+
+                      <div> 
+                        <a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes/<?php echo $d->arquivo; ?>" target="_blank" title='Abrir documento em nova aba'> 
+                          <i class="far fa-file-pdf"></i>PDF 
+                          <span class="somente-leitura">Programa da disciplina <?php echo $d->nome; ?></span> 
+                      </a> 
+                      </div> 
+                    <?php } ?>
+
+                    <div><?php echo $d->ch; ?>h</div> 
+                  </li> 
+
+                <?php } ?> <!-- Fim do Loop pelas disciplinas -->
+
+              </ul> 
+            </li>
+
+            <?php } ?> <!-- Fim do Loop pelos módulos -->
 
         </ul> 
- 
+  
     </section> 
  
   </div> 
