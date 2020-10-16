@@ -10,7 +10,7 @@
  
       <div class="colunas"> 
  
-        <p class='coluna1 objetivo'></p> 
+        <p class='coluna1 objetivo'>A Licenciatura EaD em Biblioteconomia visa contribuir com a formação de um profissional bibliotecário que atenda as demandas da sociedade brasileira. Nessa perspectiva pretende-se que seu egresso atue como mediador da informação, do conhecimento e da cultura, promovendo a democratização do acesso e da produção de saberes no seu contexto social.</p> 
  
         <div class="coluna2"> 
           <p> 
@@ -21,7 +21,7 @@
           </p> 
 
           <p class="situacao"><strong>Situação: </strong> 
-            <br><strong>Oferta 2020 em andamento.</strong> 
+            <br><strong>Oferta 2020 aberta.</strong> 
           </p> 
         </div> 
       </div> 
