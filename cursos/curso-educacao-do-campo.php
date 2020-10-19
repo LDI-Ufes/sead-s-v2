@@ -36,6 +36,7 @@
           <ul> 
             <li><a title="Mostrar currículo" href='#curriculo'>Grade curricular</a></li> 
             <li><a title="Mostrar corpo docente" href='#corpo-docente'>Corpo docente</a></li> 
+            <li><a href='#ofertas-anteriores' alt="Mostrar ofertas do curso">Ofertas</a></li>
           </ul> 
         </div> 
 
