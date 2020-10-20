@@ -130,6 +130,22 @@ ul.lista-cursos {
       width: 100%; 
       box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.05); 
       overflow: hidden; 
+
+      .card-etiqueta{
+        display: inline-block;
+        position: absolute;
+        background-color: white;
+        color: $azul-principal;
+        right: .75rem;
+        top: .75rem;
+        border-radius: 2px;
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+        font-size: 14px;
+        font-weight: $medium;
+        padding: .2rem .4rem;
+        line-height: 1;
+        z-index: 2;
+      }
  
       .card-capa { 
         display: block; 
@@ -143,6 +159,7 @@ ul.lista-cursos {
           object-fit: cover; 
           object-position: center; 
           width: 100%; 
+          height: 100%;
         } 
       } 
  

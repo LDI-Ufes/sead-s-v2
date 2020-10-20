@@ -89,7 +89,7 @@ function create_post_type()
       'menu_icon' => 'dashicons-book',
       'supports' => array(
         'title',
-        'editor'
+        'thumbnail'
       ),
       'rewrite' => array(
         'slug' => 'cursos',
@@ -156,6 +156,40 @@ function create_galeria_tax()
             )
     );
 }
+
+add_action('init', 'create_curso_tax');
+
+function create_curso_tax()
+{
+    register_taxonomy(
+        'situacao',
+        'cursos',
+        array(
+        'label' => __('Situação'),
+        'rewrite' => array('slug' => 'situacao'),
+        'hierarchical' => true,
+            )
+    );
+    register_taxonomy(
+      'tipo',
+      'cursos',
+      array(
+      'label' => __('Tipo'),
+      'rewrite' => array('slug' => 'tipo'),
+      'hierarchical' => true,
+          )
+    );
+    register_taxonomy(
+      'habilitacao',
+      'cursos',
+      array(
+      'label' => __('Habilitação'),
+      'rewrite' => array('slug' => 'habilitacao'),
+      'hierarchical' => true,
+          )
+  );
+}
+
 
 add_action('init', 'create_noticia_tax');
 

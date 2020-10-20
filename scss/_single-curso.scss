@@ -1,14 +1,19 @@
 .curso {
   padding-bottom: 0;
 
-  .destaque {
-    @include destaque($azul-escuro, $azul-escuro-transparencia);
+  .curso-destaque {
     border-bottom: solid 20px $laranja-principal;
+    height: 35vh;
+    max-height: 545px;
+    overflow: hidden;
+    position: relative;
+    background-image: linear-gradient($azul-escuro, $azul-escuro-transparencia);
 
     img {
       width: 100%;
       height: 100%;
       object-fit: cover;
+      opacity: .8;
     }
   }
 

@@ -1,6 +1,6 @@
 <main class='page curso' id="conteudoPrincipal">
 
-  <section class="destaque destaque-imagem" style="background-image: linear-gradient(#043166, rgba(4, 49, 102, 0.3)), url('<?php echo get_template_directory_uri()?>/img/capas/nome.jpg')"></section>
+  <section class="curso-destaque"><?php the_post_thumbnail() ?></section>
 
   <section id='info-curso'> 
     <div class="container"> 
@@ -46,11 +46,18 @@
  
  
         <h2 id='curriculo'>Grade curricular</h2> 
-        <p>Carga horária total: 180 horas</p> 
+        <p>Carga horária total: 180 horas</p> <br/>
  
         <ul id="matriz"> 
             <li class='semestre'> 
-              <ul> 
+              <ul style='display: block;'>
+                <div class="rotulos-matriz"> 
+                  <div>Módulo</div> 
+                  <div> 
+                    <span class="desktop">Carga horária</span> 
+                    <span class="mobile">C. hr.</span> 
+                  </div> 
+                </div>
                   <li> 
                     <div>Módulo 1 - Conceitual EAD e Ferramenta Moodle</div> 
                     <div>20h</div> 

@@ -70,6 +70,30 @@ Version: 2.0
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Merriweather Regular"), local("Merriweather-Regular"), url("fonts/merriweather-v22-latin-regular.woff2") format("woff2"), url("fonts/merriweather-v22-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Merriweather Bold"), local("Merriweather-Bold"), url("fonts/merriweather-v22-latin-700.woff2") format("woff2"), url("fonts/merriweather-v22-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Merriweather Bold Italic"), local("Merriweather-BoldItalic"), url("fonts/merriweather-v22-latin-700italic.woff2") format("woff2"), url("fonts/merriweather-v22-latin-700italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -87,7 +111,7 @@ button {
   font-weight: inherit;
 }
 
-.inicio #banner .container a, .inicio #polos a, .page-blog a[role="button"], .page-galeria #eventos li .imagens .abrirTodas, .single-edital .secao-edital#inscricao a[role="button"], #selecao2019-1 #como-funciona button, #selecao2019-1 #conheca-os-cursos #lista-cursos #botoes-curso > button, #selecao2019-1 #conheca-os-cursos #lista-cursos #polos-do-curso ul a {
+.inicio #banner .container a, .inicio #polos a, .page-blog a[role="button"], .page-galeria #eventos li .imagens .abrirTodas, .single-edital .secao-edital#inscricao a[role="button"] {
   background-color: #c75000;
   text-transform: uppercase;
   color: white;
@@ -98,7 +122,7 @@ button {
   cursor: pointer;
 }
 
-.inicio #banner .container a:hover, .inicio #polos a:hover, .page-blog a:hover[role="button"], .page-galeria #eventos li .imagens .abrirTodas:hover, .single-edital .secao-edital#inscricao a:hover[role="button"], #selecao2019-1 #como-funciona button:hover, #selecao2019-1 #conheca-os-cursos #lista-cursos #botoes-curso > button:hover, #selecao2019-1 #conheca-os-cursos #lista-cursos #polos-do-curso ul a:hover {
+.inicio #banner .container a:hover, .inicio #polos a:hover, .page-blog a:hover[role="button"], .page-galeria #eventos li .imagens .abrirTodas:hover, .single-edital .secao-edital#inscricao a:hover[role="button"] {
   background-color: #b24800;
 }
 
@@ -144,15 +168,22 @@ ul {
 }
 
 .container {
-  width: calc(100% - 3rem);
-  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 0.625rem;
   margin: 0 auto;
   max-width: 1140px;
 }
 
-@media screen and (min-width: 760px) {
+@media (min-width: 768px) {
   .container {
-    width: calc(100% - 4rem);
+    padding: 0 2rem;
+  }
+}
+
+@media (min-width: 1180px) {
+  .container {
+    padding: 0 1.25rem;
   }
 }
 
@@ -242,24 +273,19 @@ ul {
 }
 
 .mapaES #comPolos a .geografia {
-  fill: #cfeaff;
+  fill: #CFEAFF;
 }
 
 .mapaES #comPolos a:hover .geografia {
-  fill: #ffa161;
+  fill: #FFB481;
 }
 
 .mapaES #comPolos a .geografia.selecionado {
-  fill: #ffa161;
+  fill: #FFB481;
 }
 
 a[target='_blank'] i.fa-external-link-alt {
   font-size: 0.8em;
-}
-
-section.caixa {
-  margin: 0 auto;
-  width: 1140px;
 }
 
 header {
@@ -316,11 +342,10 @@ header .atalhos-navegacao .atalho-navegacao > span {
   left: 0;
 }
 
-header #barraAuxiliar .caixa,
-header .topo .caixa {
-  display: inline-flex;
+header #barraAuxiliar .container,
+header .topo .container {
+  display: flex;
   flex-wrap: wrap;
-  max-width: 100%;
 }
 
 header #barra-brasil {
@@ -336,49 +361,40 @@ header #barraAuxiliar {
   z-index: 2;
 }
 
-header #barraAuxiliar .caixa {
+header #barraAuxiliar .container {
   display: inline-flex;
   justify-content: flex-end;
   align-items: center;
   color: white;
   position: relative;
+  padding: 0;
 }
 
-header #barraAuxiliar .caixa #ufes {
+header #barraAuxiliar .container #ufes {
   flex-grow: 10;
 }
 
-header #barraAuxiliar .caixa #ufes a:hover span {
+header #barraAuxiliar .container #ufes a:hover span {
   border-bottom-width: 2px;
   border-bottom-style: solid;
   border-bottom-color: #f06c00;
+  margin-bottom: -2px;
 }
 
-header #barraAuxiliar .caixa #ufes img {
+header #barraAuxiliar .container #ufes img {
   height: 18px;
-  margin-left: 8px;
+  padding-left: 1rem;
   vertical-align: middle;
 }
 
-header #barraAuxiliar .caixa #ufes span {
+header #barraAuxiliar .container #ufes span {
   margin-left: 5px;
   padding: 0.3em;
-}
-
-@media screen and (max-width: 992px) {
-  header #barraAuxiliar .caixa #ufes {
-    position: absolute;
-    left: 0;
-    top: .6rem;
-  }
-  header #barraAuxiliar .caixa #ufes span {
-    display: none;
-  }
+  display: none;
 }
 
 header #barraAuxiliar .btoMenu {
-  padding: 10px;
-  width: 100vw;
+  padding: 0.75rem 1rem;
   text-align: right;
 }
 
@@ -391,7 +407,7 @@ header #barraAuxiliar .btoMenu i.fas.expandido:before {
   content: "\f077";
 }
 
-header form {
+header #formPesquisa {
   flex-grow: 10;
   display: flex;
   justify-content: flex-end;
@@ -401,7 +417,8 @@ header .topo {
   order: 3;
 }
 
-header .topo .caixa {
+header .topo .container {
+  padding: 0;
   justify-content: space-between;
 }
 
@@ -411,42 +428,166 @@ header .topo .marca {
   justify-content: center;
 }
 
-@media screen and (min-width: 865px) {
-  header #barraAuxiliar .btoMenu,
-  header .topo .btoMenu {
-    display: none;
-  }
-  header form {
-    flex-grow: 0;
-  }
-  header form .botaoFalso {
-    padding: 10px 25px;
-  }
-  header #topoPrincipal #menuPrincipal {
-    flex-grow: 10;
-    display: flex;
-    justify-content: flex-end;
-  }
-  header #topoPrincipal #menuPrincipal > ul > li {
-    height: calc(100px - 2.4rem);
-  }
-  header #topoPrincipal #menuPrincipal > ul > li#espaco {
-    width: 13rem;
-  }
-  header .topo {
-    display: inline-flex;
-    position: relative;
-    height: 100px;
+@media screen and (max-width: 1179px) {
+  header nav.menu {
+    width: 100vw;
     padding: 0 20px;
-    background-color: #1765ab;
+    box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.25);
+    text-align: right;
   }
-  header .topo .caixa {
-    display: inline-flex;
-    justify-content: space-between;
+  header nav.menu ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transform: translateY(-100vh);
+    z-index: -1;
+  }
+  header nav.menu ul.menuAberto {
+    position: relative;
+    padding: 20px 0;
+    transform: translateY(0) !important;
+    z-index: 0;
+  }
+  header nav.menu li {
+    line-height: 2em;
+  }
+  header nav.menu li ul {
+    margin: 0 -20px 10px -20px;
+    padding: 0 20px;
+  }
+  header nav.menu .temSubmenu .menuSuspenso {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transform: translateX(-100%);
+    z-index: -1;
+  }
+  header nav.menu .temSubmenu .menuSuspenso .temSubmenu .menuSuspenso {
+    padding: 0;
+  }
+  header nav.menu .submenuAberto > span i.fas:before, header nav.menu .menuSuspensoAtivo > span i.fas:before {
+    content: "\f077";
+  }
+  header nav.menu .submenuAberto > .menuSuspenso, header nav.menu .menuSuspensoAtivo > .menuSuspenso {
+    position: relative;
+    left: 0;
+    z-index: 100;
+    transform: translateX(0);
+    z-index: 0;
   }
 }
 
-@media screen and (max-width: 864px) {
+header .barra-ufes {
+  background: #053C7B;
+  order: 2;
+  z-index: 2;
+}
+
+header .barra-ufes .container {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .barra-ufes .nav-menu {
+  width: 100%;
+}
+
+header .barra-ufes .nav-menu a:hover {
+  border-bottom: 1px solid #f06c00;
+}
+
+header .barra-ufes .nav-logo {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 14px;
+}
+
+header .barra-ufes .nav-logo span {
+  display: none;
+}
+
+header .barra-ufes .nav-logo > img {
+  height: 18px;
+  margin-right: 6px;
+}
+
+header .barra-ufes .nav-logo:hover > span {
+  border-bottom: 1px solid #f06c00;
+  margin-bottom: -1px;
+}
+
+header .barra-ufes .btn-menu {
+  padding: 10px 0;
+  margin-right: 20px;
+  box-shadow: none;
+  border: none;
+  background: none;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+header .barra-ufes .menu-lista {
+  padding: 12px 0;
+  box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.16);
+  list-style: none;
+  margin: 0;
+  width: 100%;
+  display: none;
+  text-align: right;
+}
+
+header .barra-ufes .menu-lista.menu-aberto {
+  display: block;
+}
+
+header .barra-ufes .menu-lista > li {
+  color: #fff;
+  display: block;
+  position: relative;
+  padding: 6px 20px;
+  text-decoration: none;
+  transition-duration: 0.5s;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+header .barra-ufes .menu-lista > li a,
+header .barra-ufes .menu-lista > li span {
+  color: white;
+  padding: 0.15em;
+  cursor: pointer;
+}
+
+header .barra-ufes .menu-lista li .dropdown {
+  margin-top: 0.4rem;
+  position: relative;
+  flex-flow: column;
+  text-align: right;
+  display: none;
+}
+
+header .barra-ufes .menu-lista li .dropdown li {
+  line-height: 1.5em;
+  text-transform: none;
+  padding: 0.4rem 0;
+}
+
+header .barra-ufes .menu-lista li.submenu-ativo > ul {
+  display: block;
+}
+
+@media screen and (max-width: 1179px) {
+  header #topoPrincipal .container {
+    padding: 0;
+  }
   header #topoPrincipal #menuPrincipal {
     order: 4;
   }
@@ -464,29 +605,30 @@ header .topo .marca {
     text-decoration: none;
     color: white;
   }
-  header .topo .caixa svg,
-  header .topo .caixa .btoMenu {
+  header .topo .container svg,
+  header .topo .container .btoMenu {
     margin: 10px;
     z-index: 1;
   }
-  header .topo .caixa svg {
+  header .topo .container svg {
     width: auto;
     height: 40px;
     padding: 5px 0;
     margin-right: -5rem !important;
-    margin-left: 10px !important;
+    margin-left: 1rem !important;
   }
-  header .topo .caixa svg .assinatura {
+  header .topo .container svg .assinatura {
     display: none;
   }
-  header .topo .caixa .btoMenu {
+  header .topo .container .btoMenu {
     padding: 10px;
+    padding-right: 16px;
     line-height: 30px;
     text-transform: uppercase;
     font-weight: 500;
     margin: 10px 0;
   }
-  header .topo .caixa .btoMenu i {
+  header .topo .container .btoMenu i {
     font-size: .9rem;
   }
   header .btoMenu {
@@ -545,9 +687,52 @@ nav.menu .menuLista li.temSubmenu a:hover {
   border-width: 1px;
 }
 
-@media screen and (min-width: 993px) {
+@media screen and (min-width: 1179px) {
+  header #barraAuxiliar .container #ufes img {
+    padding-left: 0;
+  }
+  header #barraAuxiliar .container #ufes span {
+    display: inline-flex;
+  }
+  header #barraAuxiliar .btoMenu,
+  header .topo .btoMenu {
+    display: none;
+  }
+  header #formPesquisa {
+    flex-grow: 0;
+  }
+  header #formPesquisa .botaoFalso {
+    padding: 10px 25px;
+    margin-right: -25px;
+  }
+  header #topoPrincipal #menuPrincipal {
+    flex-grow: 10;
+    display: flex;
+    justify-content: flex-end;
+  }
+  header #topoPrincipal #menuPrincipal > ul > li {
+    height: calc(100px - 2.4rem);
+  }
+  header #topoPrincipal #menuPrincipal > ul > li#espaco {
+    width: 13rem;
+  }
+  header .topo {
+    position: relative;
+    display: inline-flex;
+    height: 100px;
+    background-color: #1765ab;
+  }
+  header .topo .container {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1179px) {
   #barraAuxiliar ul.menuLista > li {
     padding: 0.4rem 0.6rem;
+  }
+  #barraAuxiliar ul.menuLista > li.temSubmenu {
+    margin-right: -0.6rem;
   }
   #barraAuxiliar ul.menuLista > li.temSubmenu .menuSuspenso {
     right: -9999px;
@@ -569,7 +754,7 @@ nav.menu .menuLista li.temSubmenu a:hover {
     left: -9999px;
   }
   .topo ul.menuLista > li.temSubmenu:hover > ul.menuSuspenso, .topo ul.menuLista > li.temSubmenu.menuSuspensoAtivo > ul.menuSuspenso {
-    left: 0;
+    left: -23px;
   }
   nav.menu {
     display: inline-flex;
@@ -625,265 +810,25 @@ nav.menu .menuLista li.temSubmenu a:hover {
   }
 }
 
-@media screen and (max-width: 992px) {
-  nav.menu {
-    width: 100vw;
-    padding: 0 20px;
-    box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.25);
-    text-align: right;
-  }
-  nav.menu ul {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    transform: translateY(-100vh);
-    z-index: -1;
-  }
-  nav.menu ul.menuAberto {
-    position: relative;
-    padding: 20px 0;
-    transform: translateY(0) !important;
-    z-index: 0;
-  }
-  nav.menu li {
-    line-height: 2em;
-  }
-  nav.menu li ul {
-    margin: 0 -20px 10px -20px;
-    padding: 0 20px;
-  }
-  nav.menu .temSubmenu .menuSuspenso {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    transform: translateX(-100%);
-    z-index: -1;
-  }
-  nav.menu .temSubmenu .menuSuspenso .temSubmenu .menuSuspenso {
-    padding: 0;
-  }
-  nav.menu .submenuAberto > span i.fas:before, nav.menu .menuSuspensoAtivo > span i.fas:before {
-    content: "\f077";
-  }
-  nav.menu .submenuAberto > .menuSuspenso, nav.menu .menuSuspensoAtivo > .menuSuspenso {
-    position: relative;
-    left: 0;
-    z-index: 100;
-    transform: translateX(0);
-    z-index: 0;
-  }
-}
-
-.barra-ufes {
-  background: #053C7B;
-  order: 2;
-  z-index: 2;
-}
-
-.barra-ufes .container {
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.barra-ufes .nav-menu {
-  width: 100%;
-}
-
-.barra-ufes .nav-menu a:hover {
-  border-bottom: 1px solid #f06c00;
-}
-
-.barra-ufes .nav-logo {
-  margin-left: 20px;
-  display: flex;
-  align-items: center;
-  color: white;
-  font-size: 14px;
-}
-
-.barra-ufes .nav-logo span {
-  display: none;
-}
-
-.barra-ufes .nav-logo > img {
-  height: 18px;
-  margin-right: 6px;
-}
-
-.barra-ufes .nav-logo:hover > span {
-  border-bottom: 1px solid #f06c00;
-  margin-bottom: -1px;
-}
-
-.barra-ufes .btn-menu {
-  padding: 10px 0;
-  margin-right: 20px;
-  box-shadow: none;
-  border: none;
-  background: none;
-  color: white;
-  font-size: 14px;
-  cursor: pointer;
-}
-
-.barra-ufes .menu-lista {
-  padding: 12px 0;
-  box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.16);
-  list-style: none;
-  margin: 0;
-  width: 100%;
-  display: none;
-  text-align: right;
-}
-
-.barra-ufes .menu-lista.menu-aberto {
-  display: block;
-}
-
-.barra-ufes .menu-lista > li {
-  color: #fff;
-  display: block;
-  position: relative;
-  padding: 6px 20px;
-  text-decoration: none;
-  transition-duration: 0.5s;
-  text-transform: uppercase;
-  font-size: 14px;
-}
-
-.barra-ufes .menu-lista > li a,
-.barra-ufes .menu-lista > li span {
-  color: white;
-  padding: 0.15em;
-  cursor: pointer;
-}
-
-.barra-ufes .menu-lista li .dropdown {
-  margin-top: 0.4rem;
-  position: relative;
-  flex-flow: column;
-  text-align: right;
-  display: none;
-}
-
-.barra-ufes .menu-lista li .dropdown li {
-  line-height: 1.5em;
-  text-transform: none;
-  padding: 0.4rem 0;
-}
-
-.barra-ufes .menu-lista li.submenu-ativo > ul {
-  display: block;
-}
-
-@media only screen and (min-width: 864px) {
-  .barra-ufes .nav-logo span {
-    display: block;
-  }
-  .barra-ufes .btn-menu {
-    display: none;
-  }
-  .barra-ufes .nav-menu {
-    width: auto;
-  }
-  .barra-ufes .menu-lista {
-    padding: 0;
-    box-shadow: none;
-    margin: 0;
-    margin-right: 32px;
-    display: flex;
-  }
-  .barra-ufes .menu-lista.menu-aberto {
-    display: flex;
-  }
-  .barra-ufes .menu-lista > li {
-    padding: 0.6rem 0rem 0.6rem 0.6rem;
-  }
-  .barra-ufes .menu-lista li .dropdown {
-    background: #053C7B;
-    position: absolute;
-    width: 240px;
-    flex-flow: column;
-    right: 9999px;
-    display: block;
-    text-align: right;
-    padding: 4px 12px;
-  }
-  .barra-ufes .menu-lista li .dropdown li {
-    line-height: 1.5em;
-    text-transform: none;
-  }
-  .barra-ufes .menu-lista li:hover > ul,
-  .barra-ufes .menu-lista li.menu-ativo > ul,
-  .barra-ufes .menu-lista li .dropdown:hover {
-    right: 0;
-  }
-}
-
-@media only screen and (max-width: 864px) {
-  .menu-lista li.submenu-ativo > ul {
-    display: block;
-  }
-}
-
-@media only screen and (min-width: 1140px) {
-  .barra-ufes .nav-logo {
-    margin-left: 20px;
-  }
-  .barra-ufes .menu-lista {
-    margin-right: 20px;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  .barra-ufes .nav-logo {
-    margin-left: 0px;
-  }
-  .barra-ufes .menu-lista {
-    margin-right: 0px;
-  }
-}
-
 footer {
   background-color: #043166;
   color: white;
   font-weight: 300;
   line-height: 1.7;
+  padding-top: 2rem;
 }
 
-footer #voltar-ao-topo {
-  display: none;
-  position: fixed;
-  bottom: 1rem;
-  right: 1rem;
-  padding: .3rem 0.8rem;
-  z-index: 1;
-  background-color: black;
-  opacity: .5;
-  color: white;
-  cursor: pointer;
-}
-
-footer .container {
-  padding: 2rem 0rem;
-}
-
-footer .container section {
+footer section {
   display: inline-block;
   width: 100%;
 }
 
-footer .container section h4 {
+footer section h4 {
   font-size: 1.2rem;
   font-weight: 600;
 }
 
-footer .container section h4:after {
+footer section h4:after {
   content: "";
   display: block;
   height: 2px;
@@ -892,47 +837,58 @@ footer .container section h4:after {
   margin-top: 0.4rem;
 }
 
-footer .container section p {
+footer section p {
   margin: 0;
 }
 
-footer .container section a {
+footer section a {
   border-bottom: solid 0.5px transparent;
 }
 
-footer .container section a:hover {
+footer section a:hover {
   border-color: #f06c00;
 }
 
-footer .container section .subitens {
+footer section .subitens {
   margin-left: 1rem;
 }
 
-footer .container section .enderecoLink {
+@media screen and (min-width: 760px) {
+  footer section {
+    vertical-align: top;
+    width: calc(50% - 0.7rem);
+    max-width: 514px;
+  }
+  footer section:nth-child(even) {
+    float: right;
+  }
+}
+
+.enderecoLink {
   display: flex;
   flex-direction: column;
   margin-top: 0.25em;
   margin-bottom: 1.5rem;
 }
 
-footer .container section .enderecoLink > span {
+.enderecoLink > span {
   display: inline-flex;
 }
 
-footer .container section .enderecoLink > span:first-child {
+.enderecoLink > span:first-child {
   margin-bottom: 0.25em;
 }
 
-footer .container section .enderecoLink > span a {
+.enderecoLink > span a {
   display: inline-flex;
 }
 
-footer .container section .enderecoLink > span img {
+.enderecoLink > span img {
   margin-right: 0.5em;
   height: 1.5rem;
 }
 
-footer .creditos {
+.creditos {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -942,9 +898,10 @@ footer .creditos {
   background-color: #c75000;
   text-align: center;
   color: white;
+  margin-top: 2rem;
 }
 
-footer .creditos p {
+.creditos p {
   margin: 0;
   display: inline-block;
   font-size: 0.8rem;
@@ -953,28 +910,38 @@ footer .creditos p {
   height: inherit;
 }
 
-footer .creditos p span {
+.creditos p span {
   display: none;
 }
 
-footer .creditos p span a:hover {
+.creditos p span a:hover {
   text-decoration: underline;
 }
 
 @media screen and (min-width: 992px) {
-  footer #voltar-ao-topo {
+  .creditos p span {
+    display: inline-block;
+  }
+}
+
+#voltar-ao-topo {
+  display: none;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  padding: 0.3rem 0.8rem;
+  z-index: 1;
+  background-color: black;
+  opacity: 0.5;
+  color: white;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+@media screen and (min-width: 992px) {
+  #voltar-ao-topo {
     bottom: 1.5rem;
     right: 1.5rem;
-  }
-  footer .container section {
-    width: calc(50% - 0.7rem);
-    vertical-align: top;
-  }
-  footer .container section:nth-child(even) {
-    float: right;
-  }
-  footer .creditos p span {
-    display: inline-block;
   }
 }
 
@@ -1284,10 +1251,6 @@ footer .creditos p span a:hover {
   padding: 0.5rem 0;
 }
 
-.inicio #quer-ser .container #quer-ser-itens li:first-child {
-  margin-right: 1.5rem;
-}
-
 .inicio #quer-ser .container #quer-ser-itens li i {
   padding-left: 0.5rem;
 }
@@ -1488,6 +1451,9 @@ footer .creditos p span a:hover {
   .inicio #quer-ser .container #quer-ser-itens .box-titulo {
     border-top: 5rem solid #f06c00;
     border-left: 25px solid transparent;
+  }
+  .inicio #quer-ser .container #quer-ser-itens li:first-child {
+    margin-right: 1.5rem;
   }
 }
 
@@ -1744,7 +1710,7 @@ footer .creditos p span a:hover {
 }
 
 .page-blog #posts .blog-post p {
-  font-family: "Fira Sans", sans;
+  font-family: "Fira Sans", sans-serif;
   font-weight: 300;
   line-height: 1.5;
   margin: 1rem 1.5rem;
@@ -1857,7 +1823,7 @@ footer .creditos p span a:hover {
 }
 
 .page-blog #galeria {
-  background-color: #ffdcc5;
+  background-color: #FFF5EE;
   margin-top: 5rem;
   padding-top: 2rem;
   padding-bottom: 5rem;
@@ -2051,7 +2017,7 @@ footer .creditos p span a:hover {
 }
 
 .page-editais #filtros #seletores {
-  border: solid 0.5px #cfeaff;
+  border: solid 0.5px #CFEAFF;
 }
 
 .page-editais #filtros #seletores button#exibe-seletores {
@@ -2136,7 +2102,7 @@ footer .creditos p span a:hover {
   font-weight: 400;
   text-transform: uppercase;
   color: #1765ab;
-  border-top: solid 0.5px #cfeaff;
+  border-top: solid 0.5px #CFEAFF;
 }
 
 .page-editais #filtros #seletores .seletor#limpar button:hover {
@@ -2151,7 +2117,7 @@ footer .creditos p span a:hover {
 .page-editais #editais {
   width: 100%;
   font-weight: 300;
-  border-bottom: 1px solid #cfeaff;
+  border-bottom: 1px solid #CFEAFF;
   margin-bottom: 3rem;
 }
 
@@ -2162,7 +2128,7 @@ footer .creditos p span a:hover {
 .page-editais #editais li {
   display: flex;
   flex-direction: column;
-  border-top: 1px solid #cfeaff;
+  border-top: 1px solid #CFEAFF;
   position: relative;
   margin-bottom: 1.2rem;
 }
@@ -2223,10 +2189,13 @@ footer .creditos p span a:hover {
     background-color: #edf9ff;
     border: solid 0.5px #1765ab;
     border-top: none;
-    width: calc(100% - 1.2rem);
+    width: calc(100% - 1.2rem - 1px);
     margin-left: -.5px;
     padding-bottom: .5rem;
     z-index: 1;
+  }
+  .page-editais #filtros #seletores .seletor ul li {
+    font-size: 1rem;
   }
   .page-editais #filtros #seletores .seletor#limpar button {
     border-top: none;
@@ -2431,6 +2400,9 @@ footer .creditos p span a:hover {
   .page-galeria {
     /*padding-top: 8rem;*/
   }
+  .page-galeria #filtros span, .page-galeria #filtros a {
+    font-size: 1.125rem;
+  }
   .page-galeria #filtros span {
     display: inline-block;
     padding-bottom: 0;
@@ -2590,6 +2562,22 @@ ul.lista-cursos li .card-curso {
   overflow: hidden;
 }
 
+ul.lista-cursos li .card-curso .card-etiqueta {
+  display: inline-block;
+  position: absolute;
+  background-color: white;
+  color: #1765ab;
+  right: .75rem;
+  top: .75rem;
+  border-radius: 2px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  font-weight: 500;
+  padding: .2rem .4rem;
+  line-height: 1;
+  z-index: 2;
+}
+
 ul.lista-cursos li .card-curso .card-capa {
   display: block;
   overflow: hidden;
@@ -2603,6 +2591,7 @@ ul.lista-cursos li .card-curso .card-capa > img {
   object-fit: cover;
   object-position: center;
   width: 100%;
+  height: 100%;
 }
 
 ul.lista-cursos li .card-curso .titulo {
@@ -2651,21 +2640,21 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
   }
 }
 
-.page p {
+.page p, .page ol {
   font-weight: 300;
   max-width: 720px;
 }
 
-.page p a {
+.page p a, .page ol a {
   font-style: italic;
   color: #c75000;
 }
 
-.page p a:hover {
+.page p a:hover, .page ol a:hover {
   border-bottom: 1px solid #c75000;
 }
 
-.page p a.bold {
+.page p a.bold, .page ol a.bold {
   font-weight: 600;
 }
 
@@ -2992,7 +2981,7 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
   line-height: 2.2;
 }
 
-.ead-na-ufes .acordeao button.acordeao-expandido:before {
+.ead-na-ufes .acordeao .acordeao-item.expandido button:before {
   content: "\f068";
 }
 
@@ -3004,11 +2993,17 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
   font-weight: 300;
 }
 
+.ead-na-ufes .slider {
+  padding: 3rem 0;
+}
+
 .ead-na-ufes .slider .slick-slide {
+  display: block;
   font-weight: 300;
-  padding: 0 4rem;
+  padding: 0 1.5rem;
   padding-top: 3rem;
   text-align: center;
+  opacity: 1;
 }
 
 .ead-na-ufes .slider .slick-slide svg {
@@ -3016,8 +3011,6 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
 }
 
 .ead-na-ufes .slider .slick-slide .grupo h2 {
-  font-weight: 300;
-  font-style: italic;
   color: #1765ab;
   line-height: 1.3;
   margin-bottom: 1.5rem;
@@ -3027,41 +3020,65 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
 @media (min-width: 864px) {
   .ead-na-ufes .slider .slick-slide {
     margin: 2rem 0;
-    padding: 0 6rem;
+    padding: 0rem;
     padding-top: 3rem;
     text-align: left;
     display: flex;
     justify-content: center;
   }
+  .ead-na-ufes .slider .slick-slide .slide {
+    width: 720px !important;
+    display: flex !important;
+    flex-flow: row;
+    justify-content: space-between;
+  }
   .ead-na-ufes .slider .slick-slide svg {
     margin-top: 1rem;
     flex-grow: 1;
-    height: auto;
-    max-height: 10rem;
-    max-width: 10rem;
+    max-width: 120px;
   }
   .ead-na-ufes .slider .slick-slide .grupo {
-    max-width: 600px;
-    margin-left: 3rem;
+    width: 100%;
+    max-width: 540px;
   }
-}
-
-.faq {
-  /* ul */
 }
 
 .faq ul {
-  /* li */
+  margin-top: 3rem;
 }
 
 .faq ul li {
-  margin: 1.5rem 0;
+  margin: 1.5rem 0 !important;
+  margin-left: 24px !important;
+  width: calc(100% - 24px);
+  position: relative;
+}
+
+.faq ul li:before {
+  content: "\f067";
+  font-family: "Font Awesome 5 Free";
+  color: #f06c00;
+  font-size: 1rem;
+  padding-right: 0.5rem;
+  font-weight: 700;
+  line-height: 2;
+  left: -24px;
+  position: absolute;
+}
+
+.faq ul li.ativo:before {
+  content: "\f068";
+}
+
+.faq ul li.ativo h2 {
+  font-weight: 700;
 }
 
 .faq ul li button {
   background: none;
   border: none;
   text-align: left;
+  padding: 0;
 }
 
 .faq ul li button:hover {
@@ -3070,15 +3087,6 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
 
 .faq ul li button:hover > h2 {
   border-bottom: 2px solid #f06c00;
-}
-
-.faq ul li button:before {
-  content: "\f067";
-  font-family: "Font Awesome 5 Free";
-  color: #f06c00;
-  font-size: 1rem;
-  padding-right: 0.6rem;
-  font-weight: 700;
 }
 
 .faq ul li button h2 {
@@ -3091,16 +3099,9 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
   display: inline;
 }
 
-.faq ul li button.ativo:before {
-  content: "\f068";
-}
-
-.faq ul li button.ativo h2 {
-  font-weight: 700;
-}
-
 .faq ul li p {
   display: none;
+  margin-top: .25em;
 }
 
 .page-polos .container-mapa {
@@ -3151,6 +3152,12 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
   border-bottom: 1px solid #CFEAFF;
 }
 
+@media (min-width: 760px) {
+  .page-polos #lista-polos {
+    width: 88%;
+  }
+}
+
 .page-polos #lista-polos li {
   padding: 0.5rem 0;
 }
@@ -3175,6 +3182,7 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
   padding-top: 1rem;
   padding-left: 1rem;
   margin-bottom: 1.2rem;
+  font-size: 1rem;
 }
 
 .page-polos #lista-polos li .polo-info i {
@@ -3183,7 +3191,7 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
 
 .page-polos #lista-polos li.expandido .polo-titulo {
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: #1765ab;
   margin-top: 0.8rem;
 }
@@ -3367,7 +3375,7 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
   font-size: 1.8rem;
   margin-left: 4rem !important;
   margin-top: 6rem;
-  font-family: "Fira Sans", sans;
+  font-family: "Fira Sans", sans-serif;
   font-style: normal;
   line-height: 1.2;
   position: relative;
@@ -3400,74 +3408,20 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
   /* #noticias */
 }
 
-.curso .destaque {
-  position: relative;
-  height: 65vh;
+.curso .curso-destaque {
+  border-bottom: solid 20px #f06c00;
+  height: 35vh;
   max-height: 545px;
   overflow: hidden;
-  background-image: linear-gradient(#043166, rgba(4, 49, 102, 0.3));
-  background-attachment: scroll, fixed;
-  background-size: cover;
-  background-position: center;
-  margin-top: 0;
-  border-bottom: solid 20px #f06c00;
-}
-
-.curso .destaque:hover {
-  background-image: linear-gradient(#03254d, rgba(4, 49, 102, 0.3));
-}
-
-.curso .destaque.destaque-imagem {
-  height: 35vh;
-}
-
-.curso .destaque.destaque-imagem:hover {
+  position: relative;
   background-image: linear-gradient(#043166, rgba(4, 49, 102, 0.3));
 }
 
-.curso .destaque .titulo {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 6rem 1rem;
-  text-align: center;
-  line-height: 3rem;
-  color: white;
-}
-
-.curso .destaque .titulo h1, .curso .destaque .titulo h2 {
-  color: white;
-}
-
-.curso .destaque .titulo .fas {
-  margin: 0.5rem 0;
-  font-size: 3.875rem;
-}
-
-.curso .destaque video, .curso .destaque img {
-  position: absolute;
-  left: 0;
-  z-index: -1;
-}
-
-.curso .destaque video {
-  background-color: rgba(0, 0, 0, 0);
-}
-
-@media (max-width: 992px) {
-  .curso .destaque {
-    min-height: 35vh;
-  }
-  .curso .destaque .titulo {
-    padding: 3rem 1rem;
-  }
-}
-
-.curso .destaque img {
+.curso .curso-destaque img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  opacity: .8;
 }
 
 @media (min-width: 864px) {
@@ -3485,6 +3439,9 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
     max-width: 267px;
     width: 30%;
     order: 2;
+    position: sticky;
+    top: 2rem;
+    display: inline-table;
   }
 }
 
@@ -3546,6 +3503,7 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
 
 .curso #conteudo-curso aside {
   font-size: 1rem;
+  margin-bottom: 2.5rem;
 }
 
 .curso #conteudo-curso aside h4 {
@@ -3594,7 +3552,21 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
   color: rgba(0, 0, 0, 0.8);
 }
 
-.curso #conteudo-curso .matriz .semestre button {
+.curso #conteudo-curso .lista-conteudo {
+  padding: 0;
+}
+
+.curso #conteudo-curso .lista-conteudo li {
+  list-style-position: inside;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.curso #conteudo-curso ul.lista-conteudo li {
+  list-style-type: circle;
+}
+
+.curso #conteudo-curso #matriz .semestre button {
   background: none;
   border: none;
   text-align: left;
@@ -3603,12 +3575,12 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
   cursor: pointer;
 }
 
-.curso #conteudo-curso .matriz .semestre button h3 {
+.curso #conteudo-curso #matriz .semestre button h3 {
   font-size: 20px;
   margin: 0;
 }
 
-.curso #conteudo-curso .matriz .semestre button h3:before {
+.curso #conteudo-curso #matriz .semestre button h3:before {
   content: "\f067";
   font-family: "Font Awesome 5 Free";
   color: #f06c00;
@@ -3617,48 +3589,48 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
   font-weight: 700;
 }
 
-.curso #conteudo-curso .matriz .semestre button.ativo h3:before {
+.curso #conteudo-curso #matriz .semestre button.ativo h3:before {
   content: "\f068";
 }
 
-.curso #conteudo-curso .matriz .semestre ul {
+.curso #conteudo-curso #matriz .semestre ul {
   display: none;
   margin-bottom: 2rem;
 }
 
-.curso #conteudo-curso .matriz .semestre ul .rotulos-matriz,
-.curso #conteudo-curso .matriz .semestre ul li {
+.curso #conteudo-curso #matriz .semestre ul .rotulos-matriz,
+.curso #conteudo-curso #matriz .semestre ul li {
   display: flex;
   justify-content: stretch;
 }
 
-.curso #conteudo-curso .matriz .semestre ul .rotulos-matriz div,
-.curso #conteudo-curso .matriz .semestre ul li div {
+.curso #conteudo-curso #matriz .semestre ul .rotulos-matriz div,
+.curso #conteudo-curso #matriz .semestre ul li div {
   padding: 0 0.5rem;
   align-self: center;
   text-align: center;
   min-width: 60px;
 }
 
-.curso #conteudo-curso .matriz .semestre ul .rotulos-matriz div:first-of-type,
-.curso #conteudo-curso .matriz .semestre ul li div:first-of-type {
+.curso #conteudo-curso #matriz .semestre ul .rotulos-matriz div:first-of-type,
+.curso #conteudo-curso #matriz .semestre ul li div:first-of-type {
   flex-grow: 1;
   text-align: left;
 }
 
-.curso #conteudo-curso .matriz .semestre ul .rotulos-matriz div:last-of-type,
-.curso #conteudo-curso .matriz .semestre ul li div:last-of-type {
+.curso #conteudo-curso #matriz .semestre ul .rotulos-matriz div:last-of-type,
+.curso #conteudo-curso #matriz .semestre ul li div:last-of-type {
   min-width: 32px;
 }
 
 @media (min-width: 864px) {
-  .curso #conteudo-curso .matriz .semestre ul .rotulos-matriz div:last-of-type,
-  .curso #conteudo-curso .matriz .semestre ul li div:last-of-type {
+  .curso #conteudo-curso #matriz .semestre ul .rotulos-matriz div:last-of-type,
+  .curso #conteudo-curso #matriz .semestre ul li div:last-of-type {
     min-width: 100px;
   }
 }
 
-.curso #conteudo-curso .matriz .semestre ul .rotulos-matriz {
+.curso #conteudo-curso #matriz .semestre ul .rotulos-matriz {
   border-bottom: solid 2px #1765ab;
   border-top: solid 2px #1765ab;
   color: #1765ab;
@@ -3668,24 +3640,24 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
   padding: 0.2rem 0;
 }
 
-.curso #conteudo-curso .matriz .semestre ul .rotulos-matriz div {
+.curso #conteudo-curso #matriz .semestre ul .rotulos-matriz div {
   padding-top: 0.15rem;
 }
 
-.curso #conteudo-curso .matriz .semestre ul .rotulos-matriz .desktop {
+.curso #conteudo-curso #matriz .semestre ul .rotulos-matriz .desktop {
   display: none;
 }
 
 @media (min-width: 864px) {
-  .curso #conteudo-curso .matriz .semestre ul .rotulos-matriz .mobile {
+  .curso #conteudo-curso #matriz .semestre ul .rotulos-matriz .mobile {
     display: none;
   }
-  .curso #conteudo-curso .matriz .semestre ul .rotulos-matriz .desktop {
+  .curso #conteudo-curso #matriz .semestre ul .rotulos-matriz .desktop {
     display: block;
   }
 }
 
-.curso #conteudo-curso .matriz .semestre ul li {
+.curso #conteudo-curso #matriz .semestre ul li {
   font-size: 1rem;
   color: #1765ab;
   border-bottom: solid 0.5px #CFEAFF;
@@ -3694,20 +3666,20 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
   line-height: 1.3;
 }
 
-.curso #conteudo-curso .matriz .semestre ul li span {
+.curso #conteudo-curso #matriz .semestre ul li span {
   font-weight: 300;
 }
 
-.curso #conteudo-curso .matriz .semestre ul li a {
+.curso #conteudo-curso #matriz .semestre ul li a {
   color: #f06c00;
   cursor: pointer;
 }
 
-.curso #conteudo-curso .matriz .semestre ul li a:hover {
+.curso #conteudo-curso #matriz .semestre ul li a:hover {
   color: #c75000;
 }
 
-.curso #conteudo-curso .matriz .semestre ul li a i {
+.curso #conteudo-curso #matriz .semestre ul li a i {
   padding-right: 0.3rem;
   display: inline;
 }
@@ -3744,31 +3716,7 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
 .curso #conteudo-curso .docentes .professor {
   font-size: 1rem;
   color: rgba(0, 0, 0, 0.8);
-  display: flex;
   margin-bottom: 1.2rem;
-}
-
-.curso #conteudo-curso .docentes .professor .perfil-docente {
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
-  margin-right: 1rem;
-  background: url("img/user-professor.png") -1px -1px;
-  background-size: cover;
-  overflow: hidden;
-  padding: 0;
-}
-
-.curso #conteudo-curso .docentes .professor .perfil-docente img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
-.curso #conteudo-curso .docentes .professor div {
-  display: inline-block;
-  vertical-align: top;
-  padding-top: 0.25rem;
 }
 
 .curso #conteudo-curso .docentes .professor span {
@@ -3776,10 +3724,7 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
   font-size: 18px;
   font-weight: 500;
   line-height: 1.2;
-}
-
-.curso #conteudo-curso .docentes .professor a {
-  display: flex;
+  width: 100%;
 }
 
 .curso #conteudo-curso .docentes .professor a span {
@@ -3788,37 +3733,6 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
 
 .curso #conteudo-curso .docentes .professor a:hover span {
   text-decoration: underline;
-}
-
-.curso #conteudo-curso#professores .nome {
-  font-weight: 400;
-  display: inline-block;
-  width: 49%;
-  min-width: 310px;
-  vertical-align: top;
-}
-
-.curso #conteudo-curso#professores .nome span {
-  font-size: 0.9rem;
-  font-style: italic;
-  display: block;
-  line-height: 1.2;
-  font-weight: 300;
-}
-
-.curso #conteudo-curso#professores .nome a {
-  color: black;
-  margin: 0;
-  font-style: normal;
-}
-
-.curso #conteudo-curso#professores .nome a:after {
-  content: url("svg/lattes.svg");
-  margin-left: 0.3rem;
-}
-
-.curso #conteudo-curso#professores .nome a:hover {
-  border-bottom: 0.5px solid #c75000;
 }
 
 .curso #faq-curso {
@@ -4005,7 +3919,7 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
 }
 
 .single-edital .secao-edital {
-  border-top: solid 2px #cfeaff;
+  border-top: solid 2px #CFEAFF;
   margin-top: 4rem;
   /* &#anexos */
 }
@@ -4235,7 +4149,7 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
 .noticia article .post-body .gallery dl .gallery-caption {
   margin-left: 0;
   font-size: .8rem;
-  font-family: "Fira Sans", sans;
+  font-family: "Fira Sans", sans-serif;
   line-height: 1.6;
   margin-bottom: 1rem;
 }
@@ -4317,283 +4231,6 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
   }
   .noticia article .links-compartilhamento a {
     float: right;
-  }
-}
-
-#selecao2019-1 header {
-  background-attachment: scroll, fixed;
-  background-size: cover;
-  background-position: center;
-}
-
-#selecao2019-1 header div.container .caixa {
-  padding: 1rem;
-  margin: 0;
-}
-
-#selecao2019-1 header div.container .caixa .box-marca {
-  position: absolute;
-  left: 0;
-  border-bottom: 5.5rem solid #1765ab;
-  border-left: 0 solid transparent;
-  border-right: 35px solid transparent;
-  width: 75%;
-}
-
-#selecao2019-1 header div.container .caixa a.marca {
-  position: absolute;
-  z-index: 2;
-  margin-top: .7rem;
-}
-
-#selecao2019-1 header div.container .caixa .box-nav {
-  position: absolute;
-  left: 0;
-  border-bottom: 2.5rem solid #043166;
-  border-left: 0 solid transparent;
-  border-right: 16px solid transparent;
-  width: calc(75% + 35px);
-  top: 8.5rem;
-}
-
-#selecao2019-1 header div.container .caixa a.nav {
-  text-transform: uppercase;
-  position: absolute;
-  z-index: 2;
-  margin-top: 6.2rem;
-  font-weight: 500;
-  margin-left: 2.6rem;
-}
-
-#selecao2019-1 header div.container h1 {
-  margin: 0 auto;
-  margin-top: 10rem;
-  width: calc(320px - 2rem);
-}
-
-#selecao2019-1 header div.container h1 .editais {
-  font-weight: 700;
-  font-style: italic;
-  font-size: 2.5rem;
-  display: block;
-}
-
-#selecao2019-1 header div.container h1 .aluno {
-  font-weight: 400;
-  text-align: right;
-  max-width: 130px;
-  font-size: 1.3rem;
-  display: inline-block;
-}
-
-#selecao2019-1 header div.container h1 .ufes {
-  font-family: "Merriweather", serif;
-  font-style: italic;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 3rem;
-  display: inline-block;
-}
-
-#selecao2019-1 section {
-  margin-top: 4rem;
-}
-
-#selecao2019-1 #como-funciona {
-  font-weight: 300;
-  text-align: center;
-}
-
-#selecao2019-1 #como-funciona h2 {
-  text-align: left;
-}
-
-#selecao2019-1 #como-funciona .topico-ead {
-  margin: 1.5rem auto;
-  width: 160px;
-  display: inline-block;
-  vertical-align: top;
-  text-align: center;
-  line-height: 1.5rem;
-}
-
-#selecao2019-1 #como-funciona .topico-ead:not(:first-child) {
-  padding-left: 1.2rem;
-}
-
-#selecao2019-1 #como-funciona .topico-ead figure {
-  width: 100%;
-  margin: 0;
-}
-
-#selecao2019-1 #como-funciona .topico-ead figure svg {
-  height: 72px;
-  width: auto;
-}
-
-#selecao2019-1 #como-funciona .topico-ead figure figcaption {
-  color: #f06c00;
-  font-size: 18px;
-  text-transform: uppercase;
-  font-weight: 700;
-  margin-top: .5rem;
-}
-
-#selecao2019-1 #como-funciona p {
-  margin-left: 0 !important;
-  max-width: 100%;
-}
-
-#selecao2019-1 #conheca-os-cursos #lista-cursos {
-  vertical-align: top;
-}
-
-#selecao2019-1 #conheca-os-cursos #lista-cursos #botoes-curso > button {
-  background-color: #043166;
-  margin: 0;
-  margin-bottom: 1rem;
-  margin-right: .5rem;
-  width: 150px;
-  padding: .6rem 1rem;
-}
-
-#selecao2019-1 #conheca-os-cursos #lista-cursos #botoes-curso > button:hover {
-  background-color: #021935;
-}
-
-#selecao2019-1 #conheca-os-cursos #lista-cursos #botoes-curso > button.selecionado {
-  background-color: #cfeaff;
-  color: #043166;
-}
-
-#selecao2019-1 #conheca-os-cursos #lista-cursos #polos-do-curso {
-  margin-top: 1.5rem;
-}
-
-#selecao2019-1 #conheca-os-cursos #lista-cursos #polos-do-curso ul {
-  display: none;
-}
-
-#selecao2019-1 #conheca-os-cursos #lista-cursos #polos-do-curso ul li:last-of-type {
-  margin-bottom: 3rem;
-}
-
-#selecao2019-1 #conheca-os-cursos svg {
-  display: none;
-}
-
-#selecao2019-1 #conheca-os-cursos svg path.aceso {
-  fill: #ffa161;
-}
-
-#selecao2019-1 #inscricao li {
-  color: #c75000;
-  font-size: 1rem;
-  text-align: left;
-  padding: 0.5rem 0;
-  vertical-align: top;
-}
-
-#selecao2019-1 #inscricao li i {
-  padding-left: 0.5rem;
-}
-
-#selecao2019-1 #inscricao li div {
-  display: inline-block;
-  height: 4rem;
-}
-
-#selecao2019-1 #inscricao li .numero {
-  color: white;
-  font-size: 2rem;
-  font-weight: 700;
-  background-color: #c75000;
-  width: 3.5rem;
-  line-height: 1.7;
-  height: 3.5rem;
-  border-radius: 2rem;
-  text-align: center;
-  vertical-align: top;
-}
-
-#selecao2019-1 #inscricao li .instrucao {
-  width: calc(100% - 5rem);
-  vertical-align: sub;
-  margin-left: 0.5rem;
-  display: inline-block;
-  line-height: 1.5;
-  padding-top: .25rem;
-  text-transform: uppercase;
-  font-weight: 500;
-}
-
-#selecao2019-1 #inscricao li .instrucao:hover span {
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-#selecao2019-1 #inscricao li .instrucao span {
-  color: #f06c00;
-  text-transform: none;
-  display: block;
-  font-size: 1rem;
-  font-weight: 400;
-}
-
-@media (min-width: 992px) {
-  #selecao2019-1 header {
-    height: 45vh;
-  }
-  #selecao2019-1 header div.container {
-    width: 100%;
-  }
-  #selecao2019-1 header div.container .caixa .box-marca {
-    width: 38%;
-  }
-  #selecao2019-1 header div.container .caixa .box-nav {
-    width: calc(38% + 35px);
-  }
-  #selecao2019-1 header div.container h1 {
-    width: 350px;
-    float: right;
-    margin-top: 0;
-  }
-  #selecao2019-1 header div.container h1 .editais {
-    font-size: 3rem;
-  }
-  #selecao2019-1 header div.container h1 .aluno {
-    max-width: 170px;
-    font-size: 1.5rem;
-  }
-  #selecao2019-1 header div.container h1 .ufes {
-    font-size: 3.5rem;
-  }
-  #selecao2019-1 #como-funciona {
-    text-align: left;
-  }
-  #selecao2019-1 #como-funciona p {
-    max-width: 720px;
-  }
-  #selecao2019-1 #conheca-os-cursos #lista-cursos {
-    display: inline-block;
-    width: 59%;
-  }
-  #selecao2019-1 #conheca-os-cursos svg {
-    width: 40%;
-    height: auto;
-    display: inline-block;
-    pointer-events: none;
-    margin-top: -6rem;
-  }
-  #selecao2019-1 #inscricao li {
-    display: inline-block;
-    max-width: 300px;
-  }
-  #selecao2019-1 #inscricao li:not(:first-child) {
-    margin-left: 1.5rem;
-  }
-  #selecao2019-1 #inscricao li .instrucao {
-    width: 150px;
   }
 }
 

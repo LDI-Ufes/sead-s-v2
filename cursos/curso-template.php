@@ -1,24 +1,6 @@
 <main class='page curso' id="conteudoPrincipal">
-
-  <!--Com vídeo-->
-
-  <!--  <a href='//www.youtube.com/watch?v=XSGBVzeBUbk' data-lity>
-      <section class='destaque'>
-        <video autoplay loop>
-          <source src='<?php echo get_template_directory_uri(); ?>/video/cursos/artes-visuais.mp4' type='video/mp4'>
-        </video>
-
-        <div class='titulo container'>
-          <i class='fas fa-play-circle'></i>
-          <h2>Veja o que o coordenador<br>do curso tem a dizer!<br></h2>
-        </div>
-      </section>
-    </a>-->
-
-  <!--Com imagem-->
-
  
-  <section class="destaque destaque-imagem" style="background-image: linear-gradient(#043166, rgba(4, 49, 102, 0.3)), url('<?php echo get_template_directory_uri()?>/img/capas/nome.jpg')"></section>
+  <section class="curso-destaque"><?php the_post_thumbnail() ?></section>
 
   <section id='info-curso'> 
     <div class="container"> 
@@ -41,7 +23,7 @@
           <p class="situacao"><strong>Situação: </strong> 
             <br>Oferta 2014/2 em fase de conclusão. 
             <br>Aprovado pelo CEPE em 23/07/2014 por meio da Resolução n° 32/2014. 
-            <br><strong>Sem previsão de nova reoferta.</strong> 
+            <br><strong>Sem previsão de nova oferta.</strong> 
           </p> 
         </div> 
       </div> 

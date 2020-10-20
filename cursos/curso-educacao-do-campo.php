@@ -1,6 +1,6 @@
 <main class='page curso' id="conteudoPrincipal">
 
-  <section class="destaque destaque-imagem" style="background-image: linear-gradient(#043166, rgba(4, 49, 102, 0.3)), url('<?php echo get_template_directory_uri()?>/img/capas/educacao-do-campo.jpg')"></section>
+  <section class="curso-destaque"><?php the_post_thumbnail() ?></section>
 
   <section id='info-curso'> 
     <div class="container"> 
@@ -48,6 +48,7 @@
         <p>Carga horária total: 180 horas</p> 
  
         <ul id="matriz"> 
+          
             <li class='semestre'> 
               <button><h3>Módulo I - Introdução à Educação do Campo (60h)</h3></button> 
               <ul> 

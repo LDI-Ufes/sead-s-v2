@@ -1,6 +1,6 @@
 <main class='page curso' id="conteudoPrincipal">
 
-  <section class="destaque destaque-imagem" style="background-image: linear-gradient(#043166, rgba(4, 49, 102, 0.3)), url('<?php echo get_template_directory_uri()?>/img/capas/ciencia-e-10.jpg')"></section>
+  <section class="curso-destaque"><?php the_post_thumbnail() ?></section>
 
   <section id='info-curso'> 
     <div class="container"> 
@@ -19,9 +19,8 @@
             <strong>Modalidade: </strong>Semipresencial<br/> 
           </p> 
           <p class="situacao"><strong>Situação: </strong> 
-            <br>Oferta 2014/2 em fase de conclusão. 
-            <br>Aprovado pelo CEPE em 23/07/2014 por meio da Resolução n° 32/2014. 
-            <br><strong>Sem previsão de nova reoferta.</strong> 
+            <br>Oferta 2019 em andamento. 
+            <br><strong>Sem previsão de nova oferta.</strong> 
           </p> 
         </div> 
       </div> 
@@ -36,9 +35,9 @@
           <h4>Navegue</h4> 
  
           <ul> 
-            <li><a title="Mostrar perfil do egresso" href='#perfil-do-egresso'>Perfil do egresso</a></li> 
+            <!-- <li><a title="Mostrar perfil do egresso" href='#perfil-do-egresso'>Perfil do egresso</a></li>  -->
             <li><a title="Mostrar currículo" href='#curriculo'>Grade curricular</a></li> 
-            <li><a title="Mostrar corpo docente" href='#corpo-docente'>Corpo docente</a></li> 
+            <!-- <li><a title="Mostrar corpo docente" href='#corpo-docente'>Corpo docente</a></li>  -->
             <li><a title="Mostrar ofertas do curso" href='#ofertas-anteriores'>Ofertas</a></li> 
           </ul> 
         </div> 
@@ -64,53 +63,87 @@
           Módulo 2: 240h<br>
           Módulo 3: 90h</p> 
  
-        <ul id="matriz"> 
-          <!-- Importando json -->
-          <?php $json = file_get_contents('grades/grade-ciencia-e-10.json', true); $grade = json_decode($json); ?>
-
-            <!-- Loop pelos módulos -->
-            <?php foreach($grade as $modulo => $disciplinas) { ?>
-            
-            <li class='semestre'> 
-              <button><h3><?php $modulo = str_replace('_', ' ', $modulo); echo $modulo; ?></h3></button> 
-              <ul> 
-
-                <div class="rotulos-matriz"> 
+          <ul id="matriz"> 
+          
+          <li class='semestre'> 
+            <button><h3>Módulo I - Para perguntar e experimentar, é só começar!</h3></button> 
+            <ul> 
+              <div class="rotulos-matriz"> 
                   <div>Disciplina</div> 
-                  <!-- <div>Ementa</div>  -->
                   <div> 
                     <span class="desktop">Carga horária</span> 
                     <span class="mobile">C. hr.</span> 
                   </div> 
                 </div>
-
-                <!-- Loop pelas disciplinas -->
-                <?php foreach ( $disciplinas as $d ){ ?>
-
-                  <li> 
-                    <div><?php echo $d->nome; ?></div> 
-
-                    <?php if ( isset( $d->arquivo ) ){ ?>
-
-                      <div> 
-                        <a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes/<?php echo $d->arquivo; ?>" target="_blank" title='Abrir documento em nova aba'> 
-                          <i class="far fa-file-pdf"></i>PDF 
-                          <span class="somente-leitura">Programa da disciplina <?php echo $d->nome; ?></span> 
-                      </a> 
-                      </div> 
-                    <?php } ?>
-
-                    <div><?php echo $d->ch; ?>h</div> 
+                <li> 
+                    <div>Uma introdução</div> 
+                    <div>30h</div> 
                   </li> 
+                  <li> 
+                    <div>Começando a experimentar e a pensar no TCC</div> 
+                    <div>60h</div> 
+                  </li> 
+                  <li> 
+                    <div>Hora de perguntar e propor</div> 
+                    <div>30h</div> 
+                  </li> 
+                  <li> 
+                    <div>Na sala de aula</div> 
+                    <div>30h</div> 
+                  </li> 
+            </ul> 
+          </li>
+          <li class='semestre'> 
+            <button><h3>Módulo II - Para perguntar e responder, melhor saber!</h3></button> 
+            <ul> 
+              <div class="rotulos-matriz"> 
+                  <div>Disciplina</div> 
+                  <div> 
+                    <span class="desktop">Carga horária</span> 
+                    <span class="mobile">C. hr.</span> 
+                  </div> 
+                </div>
+                <li> 
+                    <div>TCC2: Fundamentos do projeto de investigação</div> 
+                    <div>120h</div> 
+                  </li> 
+                  <li> 
+                    <div>Investigação para o Ensino de Ciências</div> 
+                    <div>120h</div> 
+                  </li> 
+                  <li> 
+                    <div>Hora de perguntar e propor</div> 
+                    <div>30h</div> 
+                  </li> 
+                  <li> 
+                    <div>Na sala de aula</div> 
+                    <div>30h</div> 
+                  </li> 
+            </ul> 
+          </li>
+          <li class='semestre'> 
+            <button><h3>Módulo III - Se é para experimentar, vamos fazer!</h3></button> 
+            <ul> 
+              <div class="rotulos-matriz"> 
+                  <div>Disciplina</div> 
+                  <div> 
+                    <span class="desktop">Carga horária</span> 
+                    <span class="mobile">C. hr.</span> 
+                  </div> 
+                </div>
+                <li> 
+                    <div>TCC3: Projeto de investigação em sala de aula</div> 
+                    <div>90h</div> 
+                  </li> 
+            </ul> 
+          </li>
+      </ul> 
 
-                <?php } ?> <!-- Fim do Loop pelas disciplinas -->
-
-              </ul> 
-            </li>
-
-            <?php } ?> <!-- Fim do Loop pelos módulos -->
-
-        </ul> 
+      <h2 id='ofertas-anteriores'>Ofertas do curso</h2> 
+ 
+      <h3>2019</h3> 
+      <p><strong>Coordenação do Curso</strong><br/>Luciana Dias Thomaz</p> 
+      <!-- <p><strong>Polos atendidos</strong><br/></p>  -->
   
     </section> 
  

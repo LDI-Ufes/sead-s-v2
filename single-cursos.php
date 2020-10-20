@@ -29,4 +29,16 @@
     $('#faq-curso button').not($(this)).removeClass('ativo').siblings().slideUp();
   });
 
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth',
+            block: 'center'
+        });
+    });
+});
+
+
 </script>

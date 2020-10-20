@@ -1,6 +1,6 @@
 <main class='page curso' id="conteudoPrincipal">
 
-  <section class="destaque destaque-imagem" style="background-image: linear-gradient(#043166, rgba(4, 49, 102, 0.3)), url('<?php echo get_template_directory_uri()?>/img/capas/genero-e-diversidade-na-escola.jpg')"></section>
+  <section class="curso-destaque"><?php the_post_thumbnail() ?></section>
 
   <section id='info-curso'> 
     <div class="container"> 
