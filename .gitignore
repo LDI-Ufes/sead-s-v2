@@ -1,5 +1,7 @@
 nbproject/
-img/
+# img/
 video/
 arquivos/
 .vscode/
+style.css
+style.css.map
