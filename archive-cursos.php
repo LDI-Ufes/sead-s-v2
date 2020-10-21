@@ -24,6 +24,7 @@
         <?php
           $args = array(
             'post_type' => 'cursos', 
+            'posts_per_page'=>-1,
             'tax_query' => array(
               array(
                 'taxonomy' => 'tipo',
@@ -59,7 +60,8 @@
       <ul class="lista-cursos"> 
         <?php
           $args = array(
-            'post_type' => 'cursos',
+            'post_type' => 'cursos', 
+            'posts_per_page'=>-1,
             'tax_query' => array(
               array(
                 'taxonomy' => 'tipo',
@@ -95,7 +97,8 @@
       <ul class="lista-cursos"> 
         <?php
           $args = array(
-            'post_type' => 'cursos',
+            'post_type' => 'cursos', 
+            'posts_per_page'=>-1,
             'tax_query' => array(
               array(
                 'taxonomy' => 'tipo',
