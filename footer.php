@@ -30,7 +30,7 @@
     <section>
       <h4>Fale conosco</h4>
       <p>Telefone: (27) 4009-2208</p>
-      <p>E-mail: <a href="mailto: diretoria.sead@institucional.ufes.br">diretoria.sead@ufes.br</a></p>
+      <p>E-mail: <a href="mailto: informacao.sead@ufes.br">informacao.sead@ufes.br</a></p>
       <p style="margin-top: .5rem;">Av. Fernando Ferrari, 514, Vitória - ES <br> Térreo do Teatro Universitário - Ufes Campus Goiabeiras</p>
       <p class="enderecoLink">
         <span>
@@ -61,13 +61,14 @@
         <li><a href="http://selecao.neaad.ufes.br" target="_blank" title="Abrir o Sistema de Seleção em nova aba">Sistema de Seleção</a></li>
         <li><a href="http://videos.ufes.br/sead" target="_blank" title="Abrir o Canal em Vídeos Ufes em nova aba">Canal em Vídeos Ufes</a></li>
         <li><a href="https://calendar.google.com/calendar/embed?src=webconf.ufes%40gmail.com&ctz=America/Sao_Paulo" target="_blank" title="Abrir agenda de Webconferências da Sead em nova aba">Agenda de Webconferências</a></li>
+        <li><a href="https://calendar.google.com/calendar/embed?src=seadufes2020@gmail.com&ctz=America/Sao_Paulo&pli=1" target="_blank" title="Abrir agenda da Sead em nova aba">Agenda pública da SEAD</a></li>
       </ul>
     </section>
 
   </div> <!-- container -->
 
   <div class="creditos">
-    <p>2019 Sead Ufes. Todos os direitos reservados <span>| <a href="http://ldi.ufes.br/" target="_blank" title="Abrir o sítio do LDI em nova aba">Desenvolvido por LDI</a></span></p>
+    <p>2020 Sead Ufes. Todos os direitos reservados <span>| <a href="http://ldi.ufes.br/" target="_blank" title="Abrir o sítio do LDI em nova aba">Desenvolvido por LDI</a></span></p>
   </div>
 
 </footer>

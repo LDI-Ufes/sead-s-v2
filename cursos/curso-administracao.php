@@ -63,7 +63,7 @@
 
         <ol type="A">
 
-        <li>Internalização de valores de responsabilidade social, justiça e ética profissional.O Departamento está fortalecendo linhas de pesquisa que chamam os alunos à internalização desses valores por meio da elaboração de Trabalhos de Conclusão de Curso que contemplem temas a eles pertinentes. Assim, além da abordagem em sala de aula, os TCC’s revelam a estratégia adotada por meio do número de alunos que manifestaram interesse em desenvolver suas pesquisas dentro dessa temática, incluindo a responsabilidade social.</li> 
+        <li>Internalização de valores de responsabilidade social, justiça e ética profissional.O Departamento está fortalecendo linhas de pesquisa que chamam os estudantes à internalização desses valores por meio da elaboração de Trabalhos de Conclusão de Curso que contemplem temas a eles pertinentes. Assim, além da abordagem em sala de aula, os TCC’s revelam a estratégia adotada por meio do número de estudantes que manifestaram interesse em desenvolver suas pesquisas dentro dessa temática, incluindo a responsabilidade social.</li> 
 
         <li>Sólida formação humanística e visão global que o habilite a compreender o meio social, político, econômico e cultural em que está inserido e a tomar decisões em um mundo diversificado e interdependente.</li>
 
@@ -73,7 +73,7 @@
 
         <li>A capacidade de atuar de forma interdisciplinar pode ser vista por meio da própria estrutura do curso, que procura focar o conteúdo do ementário não só na sua finalidade precípua, como também relacionando-o às disciplinas já cursadas mesmo que não seja em nível de pré-requisito, mas de complementação e interdisciplinaridade.</li>  
 
-        <li>A capacidade de compreensão da necessidade do contínuo aperfeiçoamento profissional e do desenvolvimento da autoconfiança são desafios presentes em todas as disciplinas. Todos os professores procuram, na medida do possível, implementar um processo de avaliação que contemple apresentações de pesquisas realizadas em ambientes organizacionais diversos, de modo geral, onde os alunos já trabalham ou estagiam, a fim de propiciar a oportunidade de desenvolver a confiança sobre o domínio de determinado tema e das relações de trabalho com o grupo, com a classe e com o professor.</li>
+        <li>A capacidade de compreensão da necessidade do contínuo aperfeiçoamento profissional e do desenvolvimento da autoconfiança são desafios presentes em todas as disciplinas. Todos os professores procuram, na medida do possível, implementar um processo de avaliação que contemple apresentações de pesquisas realizadas em ambientes organizacionais diversos, de modo geral, onde os estudantes já trabalham ou estagiam, a fim de propiciar a oportunidade de desenvolver a confiança sobre o domínio de determinado tema e das relações de trabalho com o grupo, com a classe e com o professor.</li>
          
         </ol>
  

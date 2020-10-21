@@ -47,7 +47,7 @@
               <li class="temSubmenu"> 
                 <span>Ensino <i class="fas fa-chevron-down"></i></span> 
                 <ul class="menuSuspenso"> 
-                  <li><a href="<?php echo site_url(); ?>/ead-na-ufes" title="Ir para Ensino - Como é a Ead na Ufes?">Como é a EaD na Ufes?</a></li> 
+                  <li><a href="<?php echo site_url(); ?>/ead-na-ufes" title="Ir para Ensino - Como é a Ead na Ufes?">EaD na Ufes</a></li> 
                   <li><a href="<?php echo site_url(); ?>/a-sead" title="Ir para Ensino - A SEAD">A SEAD</a></li> 
                   <li><a href="<?php echo site_url(); ?>/contatos" title="Ir para Ensino - Contatos">Contatos</a></li> 
                 </ul> 

@@ -21,27 +21,10 @@
     <div class="container-texto">
       <p>A Superintendência de Educação a Distância – Sead é a instância responsável por promover ações educativas e de formação na modalidade a distância da Ufes, nas quais a mediação didático-pedagógica dos processos de ensino e de aprendizagem ocorre por meio da utilização das tecnologias da informação e da comunicação, nos ambientes virtuais de aprendizagens – AVA, e, presencialmente, nos Polos de Apoio Presencial da Universidade Aberta do Brasil – UAB e em outros espaços educativos.</p>
       <p>O processo de construção das políticas públicas de Educação a Distância no Brasil iniciou-se a partir da definição de diretrizes e bases da educação nacional, em que o poder público passou a exercer um papel de incentivador do desenvolvimento da modalidade EaD, constituindo-se de um instrumento eficaz de democratização do acesso ao ensino superior e uma opção de qualificação profissional.</p>
-      <p>Hoje, por meio da política de educação a distância assumida pela Administração Central da Ufes, o programa de Interiorização leva conhecimento a todas as regiões do estado. A parceria com os Municípios é importante para o desenvolvimento das atividades administrativas e didático pedagógicas do ensino a distância, afinal é por meio dos Polos UAB que os alunos recebem orientação diretamente com os tutores presenciais e onde acontecem as práticas e as avaliações acadêmicas. Os polos interligam diversos municípios capixabas, os quais se apresentam como parceiros institucionais na oferta de ensino, pesquisa, formação e demais ações direcionadas ao conhecimento.</p>
-      <blockquote>A metodologia está centrada na relação dialógica entre os professores especialistas, tutores e alunos, materializando-se nos encontros presenciais e semipresenciais que apoiam os estudos realizados ao longo do curso, seja por meio de materiais didáticos ou nos ambientes virtuais.</blockquote>
+      <p>Hoje, por meio da política de educação a distância assumida pela Administração Central da Ufes, o programa de Interiorização leva conhecimento a todas as regiões do estado. A parceria com os Municípios é importante para o desenvolvimento das atividades administrativas e didático pedagógicas do ensino a distância, afinal é por meio dos Polos UAB que os estudantes recebem orientação diretamente com os tutores presenciais e onde acontecem as práticas e as avaliações acadêmicas. Os polos interligam diversos municípios capixabas, os quais se apresentam como parceiros institucionais na oferta de ensino, pesquisa, formação e demais ações direcionadas ao conhecimento.</p>
+      <blockquote>A metodologia está centrada na relação dialógica entre os professores especialistas, tutores e estudantes, materializando-se nos encontros presenciais e semipresenciais que apoiam os estudos realizados ao longo do curso, seja por meio de materiais didáticos ou nos ambientes virtuais.</blockquote>
     </div>
   </div> <!-- container -->
-
-  <!-- <section id='slider'>
-    <ul class='container'>
-      <button class='seta-prev'>Anterior</button>
-      <li class='item ativo'><?php include 'svg/como-encontros-pres.svg' ?><div class='grupo'><h2 tabindex='0'>Encontros presenciais</h2>O encontro presencial semanal obrigatório dar-se-á com pequenos grupos de alunos e o tutor presencial, nas salas e nos laboratórios de cada Polo UAB integrado ao curso.</div></li>
-      <li class='item'><?php include 'svg/como-momentos-semi.svg' ?><div class='grupo'><h2 tabindex='0'>Momentos semipresenciais</h2>Os encontros semipresenciais entre alunos, tutores e professores especialistas ocorrerão no AVA e nas webconferências conforme planejamento do curso ou necessidade para esclarecimentos e aprofundamento de conteúdos.</div></li>
-      <li class='item'><?php include 'svg/como-ava.svg' ?><div class='grupo'><h2 tabindex='0'>Ambiente Virtual de Aprendizagem</h2>A Plataforma Moodle trata-se de um sistema de gerenciamento de grupos de estudo, para dar suporte aos cursos oferecidos na modalidade a distância pela Ufes, acompanhamento e ajuda ao aluno, executada no AVA e acessível via interface WEB.</div></li>
-      <button class='seta-next'>Próximo</button>
-      <div class='dots'>
-        <ul aria-hidden='true'>
-          <li class='dot ativo'></li>
-          <li class='dot'></li>
-          <li class='dot'></li>
-        </ul>
-      </div>
-    </ul>
-  </section> -->
 
   <section class="secao-destacada secao-destacada-azul"> 
     <div class='container container-texto slider'> 
@@ -49,21 +32,21 @@
           <?php include 'svg/como-encontros-pres.svg' ?> 
           <div class='grupo'> 
             <h2 tabindex='0'>Encontros presenciais</h2> 
-            O encontro presencial semanal obrigatório dar-se-á com pequenos grupos de alunos e o tutor presencial, nas salas e nos laboratórios de cada Polo UAB integrado ao curso. 
+            O encontro presencial semanal obrigatório dar-se-á com pequenos grupos de estudantes e o tutor presencial, nas salas e nos laboratórios de cada Polo UAB integrado ao curso. 
           </div> 
         </div> 
         <div class="slide"> 
           <?php include 'svg/como-momentos-semi.svg' ?> 
           <div class='grupo'> 
             <h2 tabindex='0'>Momentos semipresenciais</h2> 
-            Os encontros semipresenciais entre alunos, tutores e professores especialistas ocorrerão no AVA e nas webconferências conforme planejamento do curso ou necessidade para esclarecimentos e aprofundamento de conteúdos. 
+            Os encontros semipresenciais entre estudantes, tutores e professores especialistas ocorrerão no AVA e nas webconferências conforme planejamento do curso ou necessidade para esclarecimentos e aprofundamento de conteúdos. 
           </div> 
         </div> 
         <div class="slide"> 
           <?php include 'svg/como-ava.svg' ?> 
           <div class='grupo'> 
             <h2 tabindex='0'>Ambiente Virtual de Aprendizagem</h2> 
-            A Plataforma Moodle trata-se de um sistema de gerenciamento de grupos de estudo, para dar suporte aos cursos oferecidos na modalidade a distância pela Ufes, acompanhamento e ajuda ao aluno, executada no AVA e acessível via interface WEB. 
+            A Plataforma Moodle trata-se de um sistema de gerenciamento de grupos de estudo, para dar suporte aos cursos oferecidos na modalidade a distância pela Ufes, acompanhamento e ajuda ao estudante, executada no AVA e acessível via interface WEB. 
           </div> 
         </div> 
     </div> 
@@ -75,7 +58,7 @@
     <ul class='acordeao'> 
       <li class="acordeao-item expandido"> 
         <button><h3>Professor</h3></button> 
-        <div style="display: block;">A função é exercida por um professor da área de conhecimento diretamente relacionada à disciplina, cujo papel é responsabilizar-se por todos os processos de sua integralização, da apresentação do material didático à mediação dos saberes neles contidos junto a tutores e a estudantes e, de igual modo, é responsável pela concepção e elaboração dos instrumentos de avaliação da aprendizagem, aplicação, coordenação da correção dessas avaliações, além de responsabilizar-se pela  regularização da situação do aluno junto às instâncias de registros de notas da Ufes.</div> 
+        <div style="display: block;">A função é exercida por um professor da área de conhecimento diretamente relacionada à disciplina, cujo papel é responsabilizar-se por todos os processos de sua integralização, da apresentação do material didático à mediação dos saberes neles contidos junto a tutores e a estudantes e, de igual modo, é responsável pela concepção e elaboração dos instrumentos de avaliação da aprendizagem, aplicação, coordenação da correção dessas avaliações, além de responsabilizar-se pela  regularização da situação do estudante junto às instâncias de registros de notas da Ufes.</div> 
       </li> 
       <li class="acordeao-item"> 
         <button><h3>Tutor Presencial</h3></button> 
@@ -83,7 +66,7 @@
       </li> 
       <li class="acordeao-item"> 
         <button><h3>Tutor a Distância</h3></button> 
-        <div>A função é exercida por professor vinculado às redes públicas, com formação nas áreas de conhecimento específico das disciplinas ou dos Cursos aos quais se vinculam, por módulo, semestre ou por disciplina, com no mínimo um ano de experiência no exercício do magistério, cujo papel é mediar as atividades dos alunos nos ambientes on-line e as relações estabelecidas entre eles, tutores e professores especialistas, esclarecendo-lhes as dúvidas quanto aos conteúdos e a outros saberes relacionados ao Curso. De igual modo, auxilia o Professor na avaliação das aprendizagens dos alunos.</div> 
+        <div>A função é exercida por professor vinculado às redes públicas, com formação nas áreas de conhecimento específico das disciplinas ou dos Cursos aos quais se vinculam, por módulo, semestre ou por disciplina, com no mínimo um ano de experiência no exercício do magistério, cujo papel é mediar as atividades dos estudantes nos ambientes on-line e as relações estabelecidas entre eles, tutores e professores especialistas, esclarecendo-lhes as dúvidas quanto aos conteúdos e a outros saberes relacionados ao Curso. De igual modo, auxilia o Professor na avaliação das aprendizagens dos estudantes.</div> 
       </li> 
       <li class="acordeao-item"> 
         <button><h3>Coordenador do curso</h3></button> 
@@ -107,32 +90,6 @@
 </main>
 
 <?php get_footer(); ?>
-
-<!-- <script>
-
-// Slider
-
-$('.seta-next').click(function(){
-  $('.item.ativo').next().addClass('ativo');
-  $('.item.ativo').prev().removeClass('ativo');
-  $('.dot.ativo').next().addClass('ativo');
-  $('.dot.ativo').prev().removeClass('ativo');
-  $('.item.ativo h2').focus();
-
-  $('.item:nth-of-type(3).ativo').siblings('.seta-next').css('display', 'none');
-  $('.seta-prev').css('display', 'block');
-});
-
-$('.seta-prev').click(function(){
-  $('.item.ativo').prev().addClass('ativo');
-  $('.item.ativo').next().removeClass('ativo');
-  $('.dot.ativo').prev().addClass('ativo');
-  $('.dot.ativo').next().removeClass('ativo');
-  $('.item.ativo h2').focus();
-
-  $('.item:nth-of-type(2).ativo').siblings('.seta-next').css('display', 'block');
-  $('.item:nth-of-type(1).ativo').siblings('.seta-prev').css('display', 'none').siblings('.seta-next').css('display', 'block');
-}); -->
 
 <script src="<?php echo get_template_directory_uri(); ?>/js/slick.js"></script> 
  

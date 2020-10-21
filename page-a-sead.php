@@ -43,9 +43,9 @@
     <div class="container"> 
       <h2 class="titulo-destacado">Relação de Dirigentes</h2> 
       <ul id="dirigentes"> 
-        <li><strong>Superintendente de Educação a Distância e Coordenadora UAB/UFES</strong><br>Maria José Campos Rodrigues</li> 
+        <li><strong>Superintendente de Educação a Distância e Coordenadora UAB/UFES</strong><br>Maria Auxiliadora de Carvalho Corassa</li> 
         <li><strong>Coordenação Financeira</strong><br>Mauro Pantoja Ferreira</li> 
-        <li><strong>Diretor Acadêmico e Coordenador Adjunto UAB/UFES</strong><br>Júlio Francelino Ferreira Filho</li> 
+        <li><strong>Diretora Acadêmica e Coordenadora Adjunta UAB/UFES</strong><br>JAndreia Chiari Lins</li> 
         <li><strong>Diretor de Tecnologia da Informação e Comunicação</strong><br>Luiz Otávio Bastos Rebello</li> 
       </ul> 
     </div> 
@@ -53,6 +53,12 @@
  
 
   <div class="container container-texto">
+
+    <h2>Agenda Pública</h2>
+
+    <p>Atendendo ao Sistema de Transparência Ativa, de que tratam a Lei nº 12.527/2011 (Lei de Acesso à Informação - LAI) e suas regulamentações, disponibilizamos abaixo link para acesso à agenda da Superintendência de Educação a Distância da UFES.</p>
+    <strong>Acesse: </strong><a href="https://calendar.google.com/calendar/embed?src=seadufes2020@gmail.com&ctz=America/Sao_Paulo&pli=1" title="Abrir agenda em nova aba" target="_blank">Agenda Pública da SEAD</a>
+
     <h2>Infraestrutura</h2>
     <ul id="infraestrutura">
       <li>
@@ -77,19 +83,19 @@
           Leonardo José Gomes Kolaga<br>
           Magno Wesley Buscaroli<br>
           Raysa Calegari Aguiar<br><br>
-          <strong>Mais informações: </strong><a href="https://calendar.google.com/calendar/embed?src=webconf.ufes%40gmail.com&ctz=America/Sao_Paulo"" title="Ir para agenda de Webconferências" target="_blank">Veja a agenda de Webconferências</a>
+          <strong>Mais informações: </strong><a href="https://calendar.google.com/calendar/embed?src=webconf.ufes%40gmail.com&ctz=America/Sao_Paulo" title="Ir para agenda de Webconferências" target="_blank">Veja a agenda de Webconferências</a>
         </p>
       </li>
       <li>
         <h3>Laboratório de Design Instrucional</h3>
-        <p>O Laboratório de Design Instrucional – LDI trabalha no desenvolvimento de soluções em design para os materiais didáticos da modalidade de ensino a distância da Ufes. A equipe atua nas áreas de gerência, diagramação, ilustração e multimídia, desenvolvendo os materiais em parceria com os professores da universidade.</p>
+        <p>O Laboratório de Design Instrucional – LDI trabalha no desenvolvimento de soluções em design para os materiais didáticos da modalidade de educação a distância da Ufes. A equipe atua nas áreas de gerência, diagramação, ilustração e multimídia, desenvolvendo os materiais em parceria com os professores da universidade.</p>
         <p>
           <strong>Coordenação</strong><br>
           Coordenadora Geral: Letícia Pedruzzi<br>
           Coordenadora de Diagramação: Thaís Imbroisi<br>
           Coordenadora de Ilustração e Multimídia: Priscilla Garone<br>
           Coordenador de Web: Edson Rufino<br><br>
-          <strong>Mais informações: </strong><a href="https://ldi.eadufes.org" title="Ir para o sítio do LDI" target="_blank">Visite o sítio do LDI</a>
+          <strong>Mais informações: </strong><a href="http://ldi.ufes.br/" title="Ir para o site do LDI" target="_blank">Visite o site do LDI</a>
         </p>
       </li>
       <li>
