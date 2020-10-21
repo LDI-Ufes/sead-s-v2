@@ -10,7 +10,7 @@
  
       <div class="colunas"> 
  
-        <p class='coluna1 objetivo'></p> 
+        <p class='coluna1 objetivo'>O objetivo da Licenciatura EaD em História é formar professores para o Ensino Fundamental e Médio com visão holística da História, familiarizados com o desenvolvimento das ideias e com a metodologia científica, em seus múltiplos aspectos teóricos e práticos, permitindo o debate com a comunidade científica e com a população em geral, e capazes de difundir um processo de ensino-aprendizagem abordando as diferentes áreas de História de forma integrada e fundamentada na observação e experimentação.</p> 
  
         <div class="coluna2"> 
           <p> 
@@ -93,7 +93,7 @@
 
                 <div class="rotulos-matriz"> 
                   <div>Disciplina</div> 
-                  <div>Ementa</div> 
+                  <!-- <div>Ementa</div>  -->
                   <div> 
                     <span class="desktop">Carga horária</span> 
                     <span class="mobile">C. hr.</span> 
@@ -281,18 +281,6 @@
  
   </div> 
  
-  <section id='faq-curso' class="secao-destacada"> 
-    <div class='container'> 
-      <h2 class="titulo-destacado">Perguntas frequentes</h2> 
-        <ul> 
-          <li> 
-            <button><h3>O diploma/certificado EAD é válido?</h3></button> 
-            <p>Todo o material didático é disponibilizado on-line, por meio de recursos multimídia, podcasts, vídeos, videoaulas, animações, objetos de aprendizagem e-books, webconferências, no Ambiente Virtual de Aprendizagem. Caso prefira, é possível realizar a impressão.</p> 
-          </li> 
-        </ul> 
-    </div> 
-  </section> 
-
   <section id='noticias' class="secao-destacada"> 
     <?php $ultimas_noticias = new WP_Query(array( 
       'post_type' => 'noticia', 
