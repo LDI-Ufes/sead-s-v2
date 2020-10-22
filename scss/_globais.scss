@@ -36,7 +36,7 @@ ul {
 .container { 
   box-sizing: border-box;
   width: 100%;
-  padding: 0 0.625rem; 
+  padding: 0 1rem; 
   margin: 0 auto; 
   max-width: 1140px;  
 
@@ -71,7 +71,6 @@ ul {
  
 	i { 
 		color: $laranja-principal; 
-		// font-weight: 700; 
 		font-size: 0.6rem; 
 		padding: 0.3rem 0.3rem 0; 
 	} 
@@ -133,25 +132,12 @@ ul {
   }
 
   #comPolos {
-    // path {
-    //   fill: $azul-claro;
-    // }
-
     a {
       cursor: pointer;
 
       .geografia {
         fill: $azul-claro;
       }
-
-      // .pin {
-      //   fill: darken($azul, 40%) !important;
-      //   stroke: none;
-      // }
-
-      // text {
-      //   fill: #333;
-      // }
 
       &:hover {
         .geografia {

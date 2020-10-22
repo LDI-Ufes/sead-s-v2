@@ -76,7 +76,7 @@
         </div>
 
         <p>A Superintendência de Educação a Distância – Sead é a instância responsável por promover ações educativas e de formação, nas quais a mediação didático-pedagógica dos processos de ensino e de aprendizagem ocorre por meio da utilização das tecnologias da informação e da comunicação, nos ambientes virtuais de aprendizagens – AVA, e, presencialmente, nos polos municipais de apoio presencial da Universidade Aberta do Brasil – UAB e em outros espaços educativos.</p>
-        <button>Saiba mais sobre EaD na Ufes</button>
+        <a target="_blank" href="<?php echo site_url(); ?>/ead-na-ufes">Saiba mais sobre EaD na Ufes</a>
       </section>
 
       <section id="conheca-os-cursos">
@@ -91,7 +91,7 @@
           </div>
         </div>
 
-        <?php include 'svg/mapaES.svg'; ?>
+        <?php include 'svg/mapaES-polos.svg'; ?>
       </section>
 
       <section id="inscricao">
@@ -99,19 +99,19 @@
         <ul>
           <li>
             <div class="numero">1</div>
-            <a class="instrucao" href="<?php echo site_url(); ?>/cursos" title="Ir para a página de Cursos">Informe-se sobre o curso que deseja fazer<span>Ver Cursos</span></a>
+            <a class="instrucao" href="<?php echo site_url(); ?>/cursos" target="_blank" title="Ir para a página de Cursos">Informe-se sobre o curso que deseja fazer<span>Ver Cursos</span></a>
           </li>
           <li>
             <div class="numero">2</div>
-            <a class="instrucao" href="<?php echo site_url(); ?>/polos" title="Ir para a página de Polos">Verifique se o curso é ofertado em um Polo próximo a você<span>Ver Polos</span></a>
+            <a class="instrucao" href="<?php echo site_url(); ?>/polos" target="_blank" title="Ir para a página de Polos">Verifique se o curso é ofertado em um Polo próximo a você<span>Ver Polos</span></a>
           </li>
           <li>
             <div class="numero">3</div>
-            <a class="instrucao" href="<?php echo site_url(); ?>/editais" title="Ir para a página de Editais">Leia com atenção o Edital do Processo Seletivo<span>Ver Editais</span></a>
+            <a class="instrucao" href="<?php echo site_url(); ?>/editais" target="_blank" title="Ir para a página de Editais">Leia com atenção o Edital do Processo Seletivo<span>Ver Editais</span></a>
           </li>
           <li>
             <div class="numero">4</div>
-            <a class="instrucao" href="https://www.concursos.ufes.br/sead/" title="Ir para Concursos Ufes">Faça sua inscrição no Processo Seletivo 2020 EaD/Ufes<span>Inscreva-se</span></a>
+            <a class="instrucao" href="https://www.concursos.ufes.br/sead/" target="_blank" title="Ir para Concursos Ufes">Faça sua inscrição no Processo Seletivo 2020 EaD/Ufes<span>Inscreva-se</span></a>
           </li>
         </ul>
       </section>
@@ -119,7 +119,6 @@
     </main>
 
     <footer>
-
       <a title="Voltar ao topo" id="voltar-ao-topo" aria-hidden="true"><i class="fas fa-arrow-up"></i></a> 
 
       <div class="creditos">
@@ -133,7 +132,7 @@
       $(function () {
         let cursos = [];
 
-        $.getJSON('/wp-content/themes/sead-v2/js/oferta2020.json', function (data) {
+        $.getJSON('/sead/wp-content/themes/sead-s-v2/js/oferta2020.json', function (data) {
           $.each(data.cursos, function (i, curso) {
             let botao = "<button onclick=\"mostraPolos('" + curso.id + "')\">" + curso.nome + "</button>";
             let ul = '<ul id="polos-' + curso.id + '">' +

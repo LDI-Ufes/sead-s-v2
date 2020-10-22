@@ -1,97 +1,109 @@
-#hotsite-selecao{
-
-  header{
+#hotsite-selecao {
+  header {
     background-attachment: scroll, fixed;
     background-size: cover;
     background-position: center;
 
-    div.container{
-      .caixa{
-        padding: 1rem;
-        margin: 0;
+    .caixa {
+      padding: 1rem;
+      margin: 0;
+      margin-top: 1.5rem;
 
-        .box-marca{
-          position: absolute;
-          left: 0;
-          border-bottom: 5.5rem solid $azul-principal;
-          border-left: 0 solid transparent;
-          border-right: 35px solid transparent;
-          width: 75%;
-        }
-
-        a.marca{
-          position: absolute;
-          z-index: 2;
-          margin-top: .7rem;
-        }
-
-        .box-nav{
-          position: absolute;
-          left: 0;
-          border-bottom: 2.5rem solid $azul-escuro;
-          border-left: 0 solid transparent;
-          border-right: 16px solid transparent;
-          width: calc(75% + 35px);
-          top: 8.5rem;
-        }
-
-        a.nav{
-          text-transform: uppercase;
-          position: absolute;
-          z-index: 2;
-          margin-top: 6.2rem;
-          font-weight: $medium;
-          margin-left: 2.6rem;
-        }
+      .box-marca {
+        position: absolute;
+        left: 0;
+        border-bottom: 5.5rem solid $azul-principal;
+        border-left: 0 solid transparent;
+        border-right: 35px solid transparent;
+        width: 75%;
       }
 
-      h1{
-        margin: 0 auto;
-        margin-top: 10rem;
-        width: calc(320px - 2rem);
+      a.marca {
+        position: absolute;
+        z-index: 2;
+        margin-top: 0.7rem;
+      }
 
-        .editais{
-          font-weight: $bold;
-          font-style: italic;
-          font-size: 2.5rem;
-          display: block;
-        }
-        .aluno{
-          font-weight: $regular;
-          text-align: right;
-          max-width: 130px;
-          font-size: 1.3rem;
-          display: inline-block;
-        }
-        .ufes{
-          font-family: $serif;
-          font-style: italic;
-          font-weight: $bold;
-          text-transform: uppercase;
-          font-size: 3rem;
-          display: inline-block;
-        }
+      .box-nav {
+        position: absolute;
+        left: 0;
+        border-bottom: 2.5rem solid $azul-escuro;
+        border-left: 0 solid transparent;
+        border-right: 16px solid transparent;
+        width: calc(75% + 35px);
+        top: 8rem;
+      }
+
+      a.nav {
+        text-transform: uppercase;
+        position: absolute;
+        z-index: 2;
+        margin-top: 6.2rem;
+        font-weight: $medium;
+        margin-left: 2.6rem;
+      }
+    }
+
+    h1 {
+      margin: 0 auto;
+      margin-top: 10rem;
+      margin-bottom: 2rem;
+      width: calc(320px - 2rem);
+
+      .editais {
+        font-weight: $bold;
+        font-style: italic;
+        font-size: 2.5rem;
+        display: block;
+      }
+      .aluno {
+        font-weight: $regular;
+        text-align: right;
+        max-width: 147px;
+        font-size: 1.15rem;
+        display: inline-block;
+      }
+      .ufes {
+        font-family: $serif;
+        font-style: italic;
+        font-weight: $bold;
+        text-transform: uppercase;
+        font-size: 2.8rem;
+        display: inline-block;
       }
     }
   }
-  
-  section{ margin-top: 4rem; }
 
-  #como-funciona{
+  section {
+    margin-top: 4rem;
+  }
+
+  #como-funciona {
     font-weight: $light;
-    text-align: center;
 
-    h2{ text-align: left; }
+    h2 {
+      text-align: left;
+      margin-bottom: 3rem;
+    }
+
+    .topicos {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      max-width: 100%;
+    }
 
     .topico-ead {
-      margin: 1.5rem auto;
-      width: 160px;
+      flex: 1 1 100%;
+      margin: 0.75rem auto;
+      min-width: 160px;
+      max-width: 240px;
       display: inline-block;
       vertical-align: top;
       text-align: center;
-      line-height: 1.5rem;
-
-      &:not(:first-child){ padding-left: 1.2rem; }
+      line-height: 1.5;
+      padding: 0 0.8rem;
 
       figure {
         width: 100%;
@@ -103,69 +115,76 @@
         }
 
         figcaption {
-          color: $laranja-principal;
+          color: $azul-principal;
           font-size: 18px;
           text-transform: uppercase;
           font-weight: $bold;
-          margin-top: .5rem;
+          margin-top: 0.5rem;
         }
       }
     }
 
-    p{ 
+    p {
       margin-left: 0 !important;
       max-width: 100%;
+      max-width: 750px;
     }
 
-    button{ @extend %botao; }
+    a {
+      @extend %botao;
+      border-radius: 1px;
+      margin: 2rem 0;
+      display: inline-block;
+      line-height: 1;
+    }
   }
 
-  #conheca-os-cursos{
-
-    #lista-cursos{
+  #conheca-os-cursos {
+    #lista-cursos {
       vertical-align: top;
 
-      #botoes-curso> button{
+      #botoes-curso > button {
         @extend %botao;
-        background-color: $azul-escuro;
+        border-radius: 1px;
         margin: 0;
         margin-bottom: 1rem;
-        margin-right: .5rem;
-        width: 150px;
-        padding: .6rem 1rem;
+        margin-right: 0.5rem;
+        width: 156px;
+        padding: 0.6rem 0.75rem;
 
-        &:hover{
-          background-color: darken($azul-escuro, 10);
-        }
-
-        &.selecionado{
+        &.selecionado {
           background-color: $azul-claro;
           color: $azul-escuro;
         }
       }
 
-      #polos-do-curso{
-        margin-top: 1.5rem; 
+      #polos-do-curso {
+        margin-top: 1.5rem;
 
-        ul{ 
+        ul {
           display: none;
-          
-          li:last-of-type{ margin-bottom: 3rem; }
-          
-          a{ @extend %botao; }
+
+          li:last-of-type {
+            margin-bottom: 3rem;
+          }
+
+          a {
+            @extend %botao;
+          }
         }
       }
     }
 
-    svg{
+    svg {
       display: none;
-      
-      path.aceso{ fill: $laranja-claro; }
+
+      path.aceso {
+        fill: $laranja-claro;
+      }
     }
   }
 
-  #inscricao{
-
+  #inscricao {
     li {
       color: $laranja-medio;
       font-size: 1rem;
@@ -201,18 +220,18 @@
         margin-left: 0.5rem;
         display: inline-block;
         line-height: 1.5;
-        padding-top: .25rem;
+        padding-top: 0.25rem;
         text-transform: uppercase;
         font-weight: $medium;
 
         &:hover {
-          span{
+          span {
             text-decoration: underline;
             cursor: pointer;
           }
         }
 
-        span{ 
+        span {
           color: $laranja-principal;
           text-transform: none;
           display: block;
@@ -223,74 +242,92 @@
     }
   }
 
-  @media(min-width: 992px){
+  footer {
+    padding-top: 0;
 
-    header{
+    .creditos {
+      margin-top: 0;
+      background-color: $azul-escuro;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    header {
       height: 45vh;
 
-      div.container{
-        width: 100%;
-
-        .caixa{
-          .box-marca{
-            width: 38%;
-          }
-
-          .box-nav{
-            width: calc(38% + 35px);
-          }
-        }
-        h1{
-          width: 350px;
-          float: right;
-          margin-top: 0;
-
-          .editais{
-            font-size: 3rem;
-          }
-          .aluno{
-            max-width: 170px;
-            font-size: 1.5rem;
-          }
-          .ufes{
-            font-size: 3.5rem;
-
-          }
+      .caixa {
+        .box-marca {
+          width: 39%;
         }
 
+        .box-nav {
+          width: calc(39% + 35px);
+        }
+      }
+
+      h1 {
+        width: 350px;
+        float: right;
+        margin-top: 0;
+
+        .editais {
+          font-size: 3rem;
+        }
+        .aluno {
+          max-width: 175px;
+          font-size: 1.35rem;
+        }
+        .ufes {
+          font-size: 3.5rem;
+        }
       }
     }
 
-    #como-funciona{
-      text-align: left;
-
-      p{ max-width: 720px; }
+    #como-funciona {
+      .topicos {
+        flex-wrap: nowrap;
+      }
     }
 
-    #conheca-os-cursos{
-
-      #lista-cursos{
+    #conheca-os-cursos {
+      #lista-cursos {
         display: inline-block;
         width: 59%;
+
+        #botoes-curso > button {
+          font-size: 18px;
+          width: 180px;
+        }
       }
 
-      svg{
+      svg {
         width: 40%;
         height: auto;
         display: inline-block;
         pointer-events: none;
-        margin-top: -6rem;
+        margin-top: -3rem;
       }
     }
 
-    #inscricao{
-      li{
-        &:not(:first-child) { margin-left: 1.5rem; }
-        display: inline-block;
-        max-width: 300px;
+    #inscricao {
+      margin-bottom: 3rem;
 
-        .instrucao{
-          width: 150px;
+      ul{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        margin: 0 auto;
+        max-width: 100%;
+      }
+
+      li {
+        flex: 1 1 100%;
+        margin: 0 auto;
+        max-width: 300px;
+        display: inline-block;
+
+        &:not(:last-child) {
+          margin-right: 1.5rem;
         }
       }
     }

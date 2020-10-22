@@ -111,7 +111,7 @@ button {
   font-weight: inherit;
 }
 
-.inicio #banner .container a, .inicio #polos a, .page-blog a[role="button"], .page-galeria #eventos li .imagens .abrirTodas, .single-edital .secao-edital#inscricao a[role="button"] {
+.inicio #banner .container a, .inicio #polos a, .page-blog a[role="button"], .page-galeria #eventos li .imagens .abrirTodas, .single-edital .secao-edital#inscricao a[role="button"], #hotsite-selecao #como-funciona a, #hotsite-selecao #conheca-os-cursos #lista-cursos #botoes-curso > button, #hotsite-selecao #conheca-os-cursos #lista-cursos #polos-do-curso ul a {
   background-color: #c75000;
   text-transform: uppercase;
   color: white;
@@ -122,7 +122,7 @@ button {
   cursor: pointer;
 }
 
-.inicio #banner .container a:hover, .inicio #polos a:hover, .page-blog a:hover[role="button"], .page-galeria #eventos li .imagens .abrirTodas:hover, .single-edital .secao-edital#inscricao a:hover[role="button"] {
+.inicio #banner .container a:hover, .inicio #polos a:hover, .page-blog a:hover[role="button"], .page-galeria #eventos li .imagens .abrirTodas:hover, .single-edital .secao-edital#inscricao a:hover[role="button"], #hotsite-selecao #como-funciona a:hover, #hotsite-selecao #conheca-os-cursos #lista-cursos #botoes-curso > button:hover, #hotsite-selecao #conheca-os-cursos #lista-cursos #polos-do-curso ul a:hover {
   background-color: #b24800;
 }
 
@@ -170,7 +170,7 @@ ul {
 .container {
   box-sizing: border-box;
   width: 100%;
-  padding: 0 0.625rem;
+  padding: 0 1rem;
   margin: 0 auto;
   max-width: 1140px;
 }
@@ -1090,17 +1090,17 @@ footer section .subitens {
 }
 
 .inicio #ultimos-editais ul li h3 {
-  color: #c75000;
-  border-bottom: solid 1px #c75000;
+  color: rgba(0, 0, 0, 0.6);
+  border-bottom: solid 1px #f06c00;
   font-size: 1.13rem;
-  font-weight: 400;
+  font-weight: 500;
   display: inline-block;
   margin: 0;
   margin-bottom: .5rem;
 }
 
 .inicio #ultimos-editais ul li h3:hover {
-  font-weight: 500;
+  color: black;
 }
 
 .inicio #ultimos-editais ul li p {
@@ -1585,17 +1585,17 @@ footer section .subitens {
 }
 
 .page-blog #ultimos-editais ul li h3 {
-  color: #c75000;
-  border-bottom: solid 1px #c75000;
+  color: rgba(0, 0, 0, 0.6);
+  border-bottom: solid 1px #f06c00;
   font-size: 1.13rem;
-  font-weight: 400;
+  font-weight: 500;
   display: inline-block;
   margin: 0;
   margin-bottom: .5rem;
 }
 
 .page-blog #ultimos-editais ul li h3:hover {
-  font-weight: 500;
+  color: black;
 }
 
 .page-blog #ultimos-editais ul li p {
@@ -2664,7 +2664,6 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
   font-weight: 700;
   font-style: italic;
   margin: 2rem 0;
-  font-size: 1.25rem;
 }
 
 .page h1 {
@@ -4231,6 +4230,312 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
   }
   .noticia article .links-compartilhamento a {
     float: right;
+  }
+}
+
+#hotsite-selecao header {
+  background-attachment: scroll, fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+#hotsite-selecao header .caixa {
+  padding: 1rem;
+  margin: 0;
+  margin-top: 1.5rem;
+}
+
+#hotsite-selecao header .caixa .box-marca {
+  position: absolute;
+  left: 0;
+  border-bottom: 5.5rem solid #1765ab;
+  border-left: 0 solid transparent;
+  border-right: 35px solid transparent;
+  width: 75%;
+}
+
+#hotsite-selecao header .caixa a.marca {
+  position: absolute;
+  z-index: 2;
+  margin-top: 0.7rem;
+}
+
+#hotsite-selecao header .caixa .box-nav {
+  position: absolute;
+  left: 0;
+  border-bottom: 2.5rem solid #043166;
+  border-left: 0 solid transparent;
+  border-right: 16px solid transparent;
+  width: calc(75% + 35px);
+  top: 8rem;
+}
+
+#hotsite-selecao header .caixa a.nav {
+  text-transform: uppercase;
+  position: absolute;
+  z-index: 2;
+  margin-top: 6.2rem;
+  font-weight: 500;
+  margin-left: 2.6rem;
+}
+
+#hotsite-selecao header h1 {
+  margin: 0 auto;
+  margin-top: 10rem;
+  margin-bottom: 2rem;
+  width: calc(320px - 2rem);
+}
+
+#hotsite-selecao header h1 .editais {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 2.5rem;
+  display: block;
+}
+
+#hotsite-selecao header h1 .aluno {
+  font-weight: 400;
+  text-align: right;
+  max-width: 147px;
+  font-size: 1.15rem;
+  display: inline-block;
+}
+
+#hotsite-selecao header h1 .ufes {
+  font-family: "Merriweather", serif;
+  font-style: italic;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 2.8rem;
+  display: inline-block;
+}
+
+#hotsite-selecao section {
+  margin-top: 4rem;
+}
+
+#hotsite-selecao #como-funciona {
+  font-weight: 300;
+}
+
+#hotsite-selecao #como-funciona h2 {
+  text-align: left;
+  margin-bottom: 3rem;
+}
+
+#hotsite-selecao #como-funciona .topicos {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+#hotsite-selecao #como-funciona .topico-ead {
+  flex: 1 1 100%;
+  margin: 0.75rem auto;
+  min-width: 160px;
+  max-width: 240px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  line-height: 1.5;
+  padding: 0 0.8rem;
+}
+
+#hotsite-selecao #como-funciona .topico-ead figure {
+  width: 100%;
+  margin: 0;
+}
+
+#hotsite-selecao #como-funciona .topico-ead figure svg {
+  height: 72px;
+  width: auto;
+}
+
+#hotsite-selecao #como-funciona .topico-ead figure figcaption {
+  color: #1765ab;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 0.5rem;
+}
+
+#hotsite-selecao #como-funciona p {
+  margin-left: 0 !important;
+  max-width: 100%;
+  max-width: 750px;
+}
+
+#hotsite-selecao #como-funciona a {
+  border-radius: 1px;
+  margin: 2rem 0;
+  display: inline-block;
+  line-height: 1;
+}
+
+#hotsite-selecao #conheca-os-cursos #lista-cursos {
+  vertical-align: top;
+}
+
+#hotsite-selecao #conheca-os-cursos #lista-cursos #botoes-curso > button {
+  border-radius: 1px;
+  margin: 0;
+  margin-bottom: 1rem;
+  margin-right: 0.5rem;
+  width: 156px;
+  padding: 0.6rem 0.75rem;
+}
+
+#hotsite-selecao #conheca-os-cursos #lista-cursos #botoes-curso > button.selecionado {
+  background-color: #CFEAFF;
+  color: #043166;
+}
+
+#hotsite-selecao #conheca-os-cursos #lista-cursos #polos-do-curso {
+  margin-top: 1.5rem;
+}
+
+#hotsite-selecao #conheca-os-cursos #lista-cursos #polos-do-curso ul {
+  display: none;
+}
+
+#hotsite-selecao #conheca-os-cursos #lista-cursos #polos-do-curso ul li:last-of-type {
+  margin-bottom: 3rem;
+}
+
+#hotsite-selecao #conheca-os-cursos svg {
+  display: none;
+}
+
+#hotsite-selecao #conheca-os-cursos svg path.aceso {
+  fill: #FFB481;
+}
+
+#hotsite-selecao #inscricao li {
+  color: #c75000;
+  font-size: 1rem;
+  text-align: left;
+  padding: 0.5rem 0;
+  vertical-align: top;
+}
+
+#hotsite-selecao #inscricao li i {
+  padding-left: 0.5rem;
+}
+
+#hotsite-selecao #inscricao li div {
+  display: inline-block;
+  height: 4rem;
+}
+
+#hotsite-selecao #inscricao li .numero {
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  background-color: #c75000;
+  width: 3.5rem;
+  line-height: 1.7;
+  height: 3.5rem;
+  border-radius: 2rem;
+  text-align: center;
+  vertical-align: top;
+}
+
+#hotsite-selecao #inscricao li .instrucao {
+  width: calc(100% - 5rem);
+  vertical-align: sub;
+  margin-left: 0.5rem;
+  display: inline-block;
+  line-height: 1.5;
+  padding-top: 0.25rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+#hotsite-selecao #inscricao li .instrucao:hover span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#hotsite-selecao #inscricao li .instrucao span {
+  color: #f06c00;
+  text-transform: none;
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+#hotsite-selecao footer {
+  padding-top: 0;
+}
+
+#hotsite-selecao footer .creditos {
+  margin-top: 0;
+  background-color: #043166;
+}
+
+@media (min-width: 1024px) {
+  #hotsite-selecao header {
+    height: 45vh;
+  }
+  #hotsite-selecao header .caixa .box-marca {
+    width: 39%;
+  }
+  #hotsite-selecao header .caixa .box-nav {
+    width: calc(39% + 35px);
+  }
+  #hotsite-selecao header h1 {
+    width: 350px;
+    float: right;
+    margin-top: 0;
+  }
+  #hotsite-selecao header h1 .editais {
+    font-size: 3rem;
+  }
+  #hotsite-selecao header h1 .aluno {
+    max-width: 175px;
+    font-size: 1.35rem;
+  }
+  #hotsite-selecao header h1 .ufes {
+    font-size: 3.5rem;
+  }
+  #hotsite-selecao #como-funciona .topicos {
+    flex-wrap: nowrap;
+  }
+  #hotsite-selecao #conheca-os-cursos #lista-cursos {
+    display: inline-block;
+    width: 59%;
+  }
+  #hotsite-selecao #conheca-os-cursos #lista-cursos #botoes-curso > button {
+    font-size: 18px;
+    width: 180px;
+  }
+  #hotsite-selecao #conheca-os-cursos svg {
+    width: 40%;
+    height: auto;
+    display: inline-block;
+    pointer-events: none;
+    margin-top: -3rem;
+  }
+  #hotsite-selecao #inscricao {
+    margin-bottom: 3rem;
+  }
+  #hotsite-selecao #inscricao ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  #hotsite-selecao #inscricao li {
+    flex: 1 1 100%;
+    margin: 0 auto;
+    max-width: 300px;
+    display: inline-block;
+  }
+  #hotsite-selecao #inscricao li:not(:last-child) {
+    margin-right: 1.5rem;
   }
 }
 

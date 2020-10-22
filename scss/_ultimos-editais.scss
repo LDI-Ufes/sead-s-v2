@@ -42,16 +42,16 @@
       vertical-align: top;
 
       h3{
-        color: $laranja-medio;
-        border-bottom: solid 1px $laranja-medio;
+        color: rgba(0,0,0,.6);
+        border-bottom: solid 1px $laranja-principal;
         font-size: 1.13rem;
-        font-weight: $regular;
+        font-weight: $medium;
         display: inline-block;
         margin: 0;
         margin-bottom: .5rem;
 
         &:hover{ 
-          font-weight: $medium;
+          color: rgba(0,0,0,1);
         }
       }
 
@@ -87,6 +87,7 @@
     padding: 1.2rem;
     margin-top: 0;
     padding-bottom: .5rem;
+    
 
     .box-title{
       width: 100%;
