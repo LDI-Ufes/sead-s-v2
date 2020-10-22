@@ -344,6 +344,9 @@
       margin: 0;
       display: inline-block;
 
+      h2{ font-size: 2rem;}
+      > p{ font-size: 1.25rem; line-height: 1.5;}
+
       .topico-ead {
         margin: 1.5rem auto;
       }
@@ -416,6 +419,8 @@
 
     #polos {
       text-align: left;
+
+      p{ font-size: 1.25rem;}
 
       .mapaES {
         display: inline-block;

@@ -4,6 +4,7 @@
   background-image: url('./img/pattern.png'),linear-gradient($azul-extra-claro,$azul-extra-claro);
   background-position: center;
   padding: 1.5rem;  
+  margin-top: 2.5rem;
 
   .box-title{
     font-style: italic;
@@ -81,9 +82,10 @@
     }
   }
 
-  @media screen and (min-width: 992px) {
+  @media screen and (min-width: 1180px) {
 
     padding: 1.2rem;
+    margin-top: 0;
     padding-bottom: .5rem;
 
     .box-title{
