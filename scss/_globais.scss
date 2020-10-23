@@ -45,7 +45,7 @@ ul {
   }
 
   @media (min-width: 1180px) {
-    padding: 0 1.25rem;
+    padding: 0;
   }
 } 
 
@@ -155,44 +155,3 @@ ul {
 a[target='_blank'] i.fa-external-link-alt {
   font-size: 0.8em;
 }
-
-
-// Foco em navegação
-// * {
-//   &:focus {
-//     outline: none;
-//   }
-// }
-
-// %borda-foco {
-//   outline: 2px solid $laranjaRegular;
-// }
-
-// #lista-barra-brasil .link-barra.focus-visible {outline-offset: -5px}
-// #brasil-vlibras .logo-vlibras.focus-visible {outline-offset: -1px}
-// #ligacoesExternas > li a.focus-visible {outline-offset: 2px}
-
-// .focus-visible {
-//   z-index: 7;
-//   outline-offset: 3px;
-//   @extend %borda-foco;
-
-//   &.marca {
-//     outline: none;
-
-//     svg {
-//       @extend %borda-foco;
-//       outline-offset: 10px;
-//     }
-//   }
-
-//   &.botaoSubmissao {
-//     outline: none;
-//     box-shadow: none;
-
-//     i.fas {
-//       @extend %borda-foco;
-//       outline-offset: 5px;
-//     }
-//   }
-// }

@@ -1,20 +1,20 @@
-@import 'variaveis';
-
 #ultimos-editais{
   background-image: url('./img/pattern.png'),linear-gradient($azul-extra-claro,$azul-extra-claro);
   background-position: center;
   padding: 1.5rem;  
-  margin-top: 2.5rem;
+  margin: 0 -2rem;
+  height: fit-content;
 
   .box-title{
     font-style: italic;
     font-weight: $bold;
     margin: 0 auto;
     margin-top: -4.5rem;
-    width: 300px;
+    min-width: 300px;
+    max-width: calc(100vw - 10rem);
 
     span{
-      color: $laranja-medio;
+      color: $laranja-principal;
       font-size: 8rem;
       display: inline-block;
       font-weight: $black;
@@ -25,12 +25,14 @@
       font-size: 2rem;
       display: inline-block;
       line-height: 1;
+      font-weight: $black;
     }
   }        
 
   ul{
     padding: 0;
-    max-width: 300px;
+    min-width: 300px;
+    max-width: calc(100vw - 10rem);
     margin: 0 auto;
 
     li{
@@ -38,7 +40,7 @@
       margin-bottom: 1.2rem;
       text-align: left;
       display: inline-block;
-      width: 280px;
+      min-width: 280px;
       vertical-align: top;
 
       h3{
@@ -70,24 +72,9 @@
     }
   }
 
-
-  @media screen and (min-width: 652px) {
-    
-    .box-title{
-      width: 600px;
-    }
-
-    ul{ 
-      max-width: 620px;     
-    }
-  }
-
-  @media screen and (min-width: 1180px) {
-
-    padding: 1.2rem;
-    margin-top: 0;
-    padding-bottom: .5rem;
-    
+  @media screen and (min-width: 1024px) {
+    margin: 0;
+    border-radius: 2px;
 
     .box-title{
       width: 100%;

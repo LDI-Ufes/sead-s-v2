@@ -2,9 +2,15 @@
 
 <main id="conteudoPrincipal" class="inicio">
 
-  <div class="container">
+<section id="banner" class="destaque">
+    <div class="container">
+      <h2><span>Portal de Tecnologias Educacionais da Ufes</span> indicações para professores, estudantes e mediadores</h2>
+      <a href="http://edutics.ufes.br/" target="_blank">Acesse o EduTics</a>
+    </div>
+  </section>
 
-    <section id="ead-na-ufes">
+  <div class="container colunas">
+    <section id="ead-na-ufes" class="coluna1">
       <h2>Você conhece a EaD da Ufes?</h2>
       <p>Nós somos a Superintendência responsável por promover ações educativas e de formação da EaD na Ufes. Fique atento aos editais para mais informações sobre cada curso!</p>
       <div class="topico-ead">
@@ -30,9 +36,7 @@
       </div>
     </section>
 
-    <aside>
-      <?php include 'components/ultimos-editais.php' ?>
-    </aside>
+    <?php include 'components/ultimos-editais.php' ?>
 
   </div>
 
