@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
 <main id="conteudoPrincipal" class="page-blog">
-  <div class="container">
-    <ul id="posts">
+  <div class="container colunas">
+    <ul id="posts" class="coluna1">
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
           <li class="blog-post">
              <a href="<?php the_permalink() ?>" title="Ir para notícia: <?php the_title(); ?>"><div class="blog-post-header">
@@ -28,12 +28,12 @@
       <?php endif; ?>
     </ul>
 
-    <aside>
+    <aside class="coluna2">
       <?php include 'components/ultimos-editais.php' ?>
 
       <section id="informativo">
         <h2><span>Informativos</span></h2>
-        <label>Receba as notícias mais importantes, cadastre seu e-mail:</label><br>
+        <label>Receba as notícias mais importantes, <wbr>cadastre seu <wbr>e-mail:</label><br>
         <?php if ( dynamic_sidebar('cadastro_informativo') ) : else : endif; ?>
       </section>
 

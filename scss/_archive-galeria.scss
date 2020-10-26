@@ -112,30 +112,42 @@
         }
       }
 
-      // Intercalando cores dos itens
-
-      /*      &:nth-child(even){
-        h2{
-          color: $azulRegular;
-
-          &:before{
-            background-color: $azulRegular;
-          }
-        }
-
-        .abrirTodas{
-          background-color: $azulRegular;
-
-          &:hover{
-            background-color: $azulEscuro;
-          }
-        }
-      }*/
     }
   }
 
-  @media screen and (min-width: 992px) {
-    /*padding-top: 8rem;*/
+  @media screen and (min-width: 562px) {
+    #eventos {
+      li {
+        .imagens {
+          margin-right: -1.5rem;
+
+          p {
+            a {
+              margin-right: 1.5rem;
+              max-width: calc(50% - 1.5rem);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    #eventos {
+      li {
+        .imagens {
+
+          p {
+            a {
+              max-width: calc(33% - 1.5rem);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
 
     #filtros {
 
@@ -153,11 +165,9 @@
         margin-bottom: 5rem;
 
         .imagens {
-          margin-right: -1.5rem;
 
           p {
             a {
-              margin-right: 1.5rem;
               max-width: calc(25% - 1.5rem);
             }
           }

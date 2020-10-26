@@ -1,4 +1,4 @@
-<div id="ultimos-editais" class="coluna2"> <!-- componente -->
+<div id="ultimos-editais"> <!-- componente -->
     <div class="box-title"><span>#</span><h2>&nbsp últimos<br>editais</h2></div>
     <ul>
         <?php           

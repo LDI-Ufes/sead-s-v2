@@ -36,7 +36,10 @@
       </div>
     </section>
 
-    <?php include 'components/ultimos-editais.php' ?>
+    <aside class="coluna2">
+      <?php include 'components/ultimos-editais.php' ?>
+    </aside>
+    
 
   </div>
 

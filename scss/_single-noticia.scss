@@ -2,7 +2,7 @@
   .destaque {
     @include destaque($azul-escuro, $azul-escuro-transparencia);
 
-    @media screen and (min-width: 992px) {
+    @media screen and (min-width: 1024px) {
       height: 65vh !important;
     }
   }
@@ -178,7 +178,7 @@
     }
   }
 
-  @media screen and (min-width: 992px) {
+  @media screen and (min-width: 864px) {
     article {
       h1 {
         font-size: 2.75rem;

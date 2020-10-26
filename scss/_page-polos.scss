@@ -15,6 +15,7 @@
 
   #mapaES-polos {
     a:hover {
+      cursor: pointer;
       .geografia {
         fill: darken($laranja-claro, 5%);
       }
