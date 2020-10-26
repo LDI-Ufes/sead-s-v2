@@ -58,16 +58,13 @@
          
  
         <h2 id='curriculo'>Grade curricular</h2> 
-        <p>Carga horária total: 480h<br>
-          Módulo 1: 150h<br>
-          Módulo 2: 240h<br>
-          Módulo 3: 90h</p> 
+        <p>Carga horária total: 480h</p> 
  
           <ul id="matriz"> 
           
           <li class='semestre'> 
-            <button><h3>Módulo I - Para perguntar e experimentar, é só começar!</h3></button> 
-            <ul> 
+            <h3>Módulo I - Para perguntar e experimentar, é só começar!</h3>
+            <ul style="display: block;"> 
               <div class="rotulos-matriz"> 
                   <div>Disciplina</div> 
                   <div> 
@@ -94,8 +91,8 @@
             </ul> 
           </li>
           <li class='semestre'> 
-            <button><h3>Módulo II - Para perguntar e responder, melhor saber!</h3></button> 
-            <ul> 
+            <h3>Módulo II - Para perguntar e responder, melhor saber!</h3> 
+            <ul style="display: block;">  
               <div class="rotulos-matriz"> 
                   <div>Disciplina</div> 
                   <div> 
@@ -122,8 +119,8 @@
             </ul> 
           </li>
           <li class='semestre'> 
-            <button><h3>Módulo III - Se é para experimentar, vamos fazer!</h3></button> 
-            <ul> 
+            <h3>Módulo III - Se é para experimentar, vamos fazer!</h3>
+            <ul style="display: block;"> 
               <div class="rotulos-matriz"> 
                   <div>Disciplina</div> 
                   <div> 
@@ -143,7 +140,7 @@
  
       <h3>2019</h3> 
       <p><strong>Coordenação do Curso</strong><br/>Luciana Dias Thomaz</p> 
-      <!-- <p><strong>Polos atendidos</strong><br/></p>  -->
+      <p><strong>Polos atendidos</strong><br/>Castelo, Itapemirim, Mantenópolis, Pinheiros, Santa Leopoldina, São Mateus, Venda Nova do Imigrante, Vila Velha.</p> 
   
     </section> 
  

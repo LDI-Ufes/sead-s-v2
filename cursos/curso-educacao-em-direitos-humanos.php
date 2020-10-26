@@ -49,8 +49,8 @@
         <ul id="matriz"> 
           
           <li class='semestre'> 
-            <button><h3>Módulo I</h3></button> 
-            <ul> 
+            <h3>Módulo I</h3>
+            <ul style="display: block;"> 
               <div class="rotulos-matriz"> 
                 <div>Disciplina</div> 
                 <div> 
@@ -67,8 +67,8 @@
             </ul> 
           </li>
           <li class='semestre'> 
-            <button><h3>Módulo II</h3></button> 
-            <ul> 
+            <h3>Módulo II</h3> 
+            <ul style="display: block;"> 
               <div class="rotulos-matriz"> 
                 <div>Disciplina</div> 
                 <div> 
@@ -85,8 +85,8 @@
             </ul> 
           </li>
           <li class='semestre'> 
-            <button><h3>Módulo III</h3></button> 
-            <ul> 
+            <h3>Módulo III</h3> 
+            <ul style="display: block;"> 
               <div class="rotulos-matriz"> 
                 <div>Disciplina</div> 
                 <div> 
@@ -119,8 +119,8 @@
             </ul> 
           </li>
           <li class='semestre'> 
-            <button><h3>Módulo IV</h3></button> 
-            <ul> 
+            <h3>Módulo IV</h3> 
+            <ul style="display: block;"> 
               <div class="rotulos-matriz"> 
                 <div>Disciplina</div> 
                 <div> 

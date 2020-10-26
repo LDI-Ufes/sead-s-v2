@@ -6,7 +6,7 @@
     <div class="container"> 
       <div class='breadcrumb'>Você está em: <a href='<?php echo site_url(); ?>/cursos'>Cursos</a><i class='fas fa-greater-than'></i><span>Gestão Pública</span></div> 
  
-      <h1>Especialização EaD em Gestão Pública</h1> 
+      <h1>Gestão Pública</h1> 
  
       <div class="colunas"> 
  
@@ -231,50 +231,5 @@
     </section> 
  
   </div> 
- 
-  <section id='faq-curso' class="secao-destacada"> 
-    <div class='container'> 
-      <h2 class="titulo-destacado">Perguntas frequentes</h2> 
-        <ul> 
-          <li> 
-            <button><h3>O diploma/certificado EAD é válido?</h3></button> 
-            <p>Todo o material didático é disponibilizado on-line, por meio de recursos multimídia, podcasts, vídeos, videoaulas, animações, objetos de aprendizagem e-books, webconferências, no Ambiente Virtual de Aprendizagem. Caso prefira, é possível realizar a impressão.</p> 
-          </li> 
-        </ul> 
-    </div> 
-  </section> 
-
-  <section id='noticias' class="secao-destacada"> 
-    <?php $ultimas_noticias = new WP_Query(array( 
-      'post_type' => 'noticia', 
-      'posts_per_page' => 3, 
-      'tax_query' => array( 
-          array( 
-              'taxonomy' => 'curso-noticia', 
-              'field' => 'slug', 
-              'terms' => 'Nome', 
-            ), 
-        ), 
-    )); 
- 
-    if ($ultimas_noticias->have_posts()) : ?> 
- 
-      <div class='container'> 
-        <h2 class="titulo-destacado">Notícias do curso</h2> 
-        <div class='cards-noticias-curso'> 
- 
-          <?php while ($ultimas_noticias->have_posts()) : $ultimas_noticias->the_post(); ?> 
-            <a class='noticia' href='<?php the_permalink() ?>' title='Ir para notícia: <?php the_title(); ?>'> 
-              <?php the_post_thumbnail(); ?> 
-              <h3><?php the_title(); ?></h3> 
-            </a> 
- 
-          <?php endwhile; wp_reset_postdata(); else : ?> 
- 
-        </div> 
-      </div> 
- 
-    <?php endif; ?> 
-  </section> 
 
 </main>

@@ -4,9 +4,9 @@
 
   <section id='info-curso'> 
     <div class="container"> 
-      <div class='breadcrumb'>Você está em: <a href='<?php echo site_url(); ?>/cursos'>Cursos</a><i class='fas fa-greater-than'></i><span>Especialização em Ensino de Matemática: Matemática na Prática, na Modalidade EaD</span></div> 
+      <div class='breadcrumb'>Você está em: <a href='<?php echo site_url(); ?>/cursos'>Cursos</a><i class='fas fa-greater-than'></i><span>Ensino de Matemática: Matemática na Prática</span></div> 
  
-      <h1>Especialização em Ensino de Matemática: Matemática na Prática, na Modalidade EaD</h1> 
+      <h1>Ensino de Matemática: Matemática na Prática</h1> 
  
       <div class="colunas"> 
  
@@ -21,7 +21,7 @@
             <strong>Modalidade: </strong>Semipresencial<br/> 
           </p> 
           <p class="situacao"><strong>Situação: </strong> 
-            <br>Oferta 2018 em andamento.
+            <!-- <br>Oferta 2018 em andamento. -->
             <br><strong>Sem previsão de reoferta.</strong>
           </p> 
         </div> 
@@ -50,13 +50,13 @@
          
  
         <h2 id='curriculo'>Grade curricular</h2> 
-        <p>Carga horária total: 360 horas</p> 
+        <p>Carga horária total: 360 horas</p>
  
         <ul id="matriz"> 
           
           <li class='semestre'> 
-            <button><h3>Módulo I - Seduzidos pela Matemática </h3></button> 
-            <ul> 
+            <h3>Módulo I - Seduzidos pela Matemática </h3> 
+            <ul style="display: block;">  
               <div class="rotulos-matriz"> 
                   <div>Disciplina</div> 
                   <div> 
@@ -75,8 +75,8 @@
             </ul> 
           </li>
           <li class='semestre'> 
-            <button><h3>Módulo II - Envolvimento com o conhecimento científico</h3></button> 
-            <ul> 
+            <h3>Módulo II - Envolvimento com o conhecimento científico</h3>
+            <ul style="display: block;"> 
               <div class="rotulos-matriz"> 
                   <div>Disciplina</div> 
                   <div> 
@@ -103,8 +103,8 @@
             </ul> 
           </li>
           <li class='semestre'> 
-            <button><h3>Módulo III - Completude </h3></button> 
-            <ul> 
+            <h3>Módulo III - Completude </h3>
+            <ul style="display: block;"> 
               <div class="rotulos-matriz"> 
                   <div>Disciplina</div> 
                   <div> 
@@ -206,67 +206,12 @@
         <h2 id='ofertas-anteriores'>Ofertas do curso</h2> 
  
         <h3>2018</h3> 
-        <p><strong>Coordenação do Curso</strong><br/>Nome do Coordenador</p> 
+        <p><strong>Coordenação do Curso</strong><br/>Jaqueline Magalhães Brum</p> 
         <p><strong>Polos atendidos</strong><br/>
-        Aracruz<br/>
-        Cachoeiro de Itapemirim, Colatina<br/>
-        Domingos Martins<br/>
-        Iúna<br/>
-        Itapemirim<br/>
-        Mantenópolis<br/>
-        Montanha<br/>
-        Piúma<br/>
-        Venda Nova do Imigrante.</p>
-        </p> 
+        Aracruz, Cachoeiro de Itapemirim, Colatina, Domingos Martins, Iúna, Itapemirim, Mantenópolis, Montanha, PiúmaVenda Nova do Imigrante.</p>
 
  
     </section> 
  
   </div> 
- 
-  <section id='faq-curso' class="secao-destacada"> 
-    <div class='container'> 
-      <h2 class="titulo-destacado">Perguntas frequentes</h2> 
-        <ul> 
-          <li> 
-            <button><h3>O diploma/certificado EAD é válido?</h3></button> 
-            <p>Todo o material didático é disponibilizado on-line, por meio de recursos multimídia, podcasts, vídeos, videoaulas, animações, objetos de aprendizagem e-books, webconferências, no Ambiente Virtual de Aprendizagem. Caso prefira, é possível realizar a impressão.</p> 
-          </li> 
-        </ul> 
-    </div> 
-  </section> 
-
-  <section id='noticias' class="secao-destacada"> 
-    <?php $ultimas_noticias = new WP_Query(array( 
-      'post_type' => 'noticia', 
-      'posts_per_page' => 3, 
-      'tax_query' => array( 
-          array( 
-              'taxonomy' => 'curso-noticia', 
-              'field' => 'slug', 
-              'terms' => 'Nome', 
-            ), 
-        ), 
-    )); 
- 
-    if ($ultimas_noticias->have_posts()) : ?> 
- 
-      <div class='container'> 
-        <h2 class="titulo-destacado">Notícias do curso</h2> 
-        <div class='cards-noticias-curso'> 
- 
-          <?php while ($ultimas_noticias->have_posts()) : $ultimas_noticias->the_post(); ?> 
-            <a class='noticia' href='<?php the_permalink() ?>' title='Ir para notícia: <?php the_title(); ?>'> 
-              <?php the_post_thumbnail(); ?> 
-              <h3><?php the_title(); ?></h3> 
-            </a> 
- 
-          <?php endwhile; wp_reset_postdata(); else : ?> 
- 
-        </div> 
-      </div> 
- 
-    <?php endif; ?> 
-  </section> 
-
 </main>

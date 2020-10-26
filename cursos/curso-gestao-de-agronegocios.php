@@ -6,12 +6,11 @@
     <div class="container"> 
       <div class='breadcrumb'>Você está em: <a href='<?php echo site_url(); ?>/cursos'>Cursos</a><i class='fas fa-greater-than'></i><span>Gestão de Agronegócios</span></div> 
  
-      <h1>Especialização em Gestão de Agronegócios EaD</h1> 
+      <h1>Gestão de Agronegócios</h1> 
  
       <div class="colunas"> 
  
-        <p class='coluna1 objetivo'>
-        Proporcionar aos participantes conhecimento e domínio de técnicas de gestão de empresas e acesso a modernos instrumentos de análise técnica, econômica e financeira de projetos na área de agronegócios.
+        <p class='coluna1 objetivo'> O objetivo da Especialização em Gestão de Agronegócios EaD é proporcionar aos participantes conhecimento e domínio de técnicas de gestão de empresas e acesso a modernos instrumentos de análise técnica, econômica e financeira de projetos na área de agronegócios.
         </p> 
  
         <div class="coluna2"> 
@@ -48,13 +47,12 @@
       <div class="coluna1"> 
  
         <h2 id='curriculo'>Grade curricular</h2> 
-        <p>Carga horária total: 360 horas</p> 
+        <p>Carga horária total: 360 horas</p> <br>
  
         <ul id="matriz"> 
           
           <li class='semestre'> 
-            <button><h3>Módulo I - </h3></button> 
-            <ul> 
+            <ul style="display: block;"> 
               <div class="rotulos-matriz"> 
                   <div>Disciplina</div> 
                   <div> 
@@ -181,55 +179,20 @@
 
 
         </ul> 
+
+        <!-- <h2 id='ofertas-anteriores'>Ofertas do curso</h2>  -->
  
- 
+        <!-- <h3>2019</h3> 
+        <p><strong>Coordenação do Curso</strong><br/>Prof. Roberto Amadeu Fassarella</p> 
+        <p><strong>Polos atendidos</strong><br/>Afonso Cláudio, Aracruz, Baixo Guandú, Bom Jesus do Norte, Castelo, Conceição da Barra, Domingos Martins, Ecoporanga, Itapemirim, Iúna, Mantenópolis, Mimoso do Sul, Muniz Freire, Pinheiros, Piúma, Santa Leopoldina, Vargem Alta, Vila Pavão, Vitória.</p> 
+
+        <h3>2019</h3>
+        <p><strong>Coordenação do Curso</strong><br/>Prof. Roberto Amadeu Fassarella</p> 
+        <p><strong>Polos atendidos</strong><br/>Alegre, Barra de São Francisco, Cachoeiro de Itapemirim, Colatina, Guaçuí, Guarapari, Linhares, Montanha, Nova Venécia, Santa Teresa, São Mateus, Venda Nova do Imigrante, Vila Velha.</p>  -->
+
+  
     </section> 
  
   </div> 
  
-  <section id='faq-curso' class="secao-destacada"> 
-    <div class='container'> 
-      <h2 class="titulo-destacado">Perguntas frequentes</h2> 
-        <ul> 
-          <li> 
-            <button><h3>O diploma/certificado EAD é válido?</h3></button> 
-            <p>Todo o material didático é disponibilizado on-line, por meio de recursos multimídia, podcasts, vídeos, videoaulas, animações, objetos de aprendizagem e-books, webconferências, no Ambiente Virtual de Aprendizagem. Caso prefira, é possível realizar a impressão.</p> 
-          </li> 
-        </ul> 
-    </div> 
-  </section> 
-
-  <section id='noticias' class="secao-destacada"> 
-    <?php $ultimas_noticias = new WP_Query(array( 
-      'post_type' => 'noticia', 
-      'posts_per_page' => 3, 
-      'tax_query' => array( 
-          array( 
-              'taxonomy' => 'curso-noticia', 
-              'field' => 'slug', 
-              'terms' => 'Nome', 
-            ), 
-        ), 
-    )); 
- 
-    if ($ultimas_noticias->have_posts()) : ?> 
- 
-      <div class='container'> 
-        <h2 class="titulo-destacado">Notícias do curso</h2> 
-        <div class='cards-noticias-curso'> 
- 
-          <?php while ($ultimas_noticias->have_posts()) : $ultimas_noticias->the_post(); ?> 
-            <a class='noticia' href='<?php the_permalink() ?>' title='Ir para notícia: <?php the_title(); ?>'> 
-              <?php the_post_thumbnail(); ?> 
-              <h3><?php the_title(); ?></h3> 
-            </a> 
- 
-          <?php endwhile; wp_reset_postdata(); else : ?> 
- 
-        </div> 
-      </div> 
- 
-    <?php endif; ?> 
-  </section> 
-
 </main>
