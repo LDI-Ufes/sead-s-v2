@@ -1,6 +1,6 @@
 <main class='page curso' id="conteudoPrincipal">
 
-  <section class="destaque destaque-imagem" style="background-image: linear-gradient(#043166, rgba(4, 49, 102, 0.3)), url('<?php echo get_template_directory_uri()?>/img/capas/historia.jpg')"></section>
+<section class="curso-destaque"><?php the_post_thumbnail() ?></section>
 
   <section id='info-curso'> 
     <div class="container"> 
@@ -20,8 +20,8 @@
             <strong>Modalidade: </strong>Semipresencial<br/> 
           </p> 
 
-          <p class="situacao"><strong>Situação: </strong> 
-            <br>Oferta 2020 em andamento. 
+          <p class="situacao"><strong>Situação: </strong><br>
+          <?php $situacaoCurso = get_post_custom_values('situacao'); if ($situacaoCurso != "") { echo $situacaoCurso[0]; } ?>
           </p> 
         </div> 
       </div> 
@@ -281,7 +281,7 @@
  
   </div> 
  
-  <section id='noticias' class="secao-destacada"> 
+  <section id='noticias-curso' class="secao-destacada"> 
     <?php $ultimas_noticias = new WP_Query(array( 
       'post_type' => 'noticia', 
       'posts_per_page' => 3, 

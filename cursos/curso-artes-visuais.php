@@ -385,7 +385,7 @@
  
   </div> 
 
-  <section id='noticias' class="secao-destacada"> 
+  <section id='noticias-curso' class="secao-destacada"> 
     <?php $ultimas_noticias = new WP_Query(array( 
       'post_type' => 'noticia', 
       'posts_per_page' => 3, 

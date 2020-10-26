@@ -21,7 +21,6 @@
             <strong>Modalidade: </strong>Semipresencial<br/> 
           </p> 
           <p class="situacao"><strong>Situação: </strong> 
-            <!-- <br>Oferta 2018 em andamento. -->
             <br><strong>Sem previsão de reoferta.</strong>
           </p> 
         </div> 

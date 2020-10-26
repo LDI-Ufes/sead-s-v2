@@ -19,9 +19,9 @@
             <strong>Duração: </strong>18 meses<br/> 
             <strong>Modalidade: </strong>Semipresencial<br/> 
           </p> 
-          <p class="situacao"><strong>Situação: </strong> 
-            <br>Em andamento.
-          </p> 
+          <p class="situacao"><strong>Situação: </strong><br>
+          <?php $situacaoCurso = get_post_custom_values('situacao'); if ($situacaoCurso != "") { echo $situacaoCurso[0]; } ?>
+          </p>  
         </div> 
       </div> 
     </div> 

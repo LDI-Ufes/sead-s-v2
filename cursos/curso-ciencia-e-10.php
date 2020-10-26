@@ -18,10 +18,9 @@
             <strong>Duração: </strong>18 meses<br/> 
             <strong>Modalidade: </strong>Semipresencial<br/> 
           </p> 
-          <p class="situacao"><strong>Situação: </strong> 
-            <br>Oferta 2019 em andamento. 
-            <br><strong>Sem previsão de nova oferta.</strong> 
-          </p> 
+          <p class="situacao"><strong>Situação: </strong><br>
+          <?php $situacaoCurso = get_post_custom_values('situacao'); if ($situacaoCurso != "") { echo $situacaoCurso[0]; } ?>
+          </p>  
         </div> 
       </div> 
     </div> 
@@ -146,7 +145,7 @@
  
   </div> 
  
-  <section id='noticias' class="secao-destacada"> 
+  <section id='noticias-curso' class="secao-destacada"> 
     <?php $ultimas_noticias = new WP_Query(array( 
       'post_type' => 'noticia', 
       'posts_per_page' => 3, 
