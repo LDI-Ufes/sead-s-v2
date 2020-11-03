@@ -348,7 +348,7 @@
         ), 
     )); 
  
-    if ($ultimas_noticias->have_posts()) : ?> 
+    if ($ultimas_noticias->found_posts > 2) : ?> 
  
       <div class='container'> 
         <h2 class="titulo-destacado">Notícias do curso</h2> 
