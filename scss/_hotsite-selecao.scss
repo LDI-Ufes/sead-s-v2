@@ -49,27 +49,38 @@
       margin-top: 10rem;
       margin-bottom: 2rem;
       width: calc(320px - 2rem);
+      color: $azul-principal;
+      font-size: 3rem;
+      line-height: 1.2;
+      display: flex;
+      flex-direction: column;
 
-      .editais {
-        font-weight: $bold;
-        font-style: italic;
-        font-size: 2.5rem;
-        display: block;
-      }
-      .aluno {
-        font-weight: $regular;
-        text-align: right;
-        max-width: 147px;
-        font-size: 1.15rem;
-        display: inline-block;
-      }
-      .ufes {
-        font-family: $serif;
-        font-style: italic;
-        font-weight: $bold;
-        text-transform: uppercase;
-        font-size: 2.8rem;
-        display: inline-block;
+      .destaque-amarelo{
+        // padding: .2rem;
+        margin-bottom: .7rem;
+        font-size: .5em;
+        color: #1E1E24;
+        font-family: "Lucida Console", Monaco, monospace;
+        position: relative;
+        width: fit-content;
+
+        &:first-of-type::before{
+          content: "Processo";
+          position: absolute;
+          height: 1.6rem;
+          background-color: #F7D96D;
+          width: 100%;
+          padding: .1rem .2rem 0;
+        }
+
+        &:nth-of-type(2)::before{
+          content: "Seletivo 2020";
+          position: absolute;
+          height: 1.6rem;
+          background-color: #F7D96D;
+          width: 100%;
+          padding: .1rem .2rem 0;
+        }
       }
     }
   }
@@ -179,14 +190,14 @@
       display: none;
 
       path.aceso {
-        fill: $laranja-claro;
+        fill: $azul-claro;
       }
     }
   }
 
   #inscricao {
     li {
-      color: $laranja-medio;
+      color: #595959;
       font-size: 1rem;
       text-align: left;
       padding: 0.5rem 0;
@@ -232,11 +243,22 @@
         }
 
         span {
-          color: $laranja-principal;
+          color: $laranja-medio;
           text-transform: none;
           display: block;
           font-size: 1rem;
           font-weight: $regular;
+        }
+      }
+
+      &:last-of-type{
+        span{
+          background-color: $laranja-medio;
+          color: white;
+          border-radius: 1px;
+          display: inline-block;
+          padding: 0 .4rem;
+          margin-top: .2rem;
         }
       }
     }
@@ -253,7 +275,7 @@
 
   @media (min-width: 1024px) {
     header {
-      height: 45vh;
+      height: 40vh;
 
       .caixa {
         .box-marca {
@@ -266,7 +288,7 @@
       }
 
       h1 {
-        width: 350px;
+        width: 420px;
         float: right;
         margin-top: 0;
 

@@ -36,8 +36,8 @@
  
           <ul> 
             <li><a title="Mostrar perfil do egresso" href='#perfil-do-egresso'>Perfil do egresso</a></li> 
-            <li><a title="Mostrar currículo" href='#curriculo'>Grade curricular</a></li> 
-            <li><a title="Mostrar corpo docente" href='#corpo-docente'>Corpo docente</a></li> 
+            <!-- <li><a title="Mostrar currículo" href='#curriculo'>Grade curricular</a></li>  -->
+            <!-- <li><a title="Mostrar corpo docente" href='#corpo-docente'>Corpo docente</a></li>  -->
             <li><a title="Mostrar ofertas do curso" href='#ofertas-anteriores'>Ofertas</a></li> 
           </ul> 
         </div> 
@@ -60,14 +60,12 @@
         <p>Os egressos do curso de Licenciatura em Ciências Biológicas/EaD da UFES são qualificados para atuar no ensino básico nas redes pública e privada, seja na regência, seja na execução de projetos educativos, seja, ainda na gestão escolar.</p>
         <p>São oriundos de nossa instituição a quase totalidade dos docentes de Ciências Biológicas que atuam no Ensino Fundamental e Médio nos diferentes municípios onde o curso já foi ofertado.</p>
  
-        <h2 id='curriculo'>Grade curricular</h2> 
-        <p>Carga horária total de integralização curricular: 3420 horas</p> 
+        <!-- <h2 id='curriculo'>Grade curricular</h2> 
+        <p>Carga horária total de integralização curricular: 3420 horas</p>  -->
  
-        <ul id="matriz"> 
-          <!-- Importando json -->
+        <!-- <ul id="matriz"> 
           <?php $json = file_get_contents('grades/grade-ciencias-biologicas.json', true); $grade = json_decode($json); ?>
 
-            <!-- Loop pelos módulos -->
             <?php foreach($grade as $modulo => $disciplinas) { ?>
             
             <li class='semestre'> 
@@ -76,14 +74,13 @@
 
                 <div class="rotulos-matriz"> 
                   <div>Disciplina</div> 
-                  <!-- <div>Ementa</div>  -->
+                  <div>Ementa</div> 
                   <div> 
                     <span class="desktop">Carga horária</span> 
                     <span class="mobile">C. hr.</span> 
                   </div> 
                 </div>
 
-                <!-- Loop pelas disciplinas -->
                 <?php foreach ( $disciplinas as $d ){ ?>
 
                   <li> 
@@ -92,7 +89,7 @@
                     <?php if ( isset( $d->arquivo ) ){ ?>
 
                       <div> 
-                        <a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes/<?php echo $d->arquivo; ?>" target="_blank" title='Abrir documento em nova aba'> 
+                        <a href="<?php echo get_template_directory_uri(); ?>/arquivos/ciencias-biologicas/<?php echo $d->arquivo; ?>" target="_blank" title='Abrir documento em nova aba'> 
                           <i class="far fa-file-pdf"></i>PDF 
                           <span class="somente-leitura">Programa da disciplina <?php echo $d->nome; ?></span> 
                       </a> 
@@ -102,103 +99,21 @@
                     <div><?php echo $d->ch; ?>h</div> 
                   </li> 
 
-                <?php } ?> <!-- Fim do Loop pelas disciplinas -->
-
+                <?php } ?>
               </ul> 
             </li>
-
-            <?php } ?> <!-- Fim do Loop pelos módulos -->
-
-        </ul> 
+            <?php } ?> 
+        </ul>  -->
  
  
-        <h2 id='corpo-docente'>Corpo docente</h2> 
+        <!-- <h2 id='corpo-docente'>Corpo docente</h2> 
  
         <div class="administrativo"> 
-          <p><strong>Coordenação</strong><br/>Luciana Dias Thomaz</p> 
+          <p><strong>Coordenação</strong><br/></p> 
         </div> 
  
         <ul class="docentes"> 
-
-          <li class="professor"> 
-            <a href="http://lattes.cnpq.br/7199119599752978" target="_blank" title="Abrir perfil na plataforma Lattes em nova aba"> 
-              <span>Debora Dummer Meira</span> 
-              Doutorado 
-            </a> 
-          </li> 
-          <li class="professor"> 
-            <a href="http://lattes.cnpq.br/0341541450627705" target="_blank" title="Abrir perfil na plataforma Lattes em nova aba"> 
-              <span>Diolina Moura Silva</span> 
-              Doutorado 
-            </a> 
-          </li>
-          <li class="professor"> 
-            <a href="http://lattes.cnpq.br/4288236123208847" target="_blank" title="Abrir perfil na plataforma Lattes em nova aba"> 
-              <span>Francisco Candido Cardoso Barreto</span> 
-              Doutorado 
-            </a> 
-          </li>
-          <li class="professor"> 
-            <a href="http://lattes.cnpq.br/5073990176516263" target="_blank" title="Abrir perfil na plataforma Lattes em nova aba"> 
-              <span>Luciana Dias Thomaz</span> 
-              Doutorado 
-            </a> 
-          </li>
-          <li class="professor"> 
-            <a href="http://lattes.cnpq.br/2474229900403321" target="_blank" title="Abrir perfil na plataforma Lattes em nova aba"> 
-              <span>Monique Pereira do Nascimento</span> 
-              Mestrado 
-            </a> 
-          </li>
-          <li class="professor"> 
-            <a href="http://lattes.cnpq.br/6127436626143032" target="_blank" title="Abrir perfil na plataforma Lattes em nova aba"> 
-              <span>Rogerio Faustini Cuzzuol</span> 
-              Doutorado 
-            </a> 
-          </li>
-          <li class="professor"> 
-            <a href="http://lattes.cnpq.br/3539192483058949" target="_blank" title="Abrir perfil na plataforma Lattes em nova aba"> 
-              <span>Rosimeire dos Santos Brito</span> 
-              Doutorado 
-            </a> 
-          </li>
-          <li class="professor"> 
-            <a href="http://lattes.cnpq.br/1956218219090768" target="_blank" title="Abrir perfil na plataforma Lattes em nova aba"> 
-              <span>Sarah Maria Vargas</span> 
-              Doutorado 
-            </a> 
-          </li>
-          <li class="professor"> 
-            <a href="http://lattes.cnpq.br/2533393164526798" target="_blank" title="Abrir perfil na plataforma Lattes em nova aba"> 
-              <span>Tânia Mara Guerra</span> 
-              Doutorado 
-            </a> 
-          </li>
-          <li class="professor"> 
-            <a href="http://lattes.cnpq.br/9562316044920852" target="_blank" title="Abrir perfil na plataforma Lattes em nova aba"> 
-              <span>Taissa Rodrigues Marques da Silva</span> 
-              Doutorado 
-            </a> 
-          </li>
-          <li class="professor"> 
-            <a href="http://lattes.cnpq.br/2606838076983468" target="_blank" title="Abrir perfil na plataforma Lattes em nova aba"> 
-              <span>Valeria Fagundes</span> 
-              Doutorado 
-            </a> 
-          </li>
-          <li class="professor"> 
-            <a href="http://lattes.cnpq.br/3694434981958328" target="_blank" title="Abrir perfil na plataforma Lattes em nova aba"> 
-              <span>Viviana Borges Corte</span> 
-              Doutorado 
-            </a> 
-          </li>
-          <li class="professor"> 
-            <a href="http://lattes.cnpq.br/8973606745193293" target="_blank" title="Abrir perfil na plataforma Lattes em nova aba"> 
-              <span>Yuri Luiz Reis Leite</span> 
-              Doutorado 
-            </a> 
-          </li>
-        </ul> 
+        </ul>  -->
  
         <h2 id='ofertas-anteriores'>Ofertas do curso</h2> 
 
@@ -207,9 +122,9 @@
         <p><strong>Polos atendidos</strong><br/>Ecoporanga, Itapemirim, Iúna, Mimoso Do Sul, Pinheiros, Vargem Alta.</p> 
         <p><a href="<?php echo get_template_directory_uri(); ?>/arquivos/ofertas/Ciencias-Biologicas-oferta2014.pdf" title="Abrir arquivo de informações da oferta 2014" target="_blank">Mais informações sobre a oferta</a></p>
  
-        <h3>2020</h3> 
-        <p><strong>Coordenação do Curso</strong><br/>Luciana Dias Thomaz</p> 
-        <p><strong>Polos atendidos</strong><br/>Bom Jesus do Norte, Linhares, Montanha, Nova Venécia e Vila Velha.</p> 
+        <!-- <h3>2020</h3> 
+        <p><strong>Coordenação do Curso</strong><br/></p> 
+        <p><strong>Polos atendidos</strong><br/>Bom Jesus do Norte, Linhares, Montanha, Nova Venécia e Vila Velha.</p>  -->
 
  
     </section> 
