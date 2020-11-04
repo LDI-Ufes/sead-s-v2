@@ -42,7 +42,12 @@
 
             <li> 
               <a class="card-curso" title="Ir para a página do curso" href="<?php the_permalink(); ?>"> 
-                <?php if( has_term( 'em-curso', 'situacao' ) ) echo  '<div class="card-etiqueta">em curso</div>' ?>
+                <?php 
+                  if( has_term( 'encerrado', 'situacao' ) ){ 
+                    echo  '<div class="card-etiqueta">encerrado</div>';
+                  } elseif( has_term( 'edital-aberto', 'situacao' ) ) {
+                    echo  '<div class="card-etiqueta card-etiqueta-edital">edital aberto</div>';
+                  } ?>
                 <div class="card-capa"><?php the_post_thumbnail() ?></div> 
                 <h3 class="titulo"><?php the_title(); ?><span class="nivel"><?php echo strip_tags(get_the_term_list($post->ID, 'habilitacao')); ?></span></h3> 
               </a> 
@@ -79,7 +84,12 @@
 
             <li> 
               <a class="card-curso" title="Ir para a página do curso" href="<?php the_permalink(); ?>"> 
-                <?php if( has_term( 'em-curso', 'situacao' ) ) echo  '<div class="card-etiqueta">em curso</div>' ?>
+                <?php 
+                  if( has_term( 'encerrado', 'situacao' ) ){ 
+                    echo  '<div class="card-etiqueta">encerrado</div>';
+                  } elseif( has_term( 'edital-aberto', 'situacao' ) ) {
+                    echo  '<div class="card-etiqueta card-etiqueta-edital">edital aberto</div>';
+                  } ?>
                 <div class="card-capa"><?php the_post_thumbnail() ?></div> 
                 <h3 class="titulo"><?php the_title(); ?></h3> 
               </a> 
@@ -116,7 +126,12 @@
 
             <li> 
               <a class="card-curso" title="Ir para a página do curso" href="<?php the_permalink(); ?>"> 
-                <?php if( has_term( 'em-curso', 'situacao' ) ) echo  '<div class="card-etiqueta">em curso</div>' ?>
+                <?php 
+                  if( has_term( 'encerrado', 'situacao' ) ){ 
+                    echo  '<div class="card-etiqueta">encerrado</div>';
+                  } elseif( has_term( 'edital-aberto', 'situacao' ) ) {
+                    echo  '<div class="card-etiqueta card-etiqueta-edital">edital aberto</div>';
+                  } ?>
                 <div class="card-capa"><?php the_post_thumbnail() ?></div> 
                 <h3 class="titulo"><?php the_title(); ?></h3> 
               </a> 
