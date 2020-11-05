@@ -1,11 +1,11 @@
 @charset "UTF-8";
 /*!
-Theme Name: Sítio Sead v2
+Theme Name: Sítio Sead v2.1
 Theme URI: https://sead.ufes.br/
 Author: Laboratório de Design Instrucional - Sead Ufes
-Author URI: https://ldi.eadufes.org/
+Author URI: http://ldi.ufes.br/
 Description: Tema desenvolvido para o sítio da Secretaria de Ensino a Distância da Universidade Federal do Espírito Santo.
-Version: 2.0
+Version: 2.1
 */
 @font-face {
   font-family: "Font Awesome 5 Free";
@@ -1982,14 +1982,14 @@ footer section .subitens {
   font-weight: 400;
   text-transform: uppercase;
   color: white;
-  background: #f06c00;
+  background: #1765ab;
   border-top: solid 0.5px #CFEAFF;
   cursor: pointer;
   box-shadow: none;
 }
 
 .page-editais #filtros #seletores .seletor#limpar button:hover {
-  background-color: #c75000;
+  background-color: #053C7B;
   color: white;
 }
 
@@ -2086,8 +2086,9 @@ footer section .subitens {
     font-size: 1rem;
   }
   .page-editais #filtros #seletores .seletor#limpar button {
-    border-top: none;
     border: none;
+    height: 100%;
+    top: -1px;
   }
   .page-editais #editais .titulos {
     display: block;

@@ -104,13 +104,13 @@
             font-weight: $regular;
             text-transform: uppercase;
             color: white;
-            background: $laranja-principal;
+            background: $azul-principal;
             border-top: solid 0.5px $azul-claro;
             cursor: pointer;
             box-shadow: none;
 
             &:hover{
-              background-color: $laranja-medio;
+              background-color: $azul-medio;
               color: white;
             }
           }
@@ -214,8 +214,9 @@
           
           &#limpar{
             button{
-              border-top: none;
               border: none;
+              height: 100%;
+              top: -1px;
             }
           }
         }

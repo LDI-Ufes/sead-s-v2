@@ -45,7 +45,7 @@
       <ul id="dirigentes"> 
         <li><strong>Superintendente de Educação a Distância e Coordenadora UAB/UFES</strong><br>Maria Auxiliadora de Carvalho Corassa</li> 
         <li><strong>Coordenação Financeira</strong><br>Mauro Pantoja Ferreira</li> 
-        <li><strong>Diretora Acadêmica e Coordenadora Adjunta UAB/UFES</strong><br>JAndreia Chiari Lins</li> 
+        <li><strong>Diretora Acadêmica e Coordenadora Adjunta UAB/UFES</strong><br>Andreia Chiari Lins</li> 
         <li><strong>Diretor de Tecnologia da Informação e Comunicação</strong><br>Luiz Otávio Bastos Rebello</li> 
       </ul> 
     </div> 
@@ -57,7 +57,7 @@
     <h2>Agenda Pública</h2>
 
     <p>Atendendo ao Sistema de Transparência Ativa, de que tratam a Lei nº 12.527/2011 (Lei de Acesso à Informação - LAI) e suas regulamentações, disponibilizamos abaixo link para acesso à agenda da Superintendência de Educação a Distância da UFES.</p>
-    <strong>Acesse: </strong><a href="https://calendar.google.com/calendar/embed?src=seadufes2020@gmail.com&ctz=America/Sao_Paulo&pli=1" title="Abrir agenda em nova aba" target="_blank">Agenda Pública da SEAD</a>
+    <p><strong>Acesse: </strong><a href="https://calendar.google.com/calendar/embed?src=seadufes2020@gmail.com&ctz=America/Sao_Paulo&pli=1" title="Abrir agenda em nova aba" target="_blank">Agenda Pública da SEAD</a></p>
 
     <h2>Infraestrutura</h2>
     <ul id="infraestrutura">

@@ -39,7 +39,7 @@
   $(function () {  
     var contatosGracuacao = [];  
   
-    $.getJSON('/sead/wp-content/themes/sead-s-v2/js/contatos.json', function (data) {  
+    $.getJSON('/wp-content/themes/sead-v2.1/js/contatos.json', function (data) {  
       $.each(data.contatoGraduacao, function (i, curso) {  
         var lItem = '<li><h3>' + curso.curso + '</h3>' +   
                       '<div><span>Coordenação</span>'+ curso.coord +'</div>' +  
@@ -53,7 +53,7 @@
     $(function () {  
     var contatosEspecializacao = [];  
   
-    $.getJSON('/sead/wp-content/themes/sead-s-v2/js/contatos.json', function (data) {  
+    $.getJSON('/wp-content/themes/sead-v2.1/js/contatos.json', function (data) {  
       $.each(data.contatoEspecializacao, function (i, curso) {  
         var lItem = '<li><h3>' + curso.curso + '</h3>' +   
                       '<div><span>Coordenação</span>'+ curso.coord +'</div>' +  
