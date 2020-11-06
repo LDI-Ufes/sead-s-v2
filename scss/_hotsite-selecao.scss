@@ -1,4 +1,7 @@
 #hotsite-selecao {
+
+  main{padding-bottom: 0;} 
+
   header {
     background-attachment: scroll, fixed;
     background-size: cover;
@@ -49,27 +52,37 @@
       margin-top: 10rem;
       margin-bottom: 2rem;
       width: calc(320px - 2rem);
+      color: $azul-medio;
+      font-size: 3rem;
+      line-height: 1.2;
+      display: flex;
+      flex-direction: column;
 
-      .editais {
-        font-weight: $bold;
-        font-style: italic;
-        font-size: 2.5rem;
-        display: block;
-      }
-      .aluno {
-        font-weight: $regular;
-        text-align: right;
-        max-width: 147px;
-        font-size: 1.15rem;
-        display: inline-block;
-      }
-      .ufes {
-        font-family: $serif;
-        font-style: italic;
-        font-weight: $bold;
-        text-transform: uppercase;
-        font-size: 2.8rem;
-        display: inline-block;
+      .destaque-amarelo{
+        margin-bottom: .7rem;
+        font-size: .5em;
+        color: #1E1E24;
+        font-family: "Lucida Console", Monaco, monospace;
+        position: relative;
+        width: fit-content;
+
+        &:first-of-type::before{
+          content: "Processo";
+          position: absolute;
+          height: 1.6rem;
+          background-color: #F7D96D;
+          width: 100%;
+          padding: .1rem .2rem 0;
+        }
+
+        &:nth-of-type(2)::before{
+          content: "Seletivo 2020";
+          position: absolute;
+          height: 1.6rem;
+          background-color: #F7D96D;
+          width: 100%;
+          padding: .1rem .2rem 0;
+        }
       }
     }
   }
@@ -131,11 +144,16 @@
     }
 
     a {
-      @extend %botao;
-      border-radius: 1px;
+      color: $laranja-medio;
+      font-weight: $bold;
       margin: 2rem 0;
       display: inline-block;
       line-height: 1;
+      border-bottom: 2px solid white;
+
+      &:hover{
+        border-bottom: 2px solid $laranja-medio;
+      }
     }
   }
 
@@ -169,7 +187,15 @@
           }
 
           a {
-            @extend %botao;
+            color: $laranja-medio;
+            font-weight: $bold;
+            display: inline-block;
+            line-height: 1;
+            border-bottom: 2px solid white;
+      
+            &:hover{
+              border-bottom: 2px solid $laranja-medio;
+            }
           }
         }
       }
@@ -179,14 +205,18 @@
       display: none;
 
       path.aceso {
-        fill: $laranja-claro;
+        fill: $azul-claro;
       }
     }
   }
 
   #inscricao {
+      background-color: rgba(247,217,109,.31);
+      padding: 4rem 0;
+      h2{ margin-top: 0;}
+
     li {
-      color: $laranja-medio;
+      color: #595959;
       font-size: 1rem;
       text-align: left;
       padding: 0.5rem 0;
@@ -205,7 +235,7 @@
         color: white;
         font-size: 2rem;
         font-weight: $bold;
-        background-color: $laranja-medio;
+        background-color: $azul-principal;
         width: 3.5rem;
         line-height: 1.7;
         height: 3.5rem;
@@ -232,11 +262,26 @@
         }
 
         span {
-          color: $laranja-principal;
+          color: $laranja-medio;
           text-transform: none;
           display: block;
           font-size: 1rem;
           font-weight: $regular;
+        }
+      }
+
+      &:last-of-type{
+        span{
+          background-color: #c75000;
+          text-transform: uppercase;
+          color: white;
+          border: none;
+          padding: 0.6rem 2rem;
+          margin: 1rem 0;
+          font-weight: 500;
+          cursor: pointer;
+          display: inline-block;
+          
         }
       }
     }
@@ -253,7 +298,8 @@
 
   @media (min-width: 1024px) {
     header {
-      height: 45vh;
+      height: 40vh;
+      min-height: 340px;
 
       .caixa {
         .box-marca {
@@ -266,7 +312,7 @@
       }
 
       h1 {
-        width: 350px;
+        width: 420px;
         float: right;
         margin-top: 0;
 
@@ -310,8 +356,6 @@
     }
 
     #inscricao {
-      margin-bottom: 3rem;
-
       ul{
         display: flex;
         justify-content: space-between;
@@ -323,7 +367,7 @@
       li {
         flex: 1 1 100%;
         margin: 0 auto;
-        max-width: 300px;
+        max-width: 368px;
         display: inline-block;
 
         &:not(:last-child) {

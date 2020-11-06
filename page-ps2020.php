@@ -10,7 +10,6 @@
     <link rel="icon" type="image/svg+xml" href="<?php echo get_template_directory_uri(); ?>/favicon/sead.svg">
 
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700,700i" rel="stylesheet"> <!-- Conferir necessidade de variações -->
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:700i" rel="stylesheet"> <!-- Conferir necessidade de variações -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style.css">
@@ -18,7 +17,7 @@
 
   <body id="hotsite-selecao">
 
-    <header style="background-image: linear-gradient(transparent, rgba(4, 49, 102, 0.6)), url('<?php echo get_template_directory_uri() ?>/img/hotsite-capa.png')">
+    <header style="background-image: url('<?php echo get_template_directory_uri() ?>/img/selecao2020.png')">
       <div class="container">
         <section class="caixa">
           <div class="box-marca"></div>
@@ -28,12 +27,18 @@
           <div class="box-nav"></div>
           <a class="nav" href="<?php echo site_url(); ?>">Ir para o Portal Sead</a>
         </section>
-        <h1><span class="editais">Processo Seletivo 2020:</span> <span class="aluno">quer ser um estudante EaD da</span> <span class="ufes">Ufes?</span></h1>
+        <h1>
+          <span class="destaque-amarelo">Processo</span> 
+          <span class="destaque-amarelo"> Seletivo 2020</span> 
+          <span>Cursos de<br>Graduação<br>Semipresencial</span>
+        </h1>
       </div>     
 
     </header>
 
-    <main class="page container">
+    <main class="page">
+
+    <div class="container"> 
 
       <section id="como-funciona">
         <h2>Como funciona a Educação a Distância da Ufes?</h2>
@@ -66,13 +71,6 @@
           </figure>
           <p>O curso é semipresencial, ocorrendo encontros regulares nos polos, para discussão, atividades, orientações.</p>
         </div>
-        <!-- <div class="topico-ead">
-          <figure>
-            <?php include 'svg/formacao.svg' ?>
-            <figcaption>Formação</figcaption>
-          </figure>
-          <p>O diploma é emitido pela Ufes. A EaD consegue levar ensino de qualidade para o interior do Estado.</p>
-        </div> -->
         </div>
 
         <p>A Superintendência de Educação a Distância – Sead é a instância responsável por promover ações educativas e de formação, nas quais a mediação didático-pedagógica dos processos de ensino e de aprendizagem ocorre por meio da utilização das tecnologias da informação e da comunicação, nos ambientes virtuais de aprendizagens – AVA, e, presencialmente, nos polos municipais de apoio presencial da Universidade Aberta do Brasil – UAB e em outros espaços educativos.</p>
@@ -94,8 +92,11 @@
         <?php include 'svg/mapaES-polos.svg'; ?>
       </section>
 
+    </div>
+
       <section id="inscricao">
-        <h2>Gostou? Quer se inscrever?</h2>
+        <div class="container">
+        <h2>Faça sua inscrição!</h2>
         <ul>
           <li>
             <div class="numero">1</div>
@@ -107,13 +108,10 @@
           </li>
           <li>
             <div class="numero">3</div>
-            <a class="instrucao" href="<?php echo site_url(); ?>/editais" target="_blank" title="Ir para a página de Editais">Leia com atenção o Edital do Processo Seletivo<span>Ver Editais</span></a>
-          </li>
-          <li>
-            <div class="numero">4</div>
-            <a class="instrucao" href="https://www.concursos.ufes.br/sead/" target="_blank" title="Ir para Concursos Ufes">Faça sua inscrição no Processo Seletivo 2020 EaD/Ufes<span>Inscreva-se</span></a>
+            <a class="instrucao" href="<?php echo site_url(); ?>/editais/ps-01-2020/" target="_blank" title="Ir para Concursos Ufes">Leia com atenção todas as informações do Edital e se inscreva!<br><span>Inscreva-se</span></a>
           </li>
         </ul>
+        <div>
       </section>
 
     </main>

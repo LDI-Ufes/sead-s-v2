@@ -4,8 +4,10 @@
 
 <section id="banner" class="destaque">
     <div class="container">
-      <h2><span>Portal de Tecnologias Educacionais da Ufes</span> indicações para professores, estudantes e mediadores</h2>
-      <a href="http://edutics.ufes.br/" target="_blank">Acesse o EduTics</a>
+      <h2><span class="destaque-amarelo">Processo</span> 
+          <span class="destaque-amarelo"> Seletivo 2020</span> 
+          <span>Cursos de<br>Graduação<br>Semipresencial</span></h2>
+      <a href="<?php echo site_url(); ?>/editais/ps-01-2020/" target="_blank">Edital aberto!</a>
     </div>
   </section>
 
