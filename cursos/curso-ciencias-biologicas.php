@@ -36,8 +36,7 @@
  
           <ul> 
             <li><a title="Mostrar perfil do egresso" href='#perfil-do-egresso'>Perfil do egresso</a></li> 
-            <!-- <li><a title="Mostrar currículo" href='#curriculo'>Grade curricular</a></li>  -->
-            <!-- <li><a title="Mostrar corpo docente" href='#corpo-docente'>Corpo docente</a></li>  -->
+            <li><a title="Mostrar currículo" href='#curriculo'>Grade curricular</a></li> 
             <li><a title="Mostrar ofertas do curso" href='#ofertas-anteriores'>Ofertas</a></li> 
           </ul> 
         </div> 
@@ -60,12 +59,14 @@
         <p>Os egressos do curso de Licenciatura em Ciências Biológicas/EaD da UFES são qualificados para atuar no ensino básico nas redes pública e privada, seja na regência, seja na execução de projetos educativos, seja, ainda na gestão escolar.</p>
         <p>São oriundos de nossa instituição a quase totalidade dos docentes de Ciências Biológicas que atuam no Ensino Fundamental e Médio nos diferentes municípios onde o curso já foi ofertado.</p>
  
-        <!-- <h2 id='curriculo'>Grade curricular</h2> 
-        <p>Carga horária total de integralização curricular: 3420 horas</p>  -->
+        <h2 id='curriculo'>Grade curricular</h2> 
+        <p>Carga horária total de integralização curricular: 3420 horas</p> 
  
-        <!-- <ul id="matriz"> 
+        <ul id="matriz"> 
+          <!-- Importando json -->
           <?php $json = file_get_contents('grades/grade-ciencias-biologicas.json', true); $grade = json_decode($json); ?>
 
+            <!-- Loop pelos módulos -->
             <?php foreach($grade as $modulo => $disciplinas) { ?>
             
             <li class='semestre'> 
@@ -74,13 +75,14 @@
 
                 <div class="rotulos-matriz"> 
                   <div>Disciplina</div> 
-                  <div>Ementa</div> 
+                  <!-- <div>Ementa</div>  -->
                   <div> 
                     <span class="desktop">Carga horária</span> 
                     <span class="mobile">C. hr.</span> 
                   </div> 
                 </div>
 
+                <!-- Loop pelas disciplinas -->
                 <?php foreach ( $disciplinas as $d ){ ?>
 
                   <li> 
@@ -99,21 +101,14 @@
                     <div><?php echo $d->ch; ?>h</div> 
                   </li> 
 
-                <?php } ?>
+                <?php } ?> <!-- Fim do Loop pelas disciplinas -->
+
               </ul> 
             </li>
-            <?php } ?> 
-        </ul>  -->
- 
- 
-        <!-- <h2 id='corpo-docente'>Corpo docente</h2> 
- 
-        <div class="administrativo"> 
-          <p><strong>Coordenação</strong><br/></p> 
-        </div> 
- 
-        <ul class="docentes"> 
-        </ul>  -->
+
+            <?php } ?> <!-- Fim do Loop pelos módulos -->
+
+        </ul> 
  
         <h2 id='ofertas-anteriores'>Ofertas do curso</h2> 
 
@@ -122,9 +117,8 @@
         <p><strong>Polos atendidos</strong><br/>Ecoporanga, Itapemirim, Iúna, Mimoso Do Sul, Pinheiros, Vargem Alta.</p> 
         <p><a href="<?php echo get_template_directory_uri(); ?>/arquivos/ofertas/Ciencias-Biologicas-oferta2014.pdf" title="Abrir arquivo de informações da oferta 2014" target="_blank">Mais informações sobre a oferta</a></p>
  
-        <!-- <h3>2020</h3> 
-        <p><strong>Coordenação do Curso</strong><br/></p> 
-        <p><strong>Polos atendidos</strong><br/>Bom Jesus do Norte, Linhares, Montanha, Nova Venécia e Vila Velha.</p>  -->
+        <h3>2020</h3> 
+        <p><strong>Polos atendidos</strong><br/>Bom Jesus do Norte, Linhares, Montanha, Nova Venécia e Vila Velha.</p> 
 
  
     </section> 

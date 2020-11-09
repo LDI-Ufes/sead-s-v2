@@ -37,8 +37,7 @@
  
           <ul> 
             <li><a title="Mostrar perfil do egresso" href='#perfil-do-egresso'>Perfil do egresso</a></li> 
-            <!-- <li><a title="Mostrar currículo" href='#curriculo'>Grade curricular</a></li> 
-            <li><a title="Mostrar corpo docente" href='#corpo-docente'>Corpo docente</a></li>  -->
+            <li><a title="Mostrar currículo" href='#curriculo'>Grade curricular</a></li> 
             <li><a title="Mostrar ofertas do curso" href='#ofertas-anteriores'>Ofertas</a></li> 
           </ul> 
         </div> 
@@ -77,12 +76,14 @@
         </ol>
 
  
-        <!-- <h2 id='curriculo'>Grade curricular</h2> 
-        <p>Carga horária total de integralização curricular: 3210 horas</p>  -->
+        <h2 id='curriculo'>Grade curricular</h2> 
+        <p>Carga horária total de integralização curricular: 3210 horas</p> 
  
-        <!-- <ul id="matriz"> 
+        <ul id="matriz"> 
+          <!-- Importando json -->
           <?php $json = file_get_contents('grades/grade-historia.json', true); $grade = json_decode($json); ?>
 
+            <!-- Loop pelos módulos -->
             <?php foreach($grade as $modulo => $disciplinas) { ?>
             
             <li class='semestre'> 
@@ -91,13 +92,14 @@
 
                 <div class="rotulos-matriz"> 
                   <div>Disciplina</div> 
-                  <div>Ementa</div> 
+                  <!-- <div>Ementa</div>  -->
                   <div> 
                     <span class="desktop">Carga horária</span> 
                     <span class="mobile">C. hr.</span> 
                   </div> 
                 </div>
 
+                <!-- Loop pelas disciplinas -->
                 <?php foreach ( $disciplinas as $d ){ ?>
 
                   <li> 
@@ -116,24 +118,14 @@
                     <div><?php echo $d->ch; ?>h</div> 
                   </li> 
 
-                <?php } ?>
+                <?php } ?> <!-- Fim do Loop pelas disciplinas -->
 
               </ul> 
             </li>
 
-            <?php } ?>
+            <?php } ?> <!-- Fim do Loop pelos módulos -->
 
         </ul> 
-  -->
- 
-        <!-- <h2 id='corpo-docente'>Corpo docente</h2> 
- 
-        <div class="administrativo"> 
-          <p><strong>Coordenação</strong><br/></p> 
-         </div> 
- 
-        <ul class="docentes"> 
-        </ul>  -->
  
         <h2 id='ofertas-anteriores'>Ofertas do curso</h2> 
  
@@ -142,6 +134,10 @@
         <p><strong>Polos atendidos:</strong> Afonso Cláudio, Aracruz, Cachoeiro de Itapemirim, Castelo, Ecoporanga, Itapemirim, Iúna, Linhares, Montanha, Pinheiros, Piúma e Santa Teresa.</p>
         <p><a href="<?php echo get_template_directory_uri(); ?>/arquivos/ofertas/Historia-oferta2014.pdf" title="Abrir arquivo de informações da oferta 2014" target="_blank">Mais informações sobre a oferta</a></p>
 
+        <h3>2020</h3>
+        <p><strong>Polos atendidos:</strong> Alegre, Conceição da Barra, Domingos Martins, Mantenópolis e Vargem Alta.</p>
+  
+ 
     </section> 
  
   </div> 

@@ -37,8 +37,7 @@
  
           <ul> 
             <li><a title="Mostrar perfil do egresso" href='#perfil-do-egresso'>Perfil do egresso</a></li> 
-            <!-- <li><a title="Mostrar currículo" href='#curriculo'>Grade curricular</a></li> 
-            <li><a title="Mostrar corpo docente" href='#corpo-docente'>Corpo docente</a></li>  -->
+            <li><a title="Mostrar currículo" href='#curriculo'>Grade curricular</a></li> 
             <li><a title="Mostrar ofertas do curso" href='#ofertas-anteriores'>Ofertas</a></li> 
           </ul> 
         </div> 
@@ -72,12 +71,14 @@
       </ul>
         
  
-        <!-- <h2 id='curriculo'>Grade curricular</h2> 
+        <h2 id='curriculo'>Grade curricular</h2> 
         <p>Carga horária mínima de integralização curricular: 3280 horas</p> 
  
         <ul id="matriz"> 
+          <!-- Importando json -->
           <?php $json = file_get_contents('grades/grade-pedagogia.json', true); $grade = json_decode($json); ?>
 
+            <!-- Loop pelos módulos -->
             <?php foreach($grade as $modulo => $disciplinas) { ?>
             
             <li class='semestre'> 
@@ -86,13 +87,14 @@
 
                 <div class="rotulos-matriz"> 
                   <div>Disciplina</div> 
-                  <div>Ementa</div> 
+                  <!-- <div>Ementa</div>  -->
                   <div> 
                     <span class="desktop">Carga horária</span> 
                     <span class="mobile">C. hr.</span> 
                   </div> 
                 </div>
 
+                <!-- Loop pelas disciplinas -->
                 <?php foreach ( $disciplinas as $d ){ ?>
 
                   <li> 
@@ -111,21 +113,12 @@
                     <div><?php echo $d->ch; ?>h</div> 
                   </li> 
 
-                <?php } ?>
+                <?php } ?> <!-- Fim do Loop pelas disciplinas -->
 
               </ul> 
             </li>
-            <?php } ?>
-        </ul>  -->
- 
-        <!-- <h2 id='corpo-docente'>Corpo docente</h2> 
- 
-        <div class="administrativo"> 
-          <p><strong>Coordenação</strong><br/></p> 
-         </div> 
- 
-        <ul class="docentes"> 
-        </ul>  -->
+            <?php } ?> <!-- Fim do Loop pelos módulos -->
+        </ul> 
  
         <h2 id='ofertas-anteriores'>Ofertas do curso</h2> 
  
@@ -138,6 +131,8 @@
         <p><strong>Polos atendidos: </strong>Afonso Cláudio, Aracruz, Baixo Guandu, Cachoeiro de Itapemirim, Castelo, Colatina, Domingos Martins, Ecoporanga, Itapemirim, Iúna, Linhares, Mantenópolis, Mimoso do Sul, Montanha, Pinheiros, Piúma, Santa Leopoldina, Santa Teresa, Vargem Alta e Venda Nova do Imigrante.</p>
         <p><a href="<?php echo get_template_directory_uri(); ?>/arquivos/ofertas/Pedagogia-Oferta2014.pdf" title="Baixar arquivo de informações da oferta 2014" target="_blank">Mais informações da oferta</a></p>
       
+        <h3>2020</h3>
+        <p><strong>Polos atendidos: </strong>Castelo, Ecoporanga, Nova Venécia, Piúma e Santa Leopoldina.</p>
     </section> 
  
   </div> 
