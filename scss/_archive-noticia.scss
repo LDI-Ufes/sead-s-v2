@@ -1,15 +1,40 @@
 .page-blog {
-  @import "ultimos-editais";
+  .colunas {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 
-  .container {
-    width: 100%;
-    padding: 0;
-    padding-top: 3rem;
+    @media (min-width: 1024px) {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: nowrap;
+
+      .coluna1 {
+        max-width: 754px;
+        width: 66%;
+        order: 1;
+        margin-right: 3.5rem;
+        padding: 0;
+      }
+
+      .coluna2 {
+        max-width: calc(364px - 3rem);
+        width: 33%;
+        order: 2;
+      }
+    }
   }
 
   #posts {
+    @media screen and (min-width: 1024px) {
+      width: 654px;
+    }
+
+    .paginacao {
+      margin-bottom: 3rem;
+    }
+
     .blog-post {
-      margin-bottom: 4rem;
+      margin-bottom: 3rem;
       list-style-type: none;
       font-weight: $semi-bold;
 
@@ -21,7 +46,7 @@
           max-height: 250px;
 
           span {
-            background-color: $azulEscuro;
+            background-color: $azul-escuro;
             color: white;
             text-transform: uppercase;
             position: absolute;
@@ -37,6 +62,7 @@
             min-height: 100px;
             max-height: 250px;
             object-fit: cover;
+            border-radius: 2px;
           }
 
           &:before {
@@ -47,7 +73,8 @@
             top: 0;
             width: 100%;
             opacity: 0.6;
-            background-image: linear-gradient(transparent, $azulEscuro);
+            background-image: linear-gradient(transparent, $azul-escuro);
+            border-radius: 2px;
           }
 
           .post-date {
@@ -65,60 +92,61 @@
             opacity: 0.8;
           }
         }
+
+        @media screen and (min-width: 1024px) {
+          .blog-post-header {
+            height: 20vw;
+
+            span {
+              margin-left: 2rem;
+            }
+
+            img {
+              height: 20vw;
+            }
+
+            .post-date {
+              padding: 1rem;
+              font-size: 1rem;
+            }
+          }
+        }
       }
 
       h3 {
-        color: $azulEscuro;
+        color: $laranja-medio;
         font-weight: $semi-bold;
         font-size: 1.3rem;
-        margin: 1.5rem;
+        margin: 1.5rem 0.75rem 1rem;
+        line-height: 1.4;
 
         a:hover {
-          border-bottom: solid 0.5px $laranjaRegular;
+          border-bottom: solid 0.5px $laranja-medio;
         }
       }
 
       p {
-        font-family: $merriweather;
-        font-weight: $regular;
+        font-family: $sans;
+        font-weight: $light;
         line-height: 1.5;
-        margin: 1rem 1.5rem;
-      }
-    }
-
-    #paginacao {
-      color: $laranjaMedio;
-      padding: 1rem 1rem 2rem;
-      text-align: center;
-      font-weight: $bold;
-
-      a,
-      span {
-        padding: 0 .5rem;
+        margin: 1rem 0.75rem;
       }
 
-      a:hover {
-        border-bottom: solid 1px $laranjaEscuro;
-        color: $laranjaEscuro;
-      }
-
-      span {
-        color: $azulRegular;
-      }
-
-      h2 {
-        display: none;
+      @media screen and (min-width: 1024px) {
+        h3,
+        p {
+          margin: 1rem 0;
+        }
       }
     }
   }
 
   #informativo {
-    margin-top: 2rem;
-    padding: 1.5rem;
+    margin-top: 3rem;
 
     h2 {
       position: relative;
-      color: $laranjaRegular;
+      color: $laranja-principal;
       text-transform: uppercase;
 
       span {
@@ -132,7 +160,7 @@
         display: block;
         vertical-align: middle;
         height: 2px;
-        background-color: $laranjaRegular;
+        background-color: $laranja-principal;
         width: 100%;
         margin-right: -100%;
         position: absolute;
@@ -145,7 +173,8 @@
     label {
       font-size: 1.6rem;
       font-weight: $light;
-      color: $laranjaRegular;
+      color: $azul-principal;
+      line-height: 1.4;
     }
 
     // SendGrid Widget
@@ -157,7 +186,7 @@
 
       input {
         font-family: "Fira Sans", sans-serif !important;
-        border: solid 1px $azulEscuro;
+        border: solid 1px $azul-escuro;
       }
 
       .sendgrid_mc_fields {
@@ -169,17 +198,17 @@
         }
 
         .sendgrid_mc_input {
-          width: calc(100% - .5rem - 2px);
+          width: calc(100% - 0.5rem - 2px);
           height: 1.5rem;
-          padding-left: .5rem;
-          background-color: $azulExtraClaro;
+          padding-left: 0.5rem;
+          background-color: $azul-extra-claro;
         }
       }
 
       .sendgrid_mc_button {
         margin: 0 !important;
         height: 100%;
-        background-color: $azulEscuro;
+        background-color: $azul-escuro;
         text-transform: uppercase;
         font-size: 0.8rem;
         color: white;
@@ -188,11 +217,13 @@
   }
 
   .social-media {
-    background: linear-gradient(45deg, $azulEscuro, $azulRegular);
+    background: linear-gradient(45deg, $azul-escuro, $azul-principal);
     border: none;
     color: white;
     width: calc(100% - 3rem);
-    height: 5rem;
+    max-width: 340px;
+    // height: 5rem;
+    margin: 0 auto;
     margin-top: 2rem;
     display: table;
     padding: 1.5rem;
@@ -215,23 +246,18 @@
     }
 
     &:hover {
-      background: linear-gradient(45deg, $azulEscuro, darken($azulClaro, 50%));
+      background: linear-gradient(45deg, $azul-escuro, darken($azul-claro, 50%));
     }
   }
 
   #galeria {
-    background-color: $laranjaExtraClaro;
+    background-color: $laranja-extra-claro;
     margin-top: 5rem;
     padding-top: 2rem;
     padding-bottom: 5rem;
 
-    .container {
-      width: inherit;
-      padding: 0 1rem;
-    }
-
     h2 {
-      background-color: $laranjaMedio;
+      background-color: $laranja-medio;
       color: white;
       text-transform: uppercase;
       position: absolute;
@@ -243,7 +269,7 @@
     ul {
       li {
         font-weight: $light;
-        color: $laranjaEscuro;
+        color: $laranja-escuro;
         font-size: 1.2rem;
         padding-top: 1rem;
         width: 100%;
@@ -252,7 +278,6 @@
         h3 {
           margin: 0;
           font-weight: $bold;
-
         }
 
         p {
@@ -272,7 +297,7 @@
             height: 10rem;
             pointer-events: none;
 
-            &:nth-child(2){
+            &:nth-child(2) {
               margin-right: 0;
             }
 
@@ -312,81 +337,8 @@
           }
         }
       }
-    }
-  }
 
-  a[role="button"] {
-    @extend %botao;
-    background-color: white;
-    color: $laranjaMedio;
-    float: right;
-    margin: 0;
-
-    &:hover {
-      background-color: $laranjaMedio;
-      color: white;
-    }
-  }
-
-  @media screen and (min-width: 992px) {
-    .container {
-      padding-top: 5rem;
-    }
-
-    #posts {
-      width: 560px;
-      display: inline-block;
-
-      .blog-post {
-        a {
-          .blog-post-header {
-            height: 20vw;
-
-            span {
-              margin-left: 2rem;
-            }
-
-            img {
-              height: 20vw;
-            }
-
-            .post-date {
-              padding: 1rem;
-              font-size: 1rem;
-            }
-          }
-        }
-
-        h3,
-        p {
-          margin: 1rem 0;
-        }
-      }
-
-      #postsNav {
-        padding: 0 0 2rem;
-      }
-    }
-
-    aside {
-      display: inline-block;
-      width: 320px;
-      vertical-align: top;
-      margin-left: 75px;
-    }
-
-    #informativo {
-      padding: 0;
-    }
-
-    #galeria {
-      padding: 2rem 0 5rem;
-
-      .container {
-        padding: 0 !important;
-      }
-
-      ul {
+      @media screen and (min-width: 1024px) {
         padding-top: 1.5rem;
 
         li {
@@ -414,6 +366,19 @@
             width: calc(25% - 1.15rem);
           }
         }
+      }
+    }
+
+    a[role="button"] {
+      @extend %botao;
+      background-color: white;
+      color: $laranja-medio;
+      float: right;
+      margin: 0;
+  
+      &:hover {
+        background-color: $laranja-medio;
+        color: white;
       }
     }
   }

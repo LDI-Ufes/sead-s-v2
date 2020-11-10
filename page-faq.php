@@ -1,4 +1,4 @@
-<?php get_header('principal'); ?>
+<?php get_header(); ?>
 
 <main class="page container faq" id="conteudoPrincipal">
   <section class="breadcrumb">Você está em: <span>Dúvidas Frequentes</span></section>
@@ -7,7 +7,7 @@
   <ul>
     <li>
       <button><h2>O que é um curso a distância semipresencial?</h2></button>
-      <p>É um curso feito na modalidade de ensino a distância, mas que exige a presença do discente no polo de apoio presencial ao ensino a distância em datas pré-fixadas para realização de encontros presenciais, aulas experimentais, avaliações, entrega de trabalho entre outras solicitações.</p>
+      <p>É um curso feito na modalidade de educação a distância, mas que exige a presença do discente no polo de apoio presencial ao educação a distância em datas pré-fixadas para realização de encontros presenciais, aulas experimentais, avaliações, entrega de trabalho entre outras solicitações.</p>
     </li>
     <li>
       <button><h2>Os encontros presencias são obrigatórios? </h2></button>
@@ -18,7 +18,7 @@
       <p>O tutor a distância é o mediador entre o professor, os tutores presenciais e os estudantes dos polos. Já o tutor presencial é responsável pelo acompanhamento direito e sistemático dos estudantes nos polos.</p>
     </li>      
     <li>
-      <button><h2>É possível realizar a transferência de curso da modalidade presencial para a modalidade a distancia e vice-versa?</h2></button>
+      <button><h2>É possível realizar a transferência de curso da modalidade presencial para a modalidade a distância e vice-versa?</h2></button>
       <p>Sim. Será assegurada a transferência de estudantes da modalidade presencial para a modalidade a distância e vice-versa, conforme edital do Processo Seletivo para Vagas Surgidas. Maiores informações podem ser obtidas no <a href="http://www.psvs.ufes.br" target="_blank">sítio do PSVS Ufes</a>.</p>
     </li>      
     <li>
@@ -32,9 +32,9 @@
 
 <script>
   $('button').click(function () {
-    $(this).toggleClass('ativo');
+    $(this).parent().toggleClass('ativo');
     $(this).siblings().slideToggle();
-    $('button').not($(this)).removeClass('ativo').siblings().slideUp();
+    $('button').not($(this)).siblings().slideUp().parent().removeClass('ativo');
   });
 
 </script>

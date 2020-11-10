@@ -9,6 +9,7 @@ Description: Tema desenvolvido para o sítio da Secretaria de Ensino a Distânci
 Version: 2.0
 */
 
+@import "fontes";
 @import "variaveis";
 @import "desfazer";
 
@@ -19,6 +20,8 @@ Version: 2.0
 @import "cabecalho";
 @import "rodape";
 
+@import "banner";
+@import "ultimos-editais";
 @import "front-page";
 
 @import "archive-noticia";

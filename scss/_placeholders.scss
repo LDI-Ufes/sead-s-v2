@@ -1,5 +1,5 @@
 %botao {
-  background-color: $laranjaMedio;
+  background-color: $laranja-medio;
   text-transform: uppercase;
   color: white;
   border: none;
@@ -9,7 +9,7 @@
   cursor: pointer;
 
   &:hover {
-    background-color: $laranjaEscuro;
+    background-color: $laranja-escuro;
   }
 }
 

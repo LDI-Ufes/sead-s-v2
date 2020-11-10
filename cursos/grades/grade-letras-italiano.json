@@ -1,0 +1,237 @@
+{
+    "1°_Semestre": [
+        {
+            "nome": "Língua Italiana I ",
+            "arquivo": "Programa-Lingua-Italiana-1.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Fundamentos Históricos e Filosóficos da Educação",
+            "arquivo": "Programa-Fundamentos-Historicos-e-Filosoficos-da-Educacao.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Produção e Recepção Oral em Italiano",
+            "arquivo": "Programa-Producao-e-Recepcao-Oral-em-Italiano.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Sociologia da Educação",
+            "arquivo": "Programa-Sociologia-Educacao.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Projeto Integrador I - Tecnologias Digitais da Informação e Comunicação",
+            "arquivo": "Programa-Projeto-Integrador-1.pdf",
+            "ch": 60
+        }
+    ],
+    "2°_Semestre": [
+        {
+            "nome": "Língua Italiana II",
+            "arquivo": "Programa-Lingua-Italiana-2.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Elaboração de Trabalhos Acadêmicos",
+            "arquivo": "Programa-Elaboracao-de-Trabalhos-Academicos.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Política e Organização da Educação Básica - POEB ",
+            "arquivo": "Programa-Planejamento-e-Organizacao-da Educacao-Basica.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "História da Língua Italiana",
+            "arquivo": "Programa-Historia-da-Lingua-Italiana.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Produção e Recepção Escrita em Italiano",
+            "arquivo": "Programa-Producao-e-Recepcao-Escrita-em-Italiano.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Projeto Integrador II - Educação Ambiental",
+            "arquivo": "Programa-Projeto-Integrador-2.pdf",
+            "ch": 60
+        }
+    ],
+    "3°_Semestre": [
+        {
+            "nome": "Língua Italiana III",
+            "arquivo": "Programa-Lingua-Italiana-3.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Psicologia da Educação: Aprendizagem",
+            "arquivo": "Programa-de-Psicologia-da-Educacao-Aprendizagem.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Literatura Brasileira I - Periodização",
+            "arquivo": "Programa-Literatura-Brasileira-1.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Educação e Diversidade",
+            "arquivo": "Programa-Educacao-e-Diversidade.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Tópicos de Estudos Clássicos",
+            "arquivo": "Programa-Topicos-em-Estudos-Classicos.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Tópicos de Cultura Italiana I",
+            "arquivo": "Programa-Topicos-de-Cultura-Italiana-1.pdf",
+            "ch": 60
+        }
+    ],
+    "4°_Semestre": [
+        {
+            "nome": "Língua Italiana IV",
+            "arquivo": "Lingua-Italiana-IV.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Literatura Italiana I",
+            "arquivo": "Literatura-Italiana1.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Gestão da Educação Básica",
+            "arquivo": "Gestao-da-Educacao-Basica.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Avaliação em Língua Estrangeira",
+            "arquivo": "Avaliacao-em-Lingua-Estrangeira.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Introdução à Linguística",
+            "arquivo": "Introducao-a-Linguistica.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Projeto Integrador III - Educação Especial",
+            "arquivo": "Educacao-Projeto-Integrador-III.pdf",
+            "ch": 60
+        }
+    ],
+    "5°_Semestre": [
+        {
+            "nome": "Língua Italiana V",
+            "arquivo": "Programa_Lingua-Italiana5.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Educação das Relações Étnico-Raciais",
+            "arquivo": "Programa_Educacao-das-Relacoes-Etnico-Raciais.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Psicologia do Desenvolvimento",
+            "ch": 60
+        },
+        {
+            "nome": "Projeto Integrador IV - Atividades Culturais Italianas em Ambientes Educativos",
+            "arquivo": "Programa_Projeto-IntegradorIV.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Projeto Integrador V - Gestão Educacional e Análise do Discurso",
+            "arquivo": "Programa_Projeto-IntegradorV.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Literatura Italiana II",
+            "arquivo": "Programa_Literatura-Italiana2.pdf",
+            "ch": 60
+        }
+    ],
+    "6°_Semestre": [
+        {
+            "nome": "Didática da Língua Italiana",
+            "arquivo": "Programa_Didatica-da-Lingua-Italiana.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Literatura Italiana Infanto-Juvenil",
+            "arquivo": "Programa_Literatura-Infanto-Juvenil-Italiana.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Currículo da Educação Básica",
+            "arquivo": "Programa_Curriculo-da-Educacao-Basica.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Tópicos de Cultura Italiana II",
+            "arquivo": "Programa_Topicos-de-Cultura-Italiana2.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Semântica",
+            "arquivo": "Programa_Semantica.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Sociolinguística",
+            "arquivo": "Programa_Sociolinguistica.pdf",
+            "ch": 60
+        },
+        {
+            "nome": "Literatura Brasileira II - Periodização",
+            "arquivo": "Programa_Literatura-Brasileira2.pdf",
+            "ch": 60
+        }
+    ],
+    "7°_Semestre": [
+        {
+            "nome": "Estágio Supervisionado em Língua Italiana I ",
+            "ch": 210
+        },
+        {
+            "nome": "Análise Contrastiva entre o Português e o Italiano",
+            "ch": 60
+        },
+        {
+            "nome": "Recursos Didáticos para o Ensino de Língua Estrangeira",
+            "ch": 60
+        },
+        {
+            "nome": "LIBRAS",
+            "ch": 60
+        },
+        {
+            "nome": "Projeto Integrador VI - Política Linguística",
+            "ch": 60
+        }
+    ],
+    "8°_Semestre": [
+        {
+            "nome": "Estágio Supervisionado em Língua Italiana II ",
+            "ch": 210
+        },
+        {
+            "nome": "Literatura Italiana III",
+            "ch": 60
+        },
+        {
+            "nome": "TCC",
+            "ch": 60
+        },
+        {
+            "nome": "LIBRAS",
+            "ch": 60
+        },
+        {
+            "nome": "Projeto Integrador VII - Direitos Humanos e Educação",
+            "ch": 60
+        }
+    ]
+}

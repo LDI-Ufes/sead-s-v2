@@ -19,13 +19,13 @@
   }
 
   p > a {
-    color: $laranjaMedio;
+    color: $laranja-medio;
     font-weight: $medium;
     font-style: normal;
     margin: 0;
 
     &:hover {
-      border-bottom: solid 0.5px $laranjaMedio;
+      border-bottom: solid 0.5px $laranja-medio;
     }
     
     i{ font-size: .9rem; }
@@ -35,11 +35,11 @@
     width: calc(100% - 4rem);
     margin-right: 0 !important;
     font-weight: $light;
-    color: $azulRegular;
+    color: $azul-principal;
     font-size: 1.8rem;
     margin-left: 4rem !important;
     margin-top: 6rem;
-    font-family: $fira;
+    font-family: $sans;
     font-style: normal;
     line-height: 1.2;
     position: relative;

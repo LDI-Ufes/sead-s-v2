@@ -1,33 +1,21 @@
-//
-// Fonte
-//
 
-$thin: 100;
-$extra-light: 200;
-$light: 300;
-$regular: 400;
-$medium: 500;
-$semi-bold: 600;
-$bold: 700;
-$extra-bold: 800;
-$black: 900;
+//Nomenclatura atualizada
+$azul-extra-claro: #edf9ff; 
+$azul-claro: #CFEAFF; 
+$azul-principal: #1765ab; 
+$azul-medio: #053C7B; 
+$azul-escuro: #043166; 
+ 
+$laranja-extra-claro: #FFF5EE; 
+$laranja-claro: #FFB481; 
+$laranja-principal: #f06c00; 
+$laranja-medio: #c75000; 
+$laranja-escuro: #b24800; 
 
-$merriweather: "Merriweather", serif;
-$fira: "Fira Sans", sans;
+$verde-alerta: #04AB5F;
 
-// Cores
+$degrade-azul: rgba( $azul-medio, .3 ); 
+$degrade-laranja: rgba( $laranja-principal, .3 );
 
-$azulExtraClaro: #edf9ff;
-$azulClaro: #cfeaff;
-$azulRegular: #1765ab;
-$azulMedio: #05427b;
-$azulEscuro: #043166;
-
-$laranjaExtraClaro: #ffdcc5;
-$laranjaClaro: #ffa161;
-$laranjaRegular: #f06c00;
-$laranjaMedio: #c75000;
-$laranjaEscuro: #b24800;
-
-$azulEscuroTransparencia: rgba(4, 49, 102, .3);
-$laranjaRegularTransparencia: rgba(240, 108, 0, .3);
+$azul-escuro-transparencia: rgba(4, 49, 102, .3);
+$laranja-principal-transparencia: rgba(240, 108, 0, .3);

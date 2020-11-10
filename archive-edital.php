@@ -1,4 +1,4 @@
-<?php get_header('principal'); ?>
+<?php get_header(); ?>
 
 <main id="conteudoPrincipal" class="container page page-editais">
   <section class="breadcrumb">Você está em: <span>Editais</span></section>
@@ -107,7 +107,7 @@
 
     </ul>
 
-<!--    <div id="paginacao">
+<!--    <div class="paginacao">
       <?php
       the_posts_pagination(array(
           'prev_text' => __('<', 'textdomain'),

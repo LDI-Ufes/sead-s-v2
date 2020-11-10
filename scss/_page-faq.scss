@@ -1,29 +1,47 @@
 .faq {
   ul {
+    margin-top: 3rem;
     li {
       @extend %largura-texto;
-      margin: 1.5rem 0;
+      margin: 1.5rem 0 !important;
+      margin-left: 24px !important;
+      width: calc(100% - 24px);
+      position: relative;
+
+      &:before {
+        content: "\f067";
+        font-family: "Font Awesome 5 Free";
+        color: $laranja-principal;
+        font-size: 1rem;
+        padding-right: 0.5rem;
+        font-weight: $bold;
+        line-height: 2;
+        left: -24px;
+        position: absolute;
+      }
+
+      &.ativo {
+        &:before {
+          content: "\f068";
+        }
+
+        h2 {
+          font-weight: $bold;
+        }
+      }
 
       button {
         background: none;
         border: none;
         text-align: left;
+        padding: 0;
 
         &:hover {
           cursor: pointer;
 
           > h2 {
-            border-bottom: 2px solid $laranjaRegular;
+            border-bottom: 2px solid $laranja-principal;
           }
-        }
-
-        &:before {
-          content: "\f067";
-          font-family: "Font Awesome 5 Free";
-          color: $laranjaRegular;
-          font-size: 1rem;
-          padding-right: 0.6rem;
-          font-weight: $bold;
         }
 
         h2 {
@@ -35,19 +53,12 @@
           font-weight: $regular;
           display: inline;
         }
-        
-        &.ativo {
-          &:before {
-            content: "\f068";
-          }
-
-          h2 {
-            font-weight: $bold;
-          }
-        }
       }
 
-      p { display: none; }
-    } /* li */
-  } /* ul */
+      p {
+        display: none;
+        margin-top: .25em;
+      }
+    }
+  }
 }

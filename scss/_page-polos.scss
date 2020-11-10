@@ -1,124 +1,101 @@
 .page-polos {
-  #mapaInterativo {
-    margin-top: 2rem;
-    position: relative;
 
-    .popoverMunicipios {
-      width: 100%;
+  .container-mapa {
+    display: none;
+
+    @media (min-width: 760px) {
       display: inline-block;
-      vertical-align: top;
-      line-height: 1.5;
-      font-weight: $light;
-      margin-bottom: 2rem;
-
-      h2 {
-        color: $laranjaRegular;
-        font-size: 1.5rem;
-      }
-
-      i {
-        color: $azulRegular;
-      }
-
-      p {
-        font-size: 2rem;
-        color: $azulRegular;
-        line-height: 1.3;
-        margin-top: 1rem;
-        position: relative;
-        margin-bottom: 4rem;
-
-        &:after {
-          content: "";
-          position: absolute;
-          height: 0;
-          left: 0;
-          width: 100%;
-          border-top: 2px solid $azulClaro;
-          margin-top: 4rem;
-        }
-      }
-    } /* popoverMunicipios */
-
-    #polos {
-      li {
-        padding: 0.5rem 0;
-
-        button.municipioTitulo {
-          font-weight: $medium;
-          color: $azulRegular;
-          cursor: pointer;
-          transition: font-size 0.5s;
-          border: none;
-          background: none;
-
-          &:hover {
-            border-bottom: solid 0.5px $azulRegular;
-          }
-        }
-
-        .info-polo {
-          display: none;
-          line-height: 1.5;
-          padding-top: 1rem;
-          padding-left: 1rem;
-          margin-bottom: 1.2rem;
-
-          i {
-            color: $laranjaRegular;
-          }
-        }
-
-        &.expandido {
-          button.municipioTitulo {
-            font-weight: $bold;
-            font-size: 1.5rem;
-            color: $laranjaRegular;
-            margin-top: .8rem;
-
-            &:hover {
-              border: none;
-            }
-          }
-          .info-polo {
-            display: block;
-          }
-        }
-      } /* li */
-    } /* #polos */
-
-    .mapaES {
       position: sticky;
       position: -webkit-sticky;
       top: 3rem;
       width: 50%;
+      margin-top: 4rem;
     }
-  } /* #mapaInterativo */
+  }
 
-  @media screen and (min-width: 992px) {
-    #mapaInterativo {
-      margin: 5rem 0;
-      .popoverMunicipios {
-        width: 45%;
+  #mapaES-polos {
+    a:hover {
+      cursor: pointer;
+      .geografia {
+        fill: darken($laranja-claro, 5%);
+      }
+    }
 
-        p:after {
-          width: 32rem;
+    a .selecionado {
+      fill: $azul-claro;
+    }
+
+    @media (max-width: 1024px) {
+      width: 100%;
+    }
+  }
+
+  .container-lista {
+    margin-bottom: 5rem;
+
+    @media (min-width: 760px) {
+      width: 45%;
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    h2 {
+      font-weight: $light;
+      line-height: 1.4;
+      font-size: 2rem;
+      border-bottom: 1px solid $azul-claro;
+    }
+  }
+
+  #lista-polos {
+
+    @media (min-width: 760px) {
+      width: 88%;
+    }
+    li {
+      padding: 0.5rem 0;
+
+      .polo-titulo {
+        font-weight: $medium;
+        color: $laranja-medio;
+        cursor: pointer;
+        transition: font-size 0.5s;
+        border: none;
+        background: none;
+        font-size: 1.1rem;
+
+        &:hover {
+          border-bottom: solid 0.5px $laranja-medio;
         }
       }
-      #polos{
-        li{
-          .info-polo{
-            max-width: 300px;
+
+      .polo-info {
+        display: none;
+        line-height: 1.5;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        margin-bottom: 1.2rem;
+        font-size: 1rem;
+
+        i {
+          color: $azul-principal;
+        }
+      }
+
+      &.expandido {
+        .polo-titulo {
+          font-weight: $bold;
+          font-size: 1.25rem;
+          color: $azul-principal;
+          margin-top: 0.8rem;
+
+          &:hover {
+            border: none;
           }
         }
-      }
-    } /* #mapaInterativo */
-  } /* media */
-
-  @media screen and (max-width: 991px) {
-    #mapaInterativo {
-      .mapaES {
-        display: none;
+        .polo-info {
+          display: block;
+        }
       }
     }
   }

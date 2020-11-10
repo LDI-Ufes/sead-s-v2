@@ -1,17 +1,18 @@
-<?php get_header('principal'); ?>
+<?php get_header(); ?>
 
 <main id="conteudoPrincipal" class="inicio">
 
 <section id="banner" class="destaque">
     <div class="container">
-      <h2><span>Portal de Tecnologias Educacionais da Ufes</span> indicações para professores, estudantes e mediadores</h2>
-      <a href="http://edutics.ufes.br/" target="_blank">Acesse o EduTics</a>
+      <h2><span class="destaque-amarelo">Processo</span> 
+          <span class="destaque-amarelo"> Seletivo 2020</span> 
+          <span>Cursos de<br>Graduação<br>Semipresencial</span></h2>
+      <a href="<?php echo site_url(); ?>/editais/ps-01-2020/" target="_blank">Edital aberto!</a>
     </div>
   </section>
 
-  <div class="container">
-
-    <section id="ead-na-ufes">
+  <div class="container colunas">
+    <section id="ead-na-ufes" class="coluna1">
       <h2>Você conhece a EaD da Ufes?</h2>
       <p>Nós somos a Superintendência responsável por promover ações educativas e de formação da EaD na Ufes. Fique atento aos editais para mais informações sobre cada curso!</p>
       <div class="topico-ead">
@@ -37,9 +38,10 @@
       </div>
     </section>
 
-    <aside>
+    <aside class="coluna2">
       <?php include 'components/ultimos-editais.php' ?>
     </aside>
+    
 
   </div>
 
@@ -86,7 +88,7 @@
         <div class="confira-mais">
           <span>Confira mais do que acontece nos polos:</span>
           <a href="https://www.facebook.com/sead.ufes/" target="_blank" title="Abrir página da Sead no Facebook em nova aba"><span class="somente-leitura">Página da Sead no Facebook</span><i class="fab fa-facebook-f"></i></a>
-          <a href="<?php echo site_url(); ?>/noticias" title="Ir para a página de notícias"><span class="somente-leitura">Página de notícias</span><?php include 'svg/nossoBlog.svg' ?></a>
+          <a href="<?php echo site_url(); ?>/noticias" title="Ir para a página de notícias"><span class="somente-leitura">Página de notícias</span><?php include 'svg/nossoBLOG.svg' ?></a>
         </div>
       </div>
 

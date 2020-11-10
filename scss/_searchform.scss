@@ -66,7 +66,7 @@
     }
 
     input {
-      background-color: darken($azulRegular, 10%) !important;
+      background-color: darken($azul-principal, 10%) !important;
     }
 
     // [Browser Default Reset] Cor do texto do placeholder
@@ -99,7 +99,7 @@
 
     // [Browser Default Reset] Cores do autocompletar (padrão: amarelo e preto)
     input:-webkit-autofill {
-      -webkit-box-shadow: 0 0 0px 30px lighten($azulRegular, 20%) inset;
+      -webkit-box-shadow: 0 0 0px 30px lighten($azul-principal, 20%) inset;
       -webkit-text-fill-color: white !important;
       background-color: transparent !important;
     }

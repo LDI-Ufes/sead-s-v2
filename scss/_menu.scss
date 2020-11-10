@@ -24,7 +24,7 @@ nav.menu {
         @include bordaItemMenu(transparent);
 
         &:hover {
-          @include bordaItemMenu($laranjaRegular);
+          @include bordaItemMenu($laranja-principal);
         }
       }
 
@@ -56,7 +56,7 @@ nav.menu {
   }
 }
 
-@media screen and (min-width: 993px) {
+@media screen and (min-width: 1179px) {
   #barraAuxiliar {
     ul.menuLista {
       > li {
@@ -162,7 +162,7 @@ nav.menu {
         position: absolute;
         top: 100%;
         flex-flow: column;
-        background-color: $azulEscuro;
+        background-color: $azul-escuro;
         padding: 1em 0 0.75em 0;
         box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
         white-space: normal;

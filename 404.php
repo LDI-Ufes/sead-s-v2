@@ -1,4 +1,4 @@
-<?php get_header('principal'); ?>
+<?php get_header(); ?>
 
 <main class="page page-erro" id="conteudoPrincipal">
   <div id="fundo"></div>

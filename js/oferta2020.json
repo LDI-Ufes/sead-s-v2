@@ -77,32 +77,6 @@
       ]
     },
     {
-      "id": "filosofia",
-      "nome": "Filosofia",
-      "polos": [ 
-        {
-          "id": "BaixoGuandu",
-          "nome": "Baixo Guandu"
-        },
-        {
-          "id": "Castelo",
-          "nome": "Castelo"
-        },
-        {
-          "id": "Ecoporanga",
-          "nome": "Ecoporanga"
-        },
-        {
-          "id": "Itapemirim",
-          "nome": "Itapemirim"
-        },
-        {
-          "id": "SaoMateus",
-          "nome": "São Mateus"
-        }
-      ]
-    },
-    {
       "id": "fisica",
       "nome": "Física",
       "polos": [ 
@@ -155,58 +129,6 @@
       ]
     },
     {
-      "id": "pedagogia",
-      "nome": "Pedagogia",
-      "polos": [ 
-        {
-          "id": "Castelo",
-          "nome": "Castelo"
-        },
-        {
-          "id": "Ecoporanga",
-          "nome": "Ecoporanga"
-        },
-        {
-          "id": "NovaVenecia",
-          "nome": "Nova Venécia"
-        },
-        {
-          "id": "Piuma",
-          "nome": "Piúma"
-        },
-        {
-          "id": "SantaLeopoldina",
-          "nome": "Santa Leopoldina"
-        }
-      ]
-    },
-    {
-      "id": "quimica",
-      "nome": "Química",
-      "polos": [ 
-        {
-          "id": "Aracruz",
-          "nome": "Aracruz"
-        },
-        {
-          "id": "ConceicaodaBarra",
-          "nome": "Conceição da Barra"
-        },
-        {
-          "id": "Iuna",
-          "nome": "Iúna"
-        },
-        {
-          "id": "MimosodoSul",
-          "nome": "Mimoso do Sul"
-        },
-        {
-          "id": "Vitoria",
-          "nome": "Vitória"
-        }
-      ]
-    },
-    {
       "id": "ciencias-biologicas",
       "nome": "Ciências Biológicas",
       "polos": [ 
@@ -229,6 +151,32 @@
         {
           "id": "VilaVelha",
           "nome": "Vila Velha"
+        }
+      ]
+    },
+    {
+      "id": "pedagogia",
+      "nome": "Pedagogia",
+      "polos": [ 
+        {
+          "id": "Castelo",
+          "nome": "Castelo"
+        },
+        {
+          "id": "Ecoporanga",
+          "nome": "Ecoporanga"
+        },
+        {
+          "id": "NovaVenecia",
+          "nome": "Nova Venécia"
+        },
+        {
+          "id": "Piuma",
+          "nome": "Piúma"
+        },
+        {
+          "id": "SantaLeopoldina",
+          "nome": "Santa Leopoldina"
         }
       ]
     }

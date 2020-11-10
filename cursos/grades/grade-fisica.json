@@ -1,0 +1,238 @@
+{
+    "1°_Semestre": [
+        {
+            "nome": "Introduçao à Informática Educativa no ensino da Física",
+            "ch": 60
+        },
+        {
+            "nome": "Eduação das Relações Étnico-raciais",
+            "ch": 60
+        },
+        {
+            "nome": "Pré-cálculo",
+            "ch": 45
+        },
+        {
+            "nome": "Fundametnos Pedagógicos e Metodológicos para o Ensino e Pesquisa em EaD",
+            "ch": 60
+        },
+        {
+            "nome": "Cálculo I",
+            "ch": 75
+        },
+        {
+            "nome": "Educação e Diversidade",
+            "ch": 60
+        },
+        {
+            "nome": "Introdução à Ciência Física",
+            "ch": 30
+        }
+    ],
+    "2°_Semestre": [
+        {
+            "nome": "Cálculo II",
+            "ch": 75
+        },
+        {
+            "nome": "Geometria Analítica",
+            "ch": 60
+        },
+        {
+            "nome": "Física IA - Mecânica do Ponto Material ",
+            "ch": 45
+        },
+        {
+            "nome": "Física IB – Mecânica do Ponto Material",
+            "ch": 45
+        },
+        {
+            "nome": "Física Experimental I",
+            "ch": 30
+        },
+        {
+            "nome": "Psicologia da Educação",
+            "ch": 60
+        },
+        {
+            "nome": "História da Física",
+            "ch": 45
+        },
+        {
+            "nome": "Seminários Integrados de Ensino, Pesquisa e Extensão I",
+            "ch": 30
+        }
+    ],
+    "3°_Semestre": [
+        {
+            "nome": "Álgebra Linear",
+            "ch": 60
+        },
+        {
+            "nome": "Cálculo III",
+            "ch": 75
+        },
+        {
+            "nome": "Física IIA – Fluidos e Física Térmica",
+            "ch": 45
+        },
+        {
+            "nome": "Física IIB – Oscilações e Ondas em meios Mecânicos",
+            "ch": 45
+        },
+        {
+            "nome": "Física Experimental II",
+            "ch": 30
+        },
+        {
+            "nome": "Didática",
+            "ch": 60
+        },
+        {
+            "nome": "Fundamentos da Língua Brasileira de Sinais - LIBRAS",
+            "ch": 60
+        }
+    ],
+    "4°_Semestre": [
+        {
+            "nome": "Pesquisa e Prática Pedagógica",
+            "ch": 75
+        },
+        {
+            "nome": "Física IIIA – Eletricidade",
+            "ch": 45
+        },
+        {
+            "nome": "Física IIIB – Magnetismo e Leis de Maxwell",
+            "ch": 45
+        },
+        {
+            "nome": "Física Experimental III",
+            "ch": 30
+        },
+        {
+            "nome": "Cálculo IV",
+            "ch": 60
+        },
+        {
+            "nome": "Introdução à Probabilidade e Estatística",
+            "ch": 45
+        },
+        {
+            "nome": "Fundamentos Históricos e Filosóficos da Educação",
+            "ch": 60
+        },
+        {
+            "nome": "Seminários Integrados de Ensino, Pesquisa e Extensão II",
+            "ch": 30
+        }
+    ],
+    "5°_Semestre": [
+        {
+            "nome": "Gestão da Educação Básica",
+            "ch": 60
+        },
+        {
+            "nome": "Física IVA – Ondas Eletromagnéticas e Óptica",
+            "ch": 45
+        },
+        {
+            "nome": "Física IVB – Introdução à Relatividade e à Mecânica Quântica",
+            "ch": 45
+        },
+        {
+            "nome": "Física Experimental IV",
+            "ch": 30
+        },
+        {
+            "nome": "Pesquisa e Prática Pedagógica no Ensino de Física I",
+            "ch": 60
+        },
+        {
+            "nome": "Mecânica Clássica",
+            "ch": 75
+        },
+        {
+            "nome": "Estágio Supervisionado I",
+            "ch": 90
+        }
+    ],
+    "6°_Semestre": [
+        {
+            "nome": "Termodinâmica",
+            "ch": 75
+        },
+        {
+            "nome": "Informação, Tecnologia e Ciência no Ensino de Física",
+            "ch": 60
+        },
+        {
+            "nome": "Pesquisa e Prática Pedagógica no Ensino de Física II",
+            "ch": 60
+        },
+        {
+            "nome": "Sociologia da Educação",
+            "ch": 60
+        },
+        {
+            "nome": "Seminários Integrados de Ensino, Pesquisa e Extensão III",
+            "ch": 30
+        },
+        {
+            "nome": "Estágio Supervisionado II",
+            "ch": 90
+        }
+    ],
+    "7°_Semestre": [
+        {
+            "nome": "Química Geral",
+            "ch": 75
+        },
+        {
+            "nome": "Teoria Eletromagnética",
+            "ch": 75
+        },
+        {
+            "nome": "Currículo da Educação Básica",
+            "ch": 60
+        },
+        {
+            "nome": "Pesquisa e Prática Pedagógica no Ensino de Física III",
+            "ch": 60
+        },
+        {
+            "nome": "Estágio Supervisionado III",
+            "ch": 105
+        },
+        {
+            "nome": "Trabalho de Conclusão de Curso I",
+            "ch": 30
+        }
+    ],
+    "8°_Semestre": [
+        {
+            "nome": "Filosofia da Ciência",
+            "ch": 45
+        },
+        {
+            "nome": "Introdução à Astronomia",
+            "ch": 60
+        },
+        {
+            "nome": "Física Moderna",
+            "ch": 75
+        },
+        {
+            "nome": "Pesquisa e Prática Pedagógica no Ensino de Física IV",
+            "ch": 60
+        },
+        {
+            "nome": "Estágio Supervisionado IV",
+            "ch": 120
+        },
+        {
+            "nome": "Trabalho de Conclusão de Curso II",
+            "ch": 30
+        }
+    ]
+}

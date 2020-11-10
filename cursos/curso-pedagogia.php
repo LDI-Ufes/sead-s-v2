@@ -1,244 +1,173 @@
 <main class='page curso' id="conteudoPrincipal">
+ 
+  <section class="curso-destaque"><?php the_post_thumbnail() ?></section>
 
-  <section class="destaque destaque-imagem" style="background-image: linear-gradient(#043166, rgba(4, 49, 102, 0.3)), url('<?php echo get_template_directory_uri() ?>/img/capas/pedagogia.jpg')"></section>
+  <section id='info-curso'> 
+    <div class="container"> 
+      <div class='breadcrumb'>Você está em: <a href='<?php echo site_url(); ?>/cursos'>Cursos</a><i class='fas fa-greater-than'></i><span>Pedagogia</span></div> 
+ 
+      <h1>Pedagogia</h1> 
+ 
+      <div class="colunas"> 
+ 
+        <p class='coluna1 objetivo'>A Licenciatura EaD em Pedagogia destina-se à formação de professores para exercer funções na: Docência da educação infantil e dos anos iniciais do ensino fundamental, docência dos cursos de ensino médio na modalidade normal, docência da educação profissional da área de serviços, apoio escolar e outras áreas nas quais sejam previstos conhecimentos pedagógicos; Gestão educacional: participação na organização e gestão de sistemas e instituições de ensino; planejamento, execução, coordenação, acompanhamento e avaliação de tarefas próprias do setor da educação; planejamento, execução, coordenação, acompanhamento e avaliação de projetos e experiências educativas não escolares e Produção e difusão do conhecimento do campo da educação.</p> 
+ 
+        <div class="coluna2"> 
+          <p> 
+            <strong>Nível: </strong>Graduação<br/> 
+            <strong>Formação: </strong>Licenciatura<br/> 
+            <strong>Duração: </strong>4 anos (8 semestres)<br/> 
+            <strong>Modalidade: </strong>Semipresencial<br/> 
+          </p> 
 
-  <div class='container'>
-    <section class='breadcrumb'>Você está em: <a href='<?php echo site_url(); ?>/cursos'>Cursos</a><i class='fas fa-greater-than'></i><span>Pedagogia</span></section>
-    <h1>Licenciatura EaD em Pedagogia</h1>
+          <p class="situacao"><strong>Situação: </strong><br>
+          <?php $situacaoCurso = get_post_custom_values('situacao'); if ($situacaoCurso != "") { echo $situacaoCurso[0]; } ?>
+          </p> 
+        </div> 
+      </div> 
+    </div> 
+  </section> 
+ 
+    <section id='conteudo-curso' class='container colunas'> 
+ 
+      <aside class="coluna2"> 
+         
+        <div class='menu'> 
+          <h4>Navegue</h4> 
+ 
+          <ul> 
+            <li><a title="Mostrar perfil do egresso" href='#perfil-do-egresso'>Perfil do egresso</a></li> 
+            <li><a title="Mostrar currículo" href='#curriculo'>Grade curricular</a></li> 
+            <li><a title="Mostrar ofertas do curso" href='#ofertas-anteriores'>Ofertas</a></li> 
+          </ul> 
+        </div> 
+ 
+        <h4>Contato</h4> 
+ 
+        <p class="contato-curso"> 
+          <strong>Isabella Maria de Castro Filogônio</strong><br/> 
+          <mail>pedagogia.seadufes@gmail.com</mail> 
+          <span><i class="fas fa-phone"></i>(27) 4009-2091</span> 
+        </p> 
+ 
+      </aside> 
+ 
+      <div class="coluna1"> 
+ 
+        <h2 id='perfil-do-egresso'>Perfil do egresso</h2> 
 
-    <p id='objetivo'>Destina-se à formação de professores para exercer funções na: Docência da educação infantil e dos anos iniciais do ensino fundamental, docência dos cursos de ensino médio na modalidade normal, docência da educação profissional da área de serviços, apoio escolar e outras áreas nas quais sejam previstos conhecimentos pedagógicos; Gestão educacional: participação na organização e gestão de sistemas e instituições de ensino; planejamento, execução, coordenação, acompanhamento e avaliação de tarefas próprias do setor da educação; planejamento, execução, coordenação, acompanhamento e avaliação de projetos e experiências educativas não escolares e Produção e difusão do conhecimento do campo da educação.  </p>
+        <p>Em consonância com as Diretrizes para formação de professores propomos que o egresso do curso de graduação em pedagogia esteja apto:</p>
+        <ul class="lista-conteudo">
+       
+          <li>à integração e interdisciplinaridade curricular, dando significado e relevância aos conhecimentos e vivência da realidade social e cultural, consoantes às exigências da educação básica e da educação superior para o exercício da cidadania e qualificação para o trabalho;</li>
+          <li>à construção do conhecimento, valorizando a pesquisa e a extensão como princípios pedagógicos essenciais ao exercício e aprimoramento do profissional do magistério e ao aperfeiçoamento da prática educativa;</li>
+          <li>ao acesso às fontes nacionais e internacionais de pesquisa, ao material de apoio pedagógico de qualidade, ao tempo de estudo e produção acadêmica-profissional, viabilizando os programas de fomento à pesquisa sobre a educação básica;</li>
+          <li>às dinâmicas pedagógicas que contribuam para o exercício profissional e o desenvolvimento do profissional do magistério por meio de visão ampla do processo formativo, seus diferentes ritmos, tempos e espaços, em face das dimensões psicossociais, histórico-culturais, afetivas, relacionais e interativas que permeiam a ação pedagógica, possibilitando as condições para o exercício do pensamento crítico, a resolução de problemas, o trabalho coletivo e interdisciplinar, a criatividade, a inovação, a liderança e a autonomia;</li>
+          <li>à elaboração de processos de formação do docente em consonância com as mudanças educacionais e sociais, acompanhando as transformações gnosiológicas e epistemológicas do conhecimento;</li>
+          <li>ao uso competente das Tecnologias de Informação e Comunicação (TIC) para o aprimoramento da prática pedagógica e a ampliação da formação cultural dos(das) professores(as) e estudantes;</li>
+          <li>à promoção de espaços para a reflexão crítica sobre as diferentes linguagens e seus processos de construção, disseminação e uso, incorporando-os ao processo pedagógico, com a intenção de possibilitar o desenvolvimento da criticidade e da criatividade;</li>
+          <li>à consolidação da educação inclusiva através do respeito às diferenças, reconhecendo e valorizando a diversidade étnico-racial, de gênero, sexual, religiosa, de faixa geracional, entre outras;</li>
+          <li>à aprendizagem e ao desenvolvimento de todos(as) os(as) estudantes durante o percurso educacional por meio de currículo e atualização da prática docente que favoreçam a formação e estimulem o aprimoramento pedagógico das instituições.</li>
+      </ul>
+        
+ 
+        <h2 id='curriculo'>Grade curricular</h2> 
+        <p>Carga horária mínima de integralização curricular: 3280 horas</p> 
+ 
+        <ul id="matriz"> 
+          <!-- Importando json -->
+          <?php $json = file_get_contents('grades/grade-pedagogia.json', true); $grade = json_decode($json); ?>
 
-    <section id='info-curso'>
-      <div>
-        <p><strong>Nível: </strong>Graduação</p>
-        <p><strong>Formação: </strong>Licenciatura</p>
-        <p><strong>Duração: </strong>4 anos (8 semestres)</p>
-        <p><strong>Modalidade: </strong>Semipresencial</p>
-      </div>
+            <!-- Loop pelos módulos -->
+            <?php foreach($grade as $modulo => $disciplinas) { ?>
+            
+            <li class='semestre'> 
+              <button><h3><?php $modulo = str_replace('_', ' ', $modulo); echo $modulo; ?></h3></button> 
+              <ul> 
 
-      <div id='situacao'>
-        <p>
-          <strong>Situação: </strong>
-          <br>Oferta 2014/2 em fase de conclusão.
-          <br><strong>Sem previsão de reoferta.</strong>
-        </p>
-      </div>
-    </section>
+                <div class="rotulos-matriz"> 
+                  <div>Disciplina</div> 
+                  <!-- <div>Ementa</div>  -->
+                  <div> 
+                    <span class="desktop">Carga horária</span> 
+                    <span class="mobile">C. hr.</span> 
+                  </div> 
+                </div>
 
+                <!-- Loop pelas disciplinas -->
+                <?php foreach ( $disciplinas as $d ){ ?>
 
-    <section id='conteudo'>
+                  <li> 
+                    <div><?php echo $d->nome; ?></div> 
 
-      <aside id='menu'>
-        <button id='dropdown-menu'>Menu<i class='fas fa-angle-down'></i></button>
+                    <?php if ( isset( $d->arquivo ) ){ ?>
 
-        <ul>
-          <li><a title="Mostrar currículo" href='#curriculo'>Currículo</a></li>
-          <li><a title="Mostrar corpo docente" href='#corpo-docente'>Corpo docente</a></li>
-          <li><a title="Mostrar perfil do egresso" href='#perfil-do-egresso'>Perfil do egresso</a></li>
-          <li><a title="Mostrar ofertas do curso" href='#ofertas-anteriores'>Ofertas</a></li>
-          <a href='<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Guia-do-estudante-Pedagogia.pdf' target='_blank' title='Abrir o Guia do Aluno em nova aba'>Guia do aluno <i class="fas fa-file-pdf"></i></a>
+                      <div> 
+                        <a href="/arquivos/pedagogia/<?php echo $d->arquivo; ?>" target="_blank" title='Abrir documento em nova aba'> 
+                          <i class="far fa-file-pdf"></i>PDF 
+                          <span class="somente-leitura">Programa da disciplina <?php echo $d->nome; ?></span> 
+                      </a> 
+                      </div> 
+                    <?php } ?>
 
-          <span>Contato</span>
-          eadedpedufes@gmail.com<br>
-          (27) 4009-2091
-        </ul>
+                    <div><?php echo $d->ch; ?>h</div> 
+                  </li> 
 
-      </aside>
+                <?php } ?> <!-- Fim do Loop pelas disciplinas -->
 
-      <div id='matriz'>
-        <h2 id='curriculo'>Duração do curso</h2>
-        <p>Carga horária total de integralização curricular: 3230h</p>
-
-        <h2>Matriz Curricular</h2>
-
-        <ul>
-          <li class='semestre'>
-            <button class='ativo'><h3>1° semestre</h3></button>
-            <ul style='display: block;'>
-              <div>Disciplina <span>Programa</span></div>
-
-              <li>Parte introdutória e fundamentos tecnológicos <span>20h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Capacitacao-dos-alunos-para-uso-do-AVA.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Parte introdutória e fundamentos tecnológicos</span></a></li>
-              <li>EAD e EAD na UFES <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/EAD-e-EAD-na-UFES.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina EAD e EAD na UFES</span></a></li>
-              <li>Tecnologia da Informação e do conhecimento <span>75h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Tecnologia-da-Informacao-e-do-conhecimento.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Tecnologia da Informação e do conhecimento</span></a></li>
-              <li>História da Educação <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Historia-da-Educacao.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina História da Educação</span></a></li>
-              <li>Filosofia da Educação <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Filosofia-da-Educacao.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Filosofia da Educação</span></a></li>
-              <li>Psicologia da Educação <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Psicologia-da-Educacao.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Psicologia da Educação</span></a></li>
-            </ul>
-          </li>
-
-          <li class='semestre'>
-            <button><h3>2° semestre</h3></button>
-            <ul>
-              <div>Disciplina <span>Programa</span></div>
-
-              <li>Introdução à Metodologia da Pesquisa Educacional <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Introducao-a-Metodologia-da-Pesquisa-Educacional.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Introdução à Metodologia da Pesquisa Educacional</span></a></li>
-              <li>Sociologia da Educação <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Sociologia-da-Educacao.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Sociologia da Educação</span></a></li>
-              <li>Pesquisa, extensão e prática pedagógica I <span>105h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Pesquisa-extensao-e-pratica-pedagogica-I.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Pesquisa, extensão e prática pedagógica I</span></a></li>
-              <li>Política e Organização da Educação Básica <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Politica-e-Organizacao-da-Educacao-Basica.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Política e Organização da Educação Básica</span></a></li>
-              <li>Didática <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Didatica.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Didática</span></a></li>
-              <li>Libras <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Libras.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Libras</span></a></li>
-            </ul>
-          </li>
-
-          <li class='semestre'>
-            <button><h3>3° semestre</h3></button>
-            <ul>
-              <div>Disciplina <span>Programa</span></div>
-
-              <li>Currículo e Formação Docente <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Curriculo-e-Formacao-Docente.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Currículo e Formação Docente</span></a></li>
-              <li>Infância e educação <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Infancia-e-educacao.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Infância e educação</span></a></li>
-              <li>Pesquisa, extensão e prática pedagógica II <span>105h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Pesquisa-extensao-e-pratica-pedagogica-II.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Pesquisa, extensão e prática pedagógica II</span></a></li>
-              <li>Linguagem I <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Linguagem-I.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Linguagem I</span></a></li>
-              <li>Linguagem II <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Linguagem-II.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Linguagem II</span></a></li>
-              <li>Educação e Inclusão <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Educacao-e-inclusao.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Educação e Inclusão</span></a></li>
-            </ul>
-          </li>
-
-          <li class='semestre'>
-            <button><h3>4° semestre</h3></button>
-            <ul>
-              <div>Disciplina <span>Programa</span></div>
-
-              <li>Linguagem III <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Linguagem-III.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Linguagem III</span></a></li>
-              <li>Educação, corpo e movimento <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Educacao-corpo-e-movimento.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Educação, corpo e movimento</span></a></li>
-              <li>Pesquisa, extensão e prática pedagógica III <span>105h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Pesquisa-extensao-e-pratica-pedagogica-III.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Pesquisa, extensão e prática pedagógica III</span></a></li>
-              <li>Currículo na educação infantil <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Curriculo-da-educacao-infantil.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Currículo na educação infantil</span></a></li>
-              <li>Gestão educacional <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Gestao-Educacional.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Gestão educacional</span></a></li>
-            </ul>
-          </li>
-
-          <li class='semestre'>
-            <button><h3>5° semestre</h3></button>
-            <ul>
-              <div>Disciplina <span>Programa</span></div>
-
-              <li>Linguagem IV <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Linguagem-IV.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Linguagem IV</span></a></li>
-              <li>Estágio I (Educação infantil) <span>135h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Estágio I (Educação infantil)</span></a>--></li>
-              <li>Pesquisa, extensão e prática pedagógica IV <span>105h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Pesquisa, extensão e prática pedagógica IV</span></a>--></li>
-              <li>História I <span>60h</span><a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/Historia-I.pdf" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina História I</span></a></li>
-              <li>Geografia I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Geografia I</span></a>--></li>
-            </ul>
-          </li>
-
-          <li class='semestre'>
-            <button><h3>6° semestre</h3></button>
-            <ul>
-              <div>Disciplina <span>Programa</span></div>
-
-              <li>Estágio II (Gestão) <span>135h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Estágio II (Gestão)</span></a>--></li>
-              <li>Ciências I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Ciências I</span></a>--></li>
-              <li>Matemática I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Matemática I</span></a>--></li>
-              <li>História II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina História II</span></a>--></li>
-              <li>Geografia II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Geografia II</span></a>--></li>
-              <li>Trabalho docente na educação infantil <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Trabalho docente na educação infantil</span></a>--></li>
-            </ul>
-          </li>
-
-          <li class='semestre'>
-            <button><h3>7° semestre</h3></button>
-            <ul>
-              <div>Disciplina <span>Programa</span></div>
-
-              <li>Ciências II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Ciências II</span></a>--></li>
-              <li>História III <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina História III</span></a>--></li>
-              <li>Geografia III <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Geografia III</span></a>--></li>
-              <li>Matemática II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Matemática II</span></a>--></li>
-              <li>Linguagem V <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Linguagem V</span></a>--></li>
-              <li>Movimentos sociais e a educação de Jovens e adultos <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Movimentos sociais e a educação de Jovens e adultos</span></a>--></li>
-              <li>Trabalho de Conclusão de Curso I <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Trabalho de Conclusão de Curso I</span></a>--></li>
-            </ul>
-          </li>
-
-          <li class='semestre'>
-            <button><h3>8° semestre</h3></button>
-            <ul>
-              <div>Disciplina <span>Programa</span></div>
-
-              <li>Trabalho de Conclusão de Curso II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Trabalho de Conclusão de Curso II</span></a>--></li>
-              <li>Estágio III (Magistério Séries Iniciais) <span>135h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Estágio III (Magistério Séries Iniciais)</span></a>--></li>
-              <li>Matemática III <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Matemática III</span></a>--></li>
-              <li>Ciências III <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/pedagogia/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Ciências III</span></a>--></li>
-            </ul>
-          </li>
-
-        </ul>
-      </div>
-
-      <div id='professores'>
-        <h2 id='corpo-docente'>Administração acadêmica</h2>
-        <p><strong>Coordenação:</strong> Iguatemi Santos Rangel</p>
-        <p>Possui graduação em Educação Física pela Universidade Federal do Espírito Santo (1995), mestrado e doutorado em Educação pela Universidade Federal do Espírito Santo (2003-2009) . Atuou como professor da educação básica nas redes estadual e municipal de educação nas áreas de ensino de educação física e educação infantil. Trabalhou como gerente de formação de professores da Secretaria Estadual de Educação. Atualmente é professor adjunto I da Universidade Federal do Espírito Santo, atuando no Departamento de Linguagens, Cultura e Educação com disciplinas de fundamentos da educação e estágio supervisionado para os cursos de licenciatura. Atuou como tutor do grupo PET Licenciaturas, é Coordenador do Núcleo de Pesquisa e Extensão em Currículos, Culturas e Cotidianos. Tem experiência na área de Educação, com ênfase em Educação Infantil e processos de formação continuada de professores da educação básica. Os temas de interesses e aprofundamento de estudos e pesquisas são: Educação Infantil, ensino de educação física escolar, formação continuada de professores e currículo.</p>
-
-      </div>
-
-      <div>
-        <h2 id='perfil-do-egresso'>Perfil do egresso</h2>
-        <p>O perfil do profissional baseia-se no pressuposto de que o Pedagogo deve assumir postura profissional ética pautada na responsabilidade social para com a construção de uma sociedade includente, justa e solidária, ao exercer suas atividades nas seguintes áreas e/ou campos profissionais: </p>
-
-        <p>1. Na docência na Educação Infantil e nos anos iniciais do Ensino Fundamental, nos cursos de Ensino Médio, na modalidade Normal, de Educação Profissional na área de serviços e apoio escolar e em outras áreas nas quais sejam previstos conhecimentos pedagógicos. </p>
-
-        <p>2. Na formação de gestores educacionais que compreendem participação na organização e gestão de sistemas e instituições de ensino, englobando: planejamento, execução, coordenação, acompanhamento e avaliação de tarefas próprias do setor da Educação; planejamento, execução, coordenação, acompanhamento e avaliação de projetos e experiências educativas não-escolares. </p>
-
-        <p>3. Na produção e difusão do conhecimento no campo da Educação, tendo como referência o perfil de um graduando capacitado a:
-        <br>a) compreender o contexto sócio-cultural, político e econômico em que se inserem os processos educativos  escolares  e  não-escolares,  bem  como  compreender  e  respeitar  as  diferenças  sócio- culturais dos alunos para orientar sua formação, visando a qualidade da educação;
-        <br>b) entender a formação profissional como um processo contínuo de auto-aperfeiçoamento e de domínio teórico investigativo do campo da educação;
-        <br>c) compreender as diversas abordagens do conhecimento pedagógico assim como os conteúdos específicos dos currículos dos diferentes níveis de ensino e suas respectivas metodologias;
-        <br>d) Zelar pela aprendizagem de todos os alunos;
-        <br>e) participar no planejamento, na implementação e na avaliação de projetos educativos escolares e não escolares de modo que a diversidade e as múltiplas relações das esferas do social (cultural, ética, estética, científica e tecnológica) sejam contempladas;
-        <br>f) planejar e desenvolver situações pedagógicas concretas, para situações educativas escolares e não- escolares, integrando diferentes conhecimentos e tecnologias de informação e comunicação;
-        <br>g) articular,   mediante   práticas   participativas,   recursos   humanos,   metodológicos,   técnicos   e operativos, inclusive em equipes interdisciplinares e multi-profissionais;
-        <br>h) colaborar com as atividades de articulação da escola com as famílias e a comunidade;
-        <br>i) investigar situações educativas, mapeando contextos e problemas, analisando contradições, argumentando e produzindo conhecimento.</p>
-
-      </div>
-
-      <div>
-        <h2 id='ofertas-anteriores'>Ofertas do curso</h2>
-
-        <h3>2001 - 2008</h3>
+              </ul> 
+            </li>
+            <?php } ?> <!-- Fim do Loop pelos módulos -->
+        </ul> 
+ 
+        <h2 id='ofertas-anteriores'>Ofertas do curso</h2> 
+ 
+        <h3>2001</h3>
         <p><strong>Coordenação de Curso: </strong>Júlio Francelino Ferreira Filho</p>
         <p><strong>Cre@ads atendidos: </strong>Alegre, Barra de São Francisco, Cachoeiro de Itapemirim, Colatina, Guaçuí, Linhares, Montanha, Nova Venécia, Santa Teresa, São Mateus, Venda Nova do Imigrante, Vila Velha e Vitória.</p>
 
-
-        <h3>2014/2</h3>
+        <h3>2014</h3>
         <p><strong>Coordenação de Curso:</strong> Iguatemi Santos Rangel</p>
         <p><strong>Polos atendidos: </strong>Afonso Cláudio, Aracruz, Baixo Guandu, Cachoeiro de Itapemirim, Castelo, Colatina, Domingos Martins, Ecoporanga, Itapemirim, Iúna, Linhares, Mantenópolis, Mimoso do Sul, Montanha, Pinheiros, Piúma, Santa Leopoldina, Santa Teresa, Vargem Alta e Venda Nova do Imigrante.</p>
-      </div>
+        <p><a href="<?php echo get_template_directory_uri(); ?>/arquivos/ofertas/Pedagogia-Oferta2014.pdf" title="Baixar arquivo de informações da oferta 2014" target="_blank">Mais informações da oferta</a></p>
+      
+        <h3>2020</h3>
+        <p><strong>Polos atendidos: </strong>Castelo, Ecoporanga, Nova Venécia, Piúma e Santa Leopoldina.</p>
+    </section> 
+ 
+  </div> 
 
-    </section>
-
-  </div>
-
-  <section id='noticias'>
-    <?php $ultimas_noticias = new WP_Query(array(
-      'post_type' => 'noticia',
-      'posts_per_page' => 3,
-      'tax_query' => array(
-          array(
-              'taxonomy' => 'curso-noticia',
-              'field' => 'slug',
-              'terms' => 'Pedagogia',
-          ),
-      ),
-    ));
-
-    if ($ultimas_noticias->have_posts()) : ?>
-
-      <div class='container'>
-        <h2>Notícias do curso</h2>
-        <div class='flex'>
-
-          <?php while ($ultimas_noticias->have_posts()) : $ultimas_noticias->the_post(); ?>
-            <a class='noticia' href='<?php the_permalink() ?>' title='Ir para notícia: <?php the_title(); ?>'>
-              <?php the_post_thumbnail(); ?>
-              <h3><?php the_title(); ?></h3>
-            </a>
-
-          <?php endwhile; wp_reset_postdata(); else : ?>
-
-        </div>
-      </div>
-    <?php endif; ?>
-  </section>
+  <section id='noticias-curso' class="secao-destacada"> 
+    <?php $ultimas_noticias = new WP_Query(array( 
+      'post_type' => 'noticia', 
+      'posts_per_page' => 3, 
+      'tax_query' => array( 
+          array( 
+              'taxonomy' => 'curso-noticia', 
+              'field' => 'slug', 
+              'terms' => 'Pedagogia', 
+            ), 
+        ), 
+    )); 
+ 
+    if ($ultimas_noticias->found_posts > 2) : ?> 
+ 
+      <div class='container'> 
+        <h2 class="titulo-destacado">Notícias do curso</h2> 
+        <div class='cards-noticias-curso'> 
+ 
+          <?php while ($ultimas_noticias->have_posts()) : $ultimas_noticias->the_post(); ?> 
+            <a class='noticia' href='<?php the_permalink() ?>' title='Ir para notícia: <?php the_title(); ?>'> 
+              <?php the_post_thumbnail(); ?> 
+              <h3><?php the_title(); ?></h3> 
+            </a> 
+ 
+          <?php endwhile; wp_reset_postdata(); else : ?> 
+ 
+        </div> 
+      </div> 
+ 
+    <?php endif; ?> 
+  </section> 
 
 </main>

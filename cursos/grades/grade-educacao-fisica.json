@@ -1,0 +1,238 @@
+{
+    "1°_Semestre": [
+        {
+            "nome": "Educação Física, Aprendizagem e Desenvolvimento Humano",
+            "ch": 60
+        },
+        {
+            "nome": "Educação Física, Formação Docente e Currículo",
+            "ch": 60
+        },
+        {
+            "nome": "Elaboração de Memória Profissional I",
+            "ch": 30
+        },
+        {
+            "nome": "Fundamentos Estruturais e Pedagógicos da EaD",
+            "ch": 30
+        },
+        {
+            "nome": "Introdução à Educação Física",
+            "ch": 60
+        },
+        {
+            "nome": "Pesquisa e Instrumental Técnico em EaD",
+            "ch": 30
+        }
+    ],
+    "2°_Semestre": [
+        {
+            "nome": "Educação Física, Corpo e Movimento",
+            "ch": 60
+        },
+        {
+            "nome": "Educação Física e Escola",
+            "ch": 60
+        },
+        {
+            "nome": "Psicologia da Educação",
+            "ch": 60
+        },
+        {
+            "nome": "Seminário Articulador de Estudos I",
+            "ch": 30
+        }
+    ],
+    "3°_Semestre": [
+        {
+            "nome": "Corpo, Movimento e Conhecimentos Biológicos",
+            "ch": 60
+        },
+        {
+            "nome": "Educação Física, Educação e Reflexão Filosóficas",
+            "ch": 60
+        },
+        {
+            "nome": "Metodologia do Ensino da Educação Física",
+            "ch": 60
+        },
+        {
+            "nome": "Pesquisa e Docência em Educação Física",
+            "ch": 30
+        },
+        {
+            "nome": "Seminário Articulador de Estudos II",
+            "ch": 30
+        }
+    ],
+    "4°_Semestre": [
+        {
+            "nome": "Comportamento Motor",
+            "ch": 60
+        },
+        {
+            "nome": "Conhecimento e Metodologia do Ensino da Dança",
+            "ch": 60
+        },
+        {
+            "nome": "Corpo, Movimento e Conhecimentos Anatômicos e Cinesiológicos",
+            "ch": 60
+        },
+        {
+            "nome": "Didática",
+            "ch": 75
+        },
+        {
+            "nome": "Optativa I",
+            "ch": 30
+        },
+        {
+            "nome": "Seminário Articulador de Estudos III",
+            "ch": 30
+        }
+    ],
+    "5°_Semestre": [
+        {
+            "nome": "Conhecimento e Metodologia do Ensino de Ginástica",
+            "ch": 60
+        },
+        {
+            "nome": "Corpo, Movimento e Conhecimentos Bioquímicos e Nutricionais",
+            "ch": 60
+        },
+        {
+            "nome": "Corpo, Movimento e Escolarização",
+            "ch": 60
+        },
+        {
+            "nome": "Optativa II",
+            "ch": 30
+        },
+        {
+            "nome": "Políticas Educacionais e Organização da Educação Básica",
+            "ch": 60
+        },
+        {
+            "nome": "Seminário Articulador de Estudos IV",
+            "ch": 30
+        }
+    ],
+    "6°_Semestre": [
+        {
+            "nome": "Conhecimento e Metodologia do Ensino do Jogo",
+            "ch": 60
+        },
+        {
+            "nome": "Corpo, Movimento e Conhecimentos Fisiológicos",
+            "ch": 60
+        },
+        {
+            "nome": "Ensino da Educação Física na Educação Infantil",
+            "ch": 60
+        },
+        {
+            "nome": "Estágio Supervisionado em Educação Física",
+            "ch": 100
+        },
+        {
+            "nome": "Optativa III",
+            "ch": 30
+        },
+        {
+            "nome": "Seminário Articulador de Estudos V",
+            "ch": 30
+        }
+    ],
+    "7°_Semestre": [
+        {
+            "nome": "Conhecimentos e Metodologias do Ensino dos Esportes Coletivo",
+            "ch": 60
+        },
+        {
+            "nome": "Educação e Inclusão",
+            "ch": 60
+        },
+        {
+            "nome": "Ensino da Educação Física no Ensino Fundamental",
+            "ch": 60
+        },
+        {
+            "nome": "Estágio Supervisionado em Educação Física II",
+            "ch": 100
+        },
+        {
+            "nome": "Optativa IV",
+            "ch": 30
+        },
+        {
+            "nome": "Seminário Articulador de Estudos VI",
+            "ch": 30
+        }
+    ],
+    "8°_Semestre": [
+        {
+            "nome": "Conhecimento e Metodologia do Ensino dos Esportes Individuais",
+            "ch": 60
+        },
+        {
+            "nome": "Educação Física, Adaptação e Inclusão",
+            "ch": 60
+        },
+        {
+            "nome": "Ensino da Educação Física no Ensino Fundamental II",
+            "ch": 60
+        },
+        {
+            "nome": "Estágio Supervisionado em Educação Física III",
+            "ch": 100
+        },
+        {
+            "nome": "Optativa V",
+            "ch": 30
+        },
+        {
+            "nome": "Seminário Articulador de Estudos VII",
+            "ch": 30
+        }
+    ],
+    "9°_Semestre": [
+        {
+            "nome": "Ensino da Educação Física no Ensino Médio",
+            "ch": 60
+        },
+        {
+            "nome": "Estágio Supervisionado em Educação Física IV",
+            "ch": 100
+        },
+        {
+            "nome": "Família, Educação Escolar e Sociedade",
+            "ch": 60
+        },
+        {
+            "nome": "Fundamentos da Língua Brasileira de Sinais",
+            "ch": 60
+        },
+        {
+            "nome": "Optativa VI",
+            "ch": 30
+        },
+        {
+            "nome": "Seminário Articulador de Estudos VIII",
+            "ch": 30
+        }
+    ],
+    "10°_Semestre": [
+        {
+            "nome": "Educação Física, Educação e Escolarização",
+            "ch": 60
+        },
+        {
+            "nome": "Elaboração de Memória Profissional II",
+            "ch": 60
+        },
+        {
+            "nome": "Epistemologia da Educação Física",
+            "ch": 60
+        }
+    ]
+}

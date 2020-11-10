@@ -1,331 +1,123 @@
 <main class='page curso' id="conteudoPrincipal">
+ 
+  <section class="curso-destaque"><?php the_post_thumbnail() ?></section>
 
-  <section class="destaque destaque-imagem" style="background-image: linear-gradient(#043166, rgba(4, 49, 102, 0.3)), url('<?php echo get_template_directory_uri() ?>/img/capas/filosofia.jpg')"></section>
-
-  <div class='container'>
-    <section class='breadcrumb'>Você está em: <a href='<?php echo site_url(); ?>/cursos'>Cursos</a><i class='fas fa-greater-than'></i><span>Filosofia</span></section>
-    <h1>Licenciatura EaD em Filosofia</h1>
-
-    <p id='objetivo'>A perspectiva central é o desenvolvimento, de um lado, de habilidades para produzir e lidar com o conhecimento, de maneira radical, crítica, criativa e pluralista, pressupondo procedimentos de pesquisa, numa atitude de investigação contínua no tratamento do conhecimento; do outro lado, o desenvolvimento das competências e das habilidades necessárias à atuação profissional em filosofia. A articulação teoria-prática, além de ser incentivada no interior de cada disciplina, está muito bem organizada ao longo de todo o desenvolvimento curricular. </p>
-
-    <section id='info-curso'>
-      <div>
-        <p><strong>Nível: </strong>Graduação</p>
-        <p><strong>Formação: </strong>Licenciatura</p>
-        <p><strong>Duração: </strong>4 anos (8 semestres)</p>
-        <p><strong>Modalidade: </strong>Semipresencial</p>
-        <!--<p><strong>Conceito Geral: </strong>3</p>-->
-      </div>
-
-      <div id='situacao'>
-        <p><strong>Situação: </strong>
-          <br>Oferta 2014/2 em fase de conclusão.
-          <br>Aprovado pelo CEPE por meio da Resolução 35/2012.
-          <br><strong>Sem previsão de reoferta.</strong>
-        </p>
-      </div>
-    </section>
-
-
-    <section id='conteudo'>
-
-      <aside id='menu'>
-        <button id='dropdown-menu'>Menu<i class='fas fa-angle-down'></i></button>
-
-        <ul>
-          <li><a title="Mostrar currículo" href='#curriculo'>Currículo</a></li>
-          <li><a title="Mostrar corpo docente" href='#corpo-docente'>Corpo docente</a></li>
-          <li><a title="Mostrar perfil do egresso" href='#perfil-do-egresso'>Perfil do egresso</a></li>
-          <li><a title="Mostrar ofertas do curso" href='#ofertas-anteriores'>Ofertas</a></li>
-          <a href='<?php echo get_template_directory_uri(); ?>/arquivos/filosofia/Filosofia_Guia-do-Estudante.pdf' target='_blank' title='Abrir o Guia do Aluno em nova aba'>Guia do aluno <i class="fas fa-file-pdf"></i></a>
-
-          <span>Contato</span>
-          licfilosofia.ead@gmail.com<br>
-          (27) 4009-2094
-        </ul>
-
-      </aside>
-
-      <div id='matriz'>
-        <h2 id='curriculo'>Duração do curso</h2>
-        <p>Carga horária total de integralização curricular: 3350h</p>
-
-        <h2>Matriz Curricular</h2>
-
-        <ul>
-          <li class='semestre'>
-            <button class='ativo'><h3>1° semestre</h3></button>
-            <ul style='display: block;'>
-              <!--<div>Disciplina <span>Programa</span></div>-->
-
-              <li>EAD I e II <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina EAD I e II</span></a>--></li>
-              <li>História da Filosofia Antiga <span>90h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina História da Filosofia Antiga</span></a>--></li>
-              <li>Ética I <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i>  <span class="somente-leitura">Programa da disciplina Ética I</span></a>--></li>
-              <li>Metafísica I <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Metafísica I</span></a>--></li>
-              <li>Teoria do Conhecimento <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Teoria do Conhecimento</span></a>--></li>
-            </ul>
-          </li>
-
-          <li class='semestre'>
-            <button><h3>2° semestre</h3></button>
-            <ul>
-              <!--<div>Disciplina <span>Programa</span></div>-->
-
-              <li>Filosofia Política I <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Filosofia Política I</span></a>--></li>
-              <li>História da Filosofia Medieval <span>90h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina História da Filosofia Medieval</span></a>--></li>
-              <li>Lógica I <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Lógica I</span></a>--></li>
-              <li>Metafísica II <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Metafísica II</span></a>--></li>
-            </ul>
-          </li>
-
-          <li class='semestre'>
-            <button><h3>3° semestre</h3></button>
-            <ul>
-              <!--<div>Disciplina <span>Programa</span></div>-->
-
-              <li>Estética <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Estética</span></a>--></li>
-              <li>Filosofia Política II <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Filosofia Política II</span></a>--></li>
-              <li>História da Filosofia Moderna <span>90h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina História da Filosofia Moderna</span></a>--></li>
-              <li>Lógica II <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Lógica II</span></a>--></li>
-            </ul>
-          </li>
-
-          <li class='semestre'>
-            <button><h3>4° semestre</h3></button>
-            <ul>
-              <!--<div>Disciplina <span>Programa</span></div>-->
-
-              <li>Ética II <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Ética II</span></a>--></li>
-              <li>Filosofia da Ciência II <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Filosofia da Ciência II</span></a>--></li>
-              <li>Filosofia da Linguagem <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Filosofia da Linguagem</span></a>--></li>
-              <li>História da Filosofia Contemporânea <span>90h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina História da Filosofia Contemporânea</span></a>--></li>
-            </ul>
-          </li>
-
-          <li class='semestre'>
-            <button><h3>5° semestre</h3></button>
-            <ul>
-              <!--<div>Disciplina <span>Programa</span></div>-->
-
-              <li>Didática <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Didática</span></a>--></li>
-              <li>Laboratório de Ensino de Filosofia <span>105h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Laboratório de Ensino de Filosofia</span></a>--></li>
-              <li>Psicologia da Educação <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Psicologia da Educação</span></a>--></li>
-              <li>Seminário de Pesquisa Filosófica <span>105h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Seminário de Pesquisa Filosófica</span></a>--></li>
-              <li>Sociologia <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Sociologia</span></a>--></li>
-            </ul>
-          </li>
-
-          <li class='semestre'>
-            <button><h3>6° semestre</h3></button>
-            <ul>
-              <!--<div>Disciplina <span>Programa</span></div>-->
-
-              <li>Antropologia Filosófica <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Antropologia Filosófica</span></a>--></li>
-              <li>Ensino de Filosofia <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Ensino de Filosofia</span></a>--></li>
-              <li>Ética III <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Ética III</span></a>--></li>
-              <li>Política e Organização da Educação Básica <span>60h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Política e Organização da Educação Básica</span></a>--></li>
-            </ul>
-          </li>
-
-          <li class='semestre'>
-            <button><h3>7° semestre</h3></button>
-            <ul>
-              <!--<div>Disciplina <span>Programa</span></div>-->
-
-              <li>Estágio Supervisionado de Ensino de Filosofia I <span>210h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Estágio Supervisionado de Ensino de Filosofia I</span></a>--></li>
-              <li>Evolução do Pensamento Filosófico e Científico <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Evolução do Pensamento Filosófico e Científico</span></a>--></li>
-              <li>Filosofia e Educação <span>105h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Filosofia e Educação</span></a>--></li>
-              <li>Metafísica III <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Metafísica III</span></a>--></li>
-            </ul>
-          </li>
-
-          <li class='semestre'>
-            <button><h3>8° semestre</h3></button>
-            <ul>
-              <!--<div>Disciplina <span>Programa</span></div>-->
-
-              <li>Estágio Supervisionado de Ensino de Filosofia II <span>210h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Estágio Supervisionado de Ensino de Filosofia II</span></a>--></li>
-              <li>História da Filosofia na América Latina <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina História da Filosofia na América Latina</span></a>--></li>
-              <li>História da Filosofia no Brasil <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina História da Filosofia no Brasil</span></a>--></li>
-              <li>Libras <span>75h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Libras</span></a>--></li>
-              <li>Trabalho de Conclusão de Curso <span>210h</span><!--<a href="<?php echo get_template_directory_uri(); ?>/arquivos/" title='Abrir documento em nova aba' target="_blank"><i class="far fa-file-pdf"></i> <span class="somente-leitura">Programa da disciplina Trabalho de Conclusão de Curso</span></a>--></li>
-            </ul>
-          </li>
-
-        </ul>
-
-      </div>
-
-      <div id='professores'>
-        <h2 id='corpo-docente'>Administração acadêmica</h2>
-        <p><strong>Coordenação:</strong> Claudia Pereira do Carmo Murta</p>
-        <p>Graduação em Psicologia pela Universidade Federal do Espírito Santo (1989), mestrado em Filosofia pela Universidade Federal de Minas Gerais (1992), mestrado em Lieux et Transformations de la Philosophie  Université de Paris VIII (1993), e doutorado em Lieux et Transformations de la Philosophie  Université de Paris VIII (1997). Como formação complementar, especialização em Educação a Distância UFES/UFMT (2001) e pós-doutorado em Filosofia na UFSCar (2011) e na École Normale Supérieure de Lyon (2012). Atualmente é Professora Titular do Departamento de Filosofia da Universidade Federal do Espírito Santo (Graduação e Mestrado) e Coordenadora do Curso de Licenciatura em Filosofia na modalidade EAD oferecido pela UAB/CAPES/UFES. Coordenadora do Grupo de Pesquisa e Extensão PARTHOS financiado pelo CNPq/FAPES. Tem experiência na área de Filosofia, com ênfase em Filosofia e Psicanálise, atuando principalmente nos seguintes temas: filosofia e psicanálise, amor, corpo, gestação, parto, nascimento, psicanálise e educação a distância.</p>
-
-        <h2>Corpo docente</h2>
-
-        <p class='nome'>Adriana Gomes Pessoa Amaral
-          <span>Mestrado</span>
-        </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/8442828718693318" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Alexandre Pereira do Carmo </a>
-          <span>Mestrado</span>
-        </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/5705996516642601" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Antonio Vidal Nunes</a>
-          <span>Doutorado</span>
-        </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/7986103638057702" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Arthur Octavio de Melo Araujo</a>
-          <span>Doutorado</span>
-        </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/8149684793979640" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Barbara Botter</a>
-          <span>Doutorado</span>
-        </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/9507192837828481" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Carla Francesca Sena Pera</a>
-          <span>Mestrado</span>
-        </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/7566489472975915" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Claudia Pereira do Carmo Murta</a>
-          <span>Doutorado</span>
-        </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/7717139160457330" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Daisa Teixeira</a>
-          <span>Doutorado</span>
-        </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/3161542255903404" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Daniel Omar Perez</a>
-          <span>Doutorado</span>
-        </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/4326734383708873" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> David Gonçalves Borges</a>
-          <span>Mestrado</span>
-        </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/0728481679250726" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Edilezia Freire Simões</a>
-          <span>Mestrado</span>
-        </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/0593971079410326" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Edson Maciel Júnior</a>
-          <span>Mestrado</span>
-        </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/1755455447619979" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Fernando Mendes Pessoa</a>
-          <span>Doutorado</span>
-        </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/2163193321069411" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Filicio Mulinari e Silva</a>
-          <span>Mestrado</span>
-        </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/5157393173050104" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Francisco Verardi Bocca</a>
-          <span>Doutorado</span>
-        </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/6264614880672677" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Gilmar Francisco Bonamigo</a>
-          <span>Doutorado</span>
-        </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/8940226139303378" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Hiran Pinel</a>
-          <span>Doutorado</span>
-        </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/7858518863941371" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> João Assis Rodrigues</a>
-          <span>Doutorado</span>
-        </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/3088783002373165" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Jorge Augusto da Silva Santos</a>
-          <span>Doutorado</span>
-        </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/7444634503835464" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Jorge Luiz Viesenteiner</a>
-          <span>Doutorado</span>
-        </p>
-        <p class='nome'>Juliana Bernabé Nunes Pessoa
-          <span>Mestrado</span>
-        </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/4297153426007763" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Keila Cardoso Teixeira</a>
-          <span>Doutorado</span>
-        </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/2915410831559078" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Luiz Antonio Dagios</a>
-          <span>Doutorado</span>
-        </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/0690909917220112" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Marcelo Martins Barreira</a>
-          <span>Doutorado</span>
-        </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/9721382552736385" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Maria Herminia Baião Passamai</a>
-          <span>Doutorado</span>
-        </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/8817759657887325" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Maurício Fernandes da Silva</a>
-          <span>Mestrado</span>
-        </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/8290558218053006" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Reginaldo Celio Sobrinho</a>
-          <span>Doutorado</span>
-        </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/5461913639249868" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Ricardo Luiz Silveira da Costa</a>
-          <span>Doutorado</span>
-        </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/8660100502548658" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Sandra Maria Vicentin De Oliveira</a>
-          <span>Especialização</span>
-        </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/0029512233756869" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Sergio Schweder</a>
-          <span>Mestrado</span>
-        </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/1586702620708183" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Thana Mara de Souza</a>
-          <span>Doutorado</span>
-        </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/5804164189793993" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Thiago Luiz Mendes Dutra</a>
-          <span>Especialização</span>
-        </p>
-        <p class='nome'><a title='Abrir perfil na plataforma Lattes em nova aba' href="http://lattes.cnpq.br/3944677310190316" target="_blank"><span class='somente-leitura'>Perfil na plataforma Lattes de</span> Vitor Cei Santos</a>
-          <span>Doutorado</span>
-        </p>
-      </div>
-
-      <div>
-        <h2 id='perfil-do-egresso'>Perfil do egresso</h2>
-        <p>Espera-se que o formando tenha uma formação sólida na História da Filosofia que o capacite para a compreensão e a transmissão dos principais temas, problemas e sistemas filosóficos, assim como para a análise e reflexão crítica da realidade social em que se insere. Espera-se, com isso, que o futuro profissional tenha um conhecimento aprofundado da filosofia e seja competente no exercício das suas atividades. O licenciado deverá estar habilitado a enfrentar com sucesso os desafios e as dificuldades inerentes à tarefa de despertar os jovens para a reflexão filosófica, bem como a transmitir aos alunos do Ensino Fundamental e Médio o legado da tradição e o gosto pelo pensamento inovador, crítico e independente. Os egressos podem contribuir profissionalmente também em outras áreas, no debate interdisciplinar, nas assessorias culturais etc.
+  <section id='info-curso'> 
+    <div class="container"> 
+      <div class='breadcrumb'>Você está em: <a href='<?php echo site_url(); ?>/cursos'>Cursos</a><i class='fas fa-greater-than'></i><span>Filosofia</span></div> 
+ 
+      <h1>Filosofia</h1> 
+ 
+      <div class="colunas"> 
+ 
+        <p class='coluna1 objetivo'>A perspectiva central da Licenciatura EaD em Filosofia é o desenvolvimento, de um lado, de habilidades para produzir e lidar com o conhecimento, de maneira radical, crítica, criativa e pluralista, pressupondo procedimentos de pesquisa, numa atitude de investigação contínua no tratamento do conhecimento; do outro lado, o desenvolvimento das competências e das habilidades necessárias à atuação profissional em filosofia. A articulação teoria-prática, além de ser incentivada no interior de cada disciplina, está muito bem organizada ao longo de todo o desenvolvimento curricular. </p> 
+ 
+        <div class="coluna2"> 
+          <p> 
+            <strong>Nível: </strong>Graduação<br/> 
+            <strong>Formação: </strong>Licenciatura<br/> 
+            <strong>Duração: </strong>4 anos (8 semestres)<br/> 
+            <strong>Modalidade: </strong>Semipresencial<br/> 
+          </p> 
+          <p class="situacao"><strong>Situação: </strong><br>
+          <?php $situacaoCurso = get_post_custom_values('situacao'); if ($situacaoCurso != "") { echo $situacaoCurso[0]; } ?>
+          </p> 
+        </div> 
+      </div> 
+    </div> 
+  </section> 
+ 
+    <section id='conteudo-curso' class='container colunas'> 
+ 
+      <aside class="coluna2"> 
+         
+        <div class='menu'> 
+          <h4>Navegue</h4> 
+ 
+          <ul> 
+            <li><a title="Mostrar perfil do egresso" href='#perfil-do-egresso'>Perfil do egresso</a></li> 
+            <li><a title="Mostrar ofertas do curso" href='#ofertas-anteriores'>Ofertas</a></li> 
+          </ul> 
+        </div> 
+ 
+        <h4>Contato</h4> 
+ 
+        <p class="contato-curso"> 
+          <strong>Thiago Sobreira Marques</strong><br/> 
+          <mail>licfilosofia.ead@gmail.com</mail> 
+          <span><i class="fas fa-phone"></i>(27) 4009-2094</span> 
+        </p> 
+ 
+      </aside> 
+ 
+      <div class="coluna1"> 
+ 
+        <h2 id='perfil-do-egresso'>Perfil do egresso</h2> 
+        <p>Espera-se que o formando tenha uma formação sólida na História da Filosofia que o capacite para a compreensão e a transmissão dos principais temas, problemas e sistemas filosóficos, assim como para a análise e reflexão crítica da realidade social em que se insere. Espera-se, com isso, que o futuro profissional tenha um conhecimento aprofundado da filosofia e seja competente no exercício das suas atividades. O licenciado deverá estar habilitado a enfrentar com sucesso os desafios e as dificuldades inerentes à tarefa de despertar os jovens para a reflexão filosófica, bem como a transmitir aos alunos do Ensino Fundamental e Médio o legado da tradição e o gosto pelo pensamento inovador, crítico e independente. Os egressos podem contribuir profissionalmente também em outras áreas, no debate interdisciplinar, nas assessorias culturais etc.</p>
 
         <p><strong>Competências e Habilidades:</strong></p>
-        <p>– habilidade de formular problemas de um modo especificamente filosófico e de formular e propor soluções nos diversos campos do conhecimento; </p>
-        <p>– habilidade de desenvolver uma consciência crítica sobre conhecimento, razão e realidade sócio-histórico-política;</p>
-        <p>– habilidade de analisar e interpretar as questões acerca do sentido e da significação da própria existência e das produções culturais; </p>
-        <p>– habilidade de perceber a integração necessária entre a filosofia e a produção científica e artística, bem como com o agir individual e coletivo; </p>
-        <p>– capacidade de relacionar o exercício da crítica filosófica com a promoção integral da cidadania e com o respeito à pessoa, dentro da tradição de defesa dos direitos humanos;</p>
-        <p>– competência na utilização da informática como instrumento pedagógico. </p> <br>
 
-        <p>O Colegiado do Curso, juntamente com todos os professores, espera que o egresso seja capaz de: </p>
-        <p>– analisar, compreender, julgar e expor um tema (problema, argumento, tese, conceito, teoria etc.) em forma oral ou escrita; </p>
-        <p>– analisar um texto, discurso ou experiência e extrair conceitos, teses, argumentos etc., e posicionar-se diante do conteúdo encontrado, comparando-o com outros, variando métodos e pontos de vista; </p>
-        <p>– investigar e sintetizar, de um ponto de vista ou segundo um procedimento aceitável para o estado atual da arte, um tema ou questão, e fornecer uma solução ou consideração conclusiva, teórica e prática; </p>
-        <p>– planejar e executar uma exposição (aula, conferência, curso, texto) para público geral, curso de ensino médio e graduação, sobre um tema filosófico.</p>
+        <ul class="lista-conteudo">
+          <li>habilidade de formular problemas de um modo especificamente filosófico e de formular e propor soluções nos diversos campos do conhecimento;</li>
+          <li>habilidade de desenvolver uma consciência crítica sobre conhecimento, razão e realidade sócio-histórico-política;</li>
+          <li>habilidade de analisar e interpretar as questões acerca do sentido e da significação da própria existência e das produções culturais;</li>
+          <li>habilidade de perceber a integração necessária entre a filosofia e a produção científica e artística, bem como com o agir individual e coletivo;</li>
+          <li>capacidade de relacionar o exercício da crítica filosófica com a promoção integral da cidadania e com o respeito à pessoa, dentro da tradição de defesa dos direitos humanos;</li>
+          <li>competência na utilização da informática como instrumento pedagógico.</li>
+        </ul>
 
-      </div>
+        <p>O Colegiado do Curso, juntamente com todos os professores, espera que o egresso seja capaz de:</p>
 
-      <div>
-        <h2 id='ofertas-anteriores'>Ofertas do curso</h2>
+        <ul class="lista-conteudo">
+          <li>analisar, compreender, julgar e expor um tema (problema, argumento, tese, conceito, teoria etc.) em forma oral ou escrita;</li>
+          <li>analisar um texto, discurso ou experiência e extrair conceitos, teses, argumentos etc., e posicionar-se diante do conteúdo encontrado, comparando-o com outros, variando métodos e pontos de vista;</li>
+          <li>investigar e sintetizar, de um ponto de vista ou segundo um procedimento aceitável para o estado atual da arte, um tema ou questão, e fornecer uma solução ou consideração conclusiva, teórica e prática;</li>
+          <li>planejar e executar uma exposição (aula, conferência, curso, texto) para público geral, curso de ensino médio e graduação, sobre um tema filosófico.</li>
+        </ul>
 
-        <h3>2014/2</h3>
-        <p><strong>Coordenador do Curso:</strong> Claudia Pereira do Carmo Murta</p>
-        <p><strong>Polos atendidos: </strong>Afonso Cláudio, Aracruz, Baixo Guandu, Cachoeiro de Itapemirim, Castelo, Domingos Martins, Itapemirim, Mantenópolis, Mimoso do Sul, Montanha, Pinheiros, Santa Teresa e Venda Nova do Imigrante.</p>
-      </div>
+        <h2 id='ofertas-anteriores'>Ofertas do curso</h2> 
+ 
+        <h3>2014</h3> 
+        <p><strong>Coordenação do Curso</strong><br/>Claudia Pereira do Carmo Murta</p> 
+        <p><strong>Polos atendidos</strong><br/>Afonso Cláudio, Aracruz, Baixo Guandu, Cachoeiro de Itapemirim, Castelo, Domingos Martins, Itapemirim, Mantenópolis, Mimoso do Sul, Montanha, Pinheiros, Santa Teresa e Venda Nova do Imigrante.</p> 
+        <p><a href="<?php echo get_template_directory_uri(); ?>/arquivos/ofertas/Filosofia-oferta2014.pdf" title="Abrir arquivo de informações da oferta 2014" target="_blank">Mais informações sobre a oferta</a></p> 
 
-    </section>
-
-  </div>
-
-  <section id='noticias'>
-    <?php $ultimas_noticias = new WP_Query(array(
-        'post_type' => 'noticia',
-        'posts_per_page' => 3,
-        'tax_query' => array(
-            array(
-                'taxonomy' => 'curso-noticia',
-                'field' => 'slug',
-                'terms' => 'Filosofia',
-            ),
-        ),
-    ));
-
-    if ($ultimas_noticias->have_posts()) : ?>
-
-    <div class='container'>
-        <h2>Notícias do curso</h2>
-        <div class='flex'>
-
-          <?php while ($ultimas_noticias->have_posts()) : $ultimas_noticias->the_post(); ?>
-            <a class='noticia' href='<?php the_permalink() ?>' title='Ir para notícia: <?php the_title(); ?>'>
-              <?php the_post_thumbnail(); ?>
-              <h3><?php the_title(); ?></h3>
-            </a>
-
-          <?php endwhile; wp_reset_postdata(); else : ?>
-
-        </div>
-      </div>
-    <?php endif; ?>
-  </section>
+ 
+    </section> 
+ 
+  </div> 
+ 
+  <section id='noticias-curso' class="secao-destacada"> 
+    <?php $ultimas_noticias = new WP_Query(array( 
+      'post_type' => 'noticia', 
+      'posts_per_page' => 3, 
+      'tax_query' => array( 
+          array( 
+              'taxonomy' => 'curso-noticia', 
+              'field' => 'slug', 
+              'terms' => 'Filosofia', 
+            ), 
+        ), 
+    )); 
+ 
+    if ($ultimas_noticias->found_posts > 2) : ?> 
+ 
+      <div class='container'> 
+        <h2 class="titulo-destacado">Notícias do curso</h2> 
+        <div class='cards-noticias-curso'> 
+ 
+          <?php while ($ultimas_noticias->have_posts()) : $ultimas_noticias->the_post(); ?> 
+            <a class='noticia' href='<?php the_permalink() ?>' title='Ir para notícia: <?php the_title(); ?>'> 
+              <?php the_post_thumbnail(); ?> 
+              <h3><?php the_title(); ?></h3> 
+            </a> 
+ 
+          <?php endwhile; wp_reset_postdata(); else : ?> 
+ 
+        </div> 
+      </div> 
+ 
+    <?php endif; ?> 
+  </section> 
 
 </main>

@@ -1,19 +1,8 @@
-<div id="fb-root"></div>
-<script>(function (d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id))
-      return;
-    js = d.createElement(s);
-    js.id = id;
-    js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v3.1';
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
 
 <footer>
-  
   <a title="Voltar ao topo" id="voltar-ao-topo" aria-hidden="true"><i class="fas fa-arrow-up"></i></a> 
   
-  <div class="content">
+  <div class="container">
     <section>
       <h4>Mapa do sítio</h4>
       <ul>
@@ -34,6 +23,7 @@
             <li><a href="<?php echo site_url(); ?>/fotos" title="Ir para Galeria de fotos">Galeria de fotos</a></li>
           </ul>
         </li>
+        <li><a href="<?php echo site_url(); ?>/faq" title="Ir para Dúvidas Frequentes">Dúvidas Frequentes</a></li>
       </ul>
     </section>
 
@@ -52,7 +42,14 @@
           <a href="https://moovit.com/?to=Teatro%20Universitário&tll=-20.27756_-40.301771&metroId=4794&lang=pt-br" target="_blank" title="Ver rotas de ônibus no Moovit em nova aba"><span>Ver rotas de ônibus no Moovit</span></a>
         </span>
       </p>
-      <div class="fb-page" data-href="https://www.facebook.com/sead.ufes" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/sead.ufes" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/sead.ufes">Secretaria de Ensino a Distância - SEAD UFES</a></blockquote></div>
+
+      <!-- API Facebook -->
+      <div id="fb-root"></div>
+      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v8.0" nonce="MxALzWlz"></script>
+
+      <div class="fb-page" data-href="https://www.facebook.com/sead.ufes" data-tabs="timeline" data-width="300px" data-height="130px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/sead.ufes" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/sead.ufes">Superintendência de Educação a Distância - Sead Ufes</a></blockquote></div>
+
+
     </section>
 
     <section>
@@ -64,18 +61,22 @@
         <li><a href="http://selecao.neaad.ufes.br" target="_blank" title="Abrir o Sistema de Seleção em nova aba">Sistema de Seleção</a></li>
         <li><a href="http://videos.ufes.br/sead" target="_blank" title="Abrir o Canal em Vídeos Ufes em nova aba">Canal em Vídeos Ufes</a></li>
         <li><a href="https://calendar.google.com/calendar/embed?src=webconf.ufes%40gmail.com&ctz=America/Sao_Paulo" target="_blank" title="Abrir agenda de Webconferências da Sead em nova aba">Agenda de Webconferências</a></li>
-        <li><a href="https://calendar.google.com/calendar/embed?src=seadufes2020@gmail.com&ctz=America/Sao_Paulo&pli=1" target="_blank" title="Abrir agenda de Webconferências da Sead em nova aba">Agenda pública da SEAD</a></li>
+        <li><a href="https://calendar.google.com/calendar/embed?src=seadufes2020@gmail.com&ctz=America/Sao_Paulo&pli=1" target="_blank" title="Abrir agenda da Sead em nova aba">Agenda pública da SEAD</a></li>
       </ul>
     </section>
-  </div>
+
+  </div> <!-- container -->
+
   <div class="creditos">
-    <p>© 2019 Sead Ufes. Todos os direitos reservados <span>| <a href="http://ldi.ufes.br/" target="_blank" title="Abrir o sítio do LDI em nova aba">Desenvolvido por LDI</a></span></p>
+    <p>2020 Sead Ufes. Todos os direitos reservados <span>| <a href="http://ldi.ufes.br/" target="_blank" title="Abrir o sítio do LDI em nova aba">Desenvolvido por LDI</a></span></p>
   </div>
+
 </footer>
 
-<script defer="defer" src="//barra.brasil.gov.br/barra.js"></script>
+<!-- Barra Brasil -->
+<script defer="defer" src="//barra.brasil.gov.br/barra_2.0.js" type="text/javascript"></script>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/altoContraste.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/menu.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/pesquisa.js"></script>
 
@@ -85,7 +86,6 @@
 
 <script src="https://unpkg.com/focus-visible@latest/dist/focus-visible.min.js"></script>
 
-<?php wp_footer(); ?>
 <script src="<?php echo get_template_directory_uri(); ?>/js/globais.js"></script>
 
 <script>
@@ -100,6 +100,8 @@
   });
 
 </script>
+
+<?php wp_footer(); ?>
 
 </body>
 </html>

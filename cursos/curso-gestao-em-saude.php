@@ -1,99 +1,167 @@
 <main class='page curso' id="conteudoPrincipal">
+ 
+  <section class="curso-destaque"><?php the_post_thumbnail() ?></section>
 
-  <section class="destaque destaque-imagem" style="background-image: linear-gradient(#043166, rgba(4, 49, 102, 0.3)), url('<?php echo get_template_directory_uri() ?>/img/capas/gestao-em-saude.jpg')"></section>;
-
-  <div class='container'>
-    <section class='breadcrumb'>Você está em: <a href='<?php echo site_url(); ?>/cursos'>Cursos</a><i class='fas fa-greater-than'></i><span>Gestão em Saúde</span></section>
-    <h1>Especialização em Gestão em Saúde EaD</h1>
-
-    <p id='objetivo'>Contribuir para a qualificação de profissionais de nível superior na gestão de serviços públicos de saúde.</p>
-
-    <section id='info-curso'>
-      <div>
-        <p><strong>Nível: </strong>Especialização</p>
-        <p><strong>Duração: </strong>18 meses</p>
-        <p><strong>Modalidade: </strong>Semipresencial</p>
-      </div>
-
-      <div id='situacao'>
-        <p><strong>Situação: </strong>
-           em andamento.
-        </p>
-      </div>
-    </section>
-
-
-    <section id='conteudo'>
-
-<!--      <aside id='menu'>;
-        <button id='dropdown-menu'>Menu<i class='fas fa-angle-down'></i></button>
-
-        <ul>
-          <li><a href='#curriculo'>Currículo</a></li>
-          <li><a href='#corpo-docente'>Corpo docente</a></li>
-          <li><a href='#perfil-do-egresso'>Perfil do egresso</a></li>
-          <li><a href='#ofertas-anteriores'>Ofertas anteriores</a></li>
-        </ul>
-
-      </aside>-->
-
-      <div id='matriz'>
-        <h2 id='curriculo'>Duração do curso</h2>
-        <p>Carga horária total: 420 horas<br>
-        Núcleo básico: 210 horas<br>
-        Módulo específico: 210 horas</p>
-
-        <h2>Matriz Curricular</h2>
-
-        <ul>
-          <li class='semestre'>
-            <button class='ativo'><h3>Nivelamento</h3></button>
-            <ul style='display: block;'>
-
-              <li>Introdução a Modalidade EaD <span>30h</span></li>
-
-            </ul>
-          </li>
+  <section id='info-curso'> 
+    <div class="container"> 
+      <div class='breadcrumb'>Você está em: <a href='<?php echo site_url(); ?>/cursos'>Cursos</a><i class='fas fa-greater-than'></i><span>Gestão em Saúde</span></div> 
+ 
+      <h1>Gestão em Saúde</h1> 
+ 
+      <div class="colunas"> 
+ 
+        <p class='coluna1 objetivo'> O objetivo da Especialização em Gestão em Saúde EaD é contribuir para a qualificação de profissionais de nível superior na gestão de serviços públicos de saúde.
+        </p> 
+ 
+        <div class="coluna2"> 
+          <p> 
+            <strong>Nível: </strong>Especialização<br/> 
+            <strong>Duração: </strong>18 meses<br/> 
+            <strong>Modalidade: </strong>Semipresencial<br/> 
+          </p> 
+          <p class="situacao"><strong>Situação: </strong><br>
+          <?php $situacaoCurso = get_post_custom_values('situacao'); if ($situacaoCurso != "") { echo $situacaoCurso[0]; } ?>
+          </p>  
+        </div> 
+      </div> 
+    </div> 
+  </section> 
+ 
+    <section id='conteudo-curso' class='container colunas'> 
+ 
+      <aside class="coluna2"> 
+         
+        <div class='menu'> 
+          <h4>Navegue</h4> 
+ 
+          <ul> 
+            <!-- <li><a title="Mostrar perfil do egresso" href='#perfil-do-egresso'>Perfil do egresso</a></li>  -->
+            <li><a title="Mostrar currículo" href='#curriculo'>Grade curricular</a></li> 
+            <!-- <li><a title="Mostrar corpo docente" href='#corpo-docente'>Corpo docente</a></li>  -->
+            <!-- <li><a title="Mostrar ofertas do curso" href='#ofertas-anteriores'>Ofertas</a></li>  -->
+          </ul> 
+        </div> 
+ 
+      </aside> 
+ 
+      <div class="coluna1">          
+ 
+        <h2 id='curriculo'>Grade curricular</h2> 
+        <p>Carga horária total: 420 horas</p> 
+ 
+        <ul id="matriz"> 
           
-          <li class='semestre'>
-            <button class='ativo'><h3>Módulo básico</h3></button>
-            <ul style='display: block;'>
-
-              <li>Estado, Governo e Mercado <span>30h</span></li>
-              <li>O Público e o Privado na Gestão Pública <span>30h</span></li>
-              <li>Desenvolvimento e Mudanças no Estado brasileiro <span>30h</span></li>
-              <li>Políticas Públicas  <span>30h</span></li>
-              <li>Planejamento Estratégico Governamental <span>30h</span></li>
-              <li>O Estado e os Problemas Contemporâneos  <span>30h</span></li>
-              <li>Indicadores Socioeconômicos na Gestão Pública <span>30h</span></li>
-            </ul>
-          </li>
-          
-          <li class='semestre'>
-            <button class='ativo'><h3>Módulo específico</h3></button>
-            <ul style='display: block;'>
-
-              <li>Políticas de Saúde: fundamentos e diretrizes do SUS  <span>30h</span></li>
-              <li>Gestão da Vigilância à Saúde  <span>30h</span></li>
-              <li>Organização e Funcionamento do SUS  <span>60h</span></li>
-              <li>Gestão dos Sistemas e Serviços de Saúde  <span>60h</span></li>
-              <li>Gestão Logística em Saúde  <span>30h</span></li>
-
-            </ul>
-          </li>
-          <li class='semestre'>
-            <button class='ativo'><h3>Monografia</h3></button>
-            <ul style='display: block;'>
-
-              <li>Metodologia Científica <span>30h</span></li>
-              <li>Monografia <span>30h</span></li>
-
-            </ul>
+          <li class='semestre'> 
+            <h3>Nivelamento</h3>
+            <ul style="display: block;"> 
+              <div class="rotulos-matriz"> 
+                  <div>Disciplina</div> 
+                  <div> 
+                    <span class="desktop">Carga horária</span> 
+                    <span class="mobile">C. hr.</span> 
+                  </div> 
+                </div>
+                <li> 
+                    <div>Introdução a Modalidade EaD</div> 
+                    <div>30h</div> 
+                  </li> 
+            </ul> 
           </li>
 
-        </ul>
+          <li class='semestre'> 
+            <h3>Módulo básico</h3>
+            <ul style="display: block;"> 
+              <div class="rotulos-matriz"> 
+                  <div>Disciplina</div> 
+                  <div> 
+                    <span class="desktop">Carga horária</span> 
+                    <span class="mobile">C. hr.</span> 
+                  </div> 
+                </div>
+                <li> 
+                    <div>Estado, Governo e Mercado</div> 
+                    <div>30h</div> 
+                  </li> 
+                  <li> 
+                    <div>O Público e o Privado na Gestão Pública</div> 
+                    <div>30h</div> 
+                  </li> 
+                  <li> 
+                    <div>Desenvolvimento e Mudanças no Estado brasileiro</div> 
+                    <div>30h</div> 
+                  </li> 
+                  <li> 
+                    <div>Planejamento Estratégico Governamental</div> 
+                    <div>30h</div> 
+                  </li> 
+                  <li> 
+                    <div>O Estado e os Problemas Contemporâneos</div> 
+                    <div>30h</div> 
+                  </li> 
+                  <li> 
+                    <div>Indicadores Socioeconômicos na Gestão Pública</div> 
+                    <div>30h</div> 
+                  </li> 
+            </ul> 
+          </li>
+          <li class='semestre'> 
+            <h3>Módulo específico</h3>
+            <ul style="display: block;">  
+              <div class="rotulos-matriz"> 
+                  <div>Disciplina</div> 
+                  <div> 
+                    <span class="desktop">Carga horária</span> 
+                    <span class="mobile">C. hr.</span> 
+                  </div> 
+                </div>
+                <li> 
+                    <div>Políticas de Saúde: fundamentos e diretrizes do SUS</div> 
+                    <div>30h</div> 
+                </li> 
+                <li> 
+                    <div>Gestão da Vigilância à Saúde</div> 
+                    <div>30h</div> 
+                </li> 
+                <li> 
+                    <div>Organização e Funcionamento do SUS</div> 
+                    <div>60h</div> 
+                </li> 
+                <li> 
+                    <div>Gestão dos Sistemas e Serviços de Saúde</div> 
+                    <div>60h</div> 
+                </li> 
+                <li> 
+                    <div>Gestão Logística em Saúde</div> 
+                    <div>30h</div> 
+                </li> 
+            </ul> 
+          </li>
 
-      </div>
+          <li class='semestre'> 
+            <h3>Monografia</h3> 
+            <ul style="display: block;"> 
+              <div class="rotulos-matriz"> 
+                  <div>Disciplina</div> 
+                  <div> 
+                    <span class="desktop">Carga horária</span> 
+                    <span class="mobile">C. hr.</span> 
+                  </div> 
+                </div>
+                <li> 
+                    <div>Metodologia Científica</div> 
+                    <div>30h</div> 
+                </li> 
+                <li> 
+                    <div>Monografia</div> 
+                    <div>30h</div> 
+                </li>
+            </ul> 
+          </li>
 
+      </ul> 
+ 
+    </section> 
+ 
+  </div> 
 
 </main>

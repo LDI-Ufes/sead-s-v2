@@ -1,0 +1,202 @@
+{
+    "1°_Semestre": [
+        {
+            "nome": "Biologia Celular e Molecular",
+            "ch": 60
+        },
+        {
+            "nome": "Classificação e Diversidade Biológica",
+            "ch": 60
+        },
+        {
+            "nome": "Fundamentos Históricos e Filosóficos da Educação",
+            "ch": 60
+        },
+        {
+            "nome": "Morfologia Vegetal",
+            "ch": 60
+        },
+        {
+            "nome": "Química Geral",
+            "ch": 60
+        },
+        {
+            "nome": "Educação a Distância",
+            "ch": 60
+        }
+    ],
+    "2°_Semestre": [
+        {
+            "nome": "Zoologia I",
+            "ch": 60
+        },
+        {
+            "nome": "Política e Organização da Educação Básica",
+            "ch": 60
+        },
+        {
+            "nome": "Psicologia da Educação",
+            "ch": 60
+        },
+        {
+            "nome": "Elementos de Matemática e Estatística",
+            "ch": 60
+        },
+        {
+            "nome": "Química Orgânica",
+            "ch": 60
+        },
+        {
+            "nome": "Práticas Como Componente Curricular I",
+            "ch": 80
+        },
+        {
+            "nome": "Histologia e Biologia do Desenvolvimento",
+            "ch": 60
+        }
+    ],
+    "3°_Semestre": [
+        {
+            "nome": "Biologia dos Vegetais Avasculares e Fungos",
+            "ch": 60
+        },
+        {
+            "nome": "Genética",
+            "ch": 60
+        },
+        {
+            "nome": "Zoologia II",
+            "ch": 60
+        },
+        {
+            "nome": "Bioquímica",
+            "ch": 60
+        },
+        {
+            "nome": "Didática",
+            "ch": 60
+        },
+        {
+            "nome": "Práticas Como Componente Curricular II",
+            "ch": 80
+        }
+    ],
+    "4°_Semestre": [
+        {
+            "nome": "Práticas Como Componente Curricular III",
+            "ch": 80
+        },
+        {
+            "nome": "Biologia dos Vegetais Vasculares",
+            "ch": 60
+        },
+        {
+            "nome": "Fisiologia Vegetal",
+            "ch": 60
+        },
+        {
+            "nome": "Anatomia Humana",
+            "ch": 60
+        },
+        {
+            "nome": "Zoologia III",
+            "ch": 60
+        },
+        {
+            "nome": "Ecologia",
+            "ch": 60
+        },
+        {
+            "nome": "Currículo da Educação Básica",
+            "ch": 60
+        }
+    ],
+    "5°_Semestre": [
+        {
+            "nome": "Fisiologia Humana",
+            "ch": 60
+        },
+        {
+            "nome": "Dinâmica da Terra e Paleontologia",
+            "ch": 60
+        },
+        {
+            "nome": "Evolução",
+            "ch": 60
+        },
+        {
+            "nome": "Física Aplicada ás Ciências Biológicas",
+            "ch": 60
+        },
+        {
+            "nome": "Práticas Como Componente Curricular IV",
+            "ch": 80
+        },
+        {
+            "nome": "Fundamentos da Língua Brasileira de Sinais – Libras",
+            "ch": 90
+        }
+    ],
+    "6°_Semestre": [
+        {
+            "nome": "Conservação da Biodiversidade",
+            "ch": 60
+        },
+        {
+            "nome": "Organização do Trabalho Científico",
+            "ch": 60
+        },
+        {
+            "nome": "Tópicos Especiais no Ensino de Ciências e Biologia",
+            "ch": 80
+        },
+        {
+            "nome": "Educação das Relações Étnico-Raciais",
+            "ch": 60
+        },
+        {
+            "nome": "Práticas Pedagógicas V",
+            "ch": 80
+        },
+        {
+            "nome": "Estágio Curricular Supervisionado em Ensino de Ciências",
+            "ch": 200
+        }
+    ],
+    "7°_Semestre": [
+        {
+            "nome": "Microbiologia",
+            "ch": 60
+        },
+        {
+            "nome": "Educação e Diversidade",
+            "ch": 60
+        },
+        {
+            "nome": "Trabalho de Conclusão de Curso 1",
+            "ch": 45
+        },
+        {
+            "nome": "Estágio Curricular Supervisionado em Ensino de Biologia",
+            "ch": 200
+        }
+    ],
+    "8°_Semestre": [
+        {
+            "nome": "Bioética e Biossegurança",
+            "ch": 60
+        },
+        {
+            "nome": "Gestão da Educação Básica",
+            "ch": 60
+        },
+        {
+            "nome": "Educação Ambiental",
+            "ch": 60
+        },
+        {
+            "nome": "Trabalho de Conclusão de Curso 2",
+            "ch": 45
+        }
+    ]
+}

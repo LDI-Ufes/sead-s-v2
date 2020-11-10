@@ -1,4 +1,4 @@
-<?php get_header('principal'); ?>
+<?php get_header(); ?>
 
 <main id="conteudoPrincipal" class="page container pagPesquisa">
   <section class="breadcrumb">Você está em: <span>Resultado de pesquisa</span></section>

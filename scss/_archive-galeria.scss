@@ -21,7 +21,7 @@
       }
 
       &.active {
-        background-color: $laranjaMedio;
+        background-color: $laranja-medio;
         color: white;
         pointer-events: none;
       }
@@ -38,7 +38,7 @@
         position: relative;
         font-weight: $semi-bold;
         font-size: 1.2rem;
-        color: $laranjaRegular;
+        color: $laranja-principal;
         margin-bottom: 0;
         text-align: right;
 
@@ -53,7 +53,7 @@
           display: block;
           vertical-align: middle;
           height: 3px;
-          background-color: $laranjaRegular;
+          background-color: $laranja-principal;
           width: 100%;
           margin-right: -100%;
           position: absolute;
@@ -65,7 +65,7 @@
 
       h2 {
         font-weight: $light;
-        color: $laranjaRegular;
+        color: $laranja-principal;
         font-size: 1.6rem;
         margin: 1rem 0 1.2rem;
       }
@@ -112,32 +112,47 @@
         }
       }
 
-      // Intercalando cores dos itens
-
-      /*      &:nth-child(even){
-        h2{
-          color: $azulRegular;
-
-          &:before{
-            background-color: $azulRegular;
-          }
-        }
-
-        .abrirTodas{
-          background-color: $azulRegular;
-
-          &:hover{
-            background-color: $azulEscuro;
-          }
-        }
-      }*/
     }
   }
 
-  @media screen and (min-width: 992px) {
-    /*padding-top: 8rem;*/
+  @media screen and (min-width: 562px) {
+    #eventos {
+      li {
+        .imagens {
+          margin-right: -1.5rem;
+
+          p {
+            a {
+              margin-right: 1.5rem;
+              max-width: calc(50% - 1.5rem);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    #eventos {
+      li {
+        .imagens {
+
+          p {
+            a {
+              max-width: calc(33% - 1.5rem);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
 
     #filtros {
+
+      span, a{ font-size: 1.125rem;}
+
       span {
         display: inline-block;
         padding-bottom: 0;
@@ -150,11 +165,9 @@
         margin-bottom: 5rem;
 
         .imagens {
-          margin-right: -1.5rem;
 
           p {
             a {
-              margin-right: 1.5rem;
               max-width: calc(25% - 1.5rem);
             }
           }

@@ -1,56 +1,122 @@
-html {
-  font-size: 16px;
-}
+html { 
+	font-size: 16px; 
+} 
+ 
+body { 
+	  overflow-x: hidden; 
+    margin: 0; 
+    font-family: $sans; 
+    font-size: 1rem; 
+} 
+  
+*:focus { 
+	outline: none; 
+} 
+ 
+.focus-visible { 
+	box-shadow: 0 0 0 2px lighten($laranja-medio, 20%); 
+} 
+ 
+.somente-leitura { 
+	position: absolute; 
+	left: -999rem; 
+} 
+ 
+a { 
+    text-decoration: none; 
+    color: inherit; 
+} 
+ 
+ul { 
+    margin: 0; 
+    padding: 0; 
+    list-style: none; 
+} 
 
-body {
-  margin: 0;
-  min-width: 320px;
-  overflow-x: hidden;
-  font-family: "Fira Sans", sans-serif;
-  font-size: 1rem;
+.container { 
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 1rem; 
+  margin: 0 auto; 
+  max-width: 1140px;  
 
-  &.contraste {
-    * {
-      background-color: black !important;
-      color: white;
-
-      a {
-        color: yellow;
-      }
-    }
+  @media (min-width: 768px) {
+    padding: 0 2rem;
   }
 
-  main {
-    display: block;
-    min-height: 40rem;
-
-    h1:first-of-type {
-      margin: 0;
-      padding: 1rem 0;
-    }
-  }
-}
-
-section.caixa {
-  margin: 0 auto;
-  width: 960px;
-}
-
-.container {
-  padding: 2rem 1rem;
-
-  h1 {
+  @media (min-width: 1180px) {
     padding: 0;
   }
+} 
+
+.container-texto{
+  max-width: 720px;
+  margin: 0 auto;
 }
 
-/*h1 {
-  font-size: 2.5rem;
-  font-weight: $bold;
-  color: $azulRegular;
-  padding: 2rem 0 1rem;
-  line-height: 1.3;
-}*/
+.breadcrumb { 
+	background: none; 
+	padding: 0; 
+	font-size: 0.8rem; 
+	margin: 3rem 0 1.5rem; 
+ 
+	a { 
+		color: $azul-medio; 
+		font-weight: 500; 
+ 
+		&:hover { 
+			border-bottom-color: $azul-medio; 
+		} 
+	} 
+ 
+	i { 
+		color: $laranja-principal; 
+		font-size: 0.6rem; 
+		padding: 0.3rem 0.3rem 0; 
+	} 
+ 
+	span:first-of-type { 
+		margin-right: 0.3rem; 
+		width: 100%; 
+ 
+		@media screen and (min-width: 400px) { 
+			display: inline-block; 
+			width: fit-content; 
+		} 
+	} 
+ 
+	span:last-of-type { 
+		color: $azul-principal; 
+	} 
+} 
+
+.paginacao { 
+  color: $laranja-medio; 
+  padding: 1rem 1rem 2rem; 
+  text-align: center; 
+  font-weight: $bold; 
+ 
+  a, 
+  span { 
+    padding: .1rem .5rem; 
+    margin: 0 .2rem; 
+  } 
+ 
+  a:hover { 
+    border-bottom: solid 1px $laranja-escuro; 
+    color: $laranja-escuro; 
+  } 
+ 
+  .current { 
+    color: $azul-principal; 
+    background-color: $azul-claro; 
+    border-radius: 2px; 
+  } 
+ 
+  h2 { 
+    display: none; 
+  } 
+} 
 
 .mapaES {
   text {
@@ -66,94 +132,26 @@ section.caixa {
   }
 
   #comPolos {
-    // path {
-    //   fill: $azulClaro;
-    // }
-
     a {
       cursor: pointer;
 
       .geografia {
-        fill: $azulClaro;
+        fill: $azul-claro;
       }
-
-      // .pin {
-      //   fill: darken($azul, 40%) !important;
-      //   stroke: none;
-      // }
-
-      // text {
-      //   fill: #333;
-      // }
 
       &:hover {
         .geografia {
-          fill: $laranjaClaro;
+          fill: $laranja-claro;
         }
       }
 
       .geografia.selecionado {
-        fill: $laranjaClaro;
+        fill: $laranja-claro;
       }
     }
   }
 }
 
-.somente-leitura {
-  position: absolute;
-  left: -999rem;
-}
-
 a[target='_blank'] i.fa-external-link-alt {
   font-size: 0.8em;
-}
-
-
-// Foco em navegação
-* {
-  &:focus {
-    outline: none;
-  }
-}
-
-%borda-foco {
-  outline: 2px solid $laranjaRegular;
-}
-
-#lista-barra-brasil .link-barra.focus-visible {outline-offset: -5px}
-#brasil-vlibras .logo-vlibras.focus-visible {outline-offset: -1px}
-#ligacoesExternas > li a.focus-visible {outline-offset: 2px}
-
-.focus-visible {
-  z-index: 7;
-  outline-offset: 3px;
-  @extend %borda-foco;
-
-  &.marca {
-    outline: none;
-
-    svg {
-      @extend %borda-foco;
-      outline-offset: 10px;
-    }
-  }
-
-  &.botaoSubmissao {
-    outline: none;
-    box-shadow: none;
-
-    i.fas {
-      @extend %borda-foco;
-      outline-offset: 5px;
-    }
-  }
-}
-
-// Fim de Foco em navegação
-
-@media screen and (min-width: 992px) {
-  .container {
-    max-width: 960px;
-    margin: 0 auto;
-  }
 }
