@@ -1,7 +1,16 @@
 <main class='page curso' id="conteudoPrincipal">
- 
-  <section class="curso-destaque"><?php the_post_thumbnail() ?></section>
 
+  <a class="video-curso" href='https://youtu.be/ifrrych15W4 ' data-lity> 
+      <section class='curso-destaque'> 
+        <?php the_post_thumbnail() ?> 
+ 
+        <div class='curso-destaque-titulo container'> 
+          <i class='fas fa-play-circle'></i> 
+          <h2>Veja o que o coordenador<br>do curso tem a dizer!<br></h2> 
+        </div> 
+      </section> 
+    </a> 
+ 
   <section id='info-curso'> 
     <div class="container"> 
       <div class='breadcrumb'>Você está em: <a href='<?php echo site_url(); ?>/cursos'>Cursos</a><i class='fas fa-greater-than'></i><span>Física</span></div> 
