@@ -18,7 +18,6 @@
             <strong>Formação: </strong>Licenciatura<br/> 
             <strong>Duração: </strong>4 anos (8 semestres)<br/> 
             <strong>Modalidade: </strong>Semipresencial<br/> 
-            <!-- <strong>Conceito Geral: </strong>3  -->
           </p> 
           <p class="situacao"><strong>Situação: </strong><br>
           <?php $situacaoCurso = get_post_custom_values('situacao'); if ($situacaoCurso != "") { echo $situacaoCurso[0]; } ?>
@@ -37,8 +36,6 @@
  
           <ul> 
             <li><a title="Mostrar perfil do egresso" href='#perfil-do-egresso'>Perfil do egresso</a></li> 
-            <li><a title="Mostrar currículo" href='#curriculo'>Grade curricular</a></li> 
-            <!-- <li><a title="Mostrar corpo docente" href='#corpo-docente'>Corpo docente</a></li>  -->
             <li><a title="Mostrar ofertas do curso" href='#ofertas-anteriores'>Ofertas</a></li> 
           </ul> 
         </div> 
@@ -77,89 +74,13 @@
           <li>investigar e sintetizar, de um ponto de vista ou segundo um procedimento aceitável para o estado atual da arte, um tema ou questão, e fornecer uma solução ou consideração conclusiva, teórica e prática;</li>
           <li>planejar e executar uma exposição (aula, conferência, curso, texto) para público geral, curso de ensino médio e graduação, sobre um tema filosófico.</li>
         </ul>
- 
-        <h2 id='curriculo'>Grade curricular</h2> 
-        <p>Carga horária total de integralização curricular: 3350h</p> 
- 
-        <!-- <ul id="matriz"> 
-          <?php $json = file_get_contents('grades/grade-filosofia.json', true); $grade = json_decode($json); ?>
 
-            <?php foreach($grade as $modulo => $disciplinas) { ?>
-            
-            <li class='semestre'> 
-              <button><h3><?php $modulo = str_replace('_', ' ', $modulo); echo $modulo; ?></h3></button> 
-              <ul> 
-
-                <div class="rotulos-matriz"> 
-                  <div>Disciplina</div> 
-                  <div>Ementa</div> 
-                  <div> 
-                    <span class="desktop">Carga horária</span> 
-                    <span class="mobile">C. hr.</span> 
-                  </div> 
-                </div>
-
-                <?php foreach ( $disciplinas as $d ){ ?>
-
-                  <li> 
-                    <div><?php echo $d->nome; ?></div> 
-
-                    <?php if ( isset( $d->arquivo ) ){ ?>
-
-                      <div> 
-                        <a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes/<?php echo $d->arquivo; ?>" target="_blank" title='Abrir documento em nova aba'> 
-                          <i class="far fa-file-pdf"></i>PDF 
-                          <span class="somente-leitura">Programa da disciplina <?php echo $d->nome; ?></span> 
-                      </a> 
-                      </div> 
-                    <?php } ?>
-
-                    <div><?php echo $d->ch; ?>h</div> 
-                  </li> 
-
-                <?php } ?>
-
-              </ul> 
-            </li>
-
-            <?php } ?>
-
-        </ul>  -->
- 
-<!--  
-        <h2 id='corpo-docente'>Corpo docente</h2> 
- 
-        <div class="administrativo"> 
-          <p><strong>Coordenação</strong><br/></p> 
- 
-          <p><strong>Vice coordenação</strong><br/></p> 
- 
-          <p><strong>Colegiado do curso</strong> 
-            <br>Andreia Chiari Lins 
-            <br>Ariane De Nadai
-          </p> 
- 
-          <p><strong>Núcleo Docente Estruturante</strong> 
-            <br>Andreia Chiari Lins 
-            <br>Erick Orloski 
-          </p> 
-        </div> 
- 
-        <ul class="docentes"> 
-
-          <li class="professor"> 
-            <a href="" target="_blank" title="Abrir perfil na plataforma Lattes em nova aba"> 
-              <span>Nome</span> 
-              Doutorado 
-            </a> 
-          </li> 
-        </ul>  -->
- 
         <h2 id='ofertas-anteriores'>Ofertas do curso</h2> 
  
         <h3>2014</h3> 
         <p><strong>Coordenação do Curso</strong><br/>Claudia Pereira do Carmo Murta</p> 
         <p><strong>Polos atendidos</strong><br/>Afonso Cláudio, Aracruz, Baixo Guandu, Cachoeiro de Itapemirim, Castelo, Domingos Martins, Itapemirim, Mantenópolis, Mimoso do Sul, Montanha, Pinheiros, Santa Teresa e Venda Nova do Imigrante.</p> 
+        <p><a href="<?php echo get_template_directory_uri(); ?>/arquivos/ofertas/Filosofia-oferta2014.pdf" title="Abrir arquivo de informações da oferta 2014" target="_blank">Mais informações sobre a oferta</a></p> 
 
  
     </section> 

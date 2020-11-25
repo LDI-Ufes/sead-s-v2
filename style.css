@@ -2010,14 +2010,14 @@ footer section .subitens {
   font-weight: 400;
   text-transform: uppercase;
   color: white;
-  background: #f06c00;
+  background: #1765ab;
   border-top: solid 0.5px #CFEAFF;
   cursor: pointer;
   box-shadow: none;
 }
 
 .page-editais #filtros #seletores .seletor#limpar button:hover {
-  background-color: #c75000;
+  background-color: #053C7B;
   color: white;
 }
 
@@ -2114,8 +2114,9 @@ footer section .subitens {
     font-size: 1rem;
   }
   .page-editais #filtros #seletores .seletor#limpar button {
-    border-top: none;
     border: none;
+    height: 100%;
+    top: -1px;
   }
   .page-editais #editais .titulos {
     display: block;
@@ -3340,6 +3341,12 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
   opacity: .8;
   position: absolute;
   left: 0;
+}
+
+.curso .curso-destaque video {
+  position: absolute;
+  left: 0;
+  z-index: -1;
 }
 
 .curso .curso-destaque .curso-destaque-titulo {

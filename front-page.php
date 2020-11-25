@@ -7,7 +7,7 @@
       <h2><span class="destaque-amarelo">Processo</span> 
           <span class="destaque-amarelo"> Seletivo 2020</span> 
           <span>Cursos de<br>Graduação<br>Semipresencial</span></h2>
-      <a href="<?php echo site_url(); ?>/editais/ps-01-2020/" target="_blank">Edital aberto!</a>
+      <a href="<?php echo site_url(); ?>/editais/ps-01-2020/" target="_blank">Inscrições abertas!</a>
     </div>
   </section>
 
@@ -88,7 +88,7 @@
         <div class="confira-mais">
           <span>Confira mais do que acontece nos polos:</span>
           <a href="https://www.facebook.com/sead.ufes/" target="_blank" title="Abrir página da Sead no Facebook em nova aba"><span class="somente-leitura">Página da Sead no Facebook</span><i class="fab fa-facebook-f"></i></a>
-          <a href="<?php echo site_url(); ?>/noticias" title="Ir para a página de notícias"><span class="somente-leitura">Página de notícias</span><?php include 'svg/nossoBlog.svg' ?></a>
+          <a href="<?php echo site_url(); ?>/noticias" title="Ir para a página de notícias"><span class="somente-leitura">Página de notícias</span><?php include 'svg/nossoBLOG.svg' ?></a>
         </div>
       </div>
 

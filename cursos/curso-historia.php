@@ -1,6 +1,17 @@
 <main class='page curso' id="conteudoPrincipal">
 
-<section class="curso-destaque"><?php the_post_thumbnail() ?></section>
+<a class="video-curso" href='https://youtu.be/ZIML_Bw6MdU' data-lity> 
+      <section class='curso-destaque'> 
+        <video autoplay loop>
+          <source src='<?php echo get_template_directory_uri(); ?>/video/cursos.mp4' type='video/mp4'>
+        </video>
+ 
+        <div class='curso-destaque-titulo container'> 
+          <i class='fas fa-play-circle'></i> 
+          <h2>Conheça o curso de <br>Licenciatura em História</h2> 
+        </div> 
+      </section> 
+    </a> 
 
   <section id='info-curso'> 
     <div class="container"> 
@@ -38,7 +49,6 @@
           <ul> 
             <li><a title="Mostrar perfil do egresso" href='#perfil-do-egresso'>Perfil do egresso</a></li> 
             <li><a title="Mostrar currículo" href='#curriculo'>Grade curricular</a></li> 
-            <li><a title="Mostrar corpo docente" href='#corpo-docente'>Corpo docente</a></li> 
             <li><a title="Mostrar ofertas do curso" href='#ofertas-anteriores'>Ofertas</a></li> 
           </ul> 
         </div> 
@@ -109,7 +119,7 @@
                     <?php if ( isset( $d->arquivo ) ){ ?>
 
                       <div> 
-                        <a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes/<?php echo $d->arquivo; ?>" target="_blank" title='Abrir documento em nova aba'> 
+                        <a href="<?php echo get_template_directory_uri(); ?>/arquivos/historia/<?php echo $d->arquivo; ?>" target="_blank" title='Abrir documento em nova aba'> 
                           <i class="far fa-file-pdf"></i>PDF 
                           <span class="somente-leitura">Programa da disciplina <?php echo $d->nome; ?></span> 
                       </a> 
@@ -128,143 +138,6 @@
 
         </ul> 
  
- 
-        <h2 id='corpo-docente'>Corpo docente</h2> 
- 
-        <div class="administrativo"> 
-          <p><strong>Coordenação</strong><br/>Geraldo Antônio Soares</p> 
-         </div> 
- 
-        <ul class="docentes"> 
-
-          <li class="professor"> 
-              <span>Adriana Pereira Campos</span> 
-              Doutorado 
-          </li>
-          <li class="professor"> 
-            <a href="http://lattes.cnpq.br/7373603338907946" target="_blank" title="Abrir perfil na plataforma Lattes em nova aba"> 
-              <span>Alessandro da Silva Guimarães</span> 
-              Doutorado 
-            </a> 
-          </li> 
-          <li class="professor"> 
-              <span>André Ricardo Valle Vasco Pereira</span> 
-              Doutorado 
-          </li>
-          <li class="professor"> 
-              <span>Antônio Carlos Amador Gil</span> 
-              Doutorado 
-          </li> 
-          <li class="professor"> 
-            <a href="http://lattes.cnpq.br/3242122972916358" target="_blank" title="Abrir perfil na plataforma Lattes em nova aba"> 
-              <span>Belchior Monteiro Lima Neto</span> 
-              Doutorado 
-            </a> 
-          </li>  
-          <li class="professor"> 
-              <span>Carlos Vinícius Costa de Mendonça</span> 
-              Doutorado 
-          </li> 
-          <li class="professor"> 
-              <span>Claudia Pereira do Carmo Murta</span> 
-              Doutorado 
-          </li>  
-          <li class="professor"> 
-              <span>Daisa Teixeira</span> 
-              Doutorado 
-          </li> 
-          <li class="professor"> 
-              <span>Edson Maciel Junior</span> 
-              Doutorado 
-          </li>  
-          <li class="professor"> 
-              <span>Emiliano Unzer Macedo</span> 
-              Doutorado 
-          </li> 
-          <li class="professor"> 
-              <span>Érica Cristhyane Morais da Silva</span> 
-              Doutorado 
-          </li>  
-          <li class="professor"> 
-              <span>Fabio Muruci dos Santos</span> 
-              Doutorado 
-          </li> 
-          <li class="professor"> 
-              <span>Geraldo Antonio Soares</span> 
-              Doutorado 
-          </li>  
-          <li class="professor"> 
-              <span>Gilvan Ventura da Silva</span> 
-              Doutorado 
-          </li> 
-          <li class="professor"> 
-              <span>Josemar Machado de Oliveira</span> 
-              Doutorado 
-          </li>  
-          <li class="professor"> 
-              <span>Juçara Luzia Leite</span> 
-              Doutorado 
-          </li> 
-          <li class="professor"> 
-              <span>Julio Cesar Bentivoglio</span> 
-              Doutorado 
-          </li>  
-          <li class="professor"> 
-            <a href="http://lattes.cnpq.br/4297153426007763" target="_blank" title="Abrir perfil na plataforma Lattes em nova aba"> 
-              <span>Keila Cardoso Teixeira</span> 
-              Doutorado 
-            </a> 
-          </li>  
-          <li class="professor"> 
-              <span>Leonor Franco de Araujo</span> 
-              Mestrado
-          </li> 
-          <li class="professor"> 
-              <span>Maria Beatriz Nader</span> 
-              Doutorado 
-          </li> 
-          <li class="professor"> 
-            <a href="http://lattes.cnpq.br/2276583662907573" target="_blank" title="Abrir perfil na plataforma Lattes em nova aba"> 
-              <span>Miriã Lúcia Luiz</span> 
-              Doutorado 
-            </a> 
-          </li>
-          <li class="professor"> 
-              <span>Patrícia Maria da Silva Merlo</span> 
-              Doutorado 
-          </li>   
-          <li class="professor"> 
-              <span>Reginaldo Celio Sobrinho</span> 
-              Doutorado 
-          </li> 
-          <li class="professor"> 
-              <span>Rossana Gomes Britto</span> 
-              Doutorado 
-          </li>   
-          <li class="professor"> 
-              <span>Sandra Kretli da Silva</span> 
-              Doutorado 
-          </li>
-          <li class="professor"> 
-              <span>Sandro José da Silva</span> 
-              Doutorado 
-          </li>   
-          <li class="professor"> 
-              <span>Sergio Alberto Feldman</span> 
-              Doutorado 
-          </li>
-          <li class="professor"> 
-            <a href="http://lattes.cnpq.br/4446167716354950" target="_blank" title="Abrir perfil na plataforma Lattes em nova aba"> 
-              <span>Ueber José de Oliveira</span> 
-              Doutorado 
-            </a> 
-          </li>
-          <li class="professor"> 
-              <span>Valter Pires Pereira</span> 
-              Doutorado 
-          </li>   
-        </ul> 
- 
         <h2 id='ofertas-anteriores'>Ofertas do curso</h2> 
  
         <h3>2014</h3>
@@ -273,7 +146,6 @@
         <p><a href="<?php echo get_template_directory_uri(); ?>/arquivos/ofertas/Historia-oferta2014.pdf" title="Abrir arquivo de informações da oferta 2014" target="_blank">Mais informações sobre a oferta</a></p>
 
         <h3>2020</h3>
-        <p><strong>Coordenação de Curso:</strong> Geraldo Antônio Soares</p>
         <p><strong>Polos atendidos:</strong> Alegre, Conceição da Barra, Domingos Martins, Mantenópolis e Vargem Alta.</p>
   
  

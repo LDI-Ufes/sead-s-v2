@@ -30,7 +30,7 @@
   $(function () { 
     var polos = []; 
  
-    $.getJSON('/sead/wp-content/themes/sead-s-v2/js/polos.json', function (data) { 
+    $.getJSON('/wp-content/themes/sead-v2.1/js/polos.json', function (data) { 
       $.each(data.polo, function (i, municipio) { 
         var lItem = '<li id="'+ municipio.id +'">' + '<button class="polo-titulo">' + municipio.nome + '</button>' + 
                       '<div class="polo-info">' + 

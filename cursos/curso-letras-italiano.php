@@ -101,7 +101,7 @@
                     <?php if ( isset( $d->arquivo ) ){ ?>
 
                       <div> 
-                        <a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes/<?php echo $d->arquivo; ?>" target="_blank" title='Abrir documento em nova aba'> 
+                        <a href="<?php echo get_template_directory_uri(); ?>/arquivos/letras-italiano/<?php echo $d->arquivo; ?>" target="_blank" title='Abrir documento em nova aba'> 
                           <i class="far fa-file-pdf"></i>PDF 
                           <span class="somente-leitura">Programa da disciplina <?php echo $d->nome; ?></span> 
                       </a> 
@@ -130,9 +130,9 @@
  
           <p><strong>Colegiado do curso</strong> 
           <br>Mariza Silva de Moraes
-          <br>Leni Ribeiro Leite
+          <br>Edna da Silva Polese
           <br>Luis Fernando Bulhões Figueira
-          <br>Julio Francelino Ferreira Filho
+          <br>Andreia Chiari Lins
           <br>Maria Aparecida Souza Coelho
           <br>Bruna Frizzera
           <br>Sueli Gomes
@@ -140,8 +140,8 @@
  
           <p><strong>Núcleo Docente Estruturante</strong> 
             <br>Orlando Lopes Albertino
-            <br>Leila Tesch
-            <br>Fernanda Muller
+            <br>Edna da Silva Polese
+            <br>Alexandro Braga Vieira
             <br>Eduardo Augusto Moscon Oliveira
             <br>Mariza Silva de Moraes
           </p> 
@@ -156,6 +156,14 @@
             </a> 
           </li> 
           <li class="professor"> 
+              <span>Araceli Covre da Silva</span> 
+              Doutorado 
+          </li> 
+          <li class="professor"> 
+              <span>Debora Cristina de Araujo</span> 
+              Doutorado 
+          </li>
+          <li class="professor"> 
             <a href="http://lattes.cnpq.br/6954814492049911" target="_blank" title="Abrir perfil na plataforma Lattes em nova aba"> 
               <span>Edna da Silva Polese</span> 
               Doutorado 
@@ -168,17 +176,25 @@
             </a> 
           </li> 
           <li class="professor"> 
+              <span>Erica Aparecida Salatini Maffia</span> 
+              Doutorado 
+          </li>
+          <li class="professor"> 
             <a href="http://lattes.cnpq.br/6749345243234671" target="_blank" title="Abrir perfil na plataforma Lattes em nova aba"> 
               <span>Fernanda Silva Veloso</span> 
               Doutorado 
             </a> 
           </li> 
           <li class="professor"> 
+              <span>Igor Castilho Porsette</span> 
+              Doutorado
+          </li> 
+          <li class="professor"> 
             <a href="http://lattes.cnpq.br/9246869415381080" target="_blank" title="Abrir perfil na plataforma Lattes em nova aba"> 
               <span>Herberth Gomes Ferreira</span> 
               Mestrado 
             </a> 
-          </li> 
+          </li>
           <li class="professor"> 
             <a href="http://lattes.cnpq.br/7858518863941371" target="_blank" title="Abrir perfil na plataforma Lattes em nova aba"> 
               <span>João Assis Rodrigues</span> 
@@ -228,6 +244,10 @@
             </a> 
           </li> 
           <li class="professor"> 
+              <span>Orlando Lopes Albertino</span> 
+              Doutorado
+          </li> 
+          <li class="professor"> 
             <a href="http://lattes.cnpq.br/6167625366359201" target="_blank" title="Abrir perfil na plataforma Lattes em nova aba"> 
               <span>Rafael Ferreira da Silva</span> 
               Doutorado 
@@ -244,6 +264,10 @@
               <span>Rosemeire dos Santos Brito</span> 
               Doutorado 
             </a> 
+          </li> 
+          <li class="professor"> 
+              <span>Sandra Maria Vicentin de Oliveira</span> 
+              Mestrado
           </li> 
           <li class="professor"> 
             <a href="http://lattes.cnpq.br/3043880926873607" target="_blank" title="Abrir perfil na plataforma Lattes em nova aba"> 
@@ -317,6 +341,10 @@
           <li class="professor"> 
               <span>Sueli Gomes da Silva Oliveira</span> 
               Especialização
+          </li>
+          <li class="professor"> 
+              <span>Thiago Elias Ribeiro</span> 
+              Mestrado
           </li>
           <li class="professor"> 
               <span>Verônica Belfi Roncetti Paulino</span> 

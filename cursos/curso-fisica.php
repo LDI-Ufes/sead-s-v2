@@ -1,15 +1,18 @@
 <main class='page curso' id="conteudoPrincipal">
 
-  <a class="video-curso" href='https://youtu.be/ifrrych15W4 ' data-lity> 
+<a class="video-curso" href='https://youtu.be/ifrrych15W4' data-lity> 
       <section class='curso-destaque'> 
-        <?php the_post_thumbnail() ?> 
+        <video autoplay loop>
+          <source src='<?php echo get_template_directory_uri(); ?>/video/cursos.mp4' type='video/mp4'>
+        </video>
  
         <div class='curso-destaque-titulo container'> 
           <i class='fas fa-play-circle'></i> 
-          <h2>Veja o que o coordenador<br>do curso tem a dizer!<br></h2> 
+          <h2>Conheça o curso de <br>Licenciatura em Física</h2> 
         </div> 
       </section> 
     </a> 
+
  
   <section id='info-curso'> 
     <div class="container"> 

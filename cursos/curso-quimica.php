@@ -36,8 +36,6 @@
  
           <ul> 
             <li><a title="Mostrar perfil do egresso" href='#perfil-do-egresso'>Perfil do egresso</a></li> 
-            <li><a title="Mostrar currículo" href='#curriculo'>Grade curricular</a></li> 
-            <!-- <li><a title="Mostrar corpo docente" href='#corpo-docente'>Corpo docente</a></li>  -->
             <li><a title="Mostrar ofertas do curso" href='#ofertas-anteriores'>Ofertas</a></li> 
           </ul> 
         </div> 
@@ -82,97 +80,13 @@
           <li>ter atitude favorável à incorporação, em sua prática, dos resultados da pesquisa educacional em ensino de Química, visando a solucionar os problemas relacionados ao ensino-aprendizagem.</li>
         </ul>
          
- 
-        <h2 id='curriculo'>Grade curricular</h2> 
-        <p>Carga horária total de integralização curricular: 3200 horas</p> 
- 
-        <ul id="matriz"> 
-          <!-- Importando json -->
-          <?php $json = file_get_contents('grades/grade-quimica.json', true); $grade = json_decode($json); ?>
 
-            <!-- Loop pelos módulos -->
-            <?php foreach($grade as $modulo => $disciplinas) { ?>
-            
-            <li class='semestre'> 
-              <button><h3><?php $modulo = str_replace('_', ' ', $modulo); echo $modulo; ?></h3></button> 
-              <ul> 
-
-                <div class="rotulos-matriz"> 
-                  <div>Disciplina</div> 
-                  <!-- <div>Ementa</div>  -->
-                  <div> 
-                    <span class="desktop">Carga horária</span> 
-                    <span class="mobile">C. hr.</span> 
-                  </div> 
-                </div>
-
-                <!-- Loop pelas disciplinas -->
-                <?php foreach ( $disciplinas as $d ){ ?>
-
-                  <li> 
-                    <div><?php echo $d->nome; ?></div> 
-
-                    <?php if ( isset( $d->arquivo ) ){ ?>
-
-                      <div> 
-                        <a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes/<?php echo $d->arquivo; ?>" target="_blank" title='Abrir documento em nova aba'> 
-                          <i class="far fa-file-pdf"></i>PDF 
-                          <span class="somente-leitura">Programa da disciplina <?php echo $d->nome; ?></span> 
-                      </a> 
-                      </div> 
-                    <?php } ?>
-
-                    <div><?php echo $d->ch; ?>h</div> 
-                  </li> 
-
-                <?php } ?> <!-- Fim do Loop pelas disciplinas -->
-
-              </ul> 
-            </li>
-
-            <?php } ?> <!-- Fim do Loop pelos módulos -->
-
-        </ul> 
- 
- 
-        <!-- <h2 id='corpo-docente'>Corpo docente</h2> 
- 
-        <div class="administrativo"> 
-          <p><strong>Coordenação</strong><br/>Pedro Mitsuo Takahashi</p> 
- 
-          <p><strong>Vice coordenação</strong><br/></p> 
- 
-          <p><strong>Colegiado do curso</strong> 
-            <br>Andreia Chiari Lins 
-            <br>Ariane De Nadai
-          </p> 
- 
-          <p><strong>Núcleo Docente Estruturante</strong> 
-            <br>Andreia Chiari Lins 
-            <br>Erick Orloski 
-          </p> 
-        </div> 
- 
-        <ul class="docentes"> 
-
-          <li class="professor"> 
-            <a href="" target="_blank" title="Abrir perfil na plataforma Lattes em nova aba"> 
-              <span>Nome</span> 
-              Doutorado 
-            </a> 
-          </li> 
-        </ul>  -->
- 
         <h2 id='ofertas-anteriores'>Ofertas do curso</h2> 
  
         <h3>2014</h3> 
         <p><strong>Coordenação do Curso</strong><br/>Rafael de Queiroz Ferreira / Pedro Mitsuo Takahashi</p> 
         <p><strong>Polos atendidos</strong><br/>Aracruz, Itapemirim e Iúna.</p> 
         <p><a href="<?php echo get_template_directory_uri(); ?>/arquivos/ofertas/Quimica-oferta2014.pdf" title="Abrir arquivo de informações da oferta 2014" target="_blank">Mais informações sobre a oferta</a></p> 
-
-        <h3>2020</h3> 
-        <p><strong>Coordenação do Curso</strong><br/>Pedro Mitsuo Takahashi</p> 
-        <p><strong>Polos atendidos</strong><br/>Aracruz, Conceição da Barra, Iúna, Mimoso do Sul e Vitória.</p>
  
     </section> 
  
