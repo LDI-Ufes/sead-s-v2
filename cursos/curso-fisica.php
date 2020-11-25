@@ -1,7 +1,36 @@
 <main class='page curso' id="conteudoPrincipal">
 
+<a class="video-curso" href='https://youtu.be/ifrrych15W4' data-lity> 
+      <section class='curso-destaque'> 
+        <video autoplay loop>
+          <source src='<?php echo get_template_directory_uri(); ?>/video/cursos.mp4' type='video/mp4'>
+        </video>
+ 
+        <div class='curso-destaque-titulo container'> 
+          <i class='fas fa-play-circle'></i> 
+          <h2>Conheça o curso de <br>Licenciatura em Física</h2> 
+        </div> 
+      </section> 
+    </a> 
 
  
+  <section id='info-curso'> 
+    <div class="container"> 
+      <div class='breadcrumb'>Você está em: <a href='<?php echo site_url(); ?>/cursos'>Cursos</a><i class='fas fa-greater-than'></i><span>Física</span></div> 
+ 
+      <h1>Física</h1> 
+ 
+      <div class="colunas"> 
+ 
+        <p class='coluna1 objetivo'>O objetivo principal do Curso de Licenciatura em Física, modalidade a distância, é formar professores capacitados a desenvolverem, de forma pedagogicamente consistente, o ensino-aprendizagem da Física clássica e contemporânea, valorizando a sua interação com as ciências afins, o mundo tecnológico, os determinantes e as implicações sociais daí decorrentes.</p> 
+ 
+        <div class="coluna2"> 
+          <p> 
+            <strong>Nível: </strong>Graduação<br/> 
+            <strong>Formação: </strong>Licenciatura<br/> 
+            <strong>Duração: </strong>4 anos (8 semestres)<br/> 
+            <strong>Modalidade: </strong>Semipresencial<br/> 
+          </p> 
 
 
   <section class="curso-destaque"><?php the_post_thumbnail() ?></section>

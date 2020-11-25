@@ -1,6 +1,17 @@
 <main class='page curso' id="conteudoPrincipal">
  
-  <section class="curso-destaque"><?php the_post_thumbnail() ?></section>
+<a class="video-curso" href='https://youtu.be/lfV3FyMSgeo' data-lity> 
+      <section class='curso-destaque'> 
+        <video autoplay loop>
+          <source src='<?php echo get_template_directory_uri(); ?>/video/cursos.mp4' type='video/mp4'>
+        </video>
+ 
+        <div class='curso-destaque-titulo container'> 
+          <i class='fas fa-play-circle'></i> 
+          <h2>Conheça o curso de <br>Licenciatura em Ciências Biológicas</h2> 
+        </div> 
+      </section> 
+    </a> 
 
   <section id='info-curso'> 
     <div class="container"> 

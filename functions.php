@@ -89,6 +89,7 @@ function create_post_type()
       'menu_icon' => 'dashicons-book',
       'supports' => array(
         'title',
+        'editor',
         'thumbnail',
         'custom-fields'
       ),

@@ -1,331 +1,223 @@
 <main class='page curso' id="conteudoPrincipal">
 
-  <a class="video-curso" href='https://youtu.be/DggIVIxlq-I' data-lity>
+  <!--Com vídeo-->
+
+  <a class="video-curso" href='https://youtu.be/ifrrych15W4 ' data-lity>
     <section class='curso-destaque'>
-      <video autoplay loop>
-        <source src='<?php echo get_template_directory_uri(); ?>/video/cursos.mp4' type='video/mp4'>
-      </video>
+      <?php the_post_thumbnail() ?>
 
       <div class='curso-destaque-titulo container'>
         <i class='fas fa-play-circle'></i>
-        <h2>Conheça o curso <br>Biblioteconomia</h2>
+        <h2>Veja o que o coordenador<br>do curso tem a dizer!<br></h2>
       </div>
     </section>
   </a>
 
+  <!-- <section class="curso-destaque"><?php the_post_thumbnail() ?></section> -->
+
   <section id='info-curso'>
-
     <div class="container">
+      <div class='breadcrumb'>Você está em: <a href='<?php echo site_url(); ?>/cursos'>Cursos</a><i class='fas fa-greater-than'></i><span>Nome</span></div>
 
-      <div class='breadcrumb'>Você está em: <a href='<?php echo site_url(); ?>/cursos'>Cursos</a><i class='fas fa-greater-than'></i><span>Biblioteconomia</span></div>
-
-
-
-      <h1>Biblioteconomia</h1>
-
-
+      <h1>Nome</h1>
 
       <div class="colunas">
 
-
-
-        <p class='coluna1 objetivo'>O Bacharelado EaD em Biblioteconomia visa contribuir com a formação de um profissional bibliotecário que atenda as demandas da sociedade brasileira. Nessa perspectiva pretende-se que seu egresso atue como mediador da informação, do conhecimento e da cultura, promovendo a democratização do acesso e da produção de saberes no seu contexto social.</p>
-
-
+        <p class='coluna1 objetivo'></p>
 
         <div class="coluna2">
-
           <p>
-
             <strong>Nível: </strong>Graduação<br />
-
-            <strong>Formação: </strong>Bacharelado<br />
-
+            <strong>Formação: </strong>Licenciatura<br />
             <strong>Duração: </strong>4 anos (8 semestres)<br />
-
             <strong>Modalidade: </strong>Semipresencial<br />
-
+            <!-- <strong>Conceito Geral: </strong>3  -->
           </p>
-
-
-
           <p class="situacao"><strong>Situação: </strong><br>
-
             <?php $situacaoCurso = get_post_custom_values('situacao');
             if ($situacaoCurso != "") {
               echo $situacaoCurso[0];
             } ?>
-
           </p>
-
         </div>
-
       </div>
-
     </div>
-
   </section>
-
-
 
   <section id='conteudo-curso' class='container colunas'>
 
-
-
     <aside class="coluna2">
 
-
-
       <div class='menu'>
-
         <h4>Navegue</h4>
 
-
-
         <ul>
-
           <li><a title="Mostrar perfil do egresso" href='#perfil-do-egresso'>Perfil do egresso</a></li>
-
           <li><a title="Mostrar currículo" href='#curriculo'>Grade curricular</a></li>
-
+          <li><a title="Mostrar corpo docente" href='#corpo-docente'>Corpo docente</a></li>
           <li><a title="Mostrar ofertas do curso" href='#ofertas-anteriores'>Ofertas</a></li>
-
         </ul>
-
       </div>
 
+      <h4>Contato</h4>
 
+      <p class="contato-curso">
+        <strong>Fulano de Tal</strong><br />
+        <mail>artesvisuais.ead@gmail.com</mail>
+        <span><i class="fas fa-phone"></i>(27) 4009-2091</span>
+      </p>
 
     </aside>
 
-
-
     <div class="coluna1">
-
-
 
       <h2 id='perfil-do-egresso'>Perfil do egresso</h2>
 
 
-
-      <p>Na conclusão deste Curso, espera-se ter formado um profissional bibliotecário que seja:</p>
-
-      <ul class="lista-conteudo">
-
-        <li>autônomo e apto para o desempenho das atividades do ciclo informacional (produção, organização, gestão, mediação, acesso, uso e apropriação da informação);</li>
-
-        <li>autônomo e apto para desenvolver na sociedade a competência em informação e propiciar a democratização da informação em suas múltiplas dimensões;</li>
-
-        <li>capaz de atuar nos processos de construção e reconstrução da realidade social de modo crítico e reflexivo;</li>
-
-        <li>capaz de agir com proficiência, criatividade e ética no enfrentamento dos problemas em suas práticas profissionais;</li>
-
-        <li>capaz de empenhar-se no processo contínuo de seu aprimoramento profissional;</li>
-
-        <li>capaz de comprometer-se com o desenvolvimento científico e tecnológico de seu campo de atuação.</li>
-
-      </ul>
-
-
-
-
-
       <h2 id='curriculo'>Grade curricular</h2>
-
-      <p>Carga horária total de integralização curricular: 2895 horas</p>
-
-
+      <p>Carga horária mínima de integralização curricular: 3280 horas</p>
 
       <ul id="matriz">
-
         <!-- Importando json -->
-
-        <?php $json = file_get_contents('grades/grade-biblioteconomia.json', true);
+        <?php $json = file_get_contents('grades/grade-artes-visuais.json', true);
         $grade = json_decode($json); ?>
 
-
-
         <!-- Loop pelos módulos -->
-
         <?php foreach ($grade as $modulo => $disciplinas) { ?>
 
-
-
           <li class='semestre'>
-
             <button>
               <h3><?php $modulo = str_replace('_', ' ', $modulo);
                   echo $modulo; ?></h3>
             </button>
-
             <ul>
 
-
-
               <div class="rotulos-matriz">
-
                 <div>Disciplina</div>
-
-                <!-- <div>Ementa</div>  -->
-
+                <div>Ementa</div>
                 <div>
-
                   <span class="desktop">Carga horária</span>
-
                   <span class="mobile">C. hr.</span>
-
                 </div>
-
               </div>
 
-
-
               <!-- Loop pelas disciplinas -->
-
               <?php foreach ($disciplinas as $d) { ?>
 
-
-
                 <li>
-
                   <div><?php echo $d->nome; ?></div>
-
-
 
                   <?php if (isset($d->arquivo)) { ?>
 
-
-
                     <div>
-
-                      <a href="<?php echo get_template_directory_uri(); ?>/arquivos/biblioteconomia/<?php echo $d->arquivo; ?>" target="_blank" title='Abrir documento em nova aba'>
-
+                      <a href="<?php echo get_template_directory_uri(); ?>/arquivos/artes/<?php echo $d->arquivo; ?>" target="_blank" title='Abrir documento em nova aba'>
                         <i class="far fa-file-pdf"></i>PDF
-
                         <span class="somente-leitura">Programa da disciplina <?php echo $d->nome; ?></span>
-
                       </a>
-
                     </div>
-
                   <?php } ?>
 
-
-
                   <div><?php echo $d->ch; ?>h</div>
-
                 </li>
-
-
 
               <?php } ?>
               <!-- Fim do Loop pelas disciplinas -->
 
-
-
             </ul>
-
           </li>
-
-
-
-            <strong>Duração: </strong>4 anos (8 semestres)<br/> 
 
         <?php } ?>
         <!-- Fim do Loop pelos módulos -->
 
-
-
       </ul>
 
 
+      <h2 id='corpo-docente'>Corpo docente</h2>
+
+      <div class="administrativo">
+        <p><strong>Coordenação</strong><br /></p>
+
+        <p><strong>Vice coordenação</strong><br /></p>
+
+        <p><strong>Colegiado do curso</strong>
+          <br>Andreia Chiari Lins
+          <br>Ariane De Nadai
+        </p>
+
+        <p><strong>Núcleo Docente Estruturante</strong>
+          <br>Andreia Chiari Lins
+          <br>Erick Orloski
+        </p>
+      </div>
+
+      <ul class="docentes">
+
+        <li class="professor">
+          <a href="" target="_blank" title="Abrir perfil na plataforma Lattes em nova aba">
+            <span>Nome</span>
+            Doutorado
+          </a>
+        </li>
+      </ul>
 
       <h2 id='ofertas-anteriores'>Ofertas do curso</h2>
 
-
-
-      <h3>2020</h3>
-
-      <p><strong>Polos atendidos:</strong> Afonso Cláudio, Alegre, Aracruz, Baixo Guandu, Bom Jesus do Norte, Cachoeiro de Itapemirim, Colatina, Domingos Martins, Itapemirim, Iúna, Mantenópolis, Mimoso do Sul, Pinheiros, Santa Leopoldina, Santa Teresa, São Mateus, Vargem Alta, Venda Nova do Imigrante.</p>
-
-
-
+      <h3>2008</h3>
+      <p><strong>Coordenação do Curso</strong><br /></p>
+      <p><strong>Polos atendidos</strong><br /></p>
 
 
   </section>
 
-
-
   </div>
 
-
+  <section id='faq-curso' class="secao-destacada">
+    <div class='container'>
+      <h2 class="titulo-destacado">Perguntas frequentes</h2>
+      <ul>
+        <li>
+          <button>
+            <h3>O diploma/certificado EAD é válido?</h3>
+          </button>
+          <p>Todo o material didático é disponibilizado on-line, por meio de recursos multimídia, podcasts, vídeos, videoaulas, animações, objetos de aprendizagem e-books, webconferências, no Ambiente Virtual de Aprendizagem. Caso prefira, é possível realizar a impressão.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
 
   <section id='noticias-curso' class="secao-destacada">
-
     <?php $ultimas_noticias = new WP_Query(array(
-
       'post_type' => 'noticia',
-
       'posts_per_page' => 3,
-
       'tax_query' => array(
-
         array(
-
           'taxonomy' => 'curso-noticia',
-
           'field' => 'slug',
-
-          'terms' => 'Biblioteconomia',
-
+          'terms' => 'Nome',
         ),
-
       ),
-
     ));
-
-
 
     if ($ultimas_noticias->found_posts > 2) : ?>
 
-
-
       <div class='container'>
-
         <h2 class="titulo-destacado">Notícias do curso</h2>
-
         <div class='cards-noticias-curso'>
 
-
-
           <?php while ($ultimas_noticias->have_posts()) : $ultimas_noticias->the_post(); ?>
-
             <a class='noticia' href='<?php the_permalink() ?>' title='Ir para notícia: <?php the_title(); ?>'>
-
               <?php the_post_thumbnail(); ?>
-
               <h3><?php the_title(); ?></h3>
-
             </a>
-
-
 
           <?php endwhile;
           wp_reset_postdata();
         else : ?>
 
-
-
         </div>
-
       </div>
 
-
-
     <?php endif; ?>
-
   </section>
-
-
 
 </main>

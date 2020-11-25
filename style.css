@@ -3339,6 +3339,49 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
   height: 100%;
   object-fit: cover;
   opacity: .8;
+  position: absolute;
+  left: 0;
+}
+
+.curso .curso-destaque video {
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+
+.curso .curso-destaque .curso-destaque-titulo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  display: flex;
+}
+
+.curso .curso-destaque .curso-destaque-titulo h2 {
+  color: white;
+  vertical-align: top;
+  margin: 0;
+}
+
+@media (min-width: 864px) {
+  .curso .curso-destaque .curso-destaque-titulo h2 {
+    font-size: 2rem;
+  }
+}
+
+.curso .curso-destaque .curso-destaque-titulo .fas {
+  margin: 0.5rem 0;
+  margin-right: 1.5rem;
+  font-size: 3.875rem;
+}
+
+.curso .video-curso img {
+  opacity: .4;
+}
+
+.curso .video-curso:hover img {
+  opacity: .3;
 }
 
 @media (min-width: 864px) {
@@ -3365,10 +3408,9 @@ ul.lista-cursos li .card-curso:hover .card-capa > img {
 .curso #info-curso {
   background-color: #edf9ff;
   color: #053C7B;
-  padding: 4rem 0 3rem;
+  padding: 1rem 0 3rem;
   font-size: 1rem;
   margin-bottom: 4rem;
-  margin-top: -3rem;
 }
 
 .curso #info-curso h1 {

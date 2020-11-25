@@ -7,7 +7,7 @@
       <h2><span class="destaque-amarelo">Processo</span> 
           <span class="destaque-amarelo"> Seletivo 2020</span> 
           <span>Cursos de<br>Graduação<br>Semipresencial</span></h2>
-      <a href="<?php echo site_url(); ?>/editais/ps-01-2020/" target="_blank">Edital aberto!</a>
+      <a href="<?php echo site_url(); ?>/editais/ps-01-2020/" target="_blank">Inscrições abertas!</a>
     </div>
   </section>
 
