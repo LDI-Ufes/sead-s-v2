@@ -1,6 +1,6 @@
 <main class='page curso' id="conteudoPrincipal">
 
-  <a class="video-curso" href='https://youtu.be/ifrrych15W4' data-lity>
+  <a class="video-curso" href='https://youtu.be/DggIVIxlq-I' data-lity>
     <section class='curso-destaque'>
       <video autoplay loop>
         <source src='<?php echo get_template_directory_uri(); ?>/video/cursos.mp4' type='video/mp4'>
@@ -8,7 +8,7 @@
 
       <div class='curso-destaque-titulo container'>
         <i class='fas fa-play-circle'></i>
-        <h2>Conheça o curso de <br>Licenciatura em Biblioteconomia</h2>
+        <h2>Conheça o curso <br>Biblioteconomia</h2>
       </div>
     </section>
   </a>
